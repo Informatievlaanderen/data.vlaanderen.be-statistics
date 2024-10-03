@@ -1,5 +1,5 @@
 {
-  "title": "OSLO Omgevingsvergunning",
+  "title": "Omgevingsvergunning",
   "uri": "https://data.dev-vlaanderen.be//doc/vocabularium/omgevingsvergunning/kandidaatstandaard/bert",
   "issued": "2024-09-12",
   "navigation": {
@@ -24,7 +24,9 @@
     "https://data.vlaanderen.be/ns/persoon",
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/ns/adms",
+    "http://schema.org",
     "http://www.w3.org/ns/locn",
+    "http://todo.com",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://purl.org/vocab/cpsv",
     "https://data.vlaanderen.be/ns/generiek",
@@ -35,10 +37,10 @@
   "contributors": 66,
   "participants": 77,
   "classes": 29,
-  "properties": 41,
-  "externalclasses": 26,
-  "externalproperties": 27,
-  "totalterms": 123,
+  "properties": 38,
+  "externalclasses": 27,
+  "externalproperties": 32,
+  "totalterms": 126,
   "totalorganisations": 38,
   "organisations": [
     {
@@ -1081,15 +1083,6 @@
     ],
     "properties": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#beschrijving",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschrijving"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#toestandDatum",
         "label": [
           {
@@ -1234,7 +1227,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#voorwerp",
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#VergundeToestand.voorwerp",
         "label": [
           {
             "@language": "nl",
@@ -1387,15 +1380,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#procedurestap",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "procedurestap"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#inhoud",
         "label": [
           {
@@ -1414,15 +1398,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#verwanteZaak",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "verwanteZaak"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#normatieveBepaling",
         "label": [
           {
@@ -1432,11 +1407,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#voorwerp",
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#voorwerpBepaling",
         "label": [
           {
             "@language": "nl",
-            "@value": "rechtsobject"
+            "@value": "voorwerp bepaling"
           }
         ]
       },
@@ -1614,6 +1589,15 @@
         ]
       },
       {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactpunt"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
         "label": [
           {
@@ -1739,6 +1723,15 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2006/time#numericDuration",
         "label": [
           {
@@ -1771,6 +1764,15 @@
           {
             "@language": "nl",
             "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
           }
         ]
       },
@@ -1922,6 +1924,33 @@
           {
             "@language": "nl",
             "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/dossier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dossier"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/hasPart",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "procedurestap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwanteZaak"
           }
         ]
       }
