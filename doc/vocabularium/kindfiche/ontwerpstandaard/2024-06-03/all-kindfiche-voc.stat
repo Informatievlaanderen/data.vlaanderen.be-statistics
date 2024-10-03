@@ -1,0 +1,2405 @@
+{
+  "title": "Vocabularium Kindfiche",
+  "uri": "https://data.dev-vlaanderen.be//doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03",
+  "issued": "2024-06-03",
+  "navigation": {
+    "self": "https://data.dev-vlaanderen.be/doc/vocabularium/kindfiche/ontwerpstandaard/2024-06-03"
+  },
+  "documenttype": "voc",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "statuslabel": "Kandidaat Standaard",
+  "namespaces": [
+    "http://purl.org/dc/terms",
+    "https://data.vlaanderen.be/ns/persoon",
+    "https://data.vlaanderen.be/ns/generiek",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://data.europa.eu/m8g",
+    "http://www.w3.org/ns/regorg",
+    "http://www.w3.org/ns/org",
+    "http://www.w3.org/ns/prov",
+    "http://www.w3.org/ns/person",
+    "http://purl.org/vocab/cpsv",
+    "https://data.vlaanderen.be/ns/wetgeving",
+    "https://data.vlaanderen.be/ns/statistiek",
+    "https://data.vlaanderen.be/ns/kindfiche",
+    "https://data.vlaanderen.be/ns/gezondheidstoestand",
+    "http://schema.org",
+    "http://xmlns.com/foaf/0.1",
+    "https://schema.org",
+    "http://purl.org/dc/elements/1.1",
+    "http://www.w3.org/ns/locn",
+    "https://data.vlaanderen.be/ns/dienst",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "https://data.vlaanderen.be/ns/transactie",
+    "https://hl7.org/fhir/medication-definitions.html",
+    "https://hl7.org/fhir/R5/allergyintolerance-definitions.html",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/2000/01/rdf-schema"
+  ],
+  "authors": 3,
+  "editors": 10,
+  "contributors": 34,
+  "participants": 47,
+  "classes": 13,
+  "properties": 26,
+  "externalclasses": 49,
+  "externalproperties": 86,
+  "totalterms": 174,
+  "totalorganisations": 24,
+  "organisations": [
+    {
+      "affiliation": "fodfinancien",
+      "participants": 1
+    },
+    {
+      "affiliation": "koningapestaart",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapopgroeien",
+      "participants": 4
+    },
+    {
+      "affiliation": "vlaamsedienstspeelpleinwerking",
+      "participants": 1
+    },
+    {
+      "affiliation": "huisvanhetkindstekene",
+      "participants": 1
+    },
+    {
+      "affiliation": "gemeentetemse",
+      "participants": 2
+    },
+    {
+      "affiliation": "i-activeisb",
+      "participants": 2
+    },
+    {
+      "affiliation": "verenigingvanvlaamsestedenengemeenten",
+      "participants": 3
+    },
+    {
+      "affiliation": "tactics",
+      "participants": 4
+    },
+    {
+      "affiliation": "agentschapuitbetalinggroeipakket",
+      "participants": 1
+    },
+    {
+      "affiliation": "bkosint-niklaas",
+      "participants": 1
+    },
+    {
+      "affiliation": "arteveldehogeschool",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadantwerpen",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapbinnenlandsbestuur",
+      "participants": 3
+    },
+    {
+      "affiliation": "stadgent",
+      "participants": 1
+    },
+    {
+      "affiliation": "cubitexbvba",
+      "participants": 1
+    },
+    {
+      "affiliation": "gemeentestekene",
+      "participants": 2
+    },
+    {
+      "affiliation": "vlaamswelzijnsverbond",
+      "participants": 1
+    },
+    {
+      "affiliation": "daycaresolutions",
+      "participants": 1
+    },
+    {
+      "affiliation": "lokaaldigitaal",
+      "participants": 1
+    },
+    {
+      "affiliation": "deona-kidsconnect",
+      "participants": 2
+    },
+    {
+      "affiliation": "stadherentals",
+      "participants": 1
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 10
+    },
+    {
+      "affiliation": "gemeentebornem",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "rietdebondt",
+        "affiliation": "agentschapopgroeien"
+      },
+      {
+        "name": "annelieshautekeete",
+        "affiliation": "gemeentebornem"
+      },
+      {
+        "name": "tinatyteca",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      }
+    ],
+    "editors": [
+      {
+        "name": "veerlebeyaert",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "yarondassonneville",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "kimleemans",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "liesbethvanderhaegen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "samvangramberen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "marthaanseeuw",
+        "affiliation": "fodfinancien"
+      },
+      {
+        "name": "kevinbacker",
+        "affiliation": "koningapestaart"
+      },
+      {
+        "name": "stijnbeirens",
+        "affiliation": "agentschapopgroeien"
+      },
+      {
+        "name": "tinebergiers",
+        "affiliation": "vlaamsedienstspeelpleinwerking"
+      },
+      {
+        "name": "ginablommaert",
+        "affiliation": "huisvanhetkindstekene"
+      },
+      {
+        "name": "angeliquebombekedemeyer",
+        "affiliation": "gemeentetemse"
+      },
+      {
+        "name": "johanbuyc",
+        "affiliation": "agentschapopgroeien"
+      },
+      {
+        "name": "ilkecuelenaere",
+        "affiliation": "i-activeisb"
+      },
+      {
+        "name": "lissedewitte",
+        "affiliation": "verenigingvanvlaamsestedenengemeenten"
+      },
+      {
+        "name": "jandries",
+        "affiliation": "tactics"
+      },
+      {
+        "name": "sarafranqui",
+        "affiliation": "agentschapuitbetalinggroeipakket"
+      },
+      {
+        "name": "brittgogol",
+        "affiliation": "bkosint-niklaas"
+      },
+      {
+        "name": "erwinhermans",
+        "affiliation": "agentschapopgroeien"
+      },
+      {
+        "name": "karolienhuylebroek",
+        "affiliation": "arteveldehogeschool"
+      },
+      {
+        "name": "sabinelefever",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "dannylievens",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "jokemaes",
+        "affiliation": "gemeentetemse"
+      },
+      {
+        "name": "tacoorens",
+        "affiliation": "tactics"
+      },
+      {
+        "name": "grietserroels",
+        "affiliation": "verenigingvanvlaamsestedenengemeenten"
+      },
+      {
+        "name": "janissevens",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "hannesmet",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "laurensstanssens",
+        "affiliation": "i-activeisb"
+      },
+      {
+        "name": "michielsteegmans",
+        "affiliation": "cubitexbvba"
+      },
+      {
+        "name": "gertiethielman",
+        "affiliation": "gemeentestekene"
+      },
+      {
+        "name": "joanneuvin",
+        "affiliation": "gemeentestekene"
+      },
+      {
+        "name": "annvandenbrande",
+        "affiliation": "vlaamswelzijnsverbond"
+      },
+      {
+        "name": "gertvandenbuijs",
+        "affiliation": "tactics"
+      },
+      {
+        "name": "bartvanherck",
+        "affiliation": "tactics"
+      },
+      {
+        "name": "bartvandendriessche",
+        "affiliation": "daycaresolutions"
+      },
+      {
+        "name": "simonvanderelst",
+        "affiliation": "lokaaldigitaal"
+      },
+      {
+        "name": "rikaverpoorten",
+        "affiliation": "verenigingvanvlaamsestedenengemeenten"
+      },
+      {
+        "name": "gunthervrancken",
+        "affiliation": "deona-kidsconnect"
+      },
+      {
+        "name": "janvrij",
+        "affiliation": "stadherentals"
+      },
+      {
+        "name": "patrickvrydaghs",
+        "affiliation": "deona-kidsconnect"
+      }
+    ],
+    "participants": [
+      {
+        "name": "marthaanseeuw",
+        "affiliation": "fodfinancien"
+      },
+      {
+        "name": "kevinbacker",
+        "affiliation": "koningapestaart"
+      },
+      {
+        "name": "stijnbeirens",
+        "affiliation": "agentschapopgroeien"
+      },
+      {
+        "name": "tinebergiers",
+        "affiliation": "vlaamsedienstspeelpleinwerking"
+      },
+      {
+        "name": "ginablommaert",
+        "affiliation": "huisvanhetkindstekene"
+      },
+      {
+        "name": "angeliquebombekedemeyer",
+        "affiliation": "gemeentetemse"
+      },
+      {
+        "name": "johanbuyc",
+        "affiliation": "agentschapopgroeien"
+      },
+      {
+        "name": "ilkecuelenaere",
+        "affiliation": "i-activeisb"
+      },
+      {
+        "name": "lissedewitte",
+        "affiliation": "verenigingvanvlaamsestedenengemeenten"
+      },
+      {
+        "name": "jandries",
+        "affiliation": "tactics"
+      },
+      {
+        "name": "sarafranqui",
+        "affiliation": "agentschapuitbetalinggroeipakket"
+      },
+      {
+        "name": "brittgogol",
+        "affiliation": "bkosint-niklaas"
+      },
+      {
+        "name": "erwinhermans",
+        "affiliation": "agentschapopgroeien"
+      },
+      {
+        "name": "karolienhuylebroek",
+        "affiliation": "arteveldehogeschool"
+      },
+      {
+        "name": "sabinelefever",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "dannylievens",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "jokemaes",
+        "affiliation": "gemeentetemse"
+      },
+      {
+        "name": "tacoorens",
+        "affiliation": "tactics"
+      },
+      {
+        "name": "grietserroels",
+        "affiliation": "verenigingvanvlaamsestedenengemeenten"
+      },
+      {
+        "name": "janissevens",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "hannesmet",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "laurensstanssens",
+        "affiliation": "i-activeisb"
+      },
+      {
+        "name": "michielsteegmans",
+        "affiliation": "cubitexbvba"
+      },
+      {
+        "name": "gertiethielman",
+        "affiliation": "gemeentestekene"
+      },
+      {
+        "name": "joanneuvin",
+        "affiliation": "gemeentestekene"
+      },
+      {
+        "name": "annvandenbrande",
+        "affiliation": "vlaamswelzijnsverbond"
+      },
+      {
+        "name": "gertvandenbuijs",
+        "affiliation": "tactics"
+      },
+      {
+        "name": "bartvanherck",
+        "affiliation": "tactics"
+      },
+      {
+        "name": "bartvandendriessche",
+        "affiliation": "daycaresolutions"
+      },
+      {
+        "name": "simonvanderelst",
+        "affiliation": "lokaaldigitaal"
+      },
+      {
+        "name": "rikaverpoorten",
+        "affiliation": "verenigingvanvlaamsestedenengemeenten"
+      },
+      {
+        "name": "gunthervrancken",
+        "affiliation": "deona-kidsconnect"
+      },
+      {
+        "name": "janvrij",
+        "affiliation": "stadherentals"
+      },
+      {
+        "name": "patrickvrydaghs",
+        "affiliation": "deona-kidsconnect"
+      },
+      {
+        "name": "veerlebeyaert",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "yarondassonneville",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "kimleemans",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "liesbethvanderhaegen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "samvangramberen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "rietdebondt",
+        "affiliation": "agentschapopgroeien"
+      },
+      {
+        "name": "annelieshautekeete",
+        "affiliation": "gemeentebornem"
+      },
+      {
+        "name": "tinatyteca",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#SpecifiekeBehoefte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Specifieke Behoefte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#Allergeen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Allergeen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#Aandoening",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aandoening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#Beperking",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beperking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#Dieetvoorkeur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dieetvoorkeur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#duration",
+        "label": [
+          {
+            "@value": "Duration"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+        "label": [
+          {
+            "@value": "Date"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#time",
+        "label": [
+          {
+            "@value": "Time"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#xboolean",
+        "label": [
+          {
+            "@value": "Boolean"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#bijwerking",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bijwerking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#dosering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dosering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#einddatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einddatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#frequentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "frequentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#reden",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reden"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#startdatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "startdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#actief",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "actief"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#diagnosedatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "diagnosedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#behandeling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "behandeling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#diagnosedatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "diagnosedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#ernst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ernst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#oorzaak",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oorzaak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#dagelijkseRoutine",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dagelijkse routine"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#omgaanMetBehoefte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "omgaan met behoefte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#zorgnood",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zorgnood"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#ernst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ernst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#reactie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reactie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#toediening",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toediening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#reactie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reactie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#dieetvoorkeur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dieetvoorkeur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#allergeen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "allergeen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#allergie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "allergie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#beperking",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beperking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#gebruikteMedicatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikte medicatie"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoonsrelatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Agentrelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agentrelatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taal Code"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/Participation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Participatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Participatierol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geregistreerde Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Site",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Association",
+        "label": [
+          {
+            "@value": "Association"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geregistreerd Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#PublicService",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dienstaanbod"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#PublicService",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dienstconsumptie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#End",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beëindiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Start",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Reactietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aandoeningtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#JuridischWerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Juridisch Werk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/statistiek#Statistiek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Socio Economisch Kenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoonsrelatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Relatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Association",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Uitgangregeling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ErnstType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Allergeentype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dieetvoorkeurtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beperkingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Medicatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toedieningtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Allergietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Gezondheidstoestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gezondheidstoestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ContactInfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Schedule",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdschema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/medication-definitions.html#Medication",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Medicatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/R5/allergyintolerance-definitions.html#AllergyIntolerance",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Allergie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieStatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "DienstStatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "DienstType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Code"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Resource"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/Document",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Document"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://schema.org/email",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "email"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/openingHours",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "openingsuren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/telephone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telefoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/page",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "website"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/startTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begin"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/repeatCount",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aantal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#duur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "duur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/endDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einddatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eindtijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/repeatFrequency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "frequentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/byDay",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "per dag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/byMonthDay",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "per dag van de maand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/byMonth",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "per maand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#perSetpositie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "per setpositie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/startDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "startdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/startTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "starttijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/exceptDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitzonderingsdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "achternaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/birthDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geboortedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gebruikteVoornaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikte voornaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#verwachteGeboortedatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwachte geboortedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#volledigeNaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledige naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voornaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#atTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beeindigingsdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#atTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inschrijvingsdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#ingangsdatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ingangsdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/hoursAvailable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#qualifiedStart",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dienst#beeindiging",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beëindiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#registration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "organisatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/knowsLanguage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gekende taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#geslacht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeurstaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#persoon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/available",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "diensttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasSupportingEvidence",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "juridisch werk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reden van beëindiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "statistiektype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ophaler"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#atTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Gezondheidstoestand.aandoening",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aandoening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#MedischeObservatie.gedocumenteerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "attest"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft relatie met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft relatie met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transactie#isInstantieVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dienstaanbod"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#atLocation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#siteOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "suborganisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "participatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasSupportingEvidence",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "juridisch werk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "participatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "persoon"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "fodfinancien",
+        "names": [
+          {
+            "name": "marthaanseeuw",
+            "affiliation": "fodfinancien"
+          }
+        ]
+      },
+      {
+        "affiliation": "koningapestaart",
+        "names": [
+          {
+            "name": "kevinbacker",
+            "affiliation": "koningapestaart"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapopgroeien",
+        "names": [
+          {
+            "name": "stijnbeirens",
+            "affiliation": "agentschapopgroeien"
+          },
+          {
+            "name": "johanbuyc",
+            "affiliation": "agentschapopgroeien"
+          },
+          {
+            "name": "erwinhermans",
+            "affiliation": "agentschapopgroeien"
+          },
+          {
+            "name": "rietdebondt",
+            "affiliation": "agentschapopgroeien"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamsedienstspeelpleinwerking",
+        "names": [
+          {
+            "name": "tinebergiers",
+            "affiliation": "vlaamsedienstspeelpleinwerking"
+          }
+        ]
+      },
+      {
+        "affiliation": "huisvanhetkindstekene",
+        "names": [
+          {
+            "name": "ginablommaert",
+            "affiliation": "huisvanhetkindstekene"
+          }
+        ]
+      },
+      {
+        "affiliation": "gemeentetemse",
+        "names": [
+          {
+            "name": "angeliquebombekedemeyer",
+            "affiliation": "gemeentetemse"
+          },
+          {
+            "name": "jokemaes",
+            "affiliation": "gemeentetemse"
+          }
+        ]
+      },
+      {
+        "affiliation": "i-activeisb",
+        "names": [
+          {
+            "name": "ilkecuelenaere",
+            "affiliation": "i-activeisb"
+          },
+          {
+            "name": "laurensstanssens",
+            "affiliation": "i-activeisb"
+          }
+        ]
+      },
+      {
+        "affiliation": "verenigingvanvlaamsestedenengemeenten",
+        "names": [
+          {
+            "name": "lissedewitte",
+            "affiliation": "verenigingvanvlaamsestedenengemeenten"
+          },
+          {
+            "name": "grietserroels",
+            "affiliation": "verenigingvanvlaamsestedenengemeenten"
+          },
+          {
+            "name": "rikaverpoorten",
+            "affiliation": "verenigingvanvlaamsestedenengemeenten"
+          }
+        ]
+      },
+      {
+        "affiliation": "tactics",
+        "names": [
+          {
+            "name": "jandries",
+            "affiliation": "tactics"
+          },
+          {
+            "name": "tacoorens",
+            "affiliation": "tactics"
+          },
+          {
+            "name": "gertvandenbuijs",
+            "affiliation": "tactics"
+          },
+          {
+            "name": "bartvanherck",
+            "affiliation": "tactics"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapuitbetalinggroeipakket",
+        "names": [
+          {
+            "name": "sarafranqui",
+            "affiliation": "agentschapuitbetalinggroeipakket"
+          }
+        ]
+      },
+      {
+        "affiliation": "bkosint-niklaas",
+        "names": [
+          {
+            "name": "brittgogol",
+            "affiliation": "bkosint-niklaas"
+          }
+        ]
+      },
+      {
+        "affiliation": "arteveldehogeschool",
+        "names": [
+          {
+            "name": "karolienhuylebroek",
+            "affiliation": "arteveldehogeschool"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadantwerpen",
+        "names": [
+          {
+            "name": "sabinelefever",
+            "affiliation": "stadantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapbinnenlandsbestuur",
+        "names": [
+          {
+            "name": "dannylievens",
+            "affiliation": "agentschapbinnenlandsbestuur"
+          },
+          {
+            "name": "janissevens",
+            "affiliation": "agentschapbinnenlandsbestuur"
+          },
+          {
+            "name": "tinatyteca",
+            "affiliation": "agentschapbinnenlandsbestuur"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgent",
+        "names": [
+          {
+            "name": "hannesmet",
+            "affiliation": "stadgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "cubitexbvba",
+        "names": [
+          {
+            "name": "michielsteegmans",
+            "affiliation": "cubitexbvba"
+          }
+        ]
+      },
+      {
+        "affiliation": "gemeentestekene",
+        "names": [
+          {
+            "name": "gertiethielman",
+            "affiliation": "gemeentestekene"
+          },
+          {
+            "name": "joanneuvin",
+            "affiliation": "gemeentestekene"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamswelzijnsverbond",
+        "names": [
+          {
+            "name": "annvandenbrande",
+            "affiliation": "vlaamswelzijnsverbond"
+          }
+        ]
+      },
+      {
+        "affiliation": "daycaresolutions",
+        "names": [
+          {
+            "name": "bartvandendriessche",
+            "affiliation": "daycaresolutions"
+          }
+        ]
+      },
+      {
+        "affiliation": "lokaaldigitaal",
+        "names": [
+          {
+            "name": "simonvanderelst",
+            "affiliation": "lokaaldigitaal"
+          }
+        ]
+      },
+      {
+        "affiliation": "deona-kidsconnect",
+        "names": [
+          {
+            "name": "gunthervrancken",
+            "affiliation": "deona-kidsconnect"
+          },
+          {
+            "name": "patrickvrydaghs",
+            "affiliation": "deona-kidsconnect"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadherentals",
+        "names": [
+          {
+            "name": "janvrij",
+            "affiliation": "stadherentals"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "veerlebeyaert",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "rafbuyle",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "yarondassonneville",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "kimleemans",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "geertthijs",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "liesbethvanderhaegen",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "samvangramberen",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "ziggyvanlishout",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "laurensvercauteren",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "evelinevlassenroot",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "gemeentebornem",
+        "names": [
+          {
+            "name": "annelieshautekeete",
+            "affiliation": "gemeentebornem"
+          }
+        ]
+      }
+    ]
+  }
+}
