@@ -14,7 +14,9 @@
     "https://data.vlaanderen.be/ns/omgevingsvergunning",
     "http://data.europa.eu/m8g",
     "http://data.europa.eu/eli/ontology",
+    "http://xmlns.com/foaf/0.1",
     "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/person",
     "http://www.w3.org/2006/time",
     "http://dbpedia.org/ontology",
@@ -22,7 +24,6 @@
     "http://www.w3.org/2001/XMLSchema",
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/persoon",
-    "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/ns/adms",
     "http://schema.org",
     "http://www.w3.org/ns/locn",
@@ -36,11 +37,11 @@
   "editors": 9,
   "contributors": 66,
   "participants": 77,
-  "classes": 29,
-  "properties": 38,
-  "externalclasses": 27,
+  "classes": 28,
+  "properties": 33,
+  "externalclasses": 30,
   "externalproperties": 32,
-  "totalterms": 126,
+  "totalterms": 123,
   "totalorganisations": 38,
   "organisations": [
     {
@@ -842,15 +843,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Document",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Document"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Procedure",
         "label": [
           {
@@ -1101,6 +1093,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#juridischeKwalificatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "juridische kwalificatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Zaak.verantwoordelijke",
         "label": [
           {
@@ -1124,15 +1125,6 @@
           {
             "@language": "nl",
             "@value": "rechtsgrond"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#verzoekendePartij",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "verzoekende partij"
           }
         ]
       },
@@ -1191,33 +1183,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#BestuurlijkeRechtshandeling.verantwoordelijke",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "verantwoordelijke"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#rechtscollege",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "rechtscollege"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#aanvrager",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aanvrager"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Beroepsmogelijkheid.bevoegdeOverheid",
         "label": [
           {
@@ -1263,15 +1228,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Activiteit.juridischeKwalificatie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "juridische kwalificatie"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#NormatieveBepaling.tijdsbestek",
         "label": [
           {
@@ -1290,15 +1246,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Rechtshandeling.juridischeKwalificatie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "juridische kwalificatie"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#gebeurtenis",
         "label": [
           {
@@ -1308,7 +1255,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Rechtshandeling.verantwoordelijke",
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#verantwoordelijke",
         "label": [
           {
             "@language": "nl",
@@ -1463,11 +1410,29 @@
         ]
       },
       {
+        "assignedURI": "http://xmlns.com/foaf/0.1/Document",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Document"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.opengis.net/ont/geosparql#Feature",
         "label": [
           {
             "@language": "nl",
             "@value": "Feature"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Resource"
           }
         ]
       },
@@ -1603,6 +1568,15 @@
           {
             "@language": "nl",
             "@value": "taalstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Juridische Categorie"
           }
         ]
       },
