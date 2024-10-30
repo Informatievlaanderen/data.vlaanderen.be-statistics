@@ -9,8 +9,8 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
-    "https://data.vlaanderen.be/ns/vrachtwagenparkeren",
     "http://www.w3.org/2004/02/skos/core",
+    "https://data.vlaanderen.be/ns/vrachtwagenparkeren",
     "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur",
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod",
@@ -37,10 +37,10 @@
   "editors": 7,
   "contributors": 12,
   "participants": 22,
-  "classes": 10,
-  "properties": 8,
-  "externalclasses": 54,
-  "externalproperties": 94,
+  "classes": 28,
+  "properties": 47,
+  "externalclasses": 36,
+  "externalproperties": 55,
   "totalterms": 166,
   "totalorganisations": 12,
   "organisations": [
@@ -280,24 +280,8 @@
       }
     ],
     "classes": [
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#Oplegger",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Oplegger"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#Voertuig",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Voertuig"
-          }
-        ]
-      },
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#Vrachtwagen",
         "label": [
@@ -307,191 +291,13 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#Bestuurder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Bestuurder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#Dimensie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Dimensie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
-        "label": [
-          {
-            "@value": "String"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
-        "label": [
-          {
-            "@value": "Integer"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "label": [
-          {
-            "@value": "DateTime"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "label": [
-          {
-            "@value": "URI"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#duration",
-        "label": [
-          {
-            "@value": "Duration"
-          }
-        ]
-      }
-    ],
-    "properties": [
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#eenheid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eenheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#aantalAssen",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aantalAssen"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#waarde",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "waarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#standaardEenheid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "standaardEenheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#opdrachtgever",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "opdrachtgever"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#lading",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "lading"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#dimensie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "dimensie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#heeftBestuurder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftBestuurder"
-          }
-        ]
-      }
-    ],
-    "externalclasses": [
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Lading"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Vrachtwagentype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Dimensietype"
-          }
-        ]
-      },
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement",
         "label": [
           {
             "@language": "nl",
             "@value": "Infrastructuurelement"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Location",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Plaats"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Boekingstatus"
           }
         ]
       },
@@ -510,15 +316,6 @@
           {
             "@language": "nl",
             "@value": "Route"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/Trip",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Reis"
           }
         ]
       },
@@ -568,6 +365,616 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Aanbieder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aanbieder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#AanvullendeDienst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AanvullendeDienst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#Dimensie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dimensie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Standaard Eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Toegankelijkheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegankelijkheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routebeschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Routebeschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Beschikbaarheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#duration",
+        "label": [
+          {
+            "@value": "Duration"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Reiziger"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#Voertuig",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Voertuig"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Element"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Dienstregeling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dienstregeling"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#eenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#aantalAssen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aantalAssen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#identificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.aankomsttijdstip",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aankomsttijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route.vertrektijdstip",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vertrektijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route.aankomsttijdstip",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aankomsttijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#reisduur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reisduur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.vertrektijdstip",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vertrektijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#waarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#standaardEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaardEenheid"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#lading",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lading"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#dimensie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dimensie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.vervoermiddel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vervoermiddel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.beschikbaarheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.toegankelijkheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegankelijkheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.aandrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aandrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.vervoermiddel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vervoermiddel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#dienstregeling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dienstregeling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#gebruiker",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruiker"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route.afstand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afstand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#routebeschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "routebeschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#AanvullendeDienst.toegankelijkheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegankelijkheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#aanbieder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanbieder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#omvat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "omvat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aanbieder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanbieder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#reis",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reis.boeking",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "boeking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#bestaatUit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestaat uit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#berekendMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "berekend met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#mogelijkeRoute",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "mogelijke route"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#gekozenRoute",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gekozen route"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#uitgevoerdeRoute",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerde route"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.dienst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dienst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resource"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.gerealiseerdMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gerealiseerd met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resource"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.boeking",
+        "label": [
+          {
+            "@value": "Reservatie.Boeking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.resource",
+        "label": [
+          {
+            "@value": "Reservatie.Resource"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#AanvullendeDienst.beschikbaarOpInfrastructuurelement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dienst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#AanvullendeDienst.beschikbaarOpInfrastructuurelement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaarOpInfrastructuurelement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten/#Mobiliteitsdienst.beschikbaarOpInfrastructuurelement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dienst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#Mobiliteitsdienst.beschikbaarOpInfrastructuurelement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaaropInfrastructuurelement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#onderneemt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderneemt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#heeftBestuurder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftBestuurder"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Lading"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vrachtwagentype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dimensietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Boekingstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Trip",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Reis"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
@@ -591,15 +998,6 @@
           {
             "@language": "nl",
             "@value": "Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Aanbieder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Aanbieder"
           }
         ]
       },
@@ -640,15 +1038,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#AanvullendeDienst",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "AanvullendeDienst"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
@@ -672,15 +1061,6 @@
           {
             "@language": "nl",
             "@value": "AanvullendeDiensttype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Standaard Eenheid"
           }
         ]
       },
@@ -748,60 +1128,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Toegankelijkheid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Toegankelijkheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routebeschrijving",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Routebeschrijving"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Beschikbaarheid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Beschikbaarheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Reiziger"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#Voertuig",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Voertuig"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Element",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Element"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
           {
@@ -841,15 +1167,6 @@
           {
             "@language": "nl",
             "@value": "Resourcestatus"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Dienstregeling",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Dienstregeling"
           }
         ]
       },
@@ -976,29 +1293,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#identificator",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "identificator"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/title",
         "label": [
           {
             "@language": "nl",
             "@value": "naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.aankomsttijdstip",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aankomsttijdstip"
           }
         ]
       },
@@ -1039,33 +1338,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route.vertrektijdstip",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vertrektijdstip"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route.aankomsttijdstip",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aankomsttijdstip"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#reisduur",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "reisduur"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://schema.org/departureTime",
         "label": [
           {
@@ -1080,15 +1352,6 @@
           {
             "@language": "nl",
             "@value": "aankomsttijdstip"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.vertrektijdstip",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vertrektijdstip"
           }
         ]
       },
@@ -1192,15 +1455,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.status",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "status"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
@@ -1219,74 +1473,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.vervoermiddel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vervoermiddel"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.beschikbaarheid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschikbaarheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.toegankelijkheid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toegankelijkheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.aandrijving",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aandrijving"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.vervoermiddel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vervoermiddel"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://schema.org/contactPoint",
         "label": [
           {
             "@language": "nl",
             "@value": "contactinfo"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#dienstregeling",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "dienstregeling"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#gebruiker",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gebruiker"
           }
         ]
       },
@@ -1318,24 +1509,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route.afstand",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "afstand"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#routebeschrijving",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "routebeschrijving"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
@@ -1350,15 +1523,6 @@
           {
             "@language": "nl",
             "@value": "naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.status",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "status"
           }
         ]
       },
@@ -1516,15 +1680,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#AanvullendeDienst.toegankelijkheid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toegankelijkheid"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://schema.mobivoc.org/#parkingSpace",
         "label": [
           {
@@ -1570,198 +1725,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#aanbieder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aanbieder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#omvat",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "omvat"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aanbieder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aanbieder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#reis",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "reis"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reis.boeking",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "boeking"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://schema.org/partOfTrip",
         "label": [
           {
             "@language": "nl",
             "@value": "is deel van"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#bestaatUit",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bestaat uit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#berekendMet",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "berekend met"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#mogelijkeRoute",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "mogelijke route"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#gekozenRoute",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gekozen route"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#uitgevoerdeRoute",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "uitgevoerde route"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.dienst",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "dienst"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.resource",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "resource"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.gerealiseerdMet",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gerealiseerd met"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.resource",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "resource"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.boeking",
-        "label": [
-          {
-            "@value": "Reservatie.Boeking"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.resource",
-        "label": [
-          {
-            "@value": "Reservatie.Resource"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#AanvullendeDienst.beschikbaarOpInfrastructuurelement",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "dienst"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#AanvullendeDienst.beschikbaarOpInfrastructuurelement",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschikbaarOpInfrastructuurelement"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten/#Mobiliteitsdienst.beschikbaarOpInfrastructuurelement",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "dienst"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#Mobiliteitsdienst.beschikbaarOpInfrastructuurelement",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschikbaaropInfrastructuurelement"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#onderneemt",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "onderneemt"
           }
         ]
       }

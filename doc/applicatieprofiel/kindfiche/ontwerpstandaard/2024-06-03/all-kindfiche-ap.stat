@@ -41,10 +41,10 @@
   "editors": 10,
   "contributors": 34,
   "participants": 47,
-  "classes": 13,
-  "properties": 26,
-  "externalclasses": 49,
-  "externalproperties": 86,
+  "classes": 19,
+  "properties": 39,
+  "externalclasses": 43,
+  "externalproperties": 73,
   "totalterms": 174,
   "totalorganisations": 24,
   "organisations": [
@@ -533,11 +533,65 @@
     ],
     "classes": [
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoonsrelatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Agentrelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agentrelatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geregistreerd Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#JuridischWerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Juridisch Werk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/statistiek#Statistiek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Socio Economisch Kenmerk"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#SpecifiekeBehoefte",
         "label": [
           {
             "@language": "nl",
             "@value": "Specifieke Behoefte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Gezondheidstoestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gezondheidstoestand"
           }
         ]
       },
@@ -644,11 +698,65 @@
     ],
     "properties": [
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#duur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "duur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#perSetpositie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "per setpositie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gebruikteVoornaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikte voornaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#verwachteGeboortedatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwachte geboortedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#volledigeNaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledige naam"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#beschrijving",
         "label": [
           {
             "@language": "nl",
             "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#ingangsdatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ingangsdatum"
           }
         ]
       },
@@ -797,6 +905,42 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/dienst#beeindiging",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beëindiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#geslacht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#persoon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "agent"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#ernst",
         "label": [
           {
@@ -842,6 +986,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Gezondheidstoestand.aandoening",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aandoening"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/kindfiche#allergeen",
         "label": [
           {
@@ -856,6 +1009,15 @@
           {
             "@language": "nl",
             "@value": "allergie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#MedischeObservatie.gedocumenteerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "attest"
           }
         ]
       },
@@ -876,6 +1038,15 @@
             "@value": "gebruikte medicatie"
           }
         ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transactie#isInstantieVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dienstaanbod"
+          }
+        ]
       }
     ],
     "externalclasses": [
@@ -885,24 +1056,6 @@
           {
             "@language": "nl",
             "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoonsrelatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Agentrelatie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agentrelatie"
           }
         ]
       },
@@ -965,15 +1118,6 @@
         "label": [
           {
             "@value": "Association"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geregistreerd Persoon"
           }
         ]
       },
@@ -1050,29 +1194,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#JuridischWerk",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Juridisch Werk"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
             "@value": "Kenmerktype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/statistiek#Statistiek",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Socio Economisch Kenmerk"
           }
         ]
       },
@@ -1163,15 +1289,6 @@
           {
             "@language": "nl",
             "@value": "Allergietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Gezondheidstoestand",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gezondheidstoestand"
           }
         ]
       },
@@ -1380,15 +1497,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#duur",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "duur"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://schema.org/endDate",
         "label": [
           {
@@ -1439,15 +1547,6 @@
           {
             "@language": "nl",
             "@value": "per maand"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#perSetpositie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "per setpositie"
           }
         ]
       },
@@ -1515,33 +1614,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gebruikteVoornaam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gebruikte voornaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#verwachteGeboortedatum",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "verwachte geboortedatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#volledigeNaam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "volledige naam"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
         "label": [
           {
@@ -1583,15 +1655,6 @@
           {
             "@language": "nl",
             "@value": "inschrijvingsdatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#ingangsdatum",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ingangsdatum"
           }
         ]
       },
@@ -1677,15 +1740,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/dienst#beeindiging",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beëindiging"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/regorg#registration",
         "label": [
           {
@@ -1758,15 +1812,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#geslacht",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geslacht"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/language",
         "label": [
           {
@@ -1781,15 +1826,6 @@
           {
             "@language": "nl",
             "@value": "relatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#persoon",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "persoon"
           }
         ]
       },
@@ -1826,15 +1862,6 @@
           {
             "@language": "nl",
             "@value": "diensttype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "agent"
           }
         ]
       },
@@ -1938,24 +1965,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Gezondheidstoestand.aandoening",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aandoening"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#MedischeObservatie.gedocumenteerdDoor",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "attest"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/elements/1.1/type",
         "label": [
           {
@@ -1979,15 +1988,6 @@
           {
             "@language": "nl",
             "@value": "heeft relatie met"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/transactie#isInstantieVan",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "dienstaanbod"
           }
         ]
       },
