@@ -9,8 +9,8 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
-    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/vrachtwagenparkeren",
+    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur",
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod",
@@ -280,8 +280,24 @@
       }
     ],
     "classes": [
-      {},
-      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#Oplegger",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Oplegger"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#Voertuig",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Voertuig"
+          }
+        ]
+      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#Vrachtwagen",
         "label": [
@@ -291,7 +307,15 @@
           }
         ]
       },
-      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#Bestuurder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bestuurder"
+          }
+        ]
+      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement",
         "label": [
@@ -595,7 +619,15 @@
           }
         ]
       },
-      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#opdrachtgever",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opdrachtgever"
+          }
+        ]
+      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/vrachtwagenparkeren#lading",
         "label": [
