@@ -1,0 +1,520 @@
+{
+  "title": "Ruimtelijke Bereiken (Vocabularium)",
+  "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/ruimtelijke-bereiken/kandidaatstandaard/2024-10-01",
+  "issued": "2024-10-01",
+  "navigation": {
+    "prev": "/doc/vocabularium/ruimtelijke-bereiken/ontwerpstandaard/2024-04-15",
+    "self": "https://data.dev-vlaanderen.be/doc/vocabularium/ruimtelijke-bereiken/kandidaatstandaard/2024-10-01"
+  },
+  "documenttype": "voc",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
+  "namespaces": [
+    "http://def.isotc211.org/iso19123/2005/DiscreteCoverages",
+    "http://def.isotc211.org/iso19123/2005/CoverageCore",
+    "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata",
+    "http://purl.org/dc/terms",
+    "http://def.isotc211.org/iso19111/2007/CoordinateReferenceSystems",
+    "http://def.isotc211.org/iso19123/2005/SegmentedCurve",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://www.opengis.net/ont/geosparql",
+    "https://data.vlaanderen.be/ns/generiek",
+    "https://www.w3.org/ns/org",
+    "https://data.vlaanderen.be/ns/ruimtelijke-bereiken",
+    "http://www.opengis.net/ont/sf",
+    "http://www.w3.org/ns/locn",
+    "http://def.isotc211.org/iso19115/2003/ExtentInformation",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/2001/XMLSchema"
+  ],
+  "authors": 1,
+  "editors": 1,
+  "contributors": 1,
+  "participants": 3,
+  "classes": 3,
+  "properties": 5,
+  "externalclasses": 19,
+  "externalproperties": 17,
+  "totalterms": 44,
+  "totalorganisations": 3,
+  "organisations": [
+    {
+      "affiliation": "medewerkeraffiliatie",
+      "participants": 1
+    },
+    {
+      "affiliation": "editoraffiliatie",
+      "participants": 1
+    },
+    {
+      "affiliation": "auteuraffiliatie",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "auteurvoornaamauteurnaam",
+        "affiliation": "auteuraffiliatie"
+      }
+    ],
+    "editors": [
+      {
+        "name": "editorvoornaameditornaam",
+        "affiliation": "editoraffiliatie"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "medewerkervoornaammedewerkernaam",
+        "affiliation": "medewerkeraffiliatie"
+      }
+    ],
+    "participants": [
+      {
+        "name": "medewerkervoornaammedewerkernaam",
+        "affiliation": "medewerkeraffiliatie"
+      },
+      {
+        "name": "editorvoornaameditornaam",
+        "affiliation": "editoraffiliatie"
+      },
+      {
+        "name": "auteurvoornaamauteurnaam",
+        "affiliation": "auteuraffiliatie"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Opmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#opnamedatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opnamedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Geometrie.opmeting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Opmeting.methode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "methode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Opmeting.uitgevoerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/ruimtelijke-bereiken#coordinaatReferentiesysteem",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "CoordinaatReferentiesysteem"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCoverage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DiscreetBereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_Coverage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Record",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Record"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscretePointCoverage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DiscreetPuntbereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCurveCoverage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DiscreetCurvebereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19111/2007/CoordinateReferenceSystems#SC_CRS",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "CRS"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/SegmentedCurve#CV_CommonPointRule",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GemeenschappelijkePuntregel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Opmetingmethode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#Curve",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Curve"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_Domainobject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeometrieWaardepaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_PointValuePair",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "PuntWaardepaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#Point",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Punt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_CurveValuePair",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "CurveWaardepaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_AttributeValues",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Attribuutwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2003/ExtentInformation#EX_Extent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Omvang"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#RecordType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Recordtype"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#domainExtent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "domeinOmvang"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#commonPointRule",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeenschappelijkPuntRegel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#domainElement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "domeinElement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCoverage.element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "element"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_Domainobject.spatialElement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ruimtelijkeSamenstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscretePointCoverage.element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "element"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_PointValuePair.geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_CurveValuePair.geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCurveCoverage.element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "element"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#rangeElement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bereikElement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_AttributeValues.values",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#rangeType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "typeBereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/org#reportsTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rapporteertAan"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "medewerkeraffiliatie",
+        "names": [
+          {
+            "name": "medewerkervoornaammedewerkernaam",
+            "affiliation": "medewerkeraffiliatie"
+          }
+        ]
+      },
+      {
+        "affiliation": "editoraffiliatie",
+        "names": [
+          {
+            "name": "editorvoornaameditornaam",
+            "affiliation": "editoraffiliatie"
+          }
+        ]
+      },
+      {
+        "affiliation": "auteuraffiliatie",
+        "names": [
+          {
+            "name": "auteurvoornaamauteurnaam",
+            "affiliation": "auteuraffiliatie"
+          }
+        ]
+      }
+    ]
+  }
+}
