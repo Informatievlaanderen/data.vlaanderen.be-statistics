@@ -45,7 +45,6 @@
     "http://def.isotc211.org/iso19123/2005/CoverageCore",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
     "http://def.isotc211.org/iso19150/-2/2012/base",
-    "http://todo",
     "https://www.w3.org/ns/org",
     "http://def.isotc211.org/iso19108/2006/TemporalObjects",
     "http://www.opengis.net/ont/sf",
@@ -63,9 +62,9 @@
   "contributors": 72,
   "participants": 90,
   "classes": 8,
-  "properties": 10,
+  "properties": 11,
   "externalclasses": 62,
-  "externalproperties": 68,
+  "externalproperties": 67,
   "totalterms": 148,
   "totalorganisations": 46,
   "organisations": [
@@ -1137,6 +1136,15 @@
         "label": [
           {
             "@value": "Observatie (target)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#waardeverschaffer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waardeverschaffer"
           }
         ]
       }
@@ -2216,29 +2224,20 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Domain",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
         "label": [
           {
             "@language": "nl",
-            "@value": "Domein"
+            "@value": "geobserveerdObject"
           }
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Domain",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
         "label": [
           {
             "@language": "nl",
-            "@value": "Domein"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Design",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Ontwerp"
+            "@value": "geassocieerdeObservatie"
           }
         ]
       },
@@ -2256,7 +2255,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Fenomeen"
+            "@value": "geobserveerdKenmerk"
           }
         ]
       },
@@ -2288,11 +2287,11 @@
         ]
       },
       {
-        "assignedURI": "http://todo/",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeatureCollection.member",
         "label": [
           {
             "@language": "nl",
-            "@value": "Verzameling"
+            "@value": "lid"
           }
         ]
       },
