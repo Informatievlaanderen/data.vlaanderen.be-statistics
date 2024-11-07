@@ -21,17 +21,13 @@
     "http://www.w3.org/2004/02/skos/core",
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/bodem-en-ondergrond",
-    "http://def.isotc211.org/iso19156/2011/SamplingCurve",
     "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures",
     "http://www.w3.org/ns/ssn/systems",
     "http://www.w3.org/ns/ssn",
-    "http://def.isotc211.org/iso19156/2011/SamplingSurface",
-    "http://def.isotc211.org/iso19156/2011/SamplingSolid",
     "http://www.w3.org/ns/sosa/om",
     "https://data.vlaanderen.be/ns/generiek",
     "https://www.w3.org/ns/sosa",
     "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation",
-    "http://def.isotc211.org/iso19156/2011/SamplingPoint",
     "http://www.w3.org/2000/01/rdf-schema",
     "https://saref.etsi.org/core",
     "http://www.w3.org/ns/adms",
@@ -39,8 +35,8 @@
     "http://purl.org/dc/elements/1.1",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
+    "http://def.isotc211.org/iso19156/2011/SamplingPoint",
     "http://def.isotc211.org/iso19150/-2/2012/base",
-    "http://todo",
     "https://www.w3.org/ns/org",
     "http://def.isotc211.org/iso19108/2006/TemporalObjects",
     "http://www.opengis.net/ont/sf",
@@ -49,17 +45,20 @@
     "http://www.w3.org/ns/prov",
     "http://www.opengis.net/ont/gml",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://def.isotc211.org/iso19156/2011/SamplingCurve",
+    "http://def.isotc211.org/iso19156/2011/SamplingSurface",
+    "http://def.isotc211.org/iso19156/2011/SamplingSolid"
   ],
   "authors": 8,
   "editors": 10,
   "contributors": 72,
   "participants": 90,
   "classes": 10,
-  "properties": 21,
-  "externalclasses": 100,
-  "externalproperties": 124,
-  "totalterms": 255,
+  "properties": 22,
+  "externalclasses": 93,
+  "externalproperties": 123,
+  "totalterms": 248,
   "totalorganisations": 46,
   "organisations": [
     {
@@ -1244,6 +1243,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#waardeverschaffer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waardeverschaffer"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#metadata",
         "label": [
           {
@@ -1372,15 +1380,6 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingCurve#SF_SamplingCurve",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Bemonsteringscurve"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
@@ -1404,33 +1403,6 @@
           {
             "@language": "nl",
             "@value": "Conditie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Procedure"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Process",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Proces"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Process",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "BemonsteringsProces"
           }
         ]
       },
@@ -1593,24 +1565,6 @@
           {
             "@language": "nl",
             "@value": "Informatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingSurface#SF_SamplingSurface",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Bemonsteringsvlak"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingSolid#SF_SamplingSolid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Bemonsterings3Dobject"
           }
         ]
       },
@@ -1854,15 +1808,6 @@
           {
             "@language": "nl",
             "@value": "Werkingskenmerk"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Bemonsteringspunt"
           }
         ]
       },
@@ -3039,29 +2984,20 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Domain",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
         "label": [
           {
             "@language": "nl",
-            "@value": "Domein"
+            "@value": "geobserveerdObject"
           }
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Domain",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
         "label": [
           {
             "@language": "nl",
-            "@value": "Domein"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Design",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Ontwerp"
+            "@value": "geassocieerdeObservatie"
           }
         ]
       },
@@ -3079,16 +3015,16 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Fenomeen"
+            "@value": "geobserveerdKenmerk"
           }
         ]
       },
       {
-        "assignedURI": "http://todo/",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeatureCollection.member",
         "label": [
           {
             "@language": "nl",
-            "@value": "Verzameling"
+            "@value": "lid"
           }
         ]
       },
