@@ -1,0 +1,3878 @@
+{
+  "title": "Sensoren en Bemonstering (Vocabularium)",
+  "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01",
+  "issued": "2024-10-01",
+  "navigation": {
+    "prev": "/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2024-04-15",
+    "self": "https://data.dev-vlaanderen.be/doc/vocabularium/sensoren-en-bemonstering/kandidaatstandaard/2024-10-01"
+  },
+  "documenttype": "voc",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "statuslabel": "Kandidaat Standaard",
+  "namespaces": [
+    "http://def.isotc211.org/iso19103/2005/UnitsOfMeasure",
+    "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
+    "http://def.isotc211.org/iso19156/2011/Specimen",
+    "http://www.w3.org/ns/sosa",
+    "http://def.isotc211.org/iso19156/2011/SamplingFeature",
+    "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
+    "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature",
+    "http://def.isotc211.org/iso19156/2011/Observation",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://purl.org/dc/terms",
+    "https://data.vlaanderen.be/ns/bodem-en-ondergrond",
+    "http://def.isotc211.org/iso19156/2011/SamplingCurve",
+    "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures",
+    "http://www.w3.org/ns/ssn/systems",
+    "http://www.w3.org/ns/ssn",
+    "http://def.isotc211.org/iso19156/2011/SamplingSurface",
+    "http://def.isotc211.org/iso19156/2011/SamplingSolid",
+    "http://www.w3.org/ns/sosa/om",
+    "https://data.vlaanderen.be/ns/generiek",
+    "https://www.w3.org/ns/sosa",
+    "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation",
+    "http://def.isotc211.org/iso19156/2011/SamplingPoint",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "https://saref.etsi.org/core",
+    "http://www.w3.org/ns/adms",
+    "http://www.opengis.net/ont/geosparql",
+    "http://purl.org/dc/elements/1.1",
+    "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
+    "https://data.vlaanderen.be/ns/observaties-en-metingen",
+    "http://def.isotc211.org/iso19150/-2/2012/base",
+    "http://todo",
+    "https://www.w3.org/ns/org",
+    "http://def.isotc211.org/iso19108/2006/TemporalObjects",
+    "http://www.opengis.net/ont/sf",
+    "http://www.w3.org/ns/locn",
+    "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
+    "http://www.w3.org/ns/prov",
+    "http://www.opengis.net/ont/gml",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
+  ],
+  "authors": 8,
+  "editors": 10,
+  "contributors": 72,
+  "participants": 90,
+  "classes": 10,
+  "properties": 21,
+  "externalclasses": 100,
+  "externalproperties": 125,
+  "totalterms": 256,
+  "totalorganisations": 46,
+  "organisations": [
+    {
+      "affiliation": "departementmobiliteitenopenbarewerken",
+      "participants": 5
+    },
+    {
+      "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin",
+      "participants": 2
+    },
+    {
+      "affiliation": "canalcnv",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapwegenenverkeer",
+      "participants": 5
+    },
+    {
+      "affiliation": "grondbanktracimat",
+      "participants": 1
+    },
+    {
+      "affiliation": "fodfinanciën",
+      "participants": 1
+    },
+    {
+      "affiliation": "instituutvoornatuur-enbosonderzoek",
+      "participants": 2
+    },
+    {
+      "affiliation": "inagrvzw",
+      "participants": 1
+    },
+    {
+      "affiliation": "asepticexcellencepartner",
+      "participants": 1
+    },
+    {
+      "affiliation": "andere",
+      "participants": 4
+    },
+    {
+      "affiliation": "vlaamsemilieumaatschappij",
+      "participants": 4
+    },
+    {
+      "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)",
+      "participants": 3
+    },
+    {
+      "affiliation": "openbarevlaamseafvalstoffenmaatschappij",
+      "participants": 4
+    },
+    {
+      "affiliation": "geosparc",
+      "participants": 1
+    },
+    {
+      "affiliation": "vrouwenvanhetalgemeenboerensyndicaat",
+      "participants": 1
+    },
+    {
+      "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen",
+      "participants": 2
+    },
+    {
+      "affiliation": "grondwijzervzw",
+      "participants": 2
+    },
+    {
+      "affiliation": "citizens",
+      "participants": 3
+    },
+    {
+      "affiliation": "votquennefoundations&revyson",
+      "participants": 1
+    },
+    {
+      "affiliation": "vrijeuniversiteitbrussel",
+      "participants": 1
+    },
+    {
+      "affiliation": "dewatergroep",
+      "participants": 1
+    },
+    {
+      "affiliation": "studiebureauvoorbouwkundeenexpertise(sbe)nv",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadgent",
+      "participants": 1
+    },
+    {
+      "affiliation": "gebo",
+      "participants": 1
+    },
+    {
+      "affiliation": "gesolutions",
+      "participants": 1
+    },
+    {
+      "affiliation": "putboringenvandeynsenv",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschaponroerenderfgoed",
+      "participants": 1
+    },
+    {
+      "affiliation": "bodemkundigedienstvanbelgië",
+      "participants": 1
+    },
+    {
+      "affiliation": "bodemkundigedienstvanbelgiëvzw",
+      "participants": 1
+    },
+    {
+      "affiliation": "digitaalvaanderen",
+      "participants": 11
+    },
+    {
+      "affiliation": "vlaamselandmaatschappij",
+      "participants": 1
+    },
+    {
+      "affiliation": "instituutvoorlandbouw-visserij-envoedingsonderzoek",
+      "participants": 1
+    },
+    {
+      "affiliation": "colasnoordnv",
+      "participants": 1
+    },
+    {
+      "affiliation": "tractebel–internationalmarineanddredgingconsultants",
+      "participants": 1
+    },
+    {
+      "affiliation": "universiteitgent",
+      "participants": 1
+    },
+    {
+      "affiliation": "acpartners",
+      "participants": 1
+    },
+    {
+      "affiliation": "fluves–pydov",
+      "participants": 1
+    },
+    {
+      "affiliation": "boerenbond",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementomgeving",
+      "participants": 10
+    },
+    {
+      "affiliation": "vanheckenv",
+      "participants": 1
+    },
+    {
+      "affiliation": "smetgwteurope",
+      "participants": 1
+    },
+    {
+      "affiliation": "vzwgrondbank",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementmobiliteitenopenbarewerken(geotechniek)",
+      "participants": 1
+    },
+    {
+      "affiliation": "instituurvoornatuur-enbosonderzoek",
+      "participants": 1
+    },
+    {
+      "affiliation": "koninklijkbelgischinstituurvoornatuurwetenschappen–belgischegeologischedienst",
+      "participants": 1
+    },
+    {
+      "affiliation": "algemeenboerensyndicaat",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "sabinebuyle",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "katriendenil",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "petradeproost",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "katrienoorts",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "friekesegers",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "marleenvandamme",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "veerlevanwesenbeeck",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "jasperverhaegen",
+        "affiliation": "departementomgeving"
+      }
+    ],
+    "editors": [
+      {
+        "name": "veerlebeyaert",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "dimitrischepers",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "anthonyvanheymbeeck",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "dwightvanlancker",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "martinvanbrabant",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "chandraalgoe",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "camilleallonsius",
+        "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin"
+      },
+      {
+        "name": "ilsebaeck",
+        "affiliation": "canalcnv"
+      },
+      {
+        "name": "simonbaert",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "christineberchmans",
+        "affiliation": "grondbanktracimat"
+      },
+      {
+        "name": "reinhildeblondeel",
+        "affiliation": "fodfinanciën"
+      },
+      {
+        "name": "sophiebordere",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "maximbroos",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "nathaliecools",
+        "affiliation": "instituutvoornatuur-enbosonderzoek"
+      },
+      {
+        "name": "frankycoopman",
+        "affiliation": "inagrvzw"
+      },
+      {
+        "name": "marnixcoulier",
+        "affiliation": "asepticexcellencepartner"
+      },
+      {
+        "name": "patrickdebaets",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "flordecock",
+        "affiliation": "andere"
+      },
+      {
+        "name": "ywandejonghe",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "roeldekoninck",
+        "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+      },
+      {
+        "name": "sandradeloore",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "berdiendero",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "tinnekederouck",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "lievendestoppeleire",
+        "affiliation": "vrouwenvanhetalgemeenboerensyndicaat"
+      },
+      {
+        "name": "aaikedewever",
+        "affiliation": "instituutvoornatuur-enbosonderzoek"
+      },
+      {
+        "name": "filipdehaese",
+        "affiliation": "andere"
+      },
+      {
+        "name": "geertdevriese",
+        "affiliation": "andere"
+      },
+      {
+        "name": "katrijndirix",
+        "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+      },
+      {
+        "name": "stijngoolaerts",
+        "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen"
+      },
+      {
+        "name": "jentehanssens",
+        "affiliation": "grondwijzervzw"
+      },
+      {
+        "name": "stijnhuyghe",
+        "affiliation": "citizens"
+      },
+      {
+        "name": "ludovichuysentruyt",
+        "affiliation": "votquennefoundations&revyson"
+      },
+      {
+        "name": "marijkehuysmans",
+        "affiliation": "vrijeuniversiteitbrussel"
+      },
+      {
+        "name": "pieterjanhaest",
+        "affiliation": "dewatergroep"
+      },
+      {
+        "name": "tomjottier",
+        "affiliation": "studiebureauvoorbouwkundeenexpertise(sbe)nv"
+      },
+      {
+        "name": "franklavens",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "janmaertens",
+        "affiliation": "citizens"
+      },
+      {
+        "name": "willemmaetens",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "pieternieuwlaet",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "jeroennyckees",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "geertnys",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "olivierolyslaegers",
+        "affiliation": "gebo"
+      },
+      {
+        "name": "killianpaenen",
+        "affiliation": "gesolutions"
+      },
+      {
+        "name": "nadiaparidaen",
+        "affiliation": "putboringenvandeynsenv"
+      },
+      {
+        "name": "krispiessens",
+        "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen"
+      },
+      {
+        "name": "marnixpieters",
+        "affiliation": "agentschaponroerenderfgoed"
+      },
+      {
+        "name": "michaëlrens",
+        "affiliation": "bodemkundigedienstvanbelgië"
+      },
+      {
+        "name": "sofiereynaert",
+        "affiliation": "bodemkundigedienstvanbelgiëvzw"
+      },
+      {
+        "name": "liesbethrombouts",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "elisabethrutten",
+        "affiliation": "vlaamselandmaatschappij"
+      },
+      {
+        "name": "greetruysschaert",
+        "affiliation": "instituutvoorlandbouw-visserij-envoedingsonderzoek"
+      },
+      {
+        "name": "stijnscheepers",
+        "affiliation": "colasnoordnv"
+      },
+      {
+        "name": "pietseuntjens",
+        "affiliation": "citizens"
+      },
+      {
+        "name": "erwinsevens",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "franksleeuwaert",
+        "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+      },
+      {
+        "name": "koensmeets",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "rafsomers",
+        "affiliation": "tractebel–internationalmarineanddredgingconsultants"
+      },
+      {
+        "name": "brunostuyts",
+        "affiliation": "universiteitgent"
+      },
+      {
+        "name": "jorissynaeve",
+        "affiliation": "acpartners"
+      },
+      {
+        "name": "geertstimothy",
+        "affiliation": "grondwijzervzw"
+      },
+      {
+        "name": "stijnvandevondel",
+        "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin"
+      },
+      {
+        "name": "johanvandewauw",
+        "affiliation": "fluves–pydov"
+      },
+      {
+        "name": "carolinevanderheyden",
+        "affiliation": "boerenbond"
+      },
+      {
+        "name": "tomvangulck",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "geertvanhaute",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "natenvanhemelrijck",
+        "affiliation": "vanheckenv"
+      },
+      {
+        "name": "janvangestel",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "davyvanhoudt",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "jorisvermeer",
+        "affiliation": "smetgwteurope"
+      },
+      {
+        "name": "gertvermeersch",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "elisavermeulen",
+        "affiliation": "vzwgrondbank"
+      },
+      {
+        "name": "peterverspecht",
+        "affiliation": "andere"
+      },
+      {
+        "name": "woutervervaele",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "leenvincke",
+        "affiliation": "departementmobiliteitenopenbarewerken(geotechniek)"
+      },
+      {
+        "name": "mathiaswackenier",
+        "affiliation": "instituurvoornatuur-enbosonderzoek"
+      },
+      {
+        "name": "janwalstra",
+        "affiliation": "koninklijkbelgischinstituurvoornatuurwetenschappen–belgischegeologischedienst"
+      },
+      {
+        "name": "markwulfrancke",
+        "affiliation": "algemeenboerensyndicaat"
+      }
+    ],
+    "participants": [
+      {
+        "name": "chandraalgoe",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "camilleallonsius",
+        "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin"
+      },
+      {
+        "name": "ilsebaeck",
+        "affiliation": "canalcnv"
+      },
+      {
+        "name": "simonbaert",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "christineberchmans",
+        "affiliation": "grondbanktracimat"
+      },
+      {
+        "name": "reinhildeblondeel",
+        "affiliation": "fodfinanciën"
+      },
+      {
+        "name": "sophiebordere",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "maximbroos",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "nathaliecools",
+        "affiliation": "instituutvoornatuur-enbosonderzoek"
+      },
+      {
+        "name": "frankycoopman",
+        "affiliation": "inagrvzw"
+      },
+      {
+        "name": "marnixcoulier",
+        "affiliation": "asepticexcellencepartner"
+      },
+      {
+        "name": "patrickdebaets",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "flordecock",
+        "affiliation": "andere"
+      },
+      {
+        "name": "ywandejonghe",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "roeldekoninck",
+        "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+      },
+      {
+        "name": "sandradeloore",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "berdiendero",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "tinnekederouck",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "lievendestoppeleire",
+        "affiliation": "vrouwenvanhetalgemeenboerensyndicaat"
+      },
+      {
+        "name": "aaikedewever",
+        "affiliation": "instituutvoornatuur-enbosonderzoek"
+      },
+      {
+        "name": "filipdehaese",
+        "affiliation": "andere"
+      },
+      {
+        "name": "geertdevriese",
+        "affiliation": "andere"
+      },
+      {
+        "name": "katrijndirix",
+        "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+      },
+      {
+        "name": "stijngoolaerts",
+        "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen"
+      },
+      {
+        "name": "jentehanssens",
+        "affiliation": "grondwijzervzw"
+      },
+      {
+        "name": "stijnhuyghe",
+        "affiliation": "citizens"
+      },
+      {
+        "name": "ludovichuysentruyt",
+        "affiliation": "votquennefoundations&revyson"
+      },
+      {
+        "name": "marijkehuysmans",
+        "affiliation": "vrijeuniversiteitbrussel"
+      },
+      {
+        "name": "pieterjanhaest",
+        "affiliation": "dewatergroep"
+      },
+      {
+        "name": "tomjottier",
+        "affiliation": "studiebureauvoorbouwkundeenexpertise(sbe)nv"
+      },
+      {
+        "name": "franklavens",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "janmaertens",
+        "affiliation": "citizens"
+      },
+      {
+        "name": "willemmaetens",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "pieternieuwlaet",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "jeroennyckees",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "geertnys",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "olivierolyslaegers",
+        "affiliation": "gebo"
+      },
+      {
+        "name": "killianpaenen",
+        "affiliation": "gesolutions"
+      },
+      {
+        "name": "nadiaparidaen",
+        "affiliation": "putboringenvandeynsenv"
+      },
+      {
+        "name": "krispiessens",
+        "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen"
+      },
+      {
+        "name": "marnixpieters",
+        "affiliation": "agentschaponroerenderfgoed"
+      },
+      {
+        "name": "michaëlrens",
+        "affiliation": "bodemkundigedienstvanbelgië"
+      },
+      {
+        "name": "sofiereynaert",
+        "affiliation": "bodemkundigedienstvanbelgiëvzw"
+      },
+      {
+        "name": "liesbethrombouts",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "elisabethrutten",
+        "affiliation": "vlaamselandmaatschappij"
+      },
+      {
+        "name": "greetruysschaert",
+        "affiliation": "instituutvoorlandbouw-visserij-envoedingsonderzoek"
+      },
+      {
+        "name": "stijnscheepers",
+        "affiliation": "colasnoordnv"
+      },
+      {
+        "name": "pietseuntjens",
+        "affiliation": "citizens"
+      },
+      {
+        "name": "erwinsevens",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "franksleeuwaert",
+        "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+      },
+      {
+        "name": "koensmeets",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "rafsomers",
+        "affiliation": "tractebel–internationalmarineanddredgingconsultants"
+      },
+      {
+        "name": "brunostuyts",
+        "affiliation": "universiteitgent"
+      },
+      {
+        "name": "jorissynaeve",
+        "affiliation": "acpartners"
+      },
+      {
+        "name": "geertstimothy",
+        "affiliation": "grondwijzervzw"
+      },
+      {
+        "name": "stijnvandevondel",
+        "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin"
+      },
+      {
+        "name": "johanvandewauw",
+        "affiliation": "fluves–pydov"
+      },
+      {
+        "name": "carolinevanderheyden",
+        "affiliation": "boerenbond"
+      },
+      {
+        "name": "tomvangulck",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "geertvanhaute",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "natenvanhemelrijck",
+        "affiliation": "vanheckenv"
+      },
+      {
+        "name": "janvangestel",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "davyvanhoudt",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "jorisvermeer",
+        "affiliation": "smetgwteurope"
+      },
+      {
+        "name": "gertvermeersch",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "elisavermeulen",
+        "affiliation": "vzwgrondbank"
+      },
+      {
+        "name": "peterverspecht",
+        "affiliation": "andere"
+      },
+      {
+        "name": "woutervervaele",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "leenvincke",
+        "affiliation": "departementmobiliteitenopenbarewerken(geotechniek)"
+      },
+      {
+        "name": "mathiaswackenier",
+        "affiliation": "instituurvoornatuur-enbosonderzoek"
+      },
+      {
+        "name": "janwalstra",
+        "affiliation": "koninklijkbelgischinstituurvoornatuurwetenschappen–belgischegeologischedienst"
+      },
+      {
+        "name": "markwulfrancke",
+        "affiliation": "algemeenboerensyndicaat"
+      },
+      {
+        "name": "veerlebeyaert",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "dimitrischepers",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "anthonyvanheymbeeck",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "dwightvanlancker",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "martinvanbrabant",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "sabinebuyle",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "katriendenil",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "petradeproost",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "katrienoorts",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "friekesegers",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "marleenvandamme",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "veerlevanwesenbeeck",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "jasperverhaegen",
+        "affiliation": "departementomgeving"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond#Opdracht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Opdracht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#WettelijkKader",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "WettelijkKader"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Opmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Formaat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Formaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Dimensie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dimensie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "LangString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Input.referentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Output.referentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Bemonsteringsprocedure.specificatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "specificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Observatieprocedure.specificatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "specificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#opnamedatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opnamedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Bemonstering.conditie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "conditie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Bemonstering.wettelijkKader",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wettelijkKader"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Bemonstering.opdracht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opdracht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Observatieverzameling.parameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.opdracht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opdracht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.uitgevoerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Bemonsteringsprocedure.parameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Observatieprocedure.parameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Geometrie.opmeting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Opmeting.methode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "methode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Opmeting.uitgevoerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Bemonstering.uitgevoerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Bemonstering.doel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "doel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.source",
+        "label": [
+          {
+            "@value": "Observatie (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.target",
+        "label": [
+          {
+            "@value": "Observatie (target)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#metadata",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "metadata"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/UnitsOfMeasure#Measure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Maat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#PreparationStep",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Monstervoorbereiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Sampling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonstering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkBemonsteringsobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Monster"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatiecontext"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Materiaalklasse"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeatureCollection",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsobjectverzameling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingCurve#SF_SamplingCurve",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringscurve"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Platformtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#Station",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Station"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/Condition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Conditie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Procedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Process",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Proces"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Process",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BemonsteringsProces"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatieproceduretype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobjecttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/Input",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Input"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/Output",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Output"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OutputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#Trajectory",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Traject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteraartype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsobjecttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#Interval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Interval"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#Borehole",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Boorgat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#Profile",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Profiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#Traverse",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Traverse"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#Quadrat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwadraat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#MineLevel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Mijnniveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Informatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingSurface#SF_SamplingSurface",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsvlak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingSolid#SF_SamplingSolid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsterings3Dobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Opmetingmethode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/om#SamplingProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsprocedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#Section",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Doorsnede"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#Scene",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Scene"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#Swath",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zwad"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#MapHorizon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kaarthorizon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#Mine",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Mijn"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#LidarCloud",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LIDARpuntenwolk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#ObservationWell",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatieput"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsproceduretype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeemtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Sampler",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteraar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/System",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_DomainFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsdoel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/sosa/Platform",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Platform"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/SystemCapacity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeemvermogen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/SurvivalRange",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Overlevingscapaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/OperatingRange",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Werkingsbereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/om#ObservationProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatieprocedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/sosa/Sensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Sensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Metadata"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/ObservationCollection",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatieverzameling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/SystemProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeemkenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/SurvivalProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Overlevingskenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/OperatingProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Werkingskenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringspunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#Outcrop",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ontsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#Sounding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Peilpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Any"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/Device",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toestel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/Task",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/Function",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Functie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Monstertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatiecontexttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Period",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/coverage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dekking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#Curve",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Curve"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#LI_Lineage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Herkomst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_PositionalAccuracy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "PositioneleNauwkeurigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BenoemdeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwaliteitselement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#Surface",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vlak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#Point",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Punt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/gml#Solid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "3Dobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/FileFormat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bestandsformaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/PhysicalMedium",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gegevensdrager"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringspunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingCurve#SF_SamplingCurve",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringscurve"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingSurface#SF_SamplingSurface",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsvlak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Process",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BemonsteringsProces"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Procedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingSolid#SF_SamplingSolid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsterings3Dobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Process",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Proces"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door (String)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/rights",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechten"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/subject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "titel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/resultTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaattijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/source",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bron"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/hasManufacturer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fabrikant"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/hasModel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "model"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#PreparationStep.time",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#PreparationStep.processOperator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "procesoperator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.lineage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "herkomst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.parameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.positionalAccuracy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "positioneleNauwkeurigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.hostedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gehostPlatform"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fenomeentijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaattijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.validTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigeTijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaatkwaliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.materialClass",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "materiaalklasse"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bemonsteringstijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingLocation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bemonsteringsplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/hasInput",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "input"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.currentLocation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huidigeLocatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.specimenType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "monstertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.size",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "grootte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingMethod",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bemonsteringsmethode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/hasOutput",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "output"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "capaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/hasOperatingRange",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "werkingsbereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSurvivalRange",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "overlevingsbereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSystemProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/inCondition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "conditie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/inCondition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "conditie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/inCondition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "conditie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/hasOperatingProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSurvivalProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/contributor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "medeAuteur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "auteur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/publisher",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgever"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdMetsensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fenomeentijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikteProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/coverage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dekking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/format",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "formaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/hasInput",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "input"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/hasOutput",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "output"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/date",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/hasFunction",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "functie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/accomplishes",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "taak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingCurve.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/resultTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bemonsteringstijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geassocieerdeObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Domain",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domein"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Domain",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domein"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Design",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Intention",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Intentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fenomeen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo/",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verzameling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/org#reportsTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rapporteertAan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/sosa/hosts",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hostVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/isHostedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gehostDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasMember",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftLid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikteProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeSampling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdeBemonstering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeBySampler",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/implementedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geïmplementeerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/implements",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "implementeert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/isResultOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isResultaatVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bemonsterdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/implementedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geïmplementeerdMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/implements",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "implementeert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdeObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdMetSensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/observes",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "observeert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/isObservedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isGeobserveerdMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikteProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.metadata",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "metadata"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Intention",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Intentie"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "departementmobiliteitenopenbarewerken",
+        "names": [
+          {
+            "name": "chandraalgoe",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          },
+          {
+            "name": "sophiebordere",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          },
+          {
+            "name": "patrickdebaets",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          },
+          {
+            "name": "jeroennyckees",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          },
+          {
+            "name": "woutervervaele",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          }
+        ]
+      },
+      {
+        "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin",
+        "names": [
+          {
+            "name": "camilleallonsius",
+            "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin"
+          },
+          {
+            "name": "stijnvandevondel",
+            "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin"
+          }
+        ]
+      },
+      {
+        "affiliation": "canalcnv",
+        "names": [
+          {
+            "name": "ilsebaeck",
+            "affiliation": "canalcnv"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapwegenenverkeer",
+        "names": [
+          {
+            "name": "simonbaert",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "maximbroos",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "janvangestel",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "davyvanhoudt",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "gertvermeersch",
+            "affiliation": "agentschapwegenenverkeer"
+          }
+        ]
+      },
+      {
+        "affiliation": "grondbanktracimat",
+        "names": [
+          {
+            "name": "christineberchmans",
+            "affiliation": "grondbanktracimat"
+          }
+        ]
+      },
+      {
+        "affiliation": "fodfinanciën",
+        "names": [
+          {
+            "name": "reinhildeblondeel",
+            "affiliation": "fodfinanciën"
+          }
+        ]
+      },
+      {
+        "affiliation": "instituutvoornatuur-enbosonderzoek",
+        "names": [
+          {
+            "name": "nathaliecools",
+            "affiliation": "instituutvoornatuur-enbosonderzoek"
+          },
+          {
+            "name": "aaikedewever",
+            "affiliation": "instituutvoornatuur-enbosonderzoek"
+          }
+        ]
+      },
+      {
+        "affiliation": "inagrvzw",
+        "names": [
+          {
+            "name": "frankycoopman",
+            "affiliation": "inagrvzw"
+          }
+        ]
+      },
+      {
+        "affiliation": "asepticexcellencepartner",
+        "names": [
+          {
+            "name": "marnixcoulier",
+            "affiliation": "asepticexcellencepartner"
+          }
+        ]
+      },
+      {
+        "affiliation": "andere",
+        "names": [
+          {
+            "name": "flordecock",
+            "affiliation": "andere"
+          },
+          {
+            "name": "filipdehaese",
+            "affiliation": "andere"
+          },
+          {
+            "name": "geertdevriese",
+            "affiliation": "andere"
+          },
+          {
+            "name": "peterverspecht",
+            "affiliation": "andere"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamsemilieumaatschappij",
+        "names": [
+          {
+            "name": "ywandejonghe",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "tinnekederouck",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "franklavens",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "willemmaetens",
+            "affiliation": "vlaamsemilieumaatschappij"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)",
+        "names": [
+          {
+            "name": "roeldekoninck",
+            "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+          },
+          {
+            "name": "katrijndirix",
+            "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+          },
+          {
+            "name": "franksleeuwaert",
+            "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+          }
+        ]
+      },
+      {
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij",
+        "names": [
+          {
+            "name": "sandradeloore",
+            "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+          },
+          {
+            "name": "geertnys",
+            "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+          },
+          {
+            "name": "erwinsevens",
+            "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+          },
+          {
+            "name": "koensmeets",
+            "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+          }
+        ]
+      },
+      {
+        "affiliation": "geosparc",
+        "names": [
+          {
+            "name": "berdiendero",
+            "affiliation": "geosparc"
+          }
+        ]
+      },
+      {
+        "affiliation": "vrouwenvanhetalgemeenboerensyndicaat",
+        "names": [
+          {
+            "name": "lievendestoppeleire",
+            "affiliation": "vrouwenvanhetalgemeenboerensyndicaat"
+          }
+        ]
+      },
+      {
+        "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen",
+        "names": [
+          {
+            "name": "stijngoolaerts",
+            "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen"
+          },
+          {
+            "name": "krispiessens",
+            "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen"
+          }
+        ]
+      },
+      {
+        "affiliation": "grondwijzervzw",
+        "names": [
+          {
+            "name": "jentehanssens",
+            "affiliation": "grondwijzervzw"
+          },
+          {
+            "name": "geertstimothy",
+            "affiliation": "grondwijzervzw"
+          }
+        ]
+      },
+      {
+        "affiliation": "citizens",
+        "names": [
+          {
+            "name": "stijnhuyghe",
+            "affiliation": "citizens"
+          },
+          {
+            "name": "janmaertens",
+            "affiliation": "citizens"
+          },
+          {
+            "name": "pietseuntjens",
+            "affiliation": "citizens"
+          }
+        ]
+      },
+      {
+        "affiliation": "votquennefoundations&revyson",
+        "names": [
+          {
+            "name": "ludovichuysentruyt",
+            "affiliation": "votquennefoundations&revyson"
+          }
+        ]
+      },
+      {
+        "affiliation": "vrijeuniversiteitbrussel",
+        "names": [
+          {
+            "name": "marijkehuysmans",
+            "affiliation": "vrijeuniversiteitbrussel"
+          }
+        ]
+      },
+      {
+        "affiliation": "dewatergroep",
+        "names": [
+          {
+            "name": "pieterjanhaest",
+            "affiliation": "dewatergroep"
+          }
+        ]
+      },
+      {
+        "affiliation": "studiebureauvoorbouwkundeenexpertise(sbe)nv",
+        "names": [
+          {
+            "name": "tomjottier",
+            "affiliation": "studiebureauvoorbouwkundeenexpertise(sbe)nv"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgent",
+        "names": [
+          {
+            "name": "pieternieuwlaet",
+            "affiliation": "stadgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "gebo",
+        "names": [
+          {
+            "name": "olivierolyslaegers",
+            "affiliation": "gebo"
+          }
+        ]
+      },
+      {
+        "affiliation": "gesolutions",
+        "names": [
+          {
+            "name": "killianpaenen",
+            "affiliation": "gesolutions"
+          }
+        ]
+      },
+      {
+        "affiliation": "putboringenvandeynsenv",
+        "names": [
+          {
+            "name": "nadiaparidaen",
+            "affiliation": "putboringenvandeynsenv"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschaponroerenderfgoed",
+        "names": [
+          {
+            "name": "marnixpieters",
+            "affiliation": "agentschaponroerenderfgoed"
+          }
+        ]
+      },
+      {
+        "affiliation": "bodemkundigedienstvanbelgië",
+        "names": [
+          {
+            "name": "michaëlrens",
+            "affiliation": "bodemkundigedienstvanbelgië"
+          }
+        ]
+      },
+      {
+        "affiliation": "bodemkundigedienstvanbelgiëvzw",
+        "names": [
+          {
+            "name": "sofiereynaert",
+            "affiliation": "bodemkundigedienstvanbelgiëvzw"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvaanderen",
+        "names": [
+          {
+            "name": "liesbethrombouts",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "veerlebeyaert",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "rafbuyle",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "dimitrischepers",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "geertthijs",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "anthonyvanheymbeeck",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "dwightvanlancker",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "martinvanbrabant",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "ziggyvanlishout",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "laurensvercauteren",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "evelinevlassenroot",
+            "affiliation": "digitaalvaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamselandmaatschappij",
+        "names": [
+          {
+            "name": "elisabethrutten",
+            "affiliation": "vlaamselandmaatschappij"
+          }
+        ]
+      },
+      {
+        "affiliation": "instituutvoorlandbouw-visserij-envoedingsonderzoek",
+        "names": [
+          {
+            "name": "greetruysschaert",
+            "affiliation": "instituutvoorlandbouw-visserij-envoedingsonderzoek"
+          }
+        ]
+      },
+      {
+        "affiliation": "colasnoordnv",
+        "names": [
+          {
+            "name": "stijnscheepers",
+            "affiliation": "colasnoordnv"
+          }
+        ]
+      },
+      {
+        "affiliation": "tractebel–internationalmarineanddredgingconsultants",
+        "names": [
+          {
+            "name": "rafsomers",
+            "affiliation": "tractebel–internationalmarineanddredgingconsultants"
+          }
+        ]
+      },
+      {
+        "affiliation": "universiteitgent",
+        "names": [
+          {
+            "name": "brunostuyts",
+            "affiliation": "universiteitgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "acpartners",
+        "names": [
+          {
+            "name": "jorissynaeve",
+            "affiliation": "acpartners"
+          }
+        ]
+      },
+      {
+        "affiliation": "fluves–pydov",
+        "names": [
+          {
+            "name": "johanvandewauw",
+            "affiliation": "fluves–pydov"
+          }
+        ]
+      },
+      {
+        "affiliation": "boerenbond",
+        "names": [
+          {
+            "name": "carolinevanderheyden",
+            "affiliation": "boerenbond"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementomgeving",
+        "names": [
+          {
+            "name": "tomvangulck",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "geertvanhaute",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "sabinebuyle",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "katriendenil",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "petradeproost",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "katrienoorts",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "friekesegers",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "marleenvandamme",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "veerlevanwesenbeeck",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "jasperverhaegen",
+            "affiliation": "departementomgeving"
+          }
+        ]
+      },
+      {
+        "affiliation": "vanheckenv",
+        "names": [
+          {
+            "name": "natenvanhemelrijck",
+            "affiliation": "vanheckenv"
+          }
+        ]
+      },
+      {
+        "affiliation": "smetgwteurope",
+        "names": [
+          {
+            "name": "jorisvermeer",
+            "affiliation": "smetgwteurope"
+          }
+        ]
+      },
+      {
+        "affiliation": "vzwgrondbank",
+        "names": [
+          {
+            "name": "elisavermeulen",
+            "affiliation": "vzwgrondbank"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementmobiliteitenopenbarewerken(geotechniek)",
+        "names": [
+          {
+            "name": "leenvincke",
+            "affiliation": "departementmobiliteitenopenbarewerken(geotechniek)"
+          }
+        ]
+      },
+      {
+        "affiliation": "instituurvoornatuur-enbosonderzoek",
+        "names": [
+          {
+            "name": "mathiaswackenier",
+            "affiliation": "instituurvoornatuur-enbosonderzoek"
+          }
+        ]
+      },
+      {
+        "affiliation": "koninklijkbelgischinstituurvoornatuurwetenschappen–belgischegeologischedienst",
+        "names": [
+          {
+            "name": "janwalstra",
+            "affiliation": "koninklijkbelgischinstituurvoornatuurwetenschappen–belgischegeologischedienst"
+          }
+        ]
+      },
+      {
+        "affiliation": "algemeenboerensyndicaat",
+        "names": [
+          {
+            "name": "markwulfrancke",
+            "affiliation": "algemeenboerensyndicaat"
+          }
+        ]
+      }
+    ]
+  }
+}
