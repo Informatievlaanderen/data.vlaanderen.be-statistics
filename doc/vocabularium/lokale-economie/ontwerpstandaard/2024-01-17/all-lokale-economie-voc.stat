@@ -1,0 +1,2765 @@
+{
+  "title": "Lokale Economie - Vocabularium",
+  "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17",
+  "issued": "2024-01-17",
+  "navigation": {
+    "self": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  "documenttype": "voc",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
+  "namespaces": [
+    "https://data.vlaanderen.be/ns/lokale-economie",
+    "https://def.isotc211.org/iso19156/2011/Observation",
+    "http://www.w3.org/2004/02/skos/core",
+    "https://schema.org",
+    "http://def.isotc211.org/iso19156/2011/Observation",
+    "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
+    "http://www.w3.org/ns/org",
+    "http://purl.org/dc/terms",
+    "https://data.vlaanderen.be/ns/verkeersmetingen",
+    "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
+    "http://www.cidoc-crm.org/cidoc-crm",
+    "https://data.vlaanderen.be/ns/persoon",
+    "http://www.w3.org/ns/person",
+    "https://data.vlaanderen.be/ns/RuimtelijkPlannen",
+    "https://data.vlaanderen.be/ns/adres",
+    "http://xmlns.com/foaf/0.1",
+    "https://data.vlaanderen.be/ns/persoon#",
+    "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/2006/vcard/ns",
+    "http://schema.org",
+    "https://data.vlaanderen.be/ns/generiek",
+    "https://data.vlaanderen.be/ns/organisatie",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/2006/time",
+    "https://www.w3.org/ns/prov",
+    "https://data.vlaanderen.be/ns/cultuurparticipatie",
+    "http://www.w3.org/ns/adms",
+    "http://todo.com",
+    "http://data.europa.eu/m8g",
+    "https://data.vlaanderen.be/ns/observaties-en-metingen",
+    "https://www.w3.org/ns/org",
+    "https://data.vlaanderen.be/ns/financiele-data",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/ns/prov",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://def.isotc211.org/iso19108/2006/TemporalObjects",
+    "http://def.isotc211.org/iso19115/2006/DataQualityInformation"
+  ],
+  "authors": 6,
+  "editors": 7,
+  "contributors": 31,
+  "participants": 44,
+  "classes": 32,
+  "properties": 49,
+  "externalclasses": 59,
+  "externalproperties": 75,
+  "totalterms": 215,
+  "totalorganisations": 26,
+  "organisations": [
+    {
+      "affiliation": "crowdscan",
+      "participants": 1
+    },
+    {
+      "affiliation": "proximus",
+      "participants": 2
+    },
+    {
+      "affiliation": "thomasmorekempenvzw(cebud)",
+      "participants": 1
+    },
+    {
+      "affiliation": "citymeshnv",
+      "participants": 2
+    },
+    {
+      "affiliation": "provincialeontwikkelingsmaatschappijwest-vlaanderen",
+      "participants": 2
+    },
+    {
+      "affiliation": "stadleuven",
+      "participants": 3
+    },
+    {
+      "affiliation": "provincielimburg",
+      "participants": 1
+    },
+    {
+      "affiliation": "provincieoost-vlaanderen",
+      "participants": 2
+    },
+    {
+      "affiliation": "stadgent",
+      "participants": 1
+    },
+    {
+      "affiliation": "staddiksmuide",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadmenen",
+      "participants": 1
+    },
+    {
+      "affiliation": "vinotionb.v.",
+      "participants": 1
+    },
+    {
+      "affiliation": "toerismevlaanderen",
+      "participants": 2
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 8
+    },
+    {
+      "affiliation": "provincieantwerpen",
+      "participants": 2
+    },
+    {
+      "affiliation": "thomasmoremechelen/antwerpen",
+      "participants": 2
+    },
+    {
+      "affiliation": "cropland",
+      "participants": 1
+    },
+    {
+      "affiliation": "gemeenteoostkamp",
+      "participants": 1
+    },
+    {
+      "affiliation": "theretailfactory",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadantwerpen",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadbrugge",
+      "participants": 1
+    },
+    {
+      "affiliation": "geosolutions",
+      "participants": 1
+    },
+    {
+      "affiliation": "kernpunt",
+      "participants": 2
+    },
+    {
+      "affiliation": "agentschapinnoverenenondernemen",
+      "participants": 1
+    },
+    {
+      "affiliation": "economischhuisoostende",
+      "participants": 2
+    },
+    {
+      "affiliation": "stadmechelen",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "liederikcordonni",
+        "affiliation": "kernpunt"
+      },
+      {
+        "name": "bopeeters",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "bjornpintelon",
+        "affiliation": "economischhuisoostende"
+      },
+      {
+        "name": "sandrineraskin",
+        "affiliation": "stadmechelen"
+      },
+      {
+        "name": "frederiksack",
+        "affiliation": "provincialeontwikkelingsmaatschappijwest-vlaanderen"
+      },
+      {
+        "name": "jokevangheluwe",
+        "affiliation": "economischhuisoostende"
+      }
+    ],
+    "editors": [
+      {
+        "name": "rafbuylle",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "yarondassonneville",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "liesbethvanderhaegen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "louiseysewijn",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "benbellekens",
+        "affiliation": "crowdscan"
+      },
+      {
+        "name": "jasperbotterman",
+        "affiliation": "proximus"
+      },
+      {
+        "name": "marijkebrants",
+        "affiliation": "thomasmorekempenvzw(cebud)"
+      },
+      {
+        "name": "bartcouvreur",
+        "affiliation": "citymeshnv"
+      },
+      {
+        "name": "anneliesdemeyere",
+        "affiliation": "provincialeontwikkelingsmaatschappijwest-vlaanderen"
+      },
+      {
+        "name": "driesdesagher",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "célinedirickx",
+        "affiliation": "provincielimburg"
+      },
+      {
+        "name": "pieter-janfieremans",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "christophegeernaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "timguily",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "laurenshooghe",
+        "affiliation": "staddiksmuide"
+      },
+      {
+        "name": "roelandhouttekiet",
+        "affiliation": "stadmenen"
+      },
+      {
+        "name": "azemkariman",
+        "affiliation": "vinotionb.v."
+      },
+      {
+        "name": "mialammens",
+        "affiliation": "toerismevlaanderen"
+      },
+      {
+        "name": "joshuamoerman",
+        "affiliation": "proximus"
+      },
+      {
+        "name": "justineottevaere",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jospyck",
+        "affiliation": "toerismevlaanderen"
+      },
+      {
+        "name": "kristofschroons",
+        "affiliation": "provincieantwerpen"
+      },
+      {
+        "name": "evelinesmolders",
+        "affiliation": "thomasmoremechelen/antwerpen"
+      },
+      {
+        "name": "vincentthielman",
+        "affiliation": "cropland"
+      },
+      {
+        "name": "fabiennevalcke",
+        "affiliation": "gemeenteoostkamp"
+      },
+      {
+        "name": "joachimvandenbergh",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "sennevanhoof",
+        "affiliation": "provincieantwerpen"
+      },
+      {
+        "name": "lucvanrompaey",
+        "affiliation": "theretailfactory"
+      },
+      {
+        "name": "jessyvanstrydonck",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "idevandenbroucke",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "svenvanderhaegen",
+        "affiliation": "geosolutions"
+      },
+      {
+        "name": "ferrevandervreken",
+        "affiliation": "thomasmoremechelen/antwerpen"
+      },
+      {
+        "name": "justinevanneste",
+        "affiliation": "kernpunt"
+      },
+      {
+        "name": "nilswalravens",
+        "affiliation": "agentschapinnoverenenondernemen"
+      },
+      {
+        "name": "pimwittesaele",
+        "affiliation": "citymeshnv"
+      }
+    ],
+    "participants": [
+      {
+        "name": "benbellekens",
+        "affiliation": "crowdscan"
+      },
+      {
+        "name": "jasperbotterman",
+        "affiliation": "proximus"
+      },
+      {
+        "name": "marijkebrants",
+        "affiliation": "thomasmorekempenvzw(cebud)"
+      },
+      {
+        "name": "bartcouvreur",
+        "affiliation": "citymeshnv"
+      },
+      {
+        "name": "anneliesdemeyere",
+        "affiliation": "provincialeontwikkelingsmaatschappijwest-vlaanderen"
+      },
+      {
+        "name": "driesdesagher",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "célinedirickx",
+        "affiliation": "provincielimburg"
+      },
+      {
+        "name": "pieter-janfieremans",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "christophegeernaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "timguily",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "laurenshooghe",
+        "affiliation": "staddiksmuide"
+      },
+      {
+        "name": "roelandhouttekiet",
+        "affiliation": "stadmenen"
+      },
+      {
+        "name": "azemkariman",
+        "affiliation": "vinotionb.v."
+      },
+      {
+        "name": "mialammens",
+        "affiliation": "toerismevlaanderen"
+      },
+      {
+        "name": "joshuamoerman",
+        "affiliation": "proximus"
+      },
+      {
+        "name": "justineottevaere",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jospyck",
+        "affiliation": "toerismevlaanderen"
+      },
+      {
+        "name": "kristofschroons",
+        "affiliation": "provincieantwerpen"
+      },
+      {
+        "name": "evelinesmolders",
+        "affiliation": "thomasmoremechelen/antwerpen"
+      },
+      {
+        "name": "vincentthielman",
+        "affiliation": "cropland"
+      },
+      {
+        "name": "fabiennevalcke",
+        "affiliation": "gemeenteoostkamp"
+      },
+      {
+        "name": "joachimvandenbergh",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "sennevanhoof",
+        "affiliation": "provincieantwerpen"
+      },
+      {
+        "name": "lucvanrompaey",
+        "affiliation": "theretailfactory"
+      },
+      {
+        "name": "jessyvanstrydonck",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "idevandenbroucke",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "svenvanderhaegen",
+        "affiliation": "geosolutions"
+      },
+      {
+        "name": "ferrevandervreken",
+        "affiliation": "thomasmoremechelen/antwerpen"
+      },
+      {
+        "name": "justinevanneste",
+        "affiliation": "kernpunt"
+      },
+      {
+        "name": "nilswalravens",
+        "affiliation": "agentschapinnoverenenondernemen"
+      },
+      {
+        "name": "pimwittesaele",
+        "affiliation": "citymeshnv"
+      },
+      {
+        "name": "rafbuylle",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "yarondassonneville",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "liesbethvanderhaegen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "louiseysewijn",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "liederikcordonni",
+        "affiliation": "kernpunt"
+      },
+      {
+        "name": "bopeeters",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "bjornpintelon",
+        "affiliation": "economischhuisoostende"
+      },
+      {
+        "name": "sandrineraskin",
+        "affiliation": "stadmechelen"
+      },
+      {
+        "name": "frederiksack",
+        "affiliation": "provincialeontwikkelingsmaatschappijwest-vlaanderen"
+      },
+      {
+        "name": "jokevangheluwe",
+        "affiliation": "economischhuisoostende"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Transactie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transactie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Druktemeting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Druktemeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Verkoopmeting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkoopmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Aankooplijn",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aankooplijn"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Omgevingskenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Omgevingskenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Verkoopkenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkoopkenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#Verkeersobject",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "TrafficObject"
+          },
+          {
+            "@language": "nl",
+            "@value": "Verkeersobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Verblijfplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verblijfplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Bezoekersgebied",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bezoekersgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Handelszaak",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Handelszaak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Druktekenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Druktekenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Omgevingsobservatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OmgevingsObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkPlannen#RuimtelijkObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Belgisch Adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#HerkomstType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "HerkomstType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Profiel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Profiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/financiele-data#Monetair",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Monetair"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkPlannen#DirecteLocatieAanduiding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DirecteLocatieAanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Standaard Eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#SocioDemografischProfiel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "SocioDemografischProfiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Organisatieprofiel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatieprofiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkPlannen#IndirecteLocatieAanduiding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "IndirecteLocatieAanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#duration",
+        "label": [
+          {
+            "@value": "Duration"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+        "label": [
+          {
+            "@value": "Date"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#time",
+        "label": [
+          {
+            "@value": "Time"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkPlannen#RuimtelijkObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gestructureerde Identificator"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#aantal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aantal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#/Geboortejaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geboortejaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Betaling.tijdstip",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#duur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "duur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#perSetpositie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "perSetpositie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#openingsuren",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "openingsuren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#klantenkaart",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "klantenkaart"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Gebeurtenis.tijdstip",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#koperprofiel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "koperprofiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#bezoekersProfiel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bezoekersprofiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#aantalWerknemers",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aantalWerknemers"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#organisatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Activiteit.doelgroep",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "doelgroep"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#ingerichtDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ingerichtDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#geslacht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#betaalmethode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "betaalmethode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#koperprofiel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "koperprofiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#bezoekersProfiel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bezoekersprofiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#gestructureerdeIdentificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gestructureerdeIdentificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#bedrijfsgrootte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bedrijfsgrootte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#affiliatietype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "affiliatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#profiel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "profiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#profielinfo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "profielinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#inkomensklasse",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inkomensklasse"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#leeftijdsgroep",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "leeftijdsgroep"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#onderwijsniveau",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderwijsniveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#herkomstType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "herkomsttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#herkomstType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "herkomsttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#betaling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "betaling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#transactie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "transactie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#aankooplijn",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aankooplijn"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#transactie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "transactie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres.verwijstNaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwijst naar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.verwijstNaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwijst naar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#superactiviteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "superactiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#subactiviteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "subactiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#verhoudtZichTot",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verhoudt zich tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#ActiviteitVerhouding.activiteit.source",
+        "label": [
+          {
+            "@value": "Activiteit (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#ActiviteitVerhouding.activiteit.target",
+        "label": [
+          {
+            "@value": "Activiteit (target)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Object.waardeverschaffer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waardeverschaffer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftRelatieMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
+        "label": [
+          {
+            "@value": "Persoon (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
+        "label": [
+          {
+            "@value": "Persoon (target)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.source",
+        "label": [
+          {
+            "@value": "Observatie (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.target",
+        "label": [
+          {
+            "@value": "Observatie (target)"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "https://def.isotc211.org/iso19156/2011/Observation#ObservationContext",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ObservatieContext"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ProductcategorieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/MoneyTransfer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Betaling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BezoekersprofielType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BetaalmethodeType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AantalWerknemers"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TransactieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ActiviteitType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GebeurtenisType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Site",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_DomainFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Event",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebeurtenis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "VerkoopkenmerkType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DoelgroepType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DruktekenmerkType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OmgevingskenmerkType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BezoekersgebiedType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gezinssamenstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Product",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Product"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OrganisatieClassificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Klantenkaart"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bedrijfsgrootte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Affilatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inkomensklasse"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leeftijdsgroep"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Onderwijsniveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwantitatieve Waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Number",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Schedule",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdschema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/OpeningHoursSpecification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openingsurenspecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/RuimtelijkObject",
+        "label": [
+          {
+            "@value": "RuimtelijkObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Site",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Domeinobject",
+        "label": [
+          {
+            "@value": "Domeinobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieClassificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Activiteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BenoemdeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Any"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwaliteitselement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geografische Naam"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "familienaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitText",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "als GML"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "als WKT"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "notatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgegeven"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gegevenNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "productbeschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaatsnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanschrijfprefix"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/email",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "email"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/faxNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "faxnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/openingHours",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "openingsuren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/telephone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telefoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/page",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "pagina"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/repeatCount",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aantalHerhalingen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/endDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einddatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eindtijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/repeatFrequency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "frequentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/byDay",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "perDag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/byMonthDay",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "perDagVanDeMaand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/byMonth",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "perMaand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/startDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "startdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/startTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "starttijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/exceptDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitzonderingsdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "titel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/validThrough",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldig tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/validFrom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldig van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/closes",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gesloten"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/opens",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "open"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inXSDDateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/dayOfWeek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dag van de week"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/amount",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bedrag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/prov#atLocation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#classification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "classificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/customer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fenomeentijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaatkwaliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaard eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "maker"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekendDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/category",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "productcategorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/seller",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdBij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/source",
+        "label": [
+          {
+            "@value": "source"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/target",
+        "label": [
+          {
+            "@value": "target"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasRegisteredSite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftGeregistreerdeVestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasRegisteredSite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftGeregistreerdeVestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasPrimarySite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftPrimaireVestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasPrimarySite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftPrimaireVestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasSubOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftSuborganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#linkedTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gelinktMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasSite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftVestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasSite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftVestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "suborganisatieVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasNextEvent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftVolgendeActiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasPreviousEvent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftVorigeActiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fenomeen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/org#reportsTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rapporteertAan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geassocieerdeObservatie"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "crowdscan",
+        "names": [
+          {
+            "name": "benbellekens",
+            "affiliation": "crowdscan"
+          }
+        ]
+      },
+      {
+        "affiliation": "proximus",
+        "names": [
+          {
+            "name": "jasperbotterman",
+            "affiliation": "proximus"
+          },
+          {
+            "name": "joshuamoerman",
+            "affiliation": "proximus"
+          }
+        ]
+      },
+      {
+        "affiliation": "thomasmorekempenvzw(cebud)",
+        "names": [
+          {
+            "name": "marijkebrants",
+            "affiliation": "thomasmorekempenvzw(cebud)"
+          }
+        ]
+      },
+      {
+        "affiliation": "citymeshnv",
+        "names": [
+          {
+            "name": "bartcouvreur",
+            "affiliation": "citymeshnv"
+          },
+          {
+            "name": "pimwittesaele",
+            "affiliation": "citymeshnv"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincialeontwikkelingsmaatschappijwest-vlaanderen",
+        "names": [
+          {
+            "name": "anneliesdemeyere",
+            "affiliation": "provincialeontwikkelingsmaatschappijwest-vlaanderen"
+          },
+          {
+            "name": "frederiksack",
+            "affiliation": "provincialeontwikkelingsmaatschappijwest-vlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadleuven",
+        "names": [
+          {
+            "name": "driesdesagher",
+            "affiliation": "stadleuven"
+          },
+          {
+            "name": "timguily",
+            "affiliation": "stadleuven"
+          },
+          {
+            "name": "bopeeters",
+            "affiliation": "stadleuven"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincielimburg",
+        "names": [
+          {
+            "name": "célinedirickx",
+            "affiliation": "provincielimburg"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincieoost-vlaanderen",
+        "names": [
+          {
+            "name": "pieter-janfieremans",
+            "affiliation": "provincieoost-vlaanderen"
+          },
+          {
+            "name": "joachimvandenbergh",
+            "affiliation": "provincieoost-vlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgent",
+        "names": [
+          {
+            "name": "christophegeernaert",
+            "affiliation": "stadgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "staddiksmuide",
+        "names": [
+          {
+            "name": "laurenshooghe",
+            "affiliation": "staddiksmuide"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadmenen",
+        "names": [
+          {
+            "name": "roelandhouttekiet",
+            "affiliation": "stadmenen"
+          }
+        ]
+      },
+      {
+        "affiliation": "vinotionb.v.",
+        "names": [
+          {
+            "name": "azemkariman",
+            "affiliation": "vinotionb.v."
+          }
+        ]
+      },
+      {
+        "affiliation": "toerismevlaanderen",
+        "names": [
+          {
+            "name": "mialammens",
+            "affiliation": "toerismevlaanderen"
+          },
+          {
+            "name": "jospyck",
+            "affiliation": "toerismevlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "justineottevaere",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "rafbuylle",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "yarondassonneville",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "geertthijs",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "liesbethvanderhaegen",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "laurensvercauteren",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "evelinevlassenroot",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "louiseysewijn",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincieantwerpen",
+        "names": [
+          {
+            "name": "kristofschroons",
+            "affiliation": "provincieantwerpen"
+          },
+          {
+            "name": "sennevanhoof",
+            "affiliation": "provincieantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "thomasmoremechelen/antwerpen",
+        "names": [
+          {
+            "name": "evelinesmolders",
+            "affiliation": "thomasmoremechelen/antwerpen"
+          },
+          {
+            "name": "ferrevandervreken",
+            "affiliation": "thomasmoremechelen/antwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "cropland",
+        "names": [
+          {
+            "name": "vincentthielman",
+            "affiliation": "cropland"
+          }
+        ]
+      },
+      {
+        "affiliation": "gemeenteoostkamp",
+        "names": [
+          {
+            "name": "fabiennevalcke",
+            "affiliation": "gemeenteoostkamp"
+          }
+        ]
+      },
+      {
+        "affiliation": "theretailfactory",
+        "names": [
+          {
+            "name": "lucvanrompaey",
+            "affiliation": "theretailfactory"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadantwerpen",
+        "names": [
+          {
+            "name": "jessyvanstrydonck",
+            "affiliation": "stadantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadbrugge",
+        "names": [
+          {
+            "name": "idevandenbroucke",
+            "affiliation": "stadbrugge"
+          }
+        ]
+      },
+      {
+        "affiliation": "geosolutions",
+        "names": [
+          {
+            "name": "svenvanderhaegen",
+            "affiliation": "geosolutions"
+          }
+        ]
+      },
+      {
+        "affiliation": "kernpunt",
+        "names": [
+          {
+            "name": "justinevanneste",
+            "affiliation": "kernpunt"
+          },
+          {
+            "name": "liederikcordonni",
+            "affiliation": "kernpunt"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapinnoverenenondernemen",
+        "names": [
+          {
+            "name": "nilswalravens",
+            "affiliation": "agentschapinnoverenenondernemen"
+          }
+        ]
+      },
+      {
+        "affiliation": "economischhuisoostende",
+        "names": [
+          {
+            "name": "bjornpintelon",
+            "affiliation": "economischhuisoostende"
+          },
+          {
+            "name": "jokevangheluwe",
+            "affiliation": "economischhuisoostende"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadmechelen",
+        "names": [
+          {
+            "name": "sandrineraskin",
+            "affiliation": "stadmechelen"
+          }
+        ]
+      }
+    ]
+  }
+}

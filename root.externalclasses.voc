@@ -1,5 +1,591 @@
 [
   {
+    "assignedURI": "https://def.isotc211.org/iso19156/2011/Observation#ObservationContext",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "ObservatieContext"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "ProductcategorieType"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "https://schema.org/MoneyTransfer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Betaling"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "BezoekersprofielType"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Observatie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "BetaalmethodeType"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Kenmerktype"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "AantalWerknemers"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "TransactieType"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "ActiviteitType"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GebeurtenisType"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/org#Organization",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Organisatie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/Agent",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Agent"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/org#Site",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Vestiging"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_DomainFeature",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Domeinobject"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Activiteit"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "https://schema.org/Event",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Gebeurtenis"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "VerkoopkenmerkType"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "DoelgroepType"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/person#Person",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Persoon"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "DruktekenmerkType"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "OmgevingskenmerkType"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "BezoekersgebiedType"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Gezinssamenstelling"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "https://schema.org/Product",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Product"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "OrganisatieClassificatie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Klantenkaart"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/Location",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Plaats"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Bedrijfsgrootte"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Affilatietype"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Inkomensklasse"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Leeftijdsgroep"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Onderwijsniveau"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Taalstring"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "https://schema.org/QuantitativeValue",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Kwantitatieve Waarde"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Geometrie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Identificator"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://schema.org/ContactPoint",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Contactinfo"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/prov#Location",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Locatie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "https://schema.org/Number",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Getal"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "https://schema.org/Schedule",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Tijdschema"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#Address",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Adresvoorstelling"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#Instant",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Moment"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "TemporeleEntiteit"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Periode"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://schema.org/OpeningHoursSpecification",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Openingsurenspecificatie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://todo.com/RuimtelijkObject",
+    "label": [
+      {
+        "@value": "RuimtelijkObject"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/org#Site",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Vestiging"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://todo.com/Domeinobject",
+    "label": [
+      {
+        "@value": "Domeinobject"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "OrganisatieClassificatie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Activiteittype"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "Geslacht"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "TemporeleEntiteit"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "BenoemdeWaarde"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Any"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Kwaliteitselement"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Observatietype"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Getypeerde String"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
+    "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Geografische Naam"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/lokale-economie/ontwerpstandaard/2024-01-17"
+  },
+  {
     "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCoverage",
     "label": [
       {
@@ -628,5 +1214,273 @@
       }
     ],
     "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/observaties-en-metingen/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/org#Organization",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Organisatie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://data.europa.eu/m8g/PublicOrganisation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Publieke Organisatie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://data.europa.eu/eli/ontology#LegalResource",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Rechtsgrond"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://xmlns.com/foaf/0.1/Document",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Document"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#Feature",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Feature"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Resource"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/person#Person",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Persoon"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://dbpedia.org/ontology/Case",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Zaak"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Vlarem Rubriek"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#TemporalDuration",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Tijdsduur"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Tijdsinterval"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Datum"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#Instant",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Tijdstip"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Concept"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/Agent",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Agent"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Identificator"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Informatieclassificatie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://schema.org/ContactPoint",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Contactpunt"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "taalstring"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Juridische Categorie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://data.europa.eu/eli/ontology#ResourceType",
+    "label": [
+      {
+        "@value": "ResourceType"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#Geometry",
+    "label": [
+      {
+        "@value": "Geometrie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#Address",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Adresvoorstelling"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/Location",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Plaats"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "DateTime"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/prov#Location",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Locatie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Zaakhandeling Type"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/vocabularium/omgevingsvergunning/erkendestandaard/2024-11-07"
   }
 ]
