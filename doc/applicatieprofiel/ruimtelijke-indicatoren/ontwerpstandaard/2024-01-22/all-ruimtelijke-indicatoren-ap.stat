@@ -1,0 +1,1376 @@
+{
+  "title": "Ruimtelijke Indicatoren - Applicatieprofiel",
+  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/ruimtelijke-indicatoren/ontwerpstandaard/2024-01-22",
+  "issued": "2024-01-22",
+  "navigation": {
+    "next": "/doc/applicatieprofiel/ruimtelijke-indicatoren/kandidaatstandaard/2024-03-21",
+    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/ruimtelijke-indicatoren/ontwerpstandaard/2024-01-22"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
+  "namespaces": [
+    "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
+    "http://def.isotc211.org/iso19156/2011GeneralFeatureInstance",
+    "http://www.w3.org/ns/org",
+    "http://purl.org/dc/terms",
+    "http://www.w3.org/ns/person",
+    "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation",
+    "http://www.w3.org/ns/sosa",
+    "http://todo.com",
+    "http://www.w3.org/ns/ssn",
+    "http://def.isotc211.org/iso19156/2011/CountObservation",
+    "http://def.isotc211.org/iso19156/2011/Observation",
+    "http://def.isotc211.org/iso19156/2011/CategoryObservation",
+    "http://def.isotc211.org/iso19156/2011/Measurement",
+    "http://def.isotc211.org/iso19156/2011/TruthObservation",
+    "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://xmlns.com/foaf/0.1",
+    "http://purl.org/dc/elements/1.1",
+    "http://www.w3.org/ns/adms",
+    "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
+    "http://www.w3.org/ns/regorg",
+    "https://data.vlaanderen.be/ns/observaties-en-metingen",
+    "http://www.w3.org/ns/prov",
+    "http://www.w3.org/ns/locn",
+    "http://def.isotc211.org/iso19108/2006/TemporalObjects",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://def.isotc211.org/iso19103/2005/Names",
+    "http://def.isotc211.org/iso19103/2005/UnitsOfMeasure",
+    "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata",
+    "http://def.isotc211.org/iso19115/2006/DataQualityInformation"
+  ],
+  "authors": 7,
+  "editors": 9,
+  "contributors": 14,
+  "participants": 30,
+  "classes": 17,
+  "properties": 10,
+  "externalclasses": 33,
+  "externalproperties": 31,
+  "totalterms": 91,
+  "totalorganisations": 12,
+  "organisations": [
+    {
+      "affiliation": "district09",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementomgeving",
+      "participants": 3
+    },
+    {
+      "affiliation": "provinciewest-vlaanderen",
+      "participants": 1
+    },
+    {
+      "affiliation": "provincievlaams-brabant",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadmechelen",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschaplandbouwenvisserij",
+      "participants": 1
+    },
+    {
+      "affiliation": "intercommunaleleiedal",
+      "participants": 5
+    },
+    {
+      "affiliation": "vito",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadantwerpen",
+      "participants": 3
+    },
+    {
+      "affiliation": "kenniscentrumvlaamsesteden",
+      "participants": 1
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 9
+    },
+    {
+      "affiliation": "stadgent",
+      "participants": 3
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "jangodderis",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "thomasgoemaere",
+        "affiliation": "intercommunaleleiedal"
+      },
+      {
+        "name": "dieternieuwborg",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "kimpaduwat",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "bramtack",
+        "affiliation": "intercommunaleleiedal"
+      },
+      {
+        "name": "lucasverbanck",
+        "affiliation": "intercommunaleleiedal"
+      },
+      {
+        "name": "ingewydhooge",
+        "affiliation": "intercommunaleleiedal"
+      }
+    ],
+    "editors": [
+      {
+        "name": "louiseysewijn",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "veerlebeyaert",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "vincentferemans",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "liesbethvanderhaegen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "anbernaert",
+        "affiliation": "district09"
+      },
+      {
+        "name": "wouterbrems",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "hildecoudenys",
+        "affiliation": "provinciewest-vlaanderen"
+      },
+      {
+        "name": "tomdebruyn",
+        "affiliation": "provincievlaams-brabant"
+      },
+      {
+        "name": "stephaniededeken",
+        "affiliation": "stadmechelen"
+      },
+      {
+        "name": "bartlaridon",
+        "affiliation": "agentschaplandbouwenvisserij"
+      },
+      {
+        "name": "davidlingier",
+        "affiliation": "intercommunaleleiedal"
+      },
+      {
+        "name": "lienpoelmans",
+        "affiliation": "vito"
+      },
+      {
+        "name": "virgesmets",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "hansvandenberg",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "gertvanoost",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "heidivandenbroecke",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "jorisvoets",
+        "affiliation": "kenniscentrumvlaamsesteden"
+      },
+      {
+        "name": "peterwillems",
+        "affiliation": "departementomgeving"
+      }
+    ],
+    "participants": [
+      {
+        "name": "anbernaert",
+        "affiliation": "district09"
+      },
+      {
+        "name": "wouterbrems",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "hildecoudenys",
+        "affiliation": "provinciewest-vlaanderen"
+      },
+      {
+        "name": "tomdebruyn",
+        "affiliation": "provincievlaams-brabant"
+      },
+      {
+        "name": "stephaniededeken",
+        "affiliation": "stadmechelen"
+      },
+      {
+        "name": "bartlaridon",
+        "affiliation": "agentschaplandbouwenvisserij"
+      },
+      {
+        "name": "davidlingier",
+        "affiliation": "intercommunaleleiedal"
+      },
+      {
+        "name": "lienpoelmans",
+        "affiliation": "vito"
+      },
+      {
+        "name": "virgesmets",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "hansvandenberg",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "gertvanoost",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "heidivandenbroecke",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "jorisvoets",
+        "affiliation": "kenniscentrumvlaamsesteden"
+      },
+      {
+        "name": "peterwillems",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "louiseysewijn",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "veerlebeyaert",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "vincentferemans",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "liesbethvanderhaegen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jangodderis",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "thomasgoemaere",
+        "affiliation": "intercommunaleleiedal"
+      },
+      {
+        "name": "dieternieuwborg",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "kimpaduwat",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "bramtack",
+        "affiliation": "intercommunaleleiedal"
+      },
+      {
+        "name": "lucasverbanck",
+        "affiliation": "intercommunaleleiedal"
+      },
+      {
+        "name": "ingewydhooge",
+        "affiliation": "intercommunaleleiedal"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#RuimtelijkeIndicator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkeIndicator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#ToetsingType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ToetsingType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#RuimtelijkeIndicatorType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkeIndicatorType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#RuimtelijkObjectType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkObjectType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#RuimtelijkObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#RuimtelijkObjectRelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkObjectRelatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#RuimtelijkObjectRelatieType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkObjectRelatieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#DirecteLocatieAanduiding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DirecteLocatieAanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#IndirecteLocatieAanduiding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "IndirecteLocatieAanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Formaat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Formaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Dekking",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dekking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "LangString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "Boolean"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Input.referentie",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "reference"
+          },
+          {
+            "@language": "nl",
+            "@value": "referentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Observatieprocedure.specificatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "specificatie"
+          },
+          {
+            "@language": "en",
+            "@value": "specification"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#naam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#ruimtelijkeIndicatorType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ruimtelijke indicatortype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#toetsingType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toetsingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#RuimtelijkObject.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#relatieType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Object.waardeverschaffer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waardeverschaffer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#source",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "source"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#target",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "target"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011GeneralFeatureInstance#GFI_DomainFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Metadata"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/ObservationCollection",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatieverzameling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "ObservationProcedure"
+          },
+          {
+            "@language": "nl",
+            "@value": "Observatieprocedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Informatietype",
+        "label": [
+          {
+            "@value": "Informatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/Input",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Input"
+          },
+          {
+            "@language": "nl",
+            "@value": "Input"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/CountObservation#OM_CountObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Telling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/CategoryObservation#OM_CategoryObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Classificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Measurement#OM_Measurement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/TruthObservation#OM_TruthObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "WaarheidsObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Procedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Period",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Procedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011GeneralFeatureInstance#GFI_DomainFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieActiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/Names#ScopedName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "NaamInNaamruimte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/UnitsOfMeasure#Measure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Maat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Any"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwaliteitselement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatietype"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "achternaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voornaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/source",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bron"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekendDoorString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekendOp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/subject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/rights",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechten"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "titel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/CountObservation#OM_CountObservation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/TruthObservation#OM_TruthObservation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgActivity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/coverage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dekking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/format",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "formaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/hasInput",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "input"
+          },
+          {
+            "@language": "nl",
+            "@value": "input"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/CategoryObservation#OM_CategoryObservation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Measurement#OM_Measurement.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaatkwaliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fenomeentijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaattijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasMember",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftLid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.metadata",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "metadata"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikteProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "district09",
+        "names": [
+          {
+            "name": "anbernaert",
+            "affiliation": "district09"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementomgeving",
+        "names": [
+          {
+            "name": "wouterbrems",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "hansvandenberg",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "peterwillems",
+            "affiliation": "departementomgeving"
+          }
+        ]
+      },
+      {
+        "affiliation": "provinciewest-vlaanderen",
+        "names": [
+          {
+            "name": "hildecoudenys",
+            "affiliation": "provinciewest-vlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincievlaams-brabant",
+        "names": [
+          {
+            "name": "tomdebruyn",
+            "affiliation": "provincievlaams-brabant"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadmechelen",
+        "names": [
+          {
+            "name": "stephaniededeken",
+            "affiliation": "stadmechelen"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschaplandbouwenvisserij",
+        "names": [
+          {
+            "name": "bartlaridon",
+            "affiliation": "agentschaplandbouwenvisserij"
+          }
+        ]
+      },
+      {
+        "affiliation": "intercommunaleleiedal",
+        "names": [
+          {
+            "name": "davidlingier",
+            "affiliation": "intercommunaleleiedal"
+          },
+          {
+            "name": "thomasgoemaere",
+            "affiliation": "intercommunaleleiedal"
+          },
+          {
+            "name": "bramtack",
+            "affiliation": "intercommunaleleiedal"
+          },
+          {
+            "name": "lucasverbanck",
+            "affiliation": "intercommunaleleiedal"
+          },
+          {
+            "name": "ingewydhooge",
+            "affiliation": "intercommunaleleiedal"
+          }
+        ]
+      },
+      {
+        "affiliation": "vito",
+        "names": [
+          {
+            "name": "lienpoelmans",
+            "affiliation": "vito"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadantwerpen",
+        "names": [
+          {
+            "name": "virgesmets",
+            "affiliation": "stadantwerpen"
+          },
+          {
+            "name": "gertvanoost",
+            "affiliation": "stadantwerpen"
+          },
+          {
+            "name": "heidivandenbroecke",
+            "affiliation": "stadantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "kenniscentrumvlaamsesteden",
+        "names": [
+          {
+            "name": "jorisvoets",
+            "affiliation": "kenniscentrumvlaamsesteden"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "louiseysewijn",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "veerlebeyaert",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "rafbuyle",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "vincentferemans",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "geertthijs",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "liesbethvanderhaegen",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "ziggyvanlishout",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "laurensvercauteren",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "evelinevlassenroot",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgent",
+        "names": [
+          {
+            "name": "jangodderis",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "dieternieuwborg",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "kimpaduwat",
+            "affiliation": "stadgent"
+          }
+        ]
+      }
+    ]
+  }
+}
