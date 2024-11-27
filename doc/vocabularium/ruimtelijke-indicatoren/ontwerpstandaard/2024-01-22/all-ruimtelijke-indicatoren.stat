@@ -29,28 +29,34 @@
     "http://xmlns.com/foaf/0.1",
     "http://purl.org/dc/elements/1.1",
     "http://www.w3.org/ns/adms",
+    "http://www.opengis.net/ont/geosparql",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
     "http://www.w3.org/ns/regorg",
+    "http://schema.org",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
+    "https://schema.org",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/ns/locn",
     "http://def.isotc211.org/iso19108/2006/TemporalObjects",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
+    "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
+    "http://www.w3.org/2000/01/rdf-schema",
     "http://def.isotc211.org/iso19103/2005/Names",
     "http://def.isotc211.org/iso19103/2005/UnitsOfMeasure",
     "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata",
-    "http://def.isotc211.org/iso19115/2006/DataQualityInformation"
+    "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
+    "http://data.europa.eu/m8g"
   ],
   "authors": 7,
   "editors": 9,
   "contributors": 14,
   "participants": 30,
   "classes": 17,
-  "properties": 10,
-  "externalclasses": 33,
-  "externalproperties": 31,
-  "totalterms": 91,
+  "properties": 14,
+  "externalclasses": 39,
+  "externalproperties": 50,
+  "totalterms": 120,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -506,12 +512,12 @@
         "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Input.referentie",
         "label": [
           {
-            "@language": "en",
-            "@value": "reference"
-          },
-          {
             "@language": "nl",
             "@value": "referentie"
+          },
+          {
+            "@language": "en",
+            "@value": "reference"
           }
         ]
       },
@@ -538,6 +544,24 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#referentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.uitgevoerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#ruimtelijkeIndicatorType",
         "label": [
           {
@@ -552,6 +576,24 @@
           {
             "@language": "nl",
             "@value": "toetsingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#geldigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkeIndicatoren#locatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie"
           }
         ]
       },
@@ -852,10 +894,58 @@
         ]
       },
       {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactinfo"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@value": "OrganisatieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Taalcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Observationproceduretype"
+          },
+          {
+            "@language": "nl",
+            "@value": "Observatieproceduretype"
           }
         ]
       },
@@ -901,6 +991,15 @@
           {
             "@language": "nl",
             "@value": "Observatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
           }
         ]
       }
@@ -952,6 +1051,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
         "label": [
           {
@@ -966,6 +1074,24 @@
           {
             "@language": "nl",
             "@value": "toegekendOp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
           }
         ]
       },
@@ -1033,11 +1159,65 @@
         ]
       },
       {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/regorg#orgType",
         "label": [
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "auteur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekendDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/date",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum"
           }
         ]
       },
@@ -1060,11 +1240,87 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/elements/1.1/identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/contributor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "medeAuteur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "taal"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/elements/1.1/type",
         "label": [
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/publisher",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgever"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          },
+          {
+            "@language": "en",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fenomeentijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikteProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
           }
         ]
       },
@@ -1078,6 +1334,19 @@
           {
             "@language": "nl",
             "@value": "input"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          },
+          {
+            "@language": "en",
+            "@value": "type"
           }
         ]
       },
@@ -1132,6 +1401,15 @@
           {
             "@language": "nl",
             "@value": "fenomeentijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
           }
         ]
       },
