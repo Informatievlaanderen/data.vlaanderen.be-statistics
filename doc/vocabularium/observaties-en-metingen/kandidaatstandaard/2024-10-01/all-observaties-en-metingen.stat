@@ -44,9 +44,6 @@
     "http://www.opengis.net/ont/geosparql",
     "https://data.vlaanderen.be/ns/generiek",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
-    "http://def.isotc211.org/iso19150/-2/2012/base",
-    "http://todo",
-    "https://www.w3.org/ns/org",
     "http://def.isotc211.org/iso19108/2006/TemporalObjects",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/ns/locn",
@@ -63,10 +60,10 @@
   "contributors": 72,
   "participants": 90,
   "classes": 8,
-  "properties": 10,
-  "externalclasses": 63,
-  "externalproperties": 67,
-  "totalterms": 148,
+  "properties": 6,
+  "externalclasses": 71,
+  "externalproperties": 53,
+  "totalterms": 138,
   "totalorganisations": 46,
   "organisations": [
     {
@@ -1107,44 +1104,16 @@
             "@value": "uitgevoerdDoor"
           }
         ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Monstervoorbereiding.monster",
-        "label": [
-          {
-            "@value": "Monstervoorbereiding.Monster"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Monstervoorbereiding.bemonsteringsProces",
-        "label": [
-          {
-            "@value": "Monstervoorbereiding.BemonsteringsProces"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.source",
-        "label": [
-          {
-            "@value": "Observatie (source)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.target",
-        "label": [
-          {
-            "@value": "Observatie (target)"
-          }
-        ]
       }
     ],
     "externalclasses": [
       {
         "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCoverage",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "DiscreetBereik"
+          },
           {
             "@language": "nl",
             "@value": "DiscreetBereik"
@@ -1163,6 +1132,10 @@
       {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          },
           {
             "@language": "nl",
             "@value": "Observatie"
@@ -1202,12 +1175,20 @@
           {
             "@language": "nl",
             "@value": "Bemonsteringsobject"
+          },
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsobject"
           }
         ]
       },
       {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
+          },
           {
             "@language": "nl",
             "@value": "Object"
@@ -1229,6 +1210,10 @@
           {
             "@language": "nl",
             "@value": "RuimtelijkBemonsteringsobject"
+          },
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkBemonsteringsobject"
           }
         ]
       },
@@ -1244,6 +1229,10 @@
       {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/CoverageObservation#OM_DiscreteCoverageObservation",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "DiscreetBereikObservatie"
+          },
           {
             "@language": "nl",
             "@value": "DiscreetBereikObservatie"
@@ -1562,6 +1551,10 @@
           {
             "@language": "nl",
             "@value": "Geometrie"
+          },
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
           }
         ]
       },
@@ -1613,6 +1606,10 @@
       {
         "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "GeometrieWaardepaar"
+          },
           {
             "@language": "nl",
             "@value": "GeometrieWaardepaar"
@@ -1674,11 +1671,29 @@
         ]
       },
       {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCoverage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DiscreetBereik"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_Coverage",
         "label": [
           {
             "@language": "nl",
             "@value": "Bereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
           }
         ]
       },
@@ -1697,6 +1712,60 @@
           {
             "@language": "nl",
             "@value": "Bemonstering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkBemonsteringsobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/CoverageObservation#OM_DiscreteCoverageObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DiscreetBereikObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeometrieWaardepaar"
           }
         ]
       },
@@ -2185,132 +2254,6 @@
           {
             "@language": "nl",
             "@value": "identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#PreparationStep.processingDetails",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "verwerkingsdetails"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geassocieerdeObservatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#ProcessUsed",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "GebruiktProces"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#ProcessUsed",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "GebruiktProces"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Domain",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Domein"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Domain",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Domein"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Design",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Ontwerp"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Intention",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Intentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Fenomeen"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Metadata"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo/",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Verzameling"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://www.w3.org/ns/org#reportsTo",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "rapporteertAan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingMethod",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bemonsteringsmethode"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Intention",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Intentie"
           }
         ]
       }

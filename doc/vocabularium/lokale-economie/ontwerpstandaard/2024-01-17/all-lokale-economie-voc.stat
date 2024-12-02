@@ -37,14 +37,11 @@
     "https://www.w3.org/ns/prov",
     "https://data.vlaanderen.be/ns/cultuurparticipatie",
     "http://www.w3.org/ns/adms",
-    "http://todo.com",
-    "http://data.europa.eu/m8g",
-    "https://data.vlaanderen.be/ns/observaties-en-metingen",
-    "https://www.w3.org/ns/org",
     "https://data.vlaanderen.be/ns/financiele-data",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/2001/XMLSchema",
+    "http://todo.com",
     "http://def.isotc211.org/iso19108/2006/TemporalObjects",
     "http://def.isotc211.org/iso19115/2006/DataQualityInformation"
   ],
@@ -52,11 +49,11 @@
   "editors": 7,
   "contributors": 31,
   "participants": 44,
-  "classes": 32,
-  "properties": 49,
-  "externalclasses": 59,
-  "externalproperties": 75,
-  "totalterms": 215,
+  "classes": 35,
+  "properties": 32,
+  "externalclasses": 66,
+  "externalproperties": 58,
+  "totalterms": 191,
   "totalorganisations": 26,
   "organisations": [
     {
@@ -645,6 +642,10 @@
           {
             "@language": "nl",
             "@value": "RuimtelijkObject"
+          },
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkObject"
           }
         ]
       },
@@ -672,6 +673,10 @@
           {
             "@language": "nl",
             "@value": "Profiel"
+          },
+          {
+            "@language": "nl",
+            "@value": "Profiel"
           }
         ]
       },
@@ -687,6 +692,10 @@
       {
         "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkPlannen#DirecteLocatieAanduiding",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "DirecteLocatieAanduiding"
+          },
           {
             "@language": "nl",
             "@value": "DirecteLocatieAanduiding"
@@ -790,6 +799,33 @@
         "label": [
           {
             "@value": "Time"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Profiel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Profiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkPlannen#RuimtelijkObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/RuimtelijkPlannen#DirecteLocatieAanduiding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DirecteLocatieAanduiding"
           }
         ]
       },
@@ -1100,153 +1136,6 @@
             "@value": "herkomsttype"
           }
         ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#betaling",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "betaling"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#transactie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "transactie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#aankooplijn",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aankooplijn"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#transactie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "transactie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres.verwijstNaar",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "verwijst naar"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.verwijstNaar",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "verwijst naar"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#superactiviteit",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "superactiviteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#subactiviteit",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "subactiviteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#verhoudtZichTot",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "verhoudt zich tot"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#ActiviteitVerhouding.activiteit.source",
-        "label": [
-          {
-            "@value": "Activiteit (source)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#ActiviteitVerhouding.activiteit.target",
-        "label": [
-          {
-            "@value": "Activiteit (target)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Object.waardeverschaffer",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "waardeverschaffer"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftRelatieMet"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
-        "label": [
-          {
-            "@value": "Persoon (source)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
-        "label": [
-          {
-            "@value": "Persoon (target)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.source",
-        "label": [
-          {
-            "@value": "Observatie (source)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.target",
-        "label": [
-          {
-            "@value": "Observatie (target)"
-          }
-        ]
       }
     ],
     "externalclasses": [
@@ -1292,6 +1181,10 @@
           {
             "@language": "nl",
             "@value": "Observatie"
+          },
+          {
+            "@language": "nl",
+            "@value": "Observatie"
           }
         ]
       },
@@ -1307,6 +1200,10 @@
       {
         "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "Kenmerktype"
+          },
           {
             "@language": "nl",
             "@value": "Kenmerktype"
@@ -1364,6 +1261,10 @@
           {
             "@language": "nl",
             "@value": "Agent"
+          },
+          {
+            "@language": "nl",
+            "@value": "Agent"
           }
         ]
       },
@@ -1382,6 +1283,10 @@
           {
             "@language": "nl",
             "@value": "Domeinobject"
+          },
+          {
+            "@language": "nl",
+            "@value": "Domeinobject"
           }
         ]
       },
@@ -1397,6 +1302,10 @@
       {
         "assignedURI": "https://schema.org/Event",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebeurtenis"
+          },
           {
             "@language": "nl",
             "@value": "Gebeurtenis"
@@ -1598,6 +1507,10 @@
           {
             "@language": "nl",
             "@value": "Locatie"
+          },
+          {
+            "@language": "nl",
+            "@value": "Locatie"
           }
         ]
       },
@@ -1643,6 +1556,10 @@
           {
             "@language": "nl",
             "@value": "TemporeleEntiteit"
+          },
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
           }
         ]
       },
@@ -1665,10 +1582,55 @@
         ]
       },
       {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://todo.com/RuimtelijkObject",
         "label": [
           {
             "@value": "RuimtelijkObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_DomainFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Event",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebeurtenis"
           }
         ]
       },
@@ -1682,10 +1644,28 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://todo.com/Domeinobject",
         "label": [
           {
             "@value": "Domeinobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
           }
         ]
       },
@@ -2298,157 +2278,6 @@
           {
             "@language": "nl",
             "@value": "van"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/source",
-        "label": [
-          {
-            "@value": "source"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/target",
-        "label": [
-          {
-            "@value": "target"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#hasRegisteredSite",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftGeregistreerdeVestiging"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#hasRegisteredSite",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftGeregistreerdeVestiging"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#hasPrimarySite",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftPrimaireVestiging"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#hasPrimarySite",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftPrimaireVestiging"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#hasSubOrganization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftSuborganisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#linkedTo",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gelinktMet"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#hasSite",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftVestiging"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#hasSite",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftVestiging"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "suborganisatieVan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/hasNextEvent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftVolgendeActiviteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/hasPreviousEvent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftVorigeActiviteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Fenomeen"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geobserveerdObject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://www.w3.org/ns/org#reportsTo",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "rapporteertAan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geassocieerdeObservatie"
           }
         ]
       }
