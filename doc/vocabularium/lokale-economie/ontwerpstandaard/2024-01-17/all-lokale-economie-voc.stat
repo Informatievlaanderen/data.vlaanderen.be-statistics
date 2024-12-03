@@ -24,6 +24,7 @@
     "http://www.w3.org/ns/person",
     "https://data.vlaanderen.be/ns/RuimtelijkPlannen",
     "https://data.vlaanderen.be/ns/adres",
+    "https://data.vlaanderen.be/ns/organisatie",
     "http://xmlns.com/foaf/0.1",
     "https://data.vlaanderen.be/ns/persoon#",
     "http://www.opengis.net/ont/geosparql",
@@ -31,17 +32,18 @@
     "http://www.w3.org/2006/vcard/ns",
     "http://schema.org",
     "https://data.vlaanderen.be/ns/generiek",
-    "https://data.vlaanderen.be/ns/organisatie",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/2006/time",
     "https://www.w3.org/ns/prov",
     "https://data.vlaanderen.be/ns/cultuurparticipatie",
+    "https://data.vlaanderen.be/ns/observaties-en-metingen",
     "http://www.w3.org/ns/adms",
+    "http://www.w3.org/ns/prov",
     "https://data.vlaanderen.be/ns/financiele-data",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "http://www.w3.org/ns/prov",
     "http://www.w3.org/2001/XMLSchema",
     "http://todo.com",
+    "http://def.isotc211.org/iso19103/2005/Names",
     "http://def.isotc211.org/iso19108/2006/TemporalObjects",
     "http://def.isotc211.org/iso19115/2006/DataQualityInformation"
   ],
@@ -49,11 +51,11 @@
   "editors": 7,
   "contributors": 31,
   "participants": 44,
-  "classes": 35,
-  "properties": 32,
-  "externalclasses": 66,
-  "externalproperties": 58,
-  "totalterms": 191,
+  "classes": 37,
+  "properties": 51,
+  "externalclasses": 67,
+  "externalproperties": 71,
+  "totalterms": 226,
   "totalorganisations": 26,
   "organisations": [
     {
@@ -839,6 +841,23 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Locatie",
+        "label": [
+          {
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Domicilie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domicilie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator",
         "label": [
           {
@@ -855,6 +874,24 @@
           {
             "@language": "nl",
             "@value": "aantal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#voorkeursnaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#naam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
           }
         ]
       },
@@ -940,6 +977,33 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#Druktemeting.geobserveerdKenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#product",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "product"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#promotie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "promotie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#klantenkaart",
         "label": [
           {
@@ -967,11 +1031,47 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#sector",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "sector"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#publiekeVerkoopVloeroppervlakte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publiekeVerkoopVloeroppervlakte"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#bezoekersProfiel",
         "label": [
           {
             "@language": "nl",
             "@value": "bezoekersprofiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#bezoekHerkomst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bezoekHerkomst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#OmgevingsObservatie.geobserveerdKenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
           }
         ]
       },
@@ -994,6 +1094,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Activiteit.contactinfo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Activiteit.doelgroep",
         "label": [
           {
@@ -1012,6 +1121,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#bedrag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bedrag"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#geslacht",
         "label": [
           {
@@ -1021,11 +1139,38 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#/Verblijfplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verblijfplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#/Domicilie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "domicilie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#betaalmethode",
         "label": [
           {
             "@language": "nl",
             "@value": "betaalmethode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.uitgevoerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
           }
         ]
       },
@@ -1075,6 +1220,33 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#referentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#gezinstype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gezinstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/lokale-economie#eenheidsprijs",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheidsprijs"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#profiel",
         "label": [
           {
@@ -1089,6 +1261,24 @@
           {
             "@language": "nl",
             "@value": "profielinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#verblijfsadres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verblijfsadres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#beschikbaarheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "karakter"
           }
         ]
       },
@@ -1670,6 +1860,15 @@
         ]
       },
       {
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/Names#GenericName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeneriekeNaam"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
@@ -2093,11 +2292,29 @@
         ]
       },
       {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rol"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://www.w3.org/ns/prov#atLocation",
         "label": [
           {
             "@language": "nl",
             "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
           }
         ]
       },
@@ -2138,11 +2355,56 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/org#siteAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vestigingsadres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#siteAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vestigingsadres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/prov#atLocation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/customer",
         "label": [
           {
             "@language": "nl",
             "@value": "uitgevoerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactpunt"
           }
         ]
       },
@@ -2237,11 +2499,29 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/category",
         "label": [
           {
             "@language": "nl",
             "@value": "productcategorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/productID",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "productID"
           }
         ]
       },
@@ -2255,11 +2535,38 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/hoursAvailable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "urenBeschikbaarheid"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/seller",
         "label": [
           {
             "@language": "nl",
             "@value": "uitgevoerdBij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie"
           }
         ]
       },
@@ -2278,6 +2585,15 @@
           {
             "@language": "nl",
             "@value": "van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/discount",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "promotie"
           }
         ]
       }
