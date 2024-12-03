@@ -31,6 +31,7 @@
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://purl.org/dc/elements/1.1",
     "http://www.w3.org/ns/adms",
+    "http://todo.com",
     "http://www.w3.org/2001/XMLSchema",
     "http://purl.org/vocab/cpsv",
     "http://xmlns.com/foaf/0.1",
@@ -38,17 +39,18 @@
     "https://www.iflastandards.info/fr/frbr/frbroo",
     "https://data.vlaanderen.be/ns/cultureel-erfgoed",
     "http://www.w3.org/ns/org",
-    "http://www.w3.org/ns/person"
+    "http://www.w3.org/ns/person",
+    "http://data.vlaanderen.be/ns/mandaat"
   ],
   "authors": 2,
   "editors": 10,
   "contributors": 16,
   "participants": 28,
-  "classes": 35,
-  "properties": 12,
-  "externalclasses": 44,
-  "externalproperties": 43,
-  "totalterms": 134,
+  "classes": 37,
+  "properties": 16,
+  "externalclasses": 48,
+  "externalproperties": 47,
+  "totalterms": 148,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -666,6 +668,28 @@
         ]
       },
       {
+        "assignedURI": "http://data.vlaanderen.be/ns/mandaat#Verkiezingsresultaat",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Election Result"
+          },
+          {
+            "@language": "nl",
+            "@value": "Verkiezingsresultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/slimmeraadpleegomgeving#RuimtelijkeEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ruimtelijke Eenheid"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#JuridischeKwalificatie",
         "label": [
           {
@@ -780,11 +804,47 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/besluitvorming#resultaat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#locatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#juridischeKwalificatie",
         "label": [
           {
             "@language": "nl",
             "@value": "juridische kwalificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#tijdsbestek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdsbestek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#tijdsbestek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdsbestek"
           }
         ]
       },
@@ -1204,6 +1264,41 @@
             "@value": "Locatie"
           }
         ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Taalcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TijdsInterval"
+          }
+        ]
       }
     ],
     "externalproperties": [
@@ -1321,6 +1416,15 @@
           {
             "@language": "nl",
             "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
           }
         ]
       },
@@ -1528,6 +1632,33 @@
           {
             "@language": "nl",
             "@value": "geografische dekking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/auteur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "auteur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "taal"
           }
         ]
       },
