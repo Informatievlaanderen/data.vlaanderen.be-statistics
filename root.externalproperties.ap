@@ -1,5 +1,535 @@
 [
   {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/CountObservation#OM_CountObservation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend door (String)"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/issued",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend op"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "wkt"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gml"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.name",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "naam"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/TruthObservation#OM_TruthObservation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#PreparationStep.time",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "tijdstip"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#PreparationStep.processOperator",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "procesoperator"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.lineage",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "herkomst"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.parameter",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "parameter"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.shape",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.positionalAccuracy",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "positioneleNauwkeurigheid"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.hostedProcedure",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gehostPlatform"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "parameter"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fenomeentijd"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaattijd"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.validTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geldigeTijd"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaatkwaliteit"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.materialClass",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "materiaalklasse"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "bemonsteringstijdstip"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingLocation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "bemonsteringsplaats"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.currentLocation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "huidigeLocatie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.specimenType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "monstertype"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.size",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "grootte"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/CoverageObservation#OM_DiscreteCoverageObservation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/GeometryObservation#OM_GeometryObservation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/TimeSeriesObservation#OM_TimeSeriesObservation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/PointCoverageObservation#OM_PointCoverageObservation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/CategoryObservation#OM_CategoryObservation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingCurve#SF_SamplingCurve.shape",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.role",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "rol"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/ComplexObservation#OM_ComplexObservation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Measurement#OM_Measurement.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/TemporalObservation#OM_TemporalObservation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCoverage.element",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "element"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.value",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "waarde"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscretePointCoverage.element",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "element"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_PointValuePair.geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingSurface#SF_SamplingSurface.shape",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/creator",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend door"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.value",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "waarde"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingSolid#SF_SamplingSolid.shape",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingMethod",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "bemonsteringsmethode"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint.shape",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ],
+    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
+  },
+  {
     "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
     "label": [
       {
@@ -708,536 +1238,6 @@
       }
     ],
     "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/lokale-economie/ontwerpstandaard/2024-01-17"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/CountObservation#OM_CountObservation.result",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "resultaat"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "identificator"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "toegekend door (String)"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://purl.org/dc/terms/issued",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "toegekend op"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "wkt"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "gml"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.name",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "naam"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/TruthObservation#OM_TruthObservation.result",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "resultaat"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#PreparationStep.time",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "tijdstip"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#PreparationStep.processOperator",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "procesoperator"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.lineage",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "herkomst"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.parameter",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "parameter"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.shape",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "geometrie"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.positionalAccuracy",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "positioneleNauwkeurigheid"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.hostedProcedure",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "gehostPlatform"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "parameter"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "fenomeentijd"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "resultaattijd"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.validTime",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "geldigeTijd"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "resultaatkwaliteit"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "resultaat"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.materialClass",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "materiaalklasse"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingTime",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "bemonsteringstijdstip"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingLocation",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "bemonsteringsplaats"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.currentLocation",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "huidigeLocatie"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.specimenType",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "monstertype"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.size",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "grootte"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/CoverageObservation#OM_DiscreteCoverageObservation.result",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "resultaat"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/GeometryObservation#OM_GeometryObservation.result",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "resultaat"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/TimeSeriesObservation#OM_TimeSeriesObservation.result",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "resultaat"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/PointCoverageObservation#OM_PointCoverageObservation.result",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "resultaat"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/CategoryObservation#OM_CategoryObservation.result",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "resultaat"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingCurve#SF_SamplingCurve.shape",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "geometrie"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.role",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "rol"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/ComplexObservation#OM_ComplexObservation.result",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "resultaat"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Measurement#OM_Measurement.result",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "resultaat"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/TemporalObservation#OM_TemporalObservation.result",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "resultaat"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCoverage.element",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "element"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.geometry",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "geometrie"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.value",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "waarde"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscretePointCoverage.element",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "element"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_PointValuePair.geometry",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "geometrie"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingSurface#SF_SamplingSurface.shape",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "geometrie"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://www.w3.org/ns/adms#identifier",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "identificator"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://purl.org/dc/terms/creator",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "toegekend door"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.value",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "waarde"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingSolid#SF_SamplingSolid.shape",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "geometrie"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingMethod",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "bemonsteringsmethode"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint.shape",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "geometrie"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://purl.org/dc/terms/type",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "type"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://purl.org/dc/terms/type",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "type"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://purl.org/dc/terms/type",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "type"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
-  },
-  {
-    "assignedURI": "http://www.w3.org/ns/adms#identifier",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "identificator"
-      }
-    ],
-    "spec": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/kandidaatstandaard/2024-10-01"
   },
   {
     "assignedURI": "http://purl.org/dc/terms/title",
