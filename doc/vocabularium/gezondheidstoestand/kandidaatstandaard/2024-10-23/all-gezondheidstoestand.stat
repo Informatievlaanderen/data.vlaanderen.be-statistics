@@ -1,0 +1,1971 @@
+{
+  "title": "Vocabularium Gezondheidstoestand Persoon",
+  "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/gezondheidstoestand/kandidaatstandaard/2024-10-23",
+  "issued": "2024-10-23",
+  "navigation": {
+    "self": "https://data.dev-vlaanderen.be/doc/vocabularium/gezondheidstoestand/kandidaatstandaard/2024-10-23"
+  },
+  "documenttype": "voc",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "statuslabel": "Kandidaat Standaard",
+  "namespaces": [
+    "http://www.w3.org/ns/person",
+    "https://data.vlaanderen.be/ns/gezondheidstoestand",
+    "https://hl7.org/fhir/practitioner-definitions.html",
+    "https://hl7.org/fhir/medication-definitions.html",
+    "https://www.hl7.org/fhir/nutritionintake-definitions.html",
+    "https://www.hl7.org/fhir/diagnosticreport-definitions.html",
+    "https://build.fhir.org/observation-definitions.html",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://xmlns.com/foaf/0.1",
+    "https://data.vlaanderen.be/ns/persoon",
+    "https://hl7.org/fhir/observation-definitions.html",
+    "http://schema.org",
+    "http://purl.org/dc/terms",
+    "https://hl7.org/fhir/diagnosticreport-definitions.html",
+    "http://todo.com",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://data.europa.eu/m8g",
+    "https://schema.org",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/ns/prov",
+    "http://purl.org/vocab/bio/0.1",
+    "https://hl7.org/fhir/procedure-definitions.html"
+  ],
+  "authors": 2,
+  "editors": 9,
+  "contributors": 32,
+  "participants": 43,
+  "classes": 20,
+  "properties": 53,
+  "externalclasses": 35,
+  "externalproperties": 25,
+  "totalterms": 133,
+  "totalorganisations": 22,
+  "organisations": [
+    {
+      "affiliation": "uzleuven",
+      "participants": 2
+    },
+    {
+      "affiliation": "kbc",
+      "participants": 1
+    },
+    {
+      "affiliation": "azdelta",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadoostende",
+      "participants": 3
+    },
+    {
+      "affiliation": "stadleuven",
+      "participants": 3
+    },
+    {
+      "affiliation": "kunlaboranv",
+      "participants": 2
+    },
+    {
+      "affiliation": "stadantwerpen",
+      "participants": 1
+    },
+    {
+      "affiliation": "remmicom",
+      "participants": 1
+    },
+    {
+      "affiliation": "funebra",
+      "participants": 1
+    },
+    {
+      "affiliation": "athumi",
+      "participants": 2
+    },
+    {
+      "affiliation": "stadaalst",
+      "participants": 3
+    },
+    {
+      "affiliation": "uitvaartunie",
+      "participants": 1
+    },
+    {
+      "affiliation": "cevi",
+      "participants": 2
+    },
+    {
+      "affiliation": "redpencil",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadgent",
+      "participants": 1
+    },
+    {
+      "affiliation": "sereni",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementzorg",
+      "participants": 4
+    },
+    {
+      "affiliation": "stadsint-niklaas",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadhalle",
+      "participants": 1
+    },
+    {
+      "affiliation": "gemeentewingene",
+      "participants": 1
+    },
+    {
+      "affiliation": "gemeentebredene",
+      "participants": 1
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 9
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "sarahblomme",
+        "affiliation": "athumi"
+      },
+      {
+        "name": "steveheylen",
+        "affiliation": "stadleuven"
+      }
+    ],
+    "editors": [
+      {
+        "name": "veerlebeyaert",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jitsedecock",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "liesbethvanderhaegen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "alineverbrugge",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "dieterandelhofs",
+        "affiliation": "uzleuven"
+      },
+      {
+        "name": "leenborgers",
+        "affiliation": "kbc"
+      },
+      {
+        "name": "natashacornelis",
+        "affiliation": "azdelta"
+      },
+      {
+        "name": "anneliescrombez",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "christophcuypers",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "tomdekeyser",
+        "affiliation": "kunlaboranv"
+      },
+      {
+        "name": "janadesmedt",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "daviddevroey",
+        "affiliation": "remmicom"
+      },
+      {
+        "name": "johandexters",
+        "affiliation": "funebra"
+      },
+      {
+        "name": "renéeeelbode",
+        "affiliation": "athumi"
+      },
+      {
+        "name": "evyfraeyman",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "seppegielen",
+        "affiliation": "kunlaboranv"
+      },
+      {
+        "name": "aarongorsen",
+        "affiliation": "uitvaartunie"
+      },
+      {
+        "name": "yatihuyge",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "fleurjanssens",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "senemmavzer",
+        "affiliation": "cevi"
+      },
+      {
+        "name": "tanianeiyinck",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "erikapauwels",
+        "affiliation": "redpencil"
+      },
+      {
+        "name": "christopheputtevils",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "brunoquirijnen",
+        "affiliation": "sereni"
+      },
+      {
+        "name": "mathieuroelants",
+        "affiliation": "departementzorg"
+      },
+      {
+        "name": "merelroelants",
+        "affiliation": "departementzorg"
+      },
+      {
+        "name": "carlarogiers",
+        "affiliation": "stadsint-niklaas"
+      },
+      {
+        "name": "liestytgat",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "elinevandenberghe",
+        "affiliation": "cevi"
+      },
+      {
+        "name": "woutervandenbogaert",
+        "affiliation": "uzleuven"
+      },
+      {
+        "name": "maartenvanderbiest",
+        "affiliation": "departementzorg"
+      },
+      {
+        "name": "matthiasvanderelst",
+        "affiliation": "departementzorg"
+      },
+      {
+        "name": "cindyvannerom",
+        "affiliation": "stadhalle"
+      },
+      {
+        "name": "anneliesvantomme",
+        "affiliation": "gemeentewingene"
+      },
+      {
+        "name": "tessaverbeiren",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "yasminayoumni",
+        "affiliation": "gemeentebredene"
+      }
+    ],
+    "participants": [
+      {
+        "name": "dieterandelhofs",
+        "affiliation": "uzleuven"
+      },
+      {
+        "name": "leenborgers",
+        "affiliation": "kbc"
+      },
+      {
+        "name": "natashacornelis",
+        "affiliation": "azdelta"
+      },
+      {
+        "name": "anneliescrombez",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "christophcuypers",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "tomdekeyser",
+        "affiliation": "kunlaboranv"
+      },
+      {
+        "name": "janadesmedt",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "daviddevroey",
+        "affiliation": "remmicom"
+      },
+      {
+        "name": "johandexters",
+        "affiliation": "funebra"
+      },
+      {
+        "name": "renéeeelbode",
+        "affiliation": "athumi"
+      },
+      {
+        "name": "evyfraeyman",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "seppegielen",
+        "affiliation": "kunlaboranv"
+      },
+      {
+        "name": "aarongorsen",
+        "affiliation": "uitvaartunie"
+      },
+      {
+        "name": "yatihuyge",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "fleurjanssens",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "senemmavzer",
+        "affiliation": "cevi"
+      },
+      {
+        "name": "tanianeiyinck",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "erikapauwels",
+        "affiliation": "redpencil"
+      },
+      {
+        "name": "christopheputtevils",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "brunoquirijnen",
+        "affiliation": "sereni"
+      },
+      {
+        "name": "mathieuroelants",
+        "affiliation": "departementzorg"
+      },
+      {
+        "name": "merelroelants",
+        "affiliation": "departementzorg"
+      },
+      {
+        "name": "carlarogiers",
+        "affiliation": "stadsint-niklaas"
+      },
+      {
+        "name": "liestytgat",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "elinevandenberghe",
+        "affiliation": "cevi"
+      },
+      {
+        "name": "woutervandenbogaert",
+        "affiliation": "uzleuven"
+      },
+      {
+        "name": "maartenvanderbiest",
+        "affiliation": "departementzorg"
+      },
+      {
+        "name": "matthiasvanderelst",
+        "affiliation": "departementzorg"
+      },
+      {
+        "name": "cindyvannerom",
+        "affiliation": "stadhalle"
+      },
+      {
+        "name": "anneliesvantomme",
+        "affiliation": "gemeentewingene"
+      },
+      {
+        "name": "tessaverbeiren",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "yasminayoumni",
+        "affiliation": "gemeentebredene"
+      },
+      {
+        "name": "veerlebeyaert",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jitsedecock",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "liesbethvanderhaegen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "alineverbrugge",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "sarahblomme",
+        "affiliation": "athumi"
+      },
+      {
+        "name": "steveheylen",
+        "affiliation": "stadleuven"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Arts",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Arts"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevalling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bevalling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Geboortetoestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geboortetoestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Gezondheidstoestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gezondheidstoestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Apgarscore",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Apgarscore"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Zwangerschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zwangerschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Borstvoeding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Borstvoeding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#AssistentieBevalling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Assistentie Bevalling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevallingstoestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bevallingstoestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Observatiewaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatiewaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Foetus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Foetus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#NatuurlijkeEntiteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Natuurlijke Entiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Conceptie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Conceptie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Zwangerschapstoestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zwangerschapstoestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Batch",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Batch"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Ingredient",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ingrediënt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#int",
+        "label": [
+          {
+            "@value": "int"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inwonerschap"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#alternatieveNaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gebruikteVoornaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikte voornaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#volledigeNaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledige naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Geboortetoestand.rang",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rang"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#geslacht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevallingstoestand.nutritie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nutritie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#MedischeToestand.lengte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lengte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#MedischeToestand.risico",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "risico"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Gezondsheidstoestand.gewicht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gewicht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Zwangerschapstoestand.duur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "duur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Zwangerschapstoestand.liggingKind",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ligging kind"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Conceptie.techniek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "techniek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Geboortetoestand.apgarscore",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "apgarscore"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Geboortetoestand.neonatale",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "neonatale"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Geboortetoestand.nutritie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nutritie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Gezondheidstoestand.gebruikteMedicatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikte medicatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Gezondheidstoestand.heeftGebeurtenis",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft gebeurtenis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevalling.heeftAssistentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft assistentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Gezondheidstoestand.aandoening",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aandoening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevalling.heeftBevallingstoestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft bevallingstoestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Zwangerschap.toestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#periode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Apgarscore.score",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "score"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevallingstoestand.gewichtPersoonBevalling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gewicht persoon bevalling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevallingstoestand.gewichtPersoonVoorBevalling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gewicht persoon voor bevalling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevallingstoestand.foetaleBewaking",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "foetale bewaking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevallingstoestand.indicatieAssistentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "indicatie assistentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevallingstoestand.intrapartale",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "intrapartale"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Gezondheidstoestand.zorg",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zorg"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Foetus.gewicht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gewicht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Foetus.leeftijd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "leeftijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevallingstoestand.wijze",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wijze"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Foetus.wordt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wordt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevallingstoestand.liggingKindBevalling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ligging kind bevalling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#statusZwangerschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status zwangerschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#statusZwangerschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status zwangerschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftInwonerschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft inwonerschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#wordtGeobserveerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wordt geobserveerd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#deelVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#heeftFoetus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft foetus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#voedt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voedt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#wordtGevoedDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wordt gevoed door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#doetOntstaan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "doet ontstaan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#ontstaatDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ontstaat door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#steltOp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "stelt op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#opgesteldDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opgesteld door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#vastgesteld",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vastgesteld"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#vastgesteldDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vastgesteld door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#heeftBevallingstoestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft bevallingstoestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#heeftAssistentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft assistentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#gedocumenteerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gedocumenteerd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#wordtGevolgdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wordt gevolgd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#volgtOp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volgt op"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/practitioner-definitions.html#Practitioner",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zorgverlener"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/medication-definitions.html#Medication",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Medicatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.hl7.org/fhir/nutritionintake-definitions.html#NutritionIntake",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Voedingsinname"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.hl7.org/fhir/diagnosticreport-definitions.html#DiagnosticReport",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Medisch Verslag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://build.fhir.org/observation-definitions.html#Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Medische Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DosisFormaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/NatuurlijkeEntiteit",
+        "label": [
+          {
+            "@value": "NatuurlijkeEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Agent",
+        "label": [
+          {
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Persoonsgebeurtenis",
+        "label": [
+          {
+            "@value": "Persoonsgebeurtenis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation",
+        "label": [
+          {
+            "@value": "OSLO-Gezondheidstoestand::Observatiewaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/Evidence",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bewijs"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "VoedingsinnameItem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TijdsInterval"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwantitatieve Waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ICD"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ArtsType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LiggingKindType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Conceptietechniek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/bio/0.1/Event",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoonsgebeurtenis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "FoetaleBewakingType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "IndicatieKeizersnedeType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/procedure-definitions.html#Procedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Procedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ObservatieCategorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bevallingswijze"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AssistentieBevallingType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatiestatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "StatusZwangerschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "StatusMedischVerslag"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "familienaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#birthName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geboortenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gegeven naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation.effective",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "effectief tijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/medication-definitions.html#Medication.doseForm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dosis formaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/medication-definitions.html#Medication.batch",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "batch"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.hl7.org/fhir/nutritionintake-definitions.html#NutritionIntake.consumedItem",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geconsumeerd item"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.hl7.org/fhir/nutritionintake-definitions.html#NutritionIntake.occurrence_x_",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "consumptie interval"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.hl7.org/fhir/nutritionintake-definitions.html#NutritionIntake.performer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitvoerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/practitioner-definitions.html#Practitioner.identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation.subject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerd op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation.category",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "categorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/medication-definitions.html#Medication.ingredient",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ingrediënt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation.status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation.identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identifier"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation.value_x_",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/medication-definitions.html#Medication.totalVolume",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "totale volume"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/medication-definitions.html#Medication.identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/diagnosticreport-definitions.html#DiagnosticReport.status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/komtVoortUit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "komt voort uit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation.performer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitvoerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation.issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "documenteert"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "uzleuven",
+        "names": [
+          {
+            "name": "dieterandelhofs",
+            "affiliation": "uzleuven"
+          },
+          {
+            "name": "woutervandenbogaert",
+            "affiliation": "uzleuven"
+          }
+        ]
+      },
+      {
+        "affiliation": "kbc",
+        "names": [
+          {
+            "name": "leenborgers",
+            "affiliation": "kbc"
+          }
+        ]
+      },
+      {
+        "affiliation": "azdelta",
+        "names": [
+          {
+            "name": "natashacornelis",
+            "affiliation": "azdelta"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadoostende",
+        "names": [
+          {
+            "name": "anneliescrombez",
+            "affiliation": "stadoostende"
+          },
+          {
+            "name": "tanianeiyinck",
+            "affiliation": "stadoostende"
+          },
+          {
+            "name": "liestytgat",
+            "affiliation": "stadoostende"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadleuven",
+        "names": [
+          {
+            "name": "christophcuypers",
+            "affiliation": "stadleuven"
+          },
+          {
+            "name": "yatihuyge",
+            "affiliation": "stadleuven"
+          },
+          {
+            "name": "steveheylen",
+            "affiliation": "stadleuven"
+          }
+        ]
+      },
+      {
+        "affiliation": "kunlaboranv",
+        "names": [
+          {
+            "name": "tomdekeyser",
+            "affiliation": "kunlaboranv"
+          },
+          {
+            "name": "seppegielen",
+            "affiliation": "kunlaboranv"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadantwerpen",
+        "names": [
+          {
+            "name": "janadesmedt",
+            "affiliation": "stadantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "remmicom",
+        "names": [
+          {
+            "name": "daviddevroey",
+            "affiliation": "remmicom"
+          }
+        ]
+      },
+      {
+        "affiliation": "funebra",
+        "names": [
+          {
+            "name": "johandexters",
+            "affiliation": "funebra"
+          }
+        ]
+      },
+      {
+        "affiliation": "athumi",
+        "names": [
+          {
+            "name": "renéeeelbode",
+            "affiliation": "athumi"
+          },
+          {
+            "name": "sarahblomme",
+            "affiliation": "athumi"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadaalst",
+        "names": [
+          {
+            "name": "evyfraeyman",
+            "affiliation": "stadaalst"
+          },
+          {
+            "name": "fleurjanssens",
+            "affiliation": "stadaalst"
+          },
+          {
+            "name": "tessaverbeiren",
+            "affiliation": "stadaalst"
+          }
+        ]
+      },
+      {
+        "affiliation": "uitvaartunie",
+        "names": [
+          {
+            "name": "aarongorsen",
+            "affiliation": "uitvaartunie"
+          }
+        ]
+      },
+      {
+        "affiliation": "cevi",
+        "names": [
+          {
+            "name": "senemmavzer",
+            "affiliation": "cevi"
+          },
+          {
+            "name": "elinevandenberghe",
+            "affiliation": "cevi"
+          }
+        ]
+      },
+      {
+        "affiliation": "redpencil",
+        "names": [
+          {
+            "name": "erikapauwels",
+            "affiliation": "redpencil"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgent",
+        "names": [
+          {
+            "name": "christopheputtevils",
+            "affiliation": "stadgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "sereni",
+        "names": [
+          {
+            "name": "brunoquirijnen",
+            "affiliation": "sereni"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementzorg",
+        "names": [
+          {
+            "name": "mathieuroelants",
+            "affiliation": "departementzorg"
+          },
+          {
+            "name": "merelroelants",
+            "affiliation": "departementzorg"
+          },
+          {
+            "name": "maartenvanderbiest",
+            "affiliation": "departementzorg"
+          },
+          {
+            "name": "matthiasvanderelst",
+            "affiliation": "departementzorg"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadsint-niklaas",
+        "names": [
+          {
+            "name": "carlarogiers",
+            "affiliation": "stadsint-niklaas"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadhalle",
+        "names": [
+          {
+            "name": "cindyvannerom",
+            "affiliation": "stadhalle"
+          }
+        ]
+      },
+      {
+        "affiliation": "gemeentewingene",
+        "names": [
+          {
+            "name": "anneliesvantomme",
+            "affiliation": "gemeentewingene"
+          }
+        ]
+      },
+      {
+        "affiliation": "gemeentebredene",
+        "names": [
+          {
+            "name": "yasminayoumni",
+            "affiliation": "gemeentebredene"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "veerlebeyaert",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "rafbuyle",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "jitsedecock",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "geertthijs",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "liesbethvanderhaegen",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "ziggyvanlishout",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "alineverbrugge",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "laurensvercauteren",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "evelinevlassenroot",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      }
+    ]
+  }
+}
