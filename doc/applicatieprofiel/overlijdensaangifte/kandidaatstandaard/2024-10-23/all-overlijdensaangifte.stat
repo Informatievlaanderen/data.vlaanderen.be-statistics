@@ -9,7 +9,6 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "statuslabel": "Kandidaat Standaard",
   "namespaces": [
-    "http://purl.org/vocab/bio/0.1",
     "https://data.vlaanderen.be/ns/persoon",
     "http://www.w3.org/ns/person",
     "http://www.w3.org/2004/02/skos/core",
@@ -30,6 +29,7 @@
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/ns/dcat",
     "https://hl7.org/fhir/observation-definitions.html",
+    "http://purl.org/vocab/bio/0.1",
     "http://www.w3.org/ns/adms",
     "http://schema.org",
     "https://hl7.org/fhir/diagnosticreport-definitions.html",
@@ -46,9 +46,9 @@
   "editors": 9,
   "contributors": 32,
   "participants": 43,
-  "classes": 50,
+  "classes": 51,
   "properties": 91,
-  "externalclasses": 77,
+  "externalclasses": 76,
   "externalproperties": 73,
   "totalterms": 291,
   "totalorganisations": 22,
@@ -497,6 +497,15 @@
       }
     ],
     "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsgebeurtenis",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoonsgebeurtenis"
+          }
+        ]
+      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Geboorte",
         "label": [
@@ -1767,15 +1776,6 @@
       }
     ],
     "externalclasses": [
-      {
-        "assignedURI": "http://purl.org/vocab/bio/0.1/Event",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoonsgebeurtenis"
-          }
-        ]
-      },
       {
         "assignedURI": "http://www.w3.org/ns/person#Person",
         "label": [
