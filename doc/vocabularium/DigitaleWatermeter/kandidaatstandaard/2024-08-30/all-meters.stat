@@ -12,10 +12,9 @@
     "http://www.w3.org/2004/02/skos/core",
     "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
     "http://def.isotc211.org/iso19156/2011/Observation",
-    "http://qudt.org/2.1/schema/qudt",
+    "http://qudt.org/schema/qudt",
     "http://purl.org/dc/terms",
     "http://def.isotc211.org/iso19156/2011GeneralFeatureInstance",
-    "https://www.w3.org/ns/prov",
     "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters",
     "http://www.w3.org/ns/ssn",
     "http://def.isotc211.org/iso19156/2011/Measurement",
@@ -31,7 +30,6 @@
     "https://data.vlaanderen.be/ns/statistiek",
     "https://saref.etsi.org/saref4watr",
     "http://data.europa.eu/m8g",
-    "http://www.w3.org/ns/dcat",
     "https://qudt.org/schema/qudt",
     "http://www.w3.org/2006/time",
     "http://www.w3.org/2000/01/rdf-schema",
@@ -46,12 +44,12 @@
     "http://www.w3.org/ns/ssn/systems",
     "https://vocab.belgif.be/ns/generic",
     "http://purl.org/dc/elements/1.1",
-    "https://data.vlaanderen.be/ns/digitaleWatermeter",
     "http://openml.org/openml",
     "http://todo.com",
     "http://def.isotc211.org/iso19103/2005/Names",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "https://www.w3.org/ns/prov",
     "https://data.vlaanderen.be/ns/netwerk",
     "http://def.isotc211.org/iso19156/2011/TimeSeriesObservation",
     "http://def.isotc211.org/iso19156/2011/TemporalCoverage",
@@ -63,10 +61,10 @@
   "contributors": 11,
   "participants": 26,
   "classes": 21,
-  "properties": 18,
-  "externalclasses": 88,
-  "externalproperties": 88,
-  "totalterms": 215,
+  "properties": 16,
+  "externalclasses": 86,
+  "externalproperties": 94,
+  "totalterms": 217,
   "totalorganisations": 10,
   "organisations": [
     {
@@ -536,7 +534,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "InbouwTijdstip"
+            "@value": "inbouwTijdstip"
           }
         ]
       },
@@ -546,24 +544,6 @@
           {
             "@language": "nl",
             "@value": "aantalMeters"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters#observaties",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "observaties"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters#model",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "model"
           }
         ]
       },
@@ -608,7 +588,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "gedeployedDoor"
+            "@value": "inbouwDoor"
           }
         ]
       },
@@ -649,7 +629,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/digitaleWatermeter#diameter",
+        "assignedURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters#diameter",
         "label": [
           {
             "@language": "nl",
@@ -709,7 +689,7 @@
         ]
       },
       {
-        "assignedURI": "http://qudt.org/2.1/schema/qudt/Unit",
+        "assignedURI": "http://qudt.org/schema/qudt/Unit",
         "label": [
           {
             "@language": "nl",
@@ -749,19 +729,6 @@
           {
             "@language": "nl",
             "@value": "Domeinobject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://www.w3.org/ns/prov#Collection",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Collectie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Collectie"
           }
         ]
       },
@@ -1016,19 +983,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/dcat#Dataset",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Dataset"
-          },
-          {
-            "@language": "en",
-            "@value": "Dataset"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
@@ -1199,15 +1153,6 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/ns/prov#Collection",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Collectie"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
         "label": [
           {
@@ -1249,6 +1194,15 @@
           {
             "@language": "nl",
             "@value": "Systeem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/prov#Collection",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Collectie"
           }
         ]
       },
@@ -1781,7 +1735,7 @@
         ]
       },
       {
-        "assignedURI": "https://saref.etsi.org/saref4watr/operatesAtRadiofrequency",
+        "assignedURI": "https://saref.etsi.org/saref4watr/operatesAtRadioFrequency",
         "label": [
           {
             "@language": "nl",
@@ -1849,6 +1803,33 @@
           {
             "@language": "nl",
             "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://qudt.org/schema/qudt/hasUnit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tot"
           }
         ]
       },
@@ -2141,6 +2122,15 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
         "label": [
           {
@@ -2226,7 +2216,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "geobserveerdobject"
+            "@value": "geobserveerdObject"
           }
         ]
       },
@@ -2298,6 +2288,23 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/model",
+        "label": [
+          {
+            "@value": "model"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/observaties",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "observaties"
           }
         ]
       },
