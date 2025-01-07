@@ -35,6 +35,7 @@
     "http://purl.org/dc/elements/1.1",
     "http://www.w3.org/ns/adms",
     "https://def.isotc211.org/iso19156/2011/Observation",
+    "https://data.vlaanderen.be/ns/observaties-en-metingen/",
     "http://todo.com",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/ns/locn",
@@ -54,10 +55,10 @@
   "contributors": 48,
   "participants": 58,
   "classes": 50,
-  "properties": 34,
-  "externalclasses": 57,
-  "externalproperties": 27,
-  "totalterms": 168,
+  "properties": 38,
+  "externalclasses": 59,
+  "externalproperties": 45,
+  "totalterms": 192,
   "totalorganisations": 34,
   "organisations": [
     {
@@ -1296,11 +1297,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#Voertuigtype",
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Link",
         "label": [
           {
             "@language": "nl",
-            "@value": "Voertuigtype"
+            "@value": "Link"
           }
         ]
       },
@@ -1380,6 +1381,19 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GerichteLink.link",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "link"
+          },
+          {
+            "@language": "en",
+            "@value": "link"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#Verkeersmeetpunt.netwerkreferentie",
         "label": [
           {
@@ -1406,15 +1420,15 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/weg#voertuigtype",
+        "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#voertuigType",
         "label": [
           {
             "@language": "nl",
-            "@value": "voertuigtype"
+            "@value": "voertuigType"
           },
           {
             "@language": "en",
-            "@value": "typeOfVehicle"
+            "@value": "vehicleType"
           }
         ]
       },
@@ -1562,6 +1576,19 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Link.geometriemiddellijn",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometriemiddenlijn"
+          },
+          {
+            "@language": "en",
+            "@value": "geometryCenterline"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkreferentie.element",
         "label": [
           {
@@ -1571,6 +1598,32 @@
           {
             "@language": "en",
             "@value": "element"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#ligging",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ligging"
+          },
+          {
+            "@language": "en",
+            "@value": "location"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen/#Observatie.uitgevoerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
+          },
+          {
+            "@language": "en",
+            "@value": "performedBy"
           }
         ]
       },
@@ -2405,6 +2458,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OutputType"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://saref.etsi.org/core/Function",
         "label": [
           {
@@ -2612,6 +2683,19 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdMet"
+          },
+          {
+            "@language": "en",
+            "@value": "performedWith"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
         "label": [
           {
@@ -2638,6 +2722,19 @@
         ]
       },
       {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          },
+          {
+            "@language": "en",
+            "@value": "result"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint.shape",
         "label": [
           {
@@ -2647,6 +2744,58 @@
           {
             "@language": "en",
             "@value": "geometry"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          },
+          {
+            "@language": "en",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingCurve#SF_SamplingCurve.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          },
+          {
+            "@language": "en",
+            "@value": "geometry"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          },
+          {
+            "@language": "en",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          },
+          {
+            "@language": "en",
+            "@value": "type"
           }
         ]
       },
@@ -2677,6 +2826,19 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          },
+          {
+            "@language": "en",
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://saref.etsi.org/core/hasFunction",
         "label": [
           {
@@ -2703,6 +2865,136 @@
         ]
       },
       {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaattijd"
+          },
+          {
+            "@language": "en",
+            "@value": "resultTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaatkwaliteit"
+          },
+          {
+            "@language": "en",
+            "@value": "resultQuality"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "auteur"
+          },
+          {
+            "@language": "en",
+            "@value": "creator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/date",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum"
+          },
+          {
+            "@language": "en",
+            "@value": "date"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/coverage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dekking"
+          },
+          {
+            "@language": "en",
+            "@value": "coverage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/format",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "formaat"
+          },
+          {
+            "@language": "en",
+            "@value": "format"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/contributor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "medeAuteur"
+          },
+          {
+            "@language": "en",
+            "@value": "contributor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "taal"
+          },
+          {
+            "@language": "en",
+            "@value": "language"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          },
+          {
+            "@language": "en",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/publisher",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgever"
+          },
+          {
+            "@language": "en",
+            "@value": "publisher"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.name",
         "label": [
           {
@@ -2725,6 +3017,19 @@
           {
             "@language": "en",
             "@value": "Value"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door"
+          },
+          {
+            "@language": "en",
+            "@value": "assignedBy"
           }
         ]
       },
