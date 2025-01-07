@@ -27,7 +27,6 @@
     "http://schema.org",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/ns/prov",
-    "https://data.vlaanderen.be/ns/persoon",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "https://data.vlaanderen.be/ns/generiek"
   ],
@@ -35,10 +34,10 @@
   "editors": 9,
   "contributors": 66,
   "participants": 77,
-  "classes": 30,
-  "properties": 29,
-  "externalclasses": 28,
-  "externalproperties": 29,
+  "classes": 32,
+  "properties": 26,
+  "externalclasses": 31,
+  "externalproperties": 27,
   "totalterms": 116,
   "totalorganisations": 38,
   "organisations": [
@@ -837,12 +836,20 @@
           {
             "@language": "nl",
             "@value": "Rechtssubject"
+          },
+          {
+            "@language": "nl",
+            "@value": "Rechtssubject"
           }
         ]
       },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#JuridischWerk",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "Juridisch Werk"
+          },
           {
             "@language": "nl",
             "@value": "Juridisch Werk"
@@ -1080,6 +1087,24 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Rechtssubject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rechtssubject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#JuridischWerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Juridisch Werk"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/generiek#Tijdseenheid",
         "label": [
           {
@@ -1221,31 +1246,6 @@
           {
             "@language": "nl",
             "@value": "gebeurtenis"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft relatie met"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
-        "label": [
-          {
-            "@value": "Persoon (source)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
-        "label": [
-          {
-            "@value": "Persoon (target)"
           }
         ]
       },
@@ -1419,12 +1419,20 @@
           {
             "@language": "nl",
             "@value": "Tijdstip"
+          },
+          {
+            "@language": "nl",
+            "@value": "Tijdstip"
           }
         ]
       },
       {
         "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdsbepaling"
+          },
           {
             "@language": "nl",
             "@value": "Tijdsbepaling"
@@ -1452,6 +1460,10 @@
       {
         "assignedURI": "http://www.w3.org/2006/time#Interval",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdsduur"
+          },
           {
             "@language": "nl",
             "@value": "Tijdsduur"
@@ -1486,11 +1498,38 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdsbepaling"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
             "@value": "Concept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#Interval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdsduur"
           }
         ]
       },
@@ -1815,24 +1854,6 @@
           {
             "@language": "nl",
             "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/eli/ontology#is_part_of",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "is deel van"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/eli/ontology#has_part",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft deel"
           }
         ]
       },

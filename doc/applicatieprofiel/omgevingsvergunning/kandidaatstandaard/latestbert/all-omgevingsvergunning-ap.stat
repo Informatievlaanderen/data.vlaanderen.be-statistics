@@ -22,9 +22,7 @@
     "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/ns/prov",
-    "http://data.europa.eu/eli/ontology",
     "http://www.w3.org/2004/02/skos/core",
-    "https://data.vlaanderen.be/ns/persoon",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "https://data.vlaanderen.be/ns/generiek"
@@ -33,11 +31,11 @@
   "editors": 9,
   "contributors": 66,
   "participants": 77,
-  "classes": 30,
-  "properties": 37,
-  "externalclasses": 21,
-  "externalproperties": 27,
-  "totalterms": 115,
+  "classes": 31,
+  "properties": 34,
+  "externalclasses": 24,
+  "externalproperties": 25,
+  "totalterms": 114,
   "totalorganisations": 38,
   "organisations": [
     {
@@ -835,6 +833,10 @@
           {
             "@language": "nl",
             "@value": "Rechtssubject"
+          },
+          {
+            "@language": "nl",
+            "@value": "Rechtssubject"
           }
         ]
       },
@@ -1070,6 +1072,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Rechtssubject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rechtssubject"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/generiek#Document",
         "label": [
           {
@@ -1296,31 +1307,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft relatie met"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
-        "label": [
-          {
-            "@value": "Persoon (source)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
-        "label": [
-          {
-            "@value": "Persoon (target)"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#dossier",
         "label": [
           {
@@ -1481,6 +1467,10 @@
           {
             "@language": "nl",
             "@value": "Tijdstip"
+          },
+          {
+            "@language": "nl",
+            "@value": "Tijdstip"
           }
         ]
       },
@@ -1490,12 +1480,20 @@
           {
             "@language": "nl",
             "@value": "Tijdsbepaling"
+          },
+          {
+            "@language": "nl",
+            "@value": "Tijdsbepaling"
           }
         ]
       },
       {
         "assignedURI": "http://www.w3.org/2006/time#Interval",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdsduur"
+          },
           {
             "@language": "nl",
             "@value": "Tijdsduur"
@@ -1530,11 +1528,38 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdsbepaling"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
             "@value": "Concept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#Interval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdsduur"
           }
         ]
       },
@@ -1801,29 +1826,11 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/eli/ontology#has_part",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft deel"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#note",
         "label": [
           {
             "@language": "nl",
             "@value": "juridisch werk"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/eli/ontology#is_part_of",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "is deel van"
           }
         ]
       },
