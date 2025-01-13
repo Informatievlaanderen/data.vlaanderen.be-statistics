@@ -1,0 +1,1813 @@
+{
+  "title": "Bedrijventerrein",
+  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bedrijventerrein/ontwerpstandaard/toolchain4",
+  "issued": "2020-06-18",
+  "navigation": {
+    "prev": "/doc/applicatieprofiel/bedrijventerrein/erkendestandaard/2020-06-18",
+    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bedrijventerrein/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+  "statuslabel": "Standaard",
+  "namespaces": [
+    "https://data.vlaanderen.be/ns/bedrijventerrein",
+    "https://data.vlaanderen.be/ns/perceel",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://purl.org/dc/terms",
+    "http://xmlns.com/foaf/0.1",
+    "http://www.w3.org/2006/vcard/ns",
+    "http://schema.org",
+    "http://data.europa.eu/m8g",
+    "https://data.vlaanderen.be/ns/generiek",
+    "http://www.opengis.net/ont/geosparql",
+    "https://schema.org",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2000/01/rdf-schema"
+  ],
+  "authors": 1,
+  "editors": 4,
+  "contributors": 22,
+  "participants": 27,
+  "classes": 24,
+  "properties": 47,
+  "externalclasses": 33,
+  "externalproperties": 41,
+  "totalterms": 145,
+  "totalorganisations": 16,
+  "organisations": [
+    {
+      "affiliation": "vlinter(interleuven)",
+      "participants": 2
+    },
+    {
+      "affiliation": "provincialeontwikkelingsmaatschappijoost-vlaanderen",
+      "participants": 1
+    },
+    {
+      "affiliation": "wvi",
+      "participants": 1
+    },
+    {
+      "affiliation": "veneco",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapinformatievlaanderen",
+      "participants": 5
+    },
+    {
+      "affiliation": "agentschapinnoverenenondernemen",
+      "participants": 3
+    },
+    {
+      "affiliation": "departementomgeving",
+      "participants": 3
+    },
+    {
+      "affiliation": "interleuven",
+      "participants": 1
+    },
+    {
+      "affiliation": "aura",
+      "participants": 1
+    },
+    {
+      "affiliation": "provincialeontwikkelingsmaatschappijwest-vlaanderen",
+      "participants": 1
+    },
+    {
+      "affiliation": "provincialeontwikkelingsmaatschappijvlaams-brabant",
+      "participants": 2
+    },
+    {
+      "affiliation": "quares",
+      "participants": 1
+    },
+    {
+      "affiliation": "mathieugijbels",
+      "participants": 1
+    },
+    {
+      "affiliation": "intercommunaleleiedal",
+      "participants": 1
+    },
+    {
+      "affiliation": "futurnnv",
+      "participants": 1
+    },
+    {
+      "affiliation": "pwc",
+      "participants": 2
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "idrispeiren",
+        "affiliation": "agentschapinnoverenenondernemen"
+      }
+    ],
+    "editors": [
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "kevinhaleydt",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "bertvannuffelen",
+        "affiliation": "agentschapinformatievlaanderen"
+      },
+      {
+        "name": "martinvanbrabant",
+        "affiliation": "agentschapinformatievlaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "bramadams",
+        "affiliation": "vlinter(interleuven)"
+      },
+      {
+        "name": "benoitbodré",
+        "affiliation": "provincialeontwikkelingsmaatschappijoost-vlaanderen"
+      },
+      {
+        "name": "bartboute",
+        "affiliation": "wvi"
+      },
+      {
+        "name": "frederikbracke",
+        "affiliation": "veneco"
+      },
+      {
+        "name": "dirkdebaere",
+        "affiliation": "agentschapinformatievlaanderen"
+      },
+      {
+        "name": "koendebaets",
+        "affiliation": "agentschapinformatievlaanderen"
+      },
+      {
+        "name": "pascaldegreve",
+        "affiliation": "agentschapinnoverenenondernemen"
+      },
+      {
+        "name": "sophiedemulder",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "emmadeproft",
+        "affiliation": "interleuven"
+      },
+      {
+        "name": "rafdeblay",
+        "affiliation": "aura"
+      },
+      {
+        "name": "tomdecock",
+        "affiliation": "provincialeontwikkelingsmaatschappijwest-vlaanderen"
+      },
+      {
+        "name": "irisdeliever",
+        "affiliation": "provincialeontwikkelingsmaatschappijvlaams-brabant"
+      },
+      {
+        "name": "toondirckx",
+        "affiliation": "quares"
+      },
+      {
+        "name": "grietkeersmaekers",
+        "affiliation": "mathieugijbels"
+      },
+      {
+        "name": "veroniquelavaert",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "robinnoulez",
+        "affiliation": "intercommunaleleiedal"
+      },
+      {
+        "name": "bensix",
+        "affiliation": "futurnnv"
+      },
+      {
+        "name": "florisvandenbroeck",
+        "affiliation": "agentschapinnoverenenondernemen"
+      },
+      {
+        "name": "geertvanhaute",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "hendrikvanhemelryck",
+        "affiliation": "agentschapinformatievlaanderen"
+      },
+      {
+        "name": "janavanrompaey",
+        "affiliation": "provincialeontwikkelingsmaatschappijvlaams-brabant"
+      },
+      {
+        "name": "carolinevandendriessche",
+        "affiliation": "vlinter(interleuven)"
+      }
+    ],
+    "participants": [
+      {
+        "name": "bramadams",
+        "affiliation": "vlinter(interleuven)"
+      },
+      {
+        "name": "benoitbodré",
+        "affiliation": "provincialeontwikkelingsmaatschappijoost-vlaanderen"
+      },
+      {
+        "name": "bartboute",
+        "affiliation": "wvi"
+      },
+      {
+        "name": "frederikbracke",
+        "affiliation": "veneco"
+      },
+      {
+        "name": "dirkdebaere",
+        "affiliation": "agentschapinformatievlaanderen"
+      },
+      {
+        "name": "koendebaets",
+        "affiliation": "agentschapinformatievlaanderen"
+      },
+      {
+        "name": "pascaldegreve",
+        "affiliation": "agentschapinnoverenenondernemen"
+      },
+      {
+        "name": "sophiedemulder",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "emmadeproft",
+        "affiliation": "interleuven"
+      },
+      {
+        "name": "rafdeblay",
+        "affiliation": "aura"
+      },
+      {
+        "name": "tomdecock",
+        "affiliation": "provincialeontwikkelingsmaatschappijwest-vlaanderen"
+      },
+      {
+        "name": "irisdeliever",
+        "affiliation": "provincialeontwikkelingsmaatschappijvlaams-brabant"
+      },
+      {
+        "name": "toondirckx",
+        "affiliation": "quares"
+      },
+      {
+        "name": "grietkeersmaekers",
+        "affiliation": "mathieugijbels"
+      },
+      {
+        "name": "veroniquelavaert",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "robinnoulez",
+        "affiliation": "intercommunaleleiedal"
+      },
+      {
+        "name": "bensix",
+        "affiliation": "futurnnv"
+      },
+      {
+        "name": "florisvandenbroeck",
+        "affiliation": "agentschapinnoverenenondernemen"
+      },
+      {
+        "name": "geertvanhaute",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "hendrikvanhemelryck",
+        "affiliation": "agentschapinformatievlaanderen"
+      },
+      {
+        "name": "janavanrompaey",
+        "affiliation": "provincialeontwikkelingsmaatschappijvlaams-brabant"
+      },
+      {
+        "name": "carolinevandendriessche",
+        "affiliation": "vlinter(interleuven)"
+      },
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "kevinhaleydt",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "bertvannuffelen",
+        "affiliation": "agentschapinformatievlaanderen"
+      },
+      {
+        "name": "martinvanbrabant",
+        "affiliation": "agentschapinformatievlaanderen"
+      },
+      {
+        "name": "idrispeiren",
+        "affiliation": "agentschapinnoverenenondernemen"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#Planningszone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Planningszone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ruimtelijke Eenheid"
+          },
+          {
+            "@language": "nl",
+            "@value": "Ruimtelijke Eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#EconomischGebied",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Economisch Gebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bedrijventerreinperceel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bedrijventerrein"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ontwikkelbare Bedrijvenzone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#KadastraalPlanperceel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kadastraal Planperceel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#Recht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Recht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verantwoordelijkheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beheerde Bedrijvenzone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#Plan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ruimtelijke Eenheid Oppervlakte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ruimtelijke Eenheid Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#SchorsingInfo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "SchorsingInfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Functiewaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Standaard Eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gestructureerde Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "Boolean"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+        "label": [
+          {
+            "@value": "Date"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ruimtelijke Eenheid"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#datumbijwerking",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum bijwerking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#datumSchorsing",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum schorsing"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#linkSchorsing",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "link schorsing"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#geschorst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geschorst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#schorsingOpmerking",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "schorsing opmerking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#officieleOppervlakte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "officiële oppervlakte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#default",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "default"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#percentage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "percentage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#beschikbareKavels",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbare kavels"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#voorzieneUitgifte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorziene uitgifte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#publicatiedatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publicatiedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#startdatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "startdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#stedenbouwkundigeVoorschriften",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "stedenbouwkundige voorschriften"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#toelichtingsnota",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toelichtingsnota"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#lokaleIdentificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lokale identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#niveau",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "niveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#naamruimte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naamruimte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#versieIdentificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "versie-identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheidsperiode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte.oppervlakte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oppervlakte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#oppervlaktetype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#dominanteEconomischeActiviteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dominante economische activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#bebouwing",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bebouwing"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#beperking",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beperking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#beschikbaarheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#functie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "functie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#inGebruik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "in gebruik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#beschikbareOppervlakte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbare oppervlakte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#statusOntwikkeling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status ontwikkeling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#bestemming",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestemming"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#dossierfase",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dossierfase"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#planningsNiveau",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "planningsniveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#schorsing",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "schorsing"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#methode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "methode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie.geometrie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#Recht.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#dimensie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dimensie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#landgebruik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "landgebruik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oppervlakte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#gestructureerdeIdentificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gestructureerde identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#EconomischGebied.isGerelateerdAanEconomischGebied",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gerelateerd aan economisch gebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein.isGerelateerdAanEconomischGebied",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gerelateerd aan economisch gebied"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Opmetingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Gebruik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "StatusOntwikkeling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Verantwoordelijkheidtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Landgebruik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Oppervlaktetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rechttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "RuimtelijkeEenheidtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "GeometrieMethodeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Functietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Planningsniveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Beperking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Dossierfase"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Subsidietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "DominanteEconomischeActiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Bebouwing"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Bestemming"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Number",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwantitatieve Waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/OpeningHoursSpecification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openingsurenspecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "GeometrieMethodeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Dimensie"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/homepage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "homepage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanschrijfvorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/email",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "email"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/faxNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fax"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/openingHours",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "openingsuren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/telephone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telefoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/page",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "website"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitText",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/startTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begin"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/hoursAvailable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaard eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door (String)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/isPartOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/isPartOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/isPartOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/isPartOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/isPartOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/isPartOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gerelateerd aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gerelateerd aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gerelateerd aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gerelateerd aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gerelateerd aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gerelateerd aan"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "vlinter(interleuven)",
+        "names": [
+          {
+            "name": "bramadams",
+            "affiliation": "vlinter(interleuven)"
+          },
+          {
+            "name": "carolinevandendriessche",
+            "affiliation": "vlinter(interleuven)"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincialeontwikkelingsmaatschappijoost-vlaanderen",
+        "names": [
+          {
+            "name": "benoitbodré",
+            "affiliation": "provincialeontwikkelingsmaatschappijoost-vlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "wvi",
+        "names": [
+          {
+            "name": "bartboute",
+            "affiliation": "wvi"
+          }
+        ]
+      },
+      {
+        "affiliation": "veneco",
+        "names": [
+          {
+            "name": "frederikbracke",
+            "affiliation": "veneco"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapinformatievlaanderen",
+        "names": [
+          {
+            "name": "dirkdebaere",
+            "affiliation": "agentschapinformatievlaanderen"
+          },
+          {
+            "name": "koendebaets",
+            "affiliation": "agentschapinformatievlaanderen"
+          },
+          {
+            "name": "hendrikvanhemelryck",
+            "affiliation": "agentschapinformatievlaanderen"
+          },
+          {
+            "name": "bertvannuffelen",
+            "affiliation": "agentschapinformatievlaanderen"
+          },
+          {
+            "name": "martinvanbrabant",
+            "affiliation": "agentschapinformatievlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapinnoverenenondernemen",
+        "names": [
+          {
+            "name": "pascaldegreve",
+            "affiliation": "agentschapinnoverenenondernemen"
+          },
+          {
+            "name": "florisvandenbroeck",
+            "affiliation": "agentschapinnoverenenondernemen"
+          },
+          {
+            "name": "idrispeiren",
+            "affiliation": "agentschapinnoverenenondernemen"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementomgeving",
+        "names": [
+          {
+            "name": "sophiedemulder",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "veroniquelavaert",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "geertvanhaute",
+            "affiliation": "departementomgeving"
+          }
+        ]
+      },
+      {
+        "affiliation": "interleuven",
+        "names": [
+          {
+            "name": "emmadeproft",
+            "affiliation": "interleuven"
+          }
+        ]
+      },
+      {
+        "affiliation": "aura",
+        "names": [
+          {
+            "name": "rafdeblay",
+            "affiliation": "aura"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincialeontwikkelingsmaatschappijwest-vlaanderen",
+        "names": [
+          {
+            "name": "tomdecock",
+            "affiliation": "provincialeontwikkelingsmaatschappijwest-vlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincialeontwikkelingsmaatschappijvlaams-brabant",
+        "names": [
+          {
+            "name": "irisdeliever",
+            "affiliation": "provincialeontwikkelingsmaatschappijvlaams-brabant"
+          },
+          {
+            "name": "janavanrompaey",
+            "affiliation": "provincialeontwikkelingsmaatschappijvlaams-brabant"
+          }
+        ]
+      },
+      {
+        "affiliation": "quares",
+        "names": [
+          {
+            "name": "toondirckx",
+            "affiliation": "quares"
+          }
+        ]
+      },
+      {
+        "affiliation": "mathieugijbels",
+        "names": [
+          {
+            "name": "grietkeersmaekers",
+            "affiliation": "mathieugijbels"
+          }
+        ]
+      },
+      {
+        "affiliation": "intercommunaleleiedal",
+        "names": [
+          {
+            "name": "robinnoulez",
+            "affiliation": "intercommunaleleiedal"
+          }
+        ]
+      },
+      {
+        "affiliation": "futurnnv",
+        "names": [
+          {
+            "name": "bensix",
+            "affiliation": "futurnnv"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwc",
+        "names": [
+          {
+            "name": "michieldekeyzer",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "kevinhaleydt",
+            "affiliation": "pwc"
+          }
+        ]
+      }
+    ]
+  }
+}
