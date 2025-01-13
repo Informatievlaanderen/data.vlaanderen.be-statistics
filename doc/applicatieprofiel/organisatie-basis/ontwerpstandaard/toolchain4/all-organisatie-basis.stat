@@ -1,11 +1,10 @@
 {
   "title": "Organisatie Basis",
-  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01",
+  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/toolchain4",
   "issued": "2024-06-01",
   "navigation": {
-    "next": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/toolchain4",
-    "prev": "/doc/applicatieprofiel/organisatie-basis/kandidaatstandaard/niet-bepaald",
-    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01"
+    "prev": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01",
+    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/toolchain4"
   },
   "documenttype": "ap",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
@@ -21,10 +20,12 @@
     "http://www.w3.org/ns/regorg",
     "http://www.w3.org/ns/person",
     "http://xmlns.com/foaf/0.1",
-    "http://schema.org",
-    "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/2000/01/rdf-schema",
+    "http://schema.org",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "https://schema.org",
     "http://www.w3.org/ns/adms"
   ],
   "authors": 1,
@@ -33,9 +34,9 @@
   "participants": 3,
   "classes": 7,
   "properties": 7,
-  "externalclasses": 32,
-  "externalproperties": 39,
-  "totalterms": 85,
+  "externalclasses": 35,
+  "externalproperties": 42,
+  "totalterms": 91,
   "totalorganisations": 3,
   "organisations": [
     {
@@ -471,6 +472,15 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/MediaObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Mediaobject"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/adms#Identifier",
         "label": [
           {
@@ -485,6 +495,23 @@
           {
             "@language": "nl",
             "@value": "TijdsInterval"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "GeografischeNaam"
           }
         ]
       },
@@ -504,6 +531,15 @@
           {
             "@language": "nl",
             "@value": "homepage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaatsnaam"
           }
         ]
       },
@@ -531,6 +567,15 @@
           {
             "@language": "nl",
             "@value": "doel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/logo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "logo"
           }
         ]
       },
@@ -630,6 +675,15 @@
           {
             "@language": "nl",
             "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
           }
         ]
       },
