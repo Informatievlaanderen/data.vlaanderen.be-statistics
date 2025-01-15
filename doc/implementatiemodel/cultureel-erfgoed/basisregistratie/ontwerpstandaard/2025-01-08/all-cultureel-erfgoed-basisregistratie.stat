@@ -9,49 +9,350 @@
   "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
   "statuslabel": "Onbekend",
   "namespaces": [
+    "http://www.w3.org/2004/02/skos/core",
+    "http://www.cidoc-crm.org/cidoc-crm",
     "http://purl.org/dc/terms",
     "http://www.w3.org/ns/org",
-    "http://www.cidoc-crm.org/cidoc-crm",
+    "http://todo.com",
     "https://data.vlaanderen.be/ns/cultureel-erfgoed",
-    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/persoon",
     "http://www.w3.org/ns/person",
     "https://linked.art",
     "http://qudt.org/2.1/schema/qudt",
     "http://qudt.org/schema/qudt",
     "http://www.w3.org/ns/adms",
-    "http://www.w3.org/2006/time",
     "http://xmlns.com/foaf/0.1",
+    "http://schema.org",
+    "http://www.w3.org/2006/time",
+    "http://www.w3.org/ns/locn",
+    "https://data.vlaanderen.be/ns/adres",
     "https://periodo.github.io/edtf-ontology/edtfo.ttl",
     "https://data.vlaanderen.be/ns/persoon#",
+    "http://www.opengis.net/ont/geosparql",
     "https://data.vlaanderen.be/ns/generiek",
+    "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "http://www.w3.org/ns/locn",
     "http://id.loc.gov/datatypes/edtf",
     "http://www.w3.org/2001/XMLSchema",
-    "http://todo.com",
-    "http://www.w3.org/2000/01/rdf-schema",
+    "https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html",
     "https://wherever",
     "https://schema.org"
   ],
-  "authors": 0,
-  "editors": 0,
-  "contributors": 0,
-  "participants": 0,
-  "classes": 7,
-  "properties": 5,
-  "externalclasses": 58,
-  "externalproperties": 41,
-  "totalterms": 111,
-  "totalorganisations": 0,
-  "organisations": [],
+  "authors": 4,
+  "editors": 3,
+  "contributors": 20,
+  "participants": 27,
+  "classes": 8,
+  "properties": 7,
+  "externalclasses": 71,
+  "externalproperties": 70,
+  "totalterms": 156,
+  "totalorganisations": 19,
+  "organisations": [
+    {
+      "affiliation": "kuleuven",
+      "participants": 1
+    },
+    {
+      "affiliation": "archiefendocumentatiecentrumvoorhetvlaamsnationalisme",
+      "participants": 1
+    },
+    {
+      "affiliation": "vlaamseerfgoedbibliotheken",
+      "participants": 1
+    },
+    {
+      "affiliation": "designmuseumgent",
+      "participants": 1
+    },
+    {
+      "affiliation": "ugent",
+      "participants": 1
+    },
+    {
+      "affiliation": "archiefpunt",
+      "participants": 2
+    },
+    {
+      "affiliation": "momu",
+      "participants": 1
+    },
+    {
+      "affiliation": "digipolis",
+      "participants": 1
+    },
+    {
+      "affiliation": "toerismevlaanderen",
+      "participants": 1
+    },
+    {
+      "affiliation": "centrumvooragrarischegeschiedenis",
+      "participants": 1
+    },
+    {
+      "affiliation": "amsab-isg",
+      "participants": 2
+    },
+    {
+      "affiliation": "publiq",
+      "participants": 2
+    },
+    {
+      "affiliation": "stadgent",
+      "participants": 2
+    },
+    {
+      "affiliation": "agentschaponroerenderfgoed",
+      "participants": 2
+    },
+    {
+      "affiliation": "stadantwerpen",
+      "participants": 1
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 3
+    },
+    {
+      "affiliation": "informatievlaanderen",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementcultuur,jeugdenmedia",
+      "participants": 1
+    },
+    {
+      "affiliation": "meemoo",
+      "participants": 2
+    }
+  ],
   "specifications": [],
   "values": {
-    "authors": [],
-    "editors": [],
-    "contributors": [],
-    "participants": [],
+    "authors": [
+      {
+        "name": "filipborloo",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "hansvanderlinden",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      },
+      {
+        "name": "astridvergauwe",
+        "affiliation": "meemoo"
+      },
+      {
+        "name": "ronyvissers",
+        "affiliation": "meemoo"
+      }
+    ],
+    "editors": [
+      {
+        "name": "jitsedecock",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "louiseysewijn",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "valérieadriaens",
+        "affiliation": "kuleuven"
+      },
+      {
+        "name": "tomcobbaert",
+        "affiliation": "archiefendocumentatiecentrumvoorhetvlaamsnationalisme"
+      },
+      {
+        "name": "jeroencortvriendt",
+        "affiliation": "vlaamseerfgoedbibliotheken"
+      },
+      {
+        "name": "olivierd'huynslager",
+        "affiliation": "designmuseumgent"
+      },
+      {
+        "name": "vincentducatteeuw",
+        "affiliation": "ugent"
+      },
+      {
+        "name": "marekfenner",
+        "affiliation": "archiefpunt"
+      },
+      {
+        "name": "tobiashendrickx",
+        "affiliation": "momu"
+      },
+      {
+        "name": "jellekleevens",
+        "affiliation": "archiefpunt"
+      },
+      {
+        "name": "michaëlmeersmans",
+        "affiliation": "digipolis"
+      },
+      {
+        "name": "reinmeus",
+        "affiliation": "toerismevlaanderen"
+      },
+      {
+        "name": "dianthaosseweijer",
+        "affiliation": "centrumvooragrarischegeschiedenis"
+      },
+      {
+        "name": "kimrobensyn",
+        "affiliation": "amsab-isg"
+      },
+      {
+        "name": "toontabruyn",
+        "affiliation": "publiq"
+      },
+      {
+        "name": "sofieteugels",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "anneliesvalgaeren",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "anneliesvandaele",
+        "affiliation": "agentschaponroerenderfgoed"
+      },
+      {
+        "name": "koenvandaele",
+        "affiliation": "agentschaponroerenderfgoed"
+      },
+      {
+        "name": "ronvandenbranden",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "chloëvangelder",
+        "affiliation": "amsab-isg"
+      },
+      {
+        "name": "stanvertessen",
+        "affiliation": "publiq"
+      }
+    ],
+    "participants": [
+      {
+        "name": "valérieadriaens",
+        "affiliation": "kuleuven"
+      },
+      {
+        "name": "tomcobbaert",
+        "affiliation": "archiefendocumentatiecentrumvoorhetvlaamsnationalisme"
+      },
+      {
+        "name": "jeroencortvriendt",
+        "affiliation": "vlaamseerfgoedbibliotheken"
+      },
+      {
+        "name": "olivierd'huynslager",
+        "affiliation": "designmuseumgent"
+      },
+      {
+        "name": "vincentducatteeuw",
+        "affiliation": "ugent"
+      },
+      {
+        "name": "marekfenner",
+        "affiliation": "archiefpunt"
+      },
+      {
+        "name": "tobiashendrickx",
+        "affiliation": "momu"
+      },
+      {
+        "name": "jellekleevens",
+        "affiliation": "archiefpunt"
+      },
+      {
+        "name": "michaëlmeersmans",
+        "affiliation": "digipolis"
+      },
+      {
+        "name": "reinmeus",
+        "affiliation": "toerismevlaanderen"
+      },
+      {
+        "name": "dianthaosseweijer",
+        "affiliation": "centrumvooragrarischegeschiedenis"
+      },
+      {
+        "name": "kimrobensyn",
+        "affiliation": "amsab-isg"
+      },
+      {
+        "name": "toontabruyn",
+        "affiliation": "publiq"
+      },
+      {
+        "name": "sofieteugels",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "anneliesvalgaeren",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "anneliesvandaele",
+        "affiliation": "agentschaponroerenderfgoed"
+      },
+      {
+        "name": "koenvandaele",
+        "affiliation": "agentschaponroerenderfgoed"
+      },
+      {
+        "name": "ronvandenbranden",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "chloëvangelder",
+        "affiliation": "amsab-isg"
+      },
+      {
+        "name": "stanvertessen",
+        "affiliation": "publiq"
+      },
+      {
+        "name": "jitsedecock",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "louiseysewijn",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "filipborloo",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "hansvanderlinden",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      },
+      {
+        "name": "astridvergauwe",
+        "affiliation": "meemoo"
+      },
+      {
+        "name": "ronyvissers",
+        "affiliation": "meemoo"
+      }
+    ],
     "classes": [
       {
         "assignedURI": "https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol",
@@ -68,6 +369,14 @@
           {
             "@language": "nl",
             "@value": "Verblijfplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
           }
         ]
       },
@@ -96,10 +405,10 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Item",
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
         "label": [
           {
-            "@value": "Item"
+            "@value": "URI"
           }
         ]
       },
@@ -114,6 +423,24 @@
       }
     ],
     "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#volledigeNaam",
         "label": [
@@ -161,6 +488,47 @@
     ],
     "externalclasses": [
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Type Techniek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E71_Human-Made_Thing",
+        "label": [
+          {
+            "@value": "MensgemaaktDing"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object",
+        "label": [
+          {
+            "@value": "PropositioneelObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object",
+        "label": [
+          {
+            "@value": "SymbolischObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object",
+        "label": [
+          {
+            "@value": "MaterieelObject"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
           {
@@ -179,6 +547,14 @@
           {
             "@language": "nl",
             "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/WettelijkObject",
+        "label": [
+          {
+            "@value": "WettelijkObject"
           }
         ]
       },
@@ -232,6 +608,15 @@
           {
             "@language": "nl",
             "@value": "Classificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E70_Thing",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ding"
           }
         ]
       },
@@ -320,6 +705,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E30_Right",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Recht"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object",
         "label": [
           {
@@ -398,7 +792,35 @@
         "assignedURI": "http://qudt.org/schema/qudt/CurrencyUnit",
         "label": [
           {
+            "@language": "nl",
             "@value": "Valuta"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Conditie"
           }
         ]
       },
@@ -430,6 +852,15 @@
           {
             "@language": "nl",
             "@value": "Geografische Naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
           }
         ]
       },
@@ -586,15 +1017,7 @@
         ]
       },
       {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object",
-        "label": [
-          {
-            "@value": "PropositioneelObject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object",
+        "assignedURI": "https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E90",
         "label": [
           {
             "@value": "SymbolischObject"
@@ -615,6 +1038,14 @@
         "label": [
           {
             "@value": "MensgemaaktDing"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object",
+        "label": [
+          {
+            "@value": "PropositioneelObject"
           }
         ]
       },
@@ -680,11 +1111,20 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "assignedURI": "http://id.loc.gov/datatypes/edtf/EDTF",
         "label": [
           {
             "@language": "nl",
-            "@value": "Getypeerde String"
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalstring"
           }
         ]
       },
@@ -716,11 +1156,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Taalstring"
+            "@value": "Type Recht"
           }
         ]
       }
@@ -754,6 +1194,42 @@
         ]
       },
       {
+        "assignedURI": "http://xmlns.com/foaf/0.1/name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/email",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "email"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/faxNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fax"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/telephone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telefoon"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P102_has_title",
         "label": [
           {
@@ -768,6 +1244,60 @@
           {
             "@language": "nl",
             "@value": "inXSDDateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/page",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "website"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledig adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#poBox",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postbus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatieaanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
           }
         ]
       },
@@ -844,11 +1374,96 @@
         ]
       },
       {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P105_right_held_by",
         "label": [
           {
             "@language": "nl",
             "@value": "rechtenhouder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to",
+        "label": [
+          {
+            "@value": "^isOnderworpenAan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to",
+        "label": [
+          {
+            "@value": "^isOnderworpenAan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P75_possesses",
+        "label": [
+          {
+            "@value": "bezit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to",
+        "label": [
+          {
+            "@value": "^isOnderworpenAan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to",
+        "label": [
+          {
+            "@value": "isVanToepassingOp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
           }
         ]
       },
@@ -988,6 +1603,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
         "label": [
           {
@@ -1033,6 +1666,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
         "label": [
           {
@@ -1060,6 +1702,33 @@
         ]
       },
       {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P22_transferred_title_to",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "overgedragen aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P41_classified",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "getypeerde entiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P180_has_currency",
         "label": [
           {
@@ -1074,6 +1743,33 @@
           {
             "@language": "nl",
             "@value": "rechtenhouder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P62_depicts",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beeldt uit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijd"
           }
         ]
       },
@@ -1096,6 +1792,210 @@
         ]
       }
     ],
-    "organisations": []
+    "organisations": [
+      {
+        "affiliation": "kuleuven",
+        "names": [
+          {
+            "name": "valérieadriaens",
+            "affiliation": "kuleuven"
+          }
+        ]
+      },
+      {
+        "affiliation": "archiefendocumentatiecentrumvoorhetvlaamsnationalisme",
+        "names": [
+          {
+            "name": "tomcobbaert",
+            "affiliation": "archiefendocumentatiecentrumvoorhetvlaamsnationalisme"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamseerfgoedbibliotheken",
+        "names": [
+          {
+            "name": "jeroencortvriendt",
+            "affiliation": "vlaamseerfgoedbibliotheken"
+          }
+        ]
+      },
+      {
+        "affiliation": "designmuseumgent",
+        "names": [
+          {
+            "name": "olivierd'huynslager",
+            "affiliation": "designmuseumgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "ugent",
+        "names": [
+          {
+            "name": "vincentducatteeuw",
+            "affiliation": "ugent"
+          }
+        ]
+      },
+      {
+        "affiliation": "archiefpunt",
+        "names": [
+          {
+            "name": "marekfenner",
+            "affiliation": "archiefpunt"
+          },
+          {
+            "name": "jellekleevens",
+            "affiliation": "archiefpunt"
+          }
+        ]
+      },
+      {
+        "affiliation": "momu",
+        "names": [
+          {
+            "name": "tobiashendrickx",
+            "affiliation": "momu"
+          }
+        ]
+      },
+      {
+        "affiliation": "digipolis",
+        "names": [
+          {
+            "name": "michaëlmeersmans",
+            "affiliation": "digipolis"
+          }
+        ]
+      },
+      {
+        "affiliation": "toerismevlaanderen",
+        "names": [
+          {
+            "name": "reinmeus",
+            "affiliation": "toerismevlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "centrumvooragrarischegeschiedenis",
+        "names": [
+          {
+            "name": "dianthaosseweijer",
+            "affiliation": "centrumvooragrarischegeschiedenis"
+          }
+        ]
+      },
+      {
+        "affiliation": "amsab-isg",
+        "names": [
+          {
+            "name": "kimrobensyn",
+            "affiliation": "amsab-isg"
+          },
+          {
+            "name": "chloëvangelder",
+            "affiliation": "amsab-isg"
+          }
+        ]
+      },
+      {
+        "affiliation": "publiq",
+        "names": [
+          {
+            "name": "toontabruyn",
+            "affiliation": "publiq"
+          },
+          {
+            "name": "stanvertessen",
+            "affiliation": "publiq"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgent",
+        "names": [
+          {
+            "name": "sofieteugels",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "anneliesvalgaeren",
+            "affiliation": "stadgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschaponroerenderfgoed",
+        "names": [
+          {
+            "name": "anneliesvandaele",
+            "affiliation": "agentschaponroerenderfgoed"
+          },
+          {
+            "name": "koenvandaele",
+            "affiliation": "agentschaponroerenderfgoed"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadantwerpen",
+        "names": [
+          {
+            "name": "ronvandenbranden",
+            "affiliation": "stadantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "jitsedecock",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "louiseysewijn",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "filipborloo",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "informatievlaanderen",
+        "names": [
+          {
+            "name": "geertthijs",
+            "affiliation": "informatievlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementcultuur,jeugdenmedia",
+        "names": [
+          {
+            "name": "hansvanderlinden",
+            "affiliation": "departementcultuur,jeugdenmedia"
+          }
+        ]
+      },
+      {
+        "affiliation": "meemoo",
+        "names": [
+          {
+            "name": "astridvergauwe",
+            "affiliation": "meemoo"
+          },
+          {
+            "name": "ronyvissers",
+            "affiliation": "meemoo"
+          }
+        ]
+      }
+    ]
   }
 }
