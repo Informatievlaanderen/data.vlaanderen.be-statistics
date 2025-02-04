@@ -1,0 +1,436 @@
+{
+  "title": "DIVREST Registrations",
+  "uri": "https://data.dev-vlaanderen.be/doc/implementatiemodel/divrest-registrations/ontwerpstandaard/toolchain4",
+  "issued": "2020-05-25",
+  "navigation": {
+    "prev": "/doc/implementatiemodel/divrest-registrations/ontwerpstandaard/master",
+    "self": "https://data.dev-vlaanderen.be/doc/implementatiemodel/divrest-registrations/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
+  "namespaces": [
+    "http://purl.org/dc/terms",
+    "http://www.w3.org/ns/person",
+    "https://data.vlaanderen.be/ns/persoon",
+    "http://www.w3.org/ns/org",
+    "http://www.w3.org/ns/regorg",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://xmlns.com/foaf/0.1",
+    "https://data.vlaanderen.be/ns/adres",
+    "http://www.w3.org/ns/locn",
+    "http://schema.org",
+    "https://data.vlaanderen.be/ns/organisatie",
+    "https://schema.org",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/2001/XMLSchema"
+  ],
+  "authors": 1,
+  "editors": 1,
+  "contributors": 1,
+  "participants": 3,
+  "classes": 2,
+  "properties": 6,
+  "externalclasses": 16,
+  "externalproperties": 9,
+  "totalterms": 33,
+  "totalorganisations": 3,
+  "organisations": [
+    {
+      "affiliation": "medewerkeraffiliatie",
+      "participants": 1
+    },
+    {
+      "affiliation": "editoraffiliatie",
+      "participants": 1
+    },
+    {
+      "affiliation": "auteuraffiliatie",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "auteurvoornaamauteurnaam",
+        "affiliation": "auteuraffiliatie"
+      }
+    ],
+    "editors": [
+      {
+        "name": "editorvoornaameditornaam",
+        "affiliation": "editoraffiliatie"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "medewerkervoornaammedewerkernaam",
+        "affiliation": "medewerkeraffiliatie"
+      }
+    ],
+    "participants": [
+      {
+        "name": "medewerkervoornaammedewerkernaam",
+        "affiliation": "medewerkeraffiliatie"
+      },
+      {
+        "name": "editorvoornaameditornaam",
+        "affiliation": "editoraffiliatie"
+      },
+      {
+        "name": "auteurvoornaamauteurnaam",
+        "affiliation": "auteuraffiliatie"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geregistreerd Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#registratie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#rechtsvorm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtsvorm"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          },
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          },
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#FormalOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Formele Organisatie"
+          },
+          {
+            "@language": "nl",
+            "@value": "Formele Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          },
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geregistreerde Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rechtsvormtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#FormalOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Formele Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "achternaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voornaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#registration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "medewerkeraffiliatie",
+        "names": [
+          {
+            "name": "medewerkervoornaammedewerkernaam",
+            "affiliation": "medewerkeraffiliatie"
+          }
+        ]
+      },
+      {
+        "affiliation": "editoraffiliatie",
+        "names": [
+          {
+            "name": "editorvoornaameditornaam",
+            "affiliation": "editoraffiliatie"
+          }
+        ]
+      },
+      {
+        "affiliation": "auteuraffiliatie",
+        "names": [
+          {
+            "name": "auteurvoornaamauteurnaam",
+            "affiliation": "auteuraffiliatie"
+          }
+        ]
+      }
+    ]
+  }
+}
