@@ -1,0 +1,1936 @@
+{
+  "title": "Vocabularium Bestuurlijk Sanctieregister",
+  "uri": "https://data.test-vlaanderen.be/doc/vocabularium/bestuurlijk-sanctieregister/ontwerpstandaard/toolchain4",
+  "issued": "2022-06-23",
+  "navigation": {
+    "prev": "/doc/vocabularium/bestuurlijk-sanctieregister/kandidaatstandaard/2022-06-23",
+    "self": "https://data.test-vlaanderen.be/doc/vocabularium/bestuurlijk-sanctieregister/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "voc",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "statuslabel": "Kandidaat Standaard",
+  "namespaces": [
+    "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister",
+    "https://data.vlaanderen.be/ns/persoon",
+    "http://www.w3.org/ns/person",
+    "http://www.w3.org/ns/prov",
+    "http://www.w3.org/ns/org",
+    "http://www.w3.org/ns/regorg",
+    "http://purl.org/dc/terms",
+    "https://data.vlaanderen.be/ns/perceel",
+    "http://www.w3.org/2004/02/skos/core",
+    "https://data.vlaanderen.be/ns/gebouw",
+    "https://data.vlaanderen.be/ns/adres",
+    "http://data.europa.eu/eli/ontology",
+    "https://data.vlaanderen.be/ns/weg",
+    "https://data.vlaanderen.be/ns/dossier/",
+    "http://xmlns.com/foaf/0.1",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/2006/vcard/ns",
+    "http://schema.org",
+    "http://data.europa.eu/m8g",
+    "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/ns/locn",
+    "https://schema.org",
+    "https://data.vlaanderen.be/ns/besluitvorming",
+    "https://data.vlaanderen.be/ns/organisatie",
+    "https://data.vlaanderen.be/ns/generiek",
+    "http://todo.com",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/2001/XMLSchema"
+  ],
+  "authors": 2,
+  "editors": 5,
+  "contributors": 13,
+  "participants": 20,
+  "classes": 32,
+  "properties": 36,
+  "externalclasses": 40,
+  "externalproperties": 58,
+  "totalterms": 166,
+  "totalorganisations": 14,
+  "organisations": [
+    {
+      "affiliation": "openbaarministeriegent",
+      "participants": 2
+    },
+    {
+      "affiliation": "stadgenk",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapbinnenlandsbestuur",
+      "participants": 1
+    },
+    {
+      "affiliation": "lokalepolitieantwerpen",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementwerkensocialeeconomie",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementomgeving",
+      "participants": 2
+    },
+    {
+      "affiliation": "federalepolitielimburg",
+      "participants": 1
+    },
+    {
+      "affiliation": "openbaarministerieantwerpen",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapwonenvlaanderen",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapwegenenverkeer",
+      "participants": 1
+    },
+    {
+      "affiliation": "vvsg",
+      "participants": 1
+    },
+    {
+      "affiliation": "pwc",
+      "participants": 3
+    },
+    {
+      "affiliation": "informatievlaanderen",
+      "participants": 2
+    },
+    {
+      "affiliation": "departementkanselarijenbestuur",
+      "participants": 2
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "hubertbloemen",
+        "affiliation": "departementkanselarijenbestuur"
+      },
+      {
+        "name": "paulvansant",
+        "affiliation": "departementkanselarijenbestuur"
+      }
+    ],
+    "editors": [
+      {
+        "name": "pieterroeyen",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "dimitrischepers",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "antaelemans",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "vincentvanelsué",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "pwc"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "jandeclercq",
+        "affiliation": "openbaarministeriegent"
+      },
+      {
+        "name": "hugodecuyper",
+        "affiliation": "stadgenk"
+      },
+      {
+        "name": "filipdelos",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "jozefrayen",
+        "affiliation": "lokalepolitieantwerpen"
+      },
+      {
+        "name": "koenvanosselaer",
+        "affiliation": "departementwerkensocialeeconomie"
+      },
+      {
+        "name": "elsvanautryve",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "matthiasvandenberk",
+        "affiliation": "federalepolitielimburg"
+      },
+      {
+        "name": "patrickvandenbruwaene",
+        "affiliation": "openbaarministerieantwerpen"
+      },
+      {
+        "name": "kristiaanvanderbiesen",
+        "affiliation": "agentschapwonenvlaanderen"
+      },
+      {
+        "name": "veerlevanempten",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "stevenverbanck",
+        "affiliation": "vvsg"
+      },
+      {
+        "name": "fredericvroman",
+        "affiliation": "openbaarministeriegent"
+      },
+      {
+        "name": "drieswouters",
+        "affiliation": "departementomgeving"
+      }
+    ],
+    "participants": [
+      {
+        "name": "jandeclercq",
+        "affiliation": "openbaarministeriegent"
+      },
+      {
+        "name": "hugodecuyper",
+        "affiliation": "stadgenk"
+      },
+      {
+        "name": "filipdelos",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "jozefrayen",
+        "affiliation": "lokalepolitieantwerpen"
+      },
+      {
+        "name": "koenvanosselaer",
+        "affiliation": "departementwerkensocialeeconomie"
+      },
+      {
+        "name": "elsvanautryve",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "matthiasvandenberk",
+        "affiliation": "federalepolitielimburg"
+      },
+      {
+        "name": "patrickvandenbruwaene",
+        "affiliation": "openbaarministerieantwerpen"
+      },
+      {
+        "name": "kristiaanvanderbiesen",
+        "affiliation": "agentschapwonenvlaanderen"
+      },
+      {
+        "name": "veerlevanempten",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "stevenverbanck",
+        "affiliation": "vvsg"
+      },
+      {
+        "name": "fredericvroman",
+        "affiliation": "openbaarministeriegent"
+      },
+      {
+        "name": "drieswouters",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "pieterroeyen",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "dimitrischepers",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "antaelemans",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "vincentvanelsué",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "hubertbloemen",
+        "affiliation": "departementkanselarijenbestuur"
+      },
+      {
+        "name": "paulvansant",
+        "affiliation": "departementkanselarijenbestuur"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#Feit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Feit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#BestuurlijkeBeslissing",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bestuurlijke Beslissing"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#OnmiddellijkeInning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Onmiddellijke Inning"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#VervalSanctiemogelijkheidDoorBetalingGeldsom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verval van de Sanctiemogelijkheid door Betaling van een Geldsom"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#BestuurlijkeSanctie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bestuurlijke Sanctie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Geboorte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geboorte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Domicilie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domicilie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geregistreerd Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inwonerschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#SanctieBeslissing",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Sanctiebeslissing"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#KadastraalPlanperceel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kadastraal Planperceel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouw",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebouw"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Belgisch Adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#BestuurlijkeGeldboete",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bestuurlijke Geldboete"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouweenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebouweenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#BeslissingTotBestuurlijkSepot",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beslissing tot Bestuurlijk Sepot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#BeslissingTotBestuurlijkOpsporingsonderzoek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beslissing tot Bestuurlijk Opsporingsonderzoek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#Verbeurdverklaring",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verbeurdverklaring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#UitsluitingVanSteun",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Uitsluiting van Steun"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegsegment",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegsegment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#BeslissingTotBestuurlijkeVervolging",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beslissing tot Bestuurlijke Vervolging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier/#Stuk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Stuk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ruimtelijke Eenheid Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+        "label": [
+          {
+            "@value": "Date"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "Boolean"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#double",
+        "label": [
+          {
+            "@value": "Double"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsgebeurtenis",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoonsgebeurtenis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Verblijfplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verblijfplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ruimtelijke Eenheid"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#alternatieveNaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gebruikteVoornaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikte voornaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#volledigeNaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledige naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#datumBetaling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum betaling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#default",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "default"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#uitstel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitstel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#opschorting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opschorting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#registratie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#periode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#geslacht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#betalingsstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "betalingsstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/besluitvorming#resultaat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#rechtspersoonlijkheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtspersoonlijkheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#rechtstoestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtstoestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#rechtsvorm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtsvorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#bedrag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bedrag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#geldsom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldsom"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#betalingsstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "betalingsstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie.geometrie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#methode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "methode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#betalingsstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "betalingsstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#plaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#rechtsbron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtsbron"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#uitstelperiode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitstelperiode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#boete",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "boete"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#opschortingProefperiode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opschorting proefperiode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#bedrag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bedrag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#overtreedt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "overtreedt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#legtOp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "legt op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#opgenomenIn",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opgenomen in"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#gerelateerd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gerelateerd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#betrokkene",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "betrokkene"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          },
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          },
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          },
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geregistreerde Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Site",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Jurisdiction",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Jurisdictie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bestuurlijk Sepot Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beslissing Beboetingsinstantie Resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verbeurdverklaring Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Alternatieve Sanctie Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gepleegd Feit Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Uitsluiting Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rechtsbrononderdeel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Betaling Status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/MonetaryAmount",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geldbedrag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geografische Naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Activity",
+        "label": [
+          {
+            "@value": "Activity"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#FormalOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Formele Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#LegalResource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rechtsbron"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Entity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Entiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rechtspersoonlijkheidtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rechtstoestandtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rechtsvormtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "GeometrieMethodeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Type rechtsbron onderdeel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Valuta"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/date",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "achternaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#birthName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geboortenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#patronymicName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "patroniem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voornaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "omschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#legalName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wettelijke naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/date",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum betaling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/date",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum betaling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaatsnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanschrijfvorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/email",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "email"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/faxNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fax"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/startTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begin"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/openingHours",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "openingsuren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/telephone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telefoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/page",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "website"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 1"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 2"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#addressArea",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adresgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatieaanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatienaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#poBox",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postbus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledig adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/date",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "omschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#registration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#siteAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vestigingsadres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/currency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "valuta"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#atLocation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/genomenDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "genomen door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#generated",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "leidt tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasGeneratedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gevolg van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#generated",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "leidt tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/vindtNeerslagIn",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vindtNeerslagIn"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/verbalisant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verbalisant"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/about",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "over"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "openbaarministeriegent",
+        "names": [
+          {
+            "name": "jandeclercq",
+            "affiliation": "openbaarministeriegent"
+          },
+          {
+            "name": "fredericvroman",
+            "affiliation": "openbaarministeriegent"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgenk",
+        "names": [
+          {
+            "name": "hugodecuyper",
+            "affiliation": "stadgenk"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapbinnenlandsbestuur",
+        "names": [
+          {
+            "name": "filipdelos",
+            "affiliation": "agentschapbinnenlandsbestuur"
+          }
+        ]
+      },
+      {
+        "affiliation": "lokalepolitieantwerpen",
+        "names": [
+          {
+            "name": "jozefrayen",
+            "affiliation": "lokalepolitieantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementwerkensocialeeconomie",
+        "names": [
+          {
+            "name": "koenvanosselaer",
+            "affiliation": "departementwerkensocialeeconomie"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementomgeving",
+        "names": [
+          {
+            "name": "elsvanautryve",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "drieswouters",
+            "affiliation": "departementomgeving"
+          }
+        ]
+      },
+      {
+        "affiliation": "federalepolitielimburg",
+        "names": [
+          {
+            "name": "matthiasvandenberk",
+            "affiliation": "federalepolitielimburg"
+          }
+        ]
+      },
+      {
+        "affiliation": "openbaarministerieantwerpen",
+        "names": [
+          {
+            "name": "patrickvandenbruwaene",
+            "affiliation": "openbaarministerieantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapwonenvlaanderen",
+        "names": [
+          {
+            "name": "kristiaanvanderbiesen",
+            "affiliation": "agentschapwonenvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapwegenenverkeer",
+        "names": [
+          {
+            "name": "veerlevanempten",
+            "affiliation": "agentschapwegenenverkeer"
+          }
+        ]
+      },
+      {
+        "affiliation": "vvsg",
+        "names": [
+          {
+            "name": "stevenverbanck",
+            "affiliation": "vvsg"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwc",
+        "names": [
+          {
+            "name": "pieterroeyen",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "dimitrischepers",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "laurensvercauteren",
+            "affiliation": "pwc"
+          }
+        ]
+      },
+      {
+        "affiliation": "informatievlaanderen",
+        "names": [
+          {
+            "name": "antaelemans",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "vincentvanelsué",
+            "affiliation": "informatievlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementkanselarijenbestuur",
+        "names": [
+          {
+            "name": "hubertbloemen",
+            "affiliation": "departementkanselarijenbestuur"
+          },
+          {
+            "name": "paulvansant",
+            "affiliation": "departementkanselarijenbestuur"
+          }
+        ]
+      }
+    ]
+  }
+}
