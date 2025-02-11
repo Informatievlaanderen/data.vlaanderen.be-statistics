@@ -1,0 +1,1341 @@
+{
+  "title": "Implementatiemodel Kwaliteit Wegen en Wegmarkeringen",
+  "uri": "https://data.vlaanderen.be/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/toolchain4",
+  "issued": "2023-07-24",
+  "navigation": {
+    "prev": "/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/erkendestandaard/2024-12-05",
+    "self": "https://data.vlaanderen.be/doc/applicatieprofiel/kwaliteit-wegen-en-wegmarkeringen/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "statuslabel": "Kandidaat Standaard",
+  "namespaces": [
+    "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen",
+    "http://def.isotc211.org/iso19157/2013/DataQualityResult",
+    "https://data.vlaanderen.be/ns/openbaardomein",
+    "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
+    "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature",
+    "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures",
+    "http://www.w3.org/ns/prov",
+    "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement",
+    "http://www.w3.org/ns/org",
+    "http://purl.org/dc/terms",
+    "https://wegenenverkeer.data.vlaanderen.be/ns/abstracten",
+    "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur",
+    "https://data.vlaanderen.be/ns/kwaliteitopenbaardomein",
+    "http://www.w3.org/2004/02/skos/core",
+    "https://qudt.org/schema/qudt",
+    "http://www.w3.org/ns/sosa",
+    "http://www.w3.org/2006/time",
+    "http://fixme.com/",
+    "http://purl.org/cd/terms",
+    "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/aim-object/",
+    "https://data.vlaanderen.be/ns/generiek",
+    "http://def.isotc211.org/iso19156/2011/Observation",
+    "http://def.isotc211.org/iso19108/2006/TemporalObjects",
+    "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.opengis.net/ont/gml",
+    "http://def.isotc211.org/iso19103/2005/Names",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://qudt.org/schema/qudt",
+    "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
+    "http://def.isotc211.org/iso19156/2011GeneralFeatureInstance",
+    "https://schema.org",
+    "http://todo.com"
+  ],
+  "authors": 4,
+  "editors": 8,
+  "contributors": 2,
+  "participants": 14,
+  "classes": 32,
+  "properties": 11,
+  "externalclasses": 55,
+  "externalproperties": 16,
+  "totalterms": 114,
+  "totalorganisations": 3,
+  "organisations": [
+    {
+      "affiliation": "stadbrugge",
+      "participants": 2
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 8
+    },
+    {
+      "affiliation": "stadroeselare",
+      "participants": 4
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "stevebaete",
+        "affiliation": "stadroeselare"
+      },
+      {
+        "name": "cantorcoene",
+        "affiliation": "stadroeselare"
+      },
+      {
+        "name": "bennymeyns",
+        "affiliation": "stadroeselare"
+      },
+      {
+        "name": "nicoscheldeman",
+        "affiliation": "stadroeselare"
+      }
+    ],
+    "editors": [
+      {
+        "name": "veerlebeyaert",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "arnescheldeman",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "liesbethvanderhaegen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "lorenzovylders",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "tomboi",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "idevandenbroucke",
+        "affiliation": "stadbrugge"
+      }
+    ],
+    "participants": [
+      {
+        "name": "tomboi",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "idevandenbroucke",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "veerlebeyaert",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "arnescheldeman",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "liesbethvanderhaegen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "lorenzovylders",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "stevebaete",
+        "affiliation": "stadroeselare"
+      },
+      {
+        "name": "cantorcoene",
+        "affiliation": "stadroeselare"
+      },
+      {
+        "name": "bennymeyns",
+        "affiliation": "stadroeselare"
+      },
+      {
+        "name": "nicoscheldeman",
+        "affiliation": "stadroeselare"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#KwaliteitsObservatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwaliteitsobservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#KwaliteitsResultaat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwaliteitsResultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#KwaliteitsKenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwaliteitsKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fysiek object"
+          },
+          {
+            "@language": "nl",
+            "@value": "Fysiek object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#OpenbaarDomeinObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OpenbaarDomeinObject"
+          },
+          {
+            "@language": "nl",
+            "@value": "OpenbaarDomeinObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Deel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Deel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#AIMObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AIM object"
+          },
+          {
+            "@language": "nl",
+            "@value": "AIM object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#Conformiteitsresultaat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Conformiteitsresultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#KwaliteitsSensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwaliteitsSensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#KwaliteitsObservatieprocedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwaliteitsobservatieprocedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#Markering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Markering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmarkering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegmarkering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#MarkeringKOD",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Markering KOD"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#KenmerkType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KenmerkType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kwaliteitopenbaardomein#TypeLaag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TypeLaag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#Laag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Laag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kwaliteitopenbaardomein#ObservatieProcedureType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ObservatieProcedureType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kwaliteitopenbaardomein#KleurCodeKOD",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KleurCodeKOD"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/kwaliteitopenbaardomein#TypeMarkering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TypeMarkering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KwantWrdInMeter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwantitatieve waarde in meter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KwantWrdInVierkanteMeter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwantitatieve waarde in vierkante meter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "boolean"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#decimal",
+        "label": [
+          {
+            "@value": "Decimal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fysiek object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#OpenbaarDomeinObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OpenbaarDomeinObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#AIMObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AIM object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#Signalisatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Signalisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Opmeting"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#KwaliteitsSensor.versie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "versie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#KwaliteitsObservatieprocedure.specificatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "specificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KwantWrdInMeter.standaardEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaard eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KwantWrdInMeter.waarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KwantWrdInVierkanteMeter.standaardEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaard eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KwantWrdInVierkanteMeter.waarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#KwaliteitsObservatie.uitgevoerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#MarkeringKOD.kleurKOD",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kleur KOD"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/aim-object/#heeft%20betrokkene",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft betrokkene"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Geometrie.opmeting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#KwaliteitsObservatie.resultaat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://def.isotc211.org/iso19157/2013/DataQualityResult#DQ_QuantitativeResult",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwantitatiefResultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
+          },
+          {
+            "@language": "nl",
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkBemonsteringsobject"
+          },
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkBemonsteringsobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#Scene",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Scene"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Entity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Element"
+          },
+          {
+            "@language": "nl",
+            "@value": "Element"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19157/2013/DataQualityResult#DQ_DescriptiveResult",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BeschrijvendResultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          },
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Concept"
+          },
+          {
+            "@language": "nl",
+            "@value": "Concept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#LidarCloud",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LIDARpuntenwolk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie Status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie Classificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie Activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures#Trajectory",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Traject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Soort markeringsproduct"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kleur markering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://qudt.org/schema/qudt/Unit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Laag rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BenoemdeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#Curve",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Curve"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          },
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TaalString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#Surface",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vlak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/gml#Solid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "3Dobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/Names#GenericName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeneriekeNaam"
+          },
+          {
+            "@language": "nl",
+            "@value": "GeneriekeNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#decimal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Decimaal getal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://qudt.org/schema/qudt/QuantityValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwantitatieveWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          },
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "NaamInNaamruimte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LokaleNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Any"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkBemonsteringsobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Entity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Element"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011GeneralFeatureInstance#GFI_DomainFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Sensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Sensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatieprocedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Concept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/Names#GenericName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeneriekeNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwantitatieveWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Agent",
+        "label": [
+          {
+            "@value": "Agent"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "https://qudt.org/schema/qudt/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inXSDDateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://fixme.com/#beheerder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beheerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/cd/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/cd/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/cd/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdMetSensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikteProcedure"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "stadbrugge",
+        "names": [
+          {
+            "name": "tomboi",
+            "affiliation": "stadbrugge"
+          },
+          {
+            "name": "idevandenbroucke",
+            "affiliation": "stadbrugge"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "veerlebeyaert",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "rafbuyle",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "arnescheldeman",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "liesbethvanderhaegen",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "ziggyvanlishout",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "laurensvercauteren",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "evelinevlassenroot",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "lorenzovylders",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadroeselare",
+        "names": [
+          {
+            "name": "stevebaete",
+            "affiliation": "stadroeselare"
+          },
+          {
+            "name": "cantorcoene",
+            "affiliation": "stadroeselare"
+          },
+          {
+            "name": "bennymeyns",
+            "affiliation": "stadroeselare"
+          },
+          {
+            "name": "nicoscheldeman",
+            "affiliation": "stadroeselare"
+          }
+        ]
+      }
+    ]
+  }
+}
