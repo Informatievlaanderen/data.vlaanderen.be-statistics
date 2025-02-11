@@ -1,0 +1,667 @@
+{
+  "title": "Vlaamse Codex",
+  "uri": "https://data.vlaanderen.be/doc/applicatieprofiel/vlaamse-codex/ontwerpstandaard/toolchain4",
+  "issued": "2019-02-07",
+  "navigation": {
+    "prev": "/doc/applicatieprofiel/vlaamse-codex/standaard/2019-02-07",
+    "self": "https://data.vlaanderen.be/doc/applicatieprofiel/vlaamse-codex/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+  "statuslabel": "Standaard",
+  "namespaces": [
+    "http://data.europa.eu/eli/ontology",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://purl.org/dc/terms",
+    "http://www.w3.org/ns/prov",
+    "http://www.w3.org/ns/adms",
+    "https://data.vlaanderen.be/ns/wetgeving",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/2000/01/rdf-schema"
+  ],
+  "authors": 2,
+  "editors": 3,
+  "contributors": 2,
+  "participants": 7,
+  "classes": 3,
+  "properties": 10,
+  "externalclasses": 8,
+  "externalproperties": 34,
+  "totalterms": 55,
+  "totalorganisations": 4,
+  "organisations": [
+    {
+      "affiliation": "agentschapbinnenlandsbestuur",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementomgeving",
+      "participants": 1
+    },
+    {
+      "affiliation": "pwc",
+      "participants": 3
+    },
+    {
+      "affiliation": "departementkanselarijenbestuur",
+      "participants": 2
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "franksteenput",
+        "affiliation": "departementkanselarijenbestuur"
+      },
+      {
+        "name": "christelvankeer",
+        "affiliation": "departementkanselarijenbestuur"
+      }
+    ],
+    "editors": [
+      {
+        "name": "yvesmeersmans",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "jensscheerlinck",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "carmenvandeloo",
+        "affiliation": "pwc"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "domiendecloedt",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "geertvanhaute",
+        "affiliation": "departementomgeving"
+      }
+    ],
+    "participants": [
+      {
+        "name": "domiendecloedt",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "geertvanhaute",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "yvesmeersmans",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "jensscheerlinck",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "carmenvandeloo",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "franksteenput",
+        "affiliation": "departementkanselarijenbestuur"
+      },
+      {
+        "name": "christelvankeer",
+        "affiliation": "departementkanselarijenbestuur"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+        "label": [
+          {
+            "@value": "Date"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#ingevoegdBij",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ingevoegd bij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#trektIn",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "trekt in"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#ingetrokkenBij",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ingetrokken bij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#heftOp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heft op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#vervangenBij",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vervangen bij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#bekrachtigdBij",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bekrachtigd bij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#bekrachtigt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bekrachtigt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#vervangt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vervangt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#voegtIn",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voegt in"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#opgehevenBij",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opgeheven bij"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#LegalExpression",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verschijningsvorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aard van de wetgeving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rechtsbrononderdeel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#LegalResource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rechtsbron"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Type rechtsbron onderdeel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#title_short",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "citeeropschrift"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "commentaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inhoud"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#id_local",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lokaleid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#date_publication",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publicatiedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/subject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "trefwoord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opschrift"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#number",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#first_date_entry_in_force",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inwerkingtreding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#date_no_longer_in_force",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "buitenwerkingtreding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#date_document",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum document"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#date_applicability",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum toepasbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#first_date_entry_in_force",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inwerkingtreding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#is_about",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "thema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#date_no_longer_in_force",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "buitenwerkingtreding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#type_document",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type document"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door (String)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#related_to",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zie ook"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#is_part_of",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/hasPart",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft deel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#transposes",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zet om"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#cites",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "citeert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#responsibility_of",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verantwoordelijke"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#amends",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wijzigt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#amended_by",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gewijzigd bij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#consolidates",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "consolideert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#realizes",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "realiseert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#is_realized_by",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gerealiseerd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#corrected_by",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "errata"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "agentschapbinnenlandsbestuur",
+        "names": [
+          {
+            "name": "domiendecloedt",
+            "affiliation": "agentschapbinnenlandsbestuur"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementomgeving",
+        "names": [
+          {
+            "name": "geertvanhaute",
+            "affiliation": "departementomgeving"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwc",
+        "names": [
+          {
+            "name": "yvesmeersmans",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "jensscheerlinck",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "carmenvandeloo",
+            "affiliation": "pwc"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementkanselarijenbestuur",
+        "names": [
+          {
+            "name": "franksteenput",
+            "affiliation": "departementkanselarijenbestuur"
+          },
+          {
+            "name": "christelvankeer",
+            "affiliation": "departementkanselarijenbestuur"
+          }
+        ]
+      }
+    ]
+  }
+}
