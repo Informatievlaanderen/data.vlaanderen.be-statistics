@@ -1,0 +1,828 @@
+{
+  "title": "Transportnetwerk",
+  "uri": "https://data.test-vlaanderen.be/doc/vocabularium/transportnetwerk/ontwerpstandaard/toolchain4",
+  "issued": "2025-01-07",
+  "navigation": {
+    "prev": "/doc/vocabularium/transportnetwerk/erkendestandaard/2020-04-23",
+    "self": "https://data.test-vlaanderen.be/doc/vocabularium/transportnetwerk/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "voc",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
+  "namespaces": [
+    "https://data.vlaanderen.be/ns/transportnetwerk",
+    "http://purl.org/dc/terms",
+    "https://data.vlaanderen.be/ns/netwerk",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.opengis.net/ont/sf",
+    "https://schema.org",
+    "http://www.w3.org/2004/02/skos/core"
+  ],
+  "authors": 4,
+  "editors": 7,
+  "contributors": 22,
+  "participants": 33,
+  "classes": 16,
+  "properties": 5,
+  "externalclasses": 4,
+  "externalproperties": 1,
+  "totalterms": 26,
+  "totalorganisations": 16,
+  "organisations": [
+    {
+      "affiliation": "federaleoverheidsdienstmobiliteitenvervoer",
+      "participants": 2
+    },
+    {
+      "affiliation": "imec-ugent",
+      "participants": 3
+    },
+    {
+      "affiliation": "delijn",
+      "participants": 3
+    },
+    {
+      "affiliation": "battmobiel",
+      "participants": 1
+    },
+    {
+      "affiliation": "informatievlaanderen",
+      "participants": 5
+    },
+    {
+      "affiliation": "taxistop",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapwegenenverkeer",
+      "participants": 2
+    },
+    {
+      "affiliation": "departementmobiliteitenopenbarewerken",
+      "participants": 6
+    },
+    {
+      "affiliation": "autodelen.net",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementomgeving",
+      "participants": 1
+    },
+    {
+      "affiliation": "voi",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapvoormaritiemedienstverleningenkust",
+      "participants": 1
+    },
+    {
+      "affiliation": "its.be",
+      "participants": 1
+    },
+    {
+      "affiliation": "ertico-itseurope",
+      "participants": 1
+    },
+    {
+      "affiliation": "pwc",
+      "participants": 3
+    },
+    {
+      "affiliation": "stadantwerpen",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "odettebuntinx",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "ericsempels",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "paultheyskens",
+        "affiliation": "delijn"
+      },
+      {
+        "name": "stijnvernaillen",
+        "affiliation": "stadantwerpen"
+      }
+    ],
+    "editors": [
+      {
+        "name": "rafbuyle",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "dimitrischepers",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "bertvannuffelen",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "martinvanbrabant",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "pwc"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "hansbuschop",
+        "affiliation": "federaleoverheidsdienstmobiliteitenvervoer"
+      },
+      {
+        "name": "pietercolpaert",
+        "affiliation": "imec-ugent"
+      },
+      {
+        "name": "timconinx",
+        "affiliation": "delijn"
+      },
+      {
+        "name": "chrisdeguytenaer",
+        "affiliation": "battmobiel"
+      },
+      {
+        "name": "marcdeleu",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "edwarddemoor",
+        "affiliation": "taxistop"
+      },
+      {
+        "name": "joachimdero",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "erwinhermans",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "inelippens",
+        "affiliation": "autodelen.net"
+      },
+      {
+        "name": "sienmaes",
+        "affiliation": "delijn"
+      },
+      {
+        "name": "lukmutsaerts",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "welmoedneijmeijer",
+        "affiliation": "voi"
+      },
+      {
+        "name": "jeroennyckees",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "peterpeeters",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "davidschoenmaekers",
+        "affiliation": "federaleoverheidsdienstmobiliteitenvervoer"
+      },
+      {
+        "name": "tomstorme",
+        "affiliation": "imec-ugent"
+      },
+      {
+        "name": "brechtvandevyvere",
+        "affiliation": "imec-ugent"
+      },
+      {
+        "name": "anneliesvandenbruele",
+        "affiliation": "agentschapvoormaritiemedienstverleningenkust"
+      },
+      {
+        "name": "petervanderperre",
+        "affiliation": "its.be"
+      },
+      {
+        "name": "bartvanherbruggen",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "yanickvanhoeymissen",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "erwinvermassen",
+        "affiliation": "ertico-itseurope"
+      }
+    ],
+    "participants": [
+      {
+        "name": "hansbuschop",
+        "affiliation": "federaleoverheidsdienstmobiliteitenvervoer"
+      },
+      {
+        "name": "pietercolpaert",
+        "affiliation": "imec-ugent"
+      },
+      {
+        "name": "timconinx",
+        "affiliation": "delijn"
+      },
+      {
+        "name": "chrisdeguytenaer",
+        "affiliation": "battmobiel"
+      },
+      {
+        "name": "marcdeleu",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "edwarddemoor",
+        "affiliation": "taxistop"
+      },
+      {
+        "name": "joachimdero",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "erwinhermans",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "inelippens",
+        "affiliation": "autodelen.net"
+      },
+      {
+        "name": "sienmaes",
+        "affiliation": "delijn"
+      },
+      {
+        "name": "lukmutsaerts",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "welmoedneijmeijer",
+        "affiliation": "voi"
+      },
+      {
+        "name": "jeroennyckees",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "peterpeeters",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "davidschoenmaekers",
+        "affiliation": "federaleoverheidsdienstmobiliteitenvervoer"
+      },
+      {
+        "name": "tomstorme",
+        "affiliation": "imec-ugent"
+      },
+      {
+        "name": "brechtvandevyvere",
+        "affiliation": "imec-ugent"
+      },
+      {
+        "name": "anneliesvandenbruele",
+        "affiliation": "agentschapvoormaritiemedienstverleningenkust"
+      },
+      {
+        "name": "petervanderperre",
+        "affiliation": "its.be"
+      },
+      {
+        "name": "bartvanherbruggen",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "yanickvanhoeymissen",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "erwinvermassen",
+        "affiliation": "ertico-itseurope"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "dimitrischepers",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "bertvannuffelen",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "martinvanbrabant",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "odettebuntinx",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "ericsempels",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "paultheyskens",
+        "affiliation": "delijn"
+      },
+      {
+        "name": "stijnvernaillen",
+        "affiliation": "stadantwerpen"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportobject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transportobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportgebied",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transportgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transportknoop"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlink",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transportlink"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transportlinksequentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transportlinkset"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportpunt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transportpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Afstandspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Afstandspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportnetwerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transportnetwerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkelement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Netwerkelement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkgebied",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Netwerkgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Knoop",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Knoop"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Link",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Link"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linksequentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Linksequentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linkset",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Linkset"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Netwerk"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#geografischeNaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geografische naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#geometrie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#afstand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afstand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#bestaatUit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestaat uit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#route",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "route"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geografische Naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#Point",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Punt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwantitatieve Waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transporttype"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "federaleoverheidsdienstmobiliteitenvervoer",
+        "names": [
+          {
+            "name": "hansbuschop",
+            "affiliation": "federaleoverheidsdienstmobiliteitenvervoer"
+          },
+          {
+            "name": "davidschoenmaekers",
+            "affiliation": "federaleoverheidsdienstmobiliteitenvervoer"
+          }
+        ]
+      },
+      {
+        "affiliation": "imec-ugent",
+        "names": [
+          {
+            "name": "pietercolpaert",
+            "affiliation": "imec-ugent"
+          },
+          {
+            "name": "tomstorme",
+            "affiliation": "imec-ugent"
+          },
+          {
+            "name": "brechtvandevyvere",
+            "affiliation": "imec-ugent"
+          }
+        ]
+      },
+      {
+        "affiliation": "delijn",
+        "names": [
+          {
+            "name": "timconinx",
+            "affiliation": "delijn"
+          },
+          {
+            "name": "sienmaes",
+            "affiliation": "delijn"
+          },
+          {
+            "name": "paultheyskens",
+            "affiliation": "delijn"
+          }
+        ]
+      },
+      {
+        "affiliation": "battmobiel",
+        "names": [
+          {
+            "name": "chrisdeguytenaer",
+            "affiliation": "battmobiel"
+          }
+        ]
+      },
+      {
+        "affiliation": "informatievlaanderen",
+        "names": [
+          {
+            "name": "marcdeleu",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "rafbuyle",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "geertthijs",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "bertvannuffelen",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "martinvanbrabant",
+            "affiliation": "informatievlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "taxistop",
+        "names": [
+          {
+            "name": "edwarddemoor",
+            "affiliation": "taxistop"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapwegenenverkeer",
+        "names": [
+          {
+            "name": "joachimdero",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "yanickvanhoeymissen",
+            "affiliation": "agentschapwegenenverkeer"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementmobiliteitenopenbarewerken",
+        "names": [
+          {
+            "name": "erwinhermans",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          },
+          {
+            "name": "jeroennyckees",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          },
+          {
+            "name": "peterpeeters",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          },
+          {
+            "name": "bartvanherbruggen",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          },
+          {
+            "name": "odettebuntinx",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          },
+          {
+            "name": "ericsempels",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          }
+        ]
+      },
+      {
+        "affiliation": "autodelen.net",
+        "names": [
+          {
+            "name": "inelippens",
+            "affiliation": "autodelen.net"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementomgeving",
+        "names": [
+          {
+            "name": "lukmutsaerts",
+            "affiliation": "departementomgeving"
+          }
+        ]
+      },
+      {
+        "affiliation": "voi",
+        "names": [
+          {
+            "name": "welmoedneijmeijer",
+            "affiliation": "voi"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapvoormaritiemedienstverleningenkust",
+        "names": [
+          {
+            "name": "anneliesvandenbruele",
+            "affiliation": "agentschapvoormaritiemedienstverleningenkust"
+          }
+        ]
+      },
+      {
+        "affiliation": "its.be",
+        "names": [
+          {
+            "name": "petervanderperre",
+            "affiliation": "its.be"
+          }
+        ]
+      },
+      {
+        "affiliation": "ertico-itseurope",
+        "names": [
+          {
+            "name": "erwinvermassen",
+            "affiliation": "ertico-itseurope"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwc",
+        "names": [
+          {
+            "name": "michieldekeyzer",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "dimitrischepers",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "laurensvercauteren",
+            "affiliation": "pwc"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadantwerpen",
+        "names": [
+          {
+            "name": "stijnvernaillen",
+            "affiliation": "stadantwerpen"
+          }
+        ]
+      }
+    ]
+  }
+}

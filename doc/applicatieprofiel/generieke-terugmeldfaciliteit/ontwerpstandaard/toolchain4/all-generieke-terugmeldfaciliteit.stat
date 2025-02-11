@@ -1,0 +1,1042 @@
+{
+  "title": "Generieke Terugmeldfaciliteit",
+  "uri": "https://data.test-vlaanderen.be/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpstandaard/toolchain4",
+  "issued": "2019-02-07",
+  "navigation": {
+    "prev": "/doc/applicatieprofiel/generieke-terugmeldfaciliteit/standaard/2019-02-07",
+    "self": "https://data.test-vlaanderen.be/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+  "statuslabel": "Standaard",
+  "namespaces": [
+    "http://www.w3.org/2004/02/skos/core",
+    "http://purl.org/dc/dcmitype",
+    "https://data.vlaanderen.be/ns/melding",
+    "http://www.w3.org/ns/oa",
+    "http://purl.org/dc/terms",
+    "https://www.w3.org/ns/org",
+    "https://data.vlaanderen.be/ns/organisatie",
+    "http://www.w3.org/ns/org",
+    "http://data.europa.eu/m8g",
+    "https://data.vlaanderen.be/ns/persoon",
+    "http://www.w3.org/ns/person",
+    "https://www.w3.org/ns/activitystreams",
+    "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "https://www.w3.org/ns/hydra/core",
+    "http://www.w3.org/ns/locn",
+    "http://data.vlaanderen.be/ns/persoon",
+    "http://www.w3.org/2001/XMLSchema"
+  ],
+  "authors": 4,
+  "editors": 2,
+  "contributors": 9,
+  "participants": 15,
+  "classes": 16,
+  "properties": 33,
+  "externalclasses": 13,
+  "externalproperties": 22,
+  "totalterms": 84,
+  "totalorganisations": 4,
+  "organisations": [
+    {
+      "affiliation": "informatievlaanderen",
+      "participants": 10
+    },
+    {
+      "affiliation": "stadantwerpen",
+      "participants": 1
+    },
+    {
+      "affiliation": "pwc",
+      "participants": 3
+    },
+    {
+      "affiliation": "bosa",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "joostdeweghe",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "jurgendooms",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "goedelevanderspiegel",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "carolienwillen",
+        "affiliation": "informatievlaanderen"
+      }
+    ],
+    "editors": [
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "jensscheerlinck",
+        "affiliation": "pwc"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "joostdegeyndt",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "jasminderijcker",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "pieterkempenaers",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "nikolaosloutas",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "liesbethrombouts",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "thomassobry",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "stefanvancamp",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "barbaravangogh",
+        "affiliation": "bosa"
+      },
+      {
+        "name": "stijnvanspeybroeck",
+        "affiliation": "informatievlaanderen"
+      }
+    ],
+    "participants": [
+      {
+        "name": "joostdegeyndt",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "jasminderijcker",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "pieterkempenaers",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "nikolaosloutas",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "liesbethrombouts",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "thomassobry",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "stefanvancamp",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "barbaravangogh",
+        "affiliation": "bosa"
+      },
+      {
+        "name": "stijnvanspeybroeck",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "jensscheerlinck",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "joostdeweghe",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "jurgendooms",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "goedelevanderspiegel",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "carolienwillen",
+        "affiliation": "informatievlaanderen"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Terugmelding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Terugmelding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Applicatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Applicatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Meldingsobject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meldingsobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Hoedanigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Hoedanigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geregistreerd Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Eigenschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Eigenschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Meldingstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meldingstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#MeldingsobjectAttribuut",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meldingsobject Attribuut"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#MeldingBody",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Melding Body"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "Boolean"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Melding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Melding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Codelijst",
+        "label": [
+          {
+            "@value": "Codelijst"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#statusdatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "statusdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#huidigeWaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huidige waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#voorgesteldeWaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorgestelde waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#webpagina",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "webpagina"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#meldbaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "meldbaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#verwachtType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verplicht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#statuswaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#statuswijzigingDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "statuswijziging door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#heeftStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#meldingstype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "meldingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#gerelateerdeBody",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gerelateerde body"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#heeftEigenschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft eigenschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#heeftStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/persoon#registratie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Organisatie.behandelaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "behandelaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Meldingsobject.behandelaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "behandelaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Applicatie.meldingsapplicatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "meldingsapplicatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Terugmelding.meldingsapplicatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "meldingsapplicatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Organisatie.meldingsorganisatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "meldingsorganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Terugmelding.meldingsorganisatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "meldingsorganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#bronhouder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bronhouder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Organisatie.bronhouder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bronhouder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Concept.bronhouder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bronhouder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Eigenschap.eigenschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eigenschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Dataset.eigenschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eigenschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Organisatie.bronhouder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bronhouder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Eigenschap.bronhouder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bronhouder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Concept.mogelijkeWaarden",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "mogelijke waarden"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Eigenschap.mogelijkeWaarden",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "mogelijke waarden"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#melder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "melder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#behandelaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "behandelaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#indiener",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "indiener"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#betrokkene",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "betrokkene"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Concept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/dcmitype/Dataset",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dataset"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/oa#TimeState",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TijdToestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          },
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          },
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#OrganizationalUnit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie-eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PublicOrganisation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Publieke Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          },
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Meldingstype"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "label"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "titel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/activitystreams#summary",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "samenvatting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "titel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/oa#cachedSource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "cached bron"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/oa#sourceDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum vaststelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/activitystreams#attachment",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bijlage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "label"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/hydra/core#required",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verplicht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/oa#hasBody",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft body"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/oa#hasState",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft toestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/oa#hasState",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft toestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/oa#hasTarget",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft doelwit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/oa#hasTarget",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft doelwit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/oa#hasSource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftBron"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/oa#hasSource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftBron"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "informatievlaanderen",
+        "names": [
+          {
+            "name": "joostdegeyndt",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "pieterkempenaers",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "liesbethrombouts",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "thomassobry",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "stefanvancamp",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "stijnvanspeybroeck",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "joostdeweghe",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "jurgendooms",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "goedelevanderspiegel",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "carolienwillen",
+            "affiliation": "informatievlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadantwerpen",
+        "names": [
+          {
+            "name": "jasminderijcker",
+            "affiliation": "stadantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwc",
+        "names": [
+          {
+            "name": "nikolaosloutas",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "michieldekeyzer",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "jensscheerlinck",
+            "affiliation": "pwc"
+          }
+        ]
+      },
+      {
+        "affiliation": "bosa",
+        "names": [
+          {
+            "name": "barbaravangogh",
+            "affiliation": "bosa"
+          }
+        ]
+      }
+    ]
+  }
+}
