@@ -1,0 +1,937 @@
+{
+  "title": "Organisatie Basis",
+  "uri": "https://data.vlaanderen.be/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/toolchain4",
+  "issued": "2024-06-01",
+  "navigation": {
+    "prev": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01",
+    "self": "https://data.vlaanderen.be/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+  "statuslabel": "Ontwerpdocument",
+  "namespaces": [
+    "https://data.vlaanderen.be/ns/adres",
+    "https://data.vlaanderen.be/ns/organisatie",
+    "http://www.w3.org/ns/org",
+    "http://purl.org/vocab/cpsv",
+    "http://purl.org/dc/terms",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://data.europa.eu/m8g",
+    "http://www.w3.org/ns/regorg",
+    "http://www.w3.org/ns/person",
+    "http://xmlns.com/foaf/0.1",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://schema.org",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "https://schema.org",
+    "http://www.w3.org/ns/adms"
+  ],
+  "authors": 1,
+  "editors": 1,
+  "contributors": 1,
+  "participants": 3,
+  "classes": 7,
+  "properties": 7,
+  "externalclasses": 35,
+  "externalproperties": 42,
+  "totalterms": 91,
+  "totalorganisations": 3,
+  "organisations": [
+    {
+      "affiliation": "medewerkeraffiliatie",
+      "participants": 1
+    },
+    {
+      "affiliation": "editoraffiliatie",
+      "participants": 1
+    },
+    {
+      "affiliation": "auteuraffiliatie",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "auteurvoornaamauteurnaam",
+        "affiliation": "auteuraffiliatie"
+      }
+    ],
+    "editors": [
+      {
+        "name": "editorvoornaameditornaam",
+        "affiliation": "editoraffiliatie"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "medewerkervoornaammedewerkernaam",
+        "affiliation": "medewerkeraffiliatie"
+      }
+    ],
+    "participants": [
+      {
+        "name": "medewerkervoornaammedewerkernaam",
+        "affiliation": "medewerkeraffiliatie"
+      },
+      {
+        "name": "editorvoornaameditornaam",
+        "affiliation": "editoraffiliatie"
+      },
+      {
+        "name": "auteurvoornaamauteurnaam",
+        "affiliation": "auteuraffiliatie"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresseerbaar Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Splitsing",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Splitsing"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Vervanging",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vervanging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Hoedanigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Hoedanigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Stopzetting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Stopzetting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Fusie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fusie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#redenStopzetting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reden stopzetting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#rechtspersoonlijkheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtspersoonlijkheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#rechtstoestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtstoestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#rechtsvorm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtsvorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#contactinfo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#AdresseerbaarObject.bestaatUit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestaat uit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Vestiging.bestaatUit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestaat uit"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/ns/org#ChangeEvent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Veranderingsgebeurtenis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#FormalOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Formele Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Site",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Membership",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Lidmaatschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#FormalFramework",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Formeel Kader"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          },
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Plaatscode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rechtspersoonlijkheidtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieStatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#OrganizationalUnit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie-eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Post",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Positie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/FoundationEvent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Oprichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "StopzettingType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PublicOrganisation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Publieke Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#OrganizationalCollaboration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Samenwerkingsverband"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rechtstoestandtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieClassificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geregistreerde Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rechtsvormtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieActiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Resource"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "TaalString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/MediaObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Mediaobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TijdsInterval"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "GeografischeNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "GetypeerdeString"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/homepage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "homepage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaatsnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/date",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#purpose",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "doel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/logo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "logo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/spatial",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "werkingsgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#registration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#legalName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wettelijke naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#siteAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vestigingsadres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#memberDuring",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lid van tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgActivity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#classification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "classificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#reportsTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rapporteert aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasRegisteredSite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft geregistreerde vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasRegisteredSite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft geregistreerde vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasPrimarySite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft primaire vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasPrimarySite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft primaire vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#postIn",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is positie in"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasSubOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft suborganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasPost",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#linkedTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is geassocieerd met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasSite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasSite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is suborganisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#resultedFrom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is het resultaat van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#resultingOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft resulterende organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#originalOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft oorspronkelijke organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#changedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is veranderd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#unitOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is eenheid van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasUnit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasFormalFramework",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vindt plaats binnen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasFormalFramework",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vindt plaats binnen"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "medewerkeraffiliatie",
+        "names": [
+          {
+            "name": "medewerkervoornaammedewerkernaam",
+            "affiliation": "medewerkeraffiliatie"
+          }
+        ]
+      },
+      {
+        "affiliation": "editoraffiliatie",
+        "names": [
+          {
+            "name": "editorvoornaameditornaam",
+            "affiliation": "editoraffiliatie"
+          }
+        ]
+      },
+      {
+        "affiliation": "auteuraffiliatie",
+        "names": [
+          {
+            "name": "auteurvoornaamauteurnaam",
+            "affiliation": "auteuraffiliatie"
+          }
+        ]
+      }
+    ]
+  }
+}
