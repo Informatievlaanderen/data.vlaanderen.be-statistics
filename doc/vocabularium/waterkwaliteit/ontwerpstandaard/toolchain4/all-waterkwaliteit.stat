@@ -1,0 +1,1599 @@
+{
+  "title": "OSLO Waterkwaliteit (vocabularium)",
+  "uri": "https://data.test-vlaanderen.be/doc/vocabularium/waterkwaliteit/ontwerpstandaard/toolchain4",
+  "issued": "2023-06-01",
+  "navigation": {
+    "prev": "/doc/vocabularium/waterkwaliteit/kandidaatstandaard/2023-06-01",
+    "self": "https://data.test-vlaanderen.be/doc/vocabularium/waterkwaliteit/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "voc",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "statuslabel": "Kandidaat Standaard",
+  "namespaces": [
+    "https://purl.eu/ns/air-and-water/water",
+    "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
+    "http://def.isotc211.org/iso19156/2011/Observation",
+    "https://data.vlaanderen.be/ns/waterkwaliteit",
+    "http://def.isotc211.org/iso19103/2005/UnitsOfMeasure",
+    "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
+    "http://def.isotc211.org/iso19156/2011/SamplingFeature",
+    "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://www.w3.org/ns/sosa",
+    "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation",
+    "http://purl.org/dc/terms",
+    "http://def.isotc211.org/iso19156/2011/Measurement",
+    "https://data.vlaanderen.be/ns/generiek",
+    "http://www.w3.org/ns/ssn",
+    "http://www.opengis.net/ont/geosparql",
+    "https://data.vlaanderen.be/ns/observaties-en-metingen",
+    "http://todo.com",
+    "http://def.isotc211.org/iso19108/2006/TemporalObjects",
+    "http://def.isotc211.org/iso19103/2005/Names",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/ns/prov",
+    "https://data.vlaanderen.be/ns/statistiek",
+    "https://www.w3.org/TR/vocab-ssn-ext/",
+    "https://www.w3.org/TR/vocab-ssn/"
+  ],
+  "authors": 5,
+  "editors": 4,
+  "contributors": 11,
+  "participants": 20,
+  "classes": 14,
+  "properties": 21,
+  "externalclasses": 58,
+  "externalproperties": 34,
+  "totalterms": 127,
+  "totalorganisations": 6,
+  "organisations": [
+    {
+      "affiliation": "departementomgeving",
+      "participants": 5
+    },
+    {
+      "affiliation": "vlaamsemilieumaatschappij",
+      "participants": 7
+    },
+    {
+      "affiliation": "dewatergroep",
+      "participants": 1
+    },
+    {
+      "affiliation": "vlaamseinstellingvoortechnologischonderzoek",
+      "participants": 1
+    },
+    {
+      "affiliation": "provincieantwerpen",
+      "participants": 1
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 5
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "undefinedborremans",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "undefineddevriese",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "undefinedlavens",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "undefinedmeirlaen",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "undefinedvercauteren",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "editors": [
+      {
+        "name": "undefineddesmedt",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "undefinedpittomvils",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "undefinedthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "undefinedvanderstuyft",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "undefinedbaert",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "undefinedboonen",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "undefineddegraef",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "undefineddillen",
+        "affiliation": "dewatergroep"
+      },
+      {
+        "name": "undefinedgeirnaert",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "undefinedgoossens",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "undefinedrooman",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "undefinedsleeuwaert",
+        "affiliation": "vlaamseinstellingvoortechnologischonderzoek"
+      },
+      {
+        "name": "undefinedtits",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "undefinedvanhaute",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "undefinedvergauwe",
+        "affiliation": "provincieantwerpen"
+      }
+    ],
+    "participants": [
+      {
+        "name": "undefinedbaert",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "undefinedboonen",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "undefineddegraef",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "undefineddillen",
+        "affiliation": "dewatergroep"
+      },
+      {
+        "name": "undefinedgeirnaert",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "undefinedgoossens",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "undefinedrooman",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "undefinedsleeuwaert",
+        "affiliation": "vlaamseinstellingvoortechnologischonderzoek"
+      },
+      {
+        "name": "undefinedtits",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "undefinedvanhaute",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "undefinedvergauwe",
+        "affiliation": "provincieantwerpen"
+      },
+      {
+        "name": "undefineddesmedt",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "undefinedpittomvils",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "undefinedthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "undefinedvanderstuyft",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "undefinedborremans",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "undefineddevriese",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "undefinedlavens",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "undefinedmeirlaen",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "undefinedvercauteren",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#WaterkwaliteitObservatieVerzameling",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "WaterQualityObservationCollection"
+          },
+          {
+            "@language": "nl",
+            "@value": "WaterkwaliteitObservatieVerzameling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#GeobserveerdWeer",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "WeatherObserved"
+          },
+          {
+            "@language": "nl",
+            "@value": "GeobserveerdWeer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#ChemischAgensVrachtObservatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ChemischAgensVrachtObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#HydromorfologischeIndexObservatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "HydromorfologischeIndexObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#Emissie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Emissie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#Emissiebron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Emissiebron"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#Meetnet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meetnet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#Meetpunt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meetpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#Agens",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agens"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#Soort",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Soort"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#StatistischeObservatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "StatistischeObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#WettelijkKader",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "WettelijkKader"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Opmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/statistiek#StatistischeObservatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "StatistischeObservatie"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#ontvanger",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ontvanger"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#periode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#matrix",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "matrix"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Bemonsteringsobject.identificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#locatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#chemischAgensVracht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "chemischAgensVracht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#ChemischAgensVrachtObservatie.geobserveerdKenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#HydromorfologischeIndexObservatie.geobserveerdKenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#hydromorfologischeIndex",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hydromorfologischeIndex"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#verantwoordelijke",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verantwoordelijke"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#wettelijkkader",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wettelijkKader"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#identificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#ChemischAgensConcentratieObservatie.agens",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "agens"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#ChemischAgensVrachtObservatie.agens",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "agens"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#soort",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "soort"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.uitgevoerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#opmeting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Opmeting.methode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "methode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Opmeting.uitgevoerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.identificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#uitgestotenDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgestotenDoor"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#WaterFeature",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "WaterFeature"
+          },
+          {
+            "@language": "nl",
+            "@value": "WaterObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
+          },
+          {
+            "@language": "nl",
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#BioIndicatorObservation",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "BioIndicatorObservation"
+          },
+          {
+            "@language": "nl",
+            "@value": "BioIndicatorObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          },
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#BioticIndexObservation",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "BioticIndexObservation"
+          },
+          {
+            "@language": "nl",
+            "@value": "BiotischeIndexObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#ChemicalAgentConcentrationObservation",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "ChemicalAgentConcentrationObservation"
+          },
+          {
+            "@language": "nl",
+            "@value": "ChemischAgensConcentratieObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/UnitsOfMeasure#Measure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Maat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsobject"
+          },
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkBemonsteringsobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Any"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwaliteitselement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatiecontext"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#WaterQualityParameterObservation",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "WaterQualityParameterObservation"
+          },
+          {
+            "@language": "nl",
+            "@value": "WaterkwaliteitParameterObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BioIndicatorType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BiotischeIndexType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ChemischAgensKenmerkType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "WaterObjectType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "WaterkwaliteitParameterType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/ObservationCollection",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatieverzameling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "HydromorfologischIndexType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Metadata"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeatureCollection",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsobjectverzameling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "EmissiebronType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "MatrixType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Measurement#OM_Measurement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Procedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.OM_Process",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Proces"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "EmissieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Emissiewijzetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsobjecttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Opmetingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatieprocedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Sensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Sensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/System",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Period",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/Names#GenericName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeneriekeNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_PositionalAccuracy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "PositioneleNauwkeurigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BenoemdeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#LI_Lineage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Herkomst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Measurement#OM_Measurement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/TR/vocab-ssn-ext/#sosa:ObservationCollection",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatieverzameling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/coverage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dekking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.OM_Process",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Proces"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Procedure",
+        "label": [
+          {
+            "@value": "Procedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/TR/vocab-ssn/#ssn-system",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.lineage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "herkomst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.parameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.positionalAccuracy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "positioneleNauwkeurigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature.hostedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gehostPlatform"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fenomeentijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaattijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.validTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigeTijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaatkwaliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#Waterfeature.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          },
+          {
+            "@language": "en",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#BioIndicatorObservation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          },
+          {
+            "@language": "en",
+            "@value": "observedProperty"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#BioIndicatorObservation.bioIndicator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bioIndicator"
+          },
+          {
+            "@language": "en",
+            "@value": "bioIndicator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#BioticIndexObservation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          },
+          {
+            "@language": "en",
+            "@value": "observedProperty"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#BioticIndexObservation.bioticIndex",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "biotischeIndex"
+          },
+          {
+            "@language": "en",
+            "@value": "bioticIndex"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#ChemicalAgentConcentrationObservation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          },
+          {
+            "@language": "en",
+            "@value": "observedProperty"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#ChemicalAgentConcentrationObservation.chemicalAgentConcentration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "chemischAgensConcentratie"
+          },
+          {
+            "@language": "en",
+            "@value": "chemicalAgentConcentration"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          },
+          {
+            "@language": "en",
+            "@value": "hasFeatureOfInterest"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fenomeentijd"
+          },
+          {
+            "@language": "en",
+            "@value": "phenomenonTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#WaterQualityParameterObservation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          },
+          {
+            "@language": "en",
+            "@value": "observedProperty"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#WaterQualityParameterObservation.waterQualityParameterResult",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waterkwaliteitParameterResultaat"
+          },
+          {
+            "@language": "en",
+            "@value": "waterQualityParameterResult"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#WaterQualityObservationCollection.refWeatherObserved",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "refWeatherObserved"
+          },
+          {
+            "@language": "nl",
+            "@value": "refGeobserveerdWeer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "emissiewijze"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/lid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lid"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "departementomgeving",
+        "names": [
+          {
+            "name": "undefinedbaert",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "undefinedboonen",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "undefinedgeirnaert",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "undefinedtits",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "undefinedvanhaute",
+            "affiliation": "departementomgeving"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamsemilieumaatschappij",
+        "names": [
+          {
+            "name": "undefineddegraef",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "undefinedgoossens",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "undefinedrooman",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "undefinedborremans",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "undefineddevriese",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "undefinedlavens",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "undefinedmeirlaen",
+            "affiliation": "vlaamsemilieumaatschappij"
+          }
+        ]
+      },
+      {
+        "affiliation": "dewatergroep",
+        "names": [
+          {
+            "name": "undefineddillen",
+            "affiliation": "dewatergroep"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamseinstellingvoortechnologischonderzoek",
+        "names": [
+          {
+            "name": "undefinedsleeuwaert",
+            "affiliation": "vlaamseinstellingvoortechnologischonderzoek"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincieantwerpen",
+        "names": [
+          {
+            "name": "undefinedvergauwe",
+            "affiliation": "provincieantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "undefineddesmedt",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "undefinedpittomvils",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "undefinedthijs",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "undefinedvanderstuyft",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "undefinedvercauteren",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      }
+    ]
+  }
+}

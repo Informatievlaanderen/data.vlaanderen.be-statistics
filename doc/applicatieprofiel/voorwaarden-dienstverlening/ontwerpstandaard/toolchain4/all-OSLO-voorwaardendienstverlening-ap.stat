@@ -1,0 +1,1428 @@
+{
+  "title": "OSLO Voorwaarden Dienstverlening (Applicatieprofiel)",
+  "uri": "https://data.test-vlaanderen.be/doc/applicatieprofiel/voorwaarden-dienstverlening/ontwerpstandaard/toolchain4",
+  "issued": "2020-01-31",
+  "navigation": {
+    "prev": "/doc/applicatieprofiel/voorwaarden-dienstverlening/kandidaatstandaard/2023-07-11",
+    "self": "https://data.test-vlaanderen.be/doc/applicatieprofiel/voorwaarden-dienstverlening/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "statuslabel": "Kandidaat Standaard",
+  "namespaces": [
+    "http://data.europa.eu/m8g/cccev",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://data.europa.eu/m8g",
+    "http://purl.org/vocab/cpsv",
+    "http://data.europa.eu/eli/ontology",
+    "http://purl.org/dc/terms",
+    "https://schema.org",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "https://data.vlaanderen.be/ns/generiek",
+    "http://www.w3.org/2006/time",
+    "http://www.w3.org/ns/prov",
+    "https://www.w3.org/2006/time",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/ns/dcat",
+    "https://www.w3.org/ns/org",
+    "http://todo.com"
+  ],
+  "authors": 5,
+  "editors": 9,
+  "contributors": 12,
+  "participants": 26,
+  "classes": 6,
+  "properties": 2,
+  "externalclasses": 41,
+  "externalproperties": 55,
+  "totalterms": 104,
+  "totalorganisations": 13,
+  "organisations": [
+    {
+      "affiliation": "evergem",
+      "participants": 1
+    },
+    {
+      "affiliation": "cjm(verenigingsloket)",
+      "participants": 1
+    },
+    {
+      "affiliation": "kunlabora�",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementkanselarijenbuitenlandsezaken(dkbuza)",
+      "participants": 1
+    },
+    {
+      "affiliation": "abb",
+      "participants": 3
+    },
+    {
+      "affiliation": "departementlandbouwenvisserij",
+      "participants": 1
+    },
+    {
+      "affiliation": "cronos",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadgent",
+      "participants": 1
+    },
+    {
+      "affiliation": "schoten",
+      "participants": 1
+    },
+    {
+      "affiliation": "kunlabora",
+      "participants": 1
+    },
+    {
+      "affiliation": "greenvalleybelgium",
+      "participants": 1
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 12
+    },
+    {
+      "affiliation": "devloed",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "heidibottu",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "wouterdecock",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "borisdevloed",
+        "affiliation": "devloed"
+      },
+      {
+        "name": "stefaniekerkhofs",
+        "affiliation": "abb"
+      },
+      {
+        "name": "geertruitimmers",
+        "affiliation": "abb"
+      }
+    ],
+    "editors": [
+      {
+        "name": "veerlebeyaert",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "yarondassonneville",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jefliekens",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "liesbethvanderhaegen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "roosbekaert",
+        "affiliation": "evergem"
+      },
+      {
+        "name": "sofiebogers",
+        "affiliation": "cjm(verenigingsloket)"
+      },
+      {
+        "name": "tessademaesschalk",
+        "affiliation": "kunlabora�"
+      },
+      {
+        "name": "alvindemeyer",
+        "affiliation": "departementkanselarijenbuitenlandsezaken(dkbuza)"
+      },
+      {
+        "name": "pauljacxsens",
+        "affiliation": "abb"
+      },
+      {
+        "name": "arianejim",
+        "affiliation": "departementlandbouwenvisserij"
+      },
+      {
+        "name": "annmathieu",
+        "affiliation": "cronos"
+      },
+      {
+        "name": "sarahspiessens",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "petravanderlaag",
+        "affiliation": "schoten"
+      },
+      {
+        "name": "dietervanpeer",
+        "affiliation": "kunlabora"
+      },
+      {
+        "name": "sandervliegen",
+        "affiliation": "greenvalleybelgium"
+      },
+      {
+        "name": "karlvogels",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "participants": [
+      {
+        "name": "roosbekaert",
+        "affiliation": "evergem"
+      },
+      {
+        "name": "sofiebogers",
+        "affiliation": "cjm(verenigingsloket)"
+      },
+      {
+        "name": "tessademaesschalk",
+        "affiliation": "kunlabora�"
+      },
+      {
+        "name": "alvindemeyer",
+        "affiliation": "departementkanselarijenbuitenlandsezaken(dkbuza)"
+      },
+      {
+        "name": "pauljacxsens",
+        "affiliation": "abb"
+      },
+      {
+        "name": "arianejim",
+        "affiliation": "departementlandbouwenvisserij"
+      },
+      {
+        "name": "annmathieu",
+        "affiliation": "cronos"
+      },
+      {
+        "name": "sarahspiessens",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "petravanderlaag",
+        "affiliation": "schoten"
+      },
+      {
+        "name": "dietervanpeer",
+        "affiliation": "kunlabora"
+      },
+      {
+        "name": "sandervliegen",
+        "affiliation": "greenvalleybelgium"
+      },
+      {
+        "name": "karlvogels",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "veerlebeyaert",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "yarondassonneville",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jefliekens",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "liesbethvanderhaegen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "heidibottu",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "wouterdecock",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "borisdevloed",
+        "affiliation": "devloed"
+      },
+      {
+        "name": "stefaniekerkhofs",
+        "affiliation": "abb"
+      },
+      {
+        "name": "geertruitimmers",
+        "affiliation": "abb"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "LangString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/ProcedureType",
+        "label": [
+          {
+            "@value": "ProcedureType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/VertrouwelijkheidLevelType",
+        "label": [
+          {
+            "@value": "VertrouwelijkheidLevelType"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#plaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#string",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "String"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#Evidence",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bewijs"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#InformationConcept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Informatieconcept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#InformationRequirement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "informatievereiste"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#Requirement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Voorwaarde"
+          },
+          {
+            "@language": "nl",
+            "@value": "Voorwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#EvidenceType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bewijstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Code"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#Criterion",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Criterium"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#EvidenceTypeList",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bewijstypelijst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#SupportedValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OndersteunendeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#Constraint",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Constraint"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasParticipation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Participatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#Rule",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Procedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#PublicService",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "PubliekeDienstverlening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#LegalResource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rechtsgrond"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Jurisdiction",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Jurisdictie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PublicOrganisation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "PubliekeOrganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BewijstypeClassificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "VoorwaardeType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "VertrouwelijkheidLevelType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "SectorCode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "StatusCode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ProcedureType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DoelpubliekType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Overheidsfunctie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InformatieConceptType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dienstverleningstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#TijdsPeriode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdsperiode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LangString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeografischeNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dcat#Dataset",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Dataset"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#Requirement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Voorwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "ParticipatieRol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/LinguisticSystem",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Linguistic System"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Location",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Location"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#decimal",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Decimal"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/endDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afleveringsdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#starttijd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "startijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaatsnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/expressionOfExpectedValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitdrukkingVerwachteWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eindtijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#weightingConsiderationDescription",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wegingsBeschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#query",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "query"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemaaktDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toepassingsgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dienstverleningstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#confidentionalityLevelType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "VertrouwelijkheidLevelType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/2006/time#ProperInterval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheidsperiode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/isProvidedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verstrektDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/2006/time#ProperInterval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheidsduur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/publisher",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgegevenDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/subject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gaat over"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/audience",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "doelpubliek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/sector",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "sector"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/spatial",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ruimtelijkeDekking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "overheidsfuncties"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie van de plaats of het gebied."
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/spatial",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Werkingsgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#evidenceTypeClassification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bewijstypeClassificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#bias",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bias"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#weight",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gewicht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "evergem",
+        "names": [
+          {
+            "name": "roosbekaert",
+            "affiliation": "evergem"
+          }
+        ]
+      },
+      {
+        "affiliation": "cjm(verenigingsloket)",
+        "names": [
+          {
+            "name": "sofiebogers",
+            "affiliation": "cjm(verenigingsloket)"
+          }
+        ]
+      },
+      {
+        "affiliation": "kunlabora�",
+        "names": [
+          {
+            "name": "tessademaesschalk",
+            "affiliation": "kunlabora�"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementkanselarijenbuitenlandsezaken(dkbuza)",
+        "names": [
+          {
+            "name": "alvindemeyer",
+            "affiliation": "departementkanselarijenbuitenlandsezaken(dkbuza)"
+          }
+        ]
+      },
+      {
+        "affiliation": "abb",
+        "names": [
+          {
+            "name": "pauljacxsens",
+            "affiliation": "abb"
+          },
+          {
+            "name": "stefaniekerkhofs",
+            "affiliation": "abb"
+          },
+          {
+            "name": "geertruitimmers",
+            "affiliation": "abb"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementlandbouwenvisserij",
+        "names": [
+          {
+            "name": "arianejim",
+            "affiliation": "departementlandbouwenvisserij"
+          }
+        ]
+      },
+      {
+        "affiliation": "cronos",
+        "names": [
+          {
+            "name": "annmathieu",
+            "affiliation": "cronos"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgent",
+        "names": [
+          {
+            "name": "sarahspiessens",
+            "affiliation": "stadgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "schoten",
+        "names": [
+          {
+            "name": "petravanderlaag",
+            "affiliation": "schoten"
+          }
+        ]
+      },
+      {
+        "affiliation": "kunlabora",
+        "names": [
+          {
+            "name": "dietervanpeer",
+            "affiliation": "kunlabora"
+          }
+        ]
+      },
+      {
+        "affiliation": "greenvalleybelgium",
+        "names": [
+          {
+            "name": "sandervliegen",
+            "affiliation": "greenvalleybelgium"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "karlvogels",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "veerlebeyaert",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "rafbuyle",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "yarondassonneville",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "jefliekens",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "geertthijs",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "liesbethvanderhaegen",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "ziggyvanlishout",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "laurensvercauteren",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "evelinevlassenroot",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "heidibottu",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "wouterdecock",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "devloed",
+        "names": [
+          {
+            "name": "borisdevloed",
+            "affiliation": "devloed"
+          }
+        ]
+      }
+    ]
+  }
+}
