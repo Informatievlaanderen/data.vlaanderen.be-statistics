@@ -1,0 +1,2788 @@
+{
+  "title": "Applicatieprofiel Cultuur- en Jeugdinfrastructuur",
+  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/toolchain4",
+  "issued": "2022-03-21",
+  "navigation": {
+    "prev": "/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/2022-03-21",
+    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "statuslabel": "Kandidaat Standaard",
+  "namespaces": [
+    "https://data.vlaanderen.be/ns/FeitelijkeVerenigingen",
+    "http://www.w3.org/2004/02/skos/core",
+    "https://schema.org",
+    "https://data.vlaanderen.be/ns/gebouw",
+    "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur",
+    "http://purl.org/dc/terms",
+    "http://data.vlaanderen.be/ns/subsidie",
+    "http://xmlns.com/foaf/0.1",
+    "https://data.vlaanderen.be/ns/persoon",
+    "http://data.europa.eu/m8g/",
+    "http://data.europa.eu/m8g",
+    "http://www.cidoc-crm.org/cidoc-crm",
+    "http://def.isotc211.org/iso19156/2011/Observation",
+    "http://www.w3.org/ns/person",
+    "http://www.w3.org/ns/org",
+    "http://schema.org",
+    "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren",
+    "http://www.opengis.net/ont/geosparql",
+    "http://todo.com",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/ns/prov",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/2000/01/rdf-schema"
+  ],
+  "authors": 1,
+  "editors": 5,
+  "contributors": 28,
+  "participants": 34,
+  "classes": 41,
+  "properties": 92,
+  "externalclasses": 55,
+  "externalproperties": 45,
+  "totalterms": 233,
+  "totalorganisations": 23,
+  "organisations": [
+    {
+      "affiliation": "kuleuven-libis",
+      "participants": 1
+    },
+    {
+      "affiliation": "formaatvzw",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementcultuur,jeugdenmedia",
+      "participants": 7
+    },
+    {
+      "affiliation": "vlaamscentrumvoorcircuskunsten",
+      "participants": 1
+    },
+    {
+      "affiliation": "steppvzw",
+      "participants": 1
+    },
+    {
+      "affiliation": "district09-groepgent",
+      "participants": 1
+    },
+    {
+      "affiliation": "publiqvzw",
+      "participants": 1
+    },
+    {
+      "affiliation": "vzwderand",
+      "participants": 1
+    },
+    {
+      "affiliation": "socius",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadgent",
+      "participants": 3
+    },
+    {
+      "affiliation": "kunstenpunt",
+      "participants": 1
+    },
+    {
+      "affiliation": "ksanationaal",
+      "participants": 1
+    },
+    {
+      "affiliation": "toerismevlaanderen",
+      "participants": 2
+    },
+    {
+      "affiliation": "gemeenteknokke-heist",
+      "participants": 1
+    },
+    {
+      "affiliation": "bataljong",
+      "participants": 1
+    },
+    {
+      "affiliation": "kenniscentrumpodiumtechniekenritcs-ehb",
+      "participants": 1
+    },
+    {
+      "affiliation": "cultuurconnect",
+      "participants": 1
+    },
+    {
+      "affiliation": "kindensamenleving",
+      "participants": 1
+    },
+    {
+      "affiliation": "centrumvoorjeugdtoerisme",
+      "participants": 1
+    },
+    {
+      "affiliation": "faro",
+      "participants": 1
+    },
+    {
+      "affiliation": "pwc",
+      "participants": 2
+    },
+    {
+      "affiliation": "nsx",
+      "participants": 2
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "hansvanderlinden",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      }
+    ],
+    "editors": [
+      {
+        "name": "jitsedecock",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "evaderore",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "dirkdesmedt",
+        "affiliation": "nsx"
+      },
+      {
+        "name": "michaelmampaey",
+        "affiliation": "nsx"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "valérieadriaens",
+        "affiliation": "kuleuven-libis"
+      },
+      {
+        "name": "nickbeerens",
+        "affiliation": "formaatvzw"
+      },
+      {
+        "name": "thomasbuijs",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      },
+      {
+        "name": "anneceulebroeck",
+        "affiliation": "vlaamscentrumvoorcircuskunsten"
+      },
+      {
+        "name": "johandaniëls",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      },
+      {
+        "name": "liesdebackere",
+        "affiliation": "steppvzw"
+      },
+      {
+        "name": "gudrundefauw",
+        "affiliation": "district09-groepgent"
+      },
+      {
+        "name": "karelderudder",
+        "affiliation": "publiqvzw"
+      },
+      {
+        "name": "yannickdekens",
+        "affiliation": "vzwderand"
+      },
+      {
+        "name": "frederikdhont",
+        "affiliation": "socius"
+      },
+      {
+        "name": "bengabriëls",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      },
+      {
+        "name": "igorlaevaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "simonleenknegt",
+        "affiliation": "kunstenpunt"
+      },
+      {
+        "name": "geertemarreel",
+        "affiliation": "ksanationaal"
+      },
+      {
+        "name": "geertmartin",
+        "affiliation": "toerismevlaanderen"
+      },
+      {
+        "name": "reinmeus",
+        "affiliation": "toerismevlaanderen"
+      },
+      {
+        "name": "bertmoerman",
+        "affiliation": "gemeenteknokke-heist"
+      },
+      {
+        "name": "dannynaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "josérotsaert",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      },
+      {
+        "name": "filipstallaert",
+        "affiliation": "bataljong"
+      },
+      {
+        "name": "erikvancauter",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      },
+      {
+        "name": "chrisvangoethem",
+        "affiliation": "kenniscentrumpodiumtechniekenritcs-ehb"
+      },
+      {
+        "name": "stevenvandenoortgaete",
+        "affiliation": "cultuurconnect"
+      },
+      {
+        "name": "woutervanderstede",
+        "affiliation": "kindensamenleving"
+      },
+      {
+        "name": "frederikvercammen",
+        "affiliation": "centrumvoorjeugdtoerisme"
+      },
+      {
+        "name": "anne-sofieverheyen",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      },
+      {
+        "name": "stephanievermeulen",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "bramwiercx",
+        "affiliation": "faro"
+      }
+    ],
+    "participants": [
+      {
+        "name": "valérieadriaens",
+        "affiliation": "kuleuven-libis"
+      },
+      {
+        "name": "nickbeerens",
+        "affiliation": "formaatvzw"
+      },
+      {
+        "name": "thomasbuijs",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      },
+      {
+        "name": "anneceulebroeck",
+        "affiliation": "vlaamscentrumvoorcircuskunsten"
+      },
+      {
+        "name": "johandaniëls",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      },
+      {
+        "name": "liesdebackere",
+        "affiliation": "steppvzw"
+      },
+      {
+        "name": "gudrundefauw",
+        "affiliation": "district09-groepgent"
+      },
+      {
+        "name": "karelderudder",
+        "affiliation": "publiqvzw"
+      },
+      {
+        "name": "yannickdekens",
+        "affiliation": "vzwderand"
+      },
+      {
+        "name": "frederikdhont",
+        "affiliation": "socius"
+      },
+      {
+        "name": "bengabriëls",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      },
+      {
+        "name": "igorlaevaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "simonleenknegt",
+        "affiliation": "kunstenpunt"
+      },
+      {
+        "name": "geertemarreel",
+        "affiliation": "ksanationaal"
+      },
+      {
+        "name": "geertmartin",
+        "affiliation": "toerismevlaanderen"
+      },
+      {
+        "name": "reinmeus",
+        "affiliation": "toerismevlaanderen"
+      },
+      {
+        "name": "bertmoerman",
+        "affiliation": "gemeenteknokke-heist"
+      },
+      {
+        "name": "dannynaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "josérotsaert",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      },
+      {
+        "name": "filipstallaert",
+        "affiliation": "bataljong"
+      },
+      {
+        "name": "erikvancauter",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      },
+      {
+        "name": "chrisvangoethem",
+        "affiliation": "kenniscentrumpodiumtechniekenritcs-ehb"
+      },
+      {
+        "name": "stevenvandenoortgaete",
+        "affiliation": "cultuurconnect"
+      },
+      {
+        "name": "woutervanderstede",
+        "affiliation": "kindensamenleving"
+      },
+      {
+        "name": "frederikvercammen",
+        "affiliation": "centrumvoorjeugdtoerisme"
+      },
+      {
+        "name": "anne-sofieverheyen",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      },
+      {
+        "name": "stephanievermeulen",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "bramwiercx",
+        "affiliation": "faro"
+      },
+      {
+        "name": "jitsedecock",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "evaderore",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "dirkdesmedt",
+        "affiliation": "nsx"
+      },
+      {
+        "name": "michaelmampaey",
+        "affiliation": "nsx"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "hansvanderlinden",
+        "affiliation": "departementcultuur,jeugdenmedia"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/FeitelijkeVerenigingen#Erkenning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Erkenning"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouw",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebouw"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infrastructuur"
+          },
+          {
+            "@language": "nl",
+            "@value": "Infrastructuur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Exploitatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Exploitatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Binnenruimte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Binnenruimte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Buitenruimte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Buitenruimte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebruik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Eigenaarschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Eigenaarschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Faciliteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Faciliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Staat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Staat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Bouwtechniek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bouwtechniek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Ecologie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ecologie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Veiligheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Veiligheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Energie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Energie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/subsidie#SubsidiemaatregelConsumptie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Subsidie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Beheer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beheer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Nationaliteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nationaliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#PodiumtechnischeFaciliteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Podiumtechnische faciliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#OfficieleStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Overheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Reservatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Reservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Ruimte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ruimte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Overeenkomst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Overeenkomst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Vrijstelling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vrijstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Verbruik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verbruik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Licentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Licentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Bereikbaarheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bereikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Beschikbaarheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Toegankelijkheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegankelijkheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Kost",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kost"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Inkomst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inkomst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Capaciteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Capaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#2DGebouwgeometrie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "2DGebouwgeometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "Boolean"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infrastructuur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Ruimte",
+        "label": [
+          {
+            "@value": "Ruimte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren#Prijsinfo",
+        "label": [
+          {
+            "@value": "Prijsinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Erkenning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Erkenning"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Binnenruimtetype",
+        "label": [
+          {
+            "@value": "Binnenruimtetype"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Bereikbaarheid.mobiscore",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "mobiscore"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Bereikbaarheid.laasteOpenbaarVervoer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "laatste openbaar vervoer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Capaciteit.beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren#inclusiefBTW",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inclusiefBTW"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gebruikteVoornaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikte voornaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.naam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.openstelling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "openstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.gebruik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik.exclusiviteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "exclusiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Buitenruimte.verbondenAan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verbonden aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.bereikbaarheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bereikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.locatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.beschikbaarheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.toegankelijkheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegankelijkheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Beschikbaarheid.gebruiker",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruiker"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Toegankelijkheid.niveau",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "niveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#onderdeel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderdeel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.reservatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebouw.bouwmeester",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bouwmeester"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#laatsteRenovatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "laatsteRenovatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik.gebruiker",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruiker"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.exploitatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "exploitatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Exploitatie.kost",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kost"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Kost.bedrag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bedrag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Exploitatie.inkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.eigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eigenaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik.activiteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik.prijs",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "prijs"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Eigenaarschap.eigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eigenaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Exploitatie.exploitant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "exploitant"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik.periode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Exploitatie.periode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.faciliteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "faciliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Staat.bouwtechniek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bouwtechniek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Staat.ecologie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ecologie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Staat.veiligheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "veiligheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Staat.energie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "energie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.dimensie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dimensie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.capaciteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "capaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.observatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Overheid.erkenning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "erkenning"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Overheid.subsidie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "subsidie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Overheid.vergunning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vergunning"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Beheer.beheerder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beheerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Reservatie.gereserveerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gereserveerd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren#beschikbaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren#beschikbaarTransactieVolume",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaarTransactieVolume"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.beheer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beheer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Veiligheid.preventieAdviseur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "preventie adviseur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#geometrie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouw.status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Reservatie.gereserveerdVoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gereserveerd voor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Reservatie.periode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.overheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "overheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Overeenkomst.partij",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "partij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#bouwjaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bouwjaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.staat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "staat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Energie.bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bron"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Veiligheid.verzekering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verzekering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Verzekering.verzekeraar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verzekeraar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Energie.score",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "score"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Faciliteit.gebruiker",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruiker"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.contactpersoon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactpersoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Exploitatie.huurder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huurder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik.voorwaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebouw.beschermdVolume",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschermdVolume"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebouw.nettoBruikbareOppervlakte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "netto bruikbare oppervlakte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Staat.verbruik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verbruik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#permanentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "permanentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren#beschikbareHoeveelheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbareHoeveelheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Bereikbaarheid.parkeerplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parkeerplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren#prijs",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "prijs"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren#Prijsinfo.prijscategorie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "prijsCategorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#nationaliteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nationaliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Exploitatie.overeenkomst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "overeenkomst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Overeenkomst.document",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "document"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Overheid.vrijstelling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vrijstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#geslacht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Veiligheid.risicoanalyse",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "risicoanalyse"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Ding.identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identifier"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#nationaliteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nationaliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Verbruik.piekverbruik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "piekverbruik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Verbruik.verbruik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verbruik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Verbruik.periode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Ding.standplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Faciliteit.document",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "document"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.licentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "licentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Licentie.periode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#superInfrastructuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "superinfrastructuur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#subInfrastructuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "subinfrastructuur"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "PermanentieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/PriceSpecification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Prijsinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Binnenruimtetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Buitenruimtetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nationaliteitscode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infrastructuurtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openstellingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Exclusiviteitstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Exploitatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kosttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inkomsttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Activiteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Eigenaarschapstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          },
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Faciliteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Capaciteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Type Grootheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Permit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vergunning"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/Document",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Document"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Statusgebouwwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/FinancialProduct",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verzekering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verzekeringtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Energiebrontype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/#Criterion",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Criterion"
+          },
+          {
+            "@language": "nl",
+            "@value": "Criterium"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebruiktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/Output",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Output"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beheertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegankelijkheidsonderdeel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E70_Thing",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Overeenkomsttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verbruiktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Licentietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/MonetaryAmount",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geldbedrag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dimensie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/endDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebeurtenisdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Number",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwantitatieve Waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/StandaardEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Standaard Eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/OpeningHoursSpecification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openingsurenspecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/Output",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Output"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegankelijkheidsniveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "PrijsCategorieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Geslacht"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://schema.org/openingHours",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "openingsuren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/startTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begin"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitText",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitText",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begin"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tussentijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitText",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "als GML"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "als WKT"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "achternaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Persoon.geboortedatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geboortedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/MonetaryAmount",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bedrag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaardeenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaardeenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaard eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "noodcontact"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Persoon.woonplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "woonplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/ruimte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ruimte"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "kuleuven-libis",
+        "names": [
+          {
+            "name": "valérieadriaens",
+            "affiliation": "kuleuven-libis"
+          }
+        ]
+      },
+      {
+        "affiliation": "formaatvzw",
+        "names": [
+          {
+            "name": "nickbeerens",
+            "affiliation": "formaatvzw"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementcultuur,jeugdenmedia",
+        "names": [
+          {
+            "name": "thomasbuijs",
+            "affiliation": "departementcultuur,jeugdenmedia"
+          },
+          {
+            "name": "johandaniëls",
+            "affiliation": "departementcultuur,jeugdenmedia"
+          },
+          {
+            "name": "bengabriëls",
+            "affiliation": "departementcultuur,jeugdenmedia"
+          },
+          {
+            "name": "josérotsaert",
+            "affiliation": "departementcultuur,jeugdenmedia"
+          },
+          {
+            "name": "erikvancauter",
+            "affiliation": "departementcultuur,jeugdenmedia"
+          },
+          {
+            "name": "anne-sofieverheyen",
+            "affiliation": "departementcultuur,jeugdenmedia"
+          },
+          {
+            "name": "hansvanderlinden",
+            "affiliation": "departementcultuur,jeugdenmedia"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamscentrumvoorcircuskunsten",
+        "names": [
+          {
+            "name": "anneceulebroeck",
+            "affiliation": "vlaamscentrumvoorcircuskunsten"
+          }
+        ]
+      },
+      {
+        "affiliation": "steppvzw",
+        "names": [
+          {
+            "name": "liesdebackere",
+            "affiliation": "steppvzw"
+          }
+        ]
+      },
+      {
+        "affiliation": "district09-groepgent",
+        "names": [
+          {
+            "name": "gudrundefauw",
+            "affiliation": "district09-groepgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "publiqvzw",
+        "names": [
+          {
+            "name": "karelderudder",
+            "affiliation": "publiqvzw"
+          }
+        ]
+      },
+      {
+        "affiliation": "vzwderand",
+        "names": [
+          {
+            "name": "yannickdekens",
+            "affiliation": "vzwderand"
+          }
+        ]
+      },
+      {
+        "affiliation": "socius",
+        "names": [
+          {
+            "name": "frederikdhont",
+            "affiliation": "socius"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgent",
+        "names": [
+          {
+            "name": "igorlaevaert",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "dannynaert",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "stephanievermeulen",
+            "affiliation": "stadgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "kunstenpunt",
+        "names": [
+          {
+            "name": "simonleenknegt",
+            "affiliation": "kunstenpunt"
+          }
+        ]
+      },
+      {
+        "affiliation": "ksanationaal",
+        "names": [
+          {
+            "name": "geertemarreel",
+            "affiliation": "ksanationaal"
+          }
+        ]
+      },
+      {
+        "affiliation": "toerismevlaanderen",
+        "names": [
+          {
+            "name": "geertmartin",
+            "affiliation": "toerismevlaanderen"
+          },
+          {
+            "name": "reinmeus",
+            "affiliation": "toerismevlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "gemeenteknokke-heist",
+        "names": [
+          {
+            "name": "bertmoerman",
+            "affiliation": "gemeenteknokke-heist"
+          }
+        ]
+      },
+      {
+        "affiliation": "bataljong",
+        "names": [
+          {
+            "name": "filipstallaert",
+            "affiliation": "bataljong"
+          }
+        ]
+      },
+      {
+        "affiliation": "kenniscentrumpodiumtechniekenritcs-ehb",
+        "names": [
+          {
+            "name": "chrisvangoethem",
+            "affiliation": "kenniscentrumpodiumtechniekenritcs-ehb"
+          }
+        ]
+      },
+      {
+        "affiliation": "cultuurconnect",
+        "names": [
+          {
+            "name": "stevenvandenoortgaete",
+            "affiliation": "cultuurconnect"
+          }
+        ]
+      },
+      {
+        "affiliation": "kindensamenleving",
+        "names": [
+          {
+            "name": "woutervanderstede",
+            "affiliation": "kindensamenleving"
+          }
+        ]
+      },
+      {
+        "affiliation": "centrumvoorjeugdtoerisme",
+        "names": [
+          {
+            "name": "frederikvercammen",
+            "affiliation": "centrumvoorjeugdtoerisme"
+          }
+        ]
+      },
+      {
+        "affiliation": "faro",
+        "names": [
+          {
+            "name": "bramwiercx",
+            "affiliation": "faro"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwc",
+        "names": [
+          {
+            "name": "jitsedecock",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "evaderore",
+            "affiliation": "pwc"
+          }
+        ]
+      },
+      {
+        "affiliation": "nsx",
+        "names": [
+          {
+            "name": "dirkdesmedt",
+            "affiliation": "nsx"
+          },
+          {
+            "name": "michaelmampaey",
+            "affiliation": "nsx"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "geertthijs",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      }
+    ]
+  }
+}
