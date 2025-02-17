@@ -1,14 +1,14 @@
 {
   "title": "Bodem en Ondergrond Observaties (Applicatieprofiel)",
   "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/observaties/kandidaatstandaard/toolchain4",
-  "issued": "2023-04-01",
+  "issued": "2024-10-01",
   "navigation": {
     "prev": "/doc/applicatieprofiel/bodem-en-ondergrond/observaties/ontwerpstandaard/2023-04-01",
     "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/observaties/kandidaatstandaard/toolchain4"
   },
   "documenttype": "ap",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "statuslabel": "Ontwerp Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "statuslabel": "Kandidaat Standaard",
   "namespaces": [
     "http://def.isotc211.org/iso19123/2005/DiscreteCoverages",
     "http://def.isotc211.org/iso19103/2005/UnitsOfMeasure",
@@ -20,21 +20,19 @@
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/bodem-en-ondergrond",
     "http://def.isotc211.org/iso19156/2011/Specimen",
-    "http://def.isotc211.org/iso19156/2011/CoverageObservation",
     "http://www.w3.org/2004/02/skos/core",
-    "http://www.w3.org/ns/sosa",
     "http://www.w3.org/ns/ssn",
     "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures",
     "http://www.w3.org/ns/sosa/om",
     "https://www.w3.org/ns/sosa",
-    "https://www.w3.org/TR/vocab-ssn/",
     "https://data.vlaanderen.be/ns/grondboringen",
     "http://def.isotc211.org/iso19156/2011/SamplingFeature",
     "http://www.w3.org/2000/01/rdf-schema",
-    "http://todo.com",
     "http://www.w3.org/ns/adms",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
     "http://def.isotc211.org/iso19123/2005/CoverageCore",
+    "http://def.isotc211.org/iso19156/2011/CoverageObservation",
+    "http://www.w3.org/ns/sosa",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
     "http://def.isotc211.org/iso19108/2006/TemporalObjects",
     "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
@@ -47,10 +45,10 @@
   "contributors": 72,
   "participants": 90,
   "classes": 41,
-  "properties": 47,
-  "externalclasses": 47,
+  "properties": 46,
+  "externalclasses": 42,
   "externalproperties": 50,
-  "totalterms": 185,
+  "totalterms": 179,
   "totalorganisations": 46,
   "organisations": [
     {
@@ -1750,15 +1748,6 @@
             "@value": "geassocieerdeSchuifweerstandsproef"
           }
         ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/observaties#geassocieerdeSchuifweerstandsproef",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geassocieerdeSchuifweerstandsproef"
-          }
-        ]
       }
     ],
     "externalclasses": [
@@ -1839,38 +1828,11 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/CoverageObservation#OM_DiscreteCoverageObservation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "DiscreetBereikObservatie"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
             "@value": "Breukcriterium"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Procedure"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Process",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Proces"
           }
         ]
       },
@@ -1965,15 +1927,6 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/TR/vocab-ssn/#ssn-system",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Systeem"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature",
         "label": [
           {
@@ -1992,15 +1945,6 @@
           {
             "@language": "nl",
             "@value": "Any"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Meetreeksresultaat",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Meetreeksresultaat"
           }
         ]
       },
