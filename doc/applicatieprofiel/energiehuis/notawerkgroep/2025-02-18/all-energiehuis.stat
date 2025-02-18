@@ -29,7 +29,6 @@
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/2006/time",
     "http://www.w3.org/ns/locn",
-    "https://data.vlaanderen.be/ns/dienst",
     "http://purl.org/dc/elements/1.1",
     "http://todo.com",
     "http://www.w3.org/ns/prov",
@@ -41,10 +40,10 @@
   "editors": 6,
   "contributors": 12,
   "participants": 21,
-  "classes": 47,
-  "properties": 35,
-  "externalclasses": 47,
-  "externalproperties": 41,
+  "classes": 36,
+  "properties": 34,
+  "externalclasses": 58,
+  "externalproperties": 42,
   "totalterms": 170,
   "totalorganisations": 12,
   "organisations": [
@@ -295,15 +294,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#FinancieringType",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "FinancieringType"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#GeregistreerdKlantencontact",
         "label": [
           {
@@ -414,7 +404,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Interesse Opwekken"
+            "@value": "InteresseOpwekking"
           }
         ]
       },
@@ -437,33 +427,6 @@
           {
             "@language": "nl",
             "@value": "Adviesverlening"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#ThemaInformatie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ThemaInformatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#TypeAdvies",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "TypeAdvies"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#TypeBegeleiding",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "TypeBegeleiding"
           }
         ]
       },
@@ -504,59 +467,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#TypeBegeleidingsfase",
-        "label": [
-          {
-            "@value": "TypeBegeleidingsfase"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#TypeBasistaak",
-        "label": [
-          {
-            "@value": "TypeBasistaak"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#TypeOnderwerp",
-        "label": [
-          {
-            "@value": "TypeOnderwerp"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#TypeGeregistreerdOnderwerp",
-        "label": [
-          {
-            "@value": "TypeGeregistreerdOnderwerp"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres",
         "label": [
           {
             "@language": "nl",
             "@value": "Belgisch Adres"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#TypeProjectfase",
-        "label": [
-          {
-            "@value": "TypeProjectfase"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#TypeProject",
-        "label": [
-          {
-            "@value": "TypeProject"
           }
         ]
       },
@@ -694,15 +609,6 @@
             "@value": "Adviesverlening"
           }
         ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#CategorieWerken",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "CategorieWerken"
-          }
-        ]
       }
     ],
     "properties": [
@@ -784,14 +690,6 @@
           {
             "@language": "nl",
             "@value": "land"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/dienst#eigendomVan",
-        "label": [
-          {
-            "@value": "eigendomVan"
           }
         ]
       },
@@ -1007,7 +905,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Project|a=fase"
+            "@value": "fase"
           }
         ]
       },
@@ -1113,7 +1011,17 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
+            "@language": "nl",
             "@value": "TypeParticipatierol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "FinancieringType"
           }
         ]
       },
@@ -1127,6 +1035,42 @@
           {
             "@language": "nl",
             "@value": "Project"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ThemaInformatievoorziening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TypeAdvies"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TypeBegeleiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "CategorieWerken"
           }
         ]
       },
@@ -1153,7 +1097,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "typeGebouwstatus"
+            "@value": "TypeGebouwstatus"
           }
         ]
       },
@@ -1163,6 +1107,42 @@
           {
             "@language": "nl",
             "@value": "TypeGebouweenheidstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TypeBegeleidingsfase"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TypeBasistaak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TypeOnderwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TypeGeregistreerdOnderwerp"
           }
         ]
       },
@@ -1207,6 +1187,24 @@
           {
             "@language": "nl",
             "@value": "Valuta"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TypeProjectfase"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TypeProject"
           }
         ]
       },
@@ -1816,7 +1814,7 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/unitText",
+        "assignedURI": "https://schema.org/unitCode",
         "label": [
           {
             "@language": "nl",
@@ -1825,11 +1823,20 @@
         ]
       },
       {
+        "assignedURI": "http://data.europa.eu/m8g/ownedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eigendomVan"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/elements/1.1/type",
         "label": [
           {
             "@language": "nl",
-            "@value": "Project|a=type"
+            "@value": "type"
           }
         ]
       },
