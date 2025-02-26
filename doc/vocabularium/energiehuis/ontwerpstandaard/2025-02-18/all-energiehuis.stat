@@ -11,6 +11,7 @@
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/energiehuis",
+    "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/org",
     "http://purl.org/dc/terms",
     "http://data.europa.eu/m8g",
@@ -24,25 +25,27 @@
     "http://qudt.org/schema/qudt",
     "http://schema.org",
     "https://schema.org",
-    "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2006/vcard/ns",
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/2006/time",
     "http://www.w3.org/ns/locn",
+    "http://www.cidoc-crm.org/cidoc-crm",
     "http://purl.org/dc/elements/1.1",
+    "https://periodo.github.io/edtf-ontology/edtfo.ttl",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "http://www.w3.org/2001/XMLSchema"
+    "http://www.w3.org/2001/XMLSchema",
+    "http://id.loc.gov/datatypes/edtf"
   ],
   "authors": 3,
   "editors": 6,
   "contributors": 12,
   "participants": 21,
   "classes": 42,
-  "properties": 39,
-  "externalclasses": 49,
-  "externalproperties": 43,
-  "totalterms": 173,
+  "properties": 42,
+  "externalclasses": 51,
+  "externalproperties": 51,
+  "totalterms": 186,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -745,6 +748,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#gefinancierdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gefinancierdDoor"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#rentevoet",
         "label": [
           {
@@ -826,11 +838,29 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouw.adres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouw.status",
         "label": [
           {
             "@language": "nl",
             "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouweenheid.adres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
           }
         ]
       },
@@ -917,6 +947,14 @@
       }
     ],
     "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@value": "Resource"
+          }
+        ]
+      },
       {
         "assignedURI": "http://www.w3.org/ns/org#Organization",
         "label": [
@@ -1382,6 +1420,15 @@
             "@value": "TypeProjectfase"
           }
         ]
+      },
+      {
+        "assignedURI": "http://id.loc.gov/datatypes/edtf/EDTF",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "EDTF"
+          }
+        ]
       }
     ],
     "externalproperties": [
@@ -1719,6 +1766,24 @@
         ]
       },
       {
+        "assignedURI": "http://data.europa.eu/m8g/hasContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P180_has_currency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "valuta"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/unitCode",
         "label": [
           {
@@ -1746,11 +1811,56 @@
         ]
       },
       {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/locn#geometry",
         "label": [
           {
             "@language": "nl",
             "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/hoursAvailable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#hasEDTFDateTimeDescription",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "in EDTF"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#inEDTFDateTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "in EDTF"
           }
         ]
       },
@@ -1769,6 +1879,15 @@
           {
             "@language": "nl",
             "@value": "van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
           }
         ]
       }
