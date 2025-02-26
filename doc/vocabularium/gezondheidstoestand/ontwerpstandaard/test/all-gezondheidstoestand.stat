@@ -17,11 +17,11 @@
     "https://www.hl7.org/fhir/diagnosticreport-definitions.html",
     "http://www.w3.org/2004/02/skos/core",
     "https://build.fhir.org/observation-definitions.html",
-    "http://purl.org/dc/terms",
     "http://xmlns.com/foaf/0.1",
     "https://data.vlaanderen.be/ns/persoon",
     "https://hl7.org/fhir/observation-definitions.html",
     "http://schema.org",
+    "http://purl.org/dc/terms",
     "https://hl7.org/fhir/diagnosticreport-definitions.html",
     "http://todo.com",
     "http://www.w3.org/2001/XMLSchema",
@@ -35,11 +35,11 @@
   "editors": 9,
   "contributors": 32,
   "participants": 43,
-  "classes": 27,
-  "properties": 55,
+  "classes": 25,
+  "properties": 53,
   "externalclasses": 32,
-  "externalproperties": 26,
-  "totalterms": 140,
+  "externalproperties": 25,
+  "totalterms": 135,
   "totalorganisations": 22,
   "organisations": [
     {
@@ -631,11 +631,10 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Aandoening",
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Aandoening"
+            "@value": "String"
           }
         ]
       },
@@ -648,26 +647,10 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
-        "label": [
-          {
-            "@value": "String"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#int",
         "label": [
           {
             "@value": "int"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
-        "label": [
-          {
-            "@value": "Boolean"
           }
         ]
       },
@@ -695,15 +678,6 @@
       }
     ],
     "properties": [
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#diagnosedatum",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "diagnosedatum"
-          }
-        ]
-      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#alternatieveNaam",
         "label": [
@@ -737,15 +711,6 @@
           {
             "@language": "nl",
             "@value": "rang"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#actief",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "actief"
           }
         ]
       },
@@ -1479,15 +1444,6 @@
       }
     ],
     "externalproperties": [
-      {
-        "assignedURI": "http://purl.org/dc/terms/title",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naam"
-          }
-        ]
-      },
       {
         "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
         "label": [
