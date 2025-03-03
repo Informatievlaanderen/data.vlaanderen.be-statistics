@@ -32,6 +32,10 @@
     "http://www.cidoc-crm.org/cidoc-crm",
     "http://purl.org/dc/elements/1.1",
     "https://periodo.github.io/edtf-ontology/edtfo.ttl",
+    "https://data.vlaanderen.be/ns/organisatie",
+    "https://data.vlaanderen.be/ns/dienst",
+    "http://todo.com",
+    "https://data.vlaanderen.be/ns/persoon",
     "http://id.loc.gov/datatypes/edtf",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -41,11 +45,11 @@
   "editors": 6,
   "contributors": 12,
   "participants": 21,
-  "classes": 42,
-  "properties": 42,
-  "externalclasses": 52,
-  "externalproperties": 55,
-  "totalterms": 191,
+  "classes": 32,
+  "properties": 54,
+  "externalclasses": 45,
+  "externalproperties": 64,
+  "totalterms": 195,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -554,17 +558,7 @@
             "@value": "Date"
           }
         ]
-      },
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {}
+      }
     ],
     "properties": [
       {
@@ -910,6 +904,58 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#isSuborganisatieVan",
+        "label": [
+          {
+            "@value": "isSuborganisatieVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#financieringVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "financieringVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#financiering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "financiering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dienst#participeertIn",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "participeertIn"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dienst#heeftParticipant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftParticipant"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dienst#Participatie.publiekeDienstverlening",
+        "label": [
+          {
+            "@value": "Participatie.PubliekeDienstverlening"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#verrichtDoor",
         "label": [
           {
@@ -944,6 +990,57 @@
             "@value": "gerenoveerdeGebouweenheid"
           }
         ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft relatie met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
+        "label": [
+          {
+            "@value": "Persoon (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
+        "label": [
+          {
+            "@value": "Persoon (target)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#begeleidingVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begeleidingVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#bestaatUit",
+        "label": [
+          {
+            "@value": "bestaatUit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#verwijstNaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwijst naar"
+          }
+        ]
       }
     ],
     "externalclasses": [
@@ -961,20 +1058,12 @@
           {
             "@language": "nl",
             "@value": "Organisatie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
           }
         ]
       },
       {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          },
           {
             "@language": "nl",
             "@value": "Agent"
@@ -1059,20 +1148,12 @@
           {
             "@language": "nl",
             "@value": "Eenheid"
-          },
-          {
-            "@language": "nl",
-            "@value": "Eenheid"
           }
         ]
       },
       {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Concept"
-          },
           {
             "@language": "nl",
             "@value": "Concept"
@@ -1111,10 +1192,6 @@
           {
             "@language": "nl",
             "@value": "KwantitatieveWaarde"
-          },
-          {
-            "@language": "nl",
-            "@value": "KwantitatieveWaarde"
           }
         ]
       },
@@ -1130,10 +1207,6 @@
       {
         "assignedURI": "http://www.w3.org/ns/prov#Location",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Locatie"
-          },
           {
             "@language": "nl",
             "@value": "Locatie"
@@ -1173,10 +1246,6 @@
           {
             "@language": "nl",
             "@value": "TemporeleEntiteit"
-          },
-          {
-            "@language": "nl",
-            "@value": "TemporeleEntiteit"
           }
         ]
       },
@@ -1195,69 +1264,6 @@
           {
             "@language": "nl",
             "@value": "Adresvoorstelling"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/QuantitativeValue",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "KwantitatieveWaarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Organization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#Location",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Locatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "TemporeleEntiteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://qudt.org/schema/qudt/Unit",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Eenheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Concept"
           }
         ]
       },
@@ -1933,6 +1939,86 @@
           {
             "@language": "nl",
             "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasSubOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft suborganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#linkedTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is geassocieerd met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is suborganisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/requires",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vereist"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gerelateerd met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#produces",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "produceert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasChannel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "te consumeren via"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasCompetentAuthority",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftVerantwoordelijke"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Participatie.agent",
+        "label": [
+          {
+            "@value": "Participatie.Agent"
           }
         ]
       }
