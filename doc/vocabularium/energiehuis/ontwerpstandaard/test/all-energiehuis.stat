@@ -28,14 +28,12 @@
     "http://www.w3.org/2006/vcard/ns",
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/2006/time",
+    "https://periodo.github.io/edtf-ontology/edtfo.ttl",
     "http://www.w3.org/ns/locn",
     "http://www.cidoc-crm.org/cidoc-crm",
     "http://purl.org/dc/elements/1.1",
-    "https://periodo.github.io/edtf-ontology/edtfo.ttl",
-    "https://data.vlaanderen.be/ns/organisatie",
     "https://data.vlaanderen.be/ns/dienst",
     "http://todo.com",
-    "https://data.vlaanderen.be/ns/persoon",
     "http://id.loc.gov/datatypes/edtf",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -46,10 +44,10 @@
   "contributors": 12,
   "participants": 21,
   "classes": 32,
-  "properties": 54,
+  "properties": 50,
   "externalclasses": 45,
-  "externalproperties": 64,
-  "totalterms": 195,
+  "externalproperties": 59,
+  "totalterms": 186,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -904,14 +902,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#isSuborganisatieVan",
-        "label": [
-          {
-            "@value": "isSuborganisatieVan"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#financieringVan",
         "label": [
           {
@@ -992,31 +982,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft relatie met"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
-        "label": [
-          {
-            "@value": "Persoon (source)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
-        "label": [
-          {
-            "@value": "Persoon (target)"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#begeleidingVan",
         "label": [
           {
@@ -1029,6 +994,7 @@
         "assignedURI": "https://data.vlaanderen.be/ns/gebouw#bestaatUit",
         "label": [
           {
+            "@language": "nl",
             "@value": "bestaatUit"
           }
         ]
@@ -1646,6 +1612,24 @@
         ]
       },
       {
+        "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#hasEDTFDateTimeDescription",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "in EDTF"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#hasEDTFDateTimeDescription",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "in EDTF"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
         "label": [
           {
@@ -1898,24 +1882,6 @@
         ]
       },
       {
-        "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#hasEDTFDateTimeDescription",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "in EDTF"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#inEDTFDateTime",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "in EDTF"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2006/time#hasEnd",
         "label": [
           {
@@ -1939,51 +1905,6 @@
           {
             "@language": "nl",
             "@value": "contactinfo"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#hasSubOrganization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft suborganisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#linkedTo",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "is geassocieerd met"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "is suborganisatie van"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/requires",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vereist"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/relation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "is gerelateerd met"
           }
         ]
       },
