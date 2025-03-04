@@ -24,17 +24,18 @@
     "https://data.vlaanderen.be/ns/dossier/",
     "https://schema.org",
     "http://www.w3.org/ns/adms",
+    "https://www.w3.org/TR/prov-o/",
     "http://www.w3.org/2001/XMLSchema"
   ],
   "authors": 3,
   "editors": 11,
   "contributors": 18,
   "participants": 32,
-  "classes": 47,
-  "properties": 69,
-  "externalclasses": 26,
-  "externalproperties": 18,
-  "totalterms": 160,
+  "classes": 44,
+  "properties": 81,
+  "externalclasses": 23,
+  "externalproperties": 24,
+  "totalterms": 172,
   "totalorganisations": 15,
   "organisations": [
     {
@@ -674,9 +675,6 @@
       {},
       {},
       {},
-      {},
-      {},
-      {},
       {}
     ],
     "properties": [
@@ -1014,6 +1012,76 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft relatie met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
+        "label": [
+          {
+            "@value": "Persoon (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
+        "label": [
+          {
+            "@value": "Persoon (target)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinshoofd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gezinshoofd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isHoofdVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is hoofd van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinslid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gezinslid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isLidVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is lid van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#genereert",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "genereert"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#wanbetalingsvergoeding",
         "label": [
           {
@@ -1122,6 +1190,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#sociaalStatuut",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "sociaal statuut"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#genereertWanbetalingsvergoeding",
         "label": [
           {
@@ -1136,6 +1213,15 @@
           {
             "@language": "nl",
             "@value": "is gerelateerd met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#juridischStatuut",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "juridisch statuut"
           }
         ]
       },
@@ -1190,6 +1276,24 @@
           {
             "@language": "nl",
             "@value": "schuldenaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#inkomst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inkomst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#krediet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "krediet"
           }
         ]
       },
@@ -1309,10 +1413,6 @@
           {
             "@language": "nl",
             "@value": "Persoon"
-          },
-          {
-            "@language": "nl",
-            "@value": "Persoon"
           }
         ]
       },
@@ -1322,20 +1422,12 @@
           {
             "@language": "nl",
             "@value": "Organisatie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
           }
         ]
       },
       {
         "assignedURI": "http://www.w3.org/ns/prov#Agent",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          },
           {
             "@language": "nl",
             "@value": "Agent"
@@ -1474,33 +1566,6 @@
           {
             "@language": "nl",
             "@value": "Geldbedrag"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/person#Person",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoon"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Organization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
@@ -1710,6 +1775,60 @@
           {
             "@language": "nl",
             "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is suborganisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft relatie tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is rolspecialisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#actedOnBehalfOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "handelt in opdracht van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft deelnemer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/TR/prov-o/#wasStartedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "werd gestart door"
           }
         ]
       }
