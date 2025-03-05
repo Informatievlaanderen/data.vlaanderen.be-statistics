@@ -32,8 +32,8 @@
     "http://www.w3.org/ns/locn",
     "http://www.cidoc-crm.org/cidoc-crm",
     "http://purl.org/dc/elements/1.1",
+    "https://data.vlaanderen.be/ns/organisatie",
     "https://data.vlaanderen.be/ns/dienst",
-    "http://todo.com",
     "http://id.loc.gov/datatypes/edtf",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -44,10 +44,10 @@
   "contributors": 12,
   "participants": 21,
   "classes": 32,
-  "properties": 50,
+  "properties": 52,
   "externalclasses": 45,
-  "externalproperties": 59,
-  "totalterms": 186,
+  "externalproperties": 58,
+  "totalterms": 187,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -902,6 +902,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#test",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "test"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#financieringVan",
         "label": [
           {
@@ -942,6 +951,14 @@
         "label": [
           {
             "@value": "Participatie.PubliekeDienstverlening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dienst#Participatie.agent",
+        "label": [
+          {
+            "@value": "Participatie.Agent"
           }
         ]
       },
@@ -1932,14 +1949,6 @@
           {
             "@language": "nl",
             "@value": "heeftVerantwoordelijke"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Participatie.agent",
-        "label": [
-          {
-            "@value": "Participatie.Agent"
           }
         ]
       }
