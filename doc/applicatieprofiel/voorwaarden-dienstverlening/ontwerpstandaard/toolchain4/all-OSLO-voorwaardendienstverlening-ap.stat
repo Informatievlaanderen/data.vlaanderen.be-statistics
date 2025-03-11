@@ -24,21 +24,21 @@
     "https://www.w3.org/2006/time",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/ns/locn",
+    "http://todo.com",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/ns/dcat",
-    "https://www.w3.org/ns/org",
-    "http://todo.com"
+    "https://www.w3.org/ns/org"
   ],
   "authors": 5,
   "editors": 9,
   "contributors": 12,
   "participants": 26,
-  "classes": 6,
-  "properties": 2,
-  "externalclasses": 41,
-  "externalproperties": 55,
-  "totalterms": 104,
+  "classes": 8,
+  "properties": 9,
+  "externalclasses": 40,
+  "externalproperties": 75,
+  "totalterms": 132,
   "totalorganisations": 13,
   "organisations": [
     {
@@ -345,6 +345,8 @@
           }
         ]
       },
+      {},
+      {},
       {
         "assignedURI": "http://todo.com/ProcedureType",
         "label": [
@@ -380,6 +382,67 @@
             "@value": "String"
           }
         ]
+      },
+      {
+        "assignedURI": "http://todo.com/participeertIn",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "participeertIn"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/heeftParticipant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftParticipant"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Participatie.agent",
+        "label": [
+          {
+            "@value": "Participatie.Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/heeftVerantwoordelijke",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftVerantwoordelijke"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/voldoetAan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voldoetAan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/heeftInput",
+        "label": [
+          {
+            "@value": "heeftInput"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/publiekeDienstverlening",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publiekeDienstverlening"
+          }
+        ]
       }
     ],
     "externalclasses": [
@@ -413,10 +476,6 @@
       {
         "assignedURI": "http://data.europa.eu/m8g/cccev#Requirement",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Voorwaarde"
-          },
           {
             "@language": "nl",
             "@value": "Voorwaarde"
@@ -681,15 +740,6 @@
           {
             "@language": "en",
             "@value": "Dataset"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/cccev#Requirement",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Voorwaarde"
           }
         ]
       },
@@ -1249,6 +1299,185 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#Participatie.publiekeDienstverlening",
+        "label": [
+          {
+            "@value": "Participatie.PubliekeDienstverlening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/isRequirementOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isVoorwaardeVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#heeftVoorwaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftVoorwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/supportsRequirement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ondersteuntVoorwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#heeftOndersteunendBewijs",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftOndersteunendBewijs"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasLegalResource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftRechtsgrond"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#implements",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "implementeert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#follows",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volgt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gerelateerdAan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/holdsRequirement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftVoorwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#constrains",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "constrains"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/providesValueFor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geeftWaardeAan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasConcept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftConcept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/supportsValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ondersteuntWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/supportsValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ondersteuntWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/specifiesEvidenceType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "specifieert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/isSpecifiedIn",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isGespecifieerdIn"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasEvidenceTypeList",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftBewijstypelijst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/cccev#voldoetAan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vodoetAan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/fulfils",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vervult"
           }
         ]
       }
