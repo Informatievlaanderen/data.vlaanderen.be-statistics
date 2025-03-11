@@ -10,13 +10,13 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
+    "http://www.w3.org/2004/02/skos/core",
     "http://data.vlaanderen.be/ns/besluit",
     "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur",
     "https://data.vlaanderen.be/ns/mobiliteit",
     "https://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement",
     "http://data.europa.eu/eli/ontology",
     "http://schema.org",
-    "http://www.w3.org/2004/02/skos/core",
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/openbaardomein",
     "http://www.w3.org/2003/06/sw-vocab-status/ns",
@@ -28,23 +28,155 @@
     "http://www.w3.org/ns/org",
     "https://data.vlaanderen.be/ns/weg"
   ],
-  "authors": 0,
+  "authors": 10,
   "editors": 0,
-  "contributors": 0,
-  "participants": 0,
-  "classes": 53,
+  "contributors": 2,
+  "participants": 12,
+  "classes": 54,
   "properties": 64,
-  "externalclasses": 13,
+  "externalclasses": 15,
   "externalproperties": 8,
-  "totalterms": 138,
-  "totalorganisations": 0,
-  "organisations": [],
+  "totalterms": 141,
+  "totalorganisations": 8,
+  "organisations": [
+    {
+      "affiliation": "informatievlaanderen",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapbinnenlandsbestuur",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapwegenenverkeer",
+      "participants": 2
+    },
+    {
+      "affiliation": "redpencil.io",
+      "participants": 1
+    },
+    {
+      "affiliation": "pwc",
+      "participants": 3
+    },
+    {
+      "affiliation": "departementmobiliteitenopenbarewerken",
+      "participants": 1
+    },
+    {
+      "affiliation": "imec-mict-ugent",
+      "participants": 1
+    },
+    {
+      "affiliation": "imec-ugent",
+      "participants": 2
+    }
+  ],
   "specifications": [],
   "values": {
-    "authors": [],
+    "authors": [
+      {
+        "name": "bertboterbergh",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "johandelaure",
+        "affiliation": "redpencil.io"
+      },
+      {
+        "name": "christopheparrein",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "stephentuerlinckx",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "mathiasvancompernolle",
+        "affiliation": "imec-mict-ugent"
+      },
+      {
+        "name": "brechtvandevyvere",
+        "affiliation": "imec-ugent"
+      },
+      {
+        "name": "frederikvaneeghem",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "geertvangaever",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "imec-ugent"
+      },
+      {
+        "name": "brechtwyns",
+        "affiliation": "pwc"
+      }
+    ],
     "editors": [],
-    "contributors": [],
-    "participants": [],
+    "contributors": [
+      {
+        "name": "katriendesmet",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "veroniquevolders",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      }
+    ],
+    "participants": [
+      {
+        "name": "katriendesmet",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "veroniquevolders",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "bertboterbergh",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "johandelaure",
+        "affiliation": "redpencil.io"
+      },
+      {
+        "name": "christopheparrein",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "stephentuerlinckx",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "mathiasvancompernolle",
+        "affiliation": "imec-mict-ugent"
+      },
+      {
+        "name": "brechtvandevyvere",
+        "affiliation": "imec-ugent"
+      },
+      {
+        "name": "frederikvaneeghem",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "geertvangaever",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "imec-ugent"
+      },
+      {
+        "name": "brechtwyns",
+        "affiliation": "pwc"
+      }
+    ],
     "classes": [
       {
         "assignedURI": "http://data.vlaanderen.be/ns/besluit#Signalisatievergunning",
@@ -475,6 +607,7 @@
           }
         ]
       },
+      {},
       {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement",
@@ -1083,11 +1216,33 @@
     ],
     "externalclasses": [
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Concept"
+          },
+          {
+            "@language": "nl",
+            "@value": "Concept"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
         "label": [
           {
             "@language": "nl",
             "@value": "Artikel wegcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Concept"
           }
         ]
       },
@@ -1270,6 +1425,95 @@
         ]
       }
     ],
-    "organisations": []
+    "organisations": [
+      {
+        "affiliation": "informatievlaanderen",
+        "names": [
+          {
+            "name": "katriendesmet",
+            "affiliation": "informatievlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapbinnenlandsbestuur",
+        "names": [
+          {
+            "name": "veroniquevolders",
+            "affiliation": "agentschapbinnenlandsbestuur"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapwegenenverkeer",
+        "names": [
+          {
+            "name": "bertboterbergh",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "geertvangaever",
+            "affiliation": "agentschapwegenenverkeer"
+          }
+        ]
+      },
+      {
+        "affiliation": "redpencil.io",
+        "names": [
+          {
+            "name": "johandelaure",
+            "affiliation": "redpencil.io"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwc",
+        "names": [
+          {
+            "name": "christopheparrein",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "frederikvaneeghem",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "brechtwyns",
+            "affiliation": "pwc"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementmobiliteitenopenbarewerken",
+        "names": [
+          {
+            "name": "stephentuerlinckx",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          }
+        ]
+      },
+      {
+        "affiliation": "imec-mict-ugent",
+        "names": [
+          {
+            "name": "mathiasvancompernolle",
+            "affiliation": "imec-mict-ugent"
+          }
+        ]
+      },
+      {
+        "affiliation": "imec-ugent",
+        "names": [
+          {
+            "name": "brechtvandevyvere",
+            "affiliation": "imec-ugent"
+          },
+          {
+            "name": "evelinevlassenroot",
+            "affiliation": "imec-ugent"
+          }
+        ]
+      }
+    ]
   }
 }
