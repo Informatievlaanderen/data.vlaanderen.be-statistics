@@ -46,6 +46,7 @@
     "https://vocab.belgif.be/ns/generic",
     "http://purl.org/dc/elements/1.1",
     "http://todo.com",
+    "http://data.europa.eu/m8g",
     "http://def.isotc211.org/iso19103/2005/Names",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -60,11 +61,11 @@
   "editors": 13,
   "contributors": 11,
   "participants": 26,
-  "classes": 21,
-  "properties": 16,
-  "externalclasses": 86,
-  "externalproperties": 95,
-  "totalterms": 218,
+  "classes": 33,
+  "properties": 20,
+  "externalclasses": 79,
+  "externalproperties": 107,
+  "totalterms": 239,
   "totalorganisations": 10,
   "organisations": [
     {
@@ -492,6 +493,12 @@
           }
         ]
       },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
         "label": [
@@ -501,6 +508,11 @@
           }
         ]
       },
+      {},
+      {},
+      {},
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters#MomentWaardepaar",
         "label": [
@@ -508,7 +520,8 @@
             "@value": "MomentWaardepaar"
           }
         ]
-      }
+      },
+      {}
     ],
     "properties": [
       {
@@ -654,6 +667,40 @@
             "@value": "afleverpunt"
           }
         ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.source",
+        "label": [
+          {
+            "@value": "Observatie (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.target",
+        "label": [
+          {
+            "@value": "Observatie (target)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters#inbouwOp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inbouwOp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters#hoofdaansluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hoofdaansluiting"
+          }
+        ]
       }
     ],
     "externalclasses": [
@@ -681,10 +728,6 @@
           {
             "@language": "nl",
             "@value": "Observatie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Observatie"
           }
         ]
       },
@@ -703,10 +746,6 @@
           {
             "@language": "nl",
             "@value": "Concept"
-          },
-          {
-            "@language": "nl",
-            "@value": "Concept"
           }
         ]
       },
@@ -722,10 +761,6 @@
       {
         "assignedURI": "http://def.isotc211.org/iso19156/2011GeneralFeatureInstance#GFI_DomainFeature",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Domeinobject"
-          },
           {
             "@language": "nl",
             "@value": "Domeinobject"
@@ -819,10 +854,6 @@
           {
             "@language": "nl",
             "@value": "Sensor"
-          },
-          {
-            "@language": "nl",
-            "@value": "Sensor"
           }
         ]
       },
@@ -847,10 +878,6 @@
       {
         "assignedURI": "https://saref.etsi.org/core/Meter",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Meter"
-          },
           {
             "@language": "nl",
             "@value": "Meter"
@@ -1015,10 +1042,6 @@
           {
             "@language": "nl",
             "@value": "GeneriekeNaam"
-          },
-          {
-            "@language": "nl",
-            "@value": "GeneriekeNaam"
           }
         ]
       },
@@ -1052,10 +1075,6 @@
       {
         "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "TemporeleEntiteit"
-          },
           {
             "@language": "nl",
             "@value": "TemporeleEntiteit"
@@ -1117,51 +1136,6 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19103/2005/Names#GenericName",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "GeneriekeNaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Concept"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011GeneralFeatureInstance#GFI_DomainFeature",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Domeinobject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "TemporeleEntiteit"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
         "label": [
           {
@@ -1189,15 +1163,6 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/ns/sosa/Sensor",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Sensor"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/ssn/System",
         "label": [
           {
@@ -1212,15 +1177,6 @@
           {
             "@language": "nl",
             "@value": "Collectie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://saref.etsi.org/core/Meter",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Meter"
           }
         ]
       },
@@ -2301,11 +2257,29 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/it6/trainedOn",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
         "label": [
           {
             "@language": "nl",
-            "@value": "getraind op"
+            "@value": "geassocieerdeObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fenomeen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasMember",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftLid"
           }
         ]
       },
@@ -2319,11 +2293,72 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/bevoorradingsgebied",
+        "assignedURI": "http://www.w3.org/ns/ssn/implements",
         "label": [
           {
             "@language": "nl",
-            "@value": "bevoorradingsgebied"
+            "@value": "implementeert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdMetSensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/isObservedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isGeobserveerdMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikteProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/inbouwSysteem",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InbouwSysteem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/RuimtelijkRelatie.plaats.source",
+        "label": [
+          {
+            "@value": "Plaats (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/RuimtelijkRelatie.plaats.target",
+        "label": [
+          {
+            "@value": "Plaats (target)"
           }
         ]
       },
@@ -2333,6 +2368,33 @@
           {
             "@language": "nl",
             "@value": "netwerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/inNetwerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inNetwerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/fineTunedFrom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fineTunedFrom"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasVariation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hasVariation"
           }
         ]
       }
