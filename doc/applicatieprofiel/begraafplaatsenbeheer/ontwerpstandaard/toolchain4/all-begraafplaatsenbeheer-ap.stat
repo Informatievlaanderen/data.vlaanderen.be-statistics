@@ -1,0 +1,2294 @@
+{
+  "title": "Begraafplaatsenbeheer (Applicatieprofiel)",
+  "uri": "https://data.test-vlaanderen.be/doc/applicatieprofiel/begraafplaatsenbeheer/ontwerpstandaard/toolchain4",
+  "issued": "2021-09-30",
+  "navigation": {
+    "prev": "/doc/applicatieprofiel/begraafplaatsenbeheer/standaard/2018-11-27",
+    "self": "https://data.test-vlaanderen.be/doc/applicatieprofiel/begraafplaatsenbeheer/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
+  "namespaces": [
+    "https://data.vlaanderen.be/ns/openbaardomein",
+    "https://data.vlaanderen.be/ns/openbaardomein/terreindeel",
+    "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur",
+    "http://www.w3.org/ns/org",
+    "https://data.vlaanderen.be/ns/openbaardomein/gebied",
+    "http://www.w3.org/2004/02/skos/core",
+    "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats",
+    "http://purl.org/dc/terms",
+    "https://schema.org",
+    "http://www.w3.org/2006/vcard/ns",
+    "http://xmlns.com/foaf/0.1",
+    "http://schema.org",
+    "http://www.opengis.net/ont/geosparql",
+    "http://open.vocab.org/terms",
+    "http://www.w3.org/ns/locn",
+    "http://todo.com",
+    "http://www.opengis.net/ont/sf",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/ns/prov",
+    "https://data.vlaanderen.be/ns/generiek"
+  ],
+  "authors": 1,
+  "editors": 4,
+  "contributors": 49,
+  "participants": 54,
+  "classes": 50,
+  "properties": 37,
+  "externalclasses": 25,
+  "externalproperties": 32,
+  "totalterms": 144,
+  "totalorganisations": 33,
+  "organisations": [
+    {
+      "affiliation": "provincieantwerpen",
+      "participants": 1
+    },
+    {
+      "affiliation": "verenigingvooropenbaargroen",
+      "participants": 1
+    },
+    {
+      "affiliation": "staddeinze",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapwegenenverkeer",
+      "participants": 6
+    },
+    {
+      "affiliation": "stadgent",
+      "participants": 2
+    },
+    {
+      "affiliation": "federaleoverheidsdienstbeleidenondersteuning",
+      "participants": 2
+    },
+    {
+      "affiliation": "tmvw",
+      "participants": 1
+    },
+    {
+      "affiliation": "geosparc",
+      "participants": 2
+    },
+    {
+      "affiliation": "hogeschoolgent",
+      "participants": 3
+    },
+    {
+      "affiliation": "stadantwerpen",
+      "participants": 3
+    },
+    {
+      "affiliation": "provincieoost-vlaanderen",
+      "participants": 3
+    },
+    {
+      "affiliation": "stadaalst",
+      "participants": 3
+    },
+    {
+      "affiliation": "stadoostende",
+      "participants": 1
+    },
+    {
+      "affiliation": "elia",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadsint-niklaas",
+      "participants": 2
+    },
+    {
+      "affiliation": "g.i.m.-geographicinformationmanagement",
+      "participants": 1
+    },
+    {
+      "affiliation": "eurosense",
+      "participants": 1
+    },
+    {
+      "affiliation": "gemeenteputte",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadlier",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapvoornatuurenbos",
+      "participants": 1
+    },
+    {
+      "affiliation": "geo-it",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementomgeving",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadbrugge",
+      "participants": 1
+    },
+    {
+      "affiliation": "devlaamsewaterwegnv",
+      "participants": 1
+    },
+    {
+      "affiliation": "vlaamsemilieumaatschappij",
+      "participants": 2
+    },
+    {
+      "affiliation": "hogeschoolpxl",
+      "participants": 1
+    },
+    {
+      "affiliation": "gemeenteevergem",
+      "participants": 1
+    },
+    {
+      "affiliation": "provincievlaams-brabant",
+      "participants": 1
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 2
+    },
+    {
+      "affiliation": "west-vlaamseintercommunale",
+      "participants": 1
+    },
+    {
+      "affiliation": "cevi",
+      "participants": 1
+    },
+    {
+      "affiliation": "ugent",
+      "participants": 1
+    },
+    {
+      "affiliation": "pwc",
+      "participants": 3
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "liesbetdewolf",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "editors": [
+      {
+        "name": "timbaert",
+        "affiliation": "ugent"
+      },
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "jensscheerlinck",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "dimitrischepers",
+        "affiliation": "pwc"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "isoldeaelvoet",
+        "affiliation": "provincieantwerpen"
+      },
+      {
+        "name": "emmanuelampe",
+        "affiliation": "verenigingvooropenbaargroen"
+      },
+      {
+        "name": "samblok",
+        "affiliation": "staddeinze"
+      },
+      {
+        "name": "natashablommaert",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "peterbogaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "marcbruyland",
+        "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+      },
+      {
+        "name": "nicolasdeblieck",
+        "affiliation": "tmvw"
+      },
+      {
+        "name": "berdienderoo",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "kristienderouck",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "driesdesmedt",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "stevendevriendt",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "jandewael",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "ellendebever",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "rubendeblauwe",
+        "affiliation": "elia"
+      },
+      {
+        "name": "pieterdeckers",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "dennisdevriendt",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "liesbetdhondt",
+        "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+      },
+      {
+        "name": "mariodumon",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "diedrikgaus",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "bartgoossens",
+        "affiliation": "stadsint-niklaas"
+      },
+      {
+        "name": "anheirman",
+        "affiliation": "g.i.m.-geographicinformationmanagement"
+      },
+      {
+        "name": "victoriajadot",
+        "affiliation": "eurosense"
+      },
+      {
+        "name": "johanjanssens",
+        "affiliation": "gemeenteputte"
+      },
+      {
+        "name": "lucjanssens",
+        "affiliation": "stadlier"
+      },
+      {
+        "name": "jolaps",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "pieterlauwereys",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "filipmahieu",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "olivermay",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "janmenschaert",
+        "affiliation": "agentschapvoornatuurenbos"
+      },
+      {
+        "name": "marleenmoelants",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "bartmouton",
+        "affiliation": "geo-it"
+      },
+      {
+        "name": "lukmutsaerts",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "elspodevyn",
+        "affiliation": "stadsint-niklaas"
+      },
+      {
+        "name": "jamieproost",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "reinhildeschepens",
+        "affiliation": "devlaamsewaterwegnv"
+      },
+      {
+        "name": "cornelisstal",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "barbaratack",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "philipthomas",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "beatoppet",
+        "affiliation": "hogeschoolpxl"
+      },
+      {
+        "name": "jokevandemaele",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "petervandeveire",
+        "affiliation": "gemeenteevergem"
+      },
+      {
+        "name": "florisvandenbroeck",
+        "affiliation": "provincievlaams-brabant"
+      },
+      {
+        "name": "koenvandriessen",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "tomvanherck",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "gerbenvanneyghem",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "rafvanlathem",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "jorisverbeken",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "wouterverhelst",
+        "affiliation": "west-vlaamseintercommunale"
+      },
+      {
+        "name": "annvermaelen",
+        "affiliation": "cevi"
+      }
+    ],
+    "participants": [
+      {
+        "name": "isoldeaelvoet",
+        "affiliation": "provincieantwerpen"
+      },
+      {
+        "name": "emmanuelampe",
+        "affiliation": "verenigingvooropenbaargroen"
+      },
+      {
+        "name": "samblok",
+        "affiliation": "staddeinze"
+      },
+      {
+        "name": "natashablommaert",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "peterbogaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "marcbruyland",
+        "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+      },
+      {
+        "name": "nicolasdeblieck",
+        "affiliation": "tmvw"
+      },
+      {
+        "name": "berdienderoo",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "kristienderouck",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "driesdesmedt",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "stevendevriendt",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "jandewael",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "ellendebever",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "rubendeblauwe",
+        "affiliation": "elia"
+      },
+      {
+        "name": "pieterdeckers",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "dennisdevriendt",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "liesbetdhondt",
+        "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+      },
+      {
+        "name": "mariodumon",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "diedrikgaus",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "bartgoossens",
+        "affiliation": "stadsint-niklaas"
+      },
+      {
+        "name": "anheirman",
+        "affiliation": "g.i.m.-geographicinformationmanagement"
+      },
+      {
+        "name": "victoriajadot",
+        "affiliation": "eurosense"
+      },
+      {
+        "name": "johanjanssens",
+        "affiliation": "gemeenteputte"
+      },
+      {
+        "name": "lucjanssens",
+        "affiliation": "stadlier"
+      },
+      {
+        "name": "jolaps",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "pieterlauwereys",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "filipmahieu",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "olivermay",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "janmenschaert",
+        "affiliation": "agentschapvoornatuurenbos"
+      },
+      {
+        "name": "marleenmoelants",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "bartmouton",
+        "affiliation": "geo-it"
+      },
+      {
+        "name": "lukmutsaerts",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "elspodevyn",
+        "affiliation": "stadsint-niklaas"
+      },
+      {
+        "name": "jamieproost",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "reinhildeschepens",
+        "affiliation": "devlaamsewaterwegnv"
+      },
+      {
+        "name": "cornelisstal",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "barbaratack",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "philipthomas",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "beatoppet",
+        "affiliation": "hogeschoolpxl"
+      },
+      {
+        "name": "jokevandemaele",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "petervandeveire",
+        "affiliation": "gemeenteevergem"
+      },
+      {
+        "name": "florisvandenbroeck",
+        "affiliation": "provincievlaams-brabant"
+      },
+      {
+        "name": "koenvandriessen",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "tomvanherck",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "gerbenvanneyghem",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "rafvanlathem",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "jorisverbeken",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "wouterverhelst",
+        "affiliation": "west-vlaamseintercommunale"
+      },
+      {
+        "name": "annvermaelen",
+        "affiliation": "cevi"
+      },
+      {
+        "name": "timbaert",
+        "affiliation": "ugent"
+      },
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "jensscheerlinck",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "dimitrischepers",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "liesbetdewolf",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fysiek object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Terreindeel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Deel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Deel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Straatmeubilair"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infrastructuurelement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Deksel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fysiek voorkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Afsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Element"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Terrein voorkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rooster"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Collectie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Collectie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bestendige afsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Selectieve afsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Slagboom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Slagboom"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Toegangspoort",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegangspoort"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#ZichtbaarDekselOfLuik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zichtbaar deksel of luik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verlichtingspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verlichtingspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openbare verlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#NormandischeAfsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Normandische afsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareStraatverlichtingAanGevelOfMuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openbare straatverlichting aan gevel of muur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fietsstalling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Lichtpunt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Lichtpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Zitbank",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zitbank"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Draadafsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Draadafsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkolk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Straatkolk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Voetweg",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Voetweg"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbaarToilet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openbaar toilet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infozuil",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infozuil"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Aanplakbord",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aanplakbord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Begraafplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVuilnisbak",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openbare vuilnisbak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Groenvlak",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Groenvlak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Paneelafsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Paneelafsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpandraadKetting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Afsluiting spandraad en -ketting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Groendak",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Groendak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#BegraafplaatsRij",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Begraafplaats rij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Graf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Graf"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Columbarium",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Columbarium"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Urnenveld",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Urnenveld"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#Strooiweide",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Strooiweide"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Trap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Trap tussen 2 straatniveaus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "Boolean"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Standaard Eenheid"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#begindatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begindatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#einddatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einddatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#niveau",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "niveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "grafteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#capaciteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "capaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#bezetting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bezetting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#grafkelderAanwezig",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "grafkelder aanwezig"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begindatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einddatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#actieveLijkbezorging",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "actieve lijkbezorging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lichte recreatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verplaatsbaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verplaatsbaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#afsluitbaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afsluitbaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#overdekt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "overdekt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#capaciteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "capaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#bronnaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bronnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#uuid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uuid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verzinkbaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verzinkbaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#fietsdelen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fietsdelen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#oppervlakte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oppervlakte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats#graftype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "graftype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#materiaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "materiaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nutsvoorzieningscode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#dekselVorm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "deksel vorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nauwkeurigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#rioleringscode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rioleringscode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "obstakels"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "talud"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#straatkolktype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatkolktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen.voorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Deel.voorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen.voorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel.voorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekObject.bevat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bevat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Collectie.bevat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bevat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Element.heeftObstakel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft obstakel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel.heeftObstakel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft obstakel"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Materialen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nauwkeurigheidsklassen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Graftypes"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Straatkolktypes"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwantitatieve Waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#Point",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Punt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#LineString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Lijnstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#Polygon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Polygoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Relatie object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geografische Naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/Thing",
+        "label": [
+          {
+            "@value": "Ding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Entity",
+        "label": [
+          {
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieningscodes"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dekselvormwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rioleringscode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Number",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aantal Obstakels"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TaludWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/OpeningHoursSpecification",
+        "label": [
+          {
+            "@value": "OpeningsurenSpecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "titel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitText",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanschrijfvorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/email",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "email"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/faxNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fax"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/openingHours",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "openingsuren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/telephone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telefoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/page",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "website"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/width",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "breedte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://open.vocab.org/terms/length",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lengte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaard eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/hoursAvailable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Organisatie.beheerder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beheerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Gebied.beheerder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beheerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Organisatie.beheerder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beheerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/FysiekObject.beheerder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beheerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Organisatie.eigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eigenaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/FysiekObject.eigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eigenaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Organisatie.eigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eigenaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Gebied.eigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eigenaar"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "provincieantwerpen",
+        "names": [
+          {
+            "name": "isoldeaelvoet",
+            "affiliation": "provincieantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "verenigingvooropenbaargroen",
+        "names": [
+          {
+            "name": "emmanuelampe",
+            "affiliation": "verenigingvooropenbaargroen"
+          }
+        ]
+      },
+      {
+        "affiliation": "staddeinze",
+        "names": [
+          {
+            "name": "samblok",
+            "affiliation": "staddeinze"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapwegenenverkeer",
+        "names": [
+          {
+            "name": "natashablommaert",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "mariodumon",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "jolaps",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "marleenmoelants",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "gerbenvanneyghem",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "rafvanlathem",
+            "affiliation": "agentschapwegenenverkeer"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgent",
+        "names": [
+          {
+            "name": "peterbogaert",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "diedrikgaus",
+            "affiliation": "stadgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "federaleoverheidsdienstbeleidenondersteuning",
+        "names": [
+          {
+            "name": "marcbruyland",
+            "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+          },
+          {
+            "name": "liesbetdhondt",
+            "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+          }
+        ]
+      },
+      {
+        "affiliation": "tmvw",
+        "names": [
+          {
+            "name": "nicolasdeblieck",
+            "affiliation": "tmvw"
+          }
+        ]
+      },
+      {
+        "affiliation": "geosparc",
+        "names": [
+          {
+            "name": "berdienderoo",
+            "affiliation": "geosparc"
+          },
+          {
+            "name": "olivermay",
+            "affiliation": "geosparc"
+          }
+        ]
+      },
+      {
+        "affiliation": "hogeschoolgent",
+        "names": [
+          {
+            "name": "kristienderouck",
+            "affiliation": "hogeschoolgent"
+          },
+          {
+            "name": "dennisdevriendt",
+            "affiliation": "hogeschoolgent"
+          },
+          {
+            "name": "cornelisstal",
+            "affiliation": "hogeschoolgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadantwerpen",
+        "names": [
+          {
+            "name": "driesdesmedt",
+            "affiliation": "stadantwerpen"
+          },
+          {
+            "name": "barbaratack",
+            "affiliation": "stadantwerpen"
+          },
+          {
+            "name": "jokevandemaele",
+            "affiliation": "stadantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincieoost-vlaanderen",
+        "names": [
+          {
+            "name": "stevendevriendt",
+            "affiliation": "provincieoost-vlaanderen"
+          },
+          {
+            "name": "pieterdeckers",
+            "affiliation": "provincieoost-vlaanderen"
+          },
+          {
+            "name": "filipmahieu",
+            "affiliation": "provincieoost-vlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadaalst",
+        "names": [
+          {
+            "name": "jandewael",
+            "affiliation": "stadaalst"
+          },
+          {
+            "name": "pieterlauwereys",
+            "affiliation": "stadaalst"
+          },
+          {
+            "name": "jorisverbeken",
+            "affiliation": "stadaalst"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadoostende",
+        "names": [
+          {
+            "name": "ellendebever",
+            "affiliation": "stadoostende"
+          }
+        ]
+      },
+      {
+        "affiliation": "elia",
+        "names": [
+          {
+            "name": "rubendeblauwe",
+            "affiliation": "elia"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadsint-niklaas",
+        "names": [
+          {
+            "name": "bartgoossens",
+            "affiliation": "stadsint-niklaas"
+          },
+          {
+            "name": "elspodevyn",
+            "affiliation": "stadsint-niklaas"
+          }
+        ]
+      },
+      {
+        "affiliation": "g.i.m.-geographicinformationmanagement",
+        "names": [
+          {
+            "name": "anheirman",
+            "affiliation": "g.i.m.-geographicinformationmanagement"
+          }
+        ]
+      },
+      {
+        "affiliation": "eurosense",
+        "names": [
+          {
+            "name": "victoriajadot",
+            "affiliation": "eurosense"
+          }
+        ]
+      },
+      {
+        "affiliation": "gemeenteputte",
+        "names": [
+          {
+            "name": "johanjanssens",
+            "affiliation": "gemeenteputte"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadlier",
+        "names": [
+          {
+            "name": "lucjanssens",
+            "affiliation": "stadlier"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapvoornatuurenbos",
+        "names": [
+          {
+            "name": "janmenschaert",
+            "affiliation": "agentschapvoornatuurenbos"
+          }
+        ]
+      },
+      {
+        "affiliation": "geo-it",
+        "names": [
+          {
+            "name": "bartmouton",
+            "affiliation": "geo-it"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementomgeving",
+        "names": [
+          {
+            "name": "lukmutsaerts",
+            "affiliation": "departementomgeving"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadbrugge",
+        "names": [
+          {
+            "name": "jamieproost",
+            "affiliation": "stadbrugge"
+          }
+        ]
+      },
+      {
+        "affiliation": "devlaamsewaterwegnv",
+        "names": [
+          {
+            "name": "reinhildeschepens",
+            "affiliation": "devlaamsewaterwegnv"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamsemilieumaatschappij",
+        "names": [
+          {
+            "name": "philipthomas",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "koenvandriessen",
+            "affiliation": "vlaamsemilieumaatschappij"
+          }
+        ]
+      },
+      {
+        "affiliation": "hogeschoolpxl",
+        "names": [
+          {
+            "name": "beatoppet",
+            "affiliation": "hogeschoolpxl"
+          }
+        ]
+      },
+      {
+        "affiliation": "gemeenteevergem",
+        "names": [
+          {
+            "name": "petervandeveire",
+            "affiliation": "gemeenteevergem"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincievlaams-brabant",
+        "names": [
+          {
+            "name": "florisvandenbroeck",
+            "affiliation": "provincievlaams-brabant"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "tomvanherck",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "liesbetdewolf",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "west-vlaamseintercommunale",
+        "names": [
+          {
+            "name": "wouterverhelst",
+            "affiliation": "west-vlaamseintercommunale"
+          }
+        ]
+      },
+      {
+        "affiliation": "cevi",
+        "names": [
+          {
+            "name": "annvermaelen",
+            "affiliation": "cevi"
+          }
+        ]
+      },
+      {
+        "affiliation": "ugent",
+        "names": [
+          {
+            "name": "timbaert",
+            "affiliation": "ugent"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwc",
+        "names": [
+          {
+            "name": "michieldekeyzer",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "jensscheerlinck",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "dimitrischepers",
+            "affiliation": "pwc"
+          }
+        ]
+      }
+    ]
+  }
+}
