@@ -20,7 +20,6 @@
     "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/generiek",
     "http://schema.org",
-    "http://todo.com",
     "https://schema.org",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -30,11 +29,11 @@
   "editors": 2,
   "contributors": 4,
   "participants": 29,
-  "classes": 24,
+  "classes": 26,
   "properties": 30,
-  "externalclasses": 18,
-  "externalproperties": 11,
-  "totalterms": 83,
+  "externalclasses": 17,
+  "externalproperties": 9,
+  "totalterms": 82,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -559,7 +558,9 @@
             "@value": "String"
           }
         ]
-      }
+      },
+      {},
+      {}
     ],
     "properties": [
       {
@@ -716,15 +717,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinshoofd",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gezinshoofd"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#isHoofdVan",
         "label": [
           {
@@ -755,15 +747,6 @@
         "label": [
           {
             "@value": "Persoon (target)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinslid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gezinslid"
           }
         ]
       },
@@ -821,10 +804,26 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Staatsburgerschap.jurisdictie",
+        "label": [
+          {
+            "@value": "Staatsburgerschap.Jurisdictie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap.persoon",
         "label": [
           {
             "@value": "Inwonerschap.Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap.jurisdictie",
+        "label": [
+          {
+            "@value": "Inwonerschap.Jurisdictie"
           }
         ]
       }
@@ -842,10 +841,6 @@
       {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          },
           {
             "@language": "nl",
             "@value": "Agent"
@@ -934,15 +929,6 @@
           {
             "@language": "nl",
             "@value": "Contactinfo"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
@@ -1064,27 +1050,11 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Staatsburgerschap.jurisdictie",
-        "label": [
-          {
-            "@value": "Staatsburgerschap.Jurisdictie"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/person#residency",
         "label": [
           {
             "@language": "nl",
             "@value": "inwonerschap"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Inwonerschap.jurisdictie",
-        "label": [
-          {
-            "@value": "Inwonerschap.Jurisdictie"
           }
         ]
       }
