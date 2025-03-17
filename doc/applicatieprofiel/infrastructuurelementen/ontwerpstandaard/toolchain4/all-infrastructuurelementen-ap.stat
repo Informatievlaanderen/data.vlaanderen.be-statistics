@@ -1,0 +1,2484 @@
+{
+  "title": "Infrastructuurelementen (Applicatieprofiel)",
+  "uri": "https://data.test-vlaanderen.be/doc/applicatieprofiel/infrastructuurelementen/ontwerpstandaard/toolchain4",
+  "issued": "2021-09-30",
+  "navigation": {
+    "prev": "/doc/applicatieprofiel/infrastructuurelementen/standaard/2018-11-27",
+    "self": "https://data.test-vlaanderen.be/doc/applicatieprofiel/infrastructuurelementen/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "oj",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
+  "namespaces": [
+    "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur",
+    "https://data.vlaanderen.be/ns/openbaardomein",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://dbpedia.org/resource",
+    "http://www.w3.org/ns/locn",
+    "http://purl.org/dc/terms",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://schema.org",
+    "http://www.w3.org/ns/prov",
+    "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/2000/01/rdf-schema"
+  ],
+  "authors": 1,
+  "editors": 4,
+  "contributors": 49,
+  "participants": 54,
+  "classes": 123,
+  "properties": 25,
+  "externalclasses": 16,
+  "externalproperties": 2,
+  "totalterms": 166,
+  "totalorganisations": 33,
+  "organisations": [
+    {
+      "affiliation": "provincieantwerpen",
+      "participants": 1
+    },
+    {
+      "affiliation": "verenigingvooropenbaargroen",
+      "participants": 1
+    },
+    {
+      "affiliation": "staddeinze",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapwegenenverkeer",
+      "participants": 6
+    },
+    {
+      "affiliation": "stadgent",
+      "participants": 2
+    },
+    {
+      "affiliation": "federaleoverheidsdienstbeleidenondersteuning",
+      "participants": 2
+    },
+    {
+      "affiliation": "tmvw",
+      "participants": 1
+    },
+    {
+      "affiliation": "geosparc",
+      "participants": 2
+    },
+    {
+      "affiliation": "hogeschoolgent",
+      "participants": 3
+    },
+    {
+      "affiliation": "stadantwerpen",
+      "participants": 3
+    },
+    {
+      "affiliation": "provincieoost-vlaanderen",
+      "participants": 3
+    },
+    {
+      "affiliation": "stadaalst",
+      "participants": 3
+    },
+    {
+      "affiliation": "stadoostende",
+      "participants": 1
+    },
+    {
+      "affiliation": "elia",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadsint-niklaas",
+      "participants": 2
+    },
+    {
+      "affiliation": "g.i.m.-geographicinformationmanagement",
+      "participants": 1
+    },
+    {
+      "affiliation": "eurosense",
+      "participants": 1
+    },
+    {
+      "affiliation": "gemeenteputte",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadlier",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapvoornatuurenbos",
+      "participants": 1
+    },
+    {
+      "affiliation": "geo-it",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementomgeving",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadbrugge",
+      "participants": 1
+    },
+    {
+      "affiliation": "devlaamsewaterwegnv",
+      "participants": 1
+    },
+    {
+      "affiliation": "vlaamsemilieumaatschappij",
+      "participants": 2
+    },
+    {
+      "affiliation": "hogeschoolpxl",
+      "participants": 1
+    },
+    {
+      "affiliation": "gemeenteevergem",
+      "participants": 1
+    },
+    {
+      "affiliation": "provincievlaams-brabant",
+      "participants": 1
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 2
+    },
+    {
+      "affiliation": "west-vlaamseintercommunale",
+      "participants": 1
+    },
+    {
+      "affiliation": "cevi",
+      "participants": 1
+    },
+    {
+      "affiliation": "ugent",
+      "participants": 1
+    },
+    {
+      "affiliation": "pwc",
+      "participants": 3
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "liesbetdewolf",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "editors": [
+      {
+        "name": "timbaert",
+        "affiliation": "ugent"
+      },
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "jensscheerlinck",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "dimitrischepers",
+        "affiliation": "pwc"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "isoldeaelvoet",
+        "affiliation": "provincieantwerpen"
+      },
+      {
+        "name": "emmanuelampe",
+        "affiliation": "verenigingvooropenbaargroen"
+      },
+      {
+        "name": "samblok",
+        "affiliation": "staddeinze"
+      },
+      {
+        "name": "natashablommaert",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "peterbogaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "marcbruyland",
+        "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+      },
+      {
+        "name": "nicolasdeblieck",
+        "affiliation": "tmvw"
+      },
+      {
+        "name": "berdienderoo",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "kristienderouck",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "driesdesmedt",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "stevendevriendt",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "jandewael",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "ellendebever",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "rubendeblauwe",
+        "affiliation": "elia"
+      },
+      {
+        "name": "pieterdeckers",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "dennisdevriendt",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "liesbetdhondt",
+        "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+      },
+      {
+        "name": "mariodumon",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "diedrikgaus",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "bartgoossens",
+        "affiliation": "stadsint-niklaas"
+      },
+      {
+        "name": "anheirman",
+        "affiliation": "g.i.m.-geographicinformationmanagement"
+      },
+      {
+        "name": "victoriajadot",
+        "affiliation": "eurosense"
+      },
+      {
+        "name": "johanjanssens",
+        "affiliation": "gemeenteputte"
+      },
+      {
+        "name": "lucjanssens",
+        "affiliation": "stadlier"
+      },
+      {
+        "name": "jolaps",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "pieterlauwereys",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "filipmahieu",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "olivermay",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "janmenschaert",
+        "affiliation": "agentschapvoornatuurenbos"
+      },
+      {
+        "name": "marleenmoelants",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "bartmouton",
+        "affiliation": "geo-it"
+      },
+      {
+        "name": "lukmutsaerts",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "elspodevyn",
+        "affiliation": "stadsint-niklaas"
+      },
+      {
+        "name": "jamieproost",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "reinhildeschepens",
+        "affiliation": "devlaamsewaterwegnv"
+      },
+      {
+        "name": "cornelisstal",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "barbaratack",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "philipthomas",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "beatoppet",
+        "affiliation": "hogeschoolpxl"
+      },
+      {
+        "name": "jokevandemaele",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "petervandeveire",
+        "affiliation": "gemeenteevergem"
+      },
+      {
+        "name": "florisvandenbroeck",
+        "affiliation": "provincievlaams-brabant"
+      },
+      {
+        "name": "koenvandriessen",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "tomvanherck",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "gerbenvanneyghem",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "rafvanlathem",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "jorisverbeken",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "wouterverhelst",
+        "affiliation": "west-vlaamseintercommunale"
+      },
+      {
+        "name": "annvermaelen",
+        "affiliation": "cevi"
+      }
+    ],
+    "participants": [
+      {
+        "name": "isoldeaelvoet",
+        "affiliation": "provincieantwerpen"
+      },
+      {
+        "name": "emmanuelampe",
+        "affiliation": "verenigingvooropenbaargroen"
+      },
+      {
+        "name": "samblok",
+        "affiliation": "staddeinze"
+      },
+      {
+        "name": "natashablommaert",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "peterbogaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "marcbruyland",
+        "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+      },
+      {
+        "name": "nicolasdeblieck",
+        "affiliation": "tmvw"
+      },
+      {
+        "name": "berdienderoo",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "kristienderouck",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "driesdesmedt",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "stevendevriendt",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "jandewael",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "ellendebever",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "rubendeblauwe",
+        "affiliation": "elia"
+      },
+      {
+        "name": "pieterdeckers",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "dennisdevriendt",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "liesbetdhondt",
+        "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+      },
+      {
+        "name": "mariodumon",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "diedrikgaus",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "bartgoossens",
+        "affiliation": "stadsint-niklaas"
+      },
+      {
+        "name": "anheirman",
+        "affiliation": "g.i.m.-geographicinformationmanagement"
+      },
+      {
+        "name": "victoriajadot",
+        "affiliation": "eurosense"
+      },
+      {
+        "name": "johanjanssens",
+        "affiliation": "gemeenteputte"
+      },
+      {
+        "name": "lucjanssens",
+        "affiliation": "stadlier"
+      },
+      {
+        "name": "jolaps",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "pieterlauwereys",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "filipmahieu",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "olivermay",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "janmenschaert",
+        "affiliation": "agentschapvoornatuurenbos"
+      },
+      {
+        "name": "marleenmoelants",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "bartmouton",
+        "affiliation": "geo-it"
+      },
+      {
+        "name": "lukmutsaerts",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "elspodevyn",
+        "affiliation": "stadsint-niklaas"
+      },
+      {
+        "name": "jamieproost",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "reinhildeschepens",
+        "affiliation": "devlaamsewaterwegnv"
+      },
+      {
+        "name": "cornelisstal",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "barbaratack",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "philipthomas",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "beatoppet",
+        "affiliation": "hogeschoolpxl"
+      },
+      {
+        "name": "jokevandemaele",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "petervandeveire",
+        "affiliation": "gemeenteevergem"
+      },
+      {
+        "name": "florisvandenbroeck",
+        "affiliation": "provincievlaams-brabant"
+      },
+      {
+        "name": "koenvandriessen",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "tomvanherck",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "gerbenvanneyghem",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "rafvanlathem",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "jorisverbeken",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "wouterverhelst",
+        "affiliation": "west-vlaamseintercommunale"
+      },
+      {
+        "name": "annvermaelen",
+        "affiliation": "cevi"
+      },
+      {
+        "name": "timbaert",
+        "affiliation": "ugent"
+      },
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "jensscheerlinck",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "dimitrischepers",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "liesbetdewolf",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpeelEnSportvoorziening",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Speel- en sportvoorziening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infrastructuurelement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fysiek object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Sensoropstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Keldergat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Keldergat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rooster"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Straatmeubilair"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Deksel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Afsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Element"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Nutskast",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutskast"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Nutspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#CultuurhistorischMonument",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Cultuurhistorisch monument"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hondenpoepbuis",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Hondenpoepbuis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVuilnisbak",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openbare vuilnisbak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#GSM-Paal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GSM-paal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Elektriciteitspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Elektriciteitspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Telefoonpaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Telefoonpaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Reflectorpaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Reflectorpaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegsignalisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bestendige afsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Selectieve afsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Slagboom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Slagboom"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Toegangspoort",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegangspoort"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Muur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Muur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Borstwering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Borstwering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LongitudinaleWeginrichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Longitudinale weginrichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Vangrail",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vangrail"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Kopmuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kopmuur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#MuurBinnenWegbaan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Muur binnen de wegbaan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Straatkap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Huisaansluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Huisaansluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#ZichtbaarDekselOfLuik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zichtbaar deksel of luik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Putdeksel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Putdeksel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Communicatiemast",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Communicatiemast"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Mast",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Mast"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmarkering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegmarkering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Signalisatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Signalisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieEnLeidingenportiek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Signalisatie en leidingenportiek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Waterpunt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Waterpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verlichtingspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verlichtingspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openbare verlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#PaalBovenleidingTramTreinTrolley",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Paal bovenleiding tram trein trolley"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#NormandischeAfsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Normandische afsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Weginrichtingselement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Weginrichtingselement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BovengrondseBrandkraan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bovengrondse brandkraan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Oplaadpunt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Oplaadpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Bushok",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bushok"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareStraatverlichtingAanGevelOfMuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openbare straatverlichting aan gevel of muur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Knipperlicht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Knipperlicht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Schampblok",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Schampblok"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Tractorsluis",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tractorsluis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#TransversaleWeginrichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transversale weginrichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Boombeugel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Boombeugel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fietsstalling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Lichtpunt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Lichtpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Meerpaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meerpaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Vlaggenpaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vlaggenpaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Zitbank",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zitbank"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeersdrempel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersdrempel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Dwarsligger",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dwarsligger"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Draadafsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Draadafsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Treinbiels",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Treinbiels"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Stootband",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Stootband"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandDupuis",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Stootband dupuis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandNewJersey",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Stootband new jersey"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Veiligheidsband",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Veiligheidsband"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Geluidscherm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geluidscherm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeerslicht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeerslicht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Krooshek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Krooshek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Veerooster",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Veerooster"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verluchtingsrooster",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verluchtingsrooster"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkolk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Straatkolk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Bedieningszuil",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bedieningszuil"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Recyclagecontainer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Recyclagecontainer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Camera",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Camera"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Detectielus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Detectielus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Meteopaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meteopaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VerkeerslichtVoetgangerFietser",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeerslicht voetganger fietser"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningsmast",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Hoogspanningsmast"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#TV-Mast",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TV-mast"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Biggetje",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Biggetje"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbaarToilet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openbaar toilet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareBrievenbus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openbare brievenbus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Betaalautomaat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Betaalautomaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Picknicktafel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Picknicktafel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Reddingsband",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Reddingsband"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rijbaankussen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rijbaankussen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatspiegel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Straatspiegel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietstelpaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fietstelpaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infozuil",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infozuil"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeersbord",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersbord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Aanplakbord",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aanplakbord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SeininstallatieOvergangSpoorbedding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Seininstallatie overgang spoorbedding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Flitspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Flitspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmonoliet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegmonoliet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Parkeersensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Parkeersensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Debietmeter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Debietmeter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#PuntvormigeWegmarkering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Puntvormige wegmarkering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LijnvormigeWegmarkering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Lijnvormige wegmarkering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VlakvormigeWegmarkering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vlakvormige wegmarkering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaart",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Signalisatie scheepvaart"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartElektrisch",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Signalisatie scheepvaart elektrisch"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartNietElektrisch",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Signalisatie scheepvaart niet-elektrisch"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Paneelafsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Paneelafsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpandraadKetting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Afsluiting spandraad en -ketting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Haltepaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Haltepaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Pijler",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Pijler"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Silo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Silo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Grenspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Grenspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#KleineWindturbine",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kleine windturbine"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Windturbine",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Windturbine"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Hoogspanningspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Spuitkop",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Spuitkop"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Plooibaken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plooibaken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StatischeWegmonoliet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Statische wegmonoliet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VerzinkbareWegmonoliet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verzinkbare wegmonoliet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OmklapbareWegmonoliet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Omklapbare wegmonoliet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#WegneembareWegmonoliet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegneembare wegmonoliet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "Boolean"
+          }
+        ]
+      },
+      {}
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#begindatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begindatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#einddatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einddatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#niveau",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "niveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#inwendigVerlicht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inwendig verlicht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#drinkbaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "drinkbaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#aantalAnkerpunten",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aantal ankerpunten"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verplaatsbaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verplaatsbaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#afsluitbaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afsluitbaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#overdekt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "overdekt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#capaciteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "capaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verzinkbaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verzinkbaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#fietsdelen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fietsdelen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#speeltoesteltype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "speeltoesteltype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nutsvoorzieningscode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#materiaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "materiaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nutsvoorzieningscode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#dekselVorm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "deksel vorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nauwkeurigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#rioleringscode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rioleringscode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nutsvoorzieningscode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#sorteerfractie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "sorteerfractie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#stekkertype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "stekkertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#oplaadwijze",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oplaadwijze"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#straatkolktype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatkolktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#geschiktVoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geschikt voor"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieningscodes"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rioleringscode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://dbpedia.org/resource/Fountain",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fontein"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dekselvormwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Materialen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vervoersmiddelen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nauwkeurigheidsklassen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Speel- en Sportvoorzieningtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Oplaadwijzes"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Oplaadpunt Stekkertypes"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Sorteerfracties"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Straatkolktypes"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/Thing",
+        "label": [
+          {
+            "@value": "Ding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Entity",
+        "label": [
+          {
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Relatie object"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatie"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "provincieantwerpen",
+        "names": [
+          {
+            "name": "isoldeaelvoet",
+            "affiliation": "provincieantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "verenigingvooropenbaargroen",
+        "names": [
+          {
+            "name": "emmanuelampe",
+            "affiliation": "verenigingvooropenbaargroen"
+          }
+        ]
+      },
+      {
+        "affiliation": "staddeinze",
+        "names": [
+          {
+            "name": "samblok",
+            "affiliation": "staddeinze"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapwegenenverkeer",
+        "names": [
+          {
+            "name": "natashablommaert",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "mariodumon",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "jolaps",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "marleenmoelants",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "gerbenvanneyghem",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "rafvanlathem",
+            "affiliation": "agentschapwegenenverkeer"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgent",
+        "names": [
+          {
+            "name": "peterbogaert",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "diedrikgaus",
+            "affiliation": "stadgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "federaleoverheidsdienstbeleidenondersteuning",
+        "names": [
+          {
+            "name": "marcbruyland",
+            "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+          },
+          {
+            "name": "liesbetdhondt",
+            "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+          }
+        ]
+      },
+      {
+        "affiliation": "tmvw",
+        "names": [
+          {
+            "name": "nicolasdeblieck",
+            "affiliation": "tmvw"
+          }
+        ]
+      },
+      {
+        "affiliation": "geosparc",
+        "names": [
+          {
+            "name": "berdienderoo",
+            "affiliation": "geosparc"
+          },
+          {
+            "name": "olivermay",
+            "affiliation": "geosparc"
+          }
+        ]
+      },
+      {
+        "affiliation": "hogeschoolgent",
+        "names": [
+          {
+            "name": "kristienderouck",
+            "affiliation": "hogeschoolgent"
+          },
+          {
+            "name": "dennisdevriendt",
+            "affiliation": "hogeschoolgent"
+          },
+          {
+            "name": "cornelisstal",
+            "affiliation": "hogeschoolgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadantwerpen",
+        "names": [
+          {
+            "name": "driesdesmedt",
+            "affiliation": "stadantwerpen"
+          },
+          {
+            "name": "barbaratack",
+            "affiliation": "stadantwerpen"
+          },
+          {
+            "name": "jokevandemaele",
+            "affiliation": "stadantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincieoost-vlaanderen",
+        "names": [
+          {
+            "name": "stevendevriendt",
+            "affiliation": "provincieoost-vlaanderen"
+          },
+          {
+            "name": "pieterdeckers",
+            "affiliation": "provincieoost-vlaanderen"
+          },
+          {
+            "name": "filipmahieu",
+            "affiliation": "provincieoost-vlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadaalst",
+        "names": [
+          {
+            "name": "jandewael",
+            "affiliation": "stadaalst"
+          },
+          {
+            "name": "pieterlauwereys",
+            "affiliation": "stadaalst"
+          },
+          {
+            "name": "jorisverbeken",
+            "affiliation": "stadaalst"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadoostende",
+        "names": [
+          {
+            "name": "ellendebever",
+            "affiliation": "stadoostende"
+          }
+        ]
+      },
+      {
+        "affiliation": "elia",
+        "names": [
+          {
+            "name": "rubendeblauwe",
+            "affiliation": "elia"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadsint-niklaas",
+        "names": [
+          {
+            "name": "bartgoossens",
+            "affiliation": "stadsint-niklaas"
+          },
+          {
+            "name": "elspodevyn",
+            "affiliation": "stadsint-niklaas"
+          }
+        ]
+      },
+      {
+        "affiliation": "g.i.m.-geographicinformationmanagement",
+        "names": [
+          {
+            "name": "anheirman",
+            "affiliation": "g.i.m.-geographicinformationmanagement"
+          }
+        ]
+      },
+      {
+        "affiliation": "eurosense",
+        "names": [
+          {
+            "name": "victoriajadot",
+            "affiliation": "eurosense"
+          }
+        ]
+      },
+      {
+        "affiliation": "gemeenteputte",
+        "names": [
+          {
+            "name": "johanjanssens",
+            "affiliation": "gemeenteputte"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadlier",
+        "names": [
+          {
+            "name": "lucjanssens",
+            "affiliation": "stadlier"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapvoornatuurenbos",
+        "names": [
+          {
+            "name": "janmenschaert",
+            "affiliation": "agentschapvoornatuurenbos"
+          }
+        ]
+      },
+      {
+        "affiliation": "geo-it",
+        "names": [
+          {
+            "name": "bartmouton",
+            "affiliation": "geo-it"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementomgeving",
+        "names": [
+          {
+            "name": "lukmutsaerts",
+            "affiliation": "departementomgeving"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadbrugge",
+        "names": [
+          {
+            "name": "jamieproost",
+            "affiliation": "stadbrugge"
+          }
+        ]
+      },
+      {
+        "affiliation": "devlaamsewaterwegnv",
+        "names": [
+          {
+            "name": "reinhildeschepens",
+            "affiliation": "devlaamsewaterwegnv"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamsemilieumaatschappij",
+        "names": [
+          {
+            "name": "philipthomas",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "koenvandriessen",
+            "affiliation": "vlaamsemilieumaatschappij"
+          }
+        ]
+      },
+      {
+        "affiliation": "hogeschoolpxl",
+        "names": [
+          {
+            "name": "beatoppet",
+            "affiliation": "hogeschoolpxl"
+          }
+        ]
+      },
+      {
+        "affiliation": "gemeenteevergem",
+        "names": [
+          {
+            "name": "petervandeveire",
+            "affiliation": "gemeenteevergem"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincievlaams-brabant",
+        "names": [
+          {
+            "name": "florisvandenbroeck",
+            "affiliation": "provincievlaams-brabant"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "tomvanherck",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "liesbetdewolf",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "west-vlaamseintercommunale",
+        "names": [
+          {
+            "name": "wouterverhelst",
+            "affiliation": "west-vlaamseintercommunale"
+          }
+        ]
+      },
+      {
+        "affiliation": "cevi",
+        "names": [
+          {
+            "name": "annvermaelen",
+            "affiliation": "cevi"
+          }
+        ]
+      },
+      {
+        "affiliation": "ugent",
+        "names": [
+          {
+            "name": "timbaert",
+            "affiliation": "ugent"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwc",
+        "names": [
+          {
+            "name": "michieldekeyzer",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "jensscheerlinck",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "dimitrischepers",
+            "affiliation": "pwc"
+          }
+        ]
+      }
+    ]
+  }
+}
