@@ -16325,6 +16325,24 @@
     "label": [
       {
         "@language": "nl",
+        "@value": "naam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "nl",
         "@value": "titel"
       }
     ]
@@ -17829,6 +17847,24 @@
       {
         "@language": "nl",
         "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/relation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "relatie"
       }
     ]
   },
@@ -34477,20 +34513,20 @@
     ]
   },
   {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "geobserveerdObject"
-      }
-    ]
-  },
-  {
     "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
     "label": [
       {
         "@language": "nl",
         "@value": "geassocieerdeObservatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Intention",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Intentie"
       }
     ]
   },
@@ -34536,15 +34572,6 @@
       {
         "@language": "nl",
         "@value": "lid"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingMethod",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "bemonsteringsmethode"
       }
     ]
   },
@@ -35629,15 +35656,6 @@
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/ns/sosa/madeSampling",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "uitgevoerdeBemonstering"
-      }
-    ]
-  },
-  {
     "assignedURI": "http://www.w3.org/ns/sosa/madeBySampler",
     "label": [
       {
@@ -35647,11 +35665,10 @@
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+    "assignedURI": "http://www.w3.org/ns/sosa/hasDeployment",
     "label": [
       {
-        "@language": "nl",
-        "@value": "geobserveerdObject"
+        "@value": "heeftDeployment"
       }
     ]
   },
@@ -35670,14 +35687,6 @@
       {
         "@language": "nl",
         "@value": "Ontwerp"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.w3.org/ns/sosa/wasObservedBy",
-    "label": [
-      {
-        "@value": "geassocieerdeObservatie"
       }
     ]
   },
@@ -35708,10 +35717,11 @@
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/ns/sosa/deployedOnPlatform",
+    "assignedURI": "http://www.w3.org/ns/sosa/isHostedBy",
     "label": [
       {
-        "@value": "host"
+        "@language": "nl",
+        "@value": "gehostDoor"
       }
     ]
   },
@@ -35720,14 +35730,6 @@
     "label": [
       {
         "@value": "deployment"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.w3.org/ns/sosa/memberOf",
-    "label": [
-      {
-        "@value": "isLidVan"
       }
     ]
   },
@@ -35750,29 +35752,11 @@
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/ns/sosa/implementedBy",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "geïmplementeerdDoor"
-      }
-    ]
-  },
-  {
     "assignedURI": "http://www.w3.org/ns/sosa/implements",
     "label": [
       {
         "@language": "nl",
         "@value": "implementeert"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.w3.org/ns/sosa/isResultOf",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "isResultaatVan"
       }
     ]
   },
@@ -35795,29 +35779,11 @@
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/ns/sosa/implementedBy",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "geïmplementeerdMet"
-      }
-    ]
-  },
-  {
     "assignedURI": "http://www.w3.org/ns/sosa/implements",
     "label": [
       {
         "@language": "nl",
         "@value": "implementeert"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.w3.org/ns/sosa/madeObservation",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "uitgevoerdeObservatie"
       }
     ]
   },
@@ -35831,28 +35797,11 @@
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/ns/sosa/observes",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "observeert"
-      }
-    ]
-  },
-  {
     "assignedURI": "http://www.w3.org/ns/sosa/isObservedBy",
     "label": [
       {
         "@language": "nl",
         "@value": "isGeobserveerdMet"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://fixme.com/",
-    "label": [
-      {
-        "@value": "gebruiktVoorHetObserverenVan"
       }
     ]
   },
@@ -35907,26 +35856,10 @@
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/ns/sosa/oms/hasPreparationStep",
-    "label": [
-      {
-        "@value": "monstervoorbereidingsstap"
-      }
-    ]
-  },
-  {
     "assignedURI": "http://www.w3.org/ns/sosa/oms/processingDetails",
     "label": [
       {
         "@value": "verwerkingsdetails"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.w3.org/ns/sosa/oms/samplePreparationStep",
-    "label": [
-      {
-        "@value": "voorbereidingsstap"
       }
     ]
   },
@@ -36191,6 +36124,24 @@
     ]
   },
   {
+    "assignedURI": "http://todo.com/Gebied.beheerder",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beheerder"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://todo.com/Organisatie.beheerder",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beheerder"
+      }
+    ]
+  },
+  {
     "assignedURI": "http://todo.com/FysiekObject.beheerder",
     "label": [
       {
@@ -36210,6 +36161,24 @@
   },
   {
     "assignedURI": "http://todo.com/FysiekObject.eigenaar",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eigenaar"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://todo.com/Organisatie.eigenaar",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eigenaar"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://todo.com/Gebied.eigenaar",
     "label": [
       {
         "@language": "nl",
@@ -36416,6 +36385,24 @@
     ]
   },
   {
+    "assignedURI": "http://www.w3.org/ns/org#basedAt",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeft standplaats"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/org#basedAt",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeft standplaats"
+      }
+    ]
+  },
+  {
     "assignedURI": "http://www.w3.org/ns/org#reportsTo",
     "label": [
       {
@@ -36574,6 +36561,121 @@
       {
         "@language": "nl",
         "@value": "heeft eenheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/regorg#hasRegisteredOrganization",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeft geregistreerde organisatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/regorg#hasRegisteredOrganization",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeft geregistreerde organisatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/org#reportsTo",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "rapporteert aan"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/org#holds",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "houdt"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/org#holds",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "houdt"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://todo.com/Organisatie.isLidVan",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "is lid van"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://todo.com/Agent.isLidVan",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "is lid van"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://todo.com/lid",
+    "label": [
+      {
+        "@value": "lid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://todo.com/Lidmaatschap.agent",
+    "label": [
+      {
+        "@value": "Lidmaatschap.Agent"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/org#headOf",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "is hoofd van"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/org#headOf",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "is hoofd van"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/org#memberOf",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "is lid van"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/org#memberOf",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "is lid van"
       }
     ]
   },
@@ -65931,11 +66033,29 @@
     ]
   },
   {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdObject"
+      }
+    ]
+  },
+  {
     "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Design",
     "label": [
       {
         "@language": "nl",
         "@value": "Ontwerp"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Intention",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Intentie"
       }
     ]
   },
@@ -65963,15 +66083,6 @@
       {
         "@language": "nl",
         "@value": "Verzameling"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingMethod",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "bemonsteringsmethode"
       }
     ]
   },
@@ -66610,6 +66721,321 @@
     "label": [
       {
         "@language": "nl",
+        "@value": "naam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "titel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "alternatieve naam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "voorkeursnaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/unitText",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eenheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "naam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "aanschrijfvorm"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://xmlns.com/foaf/0.1/name",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "contactnaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/email",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "email"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/faxNumber",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fax"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/openingHours",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "openingsuren"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/telephone",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "telefoon"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://xmlns.com/foaf/0.1/page",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "website"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gml"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "wkt"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/width",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "breedte"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://open.vocab.org/terms/length",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "lengte"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/contactPoint",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "contactinfo"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/unitCode",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "standaard eenheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/value",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "waarde"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/height",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "hoogte"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/relation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "relatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://rs.tdwg.org/dwc/terms/scientificName",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "wetenschappelijke soortnaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#address",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "adres"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/hoursAvailable",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beschikbaarheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://rs.tdwg.org/dwc/terms/scientificName",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "wetenschappelijke soortnaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://todo.com/Organisatie.beheerder",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beheerder"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://todo.com/FysiekObject.beheerder",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beheerder"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://todo.com/Organisatie.eigenaar",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eigenaar"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://todo.com/FysiekObject.eigenaar",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eigenaar"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/relation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "relatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "nl",
         "@value": "titel"
       }
     ]
@@ -67137,272 +67563,11 @@
     ]
   },
   {
-    "assignedURI": "http://todo.com/FysiekObject.beheerder",
+    "assignedURI": "http://todo.com/Gebied.beheerder",
     "label": [
       {
         "@language": "nl",
         "@value": "beheerder"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://todo.com/Organisatie.eigenaar",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "eigenaar"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://todo.com/FysiekObject.eigenaar",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "eigenaar"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://purl.org/dc/terms/title",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "titel"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "alternatieve naam"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "voorkeursnaam"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://schema.org/unitText",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "eenheid"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://purl.org/dc/terms/title",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "naam"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "aanschrijfvorm"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://xmlns.com/foaf/0.1/name",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "contactnaam"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://schema.org/email",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "email"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://schema.org/faxNumber",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "fax"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://schema.org/openingHours",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "openingsuren"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://schema.org/telephone",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "telefoon"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://xmlns.com/foaf/0.1/page",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "website"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "gml"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "wkt"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://schema.org/width",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "breedte"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://open.vocab.org/terms/length",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "lengte"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://schema.org/contactPoint",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "contactinfo"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://schema.org/unitCode",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "standaard eenheid"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.w3.org/ns/locn#geometry",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "geometrie"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://schema.org/value",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "waarde"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://schema.org/height",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "hoogte"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.w3.org/ns/locn#geometry",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "geometrie"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://purl.org/dc/terms/relation",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "relatie"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://rs.tdwg.org/dwc/terms/scientificName",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "wetenschappelijke soortnaam"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.w3.org/ns/locn#address",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "adres"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://schema.org/hoursAvailable",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "beschikbaarheid"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://rs.tdwg.org/dwc/terms/scientificName",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "wetenschappelijke soortnaam"
       }
     ]
   },
@@ -67435,6 +67600,24 @@
   },
   {
     "assignedURI": "http://todo.com/FysiekObject.eigenaar",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eigenaar"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://todo.com/Organisatie.eigenaar",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eigenaar"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://todo.com/Gebied.eigenaar",
     "label": [
       {
         "@language": "nl",

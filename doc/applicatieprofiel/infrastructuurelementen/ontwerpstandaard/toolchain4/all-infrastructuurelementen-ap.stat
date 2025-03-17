@@ -1,52 +1,36 @@
 {
-  "title": "Openbaar Domein (Applicatieprofiel)",
-  "uri": "https://data.vlaanderen.be/doc/applicatieprofiel/openbaar-domein/ontwerpstandaard/toolchain4",
+  "title": "Infrastructuurelementen (Applicatieprofiel)",
+  "uri": "https://data.vlaanderen.be/doc/applicatieprofiel/infrastructuurelementen/ontwerpstandaard/toolchain4",
   "issued": "2021-09-30",
   "navigation": {
-    "prev": "/doc/applicatieprofiel/openbaar-domein/erkendestandaard/2021-09-30",
-    "self": "https://data.vlaanderen.be/doc/applicatieprofiel/openbaar-domein/ontwerpstandaard/toolchain4"
+    "prev": "/doc/applicatieprofiel/infrastructuurelementen/standaard/2018-11-27",
+    "self": "https://data.vlaanderen.be/doc/applicatieprofiel/infrastructuurelementen/ontwerpstandaard/toolchain4"
   },
-  "documenttype": "ap",
+  "documenttype": "oj",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "statuslabel": "Erkende Standaard",
   "namespaces": [
-    "https://data.vlaanderen.be/ns/openbaardomein",
-    "https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen",
-    "https://data.vlaanderen.be/ns/openbaardomein/terreindeel",
-    "http://www.w3.org/ns/org",
-    "https://data.vlaanderen.be/ns/openbaardomein/vegetatie",
-    "https://data.vlaanderen.be/ns/openbaardomein/waterdeel",
-    "https://data.vlaanderen.be/ns/openbaardomein/gebied",
-    "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen",
     "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur",
+    "https://data.vlaanderen.be/ns/openbaardomein",
     "http://www.w3.org/2004/02/skos/core",
-    "https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen",
-    "http://purl.org/dc/terms",
-    "https://schema.org",
-    "http://www.w3.org/2006/vcard/ns",
-    "http://xmlns.com/foaf/0.1",
-    "http://schema.org",
-    "http://www.opengis.net/ont/geosparql",
-    "http://open.vocab.org/terms",
+    "http://dbpedia.org/resource",
     "http://www.w3.org/ns/locn",
-    "http://rs.tdwg.org/dwc/terms",
-    "http://todo.com",
-    "http://www.opengis.net/ont/sf",
-    "http://www.w3.org/2000/01/rdf-schema",
-    "https://data.vlaanderen.be/ns/generiek",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://purl.org/dc/terms",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/ns/prov"
+    "http://schema.org",
+    "http://www.w3.org/ns/prov",
+    "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/2000/01/rdf-schema"
   ],
   "authors": 1,
   "editors": 4,
   "contributors": 49,
   "participants": 54,
-  "classes": 21,
-  "properties": 27,
-  "externalclasses": 24,
-  "externalproperties": 35,
-  "totalterms": 107,
+  "classes": 123,
+  "properties": 25,
+  "externalclasses": 16,
+  "externalproperties": 2,
+  "totalterms": 166,
   "totalorganisations": 33,
   "organisations": [
     {
@@ -626,101 +610,11 @@
     ],
     "classes": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekObject",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpeelEnSportvoorziening",
         "label": [
           {
             "@language": "nl",
-            "@value": "Fysiek object"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#WaterVoorkomen",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Water voorkomen"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Fysiek voorkomen"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Terreindeel"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Deel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Deel"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/vegetatie#VegetatieElement",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Vegetatie element"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Element",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Element"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterdeel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Waterdeel"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gebied"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Begroeid voorkomen"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Terrein voorkomen"
+            "@value": "Speel- en sportvoorziening"
           }
         ]
       },
@@ -734,29 +628,1055 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Collectie",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekObject",
         "label": [
           {
             "@language": "nl",
-            "@value": "Collectie"
+            "@value": "Fysiek object"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen#OnbegroeidVoorkomen",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Sensoropstelling",
         "label": [
           {
             "@language": "nl",
-            "@value": "Onbegroeid voorkomen"
+            "@value": "Sensoropstelling"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Keldergat",
         "label": [
           {
             "@language": "nl",
-            "@value": "Standaard Eenheid"
+            "@value": "Keldergat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rooster",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rooster"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatmeubilair",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Straatmeubilair"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Deksel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Deksel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Afsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Element"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Nutskast",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutskast"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Nutspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#CultuurhistorischMonument",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Cultuurhistorisch monument"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hondenpoepbuis",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Hondenpoepbuis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVuilnisbak",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openbare vuilnisbak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#GSM-Paal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GSM-paal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Elektriciteitspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Elektriciteitspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Telefoonpaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Telefoonpaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Reflectorpaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Reflectorpaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegsignalisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bestendige afsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SelectieveAfsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Selectieve afsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Slagboom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Slagboom"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Toegangspoort",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegangspoort"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Muur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Muur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Borstwering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Borstwering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LongitudinaleWeginrichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Longitudinale weginrichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Vangrail",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vangrail"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Kopmuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kopmuur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#MuurBinnenWegbaan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Muur binnen de wegbaan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Straatkap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Huisaansluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Huisaansluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#ZichtbaarDekselOfLuik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zichtbaar deksel of luik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Putdeksel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Putdeksel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Communicatiemast",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Communicatiemast"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Mast",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Mast"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmarkering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegmarkering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Signalisatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Signalisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieEnLeidingenportiek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Signalisatie en leidingenportiek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Waterpunt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Waterpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verlichtingspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verlichtingspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openbare verlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#PaalBovenleidingTramTreinTrolley",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Paal bovenleiding tram trein trolley"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#NormandischeAfsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Normandische afsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Weginrichtingselement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Weginrichtingselement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BovengrondseBrandkraan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bovengrondse brandkraan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Oplaadpunt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Oplaadpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Bushok",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bushok"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareStraatverlichtingAanGevelOfMuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openbare straatverlichting aan gevel of muur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Knipperlicht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Knipperlicht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Schampblok",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Schampblok"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Tractorsluis",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tractorsluis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#TransversaleWeginrichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transversale weginrichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Boombeugel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Boombeugel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fietsstalling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Lichtpunt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Lichtpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Meerpaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meerpaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Vlaggenpaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vlaggenpaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Zitbank",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zitbank"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeersdrempel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersdrempel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Dwarsligger",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dwarsligger"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Draadafsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Draadafsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Treinbiels",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Treinbiels"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Stootband",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Stootband"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandDupuis",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Stootband dupuis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandNewJersey",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Stootband new jersey"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Veiligheidsband",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Veiligheidsband"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Geluidscherm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geluidscherm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeerslicht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeerslicht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Krooshek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Krooshek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Veerooster",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Veerooster"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verluchtingsrooster",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verluchtingsrooster"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatkolk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Straatkolk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Bedieningszuil",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bedieningszuil"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Recyclagecontainer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Recyclagecontainer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Camera",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Camera"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Detectielus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Detectielus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Meteopaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meteopaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VerkeerslichtVoetgangerFietser",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeerslicht voetganger fietser"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningsmast",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Hoogspanningsmast"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#TV-Mast",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TV-mast"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Biggetje",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Biggetje"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbaarToilet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openbaar toilet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareBrievenbus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openbare brievenbus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Betaalautomaat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Betaalautomaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Picknicktafel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Picknicktafel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Reddingsband",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Reddingsband"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Rijbaankussen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rijbaankussen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatspiegel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Straatspiegel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietstelpaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fietstelpaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infozuil",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infozuil"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeersbord",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersbord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Aanplakbord",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aanplakbord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SeininstallatieOvergangSpoorbedding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Seininstallatie overgang spoorbedding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Flitspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Flitspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmonoliet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegmonoliet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Parkeersensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Parkeersensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Debietmeter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Debietmeter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#PuntvormigeWegmarkering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Puntvormige wegmarkering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#LijnvormigeWegmarkering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Lijnvormige wegmarkering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VlakvormigeWegmarkering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vlakvormige wegmarkering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaart",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Signalisatie scheepvaart"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartElektrisch",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Signalisatie scheepvaart elektrisch"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieScheepvaartNietElektrisch",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Signalisatie scheepvaart niet-elektrisch"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Paneelafsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Paneelafsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SpandraadKetting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Afsluiting spandraad en -ketting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Haltepaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Haltepaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Pijler",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Pijler"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Silo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Silo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Grenspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Grenspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#KleineWindturbine",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kleine windturbine"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Windturbine",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Windturbine"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Hoogspanningspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Hoogspanningspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Spuitkop",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Spuitkop"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Plooibaken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plooibaken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StatischeWegmonoliet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Statische wegmonoliet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VerzinkbareWegmonoliet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verzinkbare wegmonoliet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OmklapbareWegmonoliet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Omklapbare wegmonoliet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#WegneembareWegmonoliet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegneembare wegmonoliet"
           }
         ]
       },
@@ -777,22 +1697,13 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
         "label": [
           {
-            "@value": "String"
+            "@value": "Boolean"
           }
         ]
       },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "label": [
-          {
-            "@value": "URI"
-          }
-        ]
-      },
-      {},
       {}
     ],
     "properties": [
@@ -824,65 +1735,101 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#inwendigVerlicht",
         "label": [
           {
             "@language": "nl",
-            "@value": "begindatum"
+            "@value": "inwendig verlicht"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#drinkbaar",
         "label": [
           {
             "@language": "nl",
-            "@value": "einddatum"
+            "@value": "drinkbaar"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortnaamNederlands",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#aantalAnkerpunten",
         "label": [
           {
             "@language": "nl",
-            "@value": "soortnaam Nederlands"
+            "@value": "aantal ankerpunten"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#bronnaam",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verplaatsbaar",
         "label": [
           {
             "@language": "nl",
-            "@value": "bronnaam"
+            "@value": "verplaatsbaar"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#uuid",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#afsluitbaar",
         "label": [
           {
             "@language": "nl",
-            "@value": "uuid"
+            "@value": "afsluitbaar"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/vegetatie#soortnaamNederlands",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#overdekt",
         "label": [
           {
             "@language": "nl",
-            "@value": "soortnaam Nederlands"
+            "@value": "overdekt"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#oppervlakte",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#capaciteit",
         "label": [
           {
             "@language": "nl",
-            "@value": "oppervlakte"
+            "@value": "capaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#verzinkbaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verzinkbaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#fietsdelen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fietsdelen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#speeltoesteltype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "speeltoesteltype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nutsvoorzieningscode"
           }
         ]
       },
@@ -896,20 +1843,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortcode",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode",
         "label": [
           {
             "@language": "nl",
-            "@value": "soortcode"
+            "@value": "nutsvoorzieningscode"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#drassigheid",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#dekselVorm",
         "label": [
           {
             "@language": "nl",
-            "@value": "drassigheid"
+            "@value": "deksel vorm"
           }
         ]
       },
@@ -923,130 +1870,76 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#rioleringscode",
         "label": [
           {
             "@language": "nl",
-            "@value": "obstakels"
+            "@value": "rioleringscode"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#nutsvoorzieningscode",
         "label": [
           {
             "@language": "nl",
-            "@value": "talud"
+            "@value": "nutsvoorzieningscode"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/vegetatie#soortcode",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#sorteerfractie",
         "label": [
           {
             "@language": "nl",
-            "@value": "soortcode"
+            "@value": "sorteerfractie"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen.voorkomen",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#stekkertype",
         "label": [
           {
             "@language": "nl",
-            "@value": "voorkomen"
+            "@value": "stekkertype"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Deel.voorkomen",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#oplaadwijze",
         "label": [
           {
             "@language": "nl",
-            "@value": "voorkomen"
+            "@value": "oplaadwijze"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen.voorkomen",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#straatkolktype",
         "label": [
           {
             "@language": "nl",
-            "@value": "voorkomen"
+            "@value": "straatkolktype"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel.voorkomen",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#geschiktVoor",
         "label": [
           {
             "@language": "nl",
-            "@value": "voorkomen"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#voorkomen",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "voorkomen"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#voorkomen",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "voorkomen"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekObject.bevat",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bevat"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Collectie.bevat",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bevat"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Element.heeftObstakel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft obstakel"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel.heeftObstakel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft obstakel"
+            "@value": "geschikt voor"
           }
         ]
       }
     ],
     "externalclasses": [
       {
-        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Organisatie"
+            "@value": "Nutsvoorzieningscodes"
           }
         ]
       },
@@ -1055,7 +1948,16 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "DrassigheidWaarde"
+            "@value": "Rioleringscode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://dbpedia.org/resource/Fountain",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fontein"
           }
         ]
       },
@@ -1064,7 +1966,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "TaludWaarde"
+            "@value": "Dekselvormwaarde"
           }
         ]
       },
@@ -1073,7 +1975,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Aantal Obstakels"
+            "@value": "Materialen"
           }
         ]
       },
@@ -1081,7 +1983,8 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
-            "@value": "GBIFcode"
+            "@language": "nl",
+            "@value": "Vervoersmiddelen"
           }
         ]
       },
@@ -1095,83 +1998,47 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/QuantitativeValue",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Kwantitatieve Waarde"
+            "@value": "Speel- en Sportvoorzieningtype"
           }
         ]
       },
       {
-        "assignedURI": "https://schema.org/Number",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Getal"
+            "@value": "Oplaadwijzes"
           }
         ]
       },
       {
-        "assignedURI": "http://www.opengis.net/ont/geosparql#Geometry",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Geometrie"
+            "@value": "Oplaadpunt Stekkertypes"
           }
         ]
       },
       {
-        "assignedURI": "http://www.opengis.net/ont/sf#Point",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Punt"
+            "@value": "Sorteerfracties"
           }
         ]
       },
       {
-        "assignedURI": "http://www.opengis.net/ont/sf#LineString",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Lijnstring"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.opengis.net/ont/sf#Polygon",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Polygoon"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Relatie object"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://schema.org/ContactPoint",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Contactinfo"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geografische Naam"
+            "@value": "Straatkolktypes"
           }
         ]
       },
@@ -1192,256 +2059,25 @@
         ]
       },
       {
-        "assignedURI": "http://rs.tdwg.org/dwc/terms/Taxon",
-        "label": [
-          {
-            "@value": "Taxon"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "assignedURI": "http://www.opengis.net/ont/geosparql#Geometry",
         "label": [
           {
             "@language": "nl",
-            "@value": "Materialen"
+            "@value": "Geometrie"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
         "label": [
           {
             "@language": "nl",
-            "@value": "Taalstring"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Code"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Address",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Adresvoorstelling"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/OpeningHoursSpecification",
-        "label": [
-          {
-            "@value": "OpeningsurenSpecificatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Getypeerde String"
+            "@value": "Relatie object"
           }
         ]
       }
     ],
     "externalproperties": [
-      {
-        "assignedURI": "http://purl.org/dc/terms/title",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "titel"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "alternatieve naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "voorkeursnaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/unitText",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eenheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/title",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aanschrijfvorm"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://xmlns.com/foaf/0.1/name",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "contactnaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://schema.org/email",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "email"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://schema.org/faxNumber",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "fax"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://schema.org/openingHours",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "openingsuren"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://schema.org/telephone",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "telefoon"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://xmlns.com/foaf/0.1/page",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "website"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gml"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "wkt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://schema.org/width",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "breedte"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://open.vocab.org/terms/length",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "lengte"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://schema.org/contactPoint",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "contactinfo"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/unitCode",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "standaard eenheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/value",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "waarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://schema.org/height",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "hoogte"
-          }
-        ]
-      },
       {
         "assignedURI": "http://www.w3.org/ns/locn#geometry",
         "label": [
@@ -1457,114 +2093,6 @@
           {
             "@language": "nl",
             "@value": "relatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://rs.tdwg.org/dwc/terms/scientificName",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "wetenschappelijke soortnaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#address",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "adres"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://schema.org/hoursAvailable",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschikbaarheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://rs.tdwg.org/dwc/terms/scientificName",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "wetenschappelijke soortnaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Organisatie.beheerder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beheerder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Gebied.beheerder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beheerder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Organisatie.beheerder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beheerder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/FysiekObject.beheerder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beheerder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Organisatie.eigenaar",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eigenaar"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/FysiekObject.eigenaar",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eigenaar"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Organisatie.eigenaar",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eigenaar"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Gebied.eigenaar",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eigenaar"
           }
         ]
       }

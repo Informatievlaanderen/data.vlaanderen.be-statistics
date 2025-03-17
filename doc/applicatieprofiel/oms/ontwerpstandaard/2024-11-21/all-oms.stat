@@ -40,11 +40,11 @@
   "editors": 1,
   "contributors": 1,
   "participants": 3,
-  "classes": 7,
-  "properties": 17,
-  "externalclasses": 70,
-  "externalproperties": 139,
-  "totalterms": 233,
+  "classes": 11,
+  "properties": 14,
+  "externalclasses": 66,
+  "externalproperties": 128,
+  "totalterms": 219,
   "totalorganisations": 3,
   "organisations": [
     {
@@ -145,6 +145,10 @@
           }
         ]
       },
+      {},
+      {},
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/generiek#Opmeting",
         "label": [
@@ -281,30 +285,6 @@
             "@value": "doel"
           }
         ]
-      },
-      {
-        "assignedURI": "http://todo.com/gebruiktVoorHetBemonsterenVan",
-        "label": [
-          {
-            "@value": "gebruiktVoorHetBemonsterenVan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/host",
-        "label": [
-          {
-            "@value": "host"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/geassocieerdeObservatie",
-        "label": [
-          {
-            "@value": "geassocieerdeObservatie"
-          }
-        ]
       }
     ],
     "externalclasses": [
@@ -338,10 +318,6 @@
       {
         "assignedURI": "http://www.w3.org/ns/sosa/FeatureOfInterest",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Object"
-          },
           {
             "@language": "nl",
             "@value": "Object"
@@ -552,10 +528,6 @@
           {
             "@language": "nl",
             "@value": "Systeem"
-          },
-          {
-            "@language": "nl",
-            "@value": "Systeem"
           }
         ]
       },
@@ -589,10 +561,6 @@
       {
         "assignedURI": "https://www.w3.org/ns/sosa/Platform",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Platform"
-          },
           {
             "@language": "nl",
             "@value": "Platform"
@@ -796,9 +764,6 @@
         "label": [
           {
             "@value": "Concept"
-          },
-          {
-            "@value": "Concept"
           }
         ]
       },
@@ -866,15 +831,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/FeatureOfInterest",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Object"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/elements/1.1/coverage",
         "label": [
           {
@@ -889,32 +845,6 @@
           {
             "@language": "nl",
             "@value": "Procedure"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/ssn/System",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Systeem"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://www.w3.org/ns/sosa/Platform",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Platform"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Concept"
           }
         ]
       },
@@ -1839,15 +1769,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/madeSampling",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "uitgevoerdeBemonstering"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/madeBySampler",
         "label": [
           {
@@ -1857,11 +1778,10 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+        "assignedURI": "http://www.w3.org/ns/sosa/hasDeployment",
         "label": [
           {
-            "@language": "nl",
-            "@value": "geobserveerdObject"
+            "@value": "heeftDeployment"
           }
         ]
       },
@@ -1880,14 +1800,6 @@
           {
             "@language": "nl",
             "@value": "Ontwerp"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/wasObservedBy",
-        "label": [
-          {
-            "@value": "geassocieerdeObservatie"
           }
         ]
       },
@@ -1918,10 +1830,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/deployedOnPlatform",
+        "assignedURI": "http://www.w3.org/ns/sosa/isHostedBy",
         "label": [
           {
-            "@value": "host"
+            "@language": "nl",
+            "@value": "gehostDoor"
           }
         ]
       },
@@ -1930,14 +1843,6 @@
         "label": [
           {
             "@value": "deployment"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/memberOf",
-        "label": [
-          {
-            "@value": "isLidVan"
           }
         ]
       },
@@ -1960,29 +1865,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/implementedBy",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geïmplementeerdDoor"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/implements",
         "label": [
           {
             "@language": "nl",
             "@value": "implementeert"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/isResultOf",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "isResultaatVan"
           }
         ]
       },
@@ -2005,29 +1892,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/implementedBy",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geïmplementeerdMet"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/implements",
         "label": [
           {
             "@language": "nl",
             "@value": "implementeert"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/madeObservation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "uitgevoerdeObservatie"
           }
         ]
       },
@@ -2041,28 +1910,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/observes",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "observeert"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/isObservedBy",
         "label": [
           {
             "@language": "nl",
             "@value": "isGeobserveerdMet"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://fixme.com/",
-        "label": [
-          {
-            "@value": "gebruiktVoorHetObserverenVan"
           }
         ]
       },
@@ -2117,26 +1969,10 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/oms/hasPreparationStep",
-        "label": [
-          {
-            "@value": "monstervoorbereidingsstap"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/oms/processingDetails",
         "label": [
           {
             "@value": "verwerkingsdetails"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/oms/samplePreparationStep",
-        "label": [
-          {
-            "@value": "voorbereidingsstap"
           }
         ]
       },

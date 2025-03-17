@@ -60,11 +60,11 @@
   "editors": 10,
   "contributors": 72,
   "participants": 90,
-  "classes": 8,
-  "properties": 11,
-  "externalclasses": 65,
-  "externalproperties": 65,
-  "totalterms": 149,
+  "classes": 12,
+  "properties": 12,
+  "externalclasses": 62,
+  "externalproperties": 64,
+  "totalterms": 150,
   "totalorganisations": 46,
   "organisations": [
     {
@@ -1049,7 +1049,11 @@
             "@value": "Boolean"
           }
         ]
-      }
+      },
+      {},
+      {},
+      {},
+      {}
     ],
     "properties": [
       {
@@ -1139,6 +1143,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#gegenereerdeObservatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gegenereerdeObservatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#waardeverschaffer",
         "label": [
           {
@@ -1152,10 +1165,6 @@
       {
         "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCoverage",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "DiscreetBereik"
-          },
           {
             "@language": "nl",
             "@value": "DiscreetBereik"
@@ -1564,10 +1573,6 @@
           {
             "@language": "nl",
             "@value": "Geometrie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
           }
         ]
       },
@@ -1619,10 +1624,6 @@
       {
         "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "GeometrieWaardepaar"
-          },
           {
             "@language": "nl",
             "@value": "GeometrieWaardepaar"
@@ -1684,15 +1685,6 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCoverage",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "DiscreetBereik"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_Coverage",
         "label": [
           {
@@ -1716,24 +1708,6 @@
           {
             "@language": "nl",
             "@value": "Bemonstering"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "GeometrieWaardepaar"
           }
         ]
       },
@@ -2262,20 +2236,20 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geobserveerdObject"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
         "label": [
           {
             "@language": "nl",
             "@value": "geassocieerdeObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Intention",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Intentie"
           }
         ]
       },
@@ -2321,15 +2295,6 @@
           {
             "@language": "nl",
             "@value": "lid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingMethod",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bemonsteringsmethode"
           }
         ]
       }
