@@ -1,0 +1,756 @@
+{
+  "title": "OSLO Leermiddelen (Applicatieprofiel)",
+  "uri": "https://data.vlaanderen.be/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-02-24",
+  "issued": "2025-02-24",
+  "navigation": {
+    "self": "https://data.vlaanderen.be/doc/applicatieprofiel/leermiddelen/ontwerpstandaard/2025-02-24"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
+  "namespaces": [
+    "http://purl.org/dc/terms",
+    "http://data.europa.eu/snb/model/elm",
+    "http://www.w3.org/2004/02/skos/core",
+    "https://data.vlaanderen.be/ns/leermiddelen",
+    "https://schema.org",
+    "http://todo.com",
+    "http://data.europa.eu/m8g",
+    "https://data.vlaanderen.be/ns/leercredential",
+    "https://www.w3.org/TR/owl-time/",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2001/XMLSchema"
+  ],
+  "authors": 1,
+  "editors": 1,
+  "contributors": 1,
+  "participants": 3,
+  "classes": 22,
+  "properties": 28,
+  "externalclasses": 11,
+  "externalproperties": 12,
+  "totalterms": 73,
+  "totalorganisations": 3,
+  "organisations": [
+    {
+      "affiliation": "medewerkeraffiliatie",
+      "participants": 1
+    },
+    {
+      "affiliation": "editoraffiliatie",
+      "participants": 1
+    },
+    {
+      "affiliation": "auteuraffiliatie",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "auteurvoornaamauteurnaam",
+        "affiliation": "auteuraffiliatie"
+      }
+    ],
+    "editors": [
+      {
+        "name": "editorvoornaameditornaam",
+        "affiliation": "editoraffiliatie"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "medewerkervoornaammedewerkernaam",
+        "affiliation": "medewerkeraffiliatie"
+      }
+    ],
+    "participants": [
+      {
+        "name": "medewerkervoornaammedewerkernaam",
+        "affiliation": "medewerkeraffiliatie"
+      },
+      {
+        "name": "editorvoornaameditornaam",
+        "affiliation": "editoraffiliatie"
+      },
+      {
+        "name": "auteurvoornaamauteurnaam",
+        "affiliation": "auteuraffiliatie"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Leermiddel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leermiddel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LeermiddelType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LeermiddelType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Doel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Doel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LeermiddelVerzameling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LeermiddelVerzameling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#FormaatType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "FormaatType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#DoelType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Doeltype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Onderwijsniveau",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Onderwijsniveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Licentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Licentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#OnderwerpType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OnderwerpType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#InteractieType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InteractieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#ResultaatType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ResultaatType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/LicentieType",
+        "label": [
+          {
+            "@value": "LicentieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Kost",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kost"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Competentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Competentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Referentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Referentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Doelgroep",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Doelgroep"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "LangString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {},
+      {}
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#auteursrechtJaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "auteursrechtJaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#versie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "versie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#publicatieDatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publicatieDatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#instructie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "instructie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#referentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#naam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#vereiste",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vereiste"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#benodigdMateriaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "benodigdMateriaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#sleutelwoord",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "sleutelwoord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#resultaatType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaatType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#gedefinieerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gedefinieerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#heeft",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leercredential#maaktGebruikVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "maaktGebruikVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#dient",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dient"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leercredential#draagtBijAanHetBehalenVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "draagtBijAanHetBehalenVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#gerelateerdAan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gerelateerdAan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#omvat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "omvat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leercredential#schrijftVoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "schrijftVoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leercredential#draagtBijAanHetBehalenVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "draagtBijAanHetBehalenVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#geproduceerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geproduceerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#gedeeldDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gedeeldDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#isSpecialisatieVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isSpecialisatieVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#isBrederDan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isBrederDan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#bestaatUit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestaatUit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#behoortTot",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "behoortTot"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/LearningActivity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leeractiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Doelgroep"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/LearningActivitySpecification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leeractiviteitspecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/CreativeWork",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "CreatiefWerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/TR/owl-time/#time:Duration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdsduur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/Claim",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leerclaim"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/Specification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leerspecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leeractiviteittype"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/contactHour",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contacturen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/startTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begin"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/hasPart",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft deel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/isPartOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/specifiedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "specificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/workload",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "workload"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/generalisationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "generalisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/hasPart",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft deel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/isPartOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/specialisationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "specialisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "medewerkeraffiliatie",
+        "names": [
+          {
+            "name": "medewerkervoornaammedewerkernaam",
+            "affiliation": "medewerkeraffiliatie"
+          }
+        ]
+      },
+      {
+        "affiliation": "editoraffiliatie",
+        "names": [
+          {
+            "name": "editorvoornaameditornaam",
+            "affiliation": "editoraffiliatie"
+          }
+        ]
+      },
+      {
+        "affiliation": "auteuraffiliatie",
+        "names": [
+          {
+            "name": "auteurvoornaamauteurnaam",
+            "affiliation": "auteuraffiliatie"
+          }
+        ]
+      }
+    ]
+  }
+}
