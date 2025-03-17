@@ -1,14 +1,14 @@
 {
   "title": "Vocabularium Overlijdensaangifte",
   "uri": "https://data.vlaanderen.be/doc/vocabularium/overlijdensaangifte/erkendestandaard/2024-12-05",
-  "issued": "2024-10-23",
+  "issued": "2024-12-05",
   "navigation": {
     "prev": "/doc/vocabularium/overlijdensaangifte/kandidaatstandaard/2024-10-23",
     "self": "https://data.vlaanderen.be/doc/vocabularium/overlijdensaangifte/erkendestandaard/2024-12-05"
   },
   "documenttype": "voc",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-  "statuslabel": "Kandidaat Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/persoon",
     "http://www.w3.org/ns/person",
@@ -47,11 +47,11 @@
   "editors": 9,
   "contributors": 32,
   "participants": 43,
-  "classes": 51,
-  "properties": 91,
-  "externalclasses": 76,
-  "externalproperties": 73,
-  "totalterms": 291,
+  "classes": 53,
+  "properties": 101,
+  "externalclasses": 71,
+  "externalproperties": 84,
+  "totalterms": 309,
   "totalorganisations": 22,
   "organisations": [
     {
@@ -639,10 +639,6 @@
           {
             "@language": "nl",
             "@value": "Gezondheidstoestand"
-          },
-          {
-            "@language": "nl",
-            "@value": "Gezondheidstoestand"
           }
         ]
       },
@@ -936,15 +932,9 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Gezondheidstoestand",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gezondheidstoestand"
-          }
-        ]
-      },
+      {},
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
         "label": [
@@ -1686,11 +1676,36 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/overlijdensaangifte#bepaalt",
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isRelatieMet",
         "label": [
           {
             "@language": "nl",
-            "@value": "bepaalt"
+            "@value": "heeft relatie met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
+        "label": [
+          {
+            "@value": "Persoon (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
+        "label": [
+          {
+            "@value": "Persoon (target)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftVerblijfplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft verblijfplaats"
           }
         ]
       },
@@ -1704,20 +1719,65 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/overlijdensaangifte#leidtTot",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#wordtGeobserveerdDoor",
         "label": [
           {
             "@language": "nl",
-            "@value": "leidt tot"
+            "@value": "wordt geobserveerd door"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/overlijdensaangifte#produceert",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#heeftZwangerschap",
         "label": [
           {
             "@language": "nl",
-            "@value": "produceert"
+            "@value": "heeft zwangerschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#heeftBevalling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft bevalling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#heeftFoetus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft foetus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#wordtGevoedDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wordt gevoed door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#ontstaatDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ontstaat door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#opgesteldDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opgesteld door"
           }
         ]
       },
@@ -1731,11 +1791,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/overlijdensaangifte#wordtGeorganiseerdDoor",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#heeftMedischeToestand",
         "label": [
           {
             "@language": "nl",
-            "@value": "wordt georganiseerd door"
+            "@value": "heeft gezondheidstoestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#vastgesteldDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vastgesteld door"
           }
         ]
       },
@@ -1749,20 +1818,29 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/overlijdensaangifte#volgtOp",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#heeftAssistentie",
         "label": [
           {
             "@language": "nl",
-            "@value": "volgt op"
+            "@value": "heeft assistentie"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/overlijdensaangifte#veroorzaakt",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#gedocumenteerdDoor",
         "label": [
           {
             "@language": "nl",
-            "@value": "veroorzaakt"
+            "@value": "gedocumenteerd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#volgtOp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volgt op"
           }
         ]
       },
@@ -1780,10 +1858,6 @@
       {
         "assignedURI": "http://www.w3.org/ns/person#Person",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoon"
-          },
           {
             "@language": "nl",
             "@value": "Persoon"
@@ -1814,10 +1888,6 @@
           {
             "@language": "nl",
             "@value": "Bewijs"
-          },
-          {
-            "@language": "nl",
-            "@value": "Bewijs"
           }
         ]
       },
@@ -1845,10 +1915,6 @@
           {
             "@language": "nl",
             "@value": "Zorgverlener"
-          },
-          {
-            "@language": "nl",
-            "@value": "Zorgverlener"
           }
         ]
       },
@@ -1867,10 +1933,6 @@
           {
             "@language": "nl",
             "@value": "Voedingsinname"
-          },
-          {
-            "@language": "nl",
-            "@value": "Voedingsinname"
           }
         ]
       },
@@ -1886,10 +1948,6 @@
       {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          },
           {
             "@language": "nl",
             "@value": "Agent"
@@ -2248,15 +2306,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/person#Person",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoon"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://todo.com/NatuurlijkeEntiteit",
         "label": [
           {
@@ -2265,46 +2314,10 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/m8g/Evidence",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Bewijs"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://hl7.org/fhir/practitioner-definitions.html#Practitioner",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Zorgverlener"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation",
         "label": [
           {
             "@value": "OSLO-Gezondheidstoestand::Observatiewaarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://www.hl7.org/fhir/nutritionintake-definitions.html#NutritionIntake",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Voedingsinname"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
@@ -3077,11 +3090,82 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/stoptOntwikkeling",
+        "assignedURI": "http://purl.org/vocab/cpsv#produces",
         "label": [
           {
             "@language": "nl",
-            "@value": "stopt ontwikkeling"
+            "@value": "produceert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#produces",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "produceert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/requires",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vereist"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/requires",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vereist"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/heeftInput",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft input"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/wordtBewezenDoor",
+        "label": [
+          {
+            "@value": "wordtBewezenDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/gevolgVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gevolg van"
           }
         ]
       },
@@ -3095,15 +3179,6 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/isInBezitVan",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "is in bezit van"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://todo.com/heeftInBezit",
         "label": [
           {
@@ -3113,20 +3188,56 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/opgesteldDoor",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "opgesteld door"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://todo.com/steltOp",
         "label": [
           {
             "@language": "nl",
             "@value": "stelt op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/komtVoortUit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "komt voort uit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/serviceProvider",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wordt uitgevoerd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/wordtBeeindigdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wordt beëindigd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/playsRole",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "speelt rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasParticipation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft participatie"
           }
         ]
       }
