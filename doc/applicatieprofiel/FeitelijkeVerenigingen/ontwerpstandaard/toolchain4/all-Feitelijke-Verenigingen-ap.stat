@@ -37,11 +37,11 @@
   "editors": 3,
   "contributors": 10,
   "participants": 17,
-  "classes": 11,
-  "properties": 22,
-  "externalclasses": 36,
+  "classes": 13,
+  "properties": 19,
+  "externalclasses": 32,
   "externalproperties": 53,
-  "totalterms": 122,
+  "totalterms": 117,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -326,6 +326,8 @@
           }
         ]
       },
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Hoedanigheid",
         "label": [
@@ -491,38 +493,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/FeitelijkeVerenigingen#dientIn",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "dientIn"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/FeitelijkeVerenigingen#vraagtAan",
         "label": [
           {
             "@language": "nl",
             "@value": "vraagtAan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/FeitelijkeVerenigingen#heeftLid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftLid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/FeitelijkeVerenigingen#heeftVertegenwoordiger",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftVertegenwoordiger"
           }
         ]
       },
@@ -561,10 +536,6 @@
           {
             "@language": "nl",
             "@value": "Formele Organisatie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Formele Organisatie"
           }
         ]
       },
@@ -574,20 +545,12 @@
           {
             "@language": "nl",
             "@value": "Organisatie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
           }
         ]
       },
       {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          },
           {
             "@language": "nl",
             "@value": "Agent"
@@ -723,10 +686,6 @@
           {
             "@language": "nl",
             "@value": "Persoon"
-          },
-          {
-            "@language": "nl",
-            "@value": "Persoon"
           }
         ]
       },
@@ -820,47 +779,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/org#FormalOrganization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Formele Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Organization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/org#ChangeEvent",
         "label": [
           {
             "@language": "nl",
             "@value": "Veranderingsgebeurtenis"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/person#Person",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoon"
           }
         ]
       },
@@ -1317,11 +1240,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "assignedURI": "http://www.w3.org/ns/org#hasSubOrganization",
         "label": [
           {
             "@language": "nl",
-            "@value": "isSuborganisatieVan"
+            "@value": "heeftSuborganisatie"
           }
         ]
       },
@@ -1330,7 +1253,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "heeftSuborganisatie"
+            "@value": "heeft suborganisatie"
           }
         ]
       },
@@ -1343,10 +1266,11 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/isGelinktAan",
+        "assignedURI": "http://data.europa.eu/m8g/hasCompetentAuthority",
         "label": [
           {
-            "@value": "isGelinktAan"
+            "@language": "nl",
+            "@value": "heeftVerantwoordelijke"
           }
         ]
       }

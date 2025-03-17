@@ -580,6 +580,8 @@
       }
     ]
   },
+  {},
+  {},
   {
     "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Hoedanigheid",
     "label": [
@@ -5589,11 +5591,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "Infrastructuurelement"
-      },
-      {
-        "@language": "nl",
-        "@value": "Infrastructuurelement"
+        "@value": "Materieel onderdeel van een infrastructuur."
       }
     ]
   },
@@ -5627,10 +5625,6 @@
   {
     "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsinfrastructuurobject",
     "label": [
-      {
-        "@language": "nl",
-        "@value": "Fietsinfrastructuurobject"
-      },
       {
         "@language": "nl",
         "@value": "Fietsinfrastructuurobject"
@@ -5694,10 +5688,6 @@
   {
     "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap",
     "label": [
-      {
-        "@language": "nl",
-        "@value": "Transporteigenschap"
-      },
       {
         "@language": "nl",
         "@value": "Transporteigenschap"
@@ -5930,6 +5920,15 @@
     ]
   },
   {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerstekenconcept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerstekenconcept"
+      }
+    ]
+  },
+  {
     "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
     "label": [
       {
@@ -5979,7 +5978,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "Transportllinkset"
+        "@value": "Transportlinkset"
       }
     ]
   },
@@ -6056,11 +6055,38 @@
     ]
   },
   {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersteken"
+      }
+    ]
+  },
+  {
     "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbord-Verkeersteken",
     "label": [
       {
         "@language": "nl",
         "@value": "Verkeersbord-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerslicht-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerslicht-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Wegmarkering-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegmarkering-Verkeersteken"
       }
     ]
   },
@@ -6088,20 +6114,12 @@
       {
         "@language": "nl",
         "@value": "Netwerkreferentie"
-      },
-      {
-        "@language": "nl",
-        "@value": "Netwerkreferentie"
       }
     ]
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linkreferentie",
     "label": [
-      {
-        "@language": "nl",
-        "@value": "Linkreferentie"
-      },
       {
         "@language": "nl",
         "@value": "Linkreferentie"
@@ -6163,6 +6181,14 @@
     ]
   },
   {
+    "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+    "label": [
+      {
+        "@value": "LangString"
+      }
+    ]
+  },
+  {
     "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
     "label": [
       {
@@ -6179,10 +6205,26 @@
     ]
   },
   {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "label": [
+      {
+        "@value": "Literal"
+      }
+    ]
+  },
+  {
     "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
     "label": [
       {
         "@value": "DateTime"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+    "label": [
+      {
+        "@value": "URI"
       }
     ]
   },
@@ -6194,12 +6236,191 @@
       }
     ]
   },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportobject",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportobject"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportknoop"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlink"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlinksequentie"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkelement",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkelement"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkeigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkeigenschap"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GeneriekeLink"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportllinkset"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegbreedte"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#RichtingVerkeer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "RichtingVerkeer"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersteken"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeersbord",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersbord"
+      }
+    ]
+  },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement",
     "label": [
       {
         "@language": "nl",
-        "@value": "Infrastructuurelement"
+        "@value": "Materieel onderdeel van een infrastructuur."
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsstalling"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#Vervoersknooppunt",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Vervoersknooppunt"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietstelpaal",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietstelpaal"
       }
     ]
   },
@@ -6209,6 +6430,312 @@
       {
         "@language": "nl",
         "@value": "Fietsinfrastructuurobject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsnetwerkelement",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsnetwerkelement"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsknoop",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsknoop"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietssegment",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietssegment"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#GeneriekeFietslink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GeneriekeFietslink"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietslinksequentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietslinksequentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsnetwerkeigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsnetwerkeigenschap"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transporteigenschap"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#OngelijkgrondseKruising",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "OngelijkgrondseKruising"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportnetwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportnetwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Snelheidsbeperking",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Toegestane snelheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsnetwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsnetwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietslinkset",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietslinkset"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsverharding",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsverharding"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkeigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkeigenschap"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsbuffer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsbuffer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Link",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Link"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsbreedte"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#RichtingFietsverkeer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "RichtingFietsverkeer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Luchtkwaliteit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Luchtkwaliteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Wegverlichting.Kader",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegverlichting"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Geluid",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Geluid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Landgebruik",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Landgebruik"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#FietsWinterdienst",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "FietsWinterdienst"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeerstype",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerstype"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VerkeerslichtVoetgangerFietser",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "VerkeerslichtVoetgangerFietser"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeersintensiteit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersintensiteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeersongeval",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersongeval"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietscomfort",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietscomfort"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Trillingen",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Trillingen"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeerstelling",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerstelling"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsinrichting",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsinrichting"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersbordconcept"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerstekenconcept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerstekenconcept"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerk"
       }
     ]
   },
@@ -6249,11 +6776,137 @@
     ]
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap",
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset",
     "label": [
       {
         "@language": "nl",
-        "@value": "Transporteigenschap"
+        "@value": "Transportlinkset"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkelement",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkelement"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GeneriekeLink"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegbreedte"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegverharding",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegverharding"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmarkering",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegmarkering"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeersdeelname",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersdeelname"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegsignalisatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsverkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsverkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbord-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersbord-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerslicht-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerslicht-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Wegmarkering-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegmarkering-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Rijrichting",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "RichtingVerkeer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#BruikbareFietsbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "BruikbareFietsbreedte"
       }
     ]
   },
@@ -6276,6 +6929,163 @@
     ]
   },
   {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Puntreferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Puntreferentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#LineaireReferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "LineaireReferentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#GerichteFietslink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GerichteFietslink"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "StandaardEenheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Onderhoud",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Onderhoud"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Waarde",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Waarde"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+    "label": [
+      {
+        "@value": "LangString"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+    "label": [
+      {
+        "@value": "Boolean"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+    "label": [
+      {
+        "@value": "String"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "label": [
+      {
+        "@value": "Literal"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "label": [
+      {
+        "@value": "DateTime"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+    "label": [
+      {
+        "@value": "URI"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+    "label": [
+      {
+        "@value": "Integer"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportobject",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportobject"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportknoop"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlink"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlinksequentie"
+      }
+    ]
+  },
+  {},
+  {},
+  {
     "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkelement",
     "label": [
       {
@@ -6284,6 +7094,7 @@
       }
     ]
   },
+  {},
   {
     "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
     "label": [
@@ -6302,6 +7113,7 @@
       }
     ]
   },
+  {},
   {
     "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
     "label": [
@@ -6311,12 +7123,484 @@
       }
     ]
   },
+  {},
   {
     "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset",
     "label": [
       {
         "@language": "nl",
         "@value": "Transportllinkset"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegbreedte"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#RichtingVerkeer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "RichtingVerkeer"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersteken"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeersbord",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersbord"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Materieel onderdeel van een infrastructuur."
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsstalling"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#Vervoersknooppunt",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Vervoersknooppunt"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietstelpaal",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietstelpaal"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsinfrastructuurobject",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsinfrastructuurobject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsnetwerkelement",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsnetwerkelement"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsknoop",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsknoop"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietssegment",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietssegment"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#GeneriekeFietslink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GeneriekeFietslink"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietslinksequentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietslinksequentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsnetwerkeigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsnetwerkeigenschap"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transporteigenschap"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#OngelijkgrondseKruising",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "OngelijkgrondseKruising"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportnetwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportnetwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Snelheidsbeperking",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Toegestane snelheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsnetwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsnetwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietslinkset",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietslinkset"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsverharding",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsverharding"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkeigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkeigenschap"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsbuffer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsbuffer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Link",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Link"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsbreedte"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#RichtingFietsverkeer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "RichtingFietsverkeer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Luchtkwaliteit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Luchtkwaliteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Wegverlichting.Kader",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegverlichting"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Geluid",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Geluid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Landgebruik",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Landgebruik"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#FietsWinterdienst",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "FietsWinterdienst"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeerstype",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerstype"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VerkeerslichtVoetgangerFietser",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "VerkeerslichtVoetgangerFietser"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeersintensiteit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersintensiteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeersongeval",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersongeval"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietscomfort",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietscomfort"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Trillingen",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Trillingen"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeerstelling",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerstelling"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsinrichting",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsinrichting"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersbordconcept"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerstekenconcept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerstekenconcept"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportobject",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportobject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportknoop"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlink"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlinksequentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlinkset"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkelement",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkelement"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GeneriekeLink"
       }
     ]
   },
@@ -6330,11 +7614,47 @@
     ]
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#RichtingVerkeer",
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegverharding",
     "label": [
       {
         "@language": "nl",
-        "@value": "RichtingVerkeer"
+        "@value": "Wegverharding"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmarkering",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegmarkering"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeersdeelname",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersdeelname"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegsignalisatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsverkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsverkeersteken"
       }
     ]
   },
@@ -6347,6 +7667,322 @@
       }
     ]
   },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbord-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersbord-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerslicht-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerslicht-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Wegmarkering-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegmarkering-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Rijrichting",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "RichtingVerkeer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#BruikbareFietsbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "BruikbareFietsbreedte"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkreferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkreferentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linkreferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Linkreferentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Puntreferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Puntreferentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#LineaireReferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "LineaireReferentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#GerichteFietslink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GerichteFietslink"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "StandaardEenheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Onderhoud",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Onderhoud"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Waarde",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Waarde"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+    "label": [
+      {
+        "@value": "LangString"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+    "label": [
+      {
+        "@value": "Boolean"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+    "label": [
+      {
+        "@value": "String"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "label": [
+      {
+        "@value": "Literal"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "label": [
+      {
+        "@value": "DateTime"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+    "label": [
+      {
+        "@value": "URI"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+    "label": [
+      {
+        "@value": "Integer"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportobject",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportobject"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportknoop"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlink"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlinksequentie"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkelement",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkelement"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkeigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkeigenschap"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GeneriekeLink"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportllinkset"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegbreedte"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#RichtingVerkeer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "RichtingVerkeer"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersteken"
+      }
+    ]
+  },
+  {},
   {
     "assignedURI": "https://data.vlaanderen.be/ns/financiele-rapportering#FinancieelRapport",
     "label": [
@@ -21800,6 +23436,8 @@
       }
     ]
   },
+  {},
+  {},
   {
     "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Hoedanigheid",
     "label": [
@@ -24999,11 +26637,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "Infrastructuurelement"
-      },
-      {
-        "@language": "nl",
-        "@value": "Infrastructuurelement"
+        "@value": "Materieel onderdeel van een infrastructuur."
       }
     ]
   },
@@ -25037,10 +26671,6 @@
   {
     "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsinfrastructuurobject",
     "label": [
-      {
-        "@language": "nl",
-        "@value": "Fietsinfrastructuurobject"
-      },
       {
         "@language": "nl",
         "@value": "Fietsinfrastructuurobject"
@@ -25104,10 +26734,6 @@
   {
     "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap",
     "label": [
-      {
-        "@language": "nl",
-        "@value": "Transporteigenschap"
-      },
       {
         "@language": "nl",
         "@value": "Transporteigenschap"
@@ -25340,6 +26966,15 @@
     ]
   },
   {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerstekenconcept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerstekenconcept"
+      }
+    ]
+  },
+  {
     "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
     "label": [
       {
@@ -25389,7 +27024,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "Transportllinkset"
+        "@value": "Transportlinkset"
       }
     ]
   },
@@ -25466,11 +27101,38 @@
     ]
   },
   {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersteken"
+      }
+    ]
+  },
+  {
     "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbord-Verkeersteken",
     "label": [
       {
         "@language": "nl",
         "@value": "Verkeersbord-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerslicht-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerslicht-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Wegmarkering-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegmarkering-Verkeersteken"
       }
     ]
   },
@@ -25498,20 +27160,12 @@
       {
         "@language": "nl",
         "@value": "Netwerkreferentie"
-      },
-      {
-        "@language": "nl",
-        "@value": "Netwerkreferentie"
       }
     ]
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linkreferentie",
     "label": [
-      {
-        "@language": "nl",
-        "@value": "Linkreferentie"
-      },
       {
         "@language": "nl",
         "@value": "Linkreferentie"
@@ -25573,6 +27227,14 @@
     ]
   },
   {
+    "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+    "label": [
+      {
+        "@value": "LangString"
+      }
+    ]
+  },
+  {
     "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
     "label": [
       {
@@ -25589,10 +27251,26 @@
     ]
   },
   {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "label": [
+      {
+        "@value": "Literal"
+      }
+    ]
+  },
+  {
     "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
     "label": [
       {
         "@value": "DateTime"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+    "label": [
+      {
+        "@value": "URI"
       }
     ]
   },
@@ -25604,12 +27282,191 @@
       }
     ]
   },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportobject",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportobject"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportknoop"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlink"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlinksequentie"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkelement",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkelement"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkeigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkeigenschap"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GeneriekeLink"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportllinkset"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegbreedte"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#RichtingVerkeer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "RichtingVerkeer"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersteken"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeersbord",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersbord"
+      }
+    ]
+  },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement",
     "label": [
       {
         "@language": "nl",
-        "@value": "Infrastructuurelement"
+        "@value": "Materieel onderdeel van een infrastructuur."
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsstalling"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#Vervoersknooppunt",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Vervoersknooppunt"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietstelpaal",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietstelpaal"
       }
     ]
   },
@@ -25619,6 +27476,312 @@
       {
         "@language": "nl",
         "@value": "Fietsinfrastructuurobject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsnetwerkelement",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsnetwerkelement"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsknoop",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsknoop"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietssegment",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietssegment"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#GeneriekeFietslink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GeneriekeFietslink"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietslinksequentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietslinksequentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsnetwerkeigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsnetwerkeigenschap"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transporteigenschap"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#OngelijkgrondseKruising",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "OngelijkgrondseKruising"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportnetwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportnetwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Snelheidsbeperking",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Toegestane snelheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsnetwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsnetwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietslinkset",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietslinkset"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsverharding",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsverharding"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkeigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkeigenschap"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsbuffer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsbuffer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Link",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Link"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsbreedte"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#RichtingFietsverkeer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "RichtingFietsverkeer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Luchtkwaliteit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Luchtkwaliteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Wegverlichting.Kader",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegverlichting"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Geluid",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Geluid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Landgebruik",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Landgebruik"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#FietsWinterdienst",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "FietsWinterdienst"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeerstype",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerstype"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VerkeerslichtVoetgangerFietser",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "VerkeerslichtVoetgangerFietser"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeersintensiteit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersintensiteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeersongeval",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersongeval"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietscomfort",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietscomfort"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Trillingen",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Trillingen"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeerstelling",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerstelling"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsinrichting",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsinrichting"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersbordconcept"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerstekenconcept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerstekenconcept"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerk"
       }
     ]
   },
@@ -25659,11 +27822,137 @@
     ]
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap",
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset",
     "label": [
       {
         "@language": "nl",
-        "@value": "Transporteigenschap"
+        "@value": "Transportlinkset"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkelement",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkelement"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GeneriekeLink"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegbreedte"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegverharding",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegverharding"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmarkering",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegmarkering"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeersdeelname",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersdeelname"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegsignalisatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsverkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsverkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbord-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersbord-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerslicht-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerslicht-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Wegmarkering-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegmarkering-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Rijrichting",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "RichtingVerkeer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#BruikbareFietsbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "BruikbareFietsbreedte"
       }
     ]
   },
@@ -25686,6 +27975,163 @@
     ]
   },
   {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Puntreferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Puntreferentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#LineaireReferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "LineaireReferentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#GerichteFietslink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GerichteFietslink"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "StandaardEenheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Onderhoud",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Onderhoud"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Waarde",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Waarde"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+    "label": [
+      {
+        "@value": "LangString"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+    "label": [
+      {
+        "@value": "Boolean"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+    "label": [
+      {
+        "@value": "String"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "label": [
+      {
+        "@value": "Literal"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "label": [
+      {
+        "@value": "DateTime"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+    "label": [
+      {
+        "@value": "URI"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+    "label": [
+      {
+        "@value": "Integer"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportobject",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportobject"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportknoop"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlink"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlinksequentie"
+      }
+    ]
+  },
+  {},
+  {},
+  {
     "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkelement",
     "label": [
       {
@@ -25694,6 +28140,7 @@
       }
     ]
   },
+  {},
   {
     "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
     "label": [
@@ -25712,6 +28159,7 @@
       }
     ]
   },
+  {},
   {
     "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
     "label": [
@@ -25721,12 +28169,484 @@
       }
     ]
   },
+  {},
   {
     "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset",
     "label": [
       {
         "@language": "nl",
         "@value": "Transportllinkset"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegbreedte"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#RichtingVerkeer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "RichtingVerkeer"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersteken"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeersbord",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersbord"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Materieel onderdeel van een infrastructuur."
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsstalling"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#Vervoersknooppunt",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Vervoersknooppunt"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietstelpaal",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietstelpaal"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsinfrastructuurobject",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsinfrastructuurobject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsnetwerkelement",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsnetwerkelement"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsknoop",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsknoop"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietssegment",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietssegment"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#GeneriekeFietslink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GeneriekeFietslink"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietslinksequentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietslinksequentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsnetwerkeigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsnetwerkeigenschap"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transporteigenschap"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#OngelijkgrondseKruising",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "OngelijkgrondseKruising"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportnetwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportnetwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Snelheidsbeperking",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Toegestane snelheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsnetwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsnetwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietslinkset",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietslinkset"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsverharding",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsverharding"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkeigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkeigenschap"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsbuffer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsbuffer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Link",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Link"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsbreedte"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#RichtingFietsverkeer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "RichtingFietsverkeer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Luchtkwaliteit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Luchtkwaliteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Wegverlichting.Kader",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegverlichting"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Geluid",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Geluid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Landgebruik",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Landgebruik"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#FietsWinterdienst",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "FietsWinterdienst"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeerstype",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerstype"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#VerkeerslichtVoetgangerFietser",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "VerkeerslichtVoetgangerFietser"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeersintensiteit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersintensiteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeersongeval",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersongeval"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietscomfort",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietscomfort"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Trillingen",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Trillingen"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeerstelling",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerstelling"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsinrichting",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsinrichting"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersbordconcept"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerstekenconcept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerstekenconcept"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportobject",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportobject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportknoop"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlink"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlinksequentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlinkset"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkelement",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkelement"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GeneriekeLink"
       }
     ]
   },
@@ -25740,11 +28660,47 @@
     ]
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#RichtingVerkeer",
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegverharding",
     "label": [
       {
         "@language": "nl",
-        "@value": "RichtingVerkeer"
+        "@value": "Wegverharding"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegmarkering",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegmarkering"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeersdeelname",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersdeelname"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Wegsignalisatie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegsignalisatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Fietsverkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Fietsverkeersteken"
       }
     ]
   },
@@ -25757,6 +28713,322 @@
       }
     ]
   },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbord-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersbord-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerslicht-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeerslicht-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Wegmarkering-Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegmarkering-Verkeersteken"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Rijrichting",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "RichtingVerkeer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#BruikbareFietsbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "BruikbareFietsbreedte"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkreferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkreferentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linkreferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Linkreferentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Puntreferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Puntreferentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#LineaireReferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "LineaireReferentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#GerichteFietslink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GerichteFietslink"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "StandaardEenheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Onderhoud",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Onderhoud"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/fiets#Waarde",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Waarde"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+    "label": [
+      {
+        "@value": "LangString"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+    "label": [
+      {
+        "@value": "Boolean"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+    "label": [
+      {
+        "@value": "String"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "label": [
+      {
+        "@value": "Literal"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "label": [
+      {
+        "@value": "DateTime"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+    "label": [
+      {
+        "@value": "URI"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+    "label": [
+      {
+        "@value": "Integer"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportobject",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportobject"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportknoop"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlink"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportlinksequentie"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkelement",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkelement"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkeigenschap",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Netwerkeigenschap"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "GeneriekeLink"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Transportllinkset"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegbreedte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Wegbreedte"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#RichtingVerkeer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "RichtingVerkeer"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Verkeersteken"
+      }
+    ]
+  },
+  {},
   {
     "assignedURI": "https://data.vlaanderen.be/ns/financiele-rapportering#FinancieelRapport",
     "label": [
@@ -26039,6 +29311,7 @@
       }
     ]
   },
+  {},
   {
     "assignedURI": "https://data.vlaanderen.be/ns/FeitelijkeVerenigingen#Vereniging",
     "label": [
@@ -26128,6 +29401,8 @@
       }
     ]
   },
+  {},
+  {},
   {
     "assignedURI": "https://data.vlaanderen.be/ns/financiele-rapportering#Context",
     "label": [
@@ -26176,10 +29451,6 @@
   {
     "assignedURI": "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject",
     "label": [
-      {
-        "@language": "nl",
-        "@value": "Adresseerbaar Object"
-      },
       {
         "@language": "nl",
         "@value": "Adresseerbaar Object"
@@ -26272,15 +29543,10 @@
       }
     ]
   },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/adres#AdresseerbaarObject",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Adresseerbaar Object"
-      }
-    ]
-  },
+  {},
+  {},
+  {},
+  {},
   {
     "assignedURI": "https://data.vlaanderen.be/ns/generiek#GeografischePositie",
     "label": [
