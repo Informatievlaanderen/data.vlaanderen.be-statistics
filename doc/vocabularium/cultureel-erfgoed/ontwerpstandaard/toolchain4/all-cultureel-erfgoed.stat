@@ -25,12 +25,12 @@
     "https://schema.org",
     "http://schema.org",
     "http://www.w3.org/ns/locn",
-    "https://wherever",
     "http://todo.com",
     "https://data.vlaanderen.be/ns/generiek",
     "http://www.w3.org/ns/prov",
     "http://id.loc.gov/datatypes/edtf",
     "http://www.w3.org/2001/XMLSchema",
+    "https://wherever",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2000/01/rdf-schema"
   ],
@@ -38,11 +38,11 @@
   "editors": 8,
   "contributors": 17,
   "participants": 26,
-  "classes": 7,
-  "properties": 3,
-  "externalclasses": 77,
-  "externalproperties": 173,
-  "totalterms": 260,
+  "classes": 14,
+  "properties": 4,
+  "externalclasses": 76,
+  "externalproperties": 154,
+  "totalterms": 248,
   "totalorganisations": 15,
   "organisations": [
     {
@@ -384,7 +384,14 @@
             "@value": "URI"
           }
         ]
-      }
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
     ],
     "properties": [
       {
@@ -410,6 +417,14 @@
         "label": [
           {
             "@value": "Rol.Activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.agent",
+        "label": [
+          {
+            "@value": "Rol.Agent"
           }
         ]
       }
@@ -517,10 +532,6 @@
       {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          },
           {
             "@language": "nl",
             "@value": "Agent"
@@ -1062,15 +1073,6 @@
         "label": [
           {
             "@value": "WettelijkObject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
@@ -2290,65 +2292,11 @@
         ]
       },
       {
-        "assignedURI": "https://wherever/TODO",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "is samengesteld uit"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
         "label": [
           {
             "@language": "nl",
             "@value": "bestaat uit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "maakt deel uit van"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bestaat uit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://wherever/TODO",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "wordt getoond op"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://wherever/TODO",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toont"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "onderworpen aan"
           }
         ]
       },
@@ -2362,38 +2310,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P128i_is_carried_by",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "drager"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P128_carries",
         "label": [
           {
             "@language": "nl",
             "@value": "draagt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://wherever/TODO",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "draagt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://wherever/TODO",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "drager"
           }
         ]
       },
@@ -2412,6 +2333,15 @@
           {
             "@language": "nl",
             "@value": "uitgaveregel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P75_possesses",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft"
           }
         ]
       },
@@ -2443,15 +2373,6 @@
         ]
       },
       {
-        "assignedURI": "https://www.iflastandards.info/fr/frbr/frbroo#R3i",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "realiseert"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://www.iflastandards.info/fr/frbr/frbroo#R3",
         "label": [
           {
@@ -2470,15 +2391,6 @@
         ]
       },
       {
-        "assignedURI": "https://www.iflastandards.info/fr/frbr/frbroo#R9i",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "realiseert"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://www.iflastandards.info/fr/frbr/frbroo#R9",
         "label": [
           {
@@ -2488,38 +2400,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P105i_has_right_on",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "oefent recht uit op"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P105_right_held_by",
         "label": [
           {
             "@language": "nl",
             "@value": "rechtenhouder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bestaat uit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "maakt deel uit van"
           }
         ]
       },
@@ -2542,15 +2427,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bestaat uit"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of",
         "label": [
           {
@@ -2560,29 +2436,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P128i_is_carried_by",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "drager"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P128_carries",
         "label": [
           {
             "@language": "nl",
             "@value": "draagt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/isPartOf",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "maakt deel uit van"
           }
         ]
       },
@@ -2623,15 +2481,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "is van toepassing op"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to",
         "label": [
           {
@@ -2641,28 +2490,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P14i_performed",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "voerde uit"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
         "label": [
           {
             "@language": "nl",
             "@value": "uitgevoerd door"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Rol.agent",
-        "label": [
-          {
-            "@value": "Rol.Agent"
           }
         ]
       }
