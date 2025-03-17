@@ -1,7 +1,7 @@
 {
   "title": "Applicatieprofiel Mobiliteitsbudget",
   "uri": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/toolchain4",
-  "issued": "2024-06-18",
+  "issued": "2025-02-06",
   "navigation": {
     "prev": "/doc/applicatieprofiel/mobiliteitsbudget/kandidaatstandaard/2024-06-18",
     "self": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteitsbudget/erkendestandaard/toolchain4"
@@ -34,11 +34,11 @@
   "editors": 10,
   "contributors": 5,
   "participants": 17,
-  "classes": 29,
-  "properties": 40,
-  "externalclasses": 32,
-  "externalproperties": 29,
-  "totalterms": 130,
+  "classes": 24,
+  "properties": 47,
+  "externalclasses": 30,
+  "externalproperties": 31,
+  "totalterms": 132,
   "totalorganisations": 7,
   "organisations": [
     {
@@ -392,11 +392,6 @@
           }
         ]
       },
-      {},
-      {},
-      {},
-      {},
-      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Pseudoniem",
         "label": [
@@ -715,15 +710,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteitsbudget#voorwaarde",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "voorwaarde"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteitsbudget#mobiliteitsbudget",
         "label": [
           {
@@ -733,11 +719,64 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteitsbudget#mobiliteitsdienst",
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#dienst",
         "label": [
           {
             "@language": "nl",
-            "@value": "consumptie"
+            "@value": "dienst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#omvat",
+        "label": [
+          {
+            "@value": "Omvat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger.isMedereizigerVan.target",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is medereiziger van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger.isMedereizigerVan.source",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is medereiziger van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vervoersbewijs",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vervoersbewijs"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vervoersbewijs",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vervoersbewijs"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#onderneemt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderneemt"
           }
         ]
       },
@@ -751,15 +790,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteitsbudget#mobiliteitsbudget",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "mobiliteitsbudget"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteitsbudget#consumptie",
         "label": [
           {
@@ -769,11 +799,27 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteitsbudget#mobiliteitsbudget",
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
         "label": [
           {
             "@language": "nl",
-            "@value": "mobiliteitsbudget"
+            "@value": "heeft relatie met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
+        "label": [
+          {
+            "@value": "Persoon (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
+        "label": [
+          {
+            "@value": "Persoon (target)"
           }
         ]
       },
@@ -783,6 +829,15 @@
           {
             "@language": "nl",
             "@value": "toegekendDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteitsbudget#mobiliteitsbudget",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "mobiliteitsbudget"
           }
         ]
       }
@@ -827,10 +882,6 @@
       {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          },
           {
             "@language": "nl",
             "@value": "Agent"
@@ -885,10 +936,6 @@
       {
         "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "TemporeleEntiteit"
-          },
           {
             "@language": "nl",
             "@value": "TemporeleEntiteit"
@@ -991,24 +1038,6 @@
           {
             "@language": "nl",
             "@value": "Document"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "TemporeleEntiteit"
           }
         ]
       },
@@ -1341,6 +1370,24 @@
           {
             "@language": "nl",
             "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/partOfTrip",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/partOfTrip",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
           }
         ]
       }

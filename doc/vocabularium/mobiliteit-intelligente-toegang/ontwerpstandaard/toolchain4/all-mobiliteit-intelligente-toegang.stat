@@ -26,6 +26,7 @@
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2006/time",
     "http://www.w3.org/ns/locn",
+    "http://vocab.belgif.be/ns/publicservice",
     "https://test.data.vlaanderen.be/ns/citerra",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
@@ -38,11 +39,11 @@
   "editors": 7,
   "contributors": 19,
   "participants": 28,
-  "classes": 19,
-  "properties": 16,
-  "externalclasses": 33,
-  "externalproperties": 24,
-  "totalterms": 92,
+  "classes": 25,
+  "properties": 17,
+  "externalclasses": 32,
+  "externalproperties": 33,
+  "totalterms": 107,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -423,10 +424,6 @@
           {
             "@language": "nl",
             "@value": "Stuk"
-          },
-          {
-            "@language": "nl",
-            "@value": "Stuk"
           }
         ]
       },
@@ -471,6 +468,7 @@
           }
         ]
       },
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Rechtshandeling",
         "label": [
@@ -487,6 +485,8 @@
           }
         ]
       },
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Recht",
         "label": [
@@ -495,15 +495,10 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/dossier#Stuk",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Stuk"
-          }
-        ]
-      },
+      {},
+      {},
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Rechtssubject",
         "label": [
@@ -597,11 +592,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#inhoud",
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#dossier",
         "label": [
           {
             "@language": "nl",
-            "@value": "inhoud"
+            "@value": "dossier"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#zaakhandeling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zaakhandeling"
           }
         ]
       },
@@ -615,20 +619,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#inhoud",
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#zaak",
         "label": [
           {
             "@language": "nl",
-            "@value": "inhoud"
+            "@value": "zaak"
           }
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/citerra#geconsumeerdIn",
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#zaak",
         "label": [
           {
             "@language": "nl",
-            "@value": "geconsumeerd in"
+            "@value": "zaak"
           }
         ]
       },
@@ -642,11 +646,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit-intelligente-toegang#toegang",
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#Dossier.bestaatUit",
         "label": [
           {
             "@language": "nl",
-            "@value": "toegang"
+            "@value": "bestaat uit"
           }
         ]
       },
@@ -838,10 +842,6 @@
           {
             "@language": "nl",
             "@value": "TemporeleEntiteit"
-          },
-          {
-            "@language": "nl",
-            "@value": "TemporeleEntiteit"
           }
         ]
       },
@@ -902,15 +902,6 @@
           {
             "@language": "nl",
             "@value": "Entity"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "TemporeleEntiteit"
           }
         ]
       },
@@ -1171,6 +1162,87 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasSupportingEvidence",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft ondersteunend bewijs"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft voorwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasEvidenceTypeList",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft bewijstypelijst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/specifiesEvidenceType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "specificieert bewijstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://vocab.belgif.be/ns/publicservice#isUsedAs",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikt als"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#produces",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "produceert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#produces",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "produceert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/isRequirementOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is voorwaarde van"
           }
         ]
       }
