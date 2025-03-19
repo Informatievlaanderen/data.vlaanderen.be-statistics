@@ -18,36 +18,37 @@
     "https://data.vlaanderen.be/ns/weg",
     "http://todo.com",
     "https://data.vlaanderen.be/ns/mobiliteit",
-    "https://fixme.com",
     "http://def.isotc211.org/iso19156/2011/Observation",
     "http://www.w3.org/ns/org",
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/ns/regorg",
     "https://saref.etsi.org/core",
+    "http://www.w3.org/2004/02/skos/core",
     "http://www.opengis.net/ont/geosparql",
     "https://schema.org",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/adms",
     "http://purl.org/dc/terms",
     "http://data.europa.eu/m8g",
+    "http://schema.org",
     "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/adres",
-    "http://schema.org",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "https://data.vlaanderen.be/ns/generiek",
     "http://www.w3.org/2000/01/rdf-schema",
-    "http://www.w3.org/2001/XMLSchema"
+    "http://www.w3.org/2001/XMLSchema",
+    "https://fixme.com",
+    "http://www.w3.org/2006/time"
   ],
   "authors": 1,
   "editors": 9,
   "contributors": 24,
   "participants": 34,
-  "classes": 113,
-  "properties": 86,
-  "externalclasses": 63,
-  "externalproperties": 47,
-  "totalterms": 309,
+  "classes": 121,
+  "properties": 79,
+  "externalclasses": 62,
+  "externalproperties": 53,
+  "totalterms": 315,
   "totalorganisations": 13,
   "organisations": [
     {
@@ -526,7 +527,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Toegestane snelheid"
+            "@value": "ToegestaneSnelheid"
           }
         ]
       },
@@ -729,6 +730,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerstekenconcept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeerstekenconcept"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
         "label": [
           {
@@ -778,7 +788,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Transportllinkset"
+            "@value": "Transportlinkset"
           }
         ]
       },
@@ -855,11 +865,38 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersteken"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbord-Verkeersteken",
         "label": [
           {
             "@language": "nl",
             "@value": "Verkeersbord-Verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerslicht-Verkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeerslicht-Verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Wegmarkering-Verkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegmarkering-Verkeersteken"
           }
         ]
       },
@@ -954,6 +991,14 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "LangString"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
         "label": [
           {
@@ -970,10 +1015,26 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
         "label": [
           {
             "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
           }
         ]
       },
@@ -1117,6 +1178,7 @@
       {},
       {},
       {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken",
         "label": [
@@ -1134,7 +1196,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "geografische naam"
+            "@value": "geografischeNaam"
           }
         ]
       },
@@ -1162,6 +1224,15 @@
           {
             "@language": "nl",
             "@value": "geografischeNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeerstelling.aantal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aantal"
           }
         ]
       },
@@ -1225,6 +1296,15 @@
           {
             "@language": "nl",
             "@value": "betekenis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeersongeval.aantal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aantal"
           }
         ]
       },
@@ -1391,6 +1471,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/fiets#breedte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "breedte"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/fiets#opgemetenDeel",
         "label": [
           {
@@ -1441,15 +1530,6 @@
           {
             "@language": "nl",
             "@value": "richting"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeerstelling.aantal",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aantal"
           }
         ]
       },
@@ -1571,15 +1651,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/fiets#waarde",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "waarde"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/fiets#telmethode",
         "label": [
           {
@@ -1661,15 +1732,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeersongeval.aantal",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aantal"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/fiets#Verkeersdeelname.voertuigtype",
         "label": [
           {
@@ -1724,7 +1786,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/fiets#concept",
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken.concept",
         "label": [
           {
             "@language": "nl",
@@ -1823,15 +1885,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/fiets#fietsinfrastructuurobject",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "fietsinfrastructuurobject"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/fiets#fietsnetwerkelement",
         "label": [
           {
@@ -1841,65 +1894,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkreferentie.element",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "element"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#inNetwerk",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "netwerk"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/fiets#fietsnetwerk",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "fietsnetwerk"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/fiets#element",
         "label": [
           {
             "@language": "nl",
             "@value": "element"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#beginknoop",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vertrekknoop"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linkset.link",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "link"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#eindknoop",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aankomstknoop"
           }
         ]
       }
@@ -1920,15 +1919,6 @@
           {
             "@language": "nl",
             "@value": "Weginrichting"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://fixme.com/",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Verkeerstekenconcept"
           }
         ]
       },
@@ -1978,33 +1968,6 @@
         ]
       },
       {
-        "assignedURI": "https://fixme.com/",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Verkeersteken"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://fixme.com/",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Verkeerslicht-Verkeersteken"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://fixme.com/",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Wegmarkering-Verkeersteken"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://todo.com/Verkeer",
         "label": [
           {
@@ -2041,20 +2004,20 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Code"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/Distance",
         "label": [
           {
             "@language": "nl",
             "@value": "Lengte"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/QuantitativeValue",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "KwantitatieveWaarde"
           }
         ]
       },
@@ -2113,6 +2076,15 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwantitatieveWaarde"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
         "label": [
           {
@@ -2167,15 +2139,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Code"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://todo.com/Wegsignalisatie",
         "label": [
           {
@@ -2197,6 +2160,15 @@
           {
             "@language": "nl",
             "@value": "Verkeer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwantitatieveWaarde"
           }
         ]
       },
@@ -2266,6 +2238,15 @@
         "label": [
           {
             "@language": "nl",
+            "@value": "Fietslinksequentietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
             "@value": "Transporttype"
           }
         ]
@@ -2298,10 +2279,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "assignedURI": "https://fixme.com/",
         "label": [
           {
-            "@value": "BufferzoneType"
+            "@language": "nl",
+            "@value": "BuferzoneType"
           }
         ]
       },
@@ -2310,7 +2292,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "GeluidsBron"
+            "@value": "Geluidsbrontype"
           }
         ]
       },
@@ -2359,6 +2341,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
@@ -2399,7 +2390,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Verkeerstypewaarde"
+            "@value": "Verkeerstype"
           }
         ]
       },
@@ -2541,6 +2532,51 @@
         ]
       },
       {
+        "assignedURI": "http://xmlns.com/foaf/0.1/name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/email",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "email"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/telephone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telefoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/faxNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fax"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/page",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "website"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
         "label": [
           {
@@ -2568,6 +2604,33 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/date",
         "label": [
           {
@@ -2586,11 +2649,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "assignedURI": "https://schema.org/value",
         "label": [
           {
             "@language": "nl",
-            "@value": "voorkeursnaam"
+            "@value": "waarde"
           }
         ]
       },
@@ -2604,6 +2667,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeurslabel"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/locn#postCode",
         "label": [
           {
@@ -2613,6 +2685,24 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "intensiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/adms#identifier",
         "label": [
           {
@@ -2663,15 +2753,6 @@
           {
             "@language": "nl",
             "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://fixme.com/",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "breedte"
           }
         ]
       },
@@ -2748,15 +2829,6 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/value",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "waarde"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
@@ -2780,24 +2852,6 @@
           {
             "@language": "nl",
             "@value": "identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/value",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "waarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/value",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "waarde"
           }
         ]
       },
@@ -2851,7 +2905,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "contactinfo"
+            "@value": "contactpunt"
           }
         ]
       },
@@ -2870,15 +2924,6 @@
           {
             "@language": "nl",
             "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/value",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "intensiteit"
           }
         ]
       },
