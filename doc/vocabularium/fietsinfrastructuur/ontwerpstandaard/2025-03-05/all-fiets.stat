@@ -24,32 +24,32 @@
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/ns/regorg",
     "https://saref.etsi.org/core",
+    "https://data.vlaanderen.be/ns/adres",
+    "https://qudt.org/schema/qudt",
     "http://www.w3.org/2004/02/skos/core",
     "http://www.opengis.net/ont/geosparql",
-    "https://schema.org",
     "http://www.w3.org/ns/adms",
     "http://purl.org/dc/terms",
-    "http://data.europa.eu/m8g",
+    "http://ww.w3.org/2006/vcard/ns",
     "http://schema.org",
     "http://www.w3.org/ns/locn",
-    "https://data.vlaanderen.be/ns/adres",
+    "https://schema.org",
+    "http://www.w3.org/2006/time",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "https://data.vlaanderen.be/ns/generiek",
-    "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2001/XMLSchema",
-    "https://fixme.com",
-    "http://www.w3.org/2006/time"
+    "http://www.w3.org/2000/01/rdf-schema",
+    "https://fixme.com"
   ],
   "authors": 1,
   "editors": 9,
   "contributors": 24,
   "participants": 34,
-  "classes": 121,
-  "properties": 83,
+  "classes": 123,
+  "properties": 87,
   "externalclasses": 62,
-  "externalproperties": 52,
-  "totalterms": 318,
+  "externalproperties": 53,
+  "totalterms": 325,
   "totalorganisations": 13,
   "organisations": [
     {
@@ -402,7 +402,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Materieel onderdeel van een infrastructuur."
+            "@value": "Infrastructuurelement"
           }
         ]
       },
@@ -528,7 +528,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Toegestane snelheid"
+            "@value": "ToegestaneSnelheid"
           }
         ]
       },
@@ -920,6 +920,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adres"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkreferentie",
         "label": [
           {
@@ -965,29 +974,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "StandaardEenheid"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/fiets#Onderhoud",
         "label": [
           {
             "@language": "nl",
             "@value": "Onderhoud"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/fiets#Waarde",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Waarde"
           }
         ]
       },
@@ -1008,18 +999,18 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
-        "label": [
-          {
-            "@value": "String"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
         "label": [
           {
             "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
           }
         ]
       },
@@ -1189,7 +1180,18 @@
           }
         ]
       },
-      {}
+      {},
+      {},
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/fiets#Waarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Waarde"
+          }
+        ]
+      }
     ],
     "properties": [
       {
@@ -1342,14 +1344,6 @@
           {
             "@language": "nl",
             "@value": "land"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/fiets#type",
-        "label": [
-          {
-            "@value": "type"
           }
         ]
       },
@@ -1583,7 +1577,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Links die ongelijkgronds kruisen."
+            "@value": "kruisingVan"
           }
         ]
       },
@@ -1894,6 +1888,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/fiets#fietsinfrastructuurobject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fietsinfrastructuurobject"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/fiets#fietsnetwerkelement",
         "label": [
           {
@@ -1903,11 +1906,29 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkreferentie.element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "element"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#inNetwerk",
         "label": [
           {
             "@language": "nl",
             "@value": "netwerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/fiets#fietsnetwerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fietsnetwerk"
           }
         ]
       },
@@ -1930,11 +1951,29 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linkset.link",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "link"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#eindknoop",
         "label": [
           {
             "@language": "nl",
             "@value": "aankomstknoop"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#verwijstNaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwijst naar"
           }
         ]
       }
@@ -2040,11 +2079,20 @@
         ]
       },
       {
+        "assignedURI": "https://qudt.org/schema/qudt/Unit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Eenheid"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Code"
+            "@value": "Concept"
           }
         ]
       },
@@ -2058,11 +2106,11 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "assignedURI": "https://schema.org/QuantitativeValue",
         "label": [
           {
             "@language": "nl",
-            "@value": "Periode"
+            "@value": "KwantitatieveWaarde"
           }
         ]
       },
@@ -2094,56 +2142,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geografische Naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/Number",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Getal"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/QuantitativeValue",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "KwantitatieveWaarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Getypeerde String"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/adms#Identifier",
         "label": [
           {
             "@language": "nl",
             "@value": "Identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Taalstring"
           }
         ]
       },
@@ -2175,6 +2178,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://todo.com/Wegsignalisatie",
         "label": [
           {
@@ -2196,15 +2217,6 @@
           {
             "@language": "nl",
             "@value": "Verkeer"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/QuantitativeValue",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "KwantitatieveWaarde"
           }
         ]
       },
@@ -2266,6 +2278,15 @@
         "label": [
           {
             "@value": "Parkeerfaciliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
           }
         ]
       },
@@ -2341,6 +2362,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
           {
@@ -2359,6 +2389,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalstring"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
@@ -2373,15 +2412,6 @@
           {
             "@language": "nl",
             "@value": "Wegmarkeringstype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Periode"
           }
         ]
       },
@@ -2445,6 +2475,15 @@
           {
             "@language": "nl",
             "@value": "Telmethode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Code"
           }
         ]
       },
@@ -2514,15 +2553,6 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/unitText",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eenheid"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
         "label": [
           {
@@ -2550,20 +2580,11 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/m8g/startTime",
+        "assignedURI": "http://ww.w3.org/2006/vcard/ns#honorific-prefix",
         "label": [
           {
             "@language": "nl",
-            "@value": "begin"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/endTime",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "einde"
+            "@value": "aanschrijfvorm"
           }
         ]
       },
@@ -2694,6 +2715,24 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "in XSD datumTijd"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
         "label": [
           {
@@ -2730,6 +2769,15 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/adms#identifier",
         "label": [
           {
@@ -2780,24 +2828,6 @@
           {
             "@language": "nl",
             "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/value",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "waarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/unitCode",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "standaard eenheid"
           }
         ]
       },
@@ -2842,7 +2872,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Vorm -en of positiekenmerken van het element."
+            "@value": "geometrie"
           }
         ]
       },
@@ -2851,7 +2881,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "De periode waarin het element beschikbaar is."
+            "@value": "geldigheidsperiode"
           }
         ]
       },
@@ -2897,6 +2927,24 @@
           {
             "@language": "nl",
             "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "van"
           }
         ]
       },
