@@ -1,7 +1,7 @@
 {
   "title": "Generiek Basis",
   "uri": "https://data.test-vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpstandaard/toolchain4",
-  "issued": "04-10-2018",
+  "issued": "01-07-2019",
   "navigation": {
     "prev": "/doc/applicatieprofiel/generiek-basis/zonderstatus/2019-07-01",
     "self": "https://data.test-vlaanderen.be/doc/applicatieprofiel/generiek-basis/ontwerpstandaard/toolchain4"
@@ -16,31 +16,31 @@
     "http://purl.org/vocab/cpsv",
     "https://data.vlaanderen.be/ns/generiek",
     "http://xmlns.com/foaf/0.1",
+    "http://www.w3.org/ns/person",
+    "https://schema.org",
     "http://www.w3.org/ns/org",
     "https://data.vlaanderen.be/ns/organisatie",
-    "http://www.w3.org/ns/person",
+    "http://data.europa.eu/m8g",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2006/vcard/ns",
     "http://schema.org",
     "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/ns/locn",
-    "http://data.europa.eu/m8g",
     "http://data.europa.eu/eli/ontology",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.opengis.net/ont/sf",
-    "http://www.w3.org/2001/XMLSchema",
-    "https://schema.org"
+    "http://www.w3.org/2001/XMLSchema"
   ],
   "authors": 15,
   "editors": 2,
   "contributors": 9,
   "participants": 26,
-  "classes": 16,
-  "properties": 17,
-  "externalclasses": 38,
-  "externalproperties": 39,
-  "totalterms": 110,
+  "classes": 20,
+  "properties": 19,
+  "externalclasses": 43,
+  "externalproperties": 62,
+  "totalterms": 144,
   "totalorganisations": 10,
   "organisations": [
     {
@@ -376,6 +376,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Standaard Eenheid"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator",
         "label": [
           {
@@ -430,6 +439,30 @@
         "label": [
           {
             "@value": "Integer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+        "label": [
+          {
+            "@value": "Date"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#time",
+        "label": [
+          {
+            "@value": "Time"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#duration",
+        "label": [
+          {
+            "@value": "Duration"
           }
         ]
       },
@@ -522,20 +555,29 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#duur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "duur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#perSetpositie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "per setpositie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/generiek#plaats",
         "label": [
           {
             "@language": "nl",
             "@value": "plaats"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#methode",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "methode"
           }
         ]
       },
@@ -549,7 +591,16 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#gestructureerdedentificator",
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#methode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "methode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#gestructureerdeIdentificator",
         "label": [
           {
             "@language": "nl",
@@ -707,6 +758,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
@@ -739,20 +799,20 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/Event",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebeurtenis"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/org#Organization",
         "label": [
           {
             "@language": "nl",
             "@value": "Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/person#Person",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoon"
           }
         ]
       },
@@ -780,6 +840,15 @@
           {
             "@language": "nl",
             "@value": "Taalstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
           }
         ]
       },
@@ -838,6 +907,15 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwantitatieve Waarde"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.opengis.net/ont/sf#LineString",
         "label": [
           {
@@ -892,11 +970,29 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/Number",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getal"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/prov#Activity",
         "label": [
           {
             "@language": "nl",
             "@value": "Herkomstactiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Schedule",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdschema"
           }
         ]
       },
@@ -933,6 +1029,24 @@
           {
             "@language": "nl",
             "@value": "tijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/startTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begin"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einde"
           }
         ]
       },
@@ -991,15 +1105,6 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/openingHours",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "openingsuren"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://xmlns.com/foaf/0.1/page",
         "label": [
           {
@@ -1009,11 +1114,11 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/description",
+        "assignedURI": "http://schema.org/openingHours",
         "label": [
           {
             "@language": "nl",
-            "@value": "beschrijving"
+            "@value": "openingsuren"
           }
         ]
       },
@@ -1027,11 +1132,38 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitText",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/prov#atTime",
         "label": [
           {
             "@language": "nl",
             "@value": "tijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
           }
         ]
       },
@@ -1045,11 +1177,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
         "label": [
           {
             "@language": "nl",
-            "@value": "wkt"
+            "@value": "identificator"
           }
         ]
       },
@@ -1072,11 +1204,155 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "assignedURI": "https://schema.org/byDay",
         "label": [
           {
             "@language": "nl",
-            "@value": "identificator"
+            "@value": "per dag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/byMonth",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "per maand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/byMonthDay",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "per dag van de maand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/exceptDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitzonderingsdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/repeatFrequency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "frequentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/endDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einddatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/repeatCount",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aantal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eindtijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/startDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "startdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/startTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "starttijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/startDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begindatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/endDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einddatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/startTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begintijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eindtijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/duration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "duur"
           }
         ]
       },
@@ -1108,24 +1384,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/locn#address",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "adres"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://schema.org/hoursAvailable",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschikbaarheid"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://schema.org/telephone",
         "label": [
           {
@@ -1135,11 +1393,20 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/m8g/subject",
+        "assignedURI": "http://www.w3.org/ns/locn#address",
         "label": [
           {
             "@language": "nl",
-            "@value": "onderwerp"
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "taal"
           }
         ]
       },
@@ -1153,11 +1420,11 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/eli/ontology#language",
+        "assignedURI": "http://data.europa.eu/m8g/subject",
         "label": [
           {
             "@language": "nl",
-            "@value": "taal"
+            "@value": "onderwerp"
           }
         ]
       },
@@ -1185,6 +1452,24 @@
           {
             "@language": "nl",
             "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaard eenheid"
           }
         ]
       },
@@ -1243,20 +1528,38 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/prov#used",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "applicatie"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/prov#wasAssociatedWith",
         "label": [
           {
             "@language": "nl",
             "@value": "operator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/eventSchedule",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdschema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/hoursAvailable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#used",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "applicatie"
           }
         ]
       },
