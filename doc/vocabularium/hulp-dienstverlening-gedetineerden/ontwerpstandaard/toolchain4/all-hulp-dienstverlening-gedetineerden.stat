@@ -19,28 +19,27 @@
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/cultuurparticipatie",
     "https://data.vlaanderen.be/ns/cultuurparticipatie/",
-    "https://www.w3.org/2004/02/skos/core",
     "http://www.cidoc-crm.org/cidoc-crm",
     "https://data.vlaanderen.be/ns/generiek",
     "http://qudt.org/schema/qudt",
     "https://test.data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden",
     "http://www.w3.org/ns/adms",
-    "http://purl.org/cerif/frapo",
     "https://www.w3.org/ns/prov",
+    "http://todo.com",
+    "http://cidoc-crm.org/cidoc-crm",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
-    "https://www.w3.org/2000/01/rdf-schema",
-    "http://xmlns.com/foaf/0.1"
+    "https://www.w3.org/2000/01/rdf-schema"
   ],
   "authors": 7,
   "editors": 4,
   "contributors": 27,
   "participants": 38,
-  "classes": 35,
-  "properties": 43,
-  "externalclasses": 33,
-  "externalproperties": 31,
-  "totalterms": 142,
+  "classes": 39,
+  "properties": 44,
+  "externalclasses": 32,
+  "externalproperties": 38,
+  "totalterms": 153,
   "totalorganisations": 17,
   "organisations": [
     {
@@ -455,20 +454,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Kenmerk",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Populatiekenmerk",
         "label": [
           {
             "@language": "nl",
-            "@value": "Kenmerk"
+            "@value": "Populatiekenmerk"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#VTEGebruik",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#VoltijdsequivalentGebruik",
         "label": [
           {
             "@language": "nl",
-            "@value": "VTE Gebruik"
+            "@value": "Voltijdsequivalent Gebruik"
           }
         ]
       },
@@ -509,7 +508,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie/#Realisator",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisator",
         "label": [
           {
             "@language": "nl",
@@ -558,7 +557,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "IndividueelAanbod"
+            "@value": "Individueel Aanbod"
           }
         ]
       },
@@ -581,29 +580,47 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Fractiewaarde",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Doelgroepkenmerk",
         "label": [
           {
             "@language": "nl",
-            "@value": "Fractiewaarde"
+            "@value": "Doelgroepkenmerk"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#EnkeleWaarde",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#PopulatieFractiewaarde",
         "label": [
           {
             "@language": "nl",
-            "@value": "Enkele Waarde"
+            "@value": "Populatie Fractiewaarde"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Activiteitsstatus",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#PopulatieWaarde",
         "label": [
           {
             "@language": "nl",
-            "@value": "Activiteitsstatus"
+            "@value": "Populatie Waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#PopulatieEnkeleWaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Populatie Enkele Waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Activiteitstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Activiteitstatus"
           }
         ]
       },
@@ -675,6 +692,16 @@
       },
       {},
       {},
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Fractiewaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fractiewaarde"
+          }
+        ]
+      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Double",
         "label": [
@@ -703,7 +730,7 @@
     ],
     "properties": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#aantalAanmeldingen",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Aanbod.aantalAanmeldingen",
         "label": [
           {
             "@language": "nl",
@@ -712,16 +739,16 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#aantalDeelnames",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Activiteit.aantalDeelnemers",
         "label": [
           {
             "@language": "nl",
-            "@value": "aantal deelnames"
+            "@value": "aantal deelnemers"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#VTEGebruik.aantalPersonen",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#VoltijdsequivalentGebruik.aantalPersonen",
         "label": [
           {
             "@language": "nl",
@@ -739,15 +766,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#effectievePopulatie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "effectieve populatie"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/generiek#perSetpositie",
         "label": [
           {
@@ -757,7 +775,16 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#aantalInschrijvingen",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Populatie.aantalGedetineerden",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aantal gedetineerden"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Activiteit.aantalInschrijvingen",
         "label": [
           {
             "@language": "nl",
@@ -766,16 +793,16 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#maxAantalDeelnemers",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Activiteit.maxAantalDeelnemers",
         "label": [
           {
             "@language": "nl",
-            "@value": "maximaal aantal deelnemers"
+            "@value": "maximum aantal deelnemers"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#minAantalDeelnemers",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Activiteit.minAantalDeelnemers",
         "label": [
           {
             "@language": "nl",
@@ -784,25 +811,25 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#beleidsdomein",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Realisator.beleidsveld",
         "label": [
           {
             "@language": "nl",
-            "@value": "beleidsdomein"
+            "@value": "realisator beleidsveld"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#VTEGebruik.aantalVTE",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#VoltijdsequivalentGebruik.aantalVoltijdsequivalenten",
         "label": [
           {
             "@language": "nl",
-            "@value": "aantal VTE's"
+            "@value": "aantal voltijdsequivalenten"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Kenmerk.waarde",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#PopulatieWaarde.waarde",
         "label": [
           {
             "@language": "nl",
@@ -820,47 +847,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#beleidsdomein",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Financieringsbron.beleidsveld",
         "label": [
           {
             "@language": "nl",
-            "@value": "beleidsdomein"
+            "@value": "financieringsbron beleidsveld"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#karakter",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Financiering.financieringskarakter",
         "label": [
           {
             "@language": "nl",
-            "@value": "karakter"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.beschrijving",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschrijving"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.naam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisator.naam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naam"
+            "@value": "financieringskarakter"
           }
         ]
       },
@@ -883,61 +883,16 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Fractiewaarde.waarde",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Doelgroepkenmerk.waarde",
         "label": [
           {
             "@language": "nl",
-            "@value": "waarde"
+            "@value": "doelgroepkenmerk waarde"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#bovengrens",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bovengrens"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#ondergrens",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ondergrens"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#EnkeleWaarde.waarde",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "waarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Doelgroep.kenmerk",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "kenmerk"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Populatie.kenmerk",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "kenmerk"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Activiteitsstatus.reden",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Activiteitstatus.reden",
         "label": [
           {
             "@language": "nl",
@@ -946,7 +901,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#kenmerkwaarde",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#PopulatieEnkeleWaarde.kenmerkwaarde",
         "label": [
           {
             "@language": "nl",
@@ -955,11 +910,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#beleidsdomein",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Aanbod.beleidsdomein",
         "label": [
           {
             "@language": "nl",
-            "@value": "beleidsdomein"
+            "@value": "aanbod beleidsdomein"
           }
         ]
       },
@@ -1018,11 +973,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#geplandeVTE",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#financiert",
         "label": [
           {
             "@language": "nl",
-            "@value": "geplande VTE"
+            "@value": "financiert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.subinfrastructuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "subinfrastructuur"
           }
         ]
       },
@@ -1036,11 +1000,56 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.faciliteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "faciliteit"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#gefinancierdDoor",
         "label": [
           {
             "@language": "nl",
             "@value": "gefinancierd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#Realisatie.geplandVoltijdsEquivalent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gepland voltijdsequivalent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#populatiekenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "populatiekenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#doelgroepkenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "doelgroepkenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://test.data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#populatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "populatie"
           }
         ]
       },
@@ -1054,11 +1063,19 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#fractiewaarde",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#populatie",
         "label": [
           {
             "@language": "nl",
-            "@value": "fractiewaarde"
+            "@value": "populatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://test.data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#vervangt",
+        "label": [
+          {
+            "@value": "vervangt"
           }
         ]
       },
@@ -1071,6 +1088,14 @@
         ]
       },
       {
+        "assignedURI": "https://test.data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#superActiviteit",
+        "label": [
+          {
+            "@value": "superActiviteit"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://test.data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#subActiviteit",
         "label": [
           {
@@ -1079,11 +1104,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#enkeleWaarde",
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#populatieFractiewaarde",
         "label": [
           {
             "@language": "nl",
-            "@value": "enkele waarde"
+            "@value": "populatie fractiewaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/hulp-dienstverlening-gedetineerden#populatieEnkeleWaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "populatie enkele waarde"
           }
         ]
       }
@@ -1130,7 +1164,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "ActiviteitStatus"
+            "@value": "Activiteitstatustype"
           }
         ]
       },
@@ -1175,7 +1209,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "VTEType"
+            "@value": "Voltijdsequivalenttype"
           }
         ]
       },
@@ -1184,7 +1218,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Beleidsdomein"
+            "@value": "Beleidsveld"
           }
         ]
       },
@@ -1220,7 +1254,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Activiteitsstatusreden"
+            "@value": "Activiteitstatusreden"
           }
         ]
       },
@@ -1261,7 +1295,7 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/2004/02/skos/core#Concept",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
@@ -1346,15 +1380,6 @@
           {
             "@language": "nl",
             "@value": "Resource"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://xmlns.com/foaf/0.1/Document",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Document"
           }
         ]
       },
@@ -1523,15 +1548,6 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/description",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschrijving"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
@@ -1586,6 +1602,15 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/adms#status",
         "label": [
           {
@@ -1613,11 +1638,20 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/cerif/frapo/funds",
+        "assignedURI": "https://schema.org/funder",
         "label": [
           {
             "@language": "nl",
-            "@value": "financiert"
+            "@value": "gefinancierd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasAssociateFor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "realisatie"
           }
         ]
       },
@@ -1631,11 +1665,29 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/fundedItem",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "financiert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#qualifiedUsingActivity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "realisatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/prov#qualifiedUsage",
         "label": [
           {
             "@language": "nl",
-            "@value": "gebruikte VTE"
+            "@value": "gebruikt voltijdsequivalent"
           }
         ]
       },
@@ -1649,11 +1701,46 @@
         ]
       },
       {
+        "assignedURI": "http://todo.com/doelgroep",
+        "label": [
+          {
+            "@value": "doelgroep"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasInfluencedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beïnvloed door"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/prov#influenced",
         "label": [
           {
             "@language": "nl",
             "@value": "beïnvloedt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://cidoc-crm.org/cidoc-crm/P14_carried_out_by",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gerealiseerd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#atLocation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "infrastructuur"
           }
         ]
       },
