@@ -24,8 +24,8 @@
     "http://www.w3.org/ns/adms",
     "https://data.vlaanderen.be/ns/organisatie",
     "http://www.w3.org/ns/prov",
-    "https://data.vlaanderen.be/ns/generiek",
     "http://todo.com",
+    "https://data.vlaanderen.be/ns/generiek",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/ns/org",
     "http://www.w3.org/2000/01/rdf-schema",
@@ -35,11 +35,11 @@
   "editors": 1,
   "contributors": 17,
   "participants": 19,
-  "classes": 16,
+  "classes": 25,
   "properties": 43,
-  "externalclasses": 26,
-  "externalproperties": 92,
-  "totalterms": 177,
+  "externalclasses": 25,
+  "externalproperties": 94,
+  "totalterms": 187,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -385,6 +385,13 @@
           }
         ]
       },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/generiek#Versie",
         "label": [
@@ -393,7 +400,9 @@
             "@value": "Versie"
           }
         ]
-      }
+      },
+      {},
+      {}
     ],
     "properties": [
       {
@@ -586,6 +595,24 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres.verwijstNaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwijst naar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.verwijstNaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwijst naar"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/logies#ToeristischeRegio.behoortTotToeristischeRegio",
         "label": [
           {
@@ -654,22 +681,6 @@
           {
             "@language": "nl",
             "@value": "heeft registratie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/logies#Logies.heeftSuborganisatie.target",
-        "label": [
-          {
-            "@value": "heeftSuborganisatie (target)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/logies#Logies.heeftSuborganisatie.source",
-        "label": [
-          {
-            "@value": "heeftSuborganisatie (source)"
           }
         ]
       },
@@ -870,10 +881,6 @@
           {
             "@language": "nl",
             "@value": "Geometrie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
           }
         ]
       },
@@ -883,15 +890,6 @@
           {
             "@language": "nl",
             "@value": "Kwantitatieve waarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
           }
         ]
       },
@@ -1686,6 +1684,24 @@
           {
             "@language": "nl",
             "@value": "heeft officiële beoordeling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Logies.heeftUitbater",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft uitbater"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Agent.heeftUitbater",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft uitbater"
           }
         ]
       },
