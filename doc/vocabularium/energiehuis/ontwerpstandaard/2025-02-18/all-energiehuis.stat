@@ -1,14 +1,14 @@
 {
   "title": "Energiehuis (vocabularium)",
   "uri": "https://data.vlaanderen.be/doc/vocabularium/energiehuis/ontwerpstandaard/2025-02-18",
-  "issued": "2025-02-18",
+  "issued": "2025-05-12",
   "navigation": {
     "prev": "/doc/vocabularium/energiehuis/ontwerpstandaard/2025-01-09",
     "self": "https://data.vlaanderen.be/doc/vocabularium/energiehuis/ontwerpstandaard/2025-02-18"
   },
   "documenttype": "voc",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "statuslabel": "Ontwerp Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "statuslabel": "Kandidaat Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/energiehuis",
     "http://www.w3.org/2000/01/rdf-schema",
@@ -33,6 +33,7 @@
     "http://www.cidoc-crm.org/cidoc-crm",
     "http://purl.org/dc/elements/1.1",
     "https://data.vlaanderen.be/ns/dienst",
+    "https://fixme.com",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema"
@@ -42,9 +43,9 @@
   "contributors": 12,
   "participants": 21,
   "classes": 32,
-  "properties": 53,
+  "properties": 51,
   "externalclasses": 46,
-  "externalproperties": 58,
+  "externalproperties": 60,
   "totalterms": 189,
   "totalorganisations": 12,
   "organisations": [
@@ -950,22 +951,6 @@
           {
             "@language": "nl",
             "@value": "heeftParticipant"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/dienst#Participatie.PubliekeDienstverlening",
-        "label": [
-          {
-            "@value": "Participatie.PubliekeDienstverlening"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/dienst#Participatie.Agent",
-        "label": [
-          {
-            "@value": "Participatie.Agent"
           }
         ]
       },
@@ -1965,6 +1950,24 @@
           {
             "@language": "nl",
             "@value": "heeftVerantwoordelijke"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://fixme.com/",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publiekeDienstverlening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://fixme.com/",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "agent"
           }
         ]
       }
