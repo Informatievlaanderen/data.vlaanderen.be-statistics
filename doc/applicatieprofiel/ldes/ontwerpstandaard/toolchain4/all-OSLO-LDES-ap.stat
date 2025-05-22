@@ -12,12 +12,12 @@
   "namespaces": [
     "https://w3id.org/tree",
     "https://w3id.org/ldes",
-    "https://www.w3.org/ns/dcat",
     "https://data.vlaanderen.be/ns/ldes",
     "https://data.vlaanderen.be/ns/generiek",
     "http://def.isotc211.org/iso19156/2011/Observation",
     "http://www.w3.org/ns/shacl",
     "http://www.w3.org/ns/prov",
+    "https://www.w3.org/ns/dcat",
     "http://www.w3.org/ns/dcat",
     "http://todo.com",
     "http://purl.org/dc/terms",
@@ -29,11 +29,11 @@
   "editors": 6,
   "contributors": 32,
   "participants": 45,
-  "classes": 16,
+  "classes": 20,
   "properties": 8,
-  "externalclasses": 20,
-  "externalproperties": 30,
-  "totalterms": 74,
+  "externalclasses": 16,
+  "externalproperties": 36,
+  "totalterms": 80,
   "totalorganisations": 22,
   "organisations": [
     {
@@ -627,6 +627,7 @@
           }
         ]
       },
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/ldes#CollectieLid",
         "label": [
@@ -634,7 +635,10 @@
             "@value": "CollectieLid"
           }
         ]
-      }
+      },
+      {},
+      {},
+      {}
     ],
     "properties": [
       {
@@ -717,10 +721,6 @@
           {
             "@language": "nl",
             "@value": "Collectie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Collectie"
           }
         ]
       },
@@ -730,19 +730,6 @@
           {
             "@language": "nl",
             "@value": "EventStream"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://www.w3.org/ns/dcat#Dataset",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Dataset"
-          },
-          {
-            "@language": "nl",
-            "@value": "Dataset"
           }
         ]
       },
@@ -788,10 +775,6 @@
           {
             "@language": "nl",
             "@value": "RetentionPolicy"
-          },
-          {
-            "@language": "nl",
-            "@value": "RetentionPolicy"
           }
         ]
       },
@@ -823,46 +806,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/dcat#DataService",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Dataservice"
-          },
-          {
-            "@language": "nl",
-            "@value": "Dataservice"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://w3id.org/tree#Collection",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Collectie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://www.w3.org/ns/dcat#Dataset",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Dataset"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://w3id.org/ldes#RetentionPolicy",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "RetentionPolicy"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://www.w3.org/ns/dcat#Dataset",
         "label": [
           {
@@ -877,6 +820,15 @@
           {
             "@language": "nl",
             "@value": "Dataservice"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/dcat#Dataset",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dataset"
           }
         ]
       },
@@ -1125,6 +1077,42 @@
         ]
       },
       {
+        "assignedURI": "http://todo.com/relatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://w3id.org/tree#Node",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "node"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/viewOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "viewOf"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://w3id.org/tree#view",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "view"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://w3id.org/tree#member",
         "label": [
           {
@@ -1134,29 +1122,20 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/heeftLid",
+        "assignedURI": "http://todo.com/viewOf",
         "label": [
           {
             "@language": "nl",
-            "@value": "heeftlid"
+            "@value": "viewOf"
           }
         ]
       },
       {
-        "assignedURI": "http://todo.com/rootNode",
+        "assignedURI": "https://w3id.org/tree#view",
         "label": [
           {
             "@language": "nl",
-            "@value": "rootNode"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/rootNodeVan",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "rootNodeVan"
+            "@value": "view"
           }
         ]
       },
@@ -1175,6 +1154,33 @@
           {
             "@language": "nl",
             "@value": "afgeleidVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dcat#servesdataset",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "biedtInformatieAanOver"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/eventStream",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eventstream"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/eventStreamView",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eventstreamView"
           }
         ]
       }
