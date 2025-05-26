@@ -33,6 +33,7 @@
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "https://data.vlaanderen.be/ns/kindfiche",
+    "https://data.vlaanderen.be/ns/transactie",
     "http://hl7.org/fhir/StructureDefinition",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/2000/01/rdf-schema"
@@ -42,10 +43,10 @@
   "contributors": 33,
   "participants": 46,
   "classes": 19,
-  "properties": 38,
+  "properties": 39,
   "externalclasses": 42,
-  "externalproperties": 67,
-  "totalterms": 166,
+  "externalproperties": 73,
+  "totalterms": 173,
   "totalorganisations": 23,
   "organisations": [
     {
@@ -1026,6 +1027,15 @@
             "@value": "gebruikte medicatie"
           }
         ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transactie#isInstantieVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dienstaanbod"
+          }
+        ]
       }
     ],
     "externalclasses": [
@@ -1963,6 +1973,33 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/prov#atLocation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#siteOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "organisatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
         "label": [
           {
@@ -1981,6 +2018,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/prov#agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "agent"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/m8g/hasSupportingEvidence",
         "label": [
           {
@@ -1995,6 +2041,24 @@
           {
             "@language": "nl",
             "@value": "persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "participatie"
           }
         ]
       },
