@@ -9,6 +9,7 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
+    "http://purl.org/dc/terms",
     "http://www.w3.org/ns/sosa",
     "http://www.w3.org/ns/ssn",
     "http://www.w3.org/2004/02/skos/core",
@@ -17,30 +18,33 @@
     "http://fixme.com",
     "https://saref.etsi.org/core",
     "https://vocab.belgif.be/ns/utility-services",
-    "http://purl.org/dc/terms",
     "http://www.opengis.net/ont/geosparql",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
+    "http://www.w3.org/ns/locn",
+    "https://data.vlaanderen.be/ns/adres",
     "https://w3id.org/def/S4WATR",
     "https://saref.etsi.org/saref4watr",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
     "http://www.w3.org/ns/adms",
     "https://fixme.com",
+    "https://vocab.belgif.be/ns/network",
+    "http://purl.org/dc/elements/1.1",
     "http://todo.com",
-    "http://www.w3.org/ns/locn",
+    "http://www.opengis.net/ont/sf",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2006/time"
   ],
   "authors": 4,
-  "editors": 3,
+  "editors": 4,
   "contributors": 12,
-  "participants": 19,
-  "classes": 10,
-  "properties": 6,
-  "externalclasses": 42,
-  "externalproperties": 84,
-  "totalterms": 142,
+  "participants": 20,
+  "classes": 12,
+  "properties": 13,
+  "externalclasses": 50,
+  "externalproperties": 106,
+  "totalterms": 181,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -81,7 +85,7 @@
     },
     {
       "affiliation": "digitaalvlaanderen",
-      "participants": 3
+      "participants": 4
     },
     {
       "affiliation": "iok",
@@ -127,6 +131,10 @@
       },
       {
         "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "dylanvanassche",
         "affiliation": "digitaalvlaanderen"
       },
       {
@@ -242,6 +250,10 @@
         "affiliation": "digitaalvlaanderen"
       },
       {
+        "name": "dylanvanassche",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
         "name": "samvangramberen",
         "affiliation": "digitaalvlaanderen"
       },
@@ -298,12 +310,29 @@
           }
         ]
       },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
       {},
       {},
       {},
       {},
       {},
-      {}
+      {},
+      {
+        "assignedURI": "http://todo.com/Adres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Belgisch Adres"
+          }
+        ]
+      }
     ],
     "properties": [
       {
@@ -334,6 +363,58 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "municipality name"
+          },
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "country"
+          },
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "house number"
+          },
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#busnummer",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "box number"
+          },
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.uitgevoerdDoor",
         "label": [
           {
@@ -352,6 +433,37 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#verwijstNaar",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "refersTo"
+          },
+          {
+            "@language": "nl",
+            "@value": "verwijst Naar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/afleverpunt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afleverpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Meter.verbruiksadres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verbruiksadres"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://todo.com/inNetwerk",
         "label": [
           {
@@ -362,6 +474,15 @@
       }
     ],
     "externalclasses": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
       {
         "assignedURI": "http://www.w3.org/ns/sosa/Property",
         "label": [
@@ -413,6 +534,15 @@
           {
             "@language": "nl",
             "@value": "Observatieproceduretype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeemtype"
           }
         ]
       },
@@ -489,6 +619,19 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toebehorentype"
+          },
+          {
+            "@language": "en",
+            "@value": "AppurtenanceTypeValue"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/sosa/FeatureOfInterest",
         "label": [
           {
@@ -525,6 +668,19 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "UtilityNetworkTypeValue"
+          },
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieningnetwerktype"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
         "label": [
           {
@@ -543,11 +699,29 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Functietype"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#Connection",
         "label": [
           {
             "@language": "nl",
             "@value": "Aansluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Afleverpunttype"
           }
         ]
       },
@@ -592,6 +766,28 @@
           {
             "@language": "nl",
             "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#Point",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Punt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Address Representation"
+          },
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
           }
         ]
       },
@@ -812,6 +1008,136 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorName",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "location name"
+          },
+          {
+            "@language": "nl",
+            "@value": "locatienaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#addressArea",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "address area"
+          },
+          {
+            "@language": "nl",
+            "@value": "adresgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postName",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "postal name"
+          },
+          {
+            "@language": "nl",
+            "@value": "postnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "administrative unit level 2"
+          },
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 2"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "administrative unit level 1"
+          },
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 1"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "postal code"
+          },
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "full address"
+          },
+          {
+            "@language": "nl",
+            "@value": "volledig Adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#poBox",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "PObox"
+          },
+          {
+            "@language": "nl",
+            "@value": "postbus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "street name"
+          },
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "location indication"
+          },
+          {
+            "@language": "nl",
+            "@value": "locatieaanduiding"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#geographicalName",
         "label": [
           {
@@ -906,6 +1232,15 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door"
           }
         ]
       },
@@ -1192,6 +1527,24 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://fixme.com/",
         "label": [
           {
@@ -1237,6 +1590,69 @@
         ]
       },
       {
+        "assignedURI": "https://vocab.belgif.be/ns/network#Node.geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Connection.appurtenanceType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toebehorentype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#authorityRole",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bevoegdePartij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nutsvoorzieningnetwerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.opengis.net/ont/geosparql#hasGeometry",
         "label": [
           {
@@ -1262,10 +1678,28 @@
         ]
       },
       {
+        "assignedURI": "https://saref.etsi.org/core/hasFunction",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "functie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://fixme.com/",
         "label": [
           {
             "@value": "deploymentTijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
           }
         ]
       },
@@ -1583,6 +2017,10 @@
           },
           {
             "name": "geertthijs",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "dylanvanassche",
             "affiliation": "digitaalvlaanderen"
           },
           {
