@@ -10,20 +10,18 @@
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
     "http://purl.org/dc/terms",
-    "http://www.w3.org/ns/sosa",
     "http://www.w3.org/ns/ssn",
+    "https://www.w3.org/ns/sosa",
+    "https://vocab.belgif.be/ns/utility-services",
+    "http://www.w3.org/ns/sosa",
     "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/sosa/oms",
-    "https://www.w3.org/ns/sosa",
     "http://fixme.com",
     "https://saref.etsi.org/core",
-    "https://vocab.belgif.be/ns/utility-services",
     "http://www.opengis.net/ont/geosparql",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
     "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/adres",
-    "https://w3id.org/def/S4WATR",
-    "https://saref.etsi.org/saref4watr",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
     "http://www.w3.org/ns/adms",
     "https://fixme.com",
@@ -42,9 +40,9 @@
   "participants": 20,
   "classes": 12,
   "properties": 13,
-  "externalclasses": 50,
-  "externalproperties": 106,
-  "totalterms": 181,
+  "externalclasses": 53,
+  "externalproperties": 102,
+  "totalterms": 180,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -484,6 +482,33 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/ssn/System",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/sosa/Platform",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Platform"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Appurtenance",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toebehoren"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/sosa/Property",
         "label": [
           {
@@ -498,6 +523,15 @@
           {
             "@language": "nl",
             "@value": "Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Procedure"
           }
         ]
       },
@@ -650,11 +684,29 @@
         ]
       },
       {
+        "assignedURI": "https://saref.etsi.org/core/Function",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Functie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://saref.etsi.org/core/Device",
         "label": [
           {
             "@language": "nl",
             "@value": "Toestel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/Task",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taak"
           }
         ]
       },
@@ -770,6 +822,15 @@
         ]
       },
       {
+        "assignedURI": "http://fixme.com/",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BenoemdeWaarde"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.opengis.net/ont/sf#Point",
         "label": [
           {
@@ -837,15 +898,6 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "BenoemdeWaarde"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
         "label": [
           {
@@ -868,15 +920,6 @@
         "label": [
           {
             "@value": "ObservatieCollectietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://saref.etsi.org/core/Function",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Functie"
           }
         ]
       },
@@ -904,24 +947,6 @@
           {
             "@language": "nl",
             "@value": "OutputType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://saref.etsi.org/core/Task",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Taak"
           }
         ]
       },
@@ -987,6 +1012,15 @@
           {
             "@language": "nl",
             "@value": "model"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://fixme.com/",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
           }
         ]
       },
@@ -1147,15 +1181,6 @@
         ]
       },
       {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasFabricationNumber",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftFabrieksnummer"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://saref.etsi.org/core/hasManufacturer",
         "label": [
           {
@@ -1165,56 +1190,11 @@
         ]
       },
       {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasFirmwareVersion",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftFirmwareVersion"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasHardwareVersion",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftHardwareVersie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasVersion",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftVersie"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://saref.etsi.org/core/hasModel",
         "label": [
           {
             "@language": "nl",
             "@value": "model"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://saref.etsi.org/saref4watr/operatesAtRadioFrequency",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "werktopRadiofrequentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://saref.etsi.org/saref4watr/requiresPower",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vereistStroom"
           }
         ]
       },
@@ -1348,6 +1328,15 @@
           {
             "@language": "nl",
             "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://fixme.com/",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
           }
         ]
       },
