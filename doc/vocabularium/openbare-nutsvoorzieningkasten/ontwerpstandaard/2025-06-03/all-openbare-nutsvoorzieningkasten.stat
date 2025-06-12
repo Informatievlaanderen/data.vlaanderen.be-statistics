@@ -19,7 +19,7 @@
     "https://vocab.belgif.be/ns/utility-services",
     "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters",
     "http://www.w3.org/ns/adms",
-    "http://todo.com",
+    "http://www.w3.org/ns/prov",
     "https://saref.etsi.org/saref4bldg",
     "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur",
     "http://www.w3.org/ns/ssn",
@@ -38,8 +38,8 @@
     "https://vocab.belgif.be/ns/network",
     "http://www.w3.org/ns/ssn/systems",
     "http://www.opengis.net/ont/geosparql",
+    "https://www.w3.org/2007/05/powder-s",
     "https://data.vlaanderen.be/ns/digitaleWatermeter",
-    "http://www.w3.org/ns/prov",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -54,11 +54,11 @@
   "editors": 8,
   "contributors": 1,
   "participants": 15,
-  "classes": 16,
-  "properties": 16,
-  "externalclasses": 59,
-  "externalproperties": 86,
-  "totalterms": 177,
+  "classes": 12,
+  "properties": 9,
+  "externalclasses": 63,
+  "externalproperties": 92,
+  "totalterms": 176,
   "totalorganisations": 4,
   "organisations": [
     {
@@ -228,14 +228,6 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Activiteit",
-        "label": [
-          {
-            "@value": "Activiteit"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Reservatie",
         "label": [
           {
@@ -283,31 +275,7 @@
       {},
       {},
       {},
-      {
-        "assignedURI": "http://todo.com/Event",
-        "label": [
-          {
-            "@value": "Event"
-          }
-        ]
-      },
-      {},
-      {
-        "assignedURI": "http://todo.com/Activiteittype",
-        "label": [
-          {
-            "@value": "Activiteittype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Nutsvoorzieningnetwerkelmenttype",
-        "label": [
-          {
-            "@value": "Nutsvoorzieningnetwerkelmenttype"
-          }
-        ]
-      }
+      {}
     ],
     "properties": [
       {
@@ -338,38 +306,6 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/tijd",
-        "label": [
-          {
-            "@value": "tijd"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/locatie",
-        "label": [
-          {
-            "@value": "locatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/type",
-        "label": [
-          {
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/agent",
-        "label": [
-          {
-            "@value": "agent"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Reservatie.gereserveerdDoor",
         "label": [
           {
@@ -379,7 +315,7 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Reservatie.gereserveerdVoor",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Reservatie.gereserveerdVoor",
         "label": [
           {
             "@language": "nl",
@@ -388,28 +324,11 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Reservatie.periode",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Reservatie.periode",
         "label": [
           {
             "@language": "nl",
             "@value": "periode"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/doel",
-        "label": [
-          {
-            "@value": "doel"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/factuur",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "factuur"
           }
         ]
       },
@@ -435,14 +354,6 @@
           {
             "@language": "nl",
             "@value": "uitgevoerdObservatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/resource",
-        "label": [
-          {
-            "@value": "resource"
           }
         ]
       }
@@ -565,6 +476,14 @@
         "label": [
           {
             "@value": "Asset"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Activity",
+        "label": [
+          {
+            "@value": "Activiteit"
           }
         ]
       },
@@ -700,6 +619,14 @@
           {
             "@language": "nl",
             "@value": "Toebehoren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Event",
+        "label": [
+          {
+            "@value": "Event"
           }
         ]
       },
@@ -907,6 +834,22 @@
           {
             "@language": "nl",
             "@value": "Plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Activiteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Nutsvoorzieningnetwerkelmenttype"
           }
         ]
       },
@@ -1469,6 +1412,38 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/prov#atTime",
+        "label": [
+          {
+            "@value": "tijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#atLocation",
+        "label": [
+          {
+            "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "label": [
+          {
+            "@value": "agent"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation",
         "label": [
           {
@@ -1606,6 +1581,24 @@
           {
             "@language": "nl",
             "@value": "deploymentTijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/partOfInvoice",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "factuur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/2007/05/powder-s#describedby",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resource"
           }
         ]
       },
