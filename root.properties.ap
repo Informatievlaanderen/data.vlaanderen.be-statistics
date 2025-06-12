@@ -320,6 +320,26 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiehuis/notawerkgroep/2025-02-18"
   },
   {
+    "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#Informatievoorziening.type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiehuis/notawerkgroep/2025-02-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#InteresseOpwekking.type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiehuis/notawerkgroep/2025-02-18"
+  },
+  {
     "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#verstrektDoor",
     "label": [
       {
@@ -334,7 +354,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "type"
+        "@value": "thema"
       }
     ],
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiehuis/notawerkgroep/2025-02-18"
@@ -623,7 +643,18 @@
     "assignedURI": "https://data.vlaanderen.be/ns/dienst#Participatie.publiekeDienstverlening",
     "label": [
       {
-        "@value": "Participatie.PubliekeDienstverlening"
+        "@language": "nl",
+        "@value": "publiekeDienstverlening"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiehuis/notawerkgroep/2025-02-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/dienst#Participatie.agent",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "agent"
       }
     ],
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiehuis/notawerkgroep/2025-02-18"
@@ -669,34 +700,6 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiehuis/notawerkgroep/2025-02-18"
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "heeft relatie met"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiehuis/notawerkgroep/2025-02-18"
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
-    "label": [
-      {
-        "@value": "Persoon (source)"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiehuis/notawerkgroep/2025-02-18"
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
-    "label": [
-      {
-        "@value": "Persoon (target)"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiehuis/notawerkgroep/2025-02-18"
-  },
-  {
     "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#begeleidingVan",
     "label": [
       {
@@ -725,6 +728,156 @@
       }
     ],
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiehuis/notawerkgroep/2025-02-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Input.referentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "referentie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Output.referentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "referentie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Observatieprocedure.specificatie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "specificatie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "municipality name"
+      },
+      {
+        "@language": "nl",
+        "@value": "gemeentenaam"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "country"
+      },
+      {
+        "@language": "nl",
+        "@value": "land"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "house number"
+      },
+      {
+        "@language": "nl",
+        "@value": "huisnummer"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/adres#busnummer",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "box number"
+      },
+      {
+        "@language": "nl",
+        "@value": "busnummer"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.uitgevoerdDoor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdDoor"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Observatieprocedure.parameter",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "parameter"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/adres#verwijstNaar",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "refersTo"
+      },
+      {
+        "@language": "nl",
+        "@value": "verwijst Naar"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14"
+  },
+  {
+    "assignedURI": "http://todo.com/afleverpunt",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "afleverpunt"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14"
+  },
+  {
+    "assignedURI": "http://todo.com/Meter.verbruiksadres",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "verbruiksadres"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14"
+  },
+  {
+    "assignedURI": "http://todo.com/inNetwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "inNetwerk"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/erosiepoel#maxVolume",
@@ -1747,6 +1900,158 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/incentiveringsplatform/erkendestandaard/2024-10-03"
   },
   {
+    "assignedURI": "https://data.vlaanderen.be/ns/persoon#volledigeNaam",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "volledige naam"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.uitgevoerdDoor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdDoor"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters#Meter.verbruiksadres",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "verbruiksadres"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
+    "assignedURI": "http://todo.com/tijd",
+    "label": [
+      {
+        "@value": "tijd"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
+    "assignedURI": "http://todo.com/locatie",
+    "label": [
+      {
+        "@value": "locatie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
+    "assignedURI": "http://todo.com/type",
+    "label": [
+      {
+        "@value": "type"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
+    "assignedURI": "http://todo.com/agent",
+    "label": [
+      {
+        "@value": "agent"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Reservatie.gereserveerdDoor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gereserveerd door"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
+    "assignedURI": "http://todo.com/Reservatie.gereserveerdVoor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gereserveerd voor"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
+    "assignedURI": "http://todo.com/Reservatie.periode",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "periode"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
+    "assignedURI": "http://todo.com/doel",
+    "label": [
+      {
+        "@value": "doel"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
+    "assignedURI": "http://todo.com/factuur",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "factuur"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.source",
+    "label": [
+      {
+        "@value": "Observatie (source)"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.target",
+    "label": [
+      {
+        "@value": "Observatie (target)"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/digitaleWatermeter#uitgevoerdObservatie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdObservatie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
+    "assignedURI": "http://todo.com/resource",
+    "label": [
+      {
+        "@value": "resource"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+  },
+  {
     "assignedURI": "https://data.vlaanderen.be/ns/persoon#alternatieveNaam",
     "label": [
       {
@@ -2657,24 +2962,494 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/overlijdensaangifte/kandidaatstandaard/2024-10-23"
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#startdatum",
+    "assignedURI": "https://data.vlaanderen.be/ns/perceel#datumbijwerking",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "datum bijwerking"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/perceel#datumbijwerking",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "datum bijwerking"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/perceel#aandeel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "aandeel"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#ingangsdatum",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "ingangsdatum"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#datum",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "datum"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#Rooilijn.kenmerkLinks",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "kenmerkLinks"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#Bouwlijn.kenmerkLinks",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "kenmerkLinks"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geldigheidsperiode"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "oppervlakte"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#Rooilijn.kenmerkRechts",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "kenmerkRechts"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#perceelreferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "perceelreferentie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#openbareWegreferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "openbareWegreferentie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#wegbaan",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "wegbaan"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#perceel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "perceel"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#Perceelreferentie.getroffenOppervlak",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "getroffenOppervlak"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#Bouwlijn.kenmerkRechts",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "kenmerkRechts"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#bouwlijn",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "bouwlijn"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#offsetRooilijn",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "offsetRooilijn"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#wegsegment",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "wegsegment"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#offsetWegsegment",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "offsetWegsegment"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#bouwlijnreferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "bouwlijnreferentie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#getroffenPerceel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "getroffenPerceel"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#getroffenOpenbareWeg",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "getroffenOpenbareWeg"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#OpenbareWegreferentie.getroffenOppervlak",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "getroffenOppervlak"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkreferentie.element",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "lijnreferentie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#toepassingsrichting",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toepassingsrichting"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#getroffenOppervlakPerceel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "getroffenOppervlakPerceel"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#getroffenOppervlakOpenbareWeg",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "getroffenOppervlakOpenbareWeg"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#oppervlakte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "oppervlakte"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#LineaireReferentie.vanPositie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "vanPositie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#LineaireReferentie.totPositie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "totPositie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#lineaireReferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "lineaireReferentie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#rooilijntype",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "rooilijntype"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#GetroffenOppervlak.rooilijn",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "rooilijn"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#AangelandeEigendommen.getroffenOppervlak",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "getroffenOppervlak"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#OpenbareWeg.getroffenOppervlak",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "getroffenOppervlak"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#element",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "element"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#Rooilijnplan.rooilijn",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "rooilijn"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#rooilijninventaris",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "rooilijninventaris"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#plan",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "plan"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#verordening",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "verordening"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#waardeverandering",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "waardeverandering"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/perceel#agentMetZakelijkRecht",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "agent met zakelijk recht"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.kadastraalPatrimoniumperceel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "kadastraalPatrimoniumperceel"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.agent",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "agent"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Solvabiliteitsindicator.startdatum",
     "label": [
       {
         "@language": "nl",
         "@value": "startdatum"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#einddatum",
+    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Solvabiliteitsindicator.einddatum",
     "label": [
       {
         "@language": "nl",
         "@value": "einddatum"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/persoon#volledigeNaam",
@@ -2684,7 +3459,7 @@
         "@value": "volledige naam"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#fiscaal",
@@ -2694,7 +3469,7 @@
         "@value": "fiscaal"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#verjaringstermijn",
@@ -2704,37 +3479,37 @@
         "@value": "verjaringstermijn"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#wanbetaling",
+    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Krediet.wanbetaling",
     "label": [
       {
         "@language": "nl",
         "@value": "wanbetaling"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#startdatum",
+    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Solvabiliteitsindicatoprofiel.startdatum",
     "label": [
       {
         "@language": "nl",
         "@value": "startdatum"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#einddatum",
+    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Solvabiliteitsprofiel.einddatum",
     "label": [
       {
         "@language": "nl",
         "@value": "einddatum"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#verjaringsdatum",
@@ -2744,17 +3519,17 @@
         "@value": "verjaringsdatum"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#wanbetaling",
+    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Schuldvordering.wanbetaling",
     "label": [
       {
         "@language": "nl",
         "@value": "wanbetaling"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#aanmaningsdatum",
@@ -2764,17 +3539,17 @@
         "@value": "aanmaningsdatum"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/dossier/#Activiteit.einddatum",
+    "assignedURI": "https://data.vlaanderen.be/ns/dossier#Activiteit.einddatum",
     "label": [
       {
         "@language": "nl",
         "@value": "einddatum"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/dossier#Activiteit.startdatum",
@@ -2784,7 +3559,7 @@
         "@value": "startdatum"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#betalingsdatum",
@@ -2794,17 +3569,17 @@
         "@value": "betalingsdatum"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#uitersteBetaaldatum",
+    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Schuldvordering.uitersteBetaaldatum",
     "label": [
       {
         "@language": "nl",
         "@value": "uiterste betaaldatum"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#interest",
@@ -2814,17 +3589,17 @@
         "@value": "interest"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#uitersteBetaaldatum",
+    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Afbetalingsplanonderdeel.uitersteBetaaldatum",
     "label": [
       {
         "@language": "nl",
         "@value": "uiterste betaaldatum"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#saldodatum",
@@ -2834,7 +3609,7 @@
         "@value": "saldodatum"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#toegekendDoor",
@@ -2844,17 +3619,7 @@
         "@value": "toegekend door"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#type",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "type"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#rechtsgrond",
@@ -2864,7 +3629,7 @@
         "@value": "rechtsgrond"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#bedrag",
@@ -2874,7 +3639,7 @@
         "@value": "bedrag"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#betwistBedrag",
@@ -2884,7 +3649,7 @@
         "@value": "betwist bedrag"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#oninbaarBedrag",
@@ -2894,7 +3659,7 @@
         "@value": "oninbaar bedrag"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#periodiciteitInkomst",
@@ -2904,7 +3669,7 @@
         "@value": "periodiciteit inkomst"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#bepaaldDoor",
@@ -2914,7 +3679,7 @@
         "@value": "bepaald door"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/dossier#auteur",
@@ -2924,7 +3689,7 @@
         "@value": "auteur"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#initieelKredietbedrag",
@@ -2934,7 +3699,7 @@
         "@value": "initieel kredietbedrag"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#toegerekendBedrag",
@@ -2944,7 +3709,7 @@
         "@value": "toegerekend bedrag"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#betaaldBedrag",
@@ -2954,7 +3719,7 @@
         "@value": "betaald bedrag"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#verminderingsbedrag",
@@ -2964,7 +3729,7 @@
         "@value": "verminderingsbedrag"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#afTeBetalenBedrag",
@@ -2974,7 +3739,7 @@
         "@value": "af te betalen bedrag"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#hoofdsom",
@@ -2984,7 +3749,7 @@
         "@value": "hoofdsom"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#identificator",
@@ -2994,7 +3759,7 @@
         "@value": "identificator"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#kost",
@@ -3004,7 +3769,7 @@
         "@value": "kost"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#saldobedrag",
@@ -3014,7 +3779,7 @@
         "@value": "saldobedrag"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#startBedrag",
@@ -3024,7 +3789,7 @@
         "@value": "startbedrag"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
@@ -3034,7 +3799,7 @@
         "@value": "heeft relatie met"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
@@ -3043,7 +3808,7 @@
         "@value": "Persoon (source)"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
@@ -3052,7 +3817,7 @@
         "@value": "Persoon (target)"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinshoofd",
@@ -3062,7 +3827,7 @@
         "@value": "gezinshoofd"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/persoon#isHoofdVan",
@@ -3072,7 +3837,7 @@
         "@value": "is hoofd van"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinslid",
@@ -3082,7 +3847,7 @@
         "@value": "gezinslid"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/persoon#isLidVan",
@@ -3092,7 +3857,7 @@
         "@value": "is lid van"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/dossier#genereert",
@@ -3102,7 +3867,7 @@
         "@value": "genereert"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#wanbetalingsvergoeding",
@@ -3112,7 +3877,7 @@
         "@value": "wanbetalingsvergoeding"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#grondslag",
@@ -3122,7 +3887,7 @@
         "@value": "grondslag"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#oninbaarheidsverklaring",
@@ -3132,7 +3897,7 @@
         "@value": "oninbaarheidsverklaring"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#betwisting",
@@ -3142,7 +3907,7 @@
         "@value": "betwisting"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#rekentToeAan",
@@ -3152,7 +3917,7 @@
         "@value": "rekent toe aan"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#toerekeningVanBetaling",
@@ -3162,7 +3927,7 @@
         "@value": "toerekening van betaling"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#wordtToegerekendDoor",
@@ -3172,7 +3937,7 @@
         "@value": "wordt toegerekend door"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#toegerekendeBetaling",
@@ -3182,7 +3947,7 @@
         "@value": "toegerekende betaling"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#solvabiliteitsprofiel",
@@ -3192,7 +3957,7 @@
         "@value": "solvabiliteitsprofiel"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#herschikteSchuldvordering",
@@ -3202,7 +3967,7 @@
         "@value": "herschikte schuldvordering"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#afbetalingsplan",
@@ -3212,7 +3977,7 @@
         "@value": "afbetalingsplan"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#aanmaning",
@@ -3222,7 +3987,7 @@
         "@value": "aanmaning"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#sociaalStatuut",
@@ -3232,7 +3997,7 @@
         "@value": "sociaal statuut"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#genereertWanbetalingsvergoeding",
@@ -3242,7 +4007,7 @@
         "@value": "genereert wanbetalingsvergoeding"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#isGerelateerdMet",
@@ -3252,7 +4017,7 @@
         "@value": "is gerelateerd met"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#juridischStatuut",
@@ -3262,7 +4027,7 @@
         "@value": "juridisch statuut"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#bedoeldVoor",
@@ -3272,7 +4037,7 @@
         "@value": "bedoeld voor"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#schrapping",
@@ -3282,7 +4047,7 @@
         "@value": "schrapping"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#geschraptAfbetalingsplan",
@@ -3292,7 +4057,7 @@
         "@value": "geschrapt afbetalingsplan"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#afbetalingsplansaldo",
@@ -3302,7 +4067,7 @@
         "@value": "afbetalingsplansaldo"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#schuldeiser",
@@ -3312,7 +4077,7 @@
         "@value": "schuldeiser"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#schuldenaar",
@@ -3322,7 +4087,7 @@
         "@value": "schuldenaar"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#inkomst",
@@ -3332,7 +4097,7 @@
         "@value": "inkomst"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#krediet",
@@ -3342,7 +4107,7 @@
         "@value": "krediet"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#aanleiding",
@@ -3352,7 +4117,7 @@
         "@value": "aanleiding"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#schuldvorderingscategorie",
@@ -3362,7 +4127,7 @@
         "@value": "schuldvorderingscategorie"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#vermindering",
@@ -3372,7 +4137,7 @@
         "@value": "vermindering"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#isDeelVan",
@@ -3382,7 +4147,7 @@
         "@value": "is deel van"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#afbetalingsplanonderdeel",
@@ -3392,7 +4157,7 @@
         "@value": "afbetalingsplanonderdeel"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#schuldvordingssaldo",
@@ -3402,7 +4167,7 @@
         "@value": "schuldvorderingssaldo"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#afgeleidVan",
@@ -3412,7 +4177,7 @@
         "@value": "afgeleid van"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#voorstel",
@@ -3422,7 +4187,7 @@
         "@value": "voorstel"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#voorgesteldAfbetalingsplan",
@@ -3432,7 +4197,7 @@
         "@value": "voorgesteld afbetalingsplan"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#aanvaarding",
@@ -3442,7 +4207,7 @@
         "@value": "aanvaarding"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#aanvaardAfbetalingsplan",
@@ -3452,7 +4217,7 @@
         "@value": "aanvaard afbetalingsplan"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#gevolgdAfbetalingsplanonderdeel",
@@ -3462,7 +4227,137 @@
         "@value": "gevolgd afbetalingsplanonderdeel"
       }
     ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/erkendestandaard/2025-05-15"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Observatieprocedure.specificatie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "specificatie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouw.bouwjaar",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "bouwjaar"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouw.laatsteRenovatie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "laatste renovatie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.uitgevoerdDoor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdDoor"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Observatieprocedure.parameter",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "parameter"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouw.kenmerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "kenmerk"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouweenheid.kenmerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "kenmerk"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouw.adres",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "adres"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouw.status",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouweenheid.adres",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "adres"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouweenheid.functie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "functie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouweenheid.status",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouw.bestaatUit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "bestaatUit"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Input.referentie",
@@ -4039,6 +4934,506 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/verkeersmetingen/erkendestandaard/2024-04-17"
   },
   {
+    "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#annuleringsvoorwaarden",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "annuleringsvoorwaarden"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Bereikbaarheid.laasteOpenbaarVervoer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "laatste openbaar vervoer"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Bereikbaarheid.mobiscore",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "mobiscore"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.naam",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "naam"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/adres#busnummer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "busnummer"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/adres#Gemeentenaam",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gemeentenaam"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "land"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#tijdstip",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "tijdstip"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#tijdstip",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "tijdstip"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Reservatie.gereserveerdDoor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gereserveerd door"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Reservatie.gereserveerdVoor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gereserveerd voor"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Reservatie.periode",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "periode"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#parkeercapaciteit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "parkeercapaciteit"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Faciliteit.document",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "document"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Faciliteit.gebruiker",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gebruiker"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Beschikbaarheid.gebruiker",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gebruiker"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.bereikbaarheid",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "bereikbaarheid"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.beschikbaarheid",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beschikbaarheid"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.beschrijving",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beschrijving"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.capaciteit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "capaciteit"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.contactpersoon",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "contactpersoon"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.dimensie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "dimensie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.faciliteit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "faciliteit"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.gebruik",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gebruik"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.locatie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "locatie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.openstelling",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "openstelling"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.toegankelijkheid",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegankelijkheid"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik.exclusiviteit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "exclusiviteit"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik.gebruiker",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gebruiker"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Buitenruimte.verbondenAan",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "verbonden aan"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik.periode",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "periode"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik.voorwaarde",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "voorwaarde"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Eigenaarschap.eigenaar",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eigenaar"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren#Gebruik.activiteit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#status",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Toegankelijkheid.niveau",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "niveau"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#onderdeel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "onderdeel"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Buitenruimte.verbondenAan",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "verbonden aan"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.eigenaar",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eigenaar"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#buffer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "buffer"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.openingsuren",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "opneningsuren"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "infrastructuurreservatiestatustype"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.toegang",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegang"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#veiligheidsvereisten",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "veiligheidsvereisten"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#plaatsbeschrijving",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "plaatsbeschrijving"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#bijlage",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "bijlage"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "infrastructuur"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#superInfrastructuur",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "superinfrastructuur"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.subinfrastructuur",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "subinfrastructuur"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  {
     "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
     "label": [
       {
@@ -4127,5 +5522,500 @@
       }
     ],
     "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/melding#webpagina",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "webpagina"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/melding#statusdatum",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "statusdatum"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "http://todo.com/datum",
+    "label": [
+      {
+        "@value": "datum"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/melding#datum",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "datum"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/generiek#lokaleIdentificator",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "lokaleIdentificator"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/generiek#naamruimte",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "naamruimte"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/generiek#versieIdentificator",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "versieIdentificator"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/melding#heeftBody",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftBody"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#ligging",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "ligging"
+      },
+      {
+        "@language": "en",
+        "@value": "location"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/melding#heeftStatus",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeft status"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/melding#statuswaarde",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status type"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/melding#statuswijzigingDoor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "statuswijziging door"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen/#Observatie.uitgevoerdDoor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerd door"
+      },
+      {
+        "@language": "en",
+        "@value": "performedBy"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#voertuigtype",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "voertuigtype"
+      },
+      {
+        "@language": "en",
+        "@value": "typeOfVehicle"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#netwerkreferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "netwerkreferentie"
+      },
+      {
+        "@language": "en",
+        "@value": "networkReference"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#rijstrook",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "rijstrook"
+      },
+      {
+        "@language": "en",
+        "@value": "lane"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#netwerkreferentie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "netwerkreferentie"
+      },
+      {
+        "@language": "en",
+        "@value": "networkReference"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/weg#rijrichting",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "rijrichting"
+      },
+      {
+        "@language": "en",
+        "@value": "trafficDirection"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "http://todo.com/type",
+    "label": [
+      {
+        "@value": "type"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/melding#verkeersIncident",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "verkeersincident"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#gaatOver",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gaatOver"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      },
+      {
+        "@language": "en",
+        "@value": "geometry"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linksequentie.link",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "link"
+      },
+      {
+        "@language": "en",
+        "@value": "link"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Link.geometriemiddellijn",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometriemiddenlijn"
+      },
+      {
+        "@language": "en",
+        "@value": "geometryCenterline"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GerichteLink.link",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "link"
+      },
+      {
+        "@language": "en",
+        "@value": "link"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#richting",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "richting"
+      },
+      {
+        "@language": "en",
+        "@value": "direction"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkreferentie.element",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "element"
+      },
+      {
+        "@language": "en",
+        "@value": "element"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "http://todo.com/locatie",
+    "label": [
+      {
+        "@value": "locatie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "http://todo.com/Applicatie.meldingsapplicatie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "meldingsapplicatie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "http://todo.com/Melding.meldingsapplicatie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "meldingsapplicatie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#waardeverschaffer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "waardeverschaffer"
+      },
+      {
+        "@language": "en",
+        "@value": "valueProvider"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#geobserveerdObject",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdObject"
+      },
+      {
+        "@language": "en",
+        "@value": "observedObject"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "http://todo.com/leidtTot",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "leidtTot"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "http://todo.com/indiener",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "indiener"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "http://todo.com/behandelaar",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "behandelaar"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "http://todo.com/uitgevoerdeObservatie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdeObservatie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "http://todo.com/uitgevoerdMet",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdMet"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "http://todo.com/heeftContext",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftContext"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "http://todo.com/geeftContextAan",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geeftContextAan"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "http://todo.com/hostVan",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "hostVan"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "http://todo.com/gehostDoor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gehostDoor"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk#eindknoop",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eindknoop"
+      },
+      {
+        "@language": "en",
+        "@value": "endNode"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/netwerk/#beginknoop",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beginknoop"
+      },
+      {
+        "@language": "en",
+        "@value": "startNode"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/implementatiemodel/smart-innovation-factory/ontwerpstandaard/2025-06-04"
   }
 ]

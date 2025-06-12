@@ -3,7 +3,7 @@
   "uri": "https://data.test-vlaanderen.be/doc/applicatieprofiel/begraafplaatsenbeheer/ontwerpstandaard/toolchain4",
   "issued": "2021-09-30",
   "navigation": {
-    "prev": "/doc/applicatieprofiel/begraafplaatsenbeheer/standaard/2018-11-27",
+    "prev": "/doc/applicatieprofiel/begraafplaatsenbeheer/erkendestandaard/2021-09-30",
     "self": "https://data.test-vlaanderen.be/doc/applicatieprofiel/begraafplaatsenbeheer/ontwerpstandaard/toolchain4"
   },
   "documenttype": "ap",
@@ -25,7 +25,6 @@
     "http://www.opengis.net/ont/geosparql",
     "http://open.vocab.org/terms",
     "http://www.w3.org/ns/locn",
-    "http://todo.com",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -37,11 +36,11 @@
   "editors": 4,
   "contributors": 49,
   "participants": 54,
-  "classes": 50,
+  "classes": 51,
   "properties": 37,
   "externalclasses": 25,
-  "externalproperties": 32,
-  "totalterms": 144,
+  "externalproperties": 24,
+  "totalterms": 137,
   "totalorganisations": 33,
   "organisations": [
     {
@@ -1016,10 +1015,10 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#int",
         "label": [
           {
-            "@value": "Integer"
+            "@value": "int"
           }
         ]
       },
@@ -1028,6 +1027,17 @@
         "label": [
           {
             "@value": "Boolean"
+          },
+          {
+            "@value": "boolean"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
           }
         ]
       },
@@ -1321,7 +1331,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen.voorkomen",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#voorkomen",
         "label": [
           {
             "@language": "nl",
@@ -1330,7 +1340,16 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Deel.voorkomen",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#beheerder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beheerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#voorkomen",
         "label": [
           {
             "@language": "nl",
@@ -1339,25 +1358,34 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen.voorkomen",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#beheerder",
         "label": [
           {
             "@language": "nl",
-            "@value": "voorkomen"
+            "@value": "beheerder"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel.voorkomen",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#eigenaar",
         "label": [
           {
             "@language": "nl",
-            "@value": "voorkomen"
+            "@value": "eigenaar"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekObject.bevat",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#eigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eigenaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#bevat",
         "label": [
           {
             "@language": "nl",
@@ -1366,25 +1394,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Collectie.bevat",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bevat"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Element.heeftObstakel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft obstakel"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel.heeftObstakel",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#heeftObstakel",
         "label": [
           {
             "@language": "nl",
@@ -1831,78 +1841,6 @@
           {
             "@language": "nl",
             "@value": "beschikbaarheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Organisatie.beheerder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beheerder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Gebied.beheerder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beheerder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Organisatie.beheerder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beheerder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/FysiekObject.beheerder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beheerder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Organisatie.eigenaar",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eigenaar"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/FysiekObject.eigenaar",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eigenaar"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Organisatie.eigenaar",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eigenaar"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Gebied.eigenaar",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eigenaar"
           }
         ]
       }

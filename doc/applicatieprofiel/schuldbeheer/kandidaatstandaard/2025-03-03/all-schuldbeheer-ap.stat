@@ -1,14 +1,14 @@
 {
   "title": "OSLO Schuldbeheer - Applicatieprofiel",
   "uri": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03",
-  "issued": "2025-03-03",
+  "issued": "2025-05-15",
   "navigation": {
     "prev": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2024-09-05",
     "self": "https://data.test-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2025-03-03"
   },
   "documenttype": "ap",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-  "statuslabel": "Kandidaat Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/persoon",
     "http://www.w3.org/ns/person",
@@ -21,21 +21,19 @@
     "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://purl.org/dc/terms",
-    "https://data.vlaanderen.be/ns/dossier/",
     "https://schema.org",
     "http://www.w3.org/ns/adms",
-    "https://www.w3.org/TR/prov-o/",
     "http://www.w3.org/2001/XMLSchema"
   ],
   "authors": 3,
   "editors": 11,
   "contributors": 18,
   "participants": 32,
-  "classes": 44,
-  "properties": 81,
+  "classes": 45,
+  "properties": 80,
   "externalclasses": 23,
-  "externalproperties": 23,
-  "totalterms": 171,
+  "externalproperties": 24,
+  "totalterms": 172,
   "totalorganisations": 15,
   "organisations": [
     {
@@ -385,6 +383,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoonsrelatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Aanmaning",
         "label": [
           {
@@ -679,7 +686,7 @@
     ],
     "properties": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#startdatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Solvabiliteitsindicator.startdatum",
         "label": [
           {
             "@language": "nl",
@@ -688,7 +695,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#einddatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Solvabiliteitsindicator.einddatum",
         "label": [
           {
             "@language": "nl",
@@ -724,7 +731,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#wanbetaling",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Krediet.wanbetaling",
         "label": [
           {
             "@language": "nl",
@@ -733,7 +740,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#startdatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Solvabiliteitsindicatoprofiel.startdatum",
         "label": [
           {
             "@language": "nl",
@@ -742,7 +749,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#einddatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Solvabiliteitsprofiel.einddatum",
         "label": [
           {
             "@language": "nl",
@@ -760,7 +767,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#wanbetaling",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Schuldvordering.wanbetaling",
         "label": [
           {
             "@language": "nl",
@@ -778,7 +785,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/dossier/#Activiteit.einddatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#Activiteit.einddatum",
         "label": [
           {
             "@language": "nl",
@@ -805,7 +812,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#uitersteBetaaldatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Schuldvordering.uitersteBetaaldatum",
         "label": [
           {
             "@language": "nl",
@@ -823,7 +830,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#uitersteBetaaldatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Afbetalingsplanonderdeel.uitersteBetaaldatum",
         "label": [
           {
             "@language": "nl",
@@ -846,15 +853,6 @@
           {
             "@language": "nl",
             "@value": "toegekend door"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
           }
         ]
       },
@@ -1707,6 +1705,15 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/creator",
         "label": [
           {
@@ -1815,7 +1822,7 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/TR/prov-o/#wasStartedBy",
+        "assignedURI": "http://www.w3.org/ns/prov#wasStartedBy",
         "label": [
           {
             "@language": "nl",

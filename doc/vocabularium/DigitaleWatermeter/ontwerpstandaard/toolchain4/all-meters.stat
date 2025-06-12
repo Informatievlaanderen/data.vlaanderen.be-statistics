@@ -1,21 +1,22 @@
 {
-  "title": "OSLO Nutsvoorzieningen Meters (Vocabularium)",
+  "title": "Vocabularium Nutsvoorzieningen Meters",
   "uri": "https://data.test-vlaanderen.be/doc/vocabularium/DigitaleWatermeter/ontwerpstandaard/toolchain4",
-  "issued": "2024-06-14",
+  "issued": "2025-02-06",
   "navigation": {
     "prev": "/doc/vocabularium/DigitaleWatermeter/kandidaatstandaard/2024-08-30",
     "self": "https://data.test-vlaanderen.be/doc/vocabularium/DigitaleWatermeter/ontwerpstandaard/toolchain4"
   },
   "documenttype": "voc",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "statuslabel": "Ontwerp Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
   "namespaces": [
     "http://www.w3.org/2004/02/skos/core",
     "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
     "http://def.isotc211.org/iso19156/2011/Observation",
-    "http://qudt.org/schema/qudt",
+    "http://qudt.org/2.1/schema/qudt",
     "http://purl.org/dc/terms",
     "http://def.isotc211.org/iso19156/2011GeneralFeatureInstance",
+    "https://www.w3.org/ns/prov",
     "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters",
     "http://www.w3.org/ns/ssn",
     "http://def.isotc211.org/iso19156/2011/Measurement",
@@ -30,7 +31,8 @@
     "http://www.w3.org/ns/ssn/",
     "https://data.vlaanderen.be/ns/statistiek",
     "https://saref.etsi.org/saref4watr",
-    "http://data.europa.eu/it6",
+    "http://data.europa.eu/m8g",
+    "http://www.w3.org/ns/dcat",
     "https://qudt.org/schema/qudt",
     "http://www.w3.org/2006/time",
     "http://www.w3.org/2000/01/rdf-schema",
@@ -45,12 +47,12 @@
     "http://www.w3.org/ns/ssn/systems",
     "https://vocab.belgif.be/ns/generic",
     "http://purl.org/dc/elements/1.1",
+    "https://data.vlaanderen.be/ns/digitaleWatermeter",
+    "http://openml.org/openml",
     "http://todo.com",
-    "http://data.europa.eu/m8g",
     "http://def.isotc211.org/iso19103/2005/Names",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "https://www.w3.org/ns/prov",
     "https://data.vlaanderen.be/ns/netwerk",
     "http://def.isotc211.org/iso19156/2011/TimeSeriesObservation",
     "http://def.isotc211.org/iso19156/2011/TemporalCoverage",
@@ -58,23 +60,23 @@
     "http://www.opengis.net/ont/sf"
   ],
   "authors": 2,
-  "editors": 13,
+  "editors": 7,
   "contributors": 11,
-  "participants": 26,
-  "classes": 33,
-  "properties": 20,
-  "externalclasses": 79,
-  "externalproperties": 107,
-  "totalterms": 239,
-  "totalorganisations": 10,
+  "participants": 20,
+  "classes": 34,
+  "properties": 23,
+  "externalclasses": 80,
+  "externalproperties": 111,
+  "totalterms": 248,
+  "totalorganisations": 8,
   "organisations": [
     {
       "affiliation": "pidpa",
       "participants": 3
     },
     {
-      "affiliation": "vlaamsesmartdataspace",
-      "participants": 2
+      "affiliation": "digitaalvlaanderen",
+      "participants": 8
     },
     {
       "affiliation": "dewatergroep",
@@ -97,14 +99,6 @@
       "participants": 2
     },
     {
-      "affiliation": "digitaalvlaanderen",
-      "participants": 10
-    },
-    {
-      "affiliation": "imec",
-      "participants": 2
-    },
-    {
       "affiliation": "water-link",
       "participants": 1
     }
@@ -123,23 +117,11 @@
     ],
     "editors": [
       {
-        "name": "veerlebeyaert",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "rafbuyle",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
         "name": "jitsedecock",
         "affiliation": "digitaalvlaanderen"
       },
       {
         "name": "bendemeester",
-        "affiliation": "imec"
-      },
-      {
-        "name": "kimleemans",
         "affiliation": "digitaalvlaanderen"
       },
       {
@@ -148,7 +130,7 @@
       },
       {
         "name": "evarobbrecht",
-        "affiliation": "imec"
+        "affiliation": "digitaalvlaanderen"
       },
       {
         "name": "geertthijs",
@@ -156,22 +138,10 @@
       },
       {
         "name": "samuelvanackere",
-        "affiliation": "vlaamsesmartdataspace"
-      },
-      {
-        "name": "ziggyvanlishout",
         "affiliation": "digitaalvlaanderen"
       },
       {
         "name": "williamverbeeck",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "laurensvercauteren",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "evelinevlassenroot",
         "affiliation": "digitaalvlaanderen"
       }
     ],
@@ -182,7 +152,7 @@
       },
       {
         "name": "simonclaus",
-        "affiliation": "vlaamsesmartdataspace"
+        "affiliation": "digitaalvlaanderen"
       },
       {
         "name": "frankcoucke",
@@ -228,7 +198,7 @@
       },
       {
         "name": "simonclaus",
-        "affiliation": "vlaamsesmartdataspace"
+        "affiliation": "digitaalvlaanderen"
       },
       {
         "name": "frankcoucke",
@@ -267,23 +237,11 @@
         "affiliation": "farys"
       },
       {
-        "name": "veerlebeyaert",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "rafbuyle",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
         "name": "jitsedecock",
         "affiliation": "digitaalvlaanderen"
       },
       {
         "name": "bendemeester",
-        "affiliation": "imec"
-      },
-      {
-        "name": "kimleemans",
         "affiliation": "digitaalvlaanderen"
       },
       {
@@ -292,7 +250,7 @@
       },
       {
         "name": "evarobbrecht",
-        "affiliation": "imec"
+        "affiliation": "digitaalvlaanderen"
       },
       {
         "name": "geertthijs",
@@ -300,22 +258,10 @@
       },
       {
         "name": "samuelvanackere",
-        "affiliation": "vlaamsesmartdataspace"
-      },
-      {
-        "name": "ziggyvanlishout",
         "affiliation": "digitaalvlaanderen"
       },
       {
         "name": "williamverbeeck",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "laurensvercauteren",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "evelinevlassenroot",
         "affiliation": "digitaalvlaanderen"
       },
       {
@@ -498,7 +444,6 @@
       {},
       {},
       {},
-      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
         "label": [
@@ -508,6 +453,8 @@
           }
         ]
       },
+      {},
+      {},
       {},
       {},
       {},
@@ -547,7 +494,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "inbouwTijdstip"
+            "@value": "InbouwTijdstip"
           }
         ]
       },
@@ -557,6 +504,24 @@
           {
             "@language": "nl",
             "@value": "aantalMeters"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters#observaties",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "observaties"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters#model",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "model"
           }
         ]
       },
@@ -601,7 +566,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "inbouwDoor"
+            "@value": "gedeployedDoor"
           }
         ]
       },
@@ -642,7 +607,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters#diameter",
+        "assignedURI": "https://data.vlaanderen.be/ns/digitaleWatermeter#diameter",
         "label": [
           {
             "@language": "nl",
@@ -685,11 +650,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters#inbouwOp",
+        "assignedURI": "https://data.vlaanderen.be/ns/digitaleWatermeter#deployedOp",
         "label": [
           {
             "@language": "nl",
-            "@value": "inbouwOp"
+            "@value": "deployedOp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters#subaansluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "subaansluiting"
           }
         ]
       },
@@ -732,7 +706,7 @@
         ]
       },
       {
-        "assignedURI": "http://qudt.org/schema/qudt/Unit",
+        "assignedURI": "http://qudt.org/2.1/schema/qudt/Unit",
         "label": [
           {
             "@language": "nl",
@@ -768,6 +742,15 @@
         ]
       },
       {
+        "assignedURI": "https://www.w3.org/ns/prov#Collection",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Collectie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/ssn/Input",
         "label": [
           {
@@ -781,7 +764,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Meting (OSLO-Grondwatermeetnet)"
+            "@value": "Meting"
           }
         ]
       },
@@ -809,15 +792,6 @@
           {
             "@language": "nl",
             "@value": "Output"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Functietype"
           }
         ]
       },
@@ -1006,7 +980,7 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/it6/MachineLearningModel",
+        "assignedURI": "http://data.europa.eu/m8g/MachineLearningModel",
         "label": [
           {
             "@language": "en",
@@ -1015,6 +989,19 @@
           {
             "@language": "nl",
             "@value": "MachineLearning Model"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dcat#Dataset",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dataset"
+          },
+          {
+            "@language": "en",
+            "@value": "Dataset"
           }
         ]
       },
@@ -1172,15 +1159,6 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/ns/prov#Collection",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Collectie"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://saref.etsi.org/core/Device",
         "label": [
           {
@@ -1213,6 +1191,15 @@
           {
             "@language": "nl",
             "@value": "Toebehoren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Measurement#OM_Measurement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meting"
           }
         ]
       },
@@ -1691,7 +1678,7 @@
         ]
       },
       {
-        "assignedURI": "https://saref.etsi.org/saref4watr/operatesAtRadioFrequency",
+        "assignedURI": "https://saref.etsi.org/saref4watr/operatesAtRadiofrequency",
         "label": [
           {
             "@language": "nl",
@@ -1786,15 +1773,6 @@
           {
             "@language": "nl",
             "@value": "tot"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://saref.etsi.org/core/hasFunction",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "functie"
           }
         ]
       },
@@ -2181,7 +2159,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "geobserveerdObject"
+            "@value": "geobserveerdobject"
           }
         ]
       },
@@ -2204,7 +2182,7 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/it6/version",
+        "assignedURI": "http://openml.org/openml#version",
         "label": [
           {
             "@language": "nl",
@@ -2284,11 +2262,11 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/observaties",
+        "assignedURI": "http://www.w3.org/ns/ssn/implementedBy",
         "label": [
           {
             "@language": "nl",
-            "@value": "observaties"
+            "@value": "geïmplementeerdMet"
           }
         ]
       },
@@ -2302,11 +2280,29 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdeObservatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
         "label": [
           {
             "@language": "nl",
             "@value": "uitgevoerdMetSensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/observes",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "observeert"
           }
         ]
       },
@@ -2363,6 +2359,15 @@
         ]
       },
       {
+        "assignedURI": "http://todo.com/bevoorradingsgebied",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bevoorradingsgebied"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://todo.com/netwerk",
         "label": [
           {
@@ -2373,6 +2378,24 @@
       },
       {
         "assignedURI": "http://todo.com/inNetwerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inNetwerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/isVersionOf",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "is version of"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#inNetwerk",
         "label": [
           {
             "@language": "nl",
@@ -2418,15 +2441,39 @@
         ]
       },
       {
-        "affiliation": "vlaamsesmartdataspace",
+        "affiliation": "digitaalvlaanderen",
         "names": [
           {
             "name": "simonclaus",
-            "affiliation": "vlaamsesmartdataspace"
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "jitsedecock",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "bendemeester",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "isabautmartens",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "evarobbrecht",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "geertthijs",
+            "affiliation": "digitaalvlaanderen"
           },
           {
             "name": "samuelvanackere",
-            "affiliation": "vlaamsesmartdataspace"
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "williamverbeeck",
+            "affiliation": "digitaalvlaanderen"
           }
         ]
       },
@@ -2484,64 +2531,6 @@
           {
             "name": "ingeopreel",
             "affiliation": "farys"
-          }
-        ]
-      },
-      {
-        "affiliation": "digitaalvlaanderen",
-        "names": [
-          {
-            "name": "veerlebeyaert",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "rafbuyle",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "jitsedecock",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "kimleemans",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "isabautmartens",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "geertthijs",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "ziggyvanlishout",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "williamverbeeck",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "laurensvercauteren",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "evelinevlassenroot",
-            "affiliation": "digitaalvlaanderen"
-          }
-        ]
-      },
-      {
-        "affiliation": "imec",
-        "names": [
-          {
-            "name": "bendemeester",
-            "affiliation": "imec"
-          },
-          {
-            "name": "evarobbrecht",
-            "affiliation": "imec"
           }
         ]
       },

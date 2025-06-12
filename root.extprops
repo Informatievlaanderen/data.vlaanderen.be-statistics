@@ -265,7 +265,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "naam"
+        "@value": "titel"
       }
     ]
   },
@@ -283,7 +283,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "naam"
+        "@value": "titel"
       }
     ]
   },
@@ -337,7 +337,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "dag van de week"
+        "@value": "dag van week"
       }
     ]
   },
@@ -364,7 +364,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "voorkeursnaam"
+        "@value": "voorkeurslabel"
       }
     ]
   },
@@ -382,7 +382,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "aanschrijfvorm"
+        "@value": "aanschrijfprefix"
       }
     ]
   },
@@ -414,15 +414,6 @@
     ]
   },
   {
-    "assignedURI": "http://schema.org/faxNumber",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "fax"
-      }
-    ]
-  },
-  {
     "assignedURI": "http://xmlns.com/foaf/0.1/page",
     "label": [
       {
@@ -445,7 +436,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "inXSDDateTime"
+        "@value": "in XSD datumTijd"
       }
     ]
   },
@@ -562,7 +553,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "achternaam"
+        "@value": "familienaam"
       }
     ]
   },
@@ -571,7 +562,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "voornaam"
+        "@value": "gegeven naam"
       }
     ]
   },
@@ -616,7 +607,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "beschikbaarheid"
+        "@value": "uren beschikbaarheid"
       }
     ]
   },
@@ -643,7 +634,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "contactinfo"
+        "@value": "heeft contactpunt"
       }
     ]
   },
@@ -688,7 +679,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "contactinfo"
+        "@value": "contactpunt"
       }
     ]
   },
@@ -697,7 +688,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "geometrie"
+        "@value": "Geometrie van de plaats of het gebied."
       }
     ]
   },
@@ -706,7 +697,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "beschikbaarheid"
+        "@value": "uren beschikbaarheid"
       }
     ]
   },
@@ -742,7 +733,7 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "contactinfo"
+        "@value": "contactpunt"
       }
     ]
   },
@@ -774,10 +765,979 @@
     ]
   },
   {
-    "assignedURI": "http://todo.com/Participatie.agent",
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
     "label": [
       {
-        "@value": "Participatie.Agent"
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/issued",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend op"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "wkt"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gml"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasManufacturer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fabrikant"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasModel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "model"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "specificatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#locatorName",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "location name"
+      },
+      {
+        "@language": "nl",
+        "@value": "locatienaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#addressArea",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "address area"
+      },
+      {
+        "@language": "nl",
+        "@value": "adresgebied"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#postName",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "postal name"
+      },
+      {
+        "@language": "nl",
+        "@value": "postnaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "administrative unit level 2"
+      },
+      {
+        "@language": "nl",
+        "@value": "administratieve eenheid niveau 2"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "administrative unit level 1"
+      },
+      {
+        "@language": "nl",
+        "@value": "administratieve eenheid niveau 1"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#postCode",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "postal code"
+      },
+      {
+        "@language": "nl",
+        "@value": "postcode"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "full address"
+      },
+      {
+        "@language": "nl",
+        "@value": "volledig Adres"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#poBox",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "PObox"
+      },
+      {
+        "@language": "nl",
+        "@value": "postbus"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "street name"
+      },
+      {
+        "@language": "nl",
+        "@value": "straatnaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "location indication"
+      },
+      {
+        "@language": "nl",
+        "@value": "locatieaanduiding"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#geographicalName",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geografischeNaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://w3id.org/def/S4WATR#hasFabricationNumber",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftFabrieksnummer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasManufacturer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fabrikant"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://w3id.org/def/S4WATR#hasFirmwareVersion",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftFirmwareVersion"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://w3id.org/def/S4WATR#hasHardwareVersion",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftHardwareVersie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://w3id.org/def/S4WATR#hasVersion",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftVersie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasModel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "model"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/saref4watr/operatesAtRadioFrequency",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "werktopRadiofrequentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/saref4watr/requiresPower",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "vereistStroom"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@value": "deploymentReden"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/creator",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend door"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "parameter"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fenomeentijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasFunction",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "functie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdObject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdMetsensor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/observedProperty",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdKenmerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fenomeentijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/resultTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaattijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gebruikteProcedure"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "parameter"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasInput",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "input"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasOutput",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "output"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/resultQuality",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaatkwaliteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
+    "label": [
+      {
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/oms/metadata",
+    "label": [
+      {
+        "@value": "metadata"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#hasGeometry",
+    "label": [
+      {
+        "@value": "locatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/accomplishes",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "taak"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/oms/validTime",
+    "label": [
+      {
+        "@value": "geldigeTijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "parameter"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/resultTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaattijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/oms/metadata",
+    "label": [
+      {
+        "@value": "metadata"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdDoor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasInput",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "input"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasOutput",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "output"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "parameter"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/network#Node.geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#address",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "adres"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#Connection.appurtenanceType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toebehorentype"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#authorityRole",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "bevoegdePartij"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/elements/1.1/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "nutsvoorzieningnetwerktype"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#hasGeometry",
+    "label": [
+      {
+        "@value": "locatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#hasGeometry",
+    "label": [
+      {
+        "@value": "locatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasFunction",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "functie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@value": "deploymentTijdstip"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/observedProperty",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdKenmerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/memberOf",
+    "label": [
+      {
+        "@value": "isLidVan"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasMember",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftLid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/implementedBy",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geïmplementeerdMet"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/implements",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "implementeert"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/madeObservation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdeObservatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdMetSensor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gebruikteProcedure"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/actsOnProperty",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "aangestuurdKenmerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gebruikteProcedure"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdObject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "aangestuurdObject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://www.w3.org/ns/sosa/hosts",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "hostVan"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/isHostedBy",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gehostDoor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@value": "geassocieerdeHost"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#network",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "netwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/implementedBy",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geïmplementeerdMet"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/implements",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "implementeert"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/madeActuation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdeAansturing"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/madeByActuator",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdMetAansturingssysteem"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/deployedSystem",
+    "label": [
+      {
+        "@value": "deployedSysteem"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasDeployment",
+    "label": [
+      {
+        "@value": "heeftDeployment"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/deployedOnPlatform",
+    "label": [
+      {
+        "@value": "host"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/inDeployment",
+    "label": [
+      {
+        "@value": "deployment"
       }
     ]
   },
@@ -1794,6 +2754,775 @@
     ]
   },
   {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend door (String)"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/issued",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend op"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "voorkeursnaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasManufacturer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fabrikant"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasModel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "model"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#validFrom",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geldigVan"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#validTo",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geldigTot"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#geographicalName",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geografischeNaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://w3id.org/def/S4WATR#hasFabricationNumber",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftFabrieksnummer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://w3id.org/def/S4WATR#hasFirmwareVersion",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftFirmwareVersion"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://w3id.org/def/S4WATR#hasHardwareVersion",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftHardwareVersie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://w3id.org/def/S4WATR#hasVersion",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftVersie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/saref4watr/operatesAtRadioFrequency",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "werktopRadiofrequentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/saref4watr/requiresPower",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "vereistStroom"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "in XSD datumTijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasManufacturer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fabrikant"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasModel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "model"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deploymentReden"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/identifier",
+    "label": [
+      {
+        "@value": "indentificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/identifier",
+    "label": [
+      {
+        "@value": "indentificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/creator",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend door"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "parameter"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fenomeentijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaattijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.validTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geldigeTijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaatkwaliteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/contactPoint",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "contactinfo"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/contactPoint",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "contactinfo"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasFunction",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "functie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#verticalPositionDetail",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "verticalePositiedetail"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#currentStatus",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "huidigeStatus"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/elements/1.1/relation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "documentatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#Connection.appurtenanceType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toebehorentype"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/network#Node.geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.verticalPosition",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "verticalePositie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.visibility",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "zichtbaarheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.risk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "risico"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.appearance",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uiterlijk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#authorityRole",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "bevoegdePartij"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/elements/1.1/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "nutsvoorzieningnetwerktype"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#address",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "adres"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdObject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdObject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#geometrie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#identificator",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "oriëntatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "tot"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "van"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#gebruiker",
+    "label": [
+      {
+        "@value": "gebruiker"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#leverancier",
+    "label": [
+      {
+        "@value": "leverancier"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#type",
+    "label": [
+      {
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasFunction",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "functie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/accomplishes",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "taak"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "capaciteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/hasOperatingRange",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "werkingsbereik"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSurvivalRange",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "overlevingsbereik"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#hasGeometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "locatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deploymentTijdstip"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geassocieerdeObservatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdKenmerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "inNetwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdObject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdMetSensor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#network",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "netwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#element",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "element"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#inNetwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "inNetwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#node",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "knoop"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://www.w3.org/ns/sosa/hosts",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "hostVan"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/isHostedBy",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gehostDoor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geassocieerdeHost"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/deployedSystem",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deployedSysteem"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasDeployment",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftDeployment"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/deployedOnPlatform",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "host"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/inDeployment",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deployment"
+      }
+    ]
+  },
+  {
     "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
     "label": [
       {
@@ -2451,6 +4180,375 @@
     ]
   },
   {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "wkt"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gml"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/issued",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend op"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/value",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "waarde"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "titel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "titel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "titel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "naam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://data.europa.eu/eli/ontology#date_publication",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "publicatiedatum"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://data.europa.eu/eli/ontology#title",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "titel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "in XSD datumTijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#hasEDTFDateTimeDescription",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "in EDTF"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#hasEDTFDateTimeDescription",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "in EDTF"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/creator",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend door"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend door (String)"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/unitCode",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eenheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/lifecycle/schema#state",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "planstatus"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/lifecycle/schema#state",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "planelementstatus"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/lifecycle/schema#state",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/lifecycle/schema#state",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/lifecycle/schema#state",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P180_has_currency",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "valuta"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "tot"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "van"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/relation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "patrimoniumperceel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/relation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "planperceel"
+      }
+    ]
+  },
+  {
     "assignedURI": "http://purl.org/dc/terms/title",
     "label": [
       {
@@ -2510,6 +4608,15 @@
       {
         "@language": "nl",
         "@value": "registratie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
       }
     ]
   },
@@ -2649,11 +4756,746 @@
     ]
   },
   {
-    "assignedURI": "https://www.w3.org/TR/prov-o/#wasStartedBy",
+    "assignedURI": "http://www.w3.org/ns/prov#wasStartedBy",
     "label": [
       {
         "@language": "nl",
         "@value": "werd gestart door"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasManufacturer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fabrikant"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasModel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "model"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "naam"
+      },
+      {
+        "@language": "en",
+        "@value": "naam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deploymentReden"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://data.europa.eu/it6/version",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "versie"
+      },
+      {
+        "@language": "en",
+        "@value": "version"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/created",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "creatiedatum"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://openml.org/openml#collectionDate",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "collectieDatum"
+      },
+      {
+        "@language": "en",
+        "@value": "collectionDate"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/description",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beschrijving"
+      },
+      {
+        "@language": "en",
+        "@value": "description"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      },
+      {
+        "@language": "en",
+        "@value": "identifier"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/dcat#keyword",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "keyword"
+      },
+      {
+        "@language": "nl",
+        "@value": "sleutelwoord"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "title"
+      },
+      {
+        "@language": "nl",
+        "@value": "titel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2002/07/owl#versionInfo",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "version info"
+      },
+      {
+        "@language": "nl",
+        "@value": "versieInfo"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://openml.org/openml#versionLabel",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "versionLabel"
+      },
+      {
+        "@language": "nl",
+        "@value": "versieLabel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "parameter"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fenomeentijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasFunction",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "functie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasInput",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "input"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasOutput",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "output"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/accomplishes",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "taak"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "capaciteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/hasOperatingRange",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "werkingsbereik"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSurvivalRange",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "overlevingsbereik"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#hasGeometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "locatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deploymentTijdstip"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdObject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdMetSensor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/observedProperty",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdKenmerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fenomeentijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/resultTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaatTijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gebruikteProcedure"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/CategoryObservation#OM_CategoryObservation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/GeometryObservation#OM_GeometryObservation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Measurement#OM_Measurement.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/accessRights",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegangsrechten"
+      },
+      {
+        "@language": "en",
+        "@value": "access rights"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/isReferencedBy",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "is referenced by"
+      },
+      {
+        "@language": "nl",
+        "@value": "gerefereerdDoor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/issued",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "release date"
+      },
+      {
+        "@language": "nl",
+        "@value": "uitgegeven"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/dcat#landingPage",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "landing page"
+      },
+      {
+        "@language": "nl",
+        "@value": "startpagina"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#status",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      },
+      {
+        "@language": "en",
+        "@value": "status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://openml.org/openml#access_policy",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "visibility"
+      },
+      {
+        "@language": "nl",
+        "@value": "Zichtbaarheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://data.europa.eu/it6/trainedOn",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "getraindOp"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/observedProperty",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdKenmerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/implementedBy",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geïmplementeerdMet"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/implements",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "implementeert"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/madeObservation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdeObservatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdMetSensor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gebruikteProcedure"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdObject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/relatedObservation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geassocieerdeObservatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://www.w3.org/ns/sosa/hosts",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "hostVan"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/isHostedBy",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gehostDoor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geassocieerdeHost"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/deployedSystem",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deployedSysteem"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasDeployment",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftDeployment"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/deployedOnPlatform",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "host"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/inDeployment",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deployment"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/relatedObservation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geassocieerdeVerzameling"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/memberOf",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "isLidVan"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasMember",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftLid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/elements/relation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geassocieerdMet"
       }
     ]
   },
@@ -3304,6 +6146,671 @@
       {
         "@language": "en",
         "@value": "perfomedWith"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "voorkeursnaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://data.europa.eu/m8g/startTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "begin"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://data.europa.eu/m8g/endTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "einde"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "titel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "als GML"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "als WKT"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/description",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beschrijving"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/unitText",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eenheidtekst"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.mobivoc.org/#totalCapacity",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "totale capaciteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/openingHours",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "openingsuren"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/description",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beschrijving"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/unitText",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eenheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beschrijving"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/unitText",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eenheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "administratieve eenheid niveau 1"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/dayOfWeek",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "dag van week"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/validThrough",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geldig tot"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/validFrom",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geldig van"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/closes",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gesloten"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/opens",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "open"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "alternatieve label"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/description",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beschrijving"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/dcat#keyword",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "trefwoord"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "administratieve eenheid niveau 2"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#addressArea",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "adresgebied"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "plaatsnaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "huisnummer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "locatieaanduiding"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#locatorName",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "locatienaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#poBox",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "postbus"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#postCode",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "postcode"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#postName",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "postnaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "straatnaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "volledig adres"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/description",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beschrijving"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "aanschrijfprefix"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://xmlns.com/foaf/0.1/name",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "naam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/email",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "email"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/faxNumber",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "faxnummer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/openingHours",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "openingsuren"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/telephone",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "telefoon"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://xmlns.com/foaf/0.1/page",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "pagina"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/ContactPoint",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "contactinfo"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/spatial",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "werkingsgebied"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/unitCode",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eenheidcode"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/value",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "waarde"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "voertuigtype"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "periode"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Voertuigtype"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/unitCode",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "standaardeenheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/value",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "waarde"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/unitCode",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "standaardeenheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/value",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "waarde"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/language",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "taal"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#status",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/spatial",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "ruimtelijke dekking"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://data.europa.eu/m8g/hasContactPoint",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeft contactpunt"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/org#siteAddress",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "adres"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/ContactPoint",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "contactinfo"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#address",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "adres"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/hoursAvailable",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uren beschikbaarheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/cpsv",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Infrastructuurreservatiedienst"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://data.europa.eu/m8g/hasCompetentAuthority",
+    "label": [
+      {
+        "@value": "heeftVerantwoordelijke"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/cpsv",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "infrastructuurReservatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/cpsv",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "infrastructuur"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/cpsv",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Infrastructuurreservatiedienst"
       }
     ]
   },
@@ -4159,6 +7666,249 @@
       {
         "@language": "nl",
         "@value": "verwijst naar"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "schema agentschap"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/issued",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgegeven"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gml"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "wkt"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/description",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beschrijving"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://www.w3.org/ns/activitystreams#attachment",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "bijlage"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://www.w3.org/ns/activitystreams#summary",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "samenvatting"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "titel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/description",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beschrijving"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasManufacturer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fabrikant"
+      },
+      {
+        "@language": "en",
+        "@value": "manufacturer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasModel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "model"
+      },
+      {
+        "@language": "en",
+        "@value": "model"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "notatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "notatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/creator",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "maker"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/oa#motivatedBy",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "meldingstype"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fenomeenTijd"
+      },
+      {
+        "@language": "en",
+        "@value": "phenomenonTime"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      },
+      {
+        "@language": "en",
+        "@value": "result"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaatkwaliteit"
+      },
+      {
+        "@language": "en",
+        "@value": "resultQuality"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaattijd"
+      },
+      {
+        "@language": "en",
+        "@value": "resultTime"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/elements/1.1/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "rijstrooktype"
+      },
+      {
+        "@language": "en",
+        "@value": "laneType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasFunction",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "functie"
+      },
+      {
+        "@language": "en",
+        "@value": "function"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/accomplishes",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "taak"
+      },
+      {
+        "@language": "en",
+        "@value": "task"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://www.w3.org/ns/org#reportsTo",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Rapporteert Aan"
       }
     ]
   },
@@ -6120,6 +9870,775 @@
     ]
   },
   {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend door (String)"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/issued",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend op"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "voorkeursnaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasManufacturer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fabrikant"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasModel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "model"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#validFrom",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geldigVan"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#validTo",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geldigTot"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#geographicalName",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geografischeNaam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://w3id.org/def/S4WATR#hasFabricationNumber",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftFabrieksnummer"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://w3id.org/def/S4WATR#hasFirmwareVersion",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftFirmwareVersion"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://w3id.org/def/S4WATR#hasHardwareVersion",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftHardwareVersie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://w3id.org/def/S4WATR#hasVersion",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftVersie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/saref4watr/operatesAtRadioFrequency",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "werktopRadiofrequentie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/saref4watr/requiresPower",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "vereistStroom"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "in XSD datumTijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasManufacturer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fabrikant"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasModel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "model"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deploymentReden"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/identifier",
+    "label": [
+      {
+        "@value": "indentificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/identifier",
+    "label": [
+      {
+        "@value": "indentificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/creator",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend door"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "parameter"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fenomeentijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaattijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.validTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geldigeTijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaatkwaliteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/contactPoint",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "contactinfo"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://schema.org/contactPoint",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "contactinfo"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasFunction",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "functie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#verticalPositionDetail",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "verticalePositiedetail"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#currentStatus",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "huidigeStatus"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/elements/1.1/relation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "documentatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#Connection.appurtenanceType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toebehorentype"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/network#Node.geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.verticalPosition",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "verticalePositie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.visibility",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "zichtbaarheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.risk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "risico"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.appearance",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uiterlijk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#authorityRole",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "bevoegdePartij"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/elements/1.1/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "nutsvoorzieningnetwerktype"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#address",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "adres"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdObject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdObject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#geometrie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#identificator",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "oriëntatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "tot"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "van"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#gebruiker",
+    "label": [
+      {
+        "@value": "gebruiker"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#leverancier",
+    "label": [
+      {
+        "@value": "leverancier"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#type",
+    "label": [
+      {
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasFunction",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "functie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/accomplishes",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "taak"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "capaciteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/hasOperatingRange",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "werkingsbereik"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSurvivalRange",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "overlevingsbereik"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#hasGeometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "locatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deploymentTijdstip"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geassocieerdeObservatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdKenmerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "inNetwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdObject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdMetSensor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#network",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "netwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#element",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "element"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#inNetwerk",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "inNetwerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://vocab.belgif.be/ns/utility-services#node",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "knoop"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://www.w3.org/ns/sosa/hosts",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "hostVan"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/isHostedBy",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gehostDoor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geassocieerdeHost"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/deployedSystem",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deployedSysteem"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasDeployment",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftDeployment"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/deployedOnPlatform",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "host"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/inDeployment",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deployment"
+      }
+    ]
+  },
+  {
     "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
     "label": [
       {
@@ -7452,6 +11971,24 @@
     ]
   },
   {
+    "assignedURI": "http://purl.org/dc/terms/issued",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend op"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
     "assignedURI": "https://schema.org/value",
     "label": [
       {
@@ -7497,11 +12034,371 @@
     ]
   },
   {
-    "assignedURI": "http://data.europa.eu/eli/ontology#description",
+    "assignedURI": "http://data.europa.eu/eli/ontology#date_publication",
     "label": [
       {
         "@language": "nl",
-        "@value": "beschrijving"
+        "@value": "publicatiedatum"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://data.europa.eu/eli/ontology#title",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "titel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "in XSD datumTijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#hasEDTFDateTimeDescription",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "in EDTF"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#hasEDTFDateTimeDescription",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "in EDTF"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/creator",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend door"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend door (String)"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/unitCode",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eenheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/lifecycle/schema#state",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "planstatus"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/lifecycle/schema#state",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "planelementstatus"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/lifecycle/schema#state",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/lifecycle/schema#state",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/lifecycle/schema#state",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P180_has_currency",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "valuta"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "tot"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "van"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/relation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "patrimoniumperceel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/relation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "planperceel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "wkt"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gml"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/issued",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend op"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/value",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "waarde"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "titel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "titel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "titel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "naam"
       }
     ]
   },
@@ -7524,6 +12421,33 @@
     ]
   },
   {
+    "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "in XSD datumTijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#hasEDTFDateTimeDescription",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "in EDTF"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#hasEDTFDateTimeDescription",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "in EDTF"
+      }
+    ]
+  },
+  {
     "assignedURI": "http://www.w3.org/ns/locn#geometry",
     "label": [
       {
@@ -7538,6 +12462,51 @@
       {
         "@language": "nl",
         "@value": "geometrie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/creator",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend door"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegekend door (String)"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://schema.org/unitCode",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "eenheid"
       }
     ]
   },
@@ -7556,15 +12525,6 @@
       {
         "@language": "nl",
         "@value": "geometrie"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://todo.com/lineaireReferentie",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "lineaireReferentie"
       }
     ]
   },
@@ -7587,15 +12547,6 @@
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/ns/locn#geometry",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "geometrie"
-      }
-    ]
-  },
-  {
     "assignedURI": "http://www.w3.org/ns/adms#Identifier",
     "label": [
       {
@@ -7632,29 +12583,110 @@
     ]
   },
   {
-    "assignedURI": "http://purl.org/dc/terms/isPartOf",
+    "assignedURI": "http://purl.org/vocab/lifecycle/schema#state",
     "label": [
       {
         "@language": "nl",
-        "@value": "deelVan"
+        "@value": "planstatus"
       }
     ]
   },
   {
-    "assignedURI": "http://purl.org/dc/terms/isPartOf",
+    "assignedURI": "http://purl.org/dc/terms/type",
     "label": [
       {
         "@language": "nl",
-        "@value": "deelVan"
+        "@value": "type"
       }
     ]
   },
   {
-    "assignedURI": "http://purl.org/dc/terms/isPartOf",
+    "assignedURI": "http://purl.org/vocab/lifecycle/schema#state",
     "label": [
       {
         "@language": "nl",
-        "@value": "deelVan"
+        "@value": "planelementstatus"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/lifecycle/schema#state",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/lifecycle/schema#state",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/vocab/lifecycle/schema#state",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P180_has_currency",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "valuta"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "tot"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "van"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/relation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "patrimoniumperceel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/relation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "planperceel"
       }
     ]
   },
@@ -7718,6 +12750,15 @@
       {
         "@language": "nl",
         "@value": "registratie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
       }
     ]
   },
@@ -7857,7 +12898,7 @@
     ]
   },
   {
-    "assignedURI": "https://www.w3.org/TR/prov-o/#wasStartedBy",
+    "assignedURI": "http://www.w3.org/ns/prov#wasStartedBy",
     "label": [
       {
         "@language": "nl",
@@ -8303,6 +13344,741 @@
       {
         "@language": "nl",
         "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasManufacturer",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fabrikant"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasModel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "model"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "naam"
+      },
+      {
+        "@language": "en",
+        "@value": "naam"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deploymentReden"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://data.europa.eu/it6/version",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "versie"
+      },
+      {
+        "@language": "en",
+        "@value": "version"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/created",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "creatiedatum"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://openml.org/openml#collectionDate",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "collectieDatum"
+      },
+      {
+        "@language": "en",
+        "@value": "collectionDate"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/description",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "beschrijving"
+      },
+      {
+        "@language": "en",
+        "@value": "description"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      },
+      {
+        "@language": "en",
+        "@value": "identifier"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/dcat#keyword",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "keyword"
+      },
+      {
+        "@language": "nl",
+        "@value": "sleutelwoord"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/title",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "title"
+      },
+      {
+        "@language": "nl",
+        "@value": "titel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2002/07/owl#versionInfo",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "version info"
+      },
+      {
+        "@language": "nl",
+        "@value": "versieInfo"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://openml.org/openml#versionLabel",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "versionLabel"
+      },
+      {
+        "@language": "nl",
+        "@value": "versieLabel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "parameter"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fenomeentijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/hasFunction",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "functie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasInput",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "input"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasOutput",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "output"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "identificator"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/accomplishes",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "taak"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "capaciteit"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/hasOperatingRange",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "werkingsbereik"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSurvivalRange",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "overlevingsbereik"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.opengis.net/ont/geosparql#hasGeometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "locatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deploymentTijdstip"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdObject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdMetSensor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/observedProperty",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdKenmerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "fenomeentijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/resultTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaatTijd"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gebruikteProcedure"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/CategoryObservation#OM_CategoryObservation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/GeometryObservation#OM_GeometryObservation.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Measurement#OM_Measurement.result",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "resultaat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/type",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/accessRights",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "toegangsrechten"
+      },
+      {
+        "@language": "en",
+        "@value": "access rights"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/isReferencedBy",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "is referenced by"
+      },
+      {
+        "@language": "nl",
+        "@value": "gerefereerdDoor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/issued",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "release date"
+      },
+      {
+        "@language": "nl",
+        "@value": "uitgegeven"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/dcat#landingPage",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "landing page"
+      },
+      {
+        "@language": "nl",
+        "@value": "startpagina"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#status",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      },
+      {
+        "@language": "en",
+        "@value": "status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://openml.org/openml#access_policy",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "visibility"
+      },
+      {
+        "@language": "nl",
+        "@value": "Zichtbaarheid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://data.europa.eu/it6/trainedOn",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "getraindOp"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/observedProperty",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdKenmerk"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/implementedBy",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geïmplementeerdMet"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/implements",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "implementeert"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/madeObservation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdeObservatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "uitgevoerdMetSensor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gebruikteProcedure"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geobserveerdObject"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/relatedObservation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geassocieerdeObservatie"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://www.w3.org/ns/sosa/hosts",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "hostVan"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/isHostedBy",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "gehostDoor"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://fixme.com/",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geassocieerdeHost"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/deployedSystem",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deployedSysteem"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasDeployment",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftDeployment"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/deployedOnPlatform",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "host"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/inDeployment",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "deployment"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/relatedObservation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geassocieerdeVerzameling"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/memberOf",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "isLidVan"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/hasMember",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "heeftLid"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://purl.org/dc/elements/relation",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geassocieerdMet"
       }
     ]
   },

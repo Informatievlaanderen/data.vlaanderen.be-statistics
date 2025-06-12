@@ -29,6 +29,7 @@
     "http://schema.org",
     "http://www.w3.org/ns/adms",
     "http://ww.w3.org/2006/vcard/ns",
+    "https://purl.org/vocab/cpsv",
     "http://todo.com",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema"
@@ -38,10 +39,10 @@
   "contributors": 10,
   "participants": 17,
   "classes": 13,
-  "properties": 19,
+  "properties": 21,
   "externalclasses": 32,
-  "externalproperties": 53,
-  "totalterms": 117,
+  "externalproperties": 56,
+  "totalterms": 122,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -493,11 +494,29 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/FeitelijkeVerenigingen#dientIn",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dientIn"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/FeitelijkeVerenigingen#vraagtAan",
         "label": [
           {
             "@language": "nl",
             "@value": "vraagtAan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/FeitelijkeVerenigingen#heeftVertegenwoordiger",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftVertegenwoordiger"
           }
         ]
       },
@@ -1240,11 +1259,38 @@
         ]
       },
       {
+        "assignedURI": "https://purl.org/vocab/cpsv#produces",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "produceert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isSuborganisatieVan"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/org#hasSubOrganization",
         "label": [
           {
             "@language": "nl",
             "@value": "heeftSuborganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is suborganisatie van"
           }
         ]
       },
