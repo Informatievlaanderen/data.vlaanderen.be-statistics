@@ -12,12 +12,13 @@
     "https://data.vlaanderen.be/ns/thermai",
     "http://www.w3.org/ns/sosa",
     "https://www.w3.org/ns/sosa",
-    "http://dbpedia.org/resource",
     "http://www.w3.org/ns/sosa/oms",
-    "http://www.w3.org/2000/01/rdf-schema",
     "https://saref.etsi.org/core",
     "http://www.w3.org/ns/ssn",
+    "https://data.vlaanderen.be/ns/energiehuis",
+    "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/gebouw",
+    "https://data.vlaanderen.be/ns/adres",
     "http://def.isotc211.org/iso19156/2011/CategoryObservation",
     "http://def.isotc211.org/iso19156/2011/GeometryObservation",
     "http://def.isotc211.org/iso19156/2011/Measurement",
@@ -25,35 +26,35 @@
     "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL",
     "http://data.europa.eu/it6",
     "http://www.w3.org/ns/dcat",
+    "http://www.w3.org/ns/ssn/systems",
+    "http://www.w3.org/2004/02/skos/core",
+    "https://qudt.org/schema/qudt",
+    "http://www.cidoc-crm.org/cidoc-crm",
+    "http://www.w3.org/2006/time",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
-    "http://purl.org/dc/terms",
     "http://fixme.com",
+    "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/ns/locn",
     "http://openml.org/openml",
     "http://www.w3.org/2002/07/owl",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
     "http://www.w3.org/ns/adms",
-    "http://www.w3.org/ns/ssn/systems",
-    "http://www.opengis.net/ont/geosparql",
-    "http://purl.org/dc/elements",
-    "https://data.vlaanderen.be/ns",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2001/XMLSchema",
-    "http://todo.com",
-    "http://www.w3.org/2004/02/skos/core",
-    "http://www.w3.org/2006/time",
-    "https://data.vlaanderen.be/ns/energiehuis",
-    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://def.isotc211.org/iso19156/2011/Observation",
+    "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse",
     "http://xmlns.com/foaf/0.1"
   ],
   "authors": 2,
   "editors": 5,
   "contributors": 4,
   "participants": 11,
-  "classes": 27,
-  "properties": 13,
-  "externalclasses": 62,
-  "externalproperties": 75,
-  "totalterms": 177,
+  "classes": 30,
+  "properties": 20,
+  "externalclasses": 67,
+  "externalproperties": 102,
+  "totalterms": 219,
   "totalorganisations": 5,
   "organisations": [
     {
@@ -195,6 +196,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/thermai#Camera",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Camera"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/thermai#Opstelling",
         "label": [
           {
@@ -209,6 +219,15 @@
           {
             "@language": "nl",
             "@value": "Domeinobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#Kenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kenmerk"
           }
         ]
       },
@@ -231,65 +250,27 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyseBenoemdeWaarde",
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres",
         "label": [
           {
             "@language": "nl",
-            "@value": "BenoemdeWaarde"
+            "@value": "Adres"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyseSysteemvermogen",
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Systeemvermogen"
+            "@value": "Literal"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyseWerkingsgebied",
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Werkingsgebied"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyseOverlevingscapaciteit",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Overlevingscapaciteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyseMaat",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Maat"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyseRightsStatement",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "RechtenStatement"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyseTemporalLiteral",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "TemporalLiteral"
+            "@value": "DateTime"
           }
         ]
       },
@@ -313,14 +294,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
-        "label": [
-          {
-            "@value": "Literal"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
         "label": [
           {
@@ -328,6 +301,14 @@
           }
         ]
       },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
       {},
       {},
       {},
@@ -338,11 +319,50 @@
       {},
       {},
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#Kenmerk",
+        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse#MachineLearningModeltype",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Kenmerk"
+            "@value": "MachineLearningModeltype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse#Videotype",
+        "label": [
+          {
+            "@value": "Videotype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse#Fototype",
+        "label": [
+          {
+            "@value": "Fototype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse#Elementtype",
+        "label": [
+          {
+            "@value": "Elementtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse#Gebouwtype",
+        "label": [
+          {
+            "@value": "Gebouwtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse#Gebouweenheidttype",
+        "label": [
+          {
+            "@value": "Gebouweenheidttype"
           }
         ]
       }
@@ -372,6 +392,60 @@
           {
             "@language": "nl",
             "@value": "laatste renovatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Input.referentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Output.referentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentie"
           }
         ]
       },
@@ -464,6 +538,15 @@
             "@value": "bestaatUit"
           }
         ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#verwijstNaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwijst naar"
+          }
+        ]
       }
     ],
     "externalclasses": [
@@ -486,15 +569,6 @@
         ]
       },
       {
-        "assignedURI": "http://dbpedia.org/resource/Camera",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Camera"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/Property",
         "label": [
           {
@@ -513,11 +587,20 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "assignedURI": "http://www.w3.org/ns/sosa/FeatureOfInterest",
         "label": [
           {
             "@language": "nl",
-            "@value": "Any"
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/Function",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Functie"
           }
         ]
       },
@@ -540,6 +623,15 @@
         ]
       },
       {
+        "assignedURI": "https://saref.etsi.org/core/Task",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taak"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://www.w3.org/ns/sosa/Platform",
         "label": [
           {
@@ -554,6 +646,15 @@
           {
             "@language": "nl",
             "@value": "Deployment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
           }
         ]
       },
@@ -606,8 +707,7 @@
         "assignedURI": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBuilding",
         "label": [
           {
-            "@language": "nl",
-            "@value": "IFCGebouw"
+            "@value": "BIM_Gebouw"
           }
         ]
       },
@@ -615,8 +715,7 @@
         "assignedURI": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcElement",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Element"
+            "@value": "BIM_Element"
           }
         ]
       },
@@ -624,7 +723,6 @@
         "assignedURI": "https://schema.org/VideoObject",
         "label": [
           {
-            "@language": "nl",
             "@value": "Video"
           }
         ]
@@ -646,17 +744,191 @@
         "assignedURI": "http://www.w3.org/ns/dcat#Dataset",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Dataset"
-          },
-          {
             "@language": "en",
             "@value": "Dataset"
           }
         ]
       },
       {
-        "assignedURI": "http://todo.com/Observatie",
+        "assignedURI": "http://www.w3.org/ns/ssn/Input",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Input"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/Output",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Output"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/SystemProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeemkenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/SystemCapacity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeemvermogen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/OperatingRange",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Werkingsbereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/OperatingProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Werkingskenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/SurvivalRange",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Overlevingscapaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/SurvivalProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Overlevingskenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/RightsStatement",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Rights statement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Concept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://qudt.org/schema/qudt/Unit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+        "label": [
+          {
+            "@value": "Informatieobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/Condition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Conditie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://qudt.org/schema/qudt/QuantityValue",
+        "label": [
+          {
+            "@value": "KwantitatieveWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Observation",
         "label": [
           {
             "@value": "Observatie"
@@ -664,7 +936,7 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Sensor",
+        "assignedURI": "https://www.w3.org/ns/sosa/Sensor",
         "label": [
           {
             "@value": "Sensor"
@@ -672,7 +944,7 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Toestel",
+        "assignedURI": "https://saref.etsi.org/core/Device",
         "label": [
           {
             "@value": "Toestel"
@@ -680,7 +952,7 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Platform",
+        "assignedURI": "https://www.w3.org/ns/sosa/Platform",
         "label": [
           {
             "@value": "Platform"
@@ -715,7 +987,7 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Informatieobject",
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
         "label": [
           {
             "@value": "Informatieobject"
@@ -723,46 +995,29 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "DomeinobjectType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "TemporeleEntiteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://saref.etsi.org/core/Function",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Functie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "TypeInput"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
-            "@value": "TypeOutput"
+            "@language": "nl",
+            "@value": "Domeinobjecttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BenoemdeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Any"
           }
         ]
       },
@@ -776,24 +1031,6 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Identificator"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
@@ -803,25 +1040,7 @@
         ]
       },
       {
-        "assignedURI": "https://saref.etsi.org/core/Task",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Taak"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Toesteltype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
@@ -830,7 +1049,7 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
@@ -839,37 +1058,11 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/GeometrieType",
-        "label": [
-          {
-            "@value": "GeometrieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "TemporeleEntiteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "MachineLearningModeltype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Address",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Adresvoorstelling"
+            "@value": "TypeKenmerk"
           }
         ]
       },
@@ -901,32 +1094,7 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/FeatureOfInterest",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Object"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/ObserveerbaarKenmerk",
-        "label": [
-          {
-            "@value": "ObserveerbaarKenmerk"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Observatieprocedure",
-        "label": [
-          {
-            "@value": "Observatieprocedure"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
@@ -935,82 +1103,10 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ObservatieCollectieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Videotype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Fototype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Elementtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gebouwtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gebouweenheidttype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
-        "label": [
-          {
-            "@value": "Resource"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://xmlns.com/foaf/0.1/Document",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Document"
+            "@value": "ObservatieCollectietype"
           }
         ]
       },
@@ -1019,12 +1115,66 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Concept"
+            "@value": "InputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OutputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Temporal Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/Document",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Document"
           }
         ]
       }
     ],
     "externalproperties": [
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inXSDDateTime"
+          }
+        ]
+      },
       {
         "assignedURI": "https://saref.etsi.org/core/hasManufacturer",
         "label": [
@@ -1088,12 +1238,116 @@
         ]
       },
       {
-        "assignedURI": "http://openml.org/openml#collectionDate",
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
         "label": [
           {
             "@language": "nl",
-            "@value": "collectieDatum"
-          },
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledig adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#poBox",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postbus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatieaanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatienaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#addressArea",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adresgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 2"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 1"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://openml.org/openml#collectionDate",
+        "label": [
           {
             "@language": "en",
             "@value": "collectionDate"
@@ -1104,10 +1358,6 @@
         "assignedURI": "http://purl.org/dc/terms/description",
         "label": [
           {
-            "@language": "nl",
-            "@value": "beschrijving"
-          },
-          {
             "@language": "en",
             "@value": "description"
           }
@@ -1117,12 +1367,17 @@
         "assignedURI": "http://purl.org/dc/terms/identifier",
         "label": [
           {
-            "@language": "nl",
-            "@value": "identificator"
-          },
-          {
             "@language": "en",
             "@value": "identifier"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "release date"
           }
         ]
       },
@@ -1132,10 +1387,6 @@
           {
             "@language": "en",
             "@value": "keyword"
-          },
-          {
-            "@language": "nl",
-            "@value": "sleutelwoord"
           }
         ]
       },
@@ -1145,10 +1396,6 @@
           {
             "@language": "en",
             "@value": "title"
-          },
-          {
-            "@language": "nl",
-            "@value": "titel"
           }
         ]
       },
@@ -1158,10 +1405,6 @@
           {
             "@language": "en",
             "@value": "version info"
-          },
-          {
-            "@language": "nl",
-            "@value": "versieInfo"
           }
         ]
       },
@@ -1171,10 +1414,14 @@
           {
             "@language": "en",
             "@value": "versionLabel"
-          },
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://qudt.org/schema/qudt/value",
+        "label": [
           {
-            "@language": "nl",
-            "@value": "versieLabel"
+            "@value": "waarde"
           }
         ]
       },
@@ -1184,6 +1431,15 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door"
           }
         ]
       },
@@ -1251,6 +1507,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tot"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/adms#identifier",
         "label": [
           {
@@ -1265,6 +1530,15 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "van"
           }
         ]
       },
@@ -1346,6 +1620,24 @@
           {
             "@language": "nl",
             "@value": "deploymentTijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
           }
         ]
       },
@@ -1503,41 +1795,29 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/accessRights",
         "label": [
           {
-            "@language": "nl",
-            "@value": "toegangsrechten"
-          },
-          {
             "@language": "en",
             "@value": "access rights"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/isReferencedBy",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "is referenced by"
-          },
-          {
-            "@language": "nl",
-            "@value": "gerefereerdDoor"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/issued",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "release date"
-          },
-          {
-            "@language": "nl",
-            "@value": "uitgegeven"
           }
         ]
       },
@@ -1547,20 +1827,12 @@
           {
             "@language": "en",
             "@value": "landing page"
-          },
-          {
-            "@language": "nl",
-            "@value": "startpagina"
           }
         ]
       },
       {
         "assignedURI": "http://www.w3.org/ns/adms#status",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "status"
-          },
           {
             "@language": "en",
             "@value": "status"
@@ -1573,10 +1845,6 @@
           {
             "@language": "en",
             "@value": "visibility"
-          },
-          {
-            "@language": "nl",
-            "@value": "Zichtbaarheid"
           }
         ]
       },
@@ -1584,8 +1852,69 @@
         "assignedURI": "http://data.europa.eu/it6/trainedOn",
         "label": [
           {
-            "@language": "nl",
             "@value": "getraindOp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://qudt.org/schema/qudt/hasUnit",
+        "label": [
+          {
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSystemProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/inCondition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "conditie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/hasOperatingProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/inCondition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "conditie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSurvivalProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/inCondition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "conditie"
           }
         ]
       },
@@ -1649,15 +1978,6 @@
           {
             "@language": "nl",
             "@value": "geobserveerdObject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/relatedObservation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geassocieerdeObservatie"
           }
         ]
       },
@@ -1748,15 +2068,6 @@
           {
             "@language": "nl",
             "@value": "heeftLid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/elements/relation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geassocieerdMet"
           }
         ]
       }

@@ -4185,16 +4185,6 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
-    "assignedURI": "http://dbpedia.org/resource/Camera",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Camera"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
     "assignedURI": "http://www.w3.org/ns/sosa/Property",
     "label": [
       {
@@ -4215,11 +4205,21 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
-    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+    "assignedURI": "http://www.w3.org/ns/sosa/FeatureOfInterest",
     "label": [
       {
         "@language": "nl",
-        "@value": "Any"
+        "@value": "Object"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "https://saref.etsi.org/core/Function",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Functie"
       }
     ],
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
@@ -4245,6 +4245,16 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
+    "assignedURI": "https://saref.etsi.org/core/Task",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Taak"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
     "assignedURI": "https://www.w3.org/ns/sosa/Platform",
     "label": [
       {
@@ -4260,6 +4270,16 @@
       {
         "@language": "nl",
         "@value": "Deployment"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/Agent",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Agent"
       }
     ],
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
@@ -4318,8 +4338,7 @@
     "assignedURI": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBuilding",
     "label": [
       {
-        "@language": "nl",
-        "@value": "IFCGebouw"
+        "@value": "BIM_Gebouw"
       }
     ],
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
@@ -4328,8 +4347,7 @@
     "assignedURI": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcElement",
     "label": [
       {
-        "@language": "nl",
-        "@value": "Element"
+        "@value": "BIM_Element"
       }
     ],
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
@@ -4338,7 +4356,6 @@
     "assignedURI": "https://schema.org/VideoObject",
     "label": [
       {
-        "@language": "nl",
         "@value": "Video"
       }
     ],
@@ -4362,10 +4379,6 @@
     "assignedURI": "http://www.w3.org/ns/dcat#Dataset",
     "label": [
       {
-        "@language": "nl",
-        "@value": "Dataset"
-      },
-      {
         "@language": "en",
         "@value": "Dataset"
       }
@@ -4373,7 +4386,205 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
-    "assignedURI": "http://todo.com/Observatie",
+    "assignedURI": "http://www.w3.org/ns/ssn/Input",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Input"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/Output",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Output"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/SystemProperty",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Systeemkenmerk"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/SystemCapacity",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Systeemvermogen"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/OperatingRange",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Werkingsbereik"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/OperatingProperty",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Werkingskenmerk"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/SurvivalRange",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Overlevingscapaciteit"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/SurvivalProperty",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Overlevingskenmerk"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/RightsStatement",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "Rights statement"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "Concept"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "https://qudt.org/schema/qudt/Unit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Eenheid"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+    "label": [
+      {
+        "@value": "Informatieobject"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/ssn/systems/Condition",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Conditie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Identificator"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#Instant",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Moment"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "TemporeleEntiteit"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Periode"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Geometrie"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#Address",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Adresvoorstelling"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "https://qudt.org/schema/qudt/QuantityValue",
+    "label": [
+      {
+        "@value": "KwantitatieveWaarde"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/sosa/Observation",
     "label": [
       {
         "@value": "Observatie"
@@ -4382,7 +4593,7 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
-    "assignedURI": "http://todo.com/Sensor",
+    "assignedURI": "https://www.w3.org/ns/sosa/Sensor",
     "label": [
       {
         "@value": "Sensor"
@@ -4391,7 +4602,7 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
-    "assignedURI": "http://todo.com/Toestel",
+    "assignedURI": "https://saref.etsi.org/core/Device",
     "label": [
       {
         "@value": "Toestel"
@@ -4400,7 +4611,7 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
-    "assignedURI": "http://todo.com/Platform",
+    "assignedURI": "https://www.w3.org/ns/sosa/Platform",
     "label": [
       {
         "@value": "Platform"
@@ -4439,7 +4650,7 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
-    "assignedURI": "http://todo.com/Informatieobject",
+    "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
     "label": [
       {
         "@value": "Informatieobject"
@@ -4448,50 +4659,31 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "DomeinobjectType"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "TemporeleEntiteit"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "https://saref.etsi.org/core/Function",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Functie"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "TypeInput"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
     "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
     "label": [
       {
-        "@value": "TypeOutput"
+        "@language": "nl",
+        "@value": "Domeinobjecttype"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "BenoemdeWaarde"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Any"
       }
     ],
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
@@ -4507,26 +4699,6 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
-    "assignedURI": "http://purl.org/dc/terms/Agent",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Agent"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Identificator"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
     "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
     "label": [
       {
@@ -4537,27 +4709,7 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
-    "assignedURI": "https://saref.etsi.org/core/Task",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Taak"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Toesteltype"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#",
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
     "label": [
       {
         "@language": "nl",
@@ -4567,7 +4719,7 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#",
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
     "label": [
       {
         "@language": "nl",
@@ -4577,40 +4729,11 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
-    "assignedURI": "http://todo.com/GeometrieType",
-    "label": [
-      {
-        "@value": "GeometrieType"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
     "label": [
       {
         "@language": "nl",
-        "@value": "TemporeleEntiteit"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "MachineLearningModeltype"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/ns/locn#Address",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Adresvoorstelling"
+        "@value": "TypeKenmerk"
       }
     ],
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
@@ -4646,35 +4769,7 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
-    "assignedURI": "http://www.w3.org/ns/sosa/FeatureOfInterest",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Object"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://todo.com/ObserveerbaarKenmerk",
-    "label": [
-      {
-        "@value": "ObserveerbaarKenmerk"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://todo.com/Observatieprocedure",
-    "label": [
-      {
-        "@value": "Observatieprocedure"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#",
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
     "label": [
       {
         "@language": "nl",
@@ -4684,90 +4779,10 @@
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
   },
   {
-    "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
     "label": [
       {
-        "@language": "nl",
-        "@value": "Geometrie"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "ObservatieCollectieType"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Videotype"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Fototype"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Elementtype"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Gebouwtype"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Gebouweenheidttype"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
-    "label": [
-      {
-        "@value": "Resource"
-      }
-    ],
-    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
-  },
-  {
-    "assignedURI": "http://xmlns.com/foaf/0.1/Document",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Document"
+        "@value": "ObservatieCollectietype"
       }
     ],
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
@@ -4777,7 +4792,37 @@
     "label": [
       {
         "@language": "nl",
-        "@value": "Concept"
+        "@value": "InputType"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "OutputType"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "Temporal Literal"
+      }
+    ],
+    "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
+  },
+  {
+    "assignedURI": "http://xmlns.com/foaf/0.1/Document",
+    "label": [
+      {
+        "@language": "en",
+        "@value": "Document"
       }
     ],
     "spec": "https://data.test-vlaanderen.be/doc/applicatieprofiel/thermografische-gebouwanalyse/ontwerpstandaard/2025-05-22"
