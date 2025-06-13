@@ -10,26 +10,25 @@
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
     "http://purl.org/dc/terms",
-    "http://www.w3.org/ns/sosa",
     "http://www.w3.org/ns/ssn",
-    "http://www.w3.org/2004/02/skos/core",
-    "http://www.w3.org/ns/sosa/oms",
     "https://www.w3.org/ns/sosa",
-    "http://fixme.com",
-    "https://saref.etsi.org/core",
     "https://vocab.belgif.be/ns/utility-services",
+    "http://www.w3.org/ns/sosa",
+    "https://data.vlaanderen.be/ns/adres",
+    "http://www.w3.org/ns/sosa/oms",
+    "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
+    "https://saref.etsi.org/core",
+    "http://www.w3.org/2004/02/skos/core",
     "http://www.opengis.net/ont/geosparql",
+    "http://fixme.com",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
     "http://www.w3.org/ns/locn",
-    "https://data.vlaanderen.be/ns/adres",
-    "https://w3id.org/def/S4WATR",
-    "https://saref.etsi.org/saref4watr",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
     "http://www.w3.org/ns/adms",
     "https://fixme.com",
     "https://vocab.belgif.be/ns/network",
     "http://purl.org/dc/elements/1.1",
-    "http://todo.com",
+    "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2001/XMLSchema",
@@ -41,10 +40,10 @@
   "contributors": 12,
   "participants": 20,
   "classes": 12,
-  "properties": 13,
-  "externalclasses": 50,
-  "externalproperties": 106,
-  "totalterms": 181,
+  "properties": 12,
+  "externalclasses": 53,
+  "externalproperties": 103,
+  "totalterms": 180,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -276,6 +275,15 @@
     ],
     "classes": [
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Belgisch Adres"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
         "label": [
           {
@@ -323,16 +331,7 @@
       {},
       {},
       {},
-      {},
-      {
-        "assignedURI": "http://todo.com/Adres",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Belgisch Adres"
-          }
-        ]
-      }
+      {}
     ],
     "properties": [
       {
@@ -446,7 +445,7 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/afleverpunt",
+        "assignedURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters#afleverpunt",
         "label": [
           {
             "@language": "nl",
@@ -455,20 +454,11 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Meter.verbruiksadres",
+        "assignedURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters#Meter.verbruiksadres",
         "label": [
           {
             "@language": "nl",
             "@value": "verbruiksadres"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/inNetwerk",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "inNetwerk"
           }
         ]
       }
@@ -480,6 +470,33 @@
           {
             "@language": "nl",
             "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/System",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/sosa/Platform",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Platform"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Appurtenance",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toebehoren"
           }
         ]
       },
@@ -502,6 +519,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Procedure"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/ssn/Input",
         "label": [
           {
@@ -516,33 +542,6 @@
           {
             "@language": "nl",
             "@value": "Output"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatieproceduretype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Systeemtype"
           }
         ]
       },
@@ -583,15 +582,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Aansturingstype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/Property",
         "label": [
           {
@@ -610,28 +600,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Aansturingsproceduretype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Toebehorentype"
-          },
-          {
-            "@language": "en",
-            "@value": "AppurtenanceTypeValue"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/FeatureOfInterest",
         "label": [
           {
@@ -641,11 +609,20 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_DomainFeature",
         "label": [
           {
             "@language": "nl",
             "@value": "Domeinobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/Function",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Functie"
           }
         ]
       },
@@ -659,24 +636,20 @@
         ]
       },
       {
+        "assignedURI": "https://saref.etsi.org/core/Task",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taak"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/ssn/System",
         "label": [
           {
             "@language": "nl",
             "@value": "Systeem"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "UtilityNetworkTypeValue"
-          },
-          {
-            "@language": "nl",
-            "@value": "Nutsvoorzieningnetwerktype"
           }
         ]
       },
@@ -699,29 +672,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Functietype"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#Connection",
         "label": [
           {
             "@language": "nl",
             "@value": "Aansluiting"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Afleverpunttype"
           }
         ]
       },
@@ -766,6 +721,15 @@
           {
             "@language": "nl",
             "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://fixme.com/",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BenoemdeWaarde"
           }
         ]
       },
@@ -837,15 +801,6 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "BenoemdeWaarde"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
         "label": [
           {
@@ -868,15 +823,6 @@
         "label": [
           {
             "@value": "ObservatieCollectietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://saref.etsi.org/core/Function",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Functie"
           }
         ]
       },
@@ -908,20 +854,82 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Agent"
+            "@value": "Observatietype"
           }
         ]
       },
       {
-        "assignedURI": "https://saref.etsi.org/core/Task",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Taak"
+            "@value": "Observatieproceduretype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aansturingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeemtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aansturingsproceduretype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toebehorentype"
+          },
+          {
+            "@language": "en",
+            "@value": "AppurtenanceTypeValue"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "UtilityNetworkTypeValue"
+          },
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieningnetwerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Afleverpunttype"
           }
         ]
       },
@@ -931,6 +939,15 @@
           {
             "@language": "nl",
             "@value": "Platformtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Functietype"
           }
         ]
       }
@@ -987,6 +1004,15 @@
           {
             "@language": "nl",
             "@value": "model"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://fixme.com/",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
           }
         ]
       },
@@ -1147,15 +1173,6 @@
         ]
       },
       {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasFabricationNumber",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftFabrieksnummer"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://saref.etsi.org/core/hasManufacturer",
         "label": [
           {
@@ -1165,56 +1182,11 @@
         ]
       },
       {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasFirmwareVersion",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftFirmwareVersion"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasHardwareVersion",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftHardwareVersie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasVersion",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftVersie"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://saref.etsi.org/core/hasModel",
         "label": [
           {
             "@language": "nl",
             "@value": "model"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://saref.etsi.org/saref4watr/operatesAtRadioFrequency",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "werktopRadiofrequentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://saref.etsi.org/saref4watr/requiresPower",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vereistStroom"
           }
         ]
       },
@@ -1348,6 +1320,15 @@
           {
             "@language": "nl",
             "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://fixme.com/",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
           }
         ]
       },
@@ -1878,6 +1859,15 @@
           {
             "@language": "nl",
             "@value": "uitgevoerdMetAansturingssysteem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#inNetwork",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inNetwerk"
           }
         ]
       },
