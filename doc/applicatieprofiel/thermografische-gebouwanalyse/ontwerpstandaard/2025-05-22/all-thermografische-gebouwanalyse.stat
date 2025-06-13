@@ -9,10 +9,12 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "statuslabel": "Kandidaat Standaard",
   "namespaces": [
-    "https://data.vlaanderen.be/ns/thermai",
+    "https://data.vlaanderen.be/ns/nodem-en-ondergrond",
     "http://www.w3.org/ns/sosa",
+    "http://dbpedia.org/resource",
     "https://www.w3.org/ns/sosa",
     "http://www.w3.org/ns/sosa/oms",
+    "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
     "https://saref.etsi.org/core",
     "http://www.w3.org/ns/ssn",
     "https://data.vlaanderen.be/ns/energiehuis",
@@ -50,9 +52,9 @@
   "editors": 5,
   "contributors": 4,
   "participants": 11,
-  "classes": 30,
+  "classes": 26,
   "properties": 20,
-  "externalclasses": 67,
+  "externalclasses": 71,
   "externalproperties": 102,
   "totalterms": 219,
   "totalorganisations": 5,
@@ -178,47 +180,11 @@
     ],
     "classes": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermai#Interpretatie",
+        "assignedURI": "https://data.vlaanderen.be/ns/nodem-en-ondergrond#Interpretatie",
         "label": [
           {
             "@language": "nl",
             "@value": "Interpretatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermai#GPS",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "GPS"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermai#Camera",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Camera"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermai#Opstelling",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Opstelling"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermai#DomeinObject",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Domeinobject"
           }
         ]
       },
@@ -560,11 +526,38 @@
         ]
       },
       {
+        "assignedURI": "http://dbpedia.org/resource/Satellite_navigation_device",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GNSS Ontvanger"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://www.w3.org/ns/sosa/Sensor",
         "label": [
           {
             "@language": "nl",
             "@value": "Sensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://dbpedia.org/resource/Camera",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Camera"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://dbpedia.org/resource/Construction",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Opstelling"
           }
         ]
       },
@@ -592,6 +585,15 @@
           {
             "@language": "nl",
             "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_DomainFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobject"
           }
         ]
       },
