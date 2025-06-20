@@ -17,7 +17,6 @@
     "http://xmlns.com/foaf/0.1",
     "http://www.cidoc-crm.org/cidoc-crm",
     "http://data.europa.eu/m8g/",
-    "http://todo.com",
     "http://www.opengis.net/ont/geosparql",
     "https://schema.org",
     "http://schema.mobivoc.org/",
@@ -25,9 +24,11 @@
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/ns/dcat",
     "http://www.w3.org/2000/01/rdf-schema",
+    "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/2006/vcard/ns",
     "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren",
     "http://www.w3.org/ns/adms",
+    "http://www.w3.org/ns/org",
     "http://purl.org/vocab",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/ns/prov",
@@ -40,8 +41,8 @@
   "classes": 21,
   "properties": 50,
   "externalclasses": 39,
-  "externalproperties": 75,
-  "totalterms": 185,
+  "externalproperties": 74,
+  "totalterms": 184,
   "totalorganisations": 10,
   "organisations": [
     {
@@ -269,7 +270,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "infrastructuurreservatiedienst"
+            "@value": "Infrastructuurreservatiedienst"
           }
         ]
       },
@@ -453,9 +454,10 @@
     ],
     "properties": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#annuleringsvoorwaarden",
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#annuleringsvoorwaarden",
         "label": [
           {
+            "@language": "nl",
             "@value": "annuleringsvoorwaarden"
           }
         ]
@@ -488,11 +490,29 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Capaciteit.beschrijving",
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#busnummer",
         "label": [
           {
             "@language": "nl",
-            "@value": "beschrijving"
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
           }
         ]
       },
@@ -628,15 +648,6 @@
           {
             "@language": "nl",
             "@value": "dimensie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.eigenaar",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eigenaar"
           }
         ]
       },
@@ -825,7 +836,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Infrastructuurreservatiestatustype"
+            "@value": "infrastructuurreservatiestatustype"
           }
         ]
       },
@@ -891,15 +902,6 @@
             "@value": "subinfrastructuur"
           }
         ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#dienstverlening",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Infrastructuurreservatiedienst"
-          }
-        ]
       }
     ],
     "externalclasses": [
@@ -917,7 +919,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Publieke organisatie"
+            "@value": "Publieke Organisatie"
           }
         ]
       },
@@ -1142,7 +1144,7 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/StandaardEenheid",
+        "assignedURI": "https://schema.org/unitCode",
         "label": [
           {
             "@language": "nl",
@@ -1254,14 +1256,14 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Contactpunt"
+            "@value": "contactpunt"
           }
         ]
       }
     ],
     "externalproperties": [
       {
-        "assignedURI": "http://todo.com/voorkeursnaam",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "label": [
           {
             "@language": "nl",
@@ -1347,6 +1349,15 @@
           {
             "@language": "nl",
             "@value": "openingsuren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
           }
         ]
       },
@@ -1486,38 +1497,11 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Adresvoorstelling.busnummer",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "busnummer"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/gemeentenaam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gemeentenaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Adresvoorstelling.huisnummer",
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
         "label": [
           {
             "@language": "nl",
             "@value": "huisnummer"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/land",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "land"
           }
         ]
       },
@@ -1585,7 +1569,7 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/beschrijving",
+        "assignedURI": "http://purl.org/dc/terms/description",
         "label": [
           {
             "@language": "nl",
@@ -1666,11 +1650,11 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/contactinfo",
+        "assignedURI": "http://schema.org/ContactPoint",
         "label": [
           {
             "@language": "nl",
-            "@value": "Contactinfo"
+            "@value": "contactinfo"
           }
         ]
       },
@@ -1684,7 +1668,7 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/werkingsgebied",
+        "assignedURI": "http://purl.org/dc/terms/spatial",
         "label": [
           {
             "@language": "nl",
@@ -1864,7 +1848,7 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/adres",
+        "assignedURI": "http://www.w3.org/ns/org#siteAddress",
         "label": [
           {
             "@language": "nl",
@@ -1873,7 +1857,7 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/contactinfo",
+        "assignedURI": "http://schema.org/ContactPoint",
         "label": [
           {
             "@language": "nl",
@@ -1909,9 +1893,10 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/heeftVerantwoordelijke",
+        "assignedURI": "http://data.europa.eu/m8g/hasCompetentAuthority",
         "label": [
           {
+            "@language": "nl",
             "@value": "heeftVerantwoordelijke"
           }
         ]
@@ -1921,16 +1906,25 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "InfrastructuurReservatie"
+            "@value": "infrastructuurReservatie"
           }
         ]
       },
       {
-        "assignedURI": "http://todo.com/infrastructuur",
+        "assignedURI": "http://purl.org/vocab/cpsv",
         "label": [
           {
             "@language": "nl",
             "@value": "infrastructuur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infrastructuurreservatiedienst"
           }
         ]
       }
