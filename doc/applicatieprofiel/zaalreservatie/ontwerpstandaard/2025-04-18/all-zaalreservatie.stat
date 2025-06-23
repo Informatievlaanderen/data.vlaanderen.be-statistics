@@ -30,6 +30,7 @@
     "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/ns/org",
+    "http://purl.org/vocab/cpsv",
     "http://purl.org/vocab",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/ns/prov",
@@ -39,11 +40,11 @@
   "editors": 7,
   "contributors": 9,
   "participants": 23,
-  "classes": 21,
+  "classes": 22,
   "properties": 50,
-  "externalclasses": 38,
-  "externalproperties": 73,
-  "totalterms": 182,
+  "externalclasses": 39,
+  "externalproperties": 74,
+  "totalterms": 185,
   "totalorganisations": 10,
   "organisations": [
     {
@@ -467,7 +468,8 @@
             "@value": "Time"
           }
         ]
-      }
+      },
+      {}
     ],
     "properties": [
       {
@@ -894,7 +896,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#infrastructuur",
         "label": [
           {
             "@language": "nl",
@@ -1265,6 +1267,15 @@
           {
             "@language": "nl",
             "@value": "Contactpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#PublicService",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Publieke Dienstverlening"
           }
         ]
       }
@@ -1883,7 +1894,7 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/vocab/cpsv",
+        "assignedURI": "http://purl.org/vocab/cpsv#physicallyAvailableAt",
         "label": [
           {
             "@language": "nl",
@@ -1897,6 +1908,24 @@
           {
             "@language": "nl",
             "@value": "heeftVerantwoordelijke"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#physicallyAvailableAt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reservatiedienst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#produces",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "produceert"
           }
         ]
       },
@@ -1915,15 +1944,6 @@
           {
             "@language": "nl",
             "@value": "infrastructuur"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/vocab/cpsv",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Infrastructuurreservatiedienst"
           }
         ]
       }
