@@ -1,0 +1,2095 @@
+{
+  "title": "Vocabularium Zaalreservatie",
+  "uri": "https://data.vlaanderen.be/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18",
+  "issued": "2025-04-23",
+  "navigation": {
+    "self": "https://data.vlaanderen.be/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18"
+  },
+  "documenttype": "voc",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
+  "namespaces": [
+    "http://purl.org/dc/terms",
+    "http://data.europa.eu/m8g",
+    "http://www.w3.org/2004/02/skos/core",
+    "https://data.vlaanderen.be/ns/zaalreservatie",
+    "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur",
+    "http://xmlns.com/foaf/0.1",
+    "http://www.cidoc-crm.org/cidoc-crm",
+    "http://data.europa.eu/m8g/",
+    "http://www.opengis.net/ont/geosparql",
+    "https://schema.org",
+    "http://schema.mobivoc.org/",
+    "http://schema.org",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/ns/dcat",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "https://data.vlaanderen.be/ns/adres",
+    "http://www.w3.org/2006/vcard/ns",
+    "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/ns/org",
+    "http://purl.org/vocab/cpsv",
+    "http://purl.org/vocab",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/ns/prov",
+    "http://www.w3.org/2001/XMLSchema"
+  ],
+  "authors": 7,
+  "editors": 7,
+  "contributors": 9,
+  "participants": 23,
+  "classes": 22,
+  "properties": 50,
+  "externalclasses": 39,
+  "externalproperties": 74,
+  "totalterms": 185,
+  "totalorganisations": 10,
+  "organisations": [
+    {
+      "affiliation": "stadmechelen",
+      "participants": 2
+    },
+    {
+      "affiliation": "agentschapfacilitairbedrijf",
+      "participants": 1
+    },
+    {
+      "affiliation": "eyeondata",
+      "participants": 1
+    },
+    {
+      "affiliation": "autonoomgemeentebedrijfdigipolisantwerpen",
+      "participants": 1
+    },
+    {
+      "affiliation": "vera",
+      "participants": 1
+    },
+    {
+      "affiliation": "pixeo",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadbrugge",
+      "participants": 1
+    },
+    {
+      "affiliation": "lokaalbestuurmortsel",
+      "participants": 3
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 10
+    },
+    {
+      "affiliation": "stadleuven",
+      "participants": 2
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "stijnheitzmann",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "dannylievens",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "karinpeeters",
+        "affiliation": "lokaalbestuurmortsel"
+      },
+      {
+        "name": "janissevenis",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "simonvanderelst",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "pieter-janvanorshoven",
+        "affiliation": "lokaalbestuurmortsel"
+      },
+      {
+        "name": "saarverhoogen",
+        "affiliation": "stadleuven"
+      }
+    ],
+    "editors": [
+      {
+        "name": "yarondassonneville",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jitsedecock",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "elsdevleeschauwer",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "isabautmartens",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "alexanderpotloot",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "dylanvanassche",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "liesbaarendse",
+        "affiliation": "stadmechelen"
+      },
+      {
+        "name": "nielsbroodcoorens",
+        "affiliation": "agentschapfacilitairbedrijf"
+      },
+      {
+        "name": "landerdufour",
+        "affiliation": "eyeondata"
+      },
+      {
+        "name": "lucfillée",
+        "affiliation": "stadmechelen"
+      },
+      {
+        "name": "thomasgottmann",
+        "affiliation": "autonoomgemeentebedrijfdigipolisantwerpen"
+      },
+      {
+        "name": "rubenhuylenbroeck",
+        "affiliation": "vera"
+      },
+      {
+        "name": "koenmertens",
+        "affiliation": "pixeo"
+      },
+      {
+        "name": "stijnmissaen",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "lievewauteraerts",
+        "affiliation": "lokaalbestuurmortsel"
+      }
+    ],
+    "participants": [
+      {
+        "name": "liesbaarendse",
+        "affiliation": "stadmechelen"
+      },
+      {
+        "name": "nielsbroodcoorens",
+        "affiliation": "agentschapfacilitairbedrijf"
+      },
+      {
+        "name": "landerdufour",
+        "affiliation": "eyeondata"
+      },
+      {
+        "name": "lucfillée",
+        "affiliation": "stadmechelen"
+      },
+      {
+        "name": "thomasgottmann",
+        "affiliation": "autonoomgemeentebedrijfdigipolisantwerpen"
+      },
+      {
+        "name": "rubenhuylenbroeck",
+        "affiliation": "vera"
+      },
+      {
+        "name": "koenmertens",
+        "affiliation": "pixeo"
+      },
+      {
+        "name": "stijnmissaen",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "lievewauteraerts",
+        "affiliation": "lokaalbestuurmortsel"
+      },
+      {
+        "name": "yarondassonneville",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jitsedecock",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "elsdevleeschauwer",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "isabautmartens",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "alexanderpotloot",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "dylanvanassche",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "stijnheitzmann",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "dannylievens",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "karinpeeters",
+        "affiliation": "lokaalbestuurmortsel"
+      },
+      {
+        "name": "janissevenis",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "simonvanderelst",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "pieter-janvanorshoven",
+        "affiliation": "lokaalbestuurmortsel"
+      },
+      {
+        "name": "saarverhoogen",
+        "affiliation": "stadleuven"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Infrastructuurreservatiedienst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infrastructuurreservatiedienst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Infrastructuurreservatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infrastructuurreservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Faciliteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Faciliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infrastructuur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebruik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Eigenaarschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Eigenaarschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Binnenruimte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Binnenruimte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Buitenruimte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Buitenruimte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Voertuigtype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Voertuigtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Infrastructuurreservatiestatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infrastructuurreservatiestatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Bereikbaarheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bereikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Beschikbaarheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Capaciteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Capaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Toegankelijkheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegankelijkheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Plaatsbeschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plaatsbeschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "LangString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          },
+          {
+            "@value": "string"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#time",
+        "label": [
+          {
+            "@value": "Time"
+          }
+        ]
+      },
+      {}
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#annuleringsvoorwaarden",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "annuleringsvoorwaarden"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Bereikbaarheid.laasteOpenbaarVervoer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "laatste openbaar vervoer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Bereikbaarheid.mobiscore",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "mobiscore"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.naam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#busnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#tijdstip",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#tijdstip",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Reservatie.gereserveerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gereserveerd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Reservatie.gereserveerdVoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gereserveerd voor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Reservatie.periode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#parkeercapaciteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parkeercapaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Faciliteit.document",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "document"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Faciliteit.gebruiker",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruiker"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Beschikbaarheid.gebruiker",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruiker"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.bereikbaarheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bereikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.beschikbaarheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.capaciteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "capaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.contactpersoon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactpersoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.dimensie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dimensie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.faciliteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "faciliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.gebruik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.locatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.openstelling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "openstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.toegankelijkheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegankelijkheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik.exclusiviteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "exclusiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik.gebruiker",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruiker"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Buitenruimte.verbondenAan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verbonden aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik.periode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Gebruik.voorwaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Eigenaarschap.eigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eigenaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren#Gebruik.activiteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Toegankelijkheid.niveau",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "niveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#onderdeel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderdeel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Buitenruimte.verbondenAan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verbonden aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.eigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eigenaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#buffer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "buffer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.openingsuren",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opneningsuren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "infrastructuurreservatiestatustype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.toegang",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegang"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#veiligheidsvereisten",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "veiligheidsvereisten"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#plaatsbeschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaatsbeschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#bijlage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bijlage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#infrastructuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "infrastructuur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#superInfrastructuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "superinfrastructuur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.subinfrastructuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "subinfrastructuur"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PublicOrganisation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Publieke Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ToegankelijkheidType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "StatusType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebruiktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/Document",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Document"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openstellingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infrastructuurtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Buitenruimtetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Binnenruimtetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "infrastructuurreservatiestatustype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Diensttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Faciliteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Exclusiviteitstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Activiteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Capaciteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Eigenaarschapstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/#Criterion",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Criterion"
+          },
+          {
+            "@language": "nl",
+            "@value": "Criterium"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dimensietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegankelijkheidsniveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegankelijkheidsonderdeel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Standaard Eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Number",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwantitatieve Waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dimensie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/OpeningHoursSpecification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openingsurenspecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.mobivoc.org/#Capacity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Parkeercapaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geografische naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#PublicService",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Publieke Dienstverlening"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/startTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begin"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "titel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "als GML"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "als WKT"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitText",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheidtekst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.mobivoc.org/#totalCapacity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "totale capaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/openingHours",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "openingsuren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitText",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitText",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 1"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/dayOfWeek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dag van week"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/validThrough",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldig tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/validFrom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldig van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/closes",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gesloten"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/opens",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "open"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve label"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dcat#keyword",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "trefwoord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 2"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#addressArea",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adresgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaatsnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatieaanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatienaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#poBox",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postbus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledig adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanschrijfprefix"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/email",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "email"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/faxNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "faxnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/openingHours",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "openingsuren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/telephone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telefoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/page",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "pagina"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/spatial",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "werkingsgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheidcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voertuigtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaardeenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaardeenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/spatial",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ruimtelijke dekking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft contactpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#siteAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/hoursAvailable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uren beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#physicallyAvailableAt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reservatiedienst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasCompetentAuthority",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftVerantwoordelijke"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#physicallyAvailableAt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reservatiedienst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#produces",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "produceert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "infrastructuur"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "stadmechelen",
+        "names": [
+          {
+            "name": "liesbaarendse",
+            "affiliation": "stadmechelen"
+          },
+          {
+            "name": "lucfillée",
+            "affiliation": "stadmechelen"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapfacilitairbedrijf",
+        "names": [
+          {
+            "name": "nielsbroodcoorens",
+            "affiliation": "agentschapfacilitairbedrijf"
+          }
+        ]
+      },
+      {
+        "affiliation": "eyeondata",
+        "names": [
+          {
+            "name": "landerdufour",
+            "affiliation": "eyeondata"
+          }
+        ]
+      },
+      {
+        "affiliation": "autonoomgemeentebedrijfdigipolisantwerpen",
+        "names": [
+          {
+            "name": "thomasgottmann",
+            "affiliation": "autonoomgemeentebedrijfdigipolisantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "vera",
+        "names": [
+          {
+            "name": "rubenhuylenbroeck",
+            "affiliation": "vera"
+          }
+        ]
+      },
+      {
+        "affiliation": "pixeo",
+        "names": [
+          {
+            "name": "koenmertens",
+            "affiliation": "pixeo"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadbrugge",
+        "names": [
+          {
+            "name": "stijnmissaen",
+            "affiliation": "stadbrugge"
+          }
+        ]
+      },
+      {
+        "affiliation": "lokaalbestuurmortsel",
+        "names": [
+          {
+            "name": "lievewauteraerts",
+            "affiliation": "lokaalbestuurmortsel"
+          },
+          {
+            "name": "karinpeeters",
+            "affiliation": "lokaalbestuurmortsel"
+          },
+          {
+            "name": "pieter-janvanorshoven",
+            "affiliation": "lokaalbestuurmortsel"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "yarondassonneville",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "jitsedecock",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "elsdevleeschauwer",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "isabautmartens",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "alexanderpotloot",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "geertthijs",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "dylanvanassche",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "dannylievens",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "janissevenis",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "simonvanderelst",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadleuven",
+        "names": [
+          {
+            "name": "stijnheitzmann",
+            "affiliation": "stadleuven"
+          },
+          {
+            "name": "saarverhoogen",
+            "affiliation": "stadleuven"
+          }
+        ]
+      }
+    ]
+  }
+}
