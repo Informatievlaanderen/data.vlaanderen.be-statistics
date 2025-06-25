@@ -28,7 +28,6 @@
     "https://schema.org",
     "http://www.w3.org/2004/02/skos/core",
     "https://w3id.org/def/S4WATR",
-    "https://saref.etsi.org/saref4watr",
     "https://data.vlaanderen.be/ns/persoon",
     "http://www.w3.org/2006/time",
     "http://fixme.com",
@@ -46,8 +45,8 @@
     "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
     "http://xmlns.com/foaf/0.1",
     "http://www.opengis.net/ont/sf",
-    "http://www.w3.org/ns/locn",
-    "https://qudt.org/schema/qudt"
+    "https://qudt.org/schema/qudt",
+    "http://www.w3.org/ns/locn"
   ],
   "authors": 6,
   "editors": 8,
@@ -55,9 +54,9 @@
   "participants": 15,
   "classes": 12,
   "properties": 9,
-  "externalclasses": 63,
-  "externalproperties": 92,
-  "totalterms": 176,
+  "externalclasses": 62,
+  "externalproperties": 89,
+  "totalterms": 172,
   "totalorganisations": 4,
   "organisations": [
     {
@@ -779,15 +778,6 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Zichtbaarheidstype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
             "@value": "RisicoType"
           }
         ]
@@ -798,6 +788,15 @@
           {
             "@language": "nl",
             "@value": "Uiterlijk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://qudt.org/schema/qudt/QuantityValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwantitatieveWaarde"
           }
         ]
       },
@@ -816,15 +815,6 @@
           {
             "@language": "nl",
             "@value": "Adresvoorstelling"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://qudt.org/schema/qudt/QuantityValue",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "KwantitatieveWaarde"
           }
         ]
       },
@@ -1041,24 +1031,6 @@
           {
             "@language": "nl",
             "@value": "heeftVersie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://saref.etsi.org/saref4watr/operatesAtRadioFrequency",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "werktopRadiofrequentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://saref.etsi.org/saref4watr/requiresPower",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vereistStroom"
           }
         ]
       },
@@ -1297,15 +1269,6 @@
         ]
       },
       {
-        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.visibility",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "zichtbaarheid"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.risk",
         "label": [
           {
@@ -1320,6 +1283,15 @@
           {
             "@language": "nl",
             "@value": "uiterlijk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oriëntatie"
           }
         ]
       },
@@ -1446,15 +1418,6 @@
           {
             "@language": "nl",
             "@value": "agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "oriëntatie"
           }
         ]
       },
