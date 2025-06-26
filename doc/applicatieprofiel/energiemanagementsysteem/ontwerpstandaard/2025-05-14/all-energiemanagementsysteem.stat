@@ -23,19 +23,19 @@
     "http://www.opengis.net/ont/geosparql",
     "http://def.isotc211.org/iso19156/2011/Observation",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
-    "http://fixme.com",
     "http://www.w3.org/ns/locn",
+    "http://fixme.com",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
     "http://www.w3.org/ns/adms",
-    "https://fixme.com",
+    "https://dbpedia.org/ontology",
     "https://vocab.belgif.be/ns/network",
     "http://purl.org/dc/elements/1.1",
     "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters",
+    "http://www.w3.org/2006/time",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "http://www.w3.org/2006/time"
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
   ],
   "authors": 4,
   "editors": 4,
@@ -44,8 +44,8 @@
   "classes": 12,
   "properties": 12,
   "externalclasses": 52,
-  "externalproperties": 99,
-  "totalterms": 175,
+  "externalproperties": 97,
+  "totalterms": 173,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -306,9 +306,6 @@
         "label": [
           {
             "@value": "LangString"
-          },
-          {
-            "@value": "Langstring"
           }
         ]
       },
@@ -1014,7 +1011,7 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "http://purl.org/dc/terms/references",
         "label": [
           {
             "@language": "nl",
@@ -1180,14 +1177,6 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
-        "label": [
-          {
-            "@value": "deploymentReden"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
@@ -1233,10 +1222,11 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
-            "@value": "type"
+            "@language": "nl",
+            "@value": "observatiecollectietype"
           }
         ]
       },
@@ -1398,7 +1388,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "type"
+            "@value": "observatietype"
           }
         ]
       },
@@ -1455,7 +1445,7 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "https://dbpedia.org/ontology/influencedBy",
         "label": [
           {
             "@language": "nl",
@@ -1491,7 +1481,7 @@
         ]
       },
       {
-        "assignedURI": "https://fixme.com/",
+        "assignedURI": "http://purl.org/dc/terms/contributor",
         "label": [
           {
             "@language": "nl",
@@ -1527,7 +1517,7 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "https://dbpedia.org/ontology/influencedBy",
         "label": [
           {
             "@language": "nl",
@@ -1633,9 +1623,10 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "http://www.w3.org/2006/time#hasTime",
         "label": [
           {
+            "@language": "nl",
             "@value": "deploymentTijdstip"
           }
         ]
@@ -1772,14 +1763,6 @@
           {
             "@language": "nl",
             "@value": "gehostDoor"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://fixme.com/",
-        "label": [
-          {
-            "@value": "geassocieerdeHost"
           }
         ]
       },
