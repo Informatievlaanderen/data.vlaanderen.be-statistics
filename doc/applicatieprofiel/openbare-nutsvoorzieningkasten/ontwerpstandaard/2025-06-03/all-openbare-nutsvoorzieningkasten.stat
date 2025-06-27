@@ -28,16 +28,14 @@
     "https://schema.org",
     "http://www.w3.org/2004/02/skos/core",
     "https://w3id.org/def/S4WATR",
-    "https://saref.etsi.org/saref4watr",
     "https://data.vlaanderen.be/ns/persoon",
     "http://www.w3.org/2006/time",
-    "http://fixme.com",
     "http://schema.org",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
     "http://purl.org/dc/elements/1.1",
     "https://vocab.belgif.be/ns/network",
-    "http://www.w3.org/ns/ssn/systems",
     "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/ns/ssn/systems",
     "https://data.vlaanderen.be/ns/digitaleWatermeter",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2001/XMLSchema",
@@ -46,18 +44,18 @@
     "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
     "http://xmlns.com/foaf/0.1",
     "http://www.opengis.net/ont/sf",
-    "http://www.w3.org/ns/locn",
-    "https://qudt.org/schema/qudt"
+    "https://qudt.org/schema/qudt",
+    "http://www.w3.org/ns/locn"
   ],
   "authors": 6,
   "editors": 8,
   "contributors": 1,
   "participants": 15,
   "classes": 12,
-  "properties": 9,
-  "externalclasses": 63,
-  "externalproperties": 92,
-  "totalterms": 176,
+  "properties": 7,
+  "externalclasses": 62,
+  "externalproperties": 86,
+  "totalterms": 167,
   "totalorganisations": 4,
   "organisations": [
     {
@@ -264,9 +262,6 @@
         "label": [
           {
             "@value": "LangString"
-          },
-          {
-            "@value": "Langstring"
           }
         ]
       },
@@ -328,22 +323,6 @@
           {
             "@language": "nl",
             "@value": "periode"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.source",
-        "label": [
-          {
-            "@value": "Observatie (source)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.target",
-        "label": [
-          {
-            "@value": "Observatie (target)"
           }
         ]
       },
@@ -430,7 +409,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Nustvoorzieningnetwerkelement"
+            "@value": "Nutsvoorzieningnetwerkelement"
           }
         ]
       },
@@ -482,7 +461,8 @@
         "assignedURI": "http://www.w3.org/ns/prov#Activity",
         "label": [
           {
-            "@value": "Activiteit"
+            "@language": "nl",
+            "@value": "Acitiviteit"
           }
         ]
       },
@@ -778,15 +758,6 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Zichtbaarheidstype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
             "@value": "RisicoType"
           }
         ]
@@ -797,6 +768,15 @@
           {
             "@language": "nl",
             "@value": "Uiterlijk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://qudt.org/schema/qudt/QuantityValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwantitatieveWaarde"
           }
         ]
       },
@@ -815,15 +795,6 @@
           {
             "@language": "nl",
             "@value": "Adresvoorstelling"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://qudt.org/schema/qudt/QuantityValue",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "KwantitatieveWaarde"
           }
         ]
       },
@@ -848,7 +819,7 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
-            "@value": "Nutsvoorzieningnetwerkelmenttype"
+            "@value": "Nutsvoorzieningnetwerkelementtype"
           }
         ]
       },
@@ -1044,24 +1015,6 @@
         ]
       },
       {
-        "assignedURI": "https://saref.etsi.org/saref4watr/operatesAtRadioFrequency",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "werktopRadiofrequentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://saref.etsi.org/saref4watr/requiresPower",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vereistStroom"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
         "label": [
           {
@@ -1089,18 +1042,10 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "deploymentReden"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/identifier",
         "label": [
           {
+            "@language": "nl",
             "@value": "indentificator"
           }
         ]
@@ -1109,6 +1054,7 @@
         "assignedURI": "http://purl.org/dc/terms/identifier",
         "label": [
           {
+            "@language": "nl",
             "@value": "indentificator"
           }
         ]
@@ -1294,15 +1240,6 @@
         ]
       },
       {
-        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.visibility",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "zichtbaarheid"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.risk",
         "label": [
           {
@@ -1317,6 +1254,15 @@
           {
             "@language": "nl",
             "@value": "uiterlijk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oriëntatie"
           }
         ]
       },
@@ -1393,7 +1339,7 @@
         ]
       },
       {
-        "assignedURI": "https://vocab.belgif.be/ns/utility-services#geometrie",
+        "assignedURI": "http://www.opengis.net/ont/geosparql#hasGeometry",
         "label": [
           {
             "@language": "nl",
@@ -1402,7 +1348,7 @@
         ]
       },
       {
-        "assignedURI": "https://vocab.belgif.be/ns/utility-services#identificator",
+        "assignedURI": "http://purl.org/dc/terms/identifier",
         "label": [
           {
             "@language": "nl",
@@ -1414,6 +1360,7 @@
         "assignedURI": "http://www.w3.org/ns/prov#atTime",
         "label": [
           {
+            "@language": "nl",
             "@value": "tijd"
           }
         ]
@@ -1422,6 +1369,7 @@
         "assignedURI": "http://www.w3.org/ns/prov#atLocation",
         "label": [
           {
+            "@language": "nl",
             "@value": "locatie"
           }
         ]
@@ -1430,6 +1378,7 @@
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
+            "@language": "nl",
             "@value": "type"
           }
         ]
@@ -1438,16 +1387,8 @@
         "assignedURI": "http://www.w3.org/ns/prov#qualifiedAssociation",
         "label": [
           {
-            "@value": "agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation",
-        "label": [
-          {
             "@language": "nl",
-            "@value": "oriëntatie"
+            "@value": "agent"
           }
         ]
       },
@@ -1473,6 +1414,7 @@
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#gebruiker",
         "label": [
           {
+            "@language": "nl",
             "@value": "gebruiker"
           }
         ]
@@ -1481,6 +1423,7 @@
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#leverancier",
         "label": [
           {
+            "@language": "nl",
             "@value": "leverancier"
           }
         ]
@@ -1489,6 +1432,7 @@
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#type",
         "label": [
           {
+            "@language": "nl",
             "@value": "type"
           }
         ]
@@ -1575,7 +1519,7 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "http://www.w3.org/2006/time#hasTime",
         "label": [
           {
             "@language": "nl",
@@ -1598,15 +1542,6 @@
           {
             "@language": "nl",
             "@value": "resource"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geassocieerdeObservatie"
           }
         ]
       },
@@ -1697,15 +1632,6 @@
           {
             "@language": "nl",
             "@value": "gehostDoor"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://fixme.com/",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geassocieerdeHost"
           }
         ]
       },
