@@ -9,8 +9,8 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
-    "http://todo.com",
     "https://qudt.org/schema/qudt",
+    "http://www.w3.org/2004/02/skos/core",
     "http://purl.org/dc/terms",
     "https://vocab.belgif.be/ns/utility-services",
     "http://www.w3.org/ns/sosa",
@@ -21,7 +21,6 @@
     "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
     "https://saref.etsi.org/core",
     "https://schema.org",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/2006/time",
     "http://def.isotc211.org/iso19156/2011/Observation",
@@ -44,11 +43,11 @@
   "editors": 4,
   "contributors": 12,
   "participants": 20,
-  "classes": 13,
+  "classes": 12,
   "properties": 12,
-  "externalclasses": 56,
-  "externalproperties": 102,
-  "totalterms": 183,
+  "externalclasses": 57,
+  "externalproperties": 101,
+  "totalterms": 182,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -280,14 +279,6 @@
     ],
     "classes": [
       {
-        "assignedURI": "http://todo.com/Concept",
-        "label": [
-          {
-            "@value": "Concept"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
         "label": [
           {
@@ -480,6 +471,15 @@
           {
             "@language": "nl",
             "@value": "Eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Concept"
           }
         ]
       },
@@ -707,6 +707,7 @@
         "assignedURI": "http://www.w3.org/ns/sosa/Deployment",
         "label": [
           {
+            "@language": "nl",
             "@value": "Deployment"
           }
         ]
@@ -1247,15 +1248,6 @@
           {
             "@language": "nl",
             "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/unitCode",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eenheid"
           }
         ]
       },
