@@ -10,30 +10,32 @@
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
     "http://purl.org/dc/terms",
-    "http://www.w3.org/ns/ssn",
-    "https://www.w3.org/ns/sosa",
     "https://vocab.belgif.be/ns/utility-services",
     "http://www.w3.org/ns/sosa",
+    "http://data.europa.eu/it6",
     "https://data.vlaanderen.be/ns/adres",
+    "http://www.w3.org/ns/ssn",
     "http://www.w3.org/ns/sosa/oms",
+    "https://www.w3.org/ns/sosa",
     "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
     "https://saref.etsi.org/core",
     "http://www.w3.org/2004/02/skos/core",
     "http://www.opengis.net/ont/geosparql",
-    "http://fixme.com",
+    "http://def.isotc211.org/iso19156/2011/Observation",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
     "http://www.w3.org/ns/locn",
+    "http://fixme.com",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
     "http://www.w3.org/ns/adms",
-    "https://fixme.com",
+    "https://dbpedia.org/ontology",
     "https://vocab.belgif.be/ns/network",
     "http://purl.org/dc/elements/1.1",
     "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters",
+    "http://www.w3.org/2006/time",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "http://www.w3.org/2006/time"
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
   ],
   "authors": 4,
   "editors": 4,
@@ -41,9 +43,9 @@
   "participants": 20,
   "classes": 12,
   "properties": 12,
-  "externalclasses": 53,
-  "externalproperties": 103,
-  "totalterms": 180,
+  "externalclasses": 52,
+  "externalproperties": 97,
+  "totalterms": 173,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -304,9 +306,6 @@
         "label": [
           {
             "@value": "LangString"
-          },
-          {
-            "@value": "Langstring"
           }
         ]
       },
@@ -474,24 +473,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/ssn/System",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Systeem"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://www.w3.org/ns/sosa/Platform",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Platform"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#Appurtenance",
         "label": [
           {
@@ -506,6 +487,19 @@
           {
             "@language": "nl",
             "@value": "ObserveerbaarKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/it6/MachineLearningModel",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "MachineLearning Model"
+          },
+          {
+            "@language": "nl",
+            "@value": "MachineLearning Model"
           }
         ]
       },
@@ -725,7 +719,7 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
         "label": [
           {
             "@language": "nl",
@@ -1008,7 +1002,7 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.name",
         "label": [
           {
             "@language": "nl",
@@ -1017,15 +1011,7 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
-        "label": [
-          {
-            "@value": "link"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "http://purl.org/dc/terms/references",
         "label": [
           {
             "@language": "nl",
@@ -1191,14 +1177,6 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
-        "label": [
-          {
-            "@value": "deploymentReden"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
@@ -1217,7 +1195,7 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
         "label": [
           {
             "@language": "nl",
@@ -1244,10 +1222,11 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
-            "@value": "type"
+            "@language": "nl",
+            "@value": "observatiecollectietype"
           }
         ]
       },
@@ -1324,7 +1303,7 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.value",
         "label": [
           {
             "@language": "nl",
@@ -1409,7 +1388,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "type"
+            "@value": "observatietype"
           }
         ]
       },
@@ -1418,14 +1397,6 @@
         "label": [
           {
             "@value": "resultaat"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/oms/metadata",
-        "label": [
-          {
-            "@value": "metadata"
           }
         ]
       },
@@ -1443,14 +1414,6 @@
           {
             "@language": "nl",
             "@value": "taak"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/oms/validTime",
-        "label": [
-          {
-            "@value": "geldigeTijd"
           }
         ]
       },
@@ -1482,7 +1445,7 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "https://dbpedia.org/ontology/influencedBy",
         "label": [
           {
             "@language": "nl",
@@ -1500,14 +1463,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/oms/metadata",
-        "label": [
-          {
-            "@value": "metadata"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
@@ -1526,7 +1481,7 @@
         ]
       },
       {
-        "assignedURI": "https://fixme.com/",
+        "assignedURI": "http://purl.org/dc/terms/contributor",
         "label": [
           {
             "@language": "nl",
@@ -1562,7 +1517,7 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "https://dbpedia.org/ontology/influencedBy",
         "label": [
           {
             "@language": "nl",
@@ -1668,9 +1623,10 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "http://www.w3.org/2006/time#hasTime",
         "label": [
           {
+            "@language": "nl",
             "@value": "deploymentTijdstip"
           }
         ]
@@ -1697,6 +1653,7 @@
         "assignedURI": "http://www.w3.org/ns/sosa/memberOf",
         "label": [
           {
+            "@language": "nl",
             "@value": "isLidVan"
           }
         ]
@@ -1806,14 +1763,6 @@
           {
             "@language": "nl",
             "@value": "gehostDoor"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://fixme.com/",
-        "label": [
-          {
-            "@value": "geassocieerdeHost"
           }
         ]
       },
