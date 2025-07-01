@@ -14,14 +14,12 @@
     "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
     "http://def.isotc211.org/iso19156/2011/Observation",
     "http://www.w3.org/ns/ssn",
-    "http://www.w3.org/2004/02/skos/core",
     "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
-    "http://todo.com",
+    "http://datex2.eu/vocab/3/Situation",
     "https://data.vlaanderen.be/ns/mobiliteit",
     "http://purl.org/dc/terms",
-    "https://www.w3.org/2009/08/skos-reference/skos.html",
+    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/melding",
-    "http://www.w3.org/ns/org",
     "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata",
     "http://purl.org/dc/dcmitype",
     "http://www.w3.org/ns/prov",
@@ -33,20 +31,23 @@
     "https://data.vlaanderen.be/ns/dossier",
     "https://dbpedia.org/ontology",
     "http://www.w3.org/ns/oa",
+    "http://todo.com",
     "http://def.isotc211.org/iso19108/2006/TemporalObjects",
+    "http://www.w3.org/2006/time",
     "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "https://www.w3.org/2009/08/skos-reference/skos.html"
   ],
   "authors": 8,
   "editors": 7,
   "contributors": 5,
   "participants": 20,
-  "classes": 15,
-  "properties": 21,
-  "externalclasses": 31,
-  "externalproperties": 26,
-  "totalterms": 93,
+  "classes": 13,
+  "properties": 20,
+  "externalclasses": 27,
+  "externalproperties": 27,
+  "totalterms": 87,
   "totalorganisations": 7,
   "organisations": [
     {
@@ -276,14 +277,6 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Verkeerssituatie",
-        "label": [
-          {
-            "@value": "Verkeerssituatie"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitshinder",
         "label": [
           {
@@ -320,15 +313,6 @@
           {
             "@language": "nl",
             "@value": "Meldingstatus"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/TemporeleEntiteit",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "TemporeleEntiteit"
           }
         ]
       },
@@ -549,15 +533,8 @@
         "assignedURI": "http://todo.com/zaak",
         "label": [
           {
+            "@language": "nl",
             "@value": "zaak"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/agent",
-        "label": [
-          {
-            "@value": "agent"
           }
         ]
       },
@@ -659,20 +636,19 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Domeinobjecttype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
         "label": [
           {
             "@language": "nl",
             "@value": "Kenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://datex2.eu/vocab/3/Situation#Situation",
+        "label": [
+          {
+            "@value": "Verkeerssituatie"
           }
         ]
       },
@@ -686,14 +662,6 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/2009/08/skos-reference/skos.html#Concept",
-        "label": [
-          {
-            "@value": "Meldingstype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
@@ -703,69 +671,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/org#Role",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Rol"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatietype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
         "label": [
           {
             "@language": "nl",
             "@value": "Any"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "Observationproceduretype"
-          },
-          {
-            "@language": "nl",
-            "@value": "Observatieproceduretype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "InputType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OutputType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Systeemtype"
           }
         ]
       },
@@ -833,6 +743,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Instant",
         "label": [
           {
@@ -882,6 +801,23 @@
           {
             "@language": "nl",
             "@value": "Systeem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobjecttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/2009/08/skos-reference/skos.html#Concept",
+        "label": [
+          {
+            "@value": "Meldingstype"
           }
         ]
       }
@@ -1087,7 +1023,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "geobserveerdKenmerk"
+            "@value": "geobserveerd kenmerk"
           }
         ]
       },
@@ -1096,7 +1032,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "geobserveerdObject"
+            "@value": "geobserveerd object"
           }
         ]
       },
@@ -1105,7 +1041,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "uitgevoerdeObservatie"
+            "@value": "uitgevoerde observatie"
           }
         ]
       },
@@ -1114,7 +1050,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "uitgevoerdMet"
+            "@value": "uitgevoerd met"
           }
         ]
       },
@@ -1127,7 +1063,7 @@
           },
           {
             "@language": "nl",
-            "@value": "gebruikteProcedure"
+            "@value": "gebruikte procedure"
           }
         ]
       },
@@ -1136,7 +1072,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "heeftLid"
+            "@value": "heeft lid"
           }
         ]
       },
@@ -1145,7 +1081,16 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "heeftLid"
+            "@value": "heeft lid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "agent"
           }
         ]
       }
