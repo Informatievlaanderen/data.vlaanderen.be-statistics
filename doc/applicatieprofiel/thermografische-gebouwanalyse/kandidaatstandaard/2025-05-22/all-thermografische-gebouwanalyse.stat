@@ -11,8 +11,9 @@
   "namespaces": [
     "https://data.vlaanderen.be/ns/nodem-en-ondergrond",
     "http://www.w3.org/ns/sosa",
-    "http://dbpedia.org/resource",
+    "https://www.fair-gnss.oma.be/gnss-dcat-ap/vocabulary/geo",
     "https://www.w3.org/ns/sosa",
+    "http://dbpedia.org/ontology",
     "http://www.w3.org/ns/sosa/oms",
     "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
     "https://saref.etsi.org/core",
@@ -34,7 +35,6 @@
     "http://www.cidoc-crm.org/cidoc-crm",
     "http://www.w3.org/2006/time",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
-    "http://fixme.com",
     "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/ns/locn",
     "http://def.isotc211.org/iso19156/2011/Observation",
@@ -42,18 +42,17 @@
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse"
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
   ],
   "authors": 2,
   "editors": 5,
   "contributors": 4,
   "participants": 11,
-  "classes": 26,
+  "classes": 20,
   "properties": 20,
-  "externalclasses": 69,
-  "externalproperties": 90,
-  "totalterms": 205,
+  "externalclasses": 75,
+  "externalproperties": 88,
+  "totalterms": 203,
   "totalorganisations": 5,
   "organisations": [
     {
@@ -242,9 +241,6 @@
         "label": [
           {
             "@value": "LangString"
-          },
-          {
-            "@value": "Langstring"
           }
         ]
       },
@@ -280,61 +276,7 @@
       {},
       {},
       {},
-      {},
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse#MachineLearningModeltype",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "MachineLearningModeltype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse#Videotype",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Videotype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse#Fototype",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Fototype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse#Elementtype",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Elementtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse#Gebouwtype",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gebouwtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/thermografische-gebouwanalyse#Gebouweenheidttype",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gebouweenheidtype"
-          }
-        ]
-      }
+      {}
     ],
     "properties": [
       {
@@ -529,7 +471,7 @@
         ]
       },
       {
-        "assignedURI": "http://dbpedia.org/resource/Satellite_navigation_device",
+        "assignedURI": "https://www.fair-gnss.oma.be/gnss-dcat-ap/vocabulary/geo#GNSSReceiver",
         "label": [
           {
             "@language": "nl",
@@ -547,7 +489,7 @@
         ]
       },
       {
-        "assignedURI": "http://dbpedia.org/resource/Camera",
+        "assignedURI": "http://dbpedia.org/ontology/Camera",
         "label": [
           {
             "@language": "nl",
@@ -556,7 +498,7 @@
         ]
       },
       {
-        "assignedURI": "http://dbpedia.org/resource/Construction",
+        "assignedURI": "http://dbpedia.org/ontology/ArchitecturalStructure",
         "label": [
           {
             "@language": "nl",
@@ -713,7 +655,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Gebouw"
+            "@value": "BIM_Gebouw"
           }
         ]
       },
@@ -722,7 +664,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Element"
+            "@value": "BIM_Element"
           }
         ]
       },
@@ -1093,6 +1035,15 @@
         "label": [
           {
             "@language": "nl",
+            "@value": "MachineLearningModeltype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
             "@value": "TypeGebouwstatus"
           }
         ]
@@ -1138,6 +1089,15 @@
         "label": [
           {
             "@language": "nl",
+            "@value": "Videotype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
             "@value": "InputType"
           }
         ]
@@ -1148,6 +1108,42 @@
           {
             "@language": "nl",
             "@value": "OutputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fototype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Elementtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebouwtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebouweenheidtype"
           }
         ]
       }
@@ -1208,15 +1204,6 @@
           {
             "@language": "en",
             "@value": "naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://fixme.com/",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "deploymentReden"
           }
         ]
       },
@@ -1549,7 +1536,7 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "http://www.w3.org/2006/time#hasTime",
         "label": [
           {
             "@language": "nl",
@@ -1657,7 +1644,7 @@
         ]
       },
       {
-        "assignedURI": "http://fixme.com/",
+        "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
             "@language": "nl",
@@ -1896,15 +1883,6 @@
           {
             "@language": "nl",
             "@value": "gehostDoor"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://fixme.com/",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geassocieerdeHost"
           }
         ]
       },
