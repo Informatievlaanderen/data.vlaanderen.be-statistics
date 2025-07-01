@@ -44,10 +44,10 @@
   "contributors": 5,
   "participants": 20,
   "classes": 13,
-  "properties": 20,
-  "externalclasses": 27,
-  "externalproperties": 27,
-  "totalterms": 87,
+  "properties": 17,
+  "externalclasses": 26,
+  "externalproperties": 28,
+  "totalterms": 84,
   "totalorganisations": 7,
   "organisations": [
     {
@@ -479,19 +479,18 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Object.waardeverschaffer",
+        "assignedURI": "http://todo.com/zaak",
         "label": [
           {
-            "@language": "nl",
-            "@value": "waardeverschaffer"
+            "@value": "zaak"
           }
         ]
       },
       {
-        "assignedURI": "http://todo.com/heeftDoelwit",
+        "assignedURI": "http://todo.com/agent",
         "label": [
           {
-            "@value": "heeftDoelwit"
+            "@value": "agent"
           }
         ]
       },
@@ -499,14 +498,16 @@
         "assignedURI": "http://todo.com/behandelaar",
         "label": [
           {
+            "@language": "nl",
             "@value": "behandelaar"
           }
         ]
       },
       {
-        "assignedURI": "http://todo.com/indiener",
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#indiener",
         "label": [
           {
+            "@language": "nl",
             "@value": "indiener"
           }
         ]
@@ -526,31 +527,6 @@
           {
             "@language": "nl",
             "@value": "behandelt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/zaak",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "zaak"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/dossier#AgentInRol.Zaak",
-        "label": [
-          {
-            "@value": "AgentInRol.Zaak"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/AgentInRol.Agent",
-        "label": [
-          {
-            "@value": "AgentInRol.Agent"
           }
         ]
       }
@@ -721,15 +697,6 @@
           {
             "@language": "nl",
             "@value": "Agent (in rol)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
@@ -1037,6 +1004,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/sosa/isFeatureOfInterestOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waardeverschaffer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/oa#hasTarget",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft doelwit"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/sosa/madeObservation",
         "label": [
           {
@@ -1082,15 +1067,6 @@
           {
             "@language": "nl",
             "@value": "heeft lid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "agent"
           }
         ]
       }
