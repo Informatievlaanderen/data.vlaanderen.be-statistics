@@ -9,21 +9,24 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
+    "https://qudt.org/schema/qudt",
+    "http://www.w3.org/2004/02/skos/core",
     "http://purl.org/dc/terms",
     "https://vocab.belgif.be/ns/utility-services",
     "http://www.w3.org/ns/sosa",
     "http://data.europa.eu/it6",
-    "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/ns/ssn",
     "http://www.w3.org/ns/sosa/oms",
     "https://www.w3.org/ns/sosa",
     "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
     "https://saref.etsi.org/core",
-    "http://www.w3.org/2004/02/skos/core",
+    "https://schema.org",
     "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/2006/time",
     "http://def.isotc211.org/iso19156/2011/Observation",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
     "http://www.w3.org/ns/locn",
+    "https://data.vlaanderen.be/ns/adres",
     "http://fixme.com",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
     "http://www.w3.org/ns/adms",
@@ -31,7 +34,6 @@
     "https://vocab.belgif.be/ns/network",
     "http://purl.org/dc/elements/1.1",
     "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters",
-    "http://www.w3.org/2006/time",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2001/XMLSchema",
@@ -43,9 +45,9 @@
   "participants": 20,
   "classes": 12,
   "properties": 12,
-  "externalclasses": 52,
-  "externalproperties": 97,
-  "totalterms": 173,
+  "externalclasses": 57,
+  "externalproperties": 102,
+  "totalterms": 183,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -277,15 +279,6 @@
     ],
     "classes": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Belgisch Adres"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
         "label": [
           {
@@ -330,7 +323,16 @@
       {},
       {},
       {},
-      {}
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Belgisch Adres"
+          }
+        ]
+      }
     ],
     "properties": [
       {
@@ -463,6 +465,24 @@
       }
     ],
     "externalclasses": [
+      {
+        "assignedURI": "https://qudt.org/schema/qudt/Unit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Concept"
+          }
+        ]
+      },
       {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
@@ -687,6 +707,7 @@
         "assignedURI": "http://www.w3.org/ns/sosa/Deployment",
         "label": [
           {
+            "@language": "nl",
             "@value": "Deployment"
           }
         ]
@@ -697,6 +718,15 @@
           {
             "@language": "nl",
             "@value": "Aansturingssysteem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwantitatieveWaarde"
           }
         ]
       },
@@ -737,6 +767,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/locn#Address",
         "label": [
           {
@@ -746,6 +794,15 @@
           {
             "@language": "nl",
             "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
           }
         ]
       },
@@ -791,15 +848,6 @@
           {
             "@language": "nl",
             "@value": "Domeinobjecttype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "TemporeleEntiteit"
           }
         ]
       },
@@ -948,6 +996,15 @@
     ],
     "externalproperties": [
       {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
         "label": [
           {
@@ -980,6 +1037,15 @@
           {
             "@language": "nl",
             "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inXSDDateTime"
           }
         ]
       },
@@ -1186,6 +1252,15 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/creator",
         "label": [
           {
@@ -1357,6 +1432,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tot"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/sosa/resultQuality",
         "label": [
           {
@@ -1405,6 +1489,15 @@
         "label": [
           {
             "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "van"
           }
         ]
       },

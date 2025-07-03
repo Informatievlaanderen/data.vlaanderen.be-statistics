@@ -14,11 +14,13 @@
     "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
     "http://def.isotc211.org/iso19156/2011/Observation",
     "http://www.w3.org/ns/ssn",
+    "http://www.w3.org/2004/02/skos/core",
     "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
     "http://datex2.eu/vocab/3/Situation",
     "https://data.vlaanderen.be/ns/mobiliteit",
-    "http://www.w3.org/2004/02/skos/core",
+    "https://www.w3.org/2009/08/skos-reference/skos.html",
     "https://data.vlaanderen.be/ns/melding",
+    "http://www.w3.org/ns/org",
     "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata",
     "http://purl.org/dc/dcmitype",
     "http://www.w3.org/ns/prov",
@@ -36,8 +38,7 @@
     "http://www.w3.org/2006/time",
     "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "https://www.w3.org/2009/08/skos-reference/skos.html"
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
   ],
   "authors": 8,
   "editors": 7,
@@ -45,9 +46,9 @@
   "participants": 20,
   "classes": 13,
   "properties": 17,
-  "externalclasses": 26,
+  "externalclasses": 32,
   "externalproperties": 29,
-  "totalterms": 85,
+  "totalterms": 91,
   "totalorganisations": 7,
   "organisations": [
     {
@@ -303,7 +304,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Melding Body"
+            "@value": "MeldingBody"
           }
         ]
       },
@@ -506,11 +507,11 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/zaak",
+        "assignedURI": "http://todo.com/agent",
         "label": [
           {
             "@language": "nl",
-            "@value": "zaak"
+            "@value": "agent"
           }
         ]
       },
@@ -614,6 +615,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobjecttype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
         "label": [
           {
@@ -631,6 +641,14 @@
         ]
       },
       {
+        "assignedURI": "https://www.w3.org/2009/08/skos-reference/skos.html#Concept",
+        "label": [
+          {
+            "@value": "Meldingstype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
@@ -640,11 +658,69 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/org#Role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatietype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
         "label": [
           {
             "@language": "nl",
             "@value": "Any"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Observationproceduretype"
+          },
+          {
+            "@language": "nl",
+            "@value": "Observatieproceduretype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OutputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeemtype"
           }
         ]
       },
@@ -770,23 +846,6 @@
           {
             "@language": "nl",
             "@value": "Systeem"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Domeinobjecttype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://www.w3.org/2009/08/skos-reference/skos.html#Concept",
-        "label": [
-          {
-            "@value": "Meldingstype"
           }
         ]
       }
@@ -1077,7 +1136,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "agent"
+            "@value": "zaak"
           }
         ]
       }

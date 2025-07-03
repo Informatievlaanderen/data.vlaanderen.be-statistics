@@ -27,7 +27,6 @@
     "http://www.w3.org/ns/sosa",
     "https://schema.org",
     "http://www.w3.org/2004/02/skos/core",
-    "https://w3id.org/def/S4WATR",
     "https://data.vlaanderen.be/ns/persoon",
     "http://www.w3.org/2006/time",
     "http://schema.org",
@@ -51,10 +50,10 @@
   "editors": 8,
   "contributors": 1,
   "participants": 15,
-  "classes": 12,
+  "classes": 14,
   "properties": 9,
-  "externalclasses": 62,
-  "externalproperties": 87,
+  "externalclasses": 64,
+  "externalproperties": 83,
   "totalterms": 170,
   "totalorganisations": 4,
   "organisations": [
@@ -269,6 +268,8 @@
       {},
       {},
       {},
+      {},
+      {},
       {}
     ],
     "properties": [
@@ -478,7 +479,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Acitiviteit"
+            "@value": "Activiteit"
           }
         ]
       },
@@ -600,6 +601,33 @@
         ]
       },
       {
+        "assignedURI": "https://saref.etsi.org/core/Device",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toestel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/sosa/Sensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Sensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#Network",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Netwerk"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://www.w3.org/ns/sosa/Platform",
         "label": [
           {
@@ -622,15 +650,6 @@
         "label": [
           {
             "@value": "Event"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/ssn/System",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Systeem"
           }
         ]
       },
@@ -991,42 +1010,6 @@
           {
             "@language": "nl",
             "@value": "geografischeNaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasFabricationNumber",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftFabrieksnummer"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasFirmwareVersion",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftFirmwareVersion"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasHardwareVersion",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftHardwareVersie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasVersion",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftVersie"
           }
         ]
       },

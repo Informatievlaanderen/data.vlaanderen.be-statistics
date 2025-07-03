@@ -21,9 +21,9 @@
     "http://www.cidoc-crm.org/cidoc-crm",
     "http://data.europa.eu/m8g/",
     "http://www.opengis.net/ont/geosparql",
-    "https://schema.org",
     "http://schema.mobivoc.org/",
     "http://schema.org",
+    "https://schema.org",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/ns/dcat",
     "http://www.w3.org/2000/01/rdf-schema",
@@ -33,19 +33,19 @@
     "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren",
     "http://www.w3.org/ns/adms",
     "http://purl.org/vocab",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/ns/prov",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema"
   ],
   "authors": 7,
   "editors": 7,
   "contributors": 9,
   "participants": 23,
-  "classes": 24,
+  "classes": 26,
   "properties": 47,
   "externalclasses": 45,
-  "externalproperties": 77,
-  "totalterms": 193,
+  "externalproperties": 74,
+  "totalterms": 192,
   "totalorganisations": 10,
   "organisations": [
     {
@@ -427,6 +427,14 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
         "label": [
           {
@@ -434,14 +442,6 @@
           },
           {
             "@value": "string"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
-        "label": [
-          {
-            "@value": "Integer"
           }
         ]
       },
@@ -472,7 +472,9 @@
             "@value": "Reservatie"
           }
         ]
-      }
+      },
+      {},
+      {}
     ],
     "properties": [
       {
@@ -994,7 +996,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Locatie"
+            "@value": "Plaats"
           }
         ]
       },
@@ -1044,24 +1046,6 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/QuantitativeValue",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Kwantitatieve Waarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Taalstring"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
         "label": [
           {
@@ -1073,6 +1057,10 @@
       {
         "assignedURI": "http://www.w3.org/ns/prov#Location",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          },
           {
             "@language": "nl",
             "@value": "Locatie"
@@ -1152,11 +1140,29 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
             "@value": "Faciliteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalstring"
           }
         ]
       },
@@ -1375,15 +1381,6 @@
           {
             "@language": "nl",
             "@value": "beschrijving"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/unitText",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eenheidtekst"
           }
         ]
       },
@@ -1744,24 +1741,6 @@
           {
             "@language": "nl",
             "@value": "werkingsgebied"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/unitCode",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eenheidcode"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/value",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "waarde"
           }
         ]
       },
