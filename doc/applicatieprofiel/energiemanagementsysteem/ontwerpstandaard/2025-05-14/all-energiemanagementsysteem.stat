@@ -20,6 +20,10 @@
     "https://www.w3.org/ns/sosa",
     "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
     "https://saref.etsi.org/core",
+    "http://www.w3.org/ns/person",
+    "http://www.w3.org/ns/org",
+    "http://xmlns.com/foaf/0.1",
+    "http://schema.org",
     "https://schema.org",
     "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/2006/time",
@@ -35,9 +39,9 @@
     "http://purl.org/dc/elements/1.1",
     "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters",
     "http://www.opengis.net/ont/sf",
-    "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2000/01/rdf-schema"
   ],
   "authors": 4,
   "editors": 4,
@@ -45,9 +49,9 @@
   "participants": 20,
   "classes": 12,
   "properties": 12,
-  "externalclasses": 57,
-  "externalproperties": 102,
-  "totalterms": 183,
+  "externalclasses": 60,
+  "externalproperties": 110,
+  "totalterms": 194,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -279,6 +283,22 @@
     ],
     "classes": [
       {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "LangString"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
         "label": [
           {
@@ -295,26 +315,10 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-        "label": [
-          {
-            "@value": "LangString"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
         "label": [
           {
             "@value": "URI"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
-        "label": [
-          {
-            "@value": "String"
           }
         ]
       },
@@ -560,33 +564,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatieproceduretype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Systeemtype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/oms/ObservingProcedure",
         "label": [
           {
@@ -623,15 +600,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Aansturingstype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/Property",
         "label": [
           {
@@ -646,28 +614,6 @@
           {
             "@language": "nl",
             "@value": "Aansturingsprocedure"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Aansturingsproceduretype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Toebehorentype"
-          },
-          {
-            "@language": "en",
-            "@value": "AppurtenanceTypeValue"
           }
         ]
       },
@@ -726,19 +672,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "UtilityNetworkTypeValue"
-          },
-          {
-            "@language": "nl",
-            "@value": "Nutsvoorzieningnetwerktype"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
         "label": [
           {
@@ -757,11 +690,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "assignedURI": "http://www.w3.org/ns/person#Person",
         "label": [
           {
             "@language": "nl",
-            "@value": "Functietype"
+            "@value": "Persoon"
           }
         ]
       },
@@ -771,15 +704,6 @@
           {
             "@language": "nl",
             "@value": "Aansluiting"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Afleverpunttype"
           }
         ]
       },
@@ -807,6 +731,15 @@
           {
             "@language": "nl",
             "@value": "Aansturingssysteem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
           }
         ]
       },
@@ -892,6 +825,15 @@
           {
             "@language": "nl",
             "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactinfo"
           }
         ]
       },
@@ -989,12 +931,155 @@
         "label": [
           {
             "@language": "nl",
+            "@value": "Observatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatieproceduretype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aansturingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeemtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aansturingsproceduretype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toebehorentype"
+          },
+          {
+            "@language": "en",
+            "@value": "AppurtenanceTypeValue"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "UtilityNetworkTypeValue"
+          },
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieningnetwerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Afleverpunttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
             "@value": "Platformtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Functietype"
           }
         ]
       }
     ],
     "externalproperties": [
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "familienaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gegeven naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/email",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "email"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/telephone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telefoon"
+          }
+        ]
+      },
       {
         "assignedURI": "https://schema.org/value",
         "label": [
@@ -1248,6 +1333,24 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
           }
         ]
       },
