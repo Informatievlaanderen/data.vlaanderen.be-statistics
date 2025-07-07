@@ -18,7 +18,6 @@
     "http://www.w3.org/ns/ssn",
     "http://www.w3.org/ns/sosa/oms",
     "https://www.w3.org/ns/sosa",
-    "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
     "https://saref.etsi.org/core",
     "http://www.w3.org/ns/person",
     "http://www.w3.org/ns/org",
@@ -27,13 +26,12 @@
     "https://schema.org",
     "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/2006/time",
-    "http://def.isotc211.org/iso19156/2011/Observation",
+    "http://www.w3.org/ns/adms",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
     "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/adres",
+    "http://def.isotc211.org/iso19156/2011/Observation",
     "http://fixme.com",
-    "https://data.vlaanderen.be/ns/observaties-en-metingen",
-    "http://www.w3.org/ns/adms",
     "https://dbpedia.org/ontology",
     "https://vocab.belgif.be/ns/network",
     "http://purl.org/dc/elements/1.1",
@@ -48,10 +46,10 @@
   "contributors": 12,
   "participants": 20,
   "classes": 12,
-  "properties": 12,
-  "externalclasses": 60,
-  "externalproperties": 110,
-  "totalterms": 194,
+  "properties": 11,
+  "externalclasses": 59,
+  "externalproperties": 111,
+  "totalterms": 193,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -419,15 +417,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.uitgevoerdDoor",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "uitgevoerdDoor"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Observatieprocedure.parameter",
         "label": [
           {
@@ -627,15 +616,6 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_DomainFeature",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Domeinobject"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://saref.etsi.org/core/Function",
         "label": [
           {
@@ -771,7 +751,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+        "assignedURI": "https://schema.org/StructuredValue",
         "label": [
           {
             "@language": "nl",
@@ -1153,7 +1133,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.name",
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
         "label": [
           {
             "@language": "nl",
@@ -1481,7 +1461,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.value",
+        "assignedURI": "https://schema.org/value",
         "label": [
           {
             "@language": "nl",
@@ -1531,6 +1511,15 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://dbpedia.org/ontology/influencedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
           }
         ]
       },
