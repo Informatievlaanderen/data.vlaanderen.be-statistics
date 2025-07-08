@@ -9,7 +9,7 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "statuslabel": "Kandidaat Standaard",
   "namespaces": [
-    "https://data.vlaanderen.be/ns/nodem-en-ondergrond",
+    "https://data.vlaanderen.be/ns/bodem-en-ondergrond",
     "http://www.w3.org/ns/sosa",
     "https://www.fair-gnss.oma.be/gnss-dcat-ap/vocabulary/geo",
     "https://www.w3.org/ns/sosa",
@@ -38,7 +38,6 @@
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
     "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/ns/locn",
-    "http://def.isotc211.org/iso19156/2011/Observation",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2000/01/rdf-schema",
@@ -49,11 +48,11 @@
   "editors": 5,
   "contributors": 4,
   "participants": 11,
-  "classes": 20,
+  "classes": 21,
   "properties": 20,
-  "externalclasses": 74,
+  "externalclasses": 75,
   "externalproperties": 88,
-  "totalterms": 202,
+  "totalterms": 204,
   "totalorganisations": 5,
   "organisations": [
     {
@@ -177,7 +176,7 @@
     ],
     "classes": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/nodem-en-ondergrond#Interpretatie",
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond#Interpretatie",
         "label": [
           {
             "@language": "nl",
@@ -269,6 +268,7 @@
           }
         ]
       },
+      {},
       {},
       {},
       {},
@@ -528,6 +528,10 @@
       {
         "assignedURI": "http://www.w3.org/ns/sosa/FeatureOfInterest",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
+          },
           {
             "@language": "nl",
             "@value": "Object"
@@ -935,6 +939,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/sosa/FeatureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://www.w3.org/ns/sosa/Platform",
         "label": [
           {
@@ -961,7 +974,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+        "assignedURI": "https://schema.org/StructuredValue",
         "label": [
           {
             "@language": "nl",
@@ -1358,7 +1371,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
+        "assignedURI": "http://dbpedia.org/ontology/influencedBy",
         "label": [
           {
             "@language": "nl",

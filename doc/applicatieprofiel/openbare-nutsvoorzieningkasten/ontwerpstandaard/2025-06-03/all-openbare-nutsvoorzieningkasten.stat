@@ -12,23 +12,23 @@
     "http://www.w3.org/ns/org",
     "http://purl.org/dc/terms",
     "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
-    "http://def.isotc211.org/iso19156/2011/Observation",
+    "http://www.w3.org/ns/sosa",
     "http://www.w3.org/ns/person",
-    "http://def.isotc211.org/iso19156/2011GeneralFeatureInstance",
     "https://saref.etsi.org/core",
     "https://vocab.belgif.be/ns/utility-services",
     "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/ns/prov",
+    "http://www.w3.org/2004/02/skos/core",
     "https://saref.etsi.org/saref4bldg",
     "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur",
     "http://www.w3.org/ns/ssn",
     "https://www.w3.org/ns/sosa",
-    "http://www.w3.org/ns/sosa",
     "https://schema.org",
-    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/persoon",
     "http://www.w3.org/2006/time",
+    "http://dbpedia.org/ontology",
+    "http://def.isotc211.org/iso19156/2011/Observation",
     "http://schema.org",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
     "http://purl.org/dc/elements/1.1",
@@ -39,7 +39,6 @@
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
     "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
     "http://xmlns.com/foaf/0.1",
     "http://www.opengis.net/ont/sf",
@@ -50,11 +49,11 @@
   "editors": 8,
   "contributors": 1,
   "participants": 15,
-  "classes": 14,
+  "classes": 13,
   "properties": 9,
-  "externalclasses": 64,
+  "externalclasses": 63,
   "externalproperties": 83,
-  "totalterms": 170,
+  "totalterms": 168,
   "totalorganisations": 4,
   "organisations": [
     {
@@ -269,7 +268,6 @@
       {},
       {},
       {},
-      {},
       {}
     ],
     "properties": [
@@ -386,7 +384,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "assignedURI": "http://www.w3.org/ns/sosa/Observation",
         "label": [
           {
             "@language": "nl",
@@ -400,15 +398,6 @@
           {
             "@language": "nl",
             "@value": "Persoon"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011GeneralFeatureInstance#GFI_DomainFeature",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Domeinobject"
           }
         ]
       },
@@ -449,6 +438,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/sosa/FeatureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#Cabinet",
         "label": [
           {
@@ -484,11 +482,27 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Activiteittype"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://saref.etsi.org/saref4bldg/Outlet",
         "label": [
           {
             "@language": "nl",
             "@value": "Stopcontact"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Nutsvoorzieningnetwerkelementtype"
           }
         ]
       },
@@ -592,15 +606,6 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Object"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://saref.etsi.org/core/Device",
         "label": [
           {
@@ -672,6 +677,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobjecttype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
         "label": [
           {
@@ -704,15 +718,6 @@
           {
             "@language": "nl",
             "@value": "Observatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Domeinobjecttype"
           }
         ]
       },
@@ -839,22 +844,6 @@
           {
             "@language": "nl",
             "@value": "Plaats"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Activiteittype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Nutsvoorzieningnetwerkelementtype"
           }
         ]
       },
@@ -1068,7 +1057,16 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://dbpedia.org/ontology/influencedBy",
         "label": [
           {
             "@language": "nl",
@@ -1077,7 +1075,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
+        "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
         "label": [
           {
             "@language": "nl",
@@ -1086,7 +1084,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+        "assignedURI": "http://www.w3.org/2006/time#hasTime",
         "label": [
           {
             "@language": "nl",
@@ -1113,7 +1111,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
         "label": [
           {
             "@language": "nl",
@@ -1145,15 +1143,6 @@
           {
             "@language": "nl",
             "@value": "contactinfo"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
           }
         ]
       },
@@ -1302,7 +1291,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
         "label": [
           {
             "@language": "nl",
@@ -1311,7 +1300,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
         "label": [
           {
             "@language": "nl",
@@ -1320,7 +1309,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
         "label": [
           {
             "@language": "nl",
@@ -1329,7 +1318,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
         "label": [
           {
             "@language": "nl",
@@ -1545,7 +1534,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
+        "assignedURI": "http://www.w3.org/ns/sosa/relatedObservation",
         "label": [
           {
             "@language": "nl",
@@ -1572,7 +1561,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
         "label": [
           {
             "@language": "nl",
