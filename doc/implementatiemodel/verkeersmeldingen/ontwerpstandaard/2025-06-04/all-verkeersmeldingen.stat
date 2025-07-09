@@ -11,8 +11,6 @@
   "namespaces": [
     "http://www.w3.org/ns/sosa",
     "https://data.vlaanderen.be/ns/verkeersmetingen",
-    "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
-    "http://def.isotc211.org/iso19156/2011/Observation",
     "http://www.w3.org/ns/ssn",
     "http://www.w3.org/2004/02/skos/core",
     "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
@@ -21,10 +19,9 @@
     "https://www.w3.org/2009/08/skos-reference/skos.html",
     "https://data.vlaanderen.be/ns/melding",
     "http://www.w3.org/ns/org",
-    "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata",
+    "http://www.w3.org/2000/01/rdf-schema",
     "http://purl.org/dc/dcmitype",
     "http://www.w3.org/ns/prov",
-    "http://www.w3.org/2000/01/rdf-schema",
     "http://dbpedia.org/ontology",
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
@@ -32,11 +29,12 @@
     "http://www.w3.org/ns/adms",
     "https://data.vlaanderen.be/ns/dossier",
     "https://dbpedia.org/ontology",
+    "http://www.w3.org/ns/sosa/oms",
     "http://www.w3.org/ns/oa",
+    "https://schema.org",
     "http://todo.com",
-    "http://def.isotc211.org/iso19108/2006/TemporalObjects",
     "http://www.w3.org/2006/time",
-    "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
+    "https://www.w3.org/TR/vocab-dqv/",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns"
   ],
@@ -507,16 +505,7 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/dossier#AgentInRol.Zaak",
+        "assignedURI": "http://todo.com/zaak",
         "label": [
           {
             "@language": "nl",
@@ -525,11 +514,20 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/AgentInRol.Agent",
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#AgentInRol.Zaak",
         "label": [
           {
             "@language": "nl",
             "@value": "agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/AgentInRol.Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zaak"
           }
         ]
       }
@@ -545,16 +543,16 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_DomainFeature",
+        "assignedURI": "http://www.w3.org/ns/sosa/FeatureOfInterest",
         "label": [
           {
             "@language": "nl",
-            "@value": "Domeinobject"
+            "@value": "Object"
           }
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "assignedURI": "http://www.w3.org/ns/sosa/Observation",
         "label": [
           {
             "@language": "nl",
@@ -676,7 +674,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
         "label": [
           {
             "@language": "nl",
@@ -779,7 +777,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Period",
+        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
         "label": [
           {
             "@language": "nl",
@@ -797,7 +795,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Instant",
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
         "label": [
           {
             "@language": "nl",
@@ -806,7 +804,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+        "assignedURI": "https://schema.org/StructuredValue",
         "label": [
           {
             "@language": "nl",
@@ -819,7 +817,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+        "assignedURI": "https://www.w3.org/TR/vocab-dqv/#dqv:QualityMeasurement",
         "label": [
           {
             "@language": "nl",
@@ -1016,7 +1014,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.validTime",
+        "assignedURI": "http://www.w3.org/ns/sosa/oms/validTime",
         "label": [
           {
             "@language": "nl",
@@ -1034,7 +1032,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.value",
+        "assignedURI": "https://schema.org/value",
         "label": [
           {
             "@language": "nl",
@@ -1047,7 +1045,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "assignedURI": "http://www.w3.org/ns/sosa/observedProperty",
         "label": [
           {
             "@language": "nl",
@@ -1056,7 +1054,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
         "label": [
           {
             "@language": "nl",
@@ -1136,7 +1134,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "zaak"
+            "@value": "agent"
           }
         ]
       }
