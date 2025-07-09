@@ -10,10 +10,10 @@
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/rooilijn",
-    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/perceel",
     "http://xmlns.com/foaf/0.1",
     "http://purl.org/dc/terms",
+    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/openbaardomein/terreindeel",
     "https://data.vlaanderen.be/ns/weg",
     "https://qudt.org/schema/qudt",
@@ -886,14 +886,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#Statustype",
-        "label": [
-          {
-            "@value": "Statustype"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid",
         "label": [
           {
@@ -1034,6 +1026,14 @@
           {
             "@language": "nl",
             "@value": "Vergunning"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#Statustype",
+        "label": [
+          {
+            "@value": "Statustype"
           }
         ]
       }
@@ -1474,15 +1474,6 @@
     ],
     "externalclasses": [
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Lijnkenmerktype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://xmlns.com/foaf/0.1/Document",
         "label": [
           {
@@ -1524,33 +1515,6 @@
           {
             "@language": "nl",
             "@value": "Valuta"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Toepassingsrichting"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Plantype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Rooilijntype"
           }
         ]
       },
@@ -1764,7 +1728,43 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
+            "@language": "nl",
+            "@value": "Lijnkenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
             "@value": "ZakelijkRechttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toepassingsrichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rooilijntype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plantype"
           }
         ]
       }
