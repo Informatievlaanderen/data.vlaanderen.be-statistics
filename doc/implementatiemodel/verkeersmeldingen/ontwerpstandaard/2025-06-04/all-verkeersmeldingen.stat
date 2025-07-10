@@ -11,6 +11,8 @@
   "namespaces": [
     "http://www.w3.org/ns/sosa",
     "https://data.vlaanderen.be/ns/verkeersmetingen",
+    "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
+    "http://def.isotc211.org/iso19156/2011/Observation",
     "http://www.w3.org/ns/ssn",
     "http://www.w3.org/2004/02/skos/core",
     "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
@@ -19,24 +21,22 @@
     "https://www.w3.org/2009/08/skos-reference/skos.html",
     "https://data.vlaanderen.be/ns/melding",
     "http://www.w3.org/ns/org",
-    "http://www.w3.org/2000/01/rdf-schema",
+    "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata",
     "http://purl.org/dc/dcmitype",
     "http://www.w3.org/ns/prov",
+    "http://www.w3.org/2000/01/rdf-schema",
     "http://dbpedia.org/ontology",
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
     "https://www.w3.org/ns/activitystreams",
-    "https://schema.org",
     "http://www.w3.org/ns/adms",
     "https://data.vlaanderen.be/ns/dossier",
     "https://dbpedia.org/ontology",
-    "http://def.isotc211.org/iso19156/2011/Observation",
-    "http://www.w3.org/ns/sosa/oms",
-    "http://todo.com",
     "http://www.w3.org/ns/oa",
-    "http://www.w3.org/ns/locn",
+    "http://todo.com",
+    "http://def.isotc211.org/iso19108/2006/TemporalObjects",
     "http://www.w3.org/2006/time",
-    "https://www.w3.org/TR/vocab-dqv/",
+    "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns"
   ],
@@ -45,10 +45,10 @@
   "contributors": 5,
   "participants": 20,
   "classes": 13,
-  "properties": 21,
-  "externalclasses": 35,
-  "externalproperties": 52,
-  "totalterms": 121,
+  "properties": 17,
+  "externalclasses": 32,
+  "externalproperties": 29,
+  "totalterms": 91,
   "totalorganisations": 7,
   "organisations": [
     {
@@ -462,51 +462,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#ligging",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ligging"
-          },
-          {
-            "@language": "en",
-            "@value": "location"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Observatie.uitgevoerdDoor",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "uitgevoerdDoor"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/melding#heeftStatus",
         "label": [
           {
             "@language": "nl",
             "@value": "heeft status"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/melding#statuswaarde",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "status type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/melding#statuswijzigingDoor",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "statuswijziging door"
           }
         ]
       },
@@ -547,16 +507,7 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/zaak",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "zaak"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/dossier#AgentInRol.Zaak",
+        "assignedURI": "http://todo.com/agent",
         "label": [
           {
             "@language": "nl",
@@ -565,11 +516,20 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/AgentInRol.Agent",
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#AgentInRol.Zaak",
         "label": [
           {
             "@language": "nl",
             "@value": "zaak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/AgentInRol.Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "agent"
           }
         ]
       }
@@ -585,16 +545,16 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/FeatureOfInterest",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_DomainFeature",
         "label": [
           {
             "@language": "nl",
-            "@value": "Object"
+            "@value": "Domeinobject"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/Observation",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
         "label": [
           {
             "@language": "nl",
@@ -716,7 +676,7 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
         "label": [
           {
             "@language": "nl",
@@ -819,16 +779,7 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/prov#Location",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Locatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Period",
         "label": [
           {
             "@language": "nl",
@@ -846,7 +797,7 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Instant",
         "label": [
           {
             "@language": "nl",
@@ -855,7 +806,7 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/StructuredValue",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
         "label": [
           {
             "@language": "nl",
@@ -868,7 +819,7 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/TR/vocab-dqv/#dqv:QualityMeasurement",
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
         "label": [
           {
             "@language": "nl",
@@ -895,24 +846,6 @@
           {
             "@language": "nl",
             "@value": "Systeem"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Concept"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
           }
         ]
       }
@@ -986,19 +919,6 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/name",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naam"
-          },
-          {
-            "@language": "en",
-            "@value": "Name"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
         "label": [
           {
@@ -1061,55 +981,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geobserveerdObject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "uitgevoerdMetsensor"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "fenomeentijd"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gebruikteProcedure"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          },
-          {
-            "@language": "en",
-            "@value": "type"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/ssn/hasInput",
         "label": [
           {
@@ -1136,41 +1007,6 @@
         ]
       },
       {
-        "assignedURI": "http://dbpedia.org/ontology/influencedBy",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "parameter"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          },
-          {
-            "@language": "en",
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          },
-          {
-            "@language": "en",
-            "@value": "type"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
@@ -1180,83 +1016,11 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "fenomeentijd"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/oms/validTime",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.validTime",
         "label": [
           {
             "@language": "nl",
             "@value": "geldigeTijd"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#identifier",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://dbpedia.org/ontology/influencedBy",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "parameter"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "resultaat"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/resultQuality",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "resultaatkwaliteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "resultaattijd"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/oa#hasBody",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft body"
           }
         ]
       },
@@ -1270,16 +1034,7 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/locn#geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/value",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.value",
         "label": [
           {
             "@language": "nl",
@@ -1292,56 +1047,7 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/creator",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toegekend door"
-          },
-          {
-            "@language": "en",
-            "@value": "assignedBy"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#hadRole",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "rol"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#identifier",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#identifier",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/observedProperty",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
         "label": [
           {
             "@language": "nl",
@@ -1350,7 +1056,7 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
         "label": [
           {
             "@language": "nl",
@@ -1430,7 +1136,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "agent"
+            "@value": "zaak"
           }
         ]
       }
