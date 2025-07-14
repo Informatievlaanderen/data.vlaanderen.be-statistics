@@ -11,39 +11,41 @@
   "namespaces": [
     "http://purl.org/dc/terms",
     "http://data.europa.eu/m8g",
-    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/zaalreservatie",
     "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur",
     "http://xmlns.com/foaf/0.1",
+    "http://purl.org/vocab/cpsv",
     "http://www.cidoc-crm.org/cidoc-crm",
+    "http://www.w3.org/ns/org",
+    "http://qudt.org/schema/qudt",
+    "http://www.w3.org/2004/02/skos/core",
     "http://data.europa.eu/m8g/",
-    "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/ns/person",
+    "https://periodo.github.io/edtf-ontology/edtfo.ttl",
     "https://schema.org",
+    "http://www.opengis.net/ont/geosparql",
     "http://schema.mobivoc.org/",
-    "http://schema.org",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/ns/dcat",
     "http://www.w3.org/2000/01/rdf-schema",
     "https://data.vlaanderen.be/ns/adres",
+    "http://www.w3.org/2006/time",
     "http://www.w3.org/2006/vcard/ns",
     "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren",
     "http://www.w3.org/ns/adms",
-    "http://www.w3.org/ns/org",
-    "http://purl.org/vocab/cpsv",
-    "http://purl.org/vocab",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/ns/prov",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema"
   ],
   "authors": 7,
   "editors": 7,
   "contributors": 9,
   "participants": 23,
-  "classes": 22,
-  "properties": 50,
-  "externalclasses": 39,
-  "externalproperties": 74,
-  "totalterms": 185,
+  "classes": 27,
+  "properties": 49,
+  "externalclasses": 45,
+  "externalproperties": 75,
+  "totalterms": 196,
   "totalorganisations": 10,
   "organisations": [
     {
@@ -337,6 +339,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Reservatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Reservatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Binnenruimte",
         "label": [
           {
@@ -355,11 +366,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Voertuigtype",
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Plaatsbeschrijving",
         "label": [
           {
             "@language": "nl",
-            "@value": "Voertuigtype"
+            "@value": "Plaatsbeschrijving"
           }
         ]
       },
@@ -409,11 +420,10 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Plaatsbeschrijving",
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Plaatsbeschrijving"
+            "@value": "Literal"
           }
         ]
       },
@@ -426,29 +436,18 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "label": [
-          {
-            "@value": "DateTime"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
-        "label": [
-          {
-            "@value": "String"
-          },
-          {
-            "@value": "string"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
         "label": [
           {
             "@value": "Integer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
           }
         ]
       },
@@ -465,6 +464,29 @@
         "label": [
           {
             "@value": "Time"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          },
+          {
+            "@value": "string"
+          }
+        ]
+      },
+      {},
+      {},
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Reservatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Reservatie"
           }
         ]
       },
@@ -531,24 +553,6 @@
           {
             "@language": "nl",
             "@value": "land"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#tijdstip",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "tijdstip"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#tijdstip",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "tijdstip"
           }
         ]
       },
@@ -845,7 +849,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "opneningsuren"
+            "@value": "openingsuren"
           }
         ]
       },
@@ -886,15 +890,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#bijlage",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bijlage"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#infrastructuur",
         "label": [
           {
@@ -920,6 +915,24 @@
             "@value": "subinfrastructuur"
           }
         ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Infrastructuur.reservatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#infrastructuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "infrastructuur"
+          }
+        ]
       }
     ],
     "externalclasses": [
@@ -942,42 +955,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ToegankelijkheidType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "StatusType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Taalcode"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gebruiktype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://xmlns.com/foaf/0.1/Document",
         "label": [
           {
@@ -987,47 +964,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "assignedURI": "http://purl.org/vocab/cpsv#PublicService",
         "label": [
           {
             "@language": "nl",
-            "@value": "Openstellingtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Infrastructuurtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Buitenruimtetype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Binnenruimtetype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "infrastructuurreservatiestatustype"
+            "@value": "Publieke Dienstverlening"
           }
         ]
       },
@@ -1041,11 +982,20 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
         "label": [
           {
             "@language": "nl",
-            "@value": "Diensttype"
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://qudt.org/schema/qudt/Unit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Eenheid"
           }
         ]
       },
@@ -1054,43 +1004,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Faciliteittype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Exclusiviteitstype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Activiteittype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Capaciteittype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Eigenaarschapstype"
+            "@value": "Concept"
           }
         ]
       },
@@ -1112,70 +1026,16 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Locatie"
+            "@value": "Plaats"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "assignedURI": "http://www.w3.org/ns/person#Person",
         "label": [
           {
             "@language": "nl",
-            "@value": "Dimensietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Toegankelijkheidsniveau"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Toegankelijkheidsonderdeel"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Periode"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Getypeerde String"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/unitCode",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Standaard Eenheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/Number",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Getal"
+            "@value": "Persoon"
           }
         ]
       },
@@ -1185,24 +1045,6 @@
           {
             "@language": "nl",
             "@value": "Geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/QuantitativeValue",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Kwantitatieve Waarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Taalstring"
           }
         ]
       },
@@ -1234,7 +1076,25 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/OpeningHoursSpecification",
+        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwantitatieveWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/OpeningHoursSpecification",
         "label": [
           {
             "@language": "nl",
@@ -1261,11 +1121,29 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/ContactPoint",
+        "assignedURI": "https://schema.org/Vehicle",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Voertuig"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/ContactPoint",
         "label": [
           {
             "@language": "nl",
             "@value": "Contactpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
           }
         ]
       },
@@ -1277,9 +1155,207 @@
             "@value": "Publieke Dienstverlening"
           }
         ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Faciliteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebruiktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Voertuigtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openstellingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infrastructuurtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Exclusiviteitstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Capaciteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Eigenaarschapstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dimensietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Activiteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegankelijkheidsniveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegankelijkheidsonderdeel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Binnenruimtetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Buitenruimtetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Diensttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "StatusType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infrastructuurreservatiestatustype"
+          }
+        ]
       }
     ],
     "externalproperties": [
+      {
+        "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#hasEDTFDateTimeDescription",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "in EDTF"
+          }
+        ]
+      },
       {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "label": [
@@ -1290,20 +1366,11 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/m8g/startTime",
+        "assignedURI": "http://purl.org/dc/terms/description",
         "label": [
           {
             "@language": "nl",
-            "@value": "begin"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/endTime",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "einde"
+            "@value": "beschrijving"
           }
         ]
       },
@@ -1313,6 +1380,15 @@
           {
             "@language": "nl",
             "@value": "titel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
           }
         ]
       },
@@ -1344,15 +1420,6 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/unitText",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eenheidtekst"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://schema.mobivoc.org/#totalCapacity",
         "label": [
           {
@@ -1362,7 +1429,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/openingHours",
+        "assignedURI": "https://schema.org/openingHours",
         "label": [
           {
             "@language": "nl",
@@ -1380,11 +1447,11 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/unitText",
+        "assignedURI": "https://schema.org/value",
         "label": [
           {
             "@language": "nl",
-            "@value": "eenheid"
+            "@value": "waarde"
           }
         ]
       },
@@ -1398,15 +1465,6 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/unitText",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eenheid"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
         "label": [
           {
@@ -1416,7 +1474,16 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/dayOfWeek",
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/dayOfWeek",
         "label": [
           {
             "@language": "nl",
@@ -1425,7 +1492,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/validThrough",
+        "assignedURI": "https://schema.org/validThrough",
         "label": [
           {
             "@language": "nl",
@@ -1434,7 +1501,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/validFrom",
+        "assignedURI": "https://schema.org/validFrom",
         "label": [
           {
             "@language": "nl",
@@ -1443,7 +1510,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/closes",
+        "assignedURI": "https://schema.org/closes",
         "label": [
           {
             "@language": "nl",
@@ -1452,7 +1519,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/opens",
+        "assignedURI": "https://schema.org/opens",
         "label": [
           {
             "@language": "nl",
@@ -1596,6 +1663,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#hasTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdstip"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
         "label": [
           {
@@ -1614,7 +1690,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/email",
+        "assignedURI": "https://schema.org/email",
         "label": [
           {
             "@language": "nl",
@@ -1623,7 +1699,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/faxNumber",
+        "assignedURI": "https://schema.org/faxNumber",
         "label": [
           {
             "@language": "nl",
@@ -1632,7 +1708,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/openingHours",
+        "assignedURI": "https://schema.org/openingHours",
         "label": [
           {
             "@language": "nl",
@@ -1641,7 +1717,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/telephone",
+        "assignedURI": "https://schema.org/telephone",
         "label": [
           {
             "@language": "nl",
@@ -1659,6 +1735,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#hasTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdstip"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/locn#geometry",
         "label": [
           {
@@ -1668,7 +1753,25 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/ContactPoint",
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasContactPoint",
         "label": [
           {
             "@language": "nl",
@@ -1695,29 +1798,29 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/unitCode",
         "label": [
           {
             "@language": "nl",
-            "@value": "eenheidcode"
+            "@value": "eenheid"
           }
         ]
       },
       {
-        "assignedURI": "https://schema.org/value",
+        "assignedURI": "http://schema.mobivoc.org/#validForVehicle",
         "label": [
           {
             "@language": "nl",
-            "@value": "waarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "voertuigtype"
+            "@value": "geldig voor voertuig"
           }
         ]
       },
@@ -1731,11 +1834,20 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voertuigtype"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/unitCode",
         "label": [
           {
             "@language": "nl",
-            "@value": "standaardeenheid"
+            "@value": "eenheid"
           }
         ]
       },
@@ -1749,15 +1861,6 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/value",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "waarde"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
@@ -1771,7 +1874,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "standaardeenheid"
+            "@value": "eenheid"
           }
         ]
       },
@@ -1781,15 +1884,6 @@
           {
             "@language": "nl",
             "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/value",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "waarde"
           }
         ]
       },
@@ -1866,7 +1960,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/ContactPoint",
+        "assignedURI": "https://schema.org/contactPoint",
         "label": [
           {
             "@language": "nl",
@@ -1884,11 +1978,20 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/hoursAvailable",
+        "assignedURI": "https://schema.org/hoursAvailable",
         "label": [
           {
             "@language": "nl",
             "@value": "uren beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/references",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "document"
           }
         ]
       },
@@ -1906,16 +2009,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "heeftVerantwoordelijke"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/vocab/cpsv#physicallyAvailableAt",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "reservatiedienst"
+            "@value": "heeft verantwoordelijke"
           }
         ]
       },
@@ -1925,24 +2019,6 @@
           {
             "@language": "nl",
             "@value": "produceert"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/vocab/cpsv",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "reservatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/vocab/cpsv",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "infrastructuur"
           }
         ]
       }
