@@ -17,7 +17,6 @@
     "https://data.vlaanderen.be/ns/mobiliteit",
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/melding",
-    "http://www.w3.org/ns/org",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://purl.org/dc/dcmitype",
     "http://www.w3.org/ns/prov",
@@ -33,19 +32,19 @@
     "https://dbpedia.org/ontology",
     "http://www.w3.org/ns/sosa/oms",
     "http://www.w3.org/ns/oa",
-    "http://todo.com",
     "http://www.w3.org/ns/dqv",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/ns/org"
   ],
   "authors": 8,
   "editors": 7,
   "contributors": 5,
   "participants": 20,
   "classes": 13,
-  "properties": 16,
+  "properties": 15,
   "externalclasses": 39,
-  "externalproperties": 76,
+  "externalproperties": 77,
   "totalterms": 144,
   "totalorganisations": 8,
   "organisations": [
@@ -505,15 +504,6 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/AgentInRol.Agent",
-        "label": [
-          {
-            "@language": "nl",
             "@value": "zaak"
           }
         ]
@@ -609,15 +599,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Domeinobjecttype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/Property",
         "label": [
           {
@@ -647,34 +628,8 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
-            "@value": "Meldingstype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
             "@language": "nl",
             "@value": "Concept"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Role",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Rol"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatietype"
           }
         ]
       },
@@ -684,46 +639,6 @@
           {
             "@language": "nl",
             "@value": "Any"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "Observationproceduretype"
-          },
-          {
-            "@language": "nl",
-            "@value": "Observatieproceduretype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "InputType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OutputType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Systeemtype"
           }
         ]
       },
@@ -880,6 +795,46 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OutputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Observationproceduretype"
+          },
+          {
+            "@language": "nl",
+            "@value": "Observatieproceduretype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobjecttype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
         "label": [
           {
@@ -894,6 +849,41 @@
           {
             "@language": "nl",
             "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Meldingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeemtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rol"
           }
         ]
       }
@@ -1636,6 +1626,15 @@
       },
       {
         "assignedURI": "http://purl.org/dc/terms/agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#agent",
         "label": [
           {
             "@language": "nl",
