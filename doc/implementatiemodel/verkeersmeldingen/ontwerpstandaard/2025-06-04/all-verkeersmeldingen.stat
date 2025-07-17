@@ -17,11 +17,15 @@
     "https://data.vlaanderen.be/ns/mobiliteit",
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/melding",
+    "http://www.w3.org/ns/org",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://purl.org/dc/dcmitype",
     "http://www.w3.org/ns/prov",
     "http://dbpedia.org/ontology",
     "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/2006/time",
+    "https://vocab.belgif.be/ns/address",
+    "http://www.w3.org/ns/locn",
     "https://www.w3.org/ns/activitystreams",
     "https://schema.org",
     "http://www.w3.org/ns/adms",
@@ -29,13 +33,10 @@
     "https://dbpedia.org/ontology",
     "http://www.w3.org/ns/sosa/oms",
     "http://www.w3.org/ns/oa",
-    "http://www.w3.org/ns/locn",
     "http://todo.com",
-    "http://www.w3.org/2006/time",
     "http://www.w3.org/ns/dqv",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "http://www.w3.org/ns/org"
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
   ],
   "authors": 8,
   "editors": 7,
@@ -43,9 +44,9 @@
   "participants": 20,
   "classes": 13,
   "properties": 16,
-  "externalclasses": 36,
-  "externalproperties": 59,
-  "totalterms": 124,
+  "externalclasses": 39,
+  "externalproperties": 76,
+  "totalterms": 144,
   "totalorganisations": 7,
   "organisations": [
     {
@@ -604,6 +605,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobjecttype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/sosa/Property",
         "label": [
           {
@@ -633,8 +643,34 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
+            "@value": "Meldingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
             "@language": "nl",
             "@value": "Concept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatietype"
           }
         ]
       },
@@ -644,6 +680,46 @@
           {
             "@language": "nl",
             "@value": "Any"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Observationproceduretype"
+          },
+          {
+            "@language": "nl",
+            "@value": "Observatieproceduretype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OutputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeemtype"
           }
         ]
       },
@@ -720,11 +796,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
         "label": [
           {
             "@language": "nl",
-            "@value": "Periode"
+            "@value": "Moment"
           }
         ]
       },
@@ -738,11 +814,20 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
         "label": [
           {
             "@language": "nl",
-            "@value": "Moment"
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
           }
         ]
       },
@@ -791,77 +876,20 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
         "label": [
           {
             "@language": "nl",
-            "@value": "OutputType"
+            "@value": "Periode"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "Observationproceduretype"
-          },
-          {
-            "@language": "nl",
-            "@value": "Observatieproceduretype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
         "label": [
           {
             "@language": "nl",
-            "@value": "InputType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Domeinobjecttype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Meldingstype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Systeemtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Role",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Rol"
+            "@value": "Moment"
           }
         ]
       }
@@ -908,6 +936,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "in XSD datumTijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#AddressRepresentation.boxNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/references",
         "label": [
           {
@@ -930,6 +976,123 @@
           {
             "@language": "en",
             "@value": "reference"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatienaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#addressArea",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adresgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#municipalityName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 2"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 1"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#country",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledig Adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#poBox",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postbus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatieaanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#AddressRepresentation.houseNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
           }
         ]
       },
@@ -1138,6 +1301,24 @@
           {
             "@language": "en",
             "@value": "ouptut"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "van"
           }
         ]
       },
