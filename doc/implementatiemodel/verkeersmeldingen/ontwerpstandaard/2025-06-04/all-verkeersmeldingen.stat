@@ -13,7 +13,6 @@
     "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/verkeersmetingen",
     "http://www.w3.org/ns/ssn",
-    "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
     "http://datex2.eu/vocab/3/Situation",
     "https://data.vlaanderen.be/ns/mobiliteit",
     "http://purl.org/dc/terms",
@@ -23,14 +22,12 @@
     "http://www.w3.org/ns/prov",
     "http://dbpedia.org/ontology",
     "http://www.opengis.net/ont/geosparql",
-    "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
     "https://www.w3.org/ns/activitystreams",
     "https://schema.org",
     "http://www.w3.org/ns/adms",
     "https://data.vlaanderen.be/ns/dossier",
     "https://dbpedia.org/ontology",
     "http://www.w3.org/ns/sosa/oms",
-    "https://data.vlaanderen.be/ns/observaties-en-metingen",
     "http://www.w3.org/ns/oa",
     "http://www.w3.org/ns/locn",
     "http://todo.com",
@@ -45,9 +42,9 @@
   "contributors": 5,
   "participants": 20,
   "classes": 13,
-  "properties": 20,
+  "properties": 16,
   "externalclasses": 36,
-  "externalproperties": 55,
+  "externalproperties": 59,
   "totalterms": 124,
   "totalorganisations": 7,
   "organisations": [
@@ -369,45 +366,6 @@
     ],
     "properties": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Output.referentie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "referentie"
-          },
-          {
-            "@language": "en",
-            "@value": "reference"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Observatieprocedure.specificatie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "specificatie"
-          },
-          {
-            "@language": "en",
-            "@value": "specification"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Input.referentie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "referentie"
-          },
-          {
-            "@language": "en",
-            "@value": "reference"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/melding#webpagina",
         "label": [
           {
@@ -471,15 +429,6 @@
           {
             "@language": "en",
             "@value": "location"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.uitgevoerdDoor",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "uitgevoerdDoor"
           }
         ]
       },
@@ -655,7 +604,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+        "assignedURI": "http://www.w3.org/ns/sosa/Property",
         "label": [
           {
             "@language": "nl",
@@ -937,11 +886,50 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/references",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentie"
+          },
+          {
+            "@language": "en",
+            "@value": "reference"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
         "label": [
           {
             "@language": "nl",
             "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/references",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "specificatie"
+          },
+          {
+            "@language": "en",
+            "@value": "specification"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/references",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentie"
+          },
+          {
+            "@language": "en",
+            "@value": "reference"
           }
         ]
       },
@@ -1266,6 +1254,15 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/contributor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
           }
         ]
       },
