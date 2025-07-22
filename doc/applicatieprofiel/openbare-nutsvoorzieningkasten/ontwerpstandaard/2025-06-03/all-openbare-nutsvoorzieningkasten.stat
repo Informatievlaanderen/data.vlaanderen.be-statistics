@@ -9,53 +9,50 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
+    "http://www.w3.org/ns/ssn/systems",
+    "https://vocab.belgif.be/ns/network",
     "http://www.w3.org/ns/org",
     "http://purl.org/dc/terms",
-    "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
-    "http://def.isotc211.org/iso19156/2011/Observation",
-    "http://www.w3.org/ns/person",
-    "http://def.isotc211.org/iso19156/2011GeneralFeatureInstance",
-    "https://saref.etsi.org/core",
     "https://vocab.belgif.be/ns/utility-services",
+    "http://qudt.org/schema/qudt",
+    "http://www.w3.org/ns/person",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "https://saref.etsi.org/core",
     "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters",
+    "http://www.w3.org/ns/sosa",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/ns/prov",
     "https://saref.etsi.org/saref4bldg",
     "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur",
     "http://www.w3.org/ns/ssn",
     "https://www.w3.org/ns/sosa",
-    "http://www.w3.org/ns/sosa",
     "https://schema.org",
+    "http://www.w3.org/2006/vcard/ns",
+    "http://xmlns.com/foaf/0.1",
+    "http://schema.org",
+    "https://qudt.org/schema/qudt",
     "http://www.w3.org/2004/02/skos/core",
-    "https://w3id.org/def/S4WATR",
+    "https://vocab.belgif.be/ns/address",
+    "http://www.w3.org/ns/locn",
+    "http://www.opengis.net/ont/geosparql",
     "https://data.vlaanderen.be/ns/persoon",
     "http://www.w3.org/2006/time",
-    "http://schema.org",
-    "https://data.vlaanderen.be/ns/observaties-en-metingen",
     "http://purl.org/dc/elements/1.1",
-    "https://vocab.belgif.be/ns/network",
-    "http://www.opengis.net/ont/geosparql",
-    "http://www.w3.org/ns/ssn/systems",
+    "http://dbpedia.org/ontology",
     "https://data.vlaanderen.be/ns/digitaleWatermeter",
-    "http://www.w3.org/2000/01/rdf-schema",
-    "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
-    "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
-    "http://xmlns.com/foaf/0.1",
     "http://www.opengis.net/ont/sf",
-    "https://qudt.org/schema/qudt",
-    "http://www.w3.org/ns/locn"
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2001/XMLSchema"
   ],
   "authors": 6,
   "editors": 8,
   "contributors": 1,
   "participants": 15,
-  "classes": 12,
-  "properties": 7,
-  "externalclasses": 62,
-  "externalproperties": 86,
-  "totalterms": 167,
+  "classes": 14,
+  "properties": 6,
+  "externalclasses": 63,
+  "externalproperties": 102,
+  "totalterms": 185,
   "totalorganisations": 4,
   "organisations": [
     {
@@ -234,10 +231,10 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
         "label": [
           {
-            "@value": "Literal"
+            "@value": "LangString"
           }
         ]
       },
@@ -250,6 +247,14 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
         "label": [
           {
@@ -257,14 +262,8 @@
           }
         ]
       },
-      {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-        "label": [
-          {
-            "@value": "LangString"
-          }
-        ]
-      },
+      {},
+      {},
       {},
       {},
       {},
@@ -278,15 +277,6 @@
           {
             "@language": "nl",
             "@value": "volledige naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.uitgevoerdDoor",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "uitgevoerdDoor"
           }
         ]
       },
@@ -338,6 +328,42 @@
     ],
     "externalclasses": [
       {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/SystemCapacity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeemvermogen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/SurvivalRange",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Overlevingscapaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/OperatingRange",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Werkingsbereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#Node",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Knoop"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/org#Organization",
         "label": [
           {
@@ -360,20 +386,38 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Appurtenance",
         "label": [
           {
             "@language": "nl",
-            "@value": "Kenmerktype"
+            "@value": "Toebehoren"
           }
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "assignedURI": "https://vocab.belgif.be/ns/network#Link",
         "label": [
           {
             "@language": "nl",
-            "@value": "Observatie"
+            "@value": "Link"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://qudt.org/schema/qudt/Unit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Eenheid"
           }
         ]
       },
@@ -387,11 +431,11 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011GeneralFeatureInstance#GFI_DomainFeature",
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
         "label": [
           {
             "@language": "nl",
-            "@value": "Domeinobject"
+            "@value": "Any"
           }
         ]
       },
@@ -414,6 +458,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/sosa/Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityLink",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieninglink"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
         "label": [
           {
@@ -428,6 +490,15 @@
           {
             "@language": "nl",
             "@value": "Nutsvoorzieningknoopcontainer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/FeatureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
           }
         ]
       },
@@ -462,7 +533,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Acitiviteit"
+            "@value": "Activiteit"
           }
         ]
       },
@@ -472,6 +543,24 @@
           {
             "@language": "nl",
             "@value": "Stopcontact"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Property",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ObserveerbaarKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/Function",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Functie"
           }
         ]
       },
@@ -490,6 +579,15 @@
           {
             "@language": "nl",
             "@value": "Systeem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/Task",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taak"
           }
         ]
       },
@@ -530,6 +628,33 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/StructuredValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BenoemdeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://qudt.org/schema/qudt/QuantityValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwantitatieveWaarde"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/adms#Identifier",
         "label": [
           {
@@ -539,11 +664,38 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "assignedURI": "http://www.opengis.net/ont/geosparql#Curve",
         "label": [
           {
             "@language": "nl",
-            "@value": "Locatie"
+            "@value": "Curve"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#Point",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Punt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
           }
         ]
       },
@@ -575,11 +727,38 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+        "assignedURI": "https://saref.etsi.org/core/Device",
         "label": [
           {
             "@language": "nl",
-            "@value": "Object"
+            "@value": "Toestel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/sosa/Sensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Sensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#Link",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Link"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#Network",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Netwerk"
           }
         ]
       },
@@ -589,6 +768,15 @@
           {
             "@language": "nl",
             "@value": "Platform"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#Node",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Knoop"
           }
         ]
       },
@@ -610,65 +798,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/ssn/System",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Systeem"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://www.w3.org/ns/sosa/Platform",
         "label": [
           {
             "@language": "nl",
             "@value": "Platform"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "BenoemdeWaarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Kwaliteitselement"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Any"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatietype"
           }
         ]
       },
@@ -682,29 +816,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Identificator"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
             "@value": "Functietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "VerticalePositie"
           }
         ]
       },
@@ -718,15 +834,6 @@
         ]
       },
       {
-        "assignedURI": "http://xmlns.com/foaf/0.1/Document",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Document"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
@@ -736,74 +843,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.opengis.net/ont/sf#Point",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Punt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Verticale Positietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "RisicoType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Appearance",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Uiterlijk"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://qudt.org/schema/qudt/QuantityValue",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "KwantitatieveWaarde"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
             "@value": "Nutsvoorzieningnetwerktype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Address",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Adresvoorstelling"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Location",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Plaats"
           }
         ]
       },
@@ -824,20 +868,11 @@
         ]
       },
       {
-        "assignedURI": "https://saref.etsi.org/core/Function",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Functie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://saref.etsi.org/core/Task",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Taak"
+            "@value": "Observatietype"
           }
         ]
       },
@@ -851,33 +886,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/ssn/systems/SystemCapacity",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Systeemvermogen"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/ssn/systems/OperatingRange",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Werkingsbereik"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/ssn/systems/SurvivalRange",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Overlevingscapaciteit"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
@@ -885,42 +893,60 @@
             "@value": "Platformtype"
           }
         ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
-          }
-        ]
       }
     ],
     "externalproperties": [
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
         "label": [
           {
             "@language": "nl",
-            "@value": "identificator"
+            "@value": "aanschrijfvorm"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+        "assignedURI": "http://xmlns.com/foaf/0.1/name",
         "label": [
           {
             "@language": "nl",
-            "@value": "toegekend door (String)"
+            "@value": "contactnaam"
           }
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/issued",
+        "assignedURI": "http://schema.org/email",
         "label": [
           {
             "@language": "nl",
-            "@value": "toegekend op"
+            "@value": "email"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/telephone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telefoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://qudt.org/schema/qudt/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
           }
         ]
       },
@@ -970,6 +996,132 @@
         ]
       },
       {
+        "assignedURI": "https://vocab.belgif.be/ns/address#AddressRepresentation.boxNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatienaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#addressArea",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adresgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#municipalityName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 2"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 1"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#country",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "als WKT"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "als GML"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door (String)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend op"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#geographicalName",
         "label": [
           {
@@ -979,38 +1131,47 @@
         ]
       },
       {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasFabricationNumber",
+        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
         "label": [
           {
             "@language": "nl",
-            "@value": "heeftFabrieksnummer"
+            "@value": "volledig Adres"
           }
         ]
       },
       {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasFirmwareVersion",
+        "assignedURI": "http://www.w3.org/ns/locn#poBox",
         "label": [
           {
             "@language": "nl",
-            "@value": "heeftFirmwareVersion"
+            "@value": "postbus"
           }
         ]
       },
       {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasHardwareVersion",
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
         "label": [
           {
             "@language": "nl",
-            "@value": "heeftHardwareVersie"
+            "@value": "straatnaam"
           }
         ]
       },
       {
-        "assignedURI": "https://w3id.org/def/S4WATR#hasVersion",
+        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
         "label": [
           {
             "@language": "nl",
-            "@value": "heeftVersie"
+            "@value": "locatieaanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#AddressRepresentation.houseNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
           }
         ]
       },
@@ -1060,65 +1221,11 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/creator",
+        "assignedURI": "https://qudt.org/schema/qudt/hasUnit",
         "label": [
           {
             "@language": "nl",
-            "@value": "toegekend door"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "parameter"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "fenomeentijd"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "resultaattijd"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.validTime",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geldigeTijd"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "resultaatkwaliteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "resultaat"
+            "@value": "eenheid"
           }
         ]
       },
@@ -1128,6 +1235,24 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
           }
         ]
       },
@@ -1146,24 +1271,6 @@
           {
             "@language": "nl",
             "@value": "contactinfo"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#identifier",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "identificator"
           }
         ]
       },
@@ -1186,29 +1293,11 @@
         ]
       },
       {
-        "assignedURI": "https://vocab.belgif.be/ns/utility-services#verticalPositionDetail",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "verticalePositiedetail"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#currentStatus",
         "label": [
           {
             "@language": "nl",
             "@value": "huidigeStatus"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/elements/1.1/relation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "documentatie"
           }
         ]
       },
@@ -1231,38 +1320,11 @@
         ]
       },
       {
-        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.verticalPosition",
+        "assignedURI": "https://vocab.belgif.be/ns/network#Link.centrelineGeometry",
         "label": [
           {
             "@language": "nl",
-            "@value": "verticalePositie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.risk",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "risico"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.appearance",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "uiterlijk"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "oriëntatie"
+            "@value": "middelijngeometrie"
           }
         ]
       },
@@ -1285,11 +1347,38 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#identifier",
         "label": [
           {
             "@language": "nl",
             "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#endNode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eindknoop"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#beginNode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "startknoop"
           }
         ]
       },
@@ -1303,7 +1392,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
         "label": [
           {
             "@language": "nl",
@@ -1312,7 +1401,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
         "label": [
           {
             "@language": "nl",
@@ -1321,7 +1410,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
         "label": [
           {
             "@language": "nl",
@@ -1330,7 +1419,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
         "label": [
           {
             "@language": "nl",
@@ -1438,11 +1527,65 @@
         ]
       },
       {
+        "assignedURI": "http://dbpedia.org/ontology/influencedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fenomeentijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://saref.etsi.org/core/hasFunction",
         "label": [
           {
             "@language": "nl",
             "@value": "functie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/contributor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
           }
         ]
       },
@@ -1546,15 +1689,6 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geobserveerdKenmerk"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork",
         "label": [
           {
@@ -1564,7 +1698,7 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
         "label": [
           {
             "@language": "nl",
@@ -1668,6 +1802,15 @@
           {
             "@language": "nl",
             "@value": "deployment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
           }
         ]
       }
