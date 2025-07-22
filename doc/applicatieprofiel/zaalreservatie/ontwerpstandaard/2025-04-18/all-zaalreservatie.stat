@@ -21,6 +21,7 @@
     "http://www.w3.org/2004/02/skos/core",
     "http://data.europa.eu/m8g/",
     "http://www.w3.org/ns/person",
+    "http://www.w3.org/2006/time",
     "https://periodo.github.io/edtf-ontology/edtfo.ttl",
     "https://schema.org",
     "http://www.opengis.net/ont/geosparql",
@@ -29,7 +30,6 @@
     "http://www.w3.org/ns/dcat",
     "http://www.w3.org/2000/01/rdf-schema",
     "https://data.vlaanderen.be/ns/adres",
-    "http://www.w3.org/2006/time",
     "http://www.w3.org/2006/vcard/ns",
     "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren",
     "http://www.w3.org/ns/adms",
@@ -41,11 +41,11 @@
   "editors": 7,
   "contributors": 9,
   "participants": 23,
-  "classes": 27,
+  "classes": 28,
   "properties": 49,
   "externalclasses": 45,
-  "externalproperties": 75,
-  "totalterms": 196,
+  "externalproperties": 77,
+  "totalterms": 199,
   "totalorganisations": 10,
   "organisations": [
     {
@@ -420,6 +420,14 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
         "label": [
           {
@@ -440,14 +448,6 @@
         "label": [
           {
             "@value": "Integer"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "label": [
-          {
-            "@value": "DateTime"
           }
         ]
       },
@@ -490,6 +490,7 @@
           }
         ]
       },
+      {},
       {}
     ],
     "properties": [
@@ -1076,6 +1077,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
         "label": [
           {
@@ -1162,15 +1172,6 @@
           {
             "@language": "nl",
             "@value": "TemporeleEntiteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2006/time#Instant",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Moment"
           }
         ]
       },
@@ -1347,6 +1348,24 @@
       }
     ],
     "externalproperties": [
+      {
+        "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "in XSD datumTijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#hasEDTFDateTimeDescription",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "in EDTF"
+          }
+        ]
+      },
       {
         "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#hasEDTFDateTimeDescription",
         "label": [
