@@ -43,11 +43,11 @@
   "editors": 2,
   "contributors": 55,
   "participants": 69,
-  "classes": 44,
-  "properties": 87,
-  "externalclasses": 37,
-  "externalproperties": 71,
-  "totalterms": 239,
+  "classes": 47,
+  "properties": 93,
+  "externalclasses": 39,
+  "externalproperties": 78,
+  "totalterms": 257,
   "totalorganisations": 34,
   "organisations": [
     {
@@ -987,18 +987,27 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#VariabeleInstantieMetWaarde",
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Wegcode",
         "label": [
           {
-            "@value": "VariabeleInstantieMetWaarde"
+            "@language": "nl",
+            "@value": "Wegcode"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#VariabeleInstantieMetVerwijzing",
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#MobliteitsmaatregelOntwerp",
         "label": [
           {
-            "@value": "VariabeleInstantieMetVerwijzing"
+            "@value": "MobliteitsmaatregelOntwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#VariabeleMetLocatie",
+        "label": [
+          {
+            "@value": "VariabeleMetLocatie"
           }
         ]
       },
@@ -1089,6 +1098,23 @@
           {
             "@language": "nl",
             "@value": "Signalisatie ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#MaatregelVerkeerstekenLijstItem",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Maatregel Verkeerstekenlijst Item"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#VeriabeleInstantieMetLocatie",
+        "label": [
+          {
+            "@value": "VeriabeleInstantieMetLocatie"
           }
         ]
       },
@@ -1305,6 +1331,15 @@
           {
             "@language": "nl",
             "@value": "plaatsbepaling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#positie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "positie"
           }
         ]
       },
@@ -1923,6 +1958,24 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#MaatregelVerkeerstekenLijstItem.heeftVerkeerstekenLijstItem",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft verkeersteken lijstitem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitsmaatregelconcept.heeftVerkeerstekenLijstItem",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft verkeersteken lijstitem"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/besluit#heeftVoorwaarde",
         "label": [
           {
@@ -2011,6 +2064,33 @@
             "@value": "definieert"
           }
         ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitsmaatregel.verwijdertMaatregel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwijdert maatregel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#MobliteitsmaatregelOntwerp.verwijdertMaatregel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwijdert maatregel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#wordtAangeduidDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wordt aangeduid door"
+          }
+        ]
       }
     ],
     "externalclasses": [
@@ -2042,11 +2122,27 @@
         ]
       },
       {
+        "assignedURI": "http://lblod.data.gift/vocabularies/variables/VariableInstanceWithLiteralValue",
+        "label": [
+          {
+            "@value": "VariabeleInstantieMetWaarde"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://lblod.data.gift/vocabularies/variables/VariableInstance",
         "label": [
           {
             "@language": "nl",
             "@value": "Variabele instantie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://lblod.data.gift/vocabularies/variables/VariableInstanceWithResourceValue",
+        "label": [
+          {
+            "@value": "VariabeleInstantieMetVerwijzing"
           }
         ]
       },
@@ -2504,6 +2600,15 @@
         ]
       },
       {
+        "assignedURI": "http://schema.org/validUntil",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldig tot"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/description",
         "label": [
           {
@@ -2891,6 +2996,24 @@
         ]
       },
       {
+        "assignedURI": "http://schema.org/item",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "item"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/item",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "item"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://todo.com/AanvullendReglement.isOntwerpVoor",
         "label": [
           {
@@ -2913,6 +3036,24 @@
         "label": [
           {
             "@language": "nl",
+            "@value": "is gebaseerd op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gebaseerd op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "label": [
+          {
+            "@language": "nl",
             "@value": "gebaseerd op"
           }
         ]
@@ -2977,6 +3118,24 @@
           {
             "@language": "nl",
             "@value": "bevat verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gebaseerd op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gebaseerd op"
           }
         ]
       }
