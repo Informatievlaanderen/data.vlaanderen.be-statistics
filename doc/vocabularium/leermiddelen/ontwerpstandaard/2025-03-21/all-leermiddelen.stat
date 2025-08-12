@@ -17,20 +17,18 @@
     "http://data.europa.eu/m8g",
     "https://data.vlaanderen.be/ns/leercredential",
     "https://www.w3.org/TR/owl-time/",
-    "http://www.w3.org/ns/adms",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "http://www.opengis.net/ont/sf"
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
   ],
   "authors": 8,
   "editors": 4,
   "contributors": 45,
   "participants": 56,
-  "classes": 26,
-  "properties": 55,
-  "externalclasses": 14,
-  "externalproperties": 18,
-  "totalterms": 113,
+  "classes": 22,
+  "properties": 27,
+  "externalclasses": 11,
+  "externalproperties": 12,
+  "totalterms": 72,
   "totalorganisations": 30,
   "organisations": [
     {
@@ -672,14 +670,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#ToegankelijkheidType",
-        "label": [
-          {
-            "@value": "ToegankelijkheidType"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Onderwijsniveau",
         "label": [
           {
@@ -707,22 +697,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LeeftijdsType",
-        "label": [
-          {
-            "@value": "LeeftijdsType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#BronType",
-        "label": [
-          {
-            "@value": "BronType"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#InteractieType",
         "label": [
           {
@@ -745,14 +719,6 @@
         "label": [
           {
             "@value": "LicentieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#CompetentieType",
-        "label": [
-          {
-            "@value": "CompetentieType"
           }
         ]
       },
@@ -817,10 +783,10 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#float",
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
         "label": [
           {
-            "@value": "float"
+            "@value": "URI"
           }
         ]
       },
@@ -883,20 +849,20 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#referentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#naam",
         "label": [
           {
             "@language": "nl",
             "@value": "naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#kost",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "kost"
           }
         ]
       },
@@ -928,114 +894,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#geldigheid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geldigheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#onderwerp",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "onderwerp"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#identificator",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#toegankelijkheid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toegankelijkheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#leeftijdstype",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "leeftijdstype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#doelgroep",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "doelgroep"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#onderwijsniveau",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "onderwijsniveau"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#leermiddelType",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "leermiddelType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#niveau",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "niveau"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#interactieType",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "interactieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Doel.competentie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "competentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#instructieTaal",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "instructieTaal"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#resultaatType",
         "label": [
           {
@@ -1045,154 +903,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#auteur",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "auteur"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#gedefinieerdDoor",
         "label": [
           {
             "@language": "nl",
             "@value": "gedefinieerdDoor"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#naam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#onderwerp",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "onderwerp"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#niveau",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "niveau"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#auteursrechtHouder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "auteursrechtHouder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#taal",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "taal"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#licentieType",
-        "label": [
-          {
-            "@value": "licentieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#doelType",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "doelType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#bron",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bron"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#eigenaar",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aanbieder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#referentie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "referentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#formaat",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "formaat"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leercredential#typeLeeractiviteit",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "typeLeeractiviteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#competentie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "competentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#bron",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bron"
           }
         ]
       },
@@ -1397,15 +1112,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Identificator"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://data.europa.eu/snb/model/elm/Claim",
         "label": [
           {
@@ -1420,24 +1126,6 @@
           {
             "@language": "nl",
             "@value": "Leerspecificatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/snb/model/elm/Address",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Algemeen Adres"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.opengis.net/ont/sf#LineString",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Lijnstring"
           }
         ]
       },
@@ -1489,38 +1177,11 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/snb/model/elm/directedBy",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ingericht door"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://data.europa.eu/snb/model/elm/isPartOf",
         "label": [
           {
             "@language": "nl",
             "@value": "is deel van"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/snb/model/elm/location",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "locatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/temporal",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "periode"
           }
         ]
       },
@@ -1561,15 +1222,6 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/language",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "instructietaal"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://data.europa.eu/snb/model/elm/isPartOf",
         "label": [
           {
@@ -1593,24 +1245,6 @@
           {
             "@language": "nl",
             "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/timeRequired",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vereisteTijd"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/creator",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toegekend door"
           }
         ]
       }
