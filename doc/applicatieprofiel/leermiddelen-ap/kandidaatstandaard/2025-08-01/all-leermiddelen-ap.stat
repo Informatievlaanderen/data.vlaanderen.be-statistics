@@ -1,0 +1,1993 @@
+{
+  "title": "Applicatieprofiel Leermiddelen",
+  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/leermiddelen-ap/kandidaatstandaard/2025-08-01",
+  "issued": "2025-08-01",
+  "navigation": {
+    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/leermiddelen-ap/kandidaatstandaard/2025-08-01"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "statuslabel": "Kandidaat Standaard",
+  "namespaces": [
+    "http://purl.org/dc/terms",
+    "http://data.europa.eu/snb/model/elm",
+    "http://www.w3.org/2004/02/skos/core",
+    "https://data.vlaanderen.be/ns/leermiddelen",
+    "https://schema.org",
+    "http://data.europa.eu/m8g",
+    "https://data.vlaanderen.be/ns/leercredential",
+    "https://www.w3.org/TR/owl-time/",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.opengis.net/ont/sf"
+  ],
+  "authors": 8,
+  "editors": 4,
+  "contributors": 45,
+  "participants": 56,
+  "classes": 25,
+  "properties": 55,
+  "externalclasses": 14,
+  "externalproperties": 18,
+  "totalterms": 112,
+  "totalorganisations": 30,
+  "organisations": [
+    {
+      "affiliation": "departementonderwijsenvorming",
+      "participants": 5
+    },
+    {
+      "affiliation": "vlaamsedienstvoorarbeidsbemiddelingenberoepsopleiding",
+      "participants": 2
+    },
+    {
+      "affiliation": "",
+      "participants": 3
+    },
+    {
+      "affiliation": "microsoft",
+      "participants": 1
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 4
+    },
+    {
+      "affiliation": "meemoo,vlaamsinstituutvoorhetarchief",
+      "participants": 2
+    },
+    {
+      "affiliation": "go!atheneumgeraardsbergen",
+      "participants": 1
+    },
+    {
+      "affiliation": "imec",
+      "participants": 3
+    },
+    {
+      "affiliation": "supportsquarenv",
+      "participants": 1
+    },
+    {
+      "affiliation": "universiteitgent",
+      "participants": 2
+    },
+    {
+      "affiliation": "go!onderwijsvandevlaamsegemeenschap",
+      "participants": 3
+    },
+    {
+      "affiliation": "xerteproject",
+      "participants": 2
+    },
+    {
+      "affiliation": "uitgeverijlernova",
+      "participants": 1
+    },
+    {
+      "affiliation": "questi",
+      "participants": 2
+    },
+    {
+      "affiliation": "becentral/mediawijs",
+      "participants": 1
+    },
+    {
+      "affiliation": "uitgeverijvaninnv",
+      "participants": 2
+    },
+    {
+      "affiliation": "smartbit",
+      "participants": 2
+    },
+    {
+      "affiliation": "dwengovzw",
+      "participants": 1
+    },
+    {
+      "affiliation": "regionaaltechnologischcentrumantwerpen",
+      "participants": 1
+    },
+    {
+      "affiliation": "plantyn",
+      "participants": 2
+    },
+    {
+      "affiliation": "gitooverijse",
+      "participants": 2
+    },
+    {
+      "affiliation": "katholiekonderwijsvlaanderen",
+      "participants": 2
+    },
+    {
+      "affiliation": "vrijdenkendeonafhankelijkeonderwijspartners",
+      "participants": 1
+    },
+    {
+      "affiliation": "studioglobo",
+      "participants": 1
+    },
+    {
+      "affiliation": "onderwijskoepelvanstedenengemeenten(ovsg)",
+      "participants": 2
+    },
+    {
+      "affiliation": "kuleuven",
+      "participants": 1
+    },
+    {
+      "affiliation": "ligo,centrumvoorbasiseducatiebrugge-oostende-westhoek",
+      "participants": 1
+    },
+    {
+      "affiliation": "edtech/station",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapvoorhogeronderwijs,volwassenenonderwijs,kwalificatiesenstudietoelagen",
+      "participants": 3
+    },
+    {
+      "affiliation": "klascement",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "katrienalen",
+        "affiliation": "departementonderwijsenvorming"
+      },
+      {
+        "name": "hannelorebaeyens",
+        "affiliation": "agentschapvoorhogeronderwijs,volwassenenonderwijs,kwalificatiesenstudietoelagen"
+      },
+      {
+        "name": "driesballyn",
+        "affiliation": "agentschapvoorhogeronderwijs,volwassenenonderwijs,kwalificatiesenstudietoelagen"
+      },
+      {
+        "name": "katrienbernaerts",
+        "affiliation": "departementonderwijsenvorming"
+      },
+      {
+        "name": "bartcolpaert",
+        "affiliation": "departementonderwijsenvorming"
+      },
+      {
+        "name": "jandecraemer",
+        "affiliation": "departementonderwijsenvorming"
+      },
+      {
+        "name": "wendydekeyzer",
+        "affiliation": "klascement"
+      },
+      {
+        "name": "ellenvantwembeke",
+        "affiliation": "agentschapvoorhogeronderwijs,volwassenenonderwijs,kwalificatiesenstudietoelagen"
+      }
+    ],
+    "editors": [
+      {
+        "name": "arnedaniels",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "yarondassonneville",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jitsedecock",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "bendemeester",
+        "affiliation": "imec"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "toonbeens",
+        "affiliation": "departementonderwijsenvorming"
+      },
+      {
+        "name": "wimbontinck",
+        "affiliation": "vlaamsedienstvoorarbeidsbemiddelingenberoepsopleiding"
+      },
+      {
+        "name": "paulbuyck",
+        "affiliation": ""
+      },
+      {
+        "name": "jochemclaes",
+        "affiliation": "microsoft"
+      },
+      {
+        "name": "steveclaeys",
+        "affiliation": "vlaamsedienstvoorarbeidsbemiddelingenberoepsopleiding"
+      },
+      {
+        "name": "arnedaniels",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "leendebruyn",
+        "affiliation": "meemoo,vlaamsinstituutvoorhetarchief"
+      },
+      {
+        "name": "bramdegeeter",
+        "affiliation": "go!atheneumgeraardsbergen"
+      },
+      {
+        "name": "christophdehaene",
+        "affiliation": "imec"
+      },
+      {
+        "name": "erwindeley",
+        "affiliation": "supportsquarenv"
+      },
+      {
+        "name": "bendemeester",
+        "affiliation": "universiteitgent"
+      },
+      {
+        "name": "stevendepauw",
+        "affiliation": "go!onderwijsvandevlaamsegemeenschap"
+      },
+      {
+        "name": "andydemeulenaere",
+        "affiliation": "imec"
+      },
+      {
+        "name": "ingedonkervoort",
+        "affiliation": "xerteproject"
+      },
+      {
+        "name": "bramfaems",
+        "affiliation": "uitgeverijlernova"
+      },
+      {
+        "name": "karoguetens",
+        "affiliation": ""
+      },
+      {
+        "name": "dirkhagenaars",
+        "affiliation": "questi"
+      },
+      {
+        "name": "stevenhendrickx",
+        "affiliation": "go!onderwijsvandevlaamsegemeenschap"
+      },
+      {
+        "name": "jeroenherman",
+        "affiliation": "becentral/mediawijs"
+      },
+      {
+        "name": "geertlybaert",
+        "affiliation": "uitgeverijvaninnv"
+      },
+      {
+        "name": "bartmesuere",
+        "affiliation": "universiteitgent"
+      },
+      {
+        "name": "erwinmeyers",
+        "affiliation": "smartbit"
+      },
+      {
+        "name": "tomneutens",
+        "affiliation": "dwengovzw"
+      },
+      {
+        "name": "joosneven",
+        "affiliation": "smartbit"
+      },
+      {
+        "name": "louisepaepe",
+        "affiliation": "regionaaltechnologischcentrumantwerpen"
+      },
+      {
+        "name": "chrispatteet",
+        "affiliation": "uitgeverijvaninnv"
+      },
+      {
+        "name": "pieter-janquinteyn",
+        "affiliation": "plantyn"
+      },
+      {
+        "name": "marcrabaey",
+        "affiliation": "gitooverijse"
+      },
+      {
+        "name": "tomreijnders",
+        "affiliation": "xerteproject"
+      },
+      {
+        "name": "kathleenrymen",
+        "affiliation": "katholiekonderwijsvlaanderen"
+      },
+      {
+        "name": "elssalembier",
+        "affiliation": "vrijdenkendeonafhankelijkeonderwijspartners"
+      },
+      {
+        "name": "landerschoonbaert",
+        "affiliation": "meemoo,vlaamsinstituutvoorhetarchief"
+      },
+      {
+        "name": "aristoshirshekan",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "thijssmeyers",
+        "affiliation": "studioglobo"
+      },
+      {
+        "name": "fredericstaes",
+        "affiliation": "onderwijskoepelvanstedenengemeenten(ovsg)"
+      },
+      {
+        "name": "ninasteenberghs",
+        "affiliation": "go!onderwijsvandevlaamsegemeenschap"
+      },
+      {
+        "name": "kristofthijssens",
+        "affiliation": ""
+      },
+      {
+        "name": "lisavanhoudt",
+        "affiliation": "questi"
+      },
+      {
+        "name": "stefvanmalderen",
+        "affiliation": "plantyn"
+      },
+      {
+        "name": "helenavannuffel",
+        "affiliation": "kuleuven"
+      },
+      {
+        "name": "janvelghe",
+        "affiliation": "gitooverijse"
+      },
+      {
+        "name": "loesverheyen",
+        "affiliation": "katholiekonderwijsvlaanderen"
+      },
+      {
+        "name": "tineverschaeve",
+        "affiliation": "ligo,centrumvoorbasiseducatiebrugge-oostende-westhoek"
+      },
+      {
+        "name": "anneliesvolckaert",
+        "affiliation": "edtech/station"
+      },
+      {
+        "name": "hanszoons",
+        "affiliation": "onderwijskoepelvanstedenengemeenten(ovsg)"
+      }
+    ],
+    "participants": [
+      {
+        "name": "toonbeens",
+        "affiliation": "departementonderwijsenvorming"
+      },
+      {
+        "name": "wimbontinck",
+        "affiliation": "vlaamsedienstvoorarbeidsbemiddelingenberoepsopleiding"
+      },
+      {
+        "name": "paulbuyck",
+        "affiliation": ""
+      },
+      {
+        "name": "jochemclaes",
+        "affiliation": "microsoft"
+      },
+      {
+        "name": "steveclaeys",
+        "affiliation": "vlaamsedienstvoorarbeidsbemiddelingenberoepsopleiding"
+      },
+      {
+        "name": "arnedaniels",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "leendebruyn",
+        "affiliation": "meemoo,vlaamsinstituutvoorhetarchief"
+      },
+      {
+        "name": "bramdegeeter",
+        "affiliation": "go!atheneumgeraardsbergen"
+      },
+      {
+        "name": "christophdehaene",
+        "affiliation": "imec"
+      },
+      {
+        "name": "erwindeley",
+        "affiliation": "supportsquarenv"
+      },
+      {
+        "name": "bendemeester",
+        "affiliation": "universiteitgent"
+      },
+      {
+        "name": "stevendepauw",
+        "affiliation": "go!onderwijsvandevlaamsegemeenschap"
+      },
+      {
+        "name": "andydemeulenaere",
+        "affiliation": "imec"
+      },
+      {
+        "name": "ingedonkervoort",
+        "affiliation": "xerteproject"
+      },
+      {
+        "name": "bramfaems",
+        "affiliation": "uitgeverijlernova"
+      },
+      {
+        "name": "karoguetens",
+        "affiliation": ""
+      },
+      {
+        "name": "dirkhagenaars",
+        "affiliation": "questi"
+      },
+      {
+        "name": "stevenhendrickx",
+        "affiliation": "go!onderwijsvandevlaamsegemeenschap"
+      },
+      {
+        "name": "jeroenherman",
+        "affiliation": "becentral/mediawijs"
+      },
+      {
+        "name": "geertlybaert",
+        "affiliation": "uitgeverijvaninnv"
+      },
+      {
+        "name": "bartmesuere",
+        "affiliation": "universiteitgent"
+      },
+      {
+        "name": "erwinmeyers",
+        "affiliation": "smartbit"
+      },
+      {
+        "name": "tomneutens",
+        "affiliation": "dwengovzw"
+      },
+      {
+        "name": "joosneven",
+        "affiliation": "smartbit"
+      },
+      {
+        "name": "louisepaepe",
+        "affiliation": "regionaaltechnologischcentrumantwerpen"
+      },
+      {
+        "name": "chrispatteet",
+        "affiliation": "uitgeverijvaninnv"
+      },
+      {
+        "name": "pieter-janquinteyn",
+        "affiliation": "plantyn"
+      },
+      {
+        "name": "marcrabaey",
+        "affiliation": "gitooverijse"
+      },
+      {
+        "name": "tomreijnders",
+        "affiliation": "xerteproject"
+      },
+      {
+        "name": "kathleenrymen",
+        "affiliation": "katholiekonderwijsvlaanderen"
+      },
+      {
+        "name": "elssalembier",
+        "affiliation": "vrijdenkendeonafhankelijkeonderwijspartners"
+      },
+      {
+        "name": "landerschoonbaert",
+        "affiliation": "meemoo,vlaamsinstituutvoorhetarchief"
+      },
+      {
+        "name": "aristoshirshekan",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "thijssmeyers",
+        "affiliation": "studioglobo"
+      },
+      {
+        "name": "fredericstaes",
+        "affiliation": "onderwijskoepelvanstedenengemeenten(ovsg)"
+      },
+      {
+        "name": "ninasteenberghs",
+        "affiliation": "go!onderwijsvandevlaamsegemeenschap"
+      },
+      {
+        "name": "kristofthijssens",
+        "affiliation": ""
+      },
+      {
+        "name": "lisavanhoudt",
+        "affiliation": "questi"
+      },
+      {
+        "name": "stefvanmalderen",
+        "affiliation": "plantyn"
+      },
+      {
+        "name": "helenavannuffel",
+        "affiliation": "kuleuven"
+      },
+      {
+        "name": "janvelghe",
+        "affiliation": "gitooverijse"
+      },
+      {
+        "name": "loesverheyen",
+        "affiliation": "katholiekonderwijsvlaanderen"
+      },
+      {
+        "name": "tineverschaeve",
+        "affiliation": "ligo,centrumvoorbasiseducatiebrugge-oostende-westhoek"
+      },
+      {
+        "name": "anneliesvolckaert",
+        "affiliation": "edtech/station"
+      },
+      {
+        "name": "hanszoons",
+        "affiliation": "onderwijskoepelvanstedenengemeenten(ovsg)"
+      },
+      {
+        "name": "yarondassonneville",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jitsedecock",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "bendemeester",
+        "affiliation": "imec"
+      },
+      {
+        "name": "katrienalen",
+        "affiliation": "departementonderwijsenvorming"
+      },
+      {
+        "name": "hannelorebaeyens",
+        "affiliation": "agentschapvoorhogeronderwijs,volwassenenonderwijs,kwalificatiesenstudietoelagen"
+      },
+      {
+        "name": "driesballyn",
+        "affiliation": "agentschapvoorhogeronderwijs,volwassenenonderwijs,kwalificatiesenstudietoelagen"
+      },
+      {
+        "name": "katrienbernaerts",
+        "affiliation": "departementonderwijsenvorming"
+      },
+      {
+        "name": "bartcolpaert",
+        "affiliation": "departementonderwijsenvorming"
+      },
+      {
+        "name": "jandecraemer",
+        "affiliation": "departementonderwijsenvorming"
+      },
+      {
+        "name": "wendydekeyzer",
+        "affiliation": "klascement"
+      },
+      {
+        "name": "ellenvantwembeke",
+        "affiliation": "agentschapvoorhogeronderwijs,volwassenenonderwijs,kwalificatiesenstudietoelagen"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Leermiddel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leermiddel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LeermiddelType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LeermiddelType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Doel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Doel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LeermiddelVerzameling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LeermiddelVerzameling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#FormaatType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "FormaatType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#DoelType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Doeltype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LicentieType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LicentieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Onderwijsniveau",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Onderwijsniveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Licentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Licentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#OnderwerpType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OnderwerpType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#BronType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BronType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#CompetentieType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "CompetentieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LeeftijdsType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LeeftijdsType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#InteractieType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InteractieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#ResultaatType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ResultaatType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#ToegankelijkheidsType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ToegankleijkheidsType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Kost",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kost"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Competentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Competentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Referentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Referentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Doelgroep",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Doelgroep"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "LangString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#float",
+        "label": [
+          {
+            "@value": "float"
+          }
+        ]
+      },
+      {},
+      {}
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#auteursrechtJaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "auteursrechtJaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#publicatieDatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publicatieDatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#naam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#kost",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kost"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#geldigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#onderwerp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#identificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#toegankelijkheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegankelijkheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#leeftijdstype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "leeftijdstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#doelgroep",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "doelgroep"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#onderwijsniveau",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderwijsniveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#leermiddelType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "leermiddelType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#niveau",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "niveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#interactieType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "interactieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Doel.competentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "competentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#instructieTaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "instructieTaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#resultaatType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaatType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#auteur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "auteur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#gedefinieerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gedefinieerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#naam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#onderwerp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#niveau",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "niveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#auteursrechtHouder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "auteursrechtHouder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#versie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "versie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#taal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#licentieType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "licentieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#doelType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "doelType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bron"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#instructie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "instructie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#eigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanbieder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#referentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#formaat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "formaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#vereiste",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vereiste"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leercredential#typeLeeractiviteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "typeLeeractiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#benodigdMateriaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "benodigdMateriaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#competentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "competentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bron"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#sleutelwoord",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "sleutelwoord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#heeft",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leercredential#maaktGebruikVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "maaktGebruikVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#dient",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dient"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leercredential#draagtBijAanHetBehalenVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "draagtBijAanHetBehalenVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#gerelateerdAan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gerelateerdAan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#omvat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "omvat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leercredential#schrijftVoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "schrijftVoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leercredential#draagtBijAanHetBehalenVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "draagtBijAanHetBehalenVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#geproduceerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geproduceerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#gedeeldDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gedeeldDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#isSpecialisatieVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isSpecialisatieVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#isBrederDan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isBrederDan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#bestaatUit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestaatUit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#behoortTot",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "behoortTot"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/LearningActivity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leeractiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Doelgroep"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/LearningActivitySpecification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leeractiviteitspecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/CreativeWork",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "CreatiefWerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/TR/owl-time/#time:Duration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdsduur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/Claim",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leerclaim"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/Specification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leerspecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Algemeen Adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#LineString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Lijnstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leeractiviteittype"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://data.europa.eu/m8g/startTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begin"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/hasPart",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft deel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/directedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ingericht door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/isPartOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/temporal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/specifiedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "specificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/workload",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "workload"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/contactHour",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contacturen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/generalisationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "generalisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/hasPart",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft deel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "instructietaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/isPartOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/specialisationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "specialisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/timeRequired",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vereisteTijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "departementonderwijsenvorming",
+        "names": [
+          {
+            "name": "toonbeens",
+            "affiliation": "departementonderwijsenvorming"
+          },
+          {
+            "name": "katrienalen",
+            "affiliation": "departementonderwijsenvorming"
+          },
+          {
+            "name": "katrienbernaerts",
+            "affiliation": "departementonderwijsenvorming"
+          },
+          {
+            "name": "bartcolpaert",
+            "affiliation": "departementonderwijsenvorming"
+          },
+          {
+            "name": "jandecraemer",
+            "affiliation": "departementonderwijsenvorming"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamsedienstvoorarbeidsbemiddelingenberoepsopleiding",
+        "names": [
+          {
+            "name": "wimbontinck",
+            "affiliation": "vlaamsedienstvoorarbeidsbemiddelingenberoepsopleiding"
+          },
+          {
+            "name": "steveclaeys",
+            "affiliation": "vlaamsedienstvoorarbeidsbemiddelingenberoepsopleiding"
+          }
+        ]
+      },
+      {
+        "affiliation": "",
+        "names": [
+          {
+            "name": "paulbuyck",
+            "affiliation": ""
+          },
+          {
+            "name": "karoguetens",
+            "affiliation": ""
+          },
+          {
+            "name": "kristofthijssens",
+            "affiliation": ""
+          }
+        ]
+      },
+      {
+        "affiliation": "microsoft",
+        "names": [
+          {
+            "name": "jochemclaes",
+            "affiliation": "microsoft"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "arnedaniels",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "aristoshirshekan",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "yarondassonneville",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "jitsedecock",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "meemoo,vlaamsinstituutvoorhetarchief",
+        "names": [
+          {
+            "name": "leendebruyn",
+            "affiliation": "meemoo,vlaamsinstituutvoorhetarchief"
+          },
+          {
+            "name": "landerschoonbaert",
+            "affiliation": "meemoo,vlaamsinstituutvoorhetarchief"
+          }
+        ]
+      },
+      {
+        "affiliation": "go!atheneumgeraardsbergen",
+        "names": [
+          {
+            "name": "bramdegeeter",
+            "affiliation": "go!atheneumgeraardsbergen"
+          }
+        ]
+      },
+      {
+        "affiliation": "imec",
+        "names": [
+          {
+            "name": "christophdehaene",
+            "affiliation": "imec"
+          },
+          {
+            "name": "andydemeulenaere",
+            "affiliation": "imec"
+          },
+          {
+            "name": "bendemeester",
+            "affiliation": "imec"
+          }
+        ]
+      },
+      {
+        "affiliation": "supportsquarenv",
+        "names": [
+          {
+            "name": "erwindeley",
+            "affiliation": "supportsquarenv"
+          }
+        ]
+      },
+      {
+        "affiliation": "universiteitgent",
+        "names": [
+          {
+            "name": "bendemeester",
+            "affiliation": "universiteitgent"
+          },
+          {
+            "name": "bartmesuere",
+            "affiliation": "universiteitgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "go!onderwijsvandevlaamsegemeenschap",
+        "names": [
+          {
+            "name": "stevendepauw",
+            "affiliation": "go!onderwijsvandevlaamsegemeenschap"
+          },
+          {
+            "name": "stevenhendrickx",
+            "affiliation": "go!onderwijsvandevlaamsegemeenschap"
+          },
+          {
+            "name": "ninasteenberghs",
+            "affiliation": "go!onderwijsvandevlaamsegemeenschap"
+          }
+        ]
+      },
+      {
+        "affiliation": "xerteproject",
+        "names": [
+          {
+            "name": "ingedonkervoort",
+            "affiliation": "xerteproject"
+          },
+          {
+            "name": "tomreijnders",
+            "affiliation": "xerteproject"
+          }
+        ]
+      },
+      {
+        "affiliation": "uitgeverijlernova",
+        "names": [
+          {
+            "name": "bramfaems",
+            "affiliation": "uitgeverijlernova"
+          }
+        ]
+      },
+      {
+        "affiliation": "questi",
+        "names": [
+          {
+            "name": "dirkhagenaars",
+            "affiliation": "questi"
+          },
+          {
+            "name": "lisavanhoudt",
+            "affiliation": "questi"
+          }
+        ]
+      },
+      {
+        "affiliation": "becentral/mediawijs",
+        "names": [
+          {
+            "name": "jeroenherman",
+            "affiliation": "becentral/mediawijs"
+          }
+        ]
+      },
+      {
+        "affiliation": "uitgeverijvaninnv",
+        "names": [
+          {
+            "name": "geertlybaert",
+            "affiliation": "uitgeverijvaninnv"
+          },
+          {
+            "name": "chrispatteet",
+            "affiliation": "uitgeverijvaninnv"
+          }
+        ]
+      },
+      {
+        "affiliation": "smartbit",
+        "names": [
+          {
+            "name": "erwinmeyers",
+            "affiliation": "smartbit"
+          },
+          {
+            "name": "joosneven",
+            "affiliation": "smartbit"
+          }
+        ]
+      },
+      {
+        "affiliation": "dwengovzw",
+        "names": [
+          {
+            "name": "tomneutens",
+            "affiliation": "dwengovzw"
+          }
+        ]
+      },
+      {
+        "affiliation": "regionaaltechnologischcentrumantwerpen",
+        "names": [
+          {
+            "name": "louisepaepe",
+            "affiliation": "regionaaltechnologischcentrumantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "plantyn",
+        "names": [
+          {
+            "name": "pieter-janquinteyn",
+            "affiliation": "plantyn"
+          },
+          {
+            "name": "stefvanmalderen",
+            "affiliation": "plantyn"
+          }
+        ]
+      },
+      {
+        "affiliation": "gitooverijse",
+        "names": [
+          {
+            "name": "marcrabaey",
+            "affiliation": "gitooverijse"
+          },
+          {
+            "name": "janvelghe",
+            "affiliation": "gitooverijse"
+          }
+        ]
+      },
+      {
+        "affiliation": "katholiekonderwijsvlaanderen",
+        "names": [
+          {
+            "name": "kathleenrymen",
+            "affiliation": "katholiekonderwijsvlaanderen"
+          },
+          {
+            "name": "loesverheyen",
+            "affiliation": "katholiekonderwijsvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "vrijdenkendeonafhankelijkeonderwijspartners",
+        "names": [
+          {
+            "name": "elssalembier",
+            "affiliation": "vrijdenkendeonafhankelijkeonderwijspartners"
+          }
+        ]
+      },
+      {
+        "affiliation": "studioglobo",
+        "names": [
+          {
+            "name": "thijssmeyers",
+            "affiliation": "studioglobo"
+          }
+        ]
+      },
+      {
+        "affiliation": "onderwijskoepelvanstedenengemeenten(ovsg)",
+        "names": [
+          {
+            "name": "fredericstaes",
+            "affiliation": "onderwijskoepelvanstedenengemeenten(ovsg)"
+          },
+          {
+            "name": "hanszoons",
+            "affiliation": "onderwijskoepelvanstedenengemeenten(ovsg)"
+          }
+        ]
+      },
+      {
+        "affiliation": "kuleuven",
+        "names": [
+          {
+            "name": "helenavannuffel",
+            "affiliation": "kuleuven"
+          }
+        ]
+      },
+      {
+        "affiliation": "ligo,centrumvoorbasiseducatiebrugge-oostende-westhoek",
+        "names": [
+          {
+            "name": "tineverschaeve",
+            "affiliation": "ligo,centrumvoorbasiseducatiebrugge-oostende-westhoek"
+          }
+        ]
+      },
+      {
+        "affiliation": "edtech/station",
+        "names": [
+          {
+            "name": "anneliesvolckaert",
+            "affiliation": "edtech/station"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapvoorhogeronderwijs,volwassenenonderwijs,kwalificatiesenstudietoelagen",
+        "names": [
+          {
+            "name": "hannelorebaeyens",
+            "affiliation": "agentschapvoorhogeronderwijs,volwassenenonderwijs,kwalificatiesenstudietoelagen"
+          },
+          {
+            "name": "driesballyn",
+            "affiliation": "agentschapvoorhogeronderwijs,volwassenenonderwijs,kwalificatiesenstudietoelagen"
+          },
+          {
+            "name": "ellenvantwembeke",
+            "affiliation": "agentschapvoorhogeronderwijs,volwassenenonderwijs,kwalificatiesenstudietoelagen"
+          }
+        ]
+      },
+      {
+        "affiliation": "klascement",
+        "names": [
+          {
+            "name": "wendydekeyzer",
+            "affiliation": "klascement"
+          }
+        ]
+      }
+    ]
+  }
+}
