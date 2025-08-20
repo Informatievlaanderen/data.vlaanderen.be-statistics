@@ -26,17 +26,18 @@
     "http://todo.com",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/ns/prov",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2004/02/skos/core"
   ],
   "authors": 5,
   "editors": 2,
   "contributors": 6,
   "participants": 13,
   "classes": 14,
-  "properties": 11,
-  "externalclasses": 12,
-  "externalproperties": 22,
-  "totalterms": 59,
+  "properties": 16,
+  "externalclasses": 17,
+  "externalproperties": 23,
+  "totalterms": 70,
   "totalorganisations": 4,
   "organisations": [
     {
@@ -312,11 +313,56 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#contactkanaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactkanaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#notificatiecategorie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "notificatiecategorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.vlaanderen.be/ns/adres#verwijstNaar",
         "label": [
           {
             "@language": "nl",
             "@value": "verwijst naar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#contactkanaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactkanaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#verwerkingsgrond",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtsgrond"
           }
         ]
       },
@@ -464,6 +510,51 @@
             "@value": "TaalString"
           }
         ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactkanaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "NotificatieCategorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toestemmingstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ververkingstypes"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verwerkingsgronden"
+          }
+        ]
       }
     ],
     "externalproperties": [
@@ -554,6 +645,15 @@
           {
             "@language": "nl",
             "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type verwerking"
           }
         ]
       },
