@@ -7,8 +7,8 @@
     "self": "https://data.vlaanderen.be/doc/vocabularium/mobiliteit-intelligente-toegang/ontwerpstandaard/toolchain4"
   },
   "documenttype": "voc",
-  "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/KandidaatStandaard",
-  "statuslabel": "Onbekend",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "statuslabel": "Kandidaat Standaard",
   "namespaces": [
     "http://data.vlaanderen.be/ns/besluit",
     "https://data.vlaanderen.be/ns/omgevingsvergunning",
@@ -27,7 +27,6 @@
     "http://www.w3.org/2006/time",
     "http://www.w3.org/ns/locn",
     "http://vocab.belgif.be/ns/publicservice",
-    "https://test.data.vlaanderen.be/ns/citerra",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/ns/prov",
@@ -42,8 +41,8 @@
   "classes": 25,
   "properties": 25,
   "externalclasses": 32,
-  "externalproperties": 38,
-  "totalterms": 120,
+  "externalproperties": 42,
+  "totalterms": 124,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -574,6 +573,24 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit-intelligente-toegang#Aanvraag.vergunningshouder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vergunningshouder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit-intelligente-toegang#Vergunning.vergunningshouder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vergunningshouder"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit-intelligente-toegang#heeftOutputtype",
         "label": [
           {
@@ -687,24 +704,6 @@
           {
             "@language": "nl",
             "@value": "zaak"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/citerra#geconsumeerdIn",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geconsumeerd in"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/citerra#dienstverlening",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "dienstverlening"
           }
         ]
       },
@@ -1040,6 +1039,24 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
         "label": [
           {
@@ -1157,6 +1174,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "van"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
@@ -1238,11 +1273,11 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/hasPart",
+        "assignedURI": "http://purl.org/dc/terms/creator",
         "label": [
           {
             "@language": "nl",
-            "@value": "procedurestap"
+            "@value": "maker"
           }
         ]
       },
