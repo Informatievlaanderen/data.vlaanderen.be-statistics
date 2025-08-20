@@ -18,20 +18,20 @@
     "http://data.europa.eu/m8g",
     "https://data.vlaanderen.be/ns/leercredential",
     "https://www.w3.org/TR/owl-time/",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.opengis.net/ont/sf"
   ],
   "authors": 8,
   "editors": 4,
   "contributors": 45,
   "participants": 56,
-  "classes": 25,
+  "classes": 24,
   "properties": 55,
-  "externalclasses": 14,
-  "externalproperties": 18,
-  "totalterms": 112,
+  "externalclasses": 16,
+  "externalproperties": 19,
+  "totalterms": 114,
   "totalorganisations": 30,
   "organisations": [
     {
@@ -758,16 +758,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "ToegankleijkheidsType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Kost",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Kost"
+            "@value": "ToegankelijkheidsType"
           }
         ]
       },
@@ -807,18 +798,18 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
         "label": [
           {
-            "@value": "LangString"
+            "@value": "String"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#float",
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#double",
         "label": [
           {
-            "@value": "float"
+            "@value": "Double"
           }
         ]
       },
@@ -836,11 +827,47 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#versie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "versie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#publicatieDatum",
         "label": [
           {
             "@language": "nl",
             "@value": "publicatieDatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#instructie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "instructie"
           }
         ]
       },
@@ -854,11 +881,29 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#kost",
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#vereiste",
         "label": [
           {
             "@language": "nl",
-            "@value": "kost"
+            "@value": "vereiste"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#benodigdMateriaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "benodigdMateriaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#sleutelwoord",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "sleutelwoord"
           }
         ]
       },
@@ -1043,15 +1088,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#versie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "versie"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#taal",
         "label": [
           {
@@ -1066,15 +1102,6 @@
           {
             "@language": "nl",
             "@value": "licentieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#beschrijving",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschrijving"
           }
         ]
       },
@@ -1097,24 +1124,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#beschrijving",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschrijving"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#instructie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "instructie"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#eigenaar",
         "label": [
           {
@@ -1133,6 +1142,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#kost",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kost"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#formaat",
         "label": [
           {
@@ -1142,29 +1160,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#vereiste",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vereiste"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leercredential#typeLeeractiviteit",
         "label": [
           {
             "@language": "nl",
             "@value": "typeLeeractiviteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#benodigdMateriaal",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "benodigdMateriaal"
           }
         ]
       },
@@ -1183,15 +1183,6 @@
           {
             "@language": "nl",
             "@value": "bron"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#sleutelwoord",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "sleutelwoord"
           }
         ]
       },
@@ -1387,6 +1378,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/Cost",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kost"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
         "label": [
           {
@@ -1451,6 +1460,24 @@
       }
     ],
     "externalproperties": [
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/contactHour",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contacturen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
       {
         "assignedURI": "http://data.europa.eu/m8g/startTime",
         "label": [
@@ -1529,15 +1556,6 @@
           {
             "@language": "nl",
             "@value": "workload"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/snb/model/elm/contactHour",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "contacturen"
           }
         ]
       },
