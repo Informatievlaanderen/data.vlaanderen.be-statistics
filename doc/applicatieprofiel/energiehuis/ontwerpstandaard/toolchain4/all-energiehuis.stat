@@ -1,14 +1,14 @@
 {
-  "title": "Energiehuizen (Nota Werkgroep)",
+  "title": "Applicatieprofiel Energiehuis",
   "uri": "https://data.vlaanderen.be/doc/applicatieprofiel/energiehuis/ontwerpstandaard/toolchain4",
-  "issued": "2025-02-18",
+  "issued": "2025-06-19",
   "navigation": {
     "prev": "/doc/applicatieprofiel/energiehuis/ontwerpstandaard/2025-01-09",
     "self": "https://data.vlaanderen.be/doc/applicatieprofiel/energiehuis/ontwerpstandaard/toolchain4"
   },
   "documenttype": "ap",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
-  "statuslabel": "Nota Werkgroep",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/energiehuis",
     "http://www.w3.org/2000/01/rdf-schema",
@@ -38,14 +38,14 @@
     "http://www.w3.org/2001/XMLSchema"
   ],
   "authors": 3,
-  "editors": 6,
+  "editors": 4,
   "contributors": 12,
-  "participants": 21,
+  "participants": 19,
   "classes": 32,
-  "properties": 47,
-  "externalclasses": 44,
-  "externalproperties": 58,
-  "totalterms": 181,
+  "properties": 53,
+  "externalclasses": 46,
+  "externalproperties": 57,
+  "totalterms": 188,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -90,7 +90,7 @@
     },
     {
       "affiliation": "digitaalvlaanderen",
-      "participants": 6
+      "participants": 4
     },
     {
       "affiliation": "vlaamsenergie-enklimaatagentschap",
@@ -123,15 +123,7 @@
         "affiliation": "digitaalvlaanderen"
       },
       {
-        "name": "liesbethvanderhaegen",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "laurensvercauteren",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "evelinevlassenroot",
+        "name": "dylanvanassche",
         "affiliation": "digitaalvlaanderen"
       },
       {
@@ -247,15 +239,7 @@
         "affiliation": "digitaalvlaanderen"
       },
       {
-        "name": "liesbethvanderhaegen",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "laurensvercauteren",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "evelinevlassenroot",
+        "name": "dylanvanassche",
         "affiliation": "digitaalvlaanderen"
       },
       {
@@ -666,6 +650,24 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#Informatievoorziening.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#InteresseOpwekking.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#verstrektDoor",
         "label": [
           {
@@ -679,7 +681,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "type"
+            "@value": "thema"
           }
         ]
       },
@@ -900,11 +902,29 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#financieringVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "financieringVan"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#financiering",
         "label": [
           {
             "@language": "nl",
             "@value": "financiering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dienst#participeertIn",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "participeertIn"
           }
         ]
       },
@@ -921,7 +941,8 @@
         "assignedURI": "https://data.vlaanderen.be/ns/dienst#Participatie.publiekeDienstverlening",
         "label": [
           {
-            "@value": "Participatie.PubliekeDienstverlening"
+            "@language": "nl",
+            "@value": "publiekeDienstverlening"
           }
         ]
       },
@@ -929,7 +950,17 @@
         "assignedURI": "https://data.vlaanderen.be/ns/dienst#Participatie.agent",
         "label": [
           {
-            "@value": "Participatie.Agent"
+            "@language": "nl",
+            "@value": "agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#verrichtDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verrichtDoor"
           }
         ]
       },
@@ -961,6 +992,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#begeleidingVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begeleidingVan"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/gebouw#bestaatUit",
         "label": [
           {
@@ -984,6 +1024,7 @@
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
         "label": [
           {
+            "@language": "nl",
             "@value": "Resource"
           }
         ]
@@ -1011,7 +1052,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "PubliekeOrganisatie"
+            "@value": "Publieke Organisatie"
           }
         ]
       },
@@ -1109,6 +1150,7 @@
         "assignedURI": "https://schema.org/MonetaryAmount",
         "label": [
           {
+            "@language": "nl",
             "@value": "Geldbedrag"
           }
         ]
@@ -1154,7 +1196,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Geografische Naam"
+            "@value": "GeografischeNaam"
           }
         ]
       },
@@ -1200,6 +1242,24 @@
           {
             "@language": "nl",
             "@value": "TypeKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TypeInformatievoorziening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TypeInteresseOpwekking"
           }
         ]
       },
@@ -1388,7 +1448,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "naam"
+            "@value": "titel"
           }
         ]
       },
@@ -1406,7 +1466,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "naam"
+            "@value": "titel"
           }
         ]
       },
@@ -1460,7 +1520,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "dag van de week"
+            "@value": "dag van week"
           }
         ]
       },
@@ -1505,7 +1565,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "aanschrijfvorm"
+            "@value": "aanschrijfprefix"
           }
         ]
       },
@@ -1537,15 +1597,6 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/faxNumber",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "fax"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://xmlns.com/foaf/0.1/page",
         "label": [
           {
@@ -1568,7 +1619,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "inXSDDateTime"
+            "@value": "in XSD datumTijd"
           }
         ]
       },
@@ -1685,7 +1736,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "achternaam"
+            "@value": "familienaam"
           }
         ]
       },
@@ -1694,7 +1745,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "voornaam"
+            "@value": "gegeven naam"
           }
         ]
       },
@@ -1739,7 +1790,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "beschikbaarheid"
+            "@value": "uren beschikbaarheid"
           }
         ]
       },
@@ -1766,7 +1817,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "contactinfo"
+            "@value": "heeft contactpunt"
           }
         ]
       },
@@ -1829,7 +1880,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "beschikbaarheid"
+            "@value": "uren beschikbaarheid"
           }
         ]
       },
@@ -1865,7 +1916,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "contactinfo"
+            "@value": "contactpunt"
           }
         ]
       },
@@ -2012,15 +2063,7 @@
             "affiliation": "digitaalvlaanderen"
           },
           {
-            "name": "liesbethvanderhaegen",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "laurensvercauteren",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "evelinevlassenroot",
+            "name": "dylanvanassche",
             "affiliation": "digitaalvlaanderen"
           },
           {
