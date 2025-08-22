@@ -23,7 +23,6 @@
     "http://www.w3.org/2000/01/rdf-schema",
     "http://schema.org",
     "http://www.w3.org/ns/locn",
-    "http://todo.com",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "https://schema.org",
@@ -34,9 +33,9 @@
   "contributors": 1,
   "participants": 3,
   "classes": 10,
-  "properties": 7,
+  "properties": 6,
   "externalclasses": 34,
-  "externalproperties": 50,
+  "externalproperties": 51,
   "totalterms": 101,
   "totalorganisations": 3,
   "organisations": [
@@ -197,14 +196,6 @@
           {
             "@language": "nl",
             "@value": "contactinfo"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Lidmaatschap.Organisatie",
-        "label": [
-          {
-            "@value": "Lidmaatschap.Organisatie"
           }
         ]
       },
@@ -912,19 +903,20 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/isLidVan",
+        "assignedURI": "http://www.w3.org/ns/org#member",
         "label": [
           {
             "@language": "nl",
-            "@value": "is lid van"
+            "@value": "heeft lidmaatschap"
           }
         ]
       },
       {
-        "assignedURI": "http://todo.com/Lidmaatschap.Agent",
+        "assignedURI": "http://www.w3.org/ns/org#organization",
         "label": [
           {
-            "@value": "Lidmaatschap.Agent"
+            "@language": "nl",
+            "@value": "is lidmaatschap bij"
           }
         ]
       },
@@ -943,6 +935,15 @@
           {
             "@language": "nl",
             "@value": "wordt ingevuld door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasMember",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lid"
           }
         ]
       },
