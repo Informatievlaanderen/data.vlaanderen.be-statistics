@@ -17,9 +17,8 @@
     "http://data.europa.eu/m8g",
     "http://www.w3.org/2006/time",
     "https://data.vlaanderen.be/ns/leercredential",
-    "https://www.w3.org/TR/owl-time/",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/ns/adms",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/2004/02/skos/core"
   ],
@@ -27,9 +26,9 @@
   "editors": 4,
   "contributors": 45,
   "participants": 56,
-  "classes": 25,
+  "classes": 24,
   "properties": 31,
-  "externalclasses": 19,
+  "externalclasses": 20,
   "externalproperties": 43,
   "totalterms": 118,
   "totalorganisations": 30,
@@ -698,7 +697,6 @@
       {},
       {},
       {},
-      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#OnderwerpType",
         "label": [
@@ -1136,7 +1134,7 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/TR/owl-time/#time:Duration",
+        "assignedURI": "http://www.w3.org/2006/time#Duration",
         "label": [
           {
             "@language": "nl",
@@ -1145,11 +1143,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
         "label": [
           {
             "@language": "nl",
-            "@value": "Taalstring"
+            "@value": "TemporeleEntiteit"
           }
         ]
       },
@@ -1163,7 +1161,7 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
         "label": [
           {
             "@language": "nl",
@@ -1199,19 +1197,20 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "assignedURI": "https://schema.org/URL",
         "label": [
           {
             "@language": "nl",
-            "@value": "TemporeleEntiteit"
+            "@value": "URL"
           }
         ]
       },
       {
-        "assignedURI": "https://schema.org/URL",
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
         "label": [
           {
-            "@value": "URL"
+            "@language": "nl",
+            "@value": "Periode"
           }
         ]
       },
@@ -1256,6 +1255,15 @@
         "label": [
           {
             "@value": "NAL_currency"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
           }
         ]
       }
@@ -1348,24 +1356,6 @@
           {
             "@language": "nl",
             "@value": "vereiste"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/startTime",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "begin"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/endTime",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "einde"
           }
         ]
       },
@@ -1600,6 +1590,24 @@
           {
             "@language": "nl",
             "@value": "formaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "van"
           }
         ]
       },
