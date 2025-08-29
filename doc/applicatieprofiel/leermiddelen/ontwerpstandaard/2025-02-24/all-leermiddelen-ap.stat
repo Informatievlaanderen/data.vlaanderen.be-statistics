@@ -13,6 +13,7 @@
     "http://data.europa.eu/snb/model/elm",
     "https://data.vlaanderen.be/ns/leermiddelen",
     "https://schema.org",
+    "http://purl.org/dc/elements/1.1",
     "http://data.europa.eu/m8g",
     "http://www.w3.org/2006/time",
     "https://data.vlaanderen.be/ns/leercredential",
@@ -27,9 +28,9 @@
   "contributors": 45,
   "participants": 56,
   "classes": 25,
-  "properties": 40,
+  "properties": 31,
   "externalclasses": 19,
-  "externalproperties": 34,
+  "externalproperties": 43,
   "totalterms": 118,
   "totalorganisations": 30,
   "organisations": [
@@ -818,47 +819,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#beschrijving",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschrijving"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#beschrijving",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschrijving"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#instructie",
         "label": [
           {
             "@language": "nl",
             "@value": "instructie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#naam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#vereiste",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vereiste"
           }
         ]
       },
@@ -886,15 +851,6 @@
           {
             "@language": "nl",
             "@value": "geldigheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#onderwerp",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "onderwerp"
           }
         ]
       },
@@ -998,29 +954,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#onderwerp",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "onderwerp"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#niveau",
         "label": [
           {
             "@language": "nl",
             "@value": "niveau"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#bron",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bron"
           }
         ]
       },
@@ -1034,29 +972,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#formaat",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "formaat"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#competentie",
         "label": [
           {
             "@language": "nl",
             "@value": "competentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#bron",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bron"
           }
         ]
       },
@@ -1378,6 +1298,24 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/elements/1.1/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/description",
         "label": [
           {
@@ -1396,6 +1334,24 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/requires",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vereiste"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/m8g/startTime",
         "label": [
           {
@@ -1410,6 +1366,15 @@
           {
             "@language": "nl",
             "@value": "einde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/subject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderwerp"
           }
         ]
       },
@@ -1504,6 +1469,15 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/elements/1.1/subject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderwerp"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/copyrightHolder",
         "label": [
           {
@@ -1594,6 +1568,15 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/elements/1.1/source",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bron"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/timeRequired",
         "label": [
           {
@@ -1612,11 +1595,29 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/format",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "formaat"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
             "@language": "nl",
             "@value": "typeLeeractiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/source",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bron"
           }
         ]
       },
