@@ -1,14 +1,14 @@
 {
   "title": "OSLO Mobiliteit - Dienstregeling en Planning: Tijdstabellen (Applicatieprofiel)",
   "uri": "https://data.test-vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/ontwerpstandaard/toolchain4",
-  "issued": "2025-01-06",
+  "issued": "2022-04-21",
   "navigation": {
     "prev": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/erkendestandaard/2022-04-21",
     "self": "https://data.test-vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/ontwerpstandaard/toolchain4"
   },
   "documenttype": "ap",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "statuslabel": "Ontwerp Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
   "namespaces": [
     "https://purl.eu/ns/mobility/timetables-and-planning",
     "http://www.w3.org/2004/02/skos/core",
@@ -30,7 +30,6 @@
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2000/01/rdf-schema",
-    "https://data.vlaanderen.be/ns/netwerk",
     "https://www.w3.org/2001/XMLSchema"
   ],
   "authors": 2,
@@ -38,10 +37,10 @@
   "contributors": 12,
   "participants": 19,
   "classes": 98,
-  "properties": 245,
+  "properties": 244,
   "externalclasses": 50,
-  "externalproperties": 69,
-  "totalterms": 462,
+  "externalproperties": 64,
+  "totalterms": 456,
   "totalorganisations": 9,
   "organisations": [
     {
@@ -1142,14 +1141,10 @@
       {},
       {},
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Link",
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#Link",
         "label": [
           {
             "@language": "en",
-            "@value": "Link"
-          },
-          {
-            "@language": "nl",
             "@value": "Link"
           }
         ]
@@ -2321,15 +2316,6 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#text",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "text"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#Notice.publicCode",
         "label": [
           {
@@ -3338,10 +3324,6 @@
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#backgroundColor",
         "label": [
           {
-            "@language": "nl",
-            "@value": "TODO"
-          },
-          {
             "@language": "en",
             "@value": "backgroundColour"
           }
@@ -3902,12 +3884,7 @@
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment.ScheduledStopPoint",
         "label": [
           {
-            "@language": "nl",
-            "@value": "gepland Stoppunt"
-          },
-          {
-            "@language": "en",
-            "@value": "scheduled Stop Point"
+            "@value": "PassengerStopAssignment.ScheduledStopPoint"
           }
         ]
       },
@@ -3915,12 +3892,7 @@
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment.StopPlace",
         "label": [
           {
-            "@language": "nl",
-            "@value": "stopplaats"
-          },
-          {
-            "@language": "en",
-            "@value": "stop place"
+            "@value": "PassengerStopAssignment.StopPlace"
           }
         ]
       },
@@ -3980,12 +3952,7 @@
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#DayTypeAssignment.DayType",
         "label": [
           {
-            "@language": "en",
-            "@value": "day type"
-          },
-          {
-            "@language": "nl",
-            "@value": "dagtype"
+            "@value": "DayTypeAssignment.DayType"
           }
         ]
       },
@@ -3993,12 +3960,7 @@
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#DayTypeAssignment.ServiceCalendar",
         "label": [
           {
-            "@language": "en",
-            "@value": "service calender"
-          },
-          {
-            "@language": "nl",
-            "@value": "dienstkalender"
+            "@value": "DayTypeAssignment.ServiceCalendar"
           }
         ]
       },
@@ -4217,7 +4179,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Dag van de week"
+            "@value": "DagVanDeWeek"
           },
           {
             "@language": "en",
@@ -4453,10 +4415,6 @@
           {
             "@language": "en",
             "@value": "CommonFacilityType"
-          },
-          {
-            "@language": "nl",
-            "@value": "Gemeenschappelijke voorzieningentype"
           }
         ]
       },
@@ -4475,10 +4433,6 @@
           {
             "@language": "en",
             "@value": "AcommodationFacilityType"
-          },
-          {
-            "@language": "nl",
-            "@value": "Type van accommodatievoorzieningen"
           }
         ]
       },
@@ -4505,11 +4459,7 @@
         "label": [
           {
             "@language": "en",
-            "@value": "kleur-type"
-          },
-          {
-            "@language": "nl",
-            "@value": "Kleurtype"
+            "@value": "ColourType"
           }
         ]
       },
@@ -5376,51 +5326,6 @@
           {
             "@language": "en",
             "@value": "description"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/description",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "description"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/description",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "description"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/description",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "description"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/elements/1.1/title",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "name"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://schema.org/contactPoint",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "contactinfo"
           }
         ]
       },

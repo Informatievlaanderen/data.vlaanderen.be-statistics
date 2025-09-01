@@ -1,36 +1,40 @@
 {
   "title": "Persoon",
   "uri": "https://data.test-vlaanderen.be/doc/vocabularium/persoon/ontwerpstandaard/toolchain4",
-  "issued": "2025-08-20",
+  "issued": "2018-07-03",
   "navigation": {
     "prev": "/doc/vocabularium/persoon/standaard/2019-07-03",
     "self": "https://data.test-vlaanderen.be/doc/vocabularium/persoon/ontwerpstandaard/toolchain4"
   },
   "documenttype": "voc",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "statuslabel": "Ontwerp Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+  "statuslabel": "Ontwerpdocument",
   "namespaces": [
     "http://purl.org/dc/terms",
-    "http://www.w3.org/ns/adms",
     "https://data.vlaanderen.be/ns/persoon",
-    "http://www.w3.org/ns/person",
-    "http://xmlns.com/foaf/0.1",
-    "https://data.vlaanderen.be/ns/generiek",
-    "http://schema.org",
-    "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/2004/02/skos/core",
+    "http://www.w3.org/ns/person",
     "http://www.w3.org/ns/locn",
-    "http://www.w3.org/2000/01/rdf-schema"
+    "https://data.vlaanderen.be/ns/adres",
+    "http://xmlns.com/foaf/0.1",
+    "http://schema.org",
+    "http://www.w3.org/2006/vcard/ns",
+    "https://data.vlaanderen.be/ns/generiek",
+    "http://todo.com",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/ns/adms"
   ],
   "authors": 23,
   "editors": 2,
   "contributors": 4,
   "participants": 29,
-  "classes": 25,
-  "properties": 31,
-  "externalclasses": 14,
-  "externalproperties": 7,
-  "totalterms": 77,
+  "classes": 26,
+  "properties": 22,
+  "externalclasses": 15,
+  "externalproperties": 26,
+  "totalterms": 89,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -495,6 +499,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#GeenInwoner",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geen Inwoner"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Gezinsrelatie",
         "label": [
           {
@@ -547,7 +560,14 @@
           }
         ]
       },
-      {},
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Nationaliteitscode",
         "label": [
@@ -558,6 +578,42 @@
       }
     ],
     "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#datumVanAfstamming",
         "label": [
@@ -703,119 +759,10 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftNationaliteit",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft nationaliteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftOverlijden",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft overlijden"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isLidVan",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "is lid van"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isHoofdVan",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "is hoofd van"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftVerblijfplaats",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft verblijfplaats"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftBurgerlijkeStaat",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft burgerlijke staat"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftGeboorte",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft geboorte"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftInwonerschap",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft inwonerschap"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftStaatsburgerschap",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft staatsburgerschap"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftPersoonsrelatie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft persoonsrelatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isRelatieMet",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "is relatie met"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Staatsburgerschap.Persoon",
         "label": [
           {
-            "@language": "nl",
-            "@value": "persoon"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Staatsburgerschap.binnenJurisdictie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "binnen jurisdictie"
+            "@value": "Staatsburgerschap.Persoon"
           }
         ]
       },
@@ -823,17 +770,7 @@
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap.Persoon",
         "label": [
           {
-            "@language": "nl",
-            "@value": "persoon"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap.binnenJurisdictie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "binnen jurisdictie"
+            "@value": "Inwonerschap.Persoon"
           }
         ]
       }
@@ -849,18 +786,35 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/date",
+        "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
           {
-            "@value": "parentDate"
+            "@language": "nl",
+            "@value": "Agent"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
-            "@value": "parentIdentificator"
+            "@value": "Afstammingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "BurgerlijkeStaatType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Gezinsrelatietype"
           }
         ]
       },
@@ -874,37 +828,10 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Location",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Plaats"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Identificator"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
-            "@value": "BurgerlijkeStaatType"
+            "@value": "Geslacht"
           }
         ]
       },
@@ -918,18 +845,45 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "assignedURI": "http://schema.org/ContactPoint",
         "label": [
           {
-            "@value": "Gezinsrelatietype"
+            "@language": "nl",
+            "@value": "Contactpunt"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
         "label": [
           {
-            "@value": "Afstammingstype"
+            "@value": "GeografischeNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "TaalString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/OpeningHoursSpecification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openingsurenspecificatie"
           }
         ]
       },
@@ -942,24 +896,160 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/ContactPoint",
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
         "label": [
           {
             "@language": "nl",
-            "@value": "Contactpunt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Geslacht"
+            "@value": "Identificator"
           }
         ]
       }
     ],
     "externalproperties": [
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 1"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 2"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#addressArea",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adresgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatieaanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatienaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#poBox",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postbus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledig adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/email",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "email"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/faxNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fax"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/openingHours",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "openingsuren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/page",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "pagina"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanschrijfprefix"
+          }
+        ]
+      },
       {
         "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
         "label": [
@@ -997,6 +1087,33 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/hoursAvailable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uren beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/telephone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telefoon"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://schema.org/contactPoint",
         "label": [
           {
@@ -1006,20 +1123,18 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/person#citizenship",
+        "assignedURI": "http://todo.com/Staatsburgerschap.Jurisdictie",
         "label": [
           {
-            "@language": "nl",
-            "@value": "staatburgerschap"
+            "@value": "Staatsburgerschap.Jurisdictie"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/person#residency",
+        "assignedURI": "http://todo.com/Inwonerschap.Jurisdictie",
         "label": [
           {
-            "@language": "nl",
-            "@value": "inwonerschap"
+            "@value": "Inwonerschap.Jurisdictie"
           }
         ]
       }

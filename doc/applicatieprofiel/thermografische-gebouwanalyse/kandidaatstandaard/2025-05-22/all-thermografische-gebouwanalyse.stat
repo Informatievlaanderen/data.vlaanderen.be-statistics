@@ -9,11 +9,14 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "statuslabel": "Kandidaat Standaard",
   "namespaces": [
+    "https://data.vlaanderen.be/ns/bodem-en-ondergrond",
+    "http://www.w3.org/ns/sosa",
     "https://www.fair-gnss.oma.be/gnss-dcat-ap/vocabulary/geo",
     "https://www.w3.org/ns/sosa",
     "http://dbpedia.org/ontology",
     "https://w3id.org/okn/o/sd",
-    "http://www.w3.org/ns/sosa",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://www.w3.org/ns/sosa/oms",
     "https://saref.etsi.org/core",
     "http://www.w3.org/ns/ssn",
     "https://data.vlaanderen.be/ns/energiehuis",
@@ -25,7 +28,6 @@
     "http://data.europa.eu/it6",
     "http://www.w3.org/ns/dcat",
     "http://www.w3.org/ns/ssn/systems",
-    "http://www.w3.org/2004/02/skos/core",
     "https://qudt.org/schema/qudt",
     "http://www.cidoc-crm.org/cidoc-crm",
     "http://www.w3.org/2006/time",
@@ -36,17 +38,18 @@
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://def.isotc211.org/iso19103/2005/Names"
   ],
   "authors": 2,
   "editors": 5,
   "contributors": 4,
   "participants": 11,
-  "classes": 18,
+  "classes": 20,
   "properties": 20,
-  "externalclasses": 69,
+  "externalclasses": 71,
   "externalproperties": 87,
-  "totalterms": 194,
+  "totalterms": 198,
   "totalorganisations": 5,
   "organisations": [
     {
@@ -170,6 +173,15 @@
     ],
     "classes": [
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond#Interpretatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Interpretatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#Kenmerk",
         "label": [
           {
@@ -253,6 +265,7 @@
           }
         ]
       },
+      {},
       {},
       {},
       {},
@@ -446,6 +459,15 @@
     ],
     "externalclasses": [
       {
+        "assignedURI": "http://www.w3.org/ns/sosa/Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://www.fair-gnss.oma.be/gnss-dcat-ap/vocabulary/geo#GNSSReceiver",
         "label": [
           {
@@ -491,16 +513,25 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/Observation",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Observatie"
+            "@value": "Observatietype"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/ObservingProcedure",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatieproceduretype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/oms/ObservingProcedure",
         "label": [
           {
             "@language": "nl",
@@ -599,6 +630,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Elementtype"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBuilding",
         "label": [
           {
@@ -622,6 +662,42 @@
           {
             "@language": "nl",
             "@value": "Video"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Videotype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fototype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebouwtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebouweenheidtype"
           }
         ]
       },
@@ -652,6 +728,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "MachineLearningModeltype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/ssn/Input",
         "label": [
           {
@@ -666,6 +751,33 @@
           {
             "@language": "nl",
             "@value": "Output"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ObservatieCollectieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobjecttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeemtype"
           }
         ]
       },
@@ -724,6 +836,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Platformtype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/RightsStatement",
         "label": [
           {
@@ -764,6 +885,24 @@
           {
             "@language": "nl",
             "@value": "Informatieobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OutputType"
           }
         ]
       },
@@ -849,6 +988,14 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/sosa/Observation",
+        "label": [
+          {
+            "@value": "Observatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://saref.etsi.org/core/Device",
         "label": [
           {
@@ -900,15 +1047,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Domeinobjecttype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
         "label": [
           {
@@ -922,52 +1060,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Observatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatieproceduretype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Systeemtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Platformtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
             "@value": "TypeKenmerk"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "MachineLearningModeltype"
           }
         ]
       },
@@ -999,74 +1092,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/Names#GenericName",
         "label": [
           {
             "@language": "nl",
-            "@value": "ObservatieCollectieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Videotype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "InputType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OutputType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Fototype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Elementtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gebouwtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gebouweenheidtype"
+            "@value": "GeneriekeNaam"
           }
         ]
       },
@@ -1266,15 +1296,6 @@
           {
             "@language": "nl",
             "@value": "postcode"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/name",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naam"
           }
         ]
       },
@@ -1653,6 +1674,15 @@
           {
             "@language": "nl",
             "@value": "getraind op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
           }
         ]
       },

@@ -1,7 +1,7 @@
 {
   "title": "Netwerk",
   "uri": "https://data.test-vlaanderen.be/doc/vocabularium/netwerk/ontwerpstandaard/toolchain4",
-  "issued": "2025-08-21",
+  "issued": "2025-01-07",
   "navigation": {
     "prev": "/doc/vocabularium/netwerk/erkendestandaard/2020-04-23",
     "self": "https://data.test-vlaanderen.be/doc/vocabularium/netwerk/ontwerpstandaard/toolchain4"
@@ -10,10 +10,11 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
+    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/netwerk",
     "http://purl.org/dc/terms",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/adms",
+    "http://www.w3.org/2001/XMLSchema",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns"
   ],
@@ -21,11 +22,11 @@
   "editors": 7,
   "contributors": 22,
   "participants": 33,
-  "classes": 11,
-  "properties": 15,
-  "externalclasses": 7,
-  "externalproperties": 1,
-  "totalterms": 34,
+  "classes": 17,
+  "properties": 18,
+  "externalclasses": 8,
+  "externalproperties": 3,
+  "totalterms": 46,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -450,6 +451,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkeigenschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Netwerkeigenschap"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#OngelijkgrondseKruising",
         "label": [
           {
@@ -466,15 +476,86 @@
             "@value": "Gerichte link"
           }
         ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkreferentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Netwerkreferentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linkreferentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Linkreferentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Puntreferentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Puntreferentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#LineaireReferentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LineaireReferentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
       }
     ],
     "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Puntreferentie.opPositie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opPositie"
+          }
+        ]
+      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk.geografischeNaam",
         "label": [
           {
             "@language": "nl",
             "@value": "geografischeNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkreferentie.element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "element"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#toepassingsRichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toepassingsRichting"
           }
         ]
       },
@@ -488,11 +569,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#identificator",
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#netwerkreferentie",
         "label": [
           {
             "@language": "nl",
-            "@value": "identificator"
+            "@value": "netwerkreferentie"
           }
         ]
       },
@@ -611,6 +692,24 @@
         "label": [
           {
             "@language": "nl",
+            "@value": "Teken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Linkrichtingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
             "@value": "Connectietype"
           }
         ]
@@ -630,15 +729,6 @@
           {
             "@language": "nl",
             "@value": "Curve"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Teken"
           }
         ]
       },
@@ -677,6 +767,24 @@
           {
             "@language": "nl",
             "@value": "Aard van de Connectie."
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
           }
         ]
       }
