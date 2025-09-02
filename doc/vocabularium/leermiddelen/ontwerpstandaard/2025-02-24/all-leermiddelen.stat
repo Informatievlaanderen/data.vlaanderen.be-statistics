@@ -13,6 +13,7 @@
     "http://data.europa.eu/snb/model/elm",
     "https://schema.org",
     "https://data.vlaanderen.be/ns/leermiddelen",
+    "http://qudt.org/schema/qudt",
     "http://purl.org/dc/elements/1.1",
     "http://schema.org",
     "http://www.w3.org/ns/adms",
@@ -20,6 +21,8 @@
     "https://data.vlaanderen.be/ns/leercredential",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "https://qudt.org/schema/qudt",
     "http://data.europa.eu/m8g",
     "http://www.w3.org/2004/02/skos/core"
   ],
@@ -27,11 +30,11 @@
   "editors": 4,
   "contributors": 45,
   "participants": 56,
-  "classes": 12,
+  "classes": 14,
   "properties": 8,
-  "externalclasses": 33,
-  "externalproperties": 68,
-  "totalterms": 121,
+  "externalclasses": 36,
+  "externalproperties": 69,
+  "totalterms": 127,
   "totalorganisations": 30,
   "organisations": [
     {
@@ -671,6 +674,14 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#time",
         "label": [
           {
@@ -697,7 +708,8 @@
             "@value": "Leermiddel"
           }
         ]
-      }
+      },
+      {}
     ],
     "properties": [
       {
@@ -829,6 +841,15 @@
         ]
       },
       {
+        "assignedURI": "http://qudt.org/schema/qudt/CurrencyUnit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Valuta"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2006/time#Duration",
         "label": [
           {
@@ -852,6 +873,15 @@
           {
             "@language": "nl",
             "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwantitatieveWaarde"
           }
         ]
       },
@@ -897,6 +927,15 @@
           {
             "@language": "nl",
             "@value": "Leerspecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://qudt.org/schema/qudt/Unit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Eenheid"
           }
         ]
       },
@@ -1106,6 +1145,15 @@
           {
             "@language": "nl",
             "@value": "publicatieDatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
           }
         ]
       },
