@@ -14,24 +14,24 @@
     "https://schema.org",
     "https://data.vlaanderen.be/ns/leermiddelen",
     "http://purl.org/dc/elements/1.1",
-    "http://data.europa.eu/m8g",
+    "http://schema.org",
+    "http://www.w3.org/ns/adms",
     "http://www.w3.org/2006/time",
     "https://data.vlaanderen.be/ns/leercredential",
-    "http://www.w3.org/ns/adms",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/2000/01/rdf-schema",
+    "http://data.europa.eu/m8g",
     "http://www.w3.org/2004/02/skos/core"
   ],
   "authors": 8,
   "editors": 4,
   "contributors": 45,
   "participants": 56,
-  "classes": 11,
-  "properties": 15,
-  "externalclasses": 32,
-  "externalproperties": 59,
-  "totalterms": 117,
+  "classes": 12,
+  "properties": 8,
+  "externalclasses": 33,
+  "externalproperties": 68,
+  "totalterms": 121,
   "totalorganisations": 30,
   "organisations": [
     {
@@ -671,10 +671,18 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#time",
         "label": [
           {
-            "@value": "Literal"
+            "@value": "Time"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
           }
         ]
       },
@@ -693,47 +701,11 @@
     ],
     "properties": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#naam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#benodigdMateriaal",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "benodigdMateriaal"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#sleutelwoord",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "sleutelwoord"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#geldigheid",
         "label": [
           {
             "@language": "nl",
             "@value": "geldigheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#identificator",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "identificator"
           }
         ]
       },
@@ -747,38 +719,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#interactieType",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "interactieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#instructieTaal",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "instructieTaal"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#resultaatType",
         "label": [
           {
             "@language": "nl",
             "@value": "resultaatType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#kost",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "kost"
           }
         ]
       },
@@ -902,15 +847,6 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/m8g/Cost",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Kost"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
         "label": [
           {
@@ -925,6 +861,24 @@
           {
             "@language": "nl",
             "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/OpeningHoursSpecification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openingsurenspecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/MonetaryAmount",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geldbedrag"
           }
         ]
       },
@@ -1068,7 +1022,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Leeractiviteittype"
+            "@value": "Leeractiviteitspecificatietype"
           }
         ]
       },
@@ -1094,14 +1048,6 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
-            "@value": "NAL_currency"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
             "@language": "nl",
             "@value": "FormaatType"
           }
@@ -1115,9 +1061,27 @@
             "@value": "Moment"
           }
         ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leeractiviteittype"
+          }
+        ]
       }
     ],
     "externalproperties": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
       {
         "assignedURI": "https://schema.org/copyrightYear",
         "label": [
@@ -1142,15 +1106,6 @@
           {
             "@language": "nl",
             "@value": "publicatieDatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/snb/model/elm/contactHour",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "contacturen"
           }
         ]
       },
@@ -1182,29 +1137,56 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/description",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschrijving"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/value",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "waarde"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/title",
         "label": [
           {
             "@language": "nl",
             "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/opens",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "open"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/closes",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gesloten"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/dayOfWeek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dag van de week"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/validFrom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldig van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/validThrough",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldig tot"
           }
         ]
       },
@@ -1218,11 +1200,38 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/material",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "benodigdMateriaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/keywords",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "sleutelwoord"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/elements/1.1/subject",
         "label": [
           {
             "@language": "nl",
             "@value": "onderwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
           }
         ]
       },
@@ -1272,6 +1281,15 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/interactivityType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "interactieType"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/assesses",
         "label": [
           {
@@ -1313,6 +1331,15 @@
           {
             "@language": "nl",
             "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/inLanguage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "instructietaal"
           }
         ]
       },
@@ -1416,6 +1443,15 @@
         ]
       },
       {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/contactHour",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contacturen"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/snb/model/elm/generalisationOf",
         "label": [
           {
@@ -1497,11 +1533,11 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/m8g/currency",
+        "assignedURI": "https://schema.org/estimatedCost",
         "label": [
           {
             "@language": "nl",
-            "@value": "valuta"
+            "@value": "kost"
           }
         ]
       },
