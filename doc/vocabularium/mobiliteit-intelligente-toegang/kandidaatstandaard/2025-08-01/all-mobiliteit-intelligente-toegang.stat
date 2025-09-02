@@ -7,8 +7,8 @@
     "self": "https://data.test-vlaanderen.be/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-08-01"
   },
   "documenttype": "voc",
-  "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/KandidaatStandaard",
-  "statuslabel": "Onbekend",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "statuslabel": "Kandidaat Standaard",
   "namespaces": [
     "http://data.vlaanderen.be/ns/besluit",
     "https://data.vlaanderen.be/ns/omgevingsvergunning",
@@ -26,11 +26,11 @@
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2006/time",
     "http://www.w3.org/ns/locn",
-    "http://todo.com",
     "http://vocab.belgif.be/ns/publicservice",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/ns/prov",
+    "http://todo.com",
     "http://xmlns.com/foaf/0.1",
     "https://www.w3.org/ns/prov"
   ],
@@ -39,10 +39,10 @@
   "contributors": 19,
   "participants": 28,
   "classes": 25,
-  "properties": 23,
-  "externalclasses": 32,
+  "properties": 25,
+  "externalclasses": 34,
   "externalproperties": 44,
-  "totalterms": 124,
+  "totalterms": 128,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -573,6 +573,24 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit-intelligente-toegang#Aanvraag.vergunningshouder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vergunningshouder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit-intelligente-toegang#Vergunning.vergunningshouder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vergunningshouder"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit-intelligente-toegang#heeftOutputtype",
         "label": [
           {
@@ -769,6 +787,15 @@
           {
             "@language": "nl",
             "@value": "Project"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/InformationConcept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Informatieconcept"
           }
         ]
       },
@@ -999,6 +1026,14 @@
             "@value": "Geometrie"
           }
         ]
+      },
+      {
+        "assignedURI": "http://todo.com/Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
       }
     ],
     "externalproperties": [
@@ -1219,20 +1254,11 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Aanvraag.vergunningshouder",
+        "assignedURI": "http://data.europa.eu/m8g/expressionOfExpectedValue",
         "label": [
           {
             "@language": "nl",
-            "@value": "vergunningshouder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Vergunning.vergunningshouder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vergunningshouder"
+            "@value": "uitdrukking verwachte waarde"
           }
         ]
       },
@@ -1278,6 +1304,15 @@
           {
             "@language": "nl",
             "@value": "maker"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasConcept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft concept"
           }
         ]
       },

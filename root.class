@@ -1643,10 +1643,10 @@
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
     "label": [
       {
-        "@value": "Literal"
+        "@value": "LangString"
       }
     ]
   },
@@ -1659,6 +1659,14 @@
     ]
   },
   {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "label": [
+      {
+        "@value": "Literal"
+      }
+    ]
+  },
+  {
     "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
     "label": [
       {
@@ -1666,14 +1674,7 @@
       }
     ]
   },
-  {
-    "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-    "label": [
-      {
-        "@value": "LangString"
-      }
-    ]
-  },
+  {},
   {},
   {},
   {},
@@ -2335,11 +2336,11 @@
     ]
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#Rooilijninventaris",
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#Rooilijnplaninventaris",
     "label": [
       {
         "@language": "nl",
-        "@value": "Rooilijninventaris"
+        "@value": "Rooilijnplaninventaris"
       }
     ]
   },
@@ -2824,15 +2825,6 @@
   {},
   {},
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond#Interpretatie",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Interpretatie"
-      }
-    ]
-  },
-  {
     "assignedURI": "https://data.vlaanderen.be/ns/energiehuis#Kenmerk",
     "label": [
       {
@@ -2916,7 +2908,6 @@
       }
     ]
   },
-  {},
   {},
   {},
   {},
@@ -3517,6 +3508,15 @@
     ]
   },
   {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Reservatie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Reservatie"
+      }
+    ]
+  },
+  {
     "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Binnenruimte",
     "label": [
       {
@@ -3531,6 +3531,15 @@
       {
         "@language": "nl",
         "@value": "Buitenruimte"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Plaatsbeschrijving",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Plaatsbeschrijving"
       }
     ]
   },
@@ -3580,11 +3589,10 @@
     ]
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Plaatsbeschrijving",
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
     "label": [
       {
-        "@language": "nl",
-        "@value": "Plaatsbeschrijving"
+        "@value": "DateTime"
       }
     ]
   },
@@ -3605,29 +3613,10 @@
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
-    "label": [
-      {
-        "@value": "String"
-      },
-      {
-        "@value": "string"
-      }
-    ]
-  },
-  {
     "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
     "label": [
       {
         "@value": "Integer"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
-    "label": [
-      {
-        "@value": "DateTime"
       }
     ]
   },
@@ -3647,6 +3636,17 @@
       }
     ]
   },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+    "label": [
+      {
+        "@value": "String"
+      },
+      {
+        "@value": "string"
+      }
+    ]
+  },
   {},
   {},
   {},
@@ -3659,6 +3659,7 @@
       }
     ]
   },
+  {},
   {},
   {
     "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres",
@@ -3832,6 +3833,14 @@
     ]
   },
   {
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "label": [
+      {
+        "@value": "Literal"
+      }
+    ]
+  },
+  {
     "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
     "label": [
       {
@@ -3852,14 +3861,6 @@
     "label": [
       {
         "@value": "LangString"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "label": [
-      {
-        "@value": "Literal"
       }
     ]
   },
@@ -5536,15 +5537,6 @@
     ]
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LeermiddelType",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "LeermiddelType"
-      }
-    ]
-  },
-  {
     "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Doel",
     "label": [
       {
@@ -5563,100 +5555,11 @@
     ]
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#FormaatType",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "FormaatType"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#DoelType",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Doeltype"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Onderwijsniveau",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Onderwijsniveau"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Licentie",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Licentie"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#OnderwerpType",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "OnderwerpType"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#InteractieType",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "InteractieType"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#ResultaatType",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "ResultaatType"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LicentieType",
-    "label": [
-      {
-        "@value": "LicentieType"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Kost",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Kost"
-      }
-    ]
-  },
-  {
     "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Competentie",
     "label": [
       {
         "@language": "nl",
         "@value": "Competentie"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Referentie",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Referentie"
       }
     ]
   },
@@ -5670,14 +5573,6 @@
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
-    "label": [
-      {
-        "@value": "DateTime"
-      }
-    ]
-  },
-  {
     "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
     "label": [
       {
@@ -5686,21 +5581,22 @@
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
     "label": [
       {
-        "@value": "String"
+        "@value": "DateTime"
       }
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
     "label": [
       {
-        "@value": "URI"
+        "@value": "Literal"
       }
     ]
   },
+  {},
   {},
   {},
   {
@@ -5712,75 +5608,49 @@
       }
     ]
   },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LeermiddelType",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "LeermiddelType"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Doel",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Doel"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LeermiddelVerzameling",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "LeermiddelVerzameling"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#FormaatType",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "FormaatType"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#DoelType",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Doeltype"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Onderwijsniveau",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Onderwijsniveau"
-      }
-    ]
-  },
-  {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Licentie",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Licentie"
-      }
-    ]
-  },
+  {},
   {
     "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#OnderwerpType",
     "label": [
       {
         "@language": "nl",
         "@value": "OnderwerpType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#ToegankelijkheidsType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "ToegankelijkheidsType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LeeftijdsType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "LeeftijdsType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#OpleidingsniveauType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "OpleidingsniveauType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LeermiddelType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "LeermiddelType"
       }
     ]
   },
@@ -5803,19 +5673,74 @@
     ]
   },
   {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#CompetentieType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "CompetentieType"
+      }
+    ]
+  },
+  {
     "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LicentieType",
     "label": [
       {
+        "@language": "nl",
         "@value": "LicentieType"
       }
     ]
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Kost",
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#DoelType",
     "label": [
       {
         "@language": "nl",
-        "@value": "Kost"
+        "@value": "Doeltype"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#BronType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "BronType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#FormaatType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "FormaatType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Leermiddel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Leermiddel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Doel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Doel"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LeermiddelVerzameling",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "LeermiddelVerzameling"
       }
     ]
   },
@@ -5829,28 +5754,11 @@
     ]
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Referentie",
-    "label": [
-      {
-        "@language": "nl",
-        "@value": "Referentie"
-      }
-    ]
-  },
-  {
     "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Doelgroep",
     "label": [
       {
         "@language": "nl",
         "@value": "Doelgroep"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
-    "label": [
-      {
-        "@value": "DateTime"
       }
     ]
   },
@@ -5863,23 +5771,142 @@
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
     "label": [
       {
-        "@value": "String"
+        "@value": "DateTime"
       }
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+    "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
     "label": [
       {
-        "@value": "URI"
+        "@value": "Literal"
       }
     ]
   },
   {},
   {},
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Leermiddel",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Leermiddel"
+      }
+    ]
+  },
+  {},
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#OnderwerpType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "OnderwerpType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#ToegankelijkheidsType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "ToegankelijkheidsType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LeeftijdsType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "LeeftijdsType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#OpleidingsniveauType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "OpleidingsniveauType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LeermiddelType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "LeermiddelType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#InteractieType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "InteractieType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#ResultaatType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "ResultaatType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#CompetentieType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "CompetentieType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LicentieType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "LicentieType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#DoelType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Doeltype"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#BronType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "BronType"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#FormaatType",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "FormaatType"
+      }
+    ]
+  },
   {
     "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsgebeurtenis",
     "label": [
@@ -7386,11 +7413,11 @@
     ]
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#Rooilijninventaris",
+    "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#Rooilijnplaninventaris",
     "label": [
       {
         "@language": "nl",
-        "@value": "Rooilijninventaris"
+        "@value": "Rooilijnplaninventaris"
       }
     ]
   },
@@ -7480,6 +7507,14 @@
     "label": [
       {
         "@value": "Literal"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#int",
+    "label": [
+      {
+        "@value": "int"
       }
     ]
   },
@@ -8899,6 +8934,15 @@
     ]
   },
   {
+    "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Reservatie",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Reservatie"
+      }
+    ]
+  },
+  {
     "assignedURI": "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur#Binnenruimte",
     "label": [
       {
@@ -8913,6 +8957,15 @@
       {
         "@language": "nl",
         "@value": "Buitenruimte"
+      }
+    ]
+  },
+  {
+    "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Plaatsbeschrijving",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Plaatsbeschrijving"
       }
     ]
   },
@@ -8962,11 +9015,10 @@
     ]
   },
   {
-    "assignedURI": "https://data.vlaanderen.be/ns/zaalreservatie#Plaatsbeschrijving",
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
     "label": [
       {
-        "@language": "nl",
-        "@value": "Plaatsbeschrijving"
+        "@value": "DateTime"
       }
     ]
   },
@@ -8987,29 +9039,10 @@
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
-    "label": [
-      {
-        "@value": "String"
-      },
-      {
-        "@value": "string"
-      }
-    ]
-  },
-  {
     "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
     "label": [
       {
         "@value": "Integer"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
-    "label": [
-      {
-        "@value": "DateTime"
       }
     ]
   },
@@ -9029,6 +9062,17 @@
       }
     ]
   },
+  {
+    "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+    "label": [
+      {
+        "@value": "String"
+      },
+      {
+        "@value": "string"
+      }
+    ]
+  },
   {},
   {},
   {},
@@ -9041,5 +9085,6 @@
       }
     ]
   },
+  {},
   {}
 ]

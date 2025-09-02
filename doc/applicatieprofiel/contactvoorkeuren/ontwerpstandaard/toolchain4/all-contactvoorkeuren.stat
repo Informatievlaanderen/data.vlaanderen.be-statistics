@@ -1,0 +1,789 @@
+{
+  "title": "Contactvoorkeuren",
+  "uri": "https://data.test-vlaanderen.be/doc/applicatieprofiel/contactvoorkeuren/ontwerpstandaard/toolchain4",
+  "issued": "2025-08-25",
+  "navigation": {
+    "prev": "/doc/applicatieprofiel/contactvoorkeuren/standaard/2019-02-07",
+    "self": "https://data.test-vlaanderen.be/doc/applicatieprofiel/contactvoorkeuren/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
+  "namespaces": [
+    "http://purl.org/vocab/cpsv",
+    "http://xmlns.com/foaf/0.1",
+    "http://purl.org/dc/terms",
+    "http://data.europa.eu/m8g",
+    "http://www.w3.org/ns/org",
+    "https://data.vlaanderen.be/ns/organisatie",
+    "http://www.w3.org/ns/person",
+    "https://data.vlaanderen.be/ns/adres",
+    "https://data.vlaanderen.be/ns/toestemming",
+    "http://www.w3.org/2006/vcard/ns",
+    "http://schema.org",
+    "http://data.vlaanderen.be/ns/adres",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://todo.com",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/ns/prov",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2004/02/skos/core"
+  ],
+  "authors": 5,
+  "editors": 2,
+  "contributors": 6,
+  "participants": 13,
+  "classes": 15,
+  "properties": 19,
+  "externalclasses": 17,
+  "externalproperties": 13,
+  "totalterms": 64,
+  "totalorganisations": 4,
+  "organisations": [
+    {
+      "affiliation": "informatievlaanderen",
+      "participants": 7
+    },
+    {
+      "affiliation": "pwc",
+      "participants": 3
+    },
+    {
+      "affiliation": "cspi",
+      "participants": 1
+    },
+    {
+      "affiliation": "bosa",
+      "participants": 2
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "driesbeheydt",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "kristofdecausemaeker",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "sanderfranck",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "nikotanghe",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "goedelevanderspiegel",
+        "affiliation": "informatievlaanderen"
+      }
+    ],
+    "editors": [
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "jensscheerlinck",
+        "affiliation": "pwc"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "anneliesdecraene",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "nikolaosloutas",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "ginetteschollaert",
+        "affiliation": "cspi"
+      },
+      {
+        "name": "steventielemans",
+        "affiliation": "bosa"
+      },
+      {
+        "name": "barbaravangogh",
+        "affiliation": "bosa"
+      },
+      {
+        "name": "omaarverack",
+        "affiliation": "informatievlaanderen"
+      }
+    ],
+    "participants": [
+      {
+        "name": "anneliesdecraene",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "nikolaosloutas",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "ginetteschollaert",
+        "affiliation": "cspi"
+      },
+      {
+        "name": "steventielemans",
+        "affiliation": "bosa"
+      },
+      {
+        "name": "barbaravangogh",
+        "affiliation": "bosa"
+      },
+      {
+        "name": "omaarverack",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "jensscheerlinck",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "driesbeheydt",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "kristofdecausemaeker",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "sanderfranck",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "nikotanghe",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "goedelevanderspiegel",
+        "affiliation": "informatievlaanderen"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Hoedanigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Hoedanigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Belgisch Adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#Verwerkersovereenkomst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verwerkersovereenkomst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#Toestemming",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toestemming"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#Privacyverklaring",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Privacyverklaring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#AlgemeneVoorwaarden",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Algemene Voorwaarden"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#Verwerkingsactiviteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verwerkingsactiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#Cookieverklaring",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Cookieverklaring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+        "label": [
+          {
+            "@value": "Date"
+          }
+        ]
+      },
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#gegevenOp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gegeven op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/adres#gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#toestemmingsvraag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toestemmingsvraag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#contactkanaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactkanaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#notificatiecategorie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "notificatiecategorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/adres#verwijstNaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwijst naar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#contactkanaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactkanaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#verwerkingsgrond",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtsgrond"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#gegevenVoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gegeven voor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#verwerker",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwerker"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#heeftVerwerkersovereenkomstMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft verwerkersovereenkomst met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#Verwerkersovereenkomst.Organisatie",
+        "label": [
+          {
+            "@value": "Verwerkersovereenkomst.Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#verwerkingsverantwoordelijke",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwerkingsverantwoordelijke"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#dataSubject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "data subject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/toestemming#extraInformatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "extra informatie"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#PublicService",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Publieke Dienstverlening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/Document",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Document"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PublicOrganisation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Publieke Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ContactInfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Entity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Entiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Post",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Positie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "TaalString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactkanaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "NotificatieCategorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toestemmingstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ververkingstypes"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verwerkingsgronden"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanschrijfvorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/email",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "email"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/telephone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telefoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/expires",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vervalt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "label"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type verwerking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Verwerkersovereenkomst.PubliekeOrganisatie",
+        "label": [
+          {
+            "@value": "Verwerkersovereenkomst.PubliekeOrganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gerelateerd met"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "informatievlaanderen",
+        "names": [
+          {
+            "name": "anneliesdecraene",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "omaarverack",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "driesbeheydt",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "kristofdecausemaeker",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "sanderfranck",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "nikotanghe",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "goedelevanderspiegel",
+            "affiliation": "informatievlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwc",
+        "names": [
+          {
+            "name": "nikolaosloutas",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "michieldekeyzer",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "jensscheerlinck",
+            "affiliation": "pwc"
+          }
+        ]
+      },
+      {
+        "affiliation": "cspi",
+        "names": [
+          {
+            "name": "ginetteschollaert",
+            "affiliation": "cspi"
+          }
+        ]
+      },
+      {
+        "affiliation": "bosa",
+        "names": [
+          {
+            "name": "steventielemans",
+            "affiliation": "bosa"
+          },
+          {
+            "name": "barbaravangogh",
+            "affiliation": "bosa"
+          }
+        ]
+      }
+    ]
+  }
+}
