@@ -20,9 +20,9 @@
     "http://www.w3.org/2006/time",
     "http://www.cidoc-crm.org/cidoc-crm",
     "https://data.vlaanderen.be/ns/leercredential",
+    "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/2000/01/rdf-schema",
     "https://qudt.org/schema/qudt",
     "http://data.europa.eu/m8g",
     "http://www.w3.org/2004/02/skos/core"
@@ -31,10 +31,10 @@
   "editors": 4,
   "contributors": 45,
   "participants": 56,
-  "classes": 14,
-  "properties": 8,
-  "externalclasses": 36,
-  "externalproperties": 71,
+  "classes": 12,
+  "properties": 3,
+  "externalclasses": 38,
+  "externalproperties": 76,
   "totalterms": 129,
   "totalorganisations": 30,
   "organisations": [
@@ -632,29 +632,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#LeermiddelVerzameling",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "LeermiddelVerzameling"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Competentie",
         "label": [
           {
             "@language": "nl",
             "@value": "Competentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Doelgroep",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Doelgroep"
           }
         ]
       },
@@ -714,38 +696,11 @@
     ],
     "properties": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#geldigheid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geldigheid"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#toegankelijkheid",
         "label": [
           {
             "@language": "nl",
             "@value": "toegankelijkheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#resultaatType",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "resultaatType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#competentie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "competentie"
           }
         ]
       },
@@ -764,24 +719,6 @@
           {
             "@language": "nl",
             "@value": "schrijftVoor"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#gedeeldDoor",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gedeeldDoor"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#isBrederDan",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "isBrederDan"
           }
         ]
       }
@@ -833,6 +770,15 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/CreativeWorkSeries",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LeermiddelVerzameling"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/CreativeWork",
         "label": [
           {
@@ -865,6 +811,15 @@
           {
             "@language": "nl",
             "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Audience",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Doelgroep"
           }
         ]
       },
@@ -1267,6 +1222,15 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/validFor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheid"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/elements/1.1/subject",
         "label": [
           {
@@ -1416,6 +1380,15 @@
           {
             "@language": "nl",
             "@value": "workload"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
           }
         ]
       },
@@ -1645,6 +1618,15 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/competencyRequired",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "competentie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/elements/1.1/source",
         "label": [
           {
@@ -1726,11 +1708,29 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/publisher",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publiceerder"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/isVersionOf",
         "label": [
           {
             "@language": "nl",
             "@value": "isSpecialisatieVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isBrederDan"
           }
         ]
       },
