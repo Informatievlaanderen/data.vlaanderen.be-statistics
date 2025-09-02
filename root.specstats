@@ -1022,6 +1022,8 @@
     "namespaces": [
       "http://www.w3.org/ns/sosa",
       "https://data.vlaanderen.be/ns/verkeersmetingen",
+      "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
+      "http://def.isotc211.org/iso19156/2011/Observation",
       "http://www.w3.org/ns/ssn",
       "http://www.w3.org/2004/02/skos/core",
       "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
@@ -1030,24 +1032,22 @@
       "https://www.w3.org/2009/08/skos-reference/skos.html",
       "https://data.vlaanderen.be/ns/melding",
       "http://www.w3.org/ns/org",
-      "http://www.w3.org/2000/01/rdf-schema",
+      "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata",
       "http://purl.org/dc/dcmitype",
       "http://www.w3.org/ns/prov",
+      "http://www.w3.org/2000/01/rdf-schema",
       "http://dbpedia.org/ontology",
       "http://purl.org/dc/terms",
       "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
       "https://www.w3.org/ns/activitystreams",
-      "https://schema.org",
       "http://www.w3.org/ns/adms",
       "https://data.vlaanderen.be/ns/dossier",
       "https://dbpedia.org/ontology",
-      "http://def.isotc211.org/iso19156/2011/Observation",
-      "http://www.w3.org/ns/sosa/oms",
-      "http://todo.com",
       "http://www.w3.org/ns/oa",
-      "http://www.w3.org/ns/locn",
+      "http://todo.com",
+      "http://def.isotc211.org/iso19108/2006/TemporalObjects",
       "http://www.w3.org/2006/time",
-      "https://www.w3.org/TR/vocab-dqv/",
+      "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
       "http://www.w3.org/2001/XMLSchema",
       "http://www.w3.org/1999/02/22-rdf-syntax-ns"
     ],
@@ -1056,10 +1056,10 @@
     "contributors": 5,
     "participants": 20,
     "classes": 13,
-    "properties": 21,
-    "externalclasses": 35,
-    "externalproperties": 52,
-    "totalterms": 121,
+    "properties": 17,
+    "externalclasses": 32,
+    "externalproperties": 29,
+    "totalterms": 91,
     "totalorganisations": 7,
     "organisations": [
       {
@@ -1779,6 +1779,165 @@
       {
         "affiliation": "stadgeel",
         "participants": 2
+      }
+    ],
+    "specifications": []
+  },
+  {
+    "title": "Vocabularium Leermiddelen",
+    "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
+    "issued": "2025-08-01",
+    "navigation": {
+      "self": "https://data.dev-vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+    },
+    "documenttype": "voc",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "statuslabel": "Kandidaat Standaard",
+    "namespaces": [
+      "http://purl.org/dc/terms",
+      "http://data.europa.eu/snb/model/elm",
+      "https://data.vlaanderen.be/ns/leermiddelen",
+      "https://schema.org",
+      "http://purl.org/dc/elements/1.1",
+      "http://data.europa.eu/m8g",
+      "http://www.w3.org/2006/time",
+      "https://data.vlaanderen.be/ns/leercredential",
+      "http://www.w3.org/ns/adms",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2004/02/skos/core"
+    ],
+    "authors": 8,
+    "editors": 4,
+    "contributors": 45,
+    "participants": 56,
+    "classes": 13,
+    "properties": 17,
+    "externalclasses": 32,
+    "externalproperties": 57,
+    "totalterms": 119,
+    "totalorganisations": 30,
+    "organisations": [
+      {
+        "affiliation": "departementonderwijsenvorming",
+        "participants": 5
+      },
+      {
+        "affiliation": "vlaamsedienstvoorarbeidsbemiddelingenberoepsopleiding",
+        "participants": 2
+      },
+      {
+        "affiliation": "",
+        "participants": 3
+      },
+      {
+        "affiliation": "microsoft",
+        "participants": 1
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "participants": 4
+      },
+      {
+        "affiliation": "meemoo,vlaamsinstituutvoorhetarchief",
+        "participants": 2
+      },
+      {
+        "affiliation": "go!atheneumgeraardsbergen",
+        "participants": 1
+      },
+      {
+        "affiliation": "imec",
+        "participants": 3
+      },
+      {
+        "affiliation": "supportsquarenv",
+        "participants": 1
+      },
+      {
+        "affiliation": "universiteitgent",
+        "participants": 2
+      },
+      {
+        "affiliation": "go!onderwijsvandevlaamsegemeenschap",
+        "participants": 3
+      },
+      {
+        "affiliation": "xerteproject",
+        "participants": 2
+      },
+      {
+        "affiliation": "uitgeverijlernova",
+        "participants": 1
+      },
+      {
+        "affiliation": "questi",
+        "participants": 2
+      },
+      {
+        "affiliation": "becentral/mediawijs",
+        "participants": 1
+      },
+      {
+        "affiliation": "uitgeverijvaninnv",
+        "participants": 2
+      },
+      {
+        "affiliation": "smartbit",
+        "participants": 2
+      },
+      {
+        "affiliation": "dwengovzw",
+        "participants": 1
+      },
+      {
+        "affiliation": "regionaaltechnologischcentrumantwerpen",
+        "participants": 1
+      },
+      {
+        "affiliation": "plantyn",
+        "participants": 2
+      },
+      {
+        "affiliation": "gitooverijse",
+        "participants": 2
+      },
+      {
+        "affiliation": "katholiekonderwijsvlaanderen",
+        "participants": 2
+      },
+      {
+        "affiliation": "vrijdenkendeonafhankelijkeonderwijspartners",
+        "participants": 1
+      },
+      {
+        "affiliation": "studioglobo",
+        "participants": 1
+      },
+      {
+        "affiliation": "onderwijskoepelvanstedenengemeenten(ovsg)",
+        "participants": 2
+      },
+      {
+        "affiliation": "kuleuven",
+        "participants": 1
+      },
+      {
+        "affiliation": "ligo,centrumvoorbasiseducatiebrugge-oostende-westhoek",
+        "participants": 1
+      },
+      {
+        "affiliation": "edtech/station",
+        "participants": 1
+      },
+      {
+        "affiliation": "agentschapvoorhogeronderwijs,volwassenenonderwijs,kwalificatiesenstudietoelagen",
+        "participants": 3
+      },
+      {
+        "affiliation": "klascement",
+        "participants": 1
       }
     ],
     "specifications": []
