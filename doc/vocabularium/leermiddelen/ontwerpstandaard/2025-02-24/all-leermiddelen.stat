@@ -11,8 +11,8 @@
   "namespaces": [
     "http://purl.org/dc/terms",
     "http://data.europa.eu/snb/model/elm",
-    "https://data.vlaanderen.be/ns/leermiddelen",
     "https://schema.org",
+    "https://data.vlaanderen.be/ns/leermiddelen",
     "http://purl.org/dc/elements/1.1",
     "http://data.europa.eu/m8g",
     "http://www.w3.org/2006/time",
@@ -27,11 +27,11 @@
   "editors": 4,
   "contributors": 45,
   "participants": 56,
-  "classes": 13,
-  "properties": 17,
+  "classes": 11,
+  "properties": 15,
   "externalclasses": 32,
-  "externalproperties": 57,
-  "totalterms": 119,
+  "externalproperties": 59,
+  "totalterms": 117,
   "totalorganisations": 30,
   "organisations": [
     {
@@ -619,15 +619,6 @@
     ],
     "classes": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Leermiddel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Leermiddel"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Doel",
         "label": [
           {
@@ -698,8 +689,7 @@
             "@value": "Leermiddel"
           }
         ]
-      },
-      {}
+      }
     ],
     "properties": [
       {
@@ -766,15 +756,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#Doel.competentie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "competentie"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#instructieTaal",
         "label": [
           {
@@ -816,15 +797,6 @@
           {
             "@language": "nl",
             "@value": "maaktGebruikVan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#dient",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "dient"
           }
         ]
       },
@@ -881,6 +853,15 @@
           {
             "@language": "nl",
             "@value": "Leeractiviteitspecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/LearningResource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leermiddel"
           }
         ]
       },
@@ -962,15 +943,6 @@
           {
             "@language": "nl",
             "@value": "Leerspecificatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/CreativeWork",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "CreatiefWerk"
           }
         ]
       },
@@ -1300,6 +1272,15 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/assesses",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "competentie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/snb/model/elm/hasPart",
         "label": [
           {
@@ -1430,7 +1411,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "licentieType"
+            "@value": "type"
           }
         ]
       },
@@ -1584,6 +1565,15 @@
           {
             "@language": "nl",
             "@value": "licentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/educationalUse",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dient"
           }
         ]
       },
