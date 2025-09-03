@@ -18,12 +18,12 @@
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2006/time",
     "http://www.cidoc-crm.org/cidoc-crm",
-    "https://data.vlaanderen.be/ns/leermiddelen",
     "https://data.vlaanderen.be/ns/leercredential",
     "http://www.w3.org/2000/01/rdf-schema",
     "https://ec.europa.eu/esco/lod/static/model.html",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
+    "https://data.vlaanderen.be/ns/leermiddelen",
     "https://qudt.org/schema/qudt",
     "http://data.europa.eu/m8g",
     "http://www.w3.org/2004/02/skos/core"
@@ -33,9 +33,9 @@
   "contributors": 45,
   "participants": 56,
   "classes": 10,
-  "properties": 3,
+  "properties": 2,
   "externalclasses": 40,
-  "externalproperties": 77,
+  "externalproperties": 78,
   "totalterms": 130,
   "totalorganisations": 30,
   "organisations": [
@@ -678,14 +678,6 @@
       {}
     ],
     "properties": [
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/leermiddelen#doelgroep",
-        "label": [
-          {
-            "@value": "doelgroep"
-          }
-        ]
-      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/leercredential#maaktGebruikVan",
         "label": [
@@ -1614,6 +1606,15 @@
           {
             "@language": "nl",
             "@value": "valuta"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/audience",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "doelgroep"
           }
         ]
       },
