@@ -1,7 +1,7 @@
 {
   "title": "Organisatie Basis",
   "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/toolchain4",
-  "issued": "2024-06-01",
+  "issued": "2025-08-22",
   "navigation": {
     "prev": "/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/2024-06-01",
     "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/organisatie-basis/ontwerpstandaard/toolchain4"
@@ -32,11 +32,11 @@
   "editors": 1,
   "contributors": 1,
   "participants": 3,
-  "classes": 7,
+  "classes": 10,
   "properties": 7,
-  "externalclasses": 35,
-  "externalproperties": 42,
-  "totalterms": 91,
+  "externalclasses": 34,
+  "externalproperties": 52,
+  "totalterms": 103,
   "totalorganisations": 3,
   "organisations": [
     {
@@ -148,7 +148,10 @@
             "@value": "String"
           }
         ]
-      }
+      },
+      {},
+      {},
+      {}
     ],
     "properties": [
       {
@@ -197,16 +200,15 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#AdresseerbaarObject.bestaatUit",
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Agent.Lidmaatschap",
         "label": [
           {
-            "@language": "nl",
-            "@value": "bestaat uit"
+            "@value": "Agent.Lidmaatschap"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Vestiging.bestaatUit",
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#bestaatUit",
         "label": [
           {
             "@language": "nl",
@@ -282,10 +284,6 @@
       {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          },
           {
             "@language": "nl",
             "@value": "Agent"
@@ -451,15 +449,6 @@
           {
             "@language": "nl",
             "@value": "Resource"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
@@ -724,6 +713,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/org#basedAt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft standplaats"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/org#reportsTo",
         "label": [
           {
@@ -886,11 +884,92 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/m8g/hasFormalFramework",
+        "assignedURI": "http://www.w3.org/ns/regorg#hasRegisteredOrganization",
         "label": [
           {
             "@language": "nl",
-            "@value": "vindt plaats binnen"
+            "@value": "heeft geregistreerde organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#reportsTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rapporteert aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#holds",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "houdt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#member",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is lidmaatschap bij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasMembership",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft lidmaatschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#headOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is hoofd van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#heldBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wordt ingevuld door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasMember",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft als lid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#memberOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is lid van"
           }
         ]
       },
