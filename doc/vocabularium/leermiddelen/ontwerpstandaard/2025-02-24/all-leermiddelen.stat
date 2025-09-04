@@ -10,6 +10,7 @@
   "statuslabel": "Kandidaat Standaard",
   "namespaces": [
     "http://purl.org/dc/terms",
+    "http://www.w3.org/2004/02/skos/core",
     "http://data.europa.eu/snb/model/elm",
     "https://schema.org",
     "http://purl.org/dc/dcmitype",
@@ -18,26 +19,27 @@
     "http://www.w3.org/ns/dcat",
     "http://purl.org/dc/elements/1.1",
     "http://schema.org",
+    "https://vocab.belgif.be/ns/address",
+    "http://www.w3.org/ns/locn",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2006/time",
     "http://www.cidoc-crm.org/cidoc-crm",
-    "http://www.w3.org/2004/02/skos/core",
+    "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/2000/01/rdf-schema",
     "https://qudt.org/schema/qudt",
-    "http://data.europa.eu/m8g",
-    "http://www.w3.org/ns/locn"
+    "http://data.europa.eu/m8g"
   ],
   "authors": 8,
   "editors": 4,
   "contributors": 45,
   "participants": 56,
-  "classes": 11,
+  "classes": 12,
   "properties": 0,
-  "externalclasses": 43,
-  "externalproperties": 82,
-  "totalterms": 136,
+  "externalclasses": 46,
+  "externalproperties": 96,
+  "totalterms": 154,
   "totalorganisations": 30,
   "organisations": [
     {
@@ -672,6 +674,14 @@
           }
         ]
       },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
       {},
       {},
       {},
@@ -690,11 +700,38 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leeractiviteittype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/snb/model/elm/LearningActivity",
         "label": [
           {
             "@language": "nl",
             "@value": "Leeractiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Doelgroep"
           }
         ]
       },
@@ -726,6 +763,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LeermiddelType"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/snb/model/elm/LearningAchievement",
         "label": [
           {
@@ -753,11 +799,83 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "FormaatType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Doeltype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LicentieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OpleidingsniveauType"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/LicenseDocument",
         "label": [
           {
             "@language": "nl",
             "@value": "Licentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OnderwerpType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BronType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "CompetentieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LeeftijdsType"
           }
         ]
       },
@@ -771,11 +889,65 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InteractieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ResultaatType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ToegankelijkheidsType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leeractiviteitspecificatietype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://qudt.org/schema/qudt/CurrencyUnit",
         "label": [
           {
             "@language": "nl",
             "@value": "Valuta"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/Claim",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leerclaim"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/snb/model/elm/Specification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Leerspecificatie"
           }
         ]
       },
@@ -821,6 +993,24 @@
           {
             "@language": "nl",
             "@value": "KwantitatieveWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
           }
         ]
       },
@@ -906,164 +1096,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OnderwerpType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ToegankelijkheidsType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "LeeftijdsType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Doelgroep"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OpleidingsniveauType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "LeermiddelType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "InteractieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Address",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Adresvoorstelling"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Taal"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ResultaatType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "CompetentieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "LicentieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Leeractiviteitspecificatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Doeltype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "BronType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "FormaatType"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2006/time#Instant",
         "label": [
           {
             "@language": "nl",
             "@value": "Moment"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Leeractiviteittype"
           }
         ]
       }
@@ -1214,11 +1251,137 @@
         ]
       },
       {
+        "assignedURI": "https://vocab.belgif.be/ns/address#AddressRepresentation.boxNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatienaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#addressArea",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adresgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#municipalityName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 2"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 1"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#country",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/material",
         "label": [
           {
             "@language": "nl",
             "@value": "benodigdMateriaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledig Adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#poBox",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postbus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatieaanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#AddressRepresentation.houseNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
           }
         ]
       },
