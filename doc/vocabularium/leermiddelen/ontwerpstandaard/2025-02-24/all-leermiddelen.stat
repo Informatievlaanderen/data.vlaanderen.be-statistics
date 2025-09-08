@@ -10,13 +10,11 @@
   "statuslabel": "Kandidaat Standaard",
   "namespaces": [
     "http://purl.org/dc/terms",
-    "http://www.w3.org/2004/02/skos/core",
     "http://data.europa.eu/snb/model/elm",
     "https://schema.org",
     "http://purl.org/dc/dcmitype",
     "https://ec.europa.eu/esco/lod/static/model.html",
     "http://qudt.org/schema/qudt",
-    "http://www.w3.org/ns/dcat",
     "http://purl.org/dc/elements/1.1",
     "http://schema.org",
     "https://vocab.belgif.be/ns/address",
@@ -24,6 +22,7 @@
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2006/time",
     "http://www.cidoc-crm.org/cidoc-crm",
+    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
@@ -38,8 +37,8 @@
   "classes": 12,
   "properties": 0,
   "externalclasses": 46,
-  "externalproperties": 96,
-  "totalterms": 154,
+  "externalproperties": 97,
+  "totalterms": 155,
   "totalorganisations": 30,
   "organisations": [
     {
@@ -700,38 +699,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Leeractiviteittype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://data.europa.eu/snb/model/elm/LearningActivity",
         "label": [
           {
             "@language": "nl",
             "@value": "Leeractiviteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Taal"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Doelgroep"
           }
         ]
       },
@@ -754,20 +726,11 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/dcmitype/InteractiveResource",
+        "assignedURI": "https://schema.org/CreativeWork",
         "label": [
           {
             "@language": "nl",
-            "@value": "InteractieveResource"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "LeermiddelType"
+            "@value": "CreatiefWerk"
           }
         ]
       },
@@ -776,7 +739,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Leerdoel"
+            "@value": "Doel"
           }
         ]
       },
@@ -799,42 +762,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "FormaatType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Doeltype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "LicentieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OpleidingsniveauType"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/LicenseDocument",
         "label": [
           {
@@ -844,83 +771,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OnderwerpType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "BronType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "CompetentieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "LeeftijdsType"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://ec.europa.eu/esco/lod/static/model.html#Skill",
         "label": [
           {
             "@language": "nl",
             "@value": "Competentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "InteractieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ResultaatType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ToegankelijkheidsType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Leeractiviteitspecificatietype"
           }
         ]
       },
@@ -948,6 +803,15 @@
           {
             "@language": "nl",
             "@value": "Leerspecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/CreativeWork",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LeermiddelElement"
           }
         ]
       },
@@ -1060,15 +924,6 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/CreativeWork",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "CreatiefWerk"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://schema.org/LearningResource",
         "label": [
           {
@@ -1096,11 +951,139 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OnderwerpType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "ToegankelijkheidsType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "LeeftijdsType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Doelgroep"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OpleidingsniveauType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "LeermiddelType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "InteractieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "ResultaatType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "CompetentieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "LicentieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Leeractiviteitspecificatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "DoelType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "BronType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "FormaatType"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2006/time#Instant",
         "label": [
           {
             "@language": "nl",
             "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Leeractiviteittype"
           }
         ]
       }
@@ -1125,7 +1108,7 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/dateCopyrighted",
+        "assignedURI": "https://schema.org/copyrightYear",
         "label": [
           {
             "@language": "nl",
@@ -1134,7 +1117,7 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/dcat#version",
+        "assignedURI": "https://schema.org/version",
         "label": [
           {
             "@language": "nl",
@@ -1143,7 +1126,7 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/issued",
+        "assignedURI": "https://schema.org/datePublished",
         "label": [
           {
             "@language": "nl",
@@ -1566,7 +1549,7 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/elements/1.1/creator",
+        "assignedURI": "https://schema.org/author",
         "label": [
           {
             "@language": "nl",
@@ -1611,7 +1594,7 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/rightsHolder",
+        "assignedURI": "https://schema.org/copyrightHolder",
         "label": [
           {
             "@language": "nl",
@@ -1620,7 +1603,7 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/language",
+        "assignedURI": "https://schema.org/inLanguage",
         "label": [
           {
             "@language": "nl",
@@ -1714,7 +1697,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "doelType"
+            "@value": "type"
           }
         ]
       },
@@ -1782,19 +1765,19 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/timeRequired",
-        "label": [
-          {
-            "@value": "^vereisteTijd"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/timeRequired",
+        "label": [
+          {
+            "@value": "vereisteTijd"
           }
         ]
       },
@@ -1817,7 +1800,7 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/license",
+        "assignedURI": "https://schema.org/license",
         "label": [
           {
             "@language": "nl",
@@ -1840,15 +1823,6 @@
           {
             "@language": "nl",
             "@value": "dient"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/hasPart",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bestaatUit"
           }
         ]
       },
@@ -1889,7 +1863,7 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/creator",
+        "assignedURI": "https://schema.org/author",
         "label": [
           {
             "@language": "nl",
@@ -1898,7 +1872,7 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/publisher",
+        "assignedURI": "https://schema.org/publisher",
         "label": [
           {
             "@language": "nl",
@@ -1966,6 +1940,22 @@
           {
             "@language": "nl",
             "@value": "competentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/isPartOf",
+        "label": [
+          {
+            "@value": "onderdeelVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/hasPart",
+        "label": [
+          {
+            "@value": "bestaatUit"
           }
         ]
       }
