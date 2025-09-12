@@ -12,12 +12,12 @@
   "namespaces": [
     "https://data.vlaanderen.be/ns/organisatie",
     "http://www.w3.org/ns/org",
+    "http://www.w3.org/2004/02/skos/core",
     "http://data.europa.eu/m8g",
     "http://www.w3.org/ns/regorg",
     "http://purl.org/dc/terms",
     "https://schema.org",
     "http://xmlns.com/foaf/0.1",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2006/vcard/ns",
     "http://www.w3.org/ns/locn",
@@ -35,9 +35,9 @@
   "participants": 0,
   "classes": 11,
   "properties": 8,
-  "externalclasses": 33,
+  "externalclasses": 34,
   "externalproperties": 71,
-  "totalterms": 123,
+  "totalterms": 124,
   "totalorganisations": 0,
   "organisations": [],
   "specifications": [],
@@ -262,6 +262,22 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rechtspersoonlijkheidtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieStatus"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/org#OrganizationalUnit",
         "label": [
           {
@@ -289,6 +305,14 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "StopzettingType"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/m8g/PublicOrganisation",
         "label": [
           {
@@ -307,11 +331,60 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rechtstoestandtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieClassificatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
         "label": [
           {
             "@language": "nl",
             "@value": "GeregistreerdeOrganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rechtsvormtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieActiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rol"
           }
         ]
       },
@@ -339,6 +412,15 @@
           {
             "@language": "nl",
             "@value": "Plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taal"
           }
         ]
       },
@@ -420,79 +502,6 @@
           {
             "@language": "nl",
             "@value": "GeografischeNaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieStatus"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "StopzettingType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Role",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Rol"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Rechtspersoonlijkheidtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Rechtstoestandtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Rechtsvormtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieActiviteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieClassificatie"
           }
         ]
       },
