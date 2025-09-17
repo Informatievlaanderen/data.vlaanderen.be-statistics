@@ -14,8 +14,8 @@
     "http://www.w3.org/ns/org",
     "http://www.w3.org/2004/02/skos/core",
     "http://data.europa.eu/m8g",
-    "http://www.w3.org/ns/regorg",
     "http://purl.org/dc/terms",
+    "http://www.w3.org/ns/regorg",
     "https://schema.org",
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/ns/adms",
@@ -24,6 +24,7 @@
     "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.opengis.net/ont/geosparql",
+    "http://todo.com",
     "http://www.w3.org/2006/time",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -33,11 +34,11 @@
   "editors": 2,
   "contributors": 14,
   "participants": 31,
-  "classes": 11,
-  "properties": 8,
-  "externalclasses": 34,
-  "externalproperties": 71,
-  "totalterms": 124,
+  "classes": 12,
+  "properties": 5,
+  "externalclasses": 35,
+  "externalproperties": 78,
+  "totalterms": 130,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -448,7 +449,8 @@
             "@value": "Time"
           }
         ]
-      }
+      },
+      {}
     ],
     "properties": [
       {
@@ -484,33 +486,6 @@
           {
             "@language": "nl",
             "@value": "redenStopzetting"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#rechtspersoonlijkheid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "rechtspersoonlijkheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#rechtstoestand",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "rechtstoestand"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#rechtsvorm",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "rechtsvorm"
           }
         ]
       },
@@ -614,6 +589,15 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
@@ -694,15 +678,6 @@
           {
             "@language": "nl",
             "@value": "Rol"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
@@ -811,6 +786,15 @@
           {
             "@language": "nl",
             "@value": "GeografischeNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/CreativeWork",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "CreatiefWerk"
           }
         ]
       },
@@ -925,7 +909,7 @@
         ]
       },
       {
-        "assignedURI": "http://xmlns.com/foaf/0.1/name",
+        "assignedURI": "https://schema.org/contactnaam",
         "label": [
           {
             "@language": "nl",
@@ -970,7 +954,7 @@
         ]
       },
       {
-        "assignedURI": "http://xmlns.com/foaf/0.1/page",
+        "assignedURI": "http://xmlns.com/foaf/0.1/homepage",
         "label": [
           {
             "@language": "nl",
@@ -983,7 +967,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "dag van week"
+            "@value": "dagVanDeWeek"
           }
         ]
       },
@@ -992,7 +976,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "geldig tot"
+            "@value": "geldigTot"
           }
         ]
       },
@@ -1001,7 +985,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "geldig van"
+            "@value": "geldigVan"
           }
         ]
       },
@@ -1213,6 +1197,33 @@
         ]
       },
       {
+        "assignedURI": "http://todo.com/rechtspersoonlijkheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtspersoonlijkheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/rechtstoestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtstoestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/rechtsvorm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtsvorm"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/regorg#registration",
         "label": [
           {
@@ -1307,7 +1318,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "uren beschikbaarheid"
+            "@value": "beschikbaarheid"
           }
         ]
       },
@@ -1388,7 +1399,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "http://www.w3.org/ns/org#linkedTo"
+            "@value": "isGeassocieerdMet"
           }
         ]
       },
@@ -1461,6 +1472,42 @@
           {
             "@language": "nl",
             "@value": "isEenheidVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#memberOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isLidVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasMember",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#member",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is lidmaatschap bij"
           }
         ]
       }
