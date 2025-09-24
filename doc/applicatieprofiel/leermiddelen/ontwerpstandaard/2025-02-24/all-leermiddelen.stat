@@ -10,10 +10,11 @@
   "statuslabel": "Kandidaat Standaard",
   "namespaces": [
     "http://purl.org/dc/terms",
+    "http://www.w3.org/2004/02/skos/core",
     "http://data.europa.eu/snb/model/elm",
     "https://schema.org",
     "http://purl.org/dc/dcmitype",
-    "https://ec.europa.eu/esco/lod/static/model.html",
+    "https://qudt.org/schema/qudt",
     "http://qudt.org/schema/qudt",
     "http://purl.org/dc/elements/1.1",
     "http://schema.org",
@@ -22,23 +23,22 @@
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2006/time",
     "http://www.cidoc-crm.org/cidoc-crm",
-    "http://www.w3.org/2004/02/skos/core",
+    "https://ec.europa.eu/esco/lod/static/model.html",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/2000/01/rdf-schema",
-    "https://qudt.org/schema/qudt",
     "http://data.europa.eu/m8g"
   ],
   "authors": 8,
-  "editors": 4,
+  "editors": 5,
   "contributors": 43,
-  "participants": 55,
-  "classes": 12,
+  "participants": 56,
+  "classes": 11,
   "properties": 0,
   "externalclasses": 46,
   "externalproperties": 97,
-  "totalterms": 155,
+  "totalterms": 154,
   "totalorganisations": 32,
   "organisations": [
     {
@@ -135,7 +135,7 @@
     },
     {
       "affiliation": "digitaalvlaanderen",
-      "participants": 4
+      "participants": 5
     },
     {
       "affiliation": "studioglobo",
@@ -222,6 +222,10 @@
       {
         "name": "bendemeester",
         "affiliation": "imec"
+      },
+      {
+        "name": "dylanvanassche",
+        "affiliation": "digitaalvlaanderen"
       }
     ],
     "contributors": [
@@ -588,6 +592,10 @@
         "affiliation": "imec"
       },
       {
+        "name": "dylanvanassche",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
         "name": "katrienalen",
         "affiliation": "departementonderwijsenvorming"
       },
@@ -680,7 +688,6 @@
       {},
       {},
       {},
-      {},
       {}
     ],
     "properties": [],
@@ -695,11 +702,35 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Leeractiviteittype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/snb/model/elm/LearningActivity",
         "label": [
           {
             "@language": "nl",
             "@value": "Leeractiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Doelgroep"
           }
         ]
       },
@@ -731,6 +762,14 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "LeermiddelType"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/snb/model/elm/LearningAchievement",
         "label": [
           {
@@ -758,6 +797,38 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "FormaatType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "DoelType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "LicentieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OpleidingsniveauType"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/LicenseDocument",
         "label": [
           {
@@ -767,11 +838,75 @@
         ]
       },
       {
-        "assignedURI": "https://ec.europa.eu/esco/lod/static/model.html#Skill",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OnderwerpType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "BronType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "CompetentieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "LeeftijdsType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "InteractieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "ResultaatType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "ToegankelijkheidsType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Leeractiviteitspecificatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://qudt.org/schema/qudt/Unit",
         "label": [
           {
             "@language": "nl",
-            "@value": "Competentie"
+            "@value": "Eenheid"
           }
         ]
       },
@@ -826,6 +961,15 @@
           {
             "@language": "nl",
             "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://ec.europa.eu/esco/lod/static/model.html#Skill",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Competentie"
           }
         ]
       },
@@ -929,15 +1073,6 @@
         ]
       },
       {
-        "assignedURI": "https://qudt.org/schema/qudt/Unit",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Eenheid"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
         "label": [
           {
@@ -947,139 +1082,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OnderwerpType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "ToegankelijkheidsType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "LeeftijdsType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Doelgroep"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OpleidingsniveauType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "LeermiddelType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "InteractieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Taal"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "ResultaatType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "CompetentieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "LicentieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Leeractiviteitspecificatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "DoelType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "BronType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "FormaatType"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2006/time#Instant",
         "label": [
           {
             "@language": "nl",
             "@value": "Moment"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Leeractiviteittype"
           }
         ]
       }
@@ -1778,6 +1785,24 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/assesses",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "competentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/assesses",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "competentie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/elements/1.1/source",
         "label": [
           {
@@ -1918,24 +1943,6 @@
           {
             "@language": "nl",
             "@value": "isLidVan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/assesses",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "competentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/assesses",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "competentie"
           }
         ]
       },
@@ -2249,6 +2256,10 @@
           },
           {
             "name": "jitsedecock",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "dylanvanassche",
             "affiliation": "digitaalvlaanderen"
           }
         ]
