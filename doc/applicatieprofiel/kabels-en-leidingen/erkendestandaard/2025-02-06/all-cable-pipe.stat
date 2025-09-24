@@ -1,0 +1,3120 @@
+{
+  "title": "Cables and Pipes",
+  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/kabels-en-leidingen/erkendestandaard/2025-02-06",
+  "issued": "2024-02-06",
+  "navigation": {
+    "prev": "/doc/applicatieprofiel/kabels-en-leidingen/kandidaatstandaard/2023-12-19",
+    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/kabels-en-leidingen/erkendestandaard/2025-02-06"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
+  "namespaces": [
+    "https://vocab.belgif.be/ns/utility-services",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://def.isotc211.org/iso19157/2013/DataQuality_2",
+    "http://xmlns.com/foaf/0.1",
+    "https://vocab.belgif.be/ns/network",
+    "http://purl.org/dc/terms",
+    "https://vocab.belgif.be/ns/generic",
+    "http://www.w3.org/ns/prov",
+    "https://vocab.belgif.be/ns/address",
+    "http://def.isotc211.org/iso19103/2015/MeasureTypes",
+    "http://purl.org/dc/elements/1.1",
+    "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/ns/dcat",
+    "https://schema.org",
+    "http://www.opengis.net/ont/sf",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "https://data.vlaanderen.be/ns/netwerk",
+    "https://data.vlaanderen.be/ns/nutsvoorzieningen"
+  ],
+  "authors": 2,
+  "editors": 2,
+  "contributors": 36,
+  "participants": 40,
+  "classes": 53,
+  "properties": 81,
+  "externalclasses": 56,
+  "externalproperties": 72,
+  "totalterms": 262,
+  "totalorganisations": 26,
+  "organisations": [
+    {
+      "affiliation": "bennyappeltans",
+      "participants": 1
+    },
+    {
+      "affiliation": "havenvanantwerpen-brugge",
+      "participants": 2
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 4
+    },
+    {
+      "affiliation": "pidpa",
+      "participants": 1
+    },
+    {
+      "affiliation": "dewatergroep",
+      "participants": 2
+    },
+    {
+      "affiliation": "fluxysbelgium",
+      "participants": 2
+    },
+    {
+      "affiliation": "infrabel",
+      "participants": 1
+    },
+    {
+      "affiliation": "cirb",
+      "participants": 1
+    },
+    {
+      "affiliation": "bruxellesmobilité",
+      "participants": 1
+    },
+    {
+      "affiliation": "geosolutions",
+      "participants": 1
+    },
+    {
+      "affiliation": "klip",
+      "participants": 3
+    },
+    {
+      "affiliation": "paradigmbrussels",
+      "participants": 1
+    },
+    {
+      "affiliation": "sibelga",
+      "participants": 1
+    },
+    {
+      "affiliation": "fluxys",
+      "participants": 2
+    },
+    {
+      "affiliation": "",
+      "participants": 5
+    },
+    {
+      "affiliation": "devlaamsewaterwegnv",
+      "participants": 1
+    },
+    {
+      "affiliation": "vlaamsemilieumaatschappij",
+      "participants": 1
+    },
+    {
+      "affiliation": "sociétéwallonnedeseaux",
+      "participants": 1
+    },
+    {
+      "affiliation": "fluvius",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadantwerpen-stadsontwikkeling",
+      "participants": 1
+    },
+    {
+      "affiliation": "bvba-vanhulle",
+      "participants": 1
+    },
+    {
+      "affiliation": "klim",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapwegen&verkeer",
+      "participants": 1
+    },
+    {
+      "affiliation": "g.i.m.",
+      "participants": 1
+    },
+    {
+      "affiliation": "proximus",
+      "participants": 2
+    },
+    {
+      "affiliation": "telenet",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "liesbethrombouts",
+        "affiliation": "klip"
+      },
+      {
+        "name": "ivyvandekerchove",
+        "affiliation": "klip"
+      }
+    ],
+    "editors": [
+      {
+        "name": "jefliekens",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "bennyappeltans",
+        "affiliation": "bennyappeltans"
+      },
+      {
+        "name": "patriciabongaerts",
+        "affiliation": "havenvanantwerpen-brugge"
+      },
+      {
+        "name": "nilscallens",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "bartdemaeyer",
+        "affiliation": "pidpa"
+      },
+      {
+        "name": "carldemoor",
+        "affiliation": "dewatergroep"
+      },
+      {
+        "name": "ingriddepaepe-harmsen",
+        "affiliation": "fluxysbelgium"
+      },
+      {
+        "name": "kurtdecock",
+        "affiliation": "infrabel"
+      },
+      {
+        "name": "françoisdumortier",
+        "affiliation": "cirb"
+      },
+      {
+        "name": "scottemond",
+        "affiliation": "bruxellesmobilité"
+      },
+      {
+        "name": "frankengelen",
+        "affiliation": "geosolutions"
+      },
+      {
+        "name": "nielsgabriëls",
+        "affiliation": "klip"
+      },
+      {
+        "name": "claudehannecart",
+        "affiliation": "paradigmbrussels"
+      },
+      {
+        "name": "ericjabé",
+        "affiliation": "sibelga"
+      },
+      {
+        "name": "janjermei",
+        "affiliation": "fluxys"
+      },
+      {
+        "name": "adrienlegat",
+        "affiliation": ""
+      },
+      {
+        "name": "ingelemmens",
+        "affiliation": "devlaamsewaterwegnv"
+      },
+      {
+        "name": "katleenmiserez",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "ilsepauwelyn",
+        "affiliation": ""
+      },
+      {
+        "name": "valentinpierson",
+        "affiliation": "sociétéwallonnedeseaux"
+      },
+      {
+        "name": "wernerpoel",
+        "affiliation": "fluvius"
+      },
+      {
+        "name": "gontransoumoy",
+        "affiliation": "fluxysbelgium"
+      },
+      {
+        "name": "dimitristrobbe",
+        "affiliation": ""
+      },
+      {
+        "name": "simonthirion",
+        "affiliation": "dewatergroep"
+      },
+      {
+        "name": "veerlevandenbulcke",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "gittevangompel",
+        "affiliation": "stadantwerpen-stadsontwikkeling"
+      },
+      {
+        "name": "johanvanhulle",
+        "affiliation": "bvba-vanhulle"
+      },
+      {
+        "name": "dannyvanderhaeghen",
+        "affiliation": "klim"
+      },
+      {
+        "name": "robvangeneugden",
+        "affiliation": ""
+      },
+      {
+        "name": "rafvanlathem",
+        "affiliation": "agentschapwegen&verkeer"
+      },
+      {
+        "name": "bernardvanmoerbeke",
+        "affiliation": "g.i.m."
+      },
+      {
+        "name": "robvansteenbrugge",
+        "affiliation": "proximus"
+      },
+      {
+        "name": "michielvansteenkiste",
+        "affiliation": ""
+      },
+      {
+        "name": "krisvlaeminck",
+        "affiliation": "proximus"
+      },
+      {
+        "name": "chrisvyaene",
+        "affiliation": "fluxys"
+      },
+      {
+        "name": "philippewarmoes",
+        "affiliation": "havenvanantwerpen-brugge"
+      },
+      {
+        "name": "katleenwouters",
+        "affiliation": "telenet"
+      }
+    ],
+    "participants": [
+      {
+        "name": "bennyappeltans",
+        "affiliation": "bennyappeltans"
+      },
+      {
+        "name": "patriciabongaerts",
+        "affiliation": "havenvanantwerpen-brugge"
+      },
+      {
+        "name": "nilscallens",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "bartdemaeyer",
+        "affiliation": "pidpa"
+      },
+      {
+        "name": "carldemoor",
+        "affiliation": "dewatergroep"
+      },
+      {
+        "name": "ingriddepaepe-harmsen",
+        "affiliation": "fluxysbelgium"
+      },
+      {
+        "name": "kurtdecock",
+        "affiliation": "infrabel"
+      },
+      {
+        "name": "françoisdumortier",
+        "affiliation": "cirb"
+      },
+      {
+        "name": "scottemond",
+        "affiliation": "bruxellesmobilité"
+      },
+      {
+        "name": "frankengelen",
+        "affiliation": "geosolutions"
+      },
+      {
+        "name": "nielsgabriëls",
+        "affiliation": "klip"
+      },
+      {
+        "name": "claudehannecart",
+        "affiliation": "paradigmbrussels"
+      },
+      {
+        "name": "ericjabé",
+        "affiliation": "sibelga"
+      },
+      {
+        "name": "janjermei",
+        "affiliation": "fluxys"
+      },
+      {
+        "name": "adrienlegat",
+        "affiliation": ""
+      },
+      {
+        "name": "ingelemmens",
+        "affiliation": "devlaamsewaterwegnv"
+      },
+      {
+        "name": "katleenmiserez",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "ilsepauwelyn",
+        "affiliation": ""
+      },
+      {
+        "name": "valentinpierson",
+        "affiliation": "sociétéwallonnedeseaux"
+      },
+      {
+        "name": "wernerpoel",
+        "affiliation": "fluvius"
+      },
+      {
+        "name": "gontransoumoy",
+        "affiliation": "fluxysbelgium"
+      },
+      {
+        "name": "dimitristrobbe",
+        "affiliation": ""
+      },
+      {
+        "name": "simonthirion",
+        "affiliation": "dewatergroep"
+      },
+      {
+        "name": "veerlevandenbulcke",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "gittevangompel",
+        "affiliation": "stadantwerpen-stadsontwikkeling"
+      },
+      {
+        "name": "johanvanhulle",
+        "affiliation": "bvba-vanhulle"
+      },
+      {
+        "name": "dannyvanderhaeghen",
+        "affiliation": "klim"
+      },
+      {
+        "name": "robvangeneugden",
+        "affiliation": ""
+      },
+      {
+        "name": "rafvanlathem",
+        "affiliation": "agentschapwegen&verkeer"
+      },
+      {
+        "name": "bernardvanmoerbeke",
+        "affiliation": "g.i.m."
+      },
+      {
+        "name": "robvansteenbrugge",
+        "affiliation": "proximus"
+      },
+      {
+        "name": "michielvansteenkiste",
+        "affiliation": ""
+      },
+      {
+        "name": "krisvlaeminck",
+        "affiliation": "proximus"
+      },
+      {
+        "name": "chrisvyaene",
+        "affiliation": "fluxys"
+      },
+      {
+        "name": "philippewarmoes",
+        "affiliation": "havenvanantwerpen-brugge"
+      },
+      {
+        "name": "katleenwouters",
+        "affiliation": "telenet"
+      },
+      {
+        "name": "jefliekens",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "liesbethrombouts",
+        "affiliation": "klip"
+      },
+      {
+        "name": "ivyvandekerchove",
+        "affiliation": "klip"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nustvoorzieningnetwerkelement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieningknoop"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieninglinkset"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Annotation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Annotatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Pipe",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Pijp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Cable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kabel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Duct",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kanaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityLink",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieninglink"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSequence",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieninglinksequentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieningnetwerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieningknoopcontainer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#ElectricityCable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Electriciteitskabel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#TelecommunicationsCable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Telecommunicatiekabel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#OilGasChemicalsPipe",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OlieGasChemicaliënPijp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#SewerPipe",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rioolpijp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#WaterPipe",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Waterleiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#ThermalPipe",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ThermischePijp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Appurtenance",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toebehoren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Tower",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Pole",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Paal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Manhole",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Mangat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Cabinet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kast"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#TopographicalElement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Topografisch Element"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#CableAndPipeContainer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KabelEnLeidingContainer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Connection",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aansluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Plan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beschermd Gebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Dimension",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Maataanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Appearance",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Uiterlijk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "VerticalePositie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Height",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Hoogte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Depth",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Diepte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#ReferenceSurface",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Referentieoppervlak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "LangString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Knoop",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Knoop"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linkset",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Linkset"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen#KabelEnLeidingContainer",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "CableAndPipeContainer"
+          },
+          {
+            "@language": "nl",
+            "@value": "KabelEnLeidingContainer"
+          }
+        ]
+      },
+      {},
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Link",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Link"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linksequentie",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "LinkSequence"
+          },
+          {
+            "@language": "nl",
+            "@value": "Linksequentie"
+          }
+        ]
+      },
+      {},
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Netwerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeneriekeLink"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#technicalSpecification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "technischeSpecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#validFrom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#validTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigTot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#geographicalName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geografischeNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#disclaimer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "disclaimer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#text",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tekst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Pipe.containerType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "containertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Duct.containerType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "containertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.visibility",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zichtbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.risk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "risico"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#cableDiameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kabeldiameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.appearance",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uiterlijk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#color",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kleur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#materialType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "materiaaltype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Pipe.subtheme",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "subthema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Cable.subtheme",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "subthema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#verticalPositionDetail",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verticalePositiedetail"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#inNetwork",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inNetwerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#standardVerticalPositionDetail",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaardVerticalePositiedetail"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschermdGebied"
+          },
+          {
+            "@language": "en",
+            "@value": "protectedArea"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.verticalPosition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verticalePositie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#utilityDeliveryType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nutsvoorzieningleveringstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#warningType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarschuwingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#nominalVoltage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nominale Spanning"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#operatingVoltage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "werkspanning"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#telecommunicationsCableMaterialType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telecommunicatiekabelmateriaaltype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#sewerWaterType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rioolwatertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#function",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "functie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#waterPipe",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "watertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#temperature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "temperatuur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#pipeDiameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "pijpdiameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#pressure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "druk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#ductWidth",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kanaalbreedte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Appurtenance.appurtenanceType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toebehorentype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNode.visibility",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zichtbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNode.risk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "risico"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNode.appearance",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uiterlijk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#inNetwork",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inNetwerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#inNetwork",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inNetwerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#inNetwork",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inNetwerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNode.orientation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oriëntatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.risk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "risico"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.appearance",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uiterlijk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oriëntatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#authorityRole",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bevoegdePartij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#towerHeight",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "torenhoogte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#thermalProductType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "thermischProducttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Appurtenance.subtheme",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "subthema"
+          },
+          {
+            "@language": "en",
+            "@value": "subtheme"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#associatedWith",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geassocieerd met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#rotationAngle",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rotatiehoek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#documentation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "documentatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#documentation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "documentatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#VerticalPosition.verticalPosition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verticalePositie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Survey.method",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "methode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Survey.recordedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#ReferenceSurface.verticalPosition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verticalePositie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#accuracy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nauwkeurigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Connection.appurtenanceType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toebehorentype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#distance",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afstand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#depth",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "diepte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#currentStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huidigeStatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.visibility",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zichtbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#poleHeight",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "paalhoogte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#oilGasChemicalsProductType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "olieGasChemicaliënProducttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#referenceSurface",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentieOppervlak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Duct.pipe",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "pijp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Pipe.cable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kabel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Duct.cable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kabel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Pipe.pipe",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "pijp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#Duct.duct",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kanaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#node",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "knoop"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#network",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "netwerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#on",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#nutsvoorzieningInrichtingReferentie",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "utility facility reference"
+          },
+          {
+            "@language": "nl",
+            "@value": "nutsvoorzieningInrichtingReferentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#activityComplexReference",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nutsvoorzieningInrichtingReferentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#whole",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geheel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#part",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "deel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "element"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inNetwerk"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Containertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zichtbaarheidstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RisicoType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kleur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "PositioneleNauwkeurigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "MateriaalType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Subthema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/Document",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Document"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verticale Positietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieningnetwerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#GenericLink",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Generic Link"
+          },
+          {
+            "@language": "nl",
+            "@value": "GeneriekeLink"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          },
+          {
+            "@language": "en",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Faciliteitstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Activiteitencomplex"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/generic#Function",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Functie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "EconomischeActiviteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieningleveringstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Telecommunicatiekabelmateriaaltype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OlieGasChemicalientype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rioolwatertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Watertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Thermisch Producttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Teken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Entity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Annotatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toebehorentype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TopografischElementtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Documentmediumtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inputoutputtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#Adress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Referentieoppervlaktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Opmetingsmethode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meeteenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Waarschuwingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Lengteëenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Documenttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beschermd Gebiedtype"
+          },
+          {
+            "@language": "en",
+            "@value": "Protected Area Value"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#Network",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Netwerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#LinkSet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Linkset"
+          },
+          {
+            "@language": "en",
+            "@value": "Link Set"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#Node",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Knoop"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#Link",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Link"
+          },
+          {
+            "@language": "en",
+            "@value": "Link"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#LinkSequence",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Linksequentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#Curve",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Curve"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Maat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Lengte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#DirectedLink",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gerichte link"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#Point",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Punt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/generic#DirectPosition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DirectePositie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/generic#Survey",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Opmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Number",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "DQ_Element"
+          },
+          {
+            "@language": "nl",
+            "@value": "Kwaliteitselement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#Adres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Belgisch Adres"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "als WKT"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "als GML"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door (String)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledig Adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#poBox",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postbus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatieaanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#AddressRepresentation.boxNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatienaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#addressArea",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adresgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#municipalityName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 2"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#country",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dcat#accessURL",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "documentlocatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/date",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure.uomIdentifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheidsidentificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 1"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#AddressRepresentation.houseNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          },
+          {
+            "@language": "en",
+            "@value": "name"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#LinkSet.link",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "link"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#Link.centrelineGeometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "middelijngeometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/height",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hoogte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.uom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#Node.geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#LinkSequence.link",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "link"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nutsvoorzieningnetwerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/generic#activity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/generic#input",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "input"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/generic#output",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "output"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#DirectedLink.link",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "link"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#direction",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "richting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#endNode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eindknoop"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#beginNode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "startknoop"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "topografisch elementtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/address#refersTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwijst Naar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "annotatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "documentatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/format",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "documentmediumtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "documentType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "documentidentificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ligging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/generic#DirectPosition.survey",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/generic#Geometry.survey",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length.uom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwijstNaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/height",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hoogte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#atLocation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ligging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ligging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#beginLink",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beginlink"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#endLink",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eindlink"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/network#Node.geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://vocab.belgif.be/ns/generic#ActivityComplex.inNetwork",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inNetwerk"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "bennyappeltans",
+        "names": [
+          {
+            "name": "bennyappeltans",
+            "affiliation": "bennyappeltans"
+          }
+        ]
+      },
+      {
+        "affiliation": "havenvanantwerpen-brugge",
+        "names": [
+          {
+            "name": "patriciabongaerts",
+            "affiliation": "havenvanantwerpen-brugge"
+          },
+          {
+            "name": "philippewarmoes",
+            "affiliation": "havenvanantwerpen-brugge"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "nilscallens",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "veerlevandenbulcke",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "jefliekens",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "geertthijs",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "pidpa",
+        "names": [
+          {
+            "name": "bartdemaeyer",
+            "affiliation": "pidpa"
+          }
+        ]
+      },
+      {
+        "affiliation": "dewatergroep",
+        "names": [
+          {
+            "name": "carldemoor",
+            "affiliation": "dewatergroep"
+          },
+          {
+            "name": "simonthirion",
+            "affiliation": "dewatergroep"
+          }
+        ]
+      },
+      {
+        "affiliation": "fluxysbelgium",
+        "names": [
+          {
+            "name": "ingriddepaepe-harmsen",
+            "affiliation": "fluxysbelgium"
+          },
+          {
+            "name": "gontransoumoy",
+            "affiliation": "fluxysbelgium"
+          }
+        ]
+      },
+      {
+        "affiliation": "infrabel",
+        "names": [
+          {
+            "name": "kurtdecock",
+            "affiliation": "infrabel"
+          }
+        ]
+      },
+      {
+        "affiliation": "cirb",
+        "names": [
+          {
+            "name": "françoisdumortier",
+            "affiliation": "cirb"
+          }
+        ]
+      },
+      {
+        "affiliation": "bruxellesmobilité",
+        "names": [
+          {
+            "name": "scottemond",
+            "affiliation": "bruxellesmobilité"
+          }
+        ]
+      },
+      {
+        "affiliation": "geosolutions",
+        "names": [
+          {
+            "name": "frankengelen",
+            "affiliation": "geosolutions"
+          }
+        ]
+      },
+      {
+        "affiliation": "klip",
+        "names": [
+          {
+            "name": "nielsgabriëls",
+            "affiliation": "klip"
+          },
+          {
+            "name": "liesbethrombouts",
+            "affiliation": "klip"
+          },
+          {
+            "name": "ivyvandekerchove",
+            "affiliation": "klip"
+          }
+        ]
+      },
+      {
+        "affiliation": "paradigmbrussels",
+        "names": [
+          {
+            "name": "claudehannecart",
+            "affiliation": "paradigmbrussels"
+          }
+        ]
+      },
+      {
+        "affiliation": "sibelga",
+        "names": [
+          {
+            "name": "ericjabé",
+            "affiliation": "sibelga"
+          }
+        ]
+      },
+      {
+        "affiliation": "fluxys",
+        "names": [
+          {
+            "name": "janjermei",
+            "affiliation": "fluxys"
+          },
+          {
+            "name": "chrisvyaene",
+            "affiliation": "fluxys"
+          }
+        ]
+      },
+      {
+        "affiliation": "",
+        "names": [
+          {
+            "name": "adrienlegat",
+            "affiliation": ""
+          },
+          {
+            "name": "ilsepauwelyn",
+            "affiliation": ""
+          },
+          {
+            "name": "dimitristrobbe",
+            "affiliation": ""
+          },
+          {
+            "name": "robvangeneugden",
+            "affiliation": ""
+          },
+          {
+            "name": "michielvansteenkiste",
+            "affiliation": ""
+          }
+        ]
+      },
+      {
+        "affiliation": "devlaamsewaterwegnv",
+        "names": [
+          {
+            "name": "ingelemmens",
+            "affiliation": "devlaamsewaterwegnv"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamsemilieumaatschappij",
+        "names": [
+          {
+            "name": "katleenmiserez",
+            "affiliation": "vlaamsemilieumaatschappij"
+          }
+        ]
+      },
+      {
+        "affiliation": "sociétéwallonnedeseaux",
+        "names": [
+          {
+            "name": "valentinpierson",
+            "affiliation": "sociétéwallonnedeseaux"
+          }
+        ]
+      },
+      {
+        "affiliation": "fluvius",
+        "names": [
+          {
+            "name": "wernerpoel",
+            "affiliation": "fluvius"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadantwerpen-stadsontwikkeling",
+        "names": [
+          {
+            "name": "gittevangompel",
+            "affiliation": "stadantwerpen-stadsontwikkeling"
+          }
+        ]
+      },
+      {
+        "affiliation": "bvba-vanhulle",
+        "names": [
+          {
+            "name": "johanvanhulle",
+            "affiliation": "bvba-vanhulle"
+          }
+        ]
+      },
+      {
+        "affiliation": "klim",
+        "names": [
+          {
+            "name": "dannyvanderhaeghen",
+            "affiliation": "klim"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapwegen&verkeer",
+        "names": [
+          {
+            "name": "rafvanlathem",
+            "affiliation": "agentschapwegen&verkeer"
+          }
+        ]
+      },
+      {
+        "affiliation": "g.i.m.",
+        "names": [
+          {
+            "name": "bernardvanmoerbeke",
+            "affiliation": "g.i.m."
+          }
+        ]
+      },
+      {
+        "affiliation": "proximus",
+        "names": [
+          {
+            "name": "robvansteenbrugge",
+            "affiliation": "proximus"
+          },
+          {
+            "name": "krisvlaeminck",
+            "affiliation": "proximus"
+          }
+        ]
+      },
+      {
+        "affiliation": "telenet",
+        "names": [
+          {
+            "name": "katleenwouters",
+            "affiliation": "telenet"
+          }
+        ]
+      }
+    ]
+  }
+}
