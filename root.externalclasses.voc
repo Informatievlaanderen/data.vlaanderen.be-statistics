@@ -2296,6 +2296,15 @@
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "Leeractiviteittype"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
     "assignedURI": "http://data.europa.eu/snb/model/elm/LearningActivity",
     "label": [
       {
@@ -2309,7 +2318,6 @@
     "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
     "label": [
       {
-        "@language": "nl",
         "@value": "Taal"
       }
     ],
@@ -2319,7 +2327,6 @@
     "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
     "label": [
       {
-        "@language": "nl",
         "@value": "Doelgroep"
       }
     ],
@@ -2331,6 +2338,16 @@
       {
         "@language": "nl",
         "@value": "Leeractiviteitspecificatie"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "https://schema.org/LearningResource",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Leermiddel"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
@@ -2349,57 +2366,175 @@
     "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
     "label": [
       {
-        "@value": "NAL_currency"
+        "@value": "LeermiddelType"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "https://www.w3.org/TR/owl-time/#time:Duration",
+    "assignedURI": "http://data.europa.eu/snb/model/elm/LearningAchievement",
     "label": [
       {
         "@language": "nl",
-        "@value": "Tijdsduur"
+        "@value": "Doel"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+    "assignedURI": "https://schema.org/CreativeWorkSeries",
     "label": [
       {
         "@language": "nl",
-        "@value": "Taalstring"
+        "@value": "LeermiddelVerzameling"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "http://data.europa.eu/m8g/Cost",
+    "assignedURI": "http://purl.org/dc/dcmitype/Collection",
     "label": [
       {
         "@language": "nl",
-        "@value": "Kost"
+        "@value": "Verzameling"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
     "label": [
       {
-        "@language": "nl",
-        "@value": "Periode"
+        "@value": "FormaatType"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "DoelType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "LicentieType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "OpleidingsniveauType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/LicenseDocument",
     "label": [
       {
         "@language": "nl",
-        "@value": "Identificator"
+        "@value": "Licentie"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "OnderwerpType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "BronType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "CompetentieType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "LeeftijdsType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "InteractieType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "ResultaatType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "ToegankelijkheidsType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "Leeractiviteitspecificatietype"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "https://qudt.org/schema/qudt/Unit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Eenheid"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://qudt.org/schema/qudt/CurrencyUnit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Valuta"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
@@ -2425,31 +2560,171 @@
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "http://data.europa.eu/snb/model/elm/Address",
+    "assignedURI": "https://schema.org/CreativeWork",
     "label": [
       {
         "@language": "nl",
-        "@value": "Algemeen Adres"
+        "@value": "LeermiddelElement"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "http://www.opengis.net/ont/sf#LineString",
+    "assignedURI": "http://www.w3.org/2006/time#Duration",
     "label": [
       {
         "@language": "nl",
-        "@value": "Lijnstring"
+        "@value": "Tijdsduur"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
     "label": [
       {
         "@language": "nl",
-        "@value": "Leeractiviteittype"
+        "@value": "TemporeleEntiteit"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "https://ec.europa.eu/esco/lod/static/model.html#Skill",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Competentie"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "https://schema.org/Audience",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Doelgroep"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Periode"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "https://schema.org/QuantitativeValue",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "KwantitatieveWaarde"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/prov#Location",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Locatie"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#Address",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Adresvoorstelling"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Identificator"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://schema.org/OpeningHoursSpecification",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Openingsurenspecificatie"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "https://schema.org/MonetaryAmount",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Geldbedrag"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://data.europa.eu/snb/model/elm/Claim",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Leerclaim"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://data.europa.eu/snb/model/elm/Specification",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Leerspecificatie"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "https://schema.org/LearningResource",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Leermiddel"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Periode"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#Instant",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Moment"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
@@ -2465,6 +2740,15 @@
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "Leeractiviteittype"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
     "assignedURI": "http://data.europa.eu/snb/model/elm/LearningActivity",
     "label": [
       {
@@ -2478,7 +2762,6 @@
     "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
     "label": [
       {
-        "@language": "nl",
         "@value": "Taal"
       }
     ],
@@ -2488,7 +2771,6 @@
     "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
     "label": [
       {
-        "@language": "nl",
         "@value": "Doelgroep"
       }
     ],
@@ -2500,6 +2782,16 @@
       {
         "@language": "nl",
         "@value": "Leeractiviteitspecificatie"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "https://schema.org/LearningResource",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Leermiddel"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
@@ -2518,57 +2810,175 @@
     "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
     "label": [
       {
-        "@value": "NAL_currency"
+        "@value": "LeermiddelType"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "https://www.w3.org/TR/owl-time/#time:Duration",
+    "assignedURI": "http://data.europa.eu/snb/model/elm/LearningAchievement",
     "label": [
       {
         "@language": "nl",
-        "@value": "Tijdsduur"
+        "@value": "Doel"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+    "assignedURI": "https://schema.org/CreativeWorkSeries",
     "label": [
       {
         "@language": "nl",
-        "@value": "Taalstring"
+        "@value": "LeermiddelVerzameling"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "http://data.europa.eu/m8g/Cost",
+    "assignedURI": "http://purl.org/dc/dcmitype/Collection",
     "label": [
       {
         "@language": "nl",
-        "@value": "Kost"
+        "@value": "Verzameling"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
     "label": [
       {
-        "@language": "nl",
-        "@value": "Periode"
+        "@value": "FormaatType"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "DoelType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "LicentieType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "OpleidingsniveauType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://purl.org/dc/terms/LicenseDocument",
     "label": [
       {
         "@language": "nl",
-        "@value": "Identificator"
+        "@value": "Licentie"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "OnderwerpType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "BronType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "CompetentieType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "LeeftijdsType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "InteractieType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "ResultaatType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "ToegankelijkheidsType"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "label": [
+      {
+        "@value": "Leeractiviteitspecificatietype"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "https://qudt.org/schema/qudt/Unit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Eenheid"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://qudt.org/schema/qudt/CurrencyUnit",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Valuta"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
@@ -2594,31 +3004,171 @@
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "http://data.europa.eu/snb/model/elm/Address",
+    "assignedURI": "https://schema.org/CreativeWork",
     "label": [
       {
         "@language": "nl",
-        "@value": "Algemeen Adres"
+        "@value": "LeermiddelElement"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "http://www.opengis.net/ont/sf#LineString",
+    "assignedURI": "http://www.w3.org/2006/time#Duration",
     "label": [
       {
         "@language": "nl",
-        "@value": "Lijnstring"
+        "@value": "Tijdsduur"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
   },
   {
-    "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+    "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
     "label": [
       {
         "@language": "nl",
-        "@value": "Leeractiviteittype"
+        "@value": "TemporeleEntiteit"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "https://ec.europa.eu/esco/lod/static/model.html#Skill",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Competentie"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "https://schema.org/Audience",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Doelgroep"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Periode"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "https://schema.org/QuantitativeValue",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "KwantitatieveWaarde"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/prov#Location",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Locatie"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#Address",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Adresvoorstelling"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Identificator"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://schema.org/OpeningHoursSpecification",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Openingsurenspecificatie"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "https://schema.org/MonetaryAmount",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Geldbedrag"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://data.europa.eu/snb/model/elm/Claim",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Leerclaim"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://data.europa.eu/snb/model/elm/Specification",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Leerspecificatie"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "https://schema.org/LearningResource",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Leermiddel"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Periode"
+      }
+    ],
+    "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
+  },
+  {
+    "assignedURI": "http://www.w3.org/2006/time#Instant",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "Moment"
       }
     ],
     "spec": "https://data.vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
