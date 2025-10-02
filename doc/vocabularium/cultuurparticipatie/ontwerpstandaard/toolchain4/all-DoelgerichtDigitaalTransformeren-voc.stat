@@ -29,12 +29,13 @@
     "http://data.europa.eu/m8g",
     "https://www.w3.org/ns/prov",
     "http://cidoc-crm.org/cidoc-crm",
+    "http://schema.org",
+    "https://www.w3.org/ns/adms",
+    "http://www.w3.org/ns/adms",
     "https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html",
     "http://todo.com",
     "https://data.vlaanderen.be/ns/generiek",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "http://schema.org",
-    "http://www.w3.org/ns/adms",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/2000/01/rdf-schema"
   ],
@@ -42,11 +43,11 @@
   "editors": 4,
   "contributors": 42,
   "participants": 46,
-  "classes": 35,
-  "properties": 85,
-  "externalclasses": 66,
-  "externalproperties": 37,
-  "totalterms": 223,
+  "classes": 36,
+  "properties": 109,
+  "externalclasses": 62,
+  "externalproperties": 69,
+  "totalterms": 276,
   "totalorganisations": 29,
   "organisations": [
     {
@@ -753,10 +754,6 @@
           {
             "@language": "nl",
             "@value": "Vereniging"
-          },
-          {
-            "@language": "nl",
-            "@value": "Vereniging"
           }
         ]
       },
@@ -854,23 +851,34 @@
           }
         ]
       },
+      {},
+      {}
+    ],
+    "properties": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/FeitelijkeVerenigingen#Vereniging",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisator.naam",
         "label": [
           {
             "@language": "nl",
-            "@value": "Vereniging"
+            "@value": "naam"
           }
         ]
-      }
-    ],
-    "properties": [
+      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Promotie.tijdstip",
         "label": [
           {
             "@language": "nl",
             "@value": "tijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Kanaal.naam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
           }
         ]
       },
@@ -907,6 +915,15 @@
           {
             "@language": "nl",
             "@value": "link"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisatie.realisatorVermeldAls",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "realisator vermeld als"
           }
         ]
       },
@@ -974,6 +991,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#nationaliteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nationaliteit"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#thema",
         "label": [
           {
@@ -1010,15 +1036,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Kanaal.naam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naam"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Activiteit.berichtgeving",
         "label": [
           {
@@ -1046,6 +1063,24 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Ticket.geldigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Feedback.content",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "content"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#SociodemografischKenmerk.locatie",
         "label": [
           {
@@ -1064,11 +1099,38 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Activiteit.functie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "functie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Transactie.object",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "object"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisator.thema",
         "label": [
           {
             "@language": "nl",
             "@value": "thema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Activiteit.infrastructuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "infrastructuur"
           }
         ]
       },
@@ -1091,6 +1153,69 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Persoon.woonplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "woonplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#SociodemografischKenmerk.inkomensniveau",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inkomensniveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Feedback.bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bron"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Activiteit.discipline",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "discipline"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Activiteit.status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisator.infrastructuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "infrastructuur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisator.organisatievorm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "organisatievorm"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#geslacht",
         "label": [
           {
@@ -1109,11 +1234,74 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Participant.consent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "consent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#registratie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Promotie.documentatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "documentatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Prijsinfo.beschikbaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Prijsinfo.prijscategorie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "prijscategorie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Transactie.betaaltermijn",
         "label": [
           {
             "@language": "nl",
             "@value": "betaaltermijn"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Boekinginfo.beschikbaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Activiteit.locatieType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie type"
           }
         ]
       },
@@ -1154,6 +1342,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Activiteit.recurrerend",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "recurrerend"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisatie.rol",
         "label": [
           {
@@ -1181,7 +1378,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Activiteit.ruimtetijd",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#ruimtetijd",
         "label": [
           {
             "@language": "nl",
@@ -1235,7 +1432,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#neemtDeelAan",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Participant.neemtDeelAan",
         "label": [
           {
             "@language": "nl",
@@ -1244,7 +1441,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Deelname.participant",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Deelname.Participant",
         "label": [
           {
             "@value": "Deelname.Participant"
@@ -1252,7 +1449,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Deelname.activiteit",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Deelname.Activiteit",
         "label": [
           {
             "@value": "Deelname.Activiteit"
@@ -1269,7 +1466,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#heeftProfiel",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Participant.heeftProfiel",
         "label": [
           {
             "@language": "nl",
@@ -1287,7 +1484,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#deelVan",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#SociodemografischKenmerk.deelVan",
         "label": [
           {
             "@language": "nl",
@@ -1330,7 +1527,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#deelVan",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Cultuurdeelname.deelVan",
         "label": [
           {
             "@language": "nl",
@@ -1348,7 +1545,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#inputVoor",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Deelname.inputVoor",
         "label": [
           {
             "@language": "nl",
@@ -1366,7 +1563,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#superrealisator",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Uitvoerder.superrealisator",
         "label": [
           {
             "@language": "nl",
@@ -1384,7 +1581,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#subactiviteit",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Activiteit.subactiviteit",
         "label": [
           {
             "@language": "nl",
@@ -1393,7 +1590,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#prijs",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Activiteit.prijs",
         "label": [
           {
             "@language": "nl",
@@ -1402,7 +1599,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#boeking",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Acitviteit.boeking",
         "label": [
           {
             "@language": "nl",
@@ -1420,7 +1617,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#isGepromoot",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Activiteit.isGepromoot",
         "label": [
           {
             "@language": "nl",
@@ -1438,7 +1635,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#feedbackopDeelname",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Deelname.feedbackOpDeelname",
         "label": [
           {
             "@language": "nl",
@@ -1447,7 +1644,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#doelProfiel",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Promotie.doelProfiel",
         "label": [
           {
             "@language": "nl",
@@ -1456,7 +1653,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#doelParticipant",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Promotie.doelParticipant",
         "label": [
           {
             "@language": "nl",
@@ -1474,7 +1671,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#deelVan",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#AlgemeenParticipantkenmerk.isDeelVan",
         "label": [
           {
             "@language": "nl",
@@ -1492,7 +1689,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#bepaaltBeperking",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#ParticipantProfiel.bepaaltBeperking",
         "label": [
           {
             "@language": "nl",
@@ -1510,7 +1707,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#transactie",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Ticket.transactie",
         "label": [
           {
             "@language": "nl",
@@ -1546,7 +1743,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#gerichteDoelgroep",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#ParticipantProfiel.gerichteDoelgroep",
         "label": [
           {
             "@language": "nl",
@@ -1555,16 +1752,16 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#realiseert",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisator.realiseert",
         "label": [
           {
             "@language": "nl",
-            "@value": "realiseert"
+            "@value": "voert uit"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisatie.realisator",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisatie.Realisator",
         "label": [
           {
             "@value": "Realisatie.Realisator"
@@ -1572,7 +1769,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisatie.activiteit",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisatie.Activiteit",
         "label": [
           {
             "@value": "Realisatie.Activiteit"
@@ -1589,7 +1786,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#heeftPersoonlijkProfiel",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Participant.heeftPersoonlijkeProfiel",
         "label": [
           {
             "@language": "nl",
@@ -1616,11 +1813,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#voertUit",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisator.voertUit",
         "label": [
           {
             "@language": "nl",
             "@value": "voert uit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Agent.werktSamenMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "werkt samen met"
           }
         ]
       }
@@ -1674,10 +1880,6 @@
       {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          },
           {
             "@language": "nl",
             "@value": "Agent"
@@ -1816,20 +2018,12 @@
           {
             "@language": "nl",
             "@value": "Persoon"
-          },
-          {
-            "@language": "nl",
-            "@value": "Persoon"
           }
         ]
       },
       {
         "assignedURI": "http://www.w3.org/ns/org#Organization",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          },
           {
             "@language": "nl",
             "@value": "Organisatie"
@@ -1920,10 +2114,6 @@
       {
         "assignedURI": "http://www.w3.org/ns/org#FormalOrganization",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Formele Organisatie"
-          },
           {
             "@language": "nl",
             "@value": "Formele Organisatie"
@@ -2203,42 +2393,6 @@
             "@value": "Agent"
           }
         ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/person#Person",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoon"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Organization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#FormalOrganization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Formele Organisatie"
-          }
-        ]
       }
     ],
     "externalproperties": [
@@ -2279,11 +2433,29 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/inLanguage",
         "label": [
           {
             "@language": "nl",
             "@value": "taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
           }
         ]
       },
@@ -2297,11 +2469,38 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://xmlns.com/foaf/0.1/homepage",
         "label": [
           {
             "@language": "nl",
             "@value": "homepage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve naam"
           }
         ]
       },
@@ -2324,11 +2523,29 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
         "label": [
           {
             "@language": "nl",
             "@value": "gebruikte voornaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#legalName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wettelijke naam"
           }
         ]
       },
@@ -2396,15 +2613,6 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/description",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschrijving"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://cidoc-crm.org/cidoc-crm/P4_has_time-span",
         "label": [
           {
@@ -2414,11 +2622,29 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/title",
+        "assignedURI": "http://www.w3.org/ns/regorg#orgActivity",
         "label": [
           {
             "@language": "nl",
-            "@value": "naam"
+            "@value": "activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#classification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "classificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
           }
         ]
       },
@@ -2450,11 +2676,11 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/type",
+        "assignedURI": "https://schema.org/price",
         "label": [
           {
             "@language": "nl",
-            "@value": "type"
+            "@value": "prijs"
           }
         ]
       },
@@ -2495,6 +2721,159 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtspersoonlijkheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtstoestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtsvorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#registration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/eligibleQuantity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbare hoeveelheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikte techniek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/eligibleQuantity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaar transactievolume"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/price",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "prijs"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
@@ -2509,6 +2888,15 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
           }
         ]
       },
@@ -2540,6 +2928,42 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/org#hasSubOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft suborganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#linkedTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is geassocieerd met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "suborganisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/gebruiktObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikt object"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://cidoc-crm.org/cidoc-crm/P14_carried_out_by",
         "label": [
           {
@@ -2554,6 +2978,22 @@
           {
             "@language": "nl",
             "@value": "voert uit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Samenwerking.agent.source",
+        "label": [
+          {
+            "@value": "Agent (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Samenwerking.agent.target",
+        "label": [
+          {
+            "@value": "Agent (target)"
           }
         ]
       },

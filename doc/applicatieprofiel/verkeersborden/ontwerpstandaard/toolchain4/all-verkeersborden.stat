@@ -1,0 +1,1519 @@
+{
+  "title": "Verkeersborden",
+  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/verkeersborden/ontwerpstandaard/toolchain4",
+  "issued": "2025-03-11",
+  "navigation": {
+    "prev": "https://data.vlaanderen.be/doc/applicatieprofiel/verkeersborden/ontwerpdocument/niet-bepaald",
+    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/verkeersborden/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
+  "namespaces": [
+    "http://www.w3.org/2004/02/skos/core",
+    "http://data.vlaanderen.be/ns/besluit",
+    "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur",
+    "https://data.vlaanderen.be/ns/mobiliteit",
+    "https://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement",
+    "http://data.europa.eu/eli/ontology",
+    "http://schema.org",
+    "http://purl.org/dc/terms",
+    "https://data.vlaanderen.be/ns/openbaardomein",
+    "http://www.w3.org/2003/06/sw-vocab-status/ns",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://xmlns.com/foaf/0.1",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/ns/org",
+    "https://data.vlaanderen.be/ns/weg"
+  ],
+  "authors": 10,
+  "editors": 0,
+  "contributors": 2,
+  "participants": 12,
+  "classes": 54,
+  "properties": 64,
+  "externalclasses": 15,
+  "externalproperties": 8,
+  "totalterms": 141,
+  "totalorganisations": 8,
+  "organisations": [
+    {
+      "affiliation": "informatievlaanderen",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapbinnenlandsbestuur",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapwegenenverkeer",
+      "participants": 2
+    },
+    {
+      "affiliation": "redpencil.io",
+      "participants": 1
+    },
+    {
+      "affiliation": "pwc",
+      "participants": 3
+    },
+    {
+      "affiliation": "departementmobiliteitenopenbarewerken",
+      "participants": 1
+    },
+    {
+      "affiliation": "imec-mict-ugent",
+      "participants": 1
+    },
+    {
+      "affiliation": "imec-ugent",
+      "participants": 2
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "bertboterbergh",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "johandelaure",
+        "affiliation": "redpencil.io"
+      },
+      {
+        "name": "christopheparrein",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "stephentuerlinckx",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "mathiasvancompernolle",
+        "affiliation": "imec-mict-ugent"
+      },
+      {
+        "name": "brechtvandevyvere",
+        "affiliation": "imec-ugent"
+      },
+      {
+        "name": "frederikvaneeghem",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "geertvangaever",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "imec-ugent"
+      },
+      {
+        "name": "brechtwyns",
+        "affiliation": "pwc"
+      }
+    ],
+    "editors": [],
+    "contributors": [
+      {
+        "name": "katriendesmet",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "veroniquevolders",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      }
+    ],
+    "participants": [
+      {
+        "name": "katriendesmet",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "veroniquevolders",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "bertboterbergh",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "johandelaure",
+        "affiliation": "redpencil.io"
+      },
+      {
+        "name": "christopheparrein",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "stephentuerlinckx",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "mathiasvancompernolle",
+        "affiliation": "imec-mict-ugent"
+      },
+      {
+        "name": "brechtvandevyvere",
+        "affiliation": "imec-ugent"
+      },
+      {
+        "name": "frederikvaneeghem",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "geertvangaever",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "imec-ugent"
+      },
+      {
+        "name": "brechtwyns",
+        "affiliation": "pwc"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/besluit#Signalisatievergunning",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Signaling permit"
+          },
+          {
+            "@language": "nl",
+            "@value": "Signalisatievergunning"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Afsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Afsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#DraagconstructieRetroreflecterendeVerkeersborden",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Draagconstructie retroreflecterende verkeersborden"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Vakwerksteun",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vakwerksteun"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Schampblok",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Schampblok"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#NewJersey",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "New Jersey"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Borstwering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Borstwering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietstelpaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fietstelpaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Fietsstalling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fietsstalling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verankering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verankering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Draadafsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Draadafsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeerslicht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeerslicht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement#Vangrail",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vangrail"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#OSLO-OpenbaarDomein::Galgsteun",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Galgsteun"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Elektriciteitspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Elektriciteitspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Flitspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Flitspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Traffic sign"
+          },
+          {
+            "@language": "nl",
+            "@value": "Verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Bevestiging",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bevestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuurelement#Verlichtingspaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verlichtingspaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersbordconcept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Geluidscherm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geluidscherm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#PaalBovenleidingTramTreinTrolley",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Paal bovenleiding tram trein trolley"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#OpenbareVerlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openbare verlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#StootbandNewJersey",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Stootband new jersey"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#SignalisatieEnLeidingenportiek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "SignalisatieEnLeidingenportiek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#BestendigeAfsluiting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bestendige afsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Knipperlicht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Knipperlicht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#DraagconstructieVerkeersborden",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Draagconstructie verkeersborden"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbord-Verkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersbord-verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitsmaatregel",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Mobility Measure"
+          },
+          {
+            "@language": "nl",
+            "@value": "Mobiliteitsmaatregel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Muur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Muur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#RetroreflecterendVerkeersbord",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Retroreflecterend verkeersbord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Verkeersbord",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersbord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Pijler",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Pijler"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Opstelling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Opstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Straatspiegel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Straatspiegel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Nadar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nadar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordcategorie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersbordcategorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#SteunRetroreflecterendVerkeersbord",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Steun retroreflecterend verkeersbord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Slagboom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Slagboom"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#MuurBinnenDeWegbaan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Muur binnen de wegbaan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#VerkeersbordconceptStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersbordconceptstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#VerkeerstekenWettelijkeStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "VerkeerstekenWettelijkeStatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "Boolean"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/besluit#Vergunning",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Permit"
+          },
+          {
+            "@language": "nl",
+            "@value": "Vergunning"
+          }
+        ]
+      },
+      {},
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infrastructuurelement"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement",
+        "label": [
+          {
+            "@value": "OSLO-OpenbaarDomein::Infrastructuurelement"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegsegment",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegsegment"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#plaatsbepaling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaatsbepaling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#variabelOpschrift",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "variabel opschrift"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#isPermanent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is permanent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#aanzicht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanzicht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#isBeginZone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is begin zone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#isEindeZone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is einde zone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#fabricagevoorschrift",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fabricagevoorschrift"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken.adresvoorstelling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#grafischeWeergave",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afbeelding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#inwerkingstijd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inwerkingstijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken.wettelijkeStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wettelijke status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#conformStandaard",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "conform standaard"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#ondergrondtype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ondergrondtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verankering.afmeting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verankering.operationeleStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "operationele status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#VerkeersbordconceptStatus.veroorzaaktDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "veroorzaakt door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#VerkeersbordconceptStatus.status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#grafischeWeergave",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afbeelding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#beheerder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beheerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#leverancier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "leverancier"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbord.operationeleStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "operationele status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbord.afmeting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#opstelhoogte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opstelhoogte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#breedte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "breedte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#hoogte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hoogte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#breedte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "breedte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#lengte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lengte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#wanddikte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wanddikte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#diameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "diameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#lengteBovengronds",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lengte bovengronds"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#vorm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#lengteOndergronds",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lengte ondergronds"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#fabricagevoorschrift",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fabricagevoorschrift"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#DraagconstructieVerkeersborden.operationeleStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "operationele status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#grafischeWeergave",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afbeelding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#VerkeerstekenWettelijkeStatus.veroorzaaktDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "veroorzaakt door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#VerkeerstekenWettelijkeStatus.status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#beheerder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beheerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#kleur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kleur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#leverancier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "leverancier"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#materiaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "materiaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#bevestigingAanMuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bevestiging aan muur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#folietype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "folietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#kleurAchterkant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kleur achterkant"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#materiaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "materiaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#positieTenOpzichtVanRijbaan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "positie ten opzichte van rijbaan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Opstelling.operationeleStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "operationele status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#grafischeWeergave",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afbeelding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#hoortBij",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hoort bij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftVerkeersbordconcept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft verkeersbordconcept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept.verwijstNaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwijst naar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept.classificatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "classificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#omvatVerkeersbord",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "omvat verkeersbord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#realiseert",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "realiseert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#isVerankerdMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is verankerd met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#wordtAangeduidDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wordt aangeduid door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#DraagconstructieRetroreflecterendeVerkeersborden.isOpgehangenAan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is opgehangen aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#RetroreflecterendVerkeersbord.isOpgehangenAan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is opgehangen aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Bevestiging.RetroreflecterendVerkeersbord",
+        "label": [
+          {
+            "@value": "Bevestiging.RetroreflecterendVerkeersbord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Bevestiging.DraagconstructieRetroreflecterendeVerkeersborden",
+        "label": [
+          {
+            "@value": "Bevestiging.DraagconstructieRetroreflecterendeVerkeersborden"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftOnderbord",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft onderbord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#omvatDraagconstructieVerkeersborden",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "omvat draagconstructie verkeersborden"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftGerelateerdVerkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft gerelateerd verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/besluit#vergunt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vergunt"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Concept"
+          },
+          {
+            "@language": "nl",
+            "@value": "Concept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Artikel wegcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Concept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#LegalResource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rechtsgrond"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/Document",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Document"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/Schedule",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdsschema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "TaalString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Code"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "GetypeerdeString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@value": "KwantitatieveWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Materiaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://schema.org/comment",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opmerking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verkeersbordcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#scopeNote",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "betekenis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "montagetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "informatievlaanderen",
+        "names": [
+          {
+            "name": "katriendesmet",
+            "affiliation": "informatievlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapbinnenlandsbestuur",
+        "names": [
+          {
+            "name": "veroniquevolders",
+            "affiliation": "agentschapbinnenlandsbestuur"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapwegenenverkeer",
+        "names": [
+          {
+            "name": "bertboterbergh",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "geertvangaever",
+            "affiliation": "agentschapwegenenverkeer"
+          }
+        ]
+      },
+      {
+        "affiliation": "redpencil.io",
+        "names": [
+          {
+            "name": "johandelaure",
+            "affiliation": "redpencil.io"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwc",
+        "names": [
+          {
+            "name": "christopheparrein",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "frederikvaneeghem",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "brechtwyns",
+            "affiliation": "pwc"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementmobiliteitenopenbarewerken",
+        "names": [
+          {
+            "name": "stephentuerlinckx",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          }
+        ]
+      },
+      {
+        "affiliation": "imec-mict-ugent",
+        "names": [
+          {
+            "name": "mathiasvancompernolle",
+            "affiliation": "imec-mict-ugent"
+          }
+        ]
+      },
+      {
+        "affiliation": "imec-ugent",
+        "names": [
+          {
+            "name": "brechtvandevyvere",
+            "affiliation": "imec-ugent"
+          },
+          {
+            "name": "evelinevlassenroot",
+            "affiliation": "imec-ugent"
+          }
+        ]
+      }
+    ]
+  }
+}

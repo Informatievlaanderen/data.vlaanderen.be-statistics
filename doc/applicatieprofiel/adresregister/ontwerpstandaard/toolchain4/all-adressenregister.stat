@@ -17,7 +17,7 @@
     "https://data.vlaanderen.be/ns/generiek",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/locn",
-    "http://todo.com",
+    "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
     "http://data.europa.eu/m8g",
@@ -27,11 +27,11 @@
   "editors": 1,
   "contributors": 15,
   "participants": 21,
-  "classes": 17,
-  "properties": 30,
+  "classes": 24,
+  "properties": 32,
   "externalclasses": 14,
-  "externalproperties": 20,
-  "totalterms": 81,
+  "externalproperties": 18,
+  "totalterms": 88,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -403,6 +403,13 @@
           }
         ]
       },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/generiek#Geometrie",
         "label": [
@@ -626,6 +633,24 @@
           {
             "@language": "nl",
             "@value": "specificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#adresIsGelegenIn",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gelegen in"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#isAfgeleidVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is afgeleid van"
           }
         ]
       },
@@ -946,34 +971,20 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/adresIsGelegenIn",
+        "assignedURI": "http://www.w3.org/ns/prov#wasAttributedTo",
         "label": [
           {
-            "@value": "adresIsGelegenIn"
+            "@language": "nl",
+            "@value": "is toegekend door"
           }
         ]
       },
       {
-        "assignedURI": "http://todo.com/isAfgeleidVan",
+        "assignedURI": "http://www.w3.org/ns/prov#wasAttributedTo",
         "label": [
           {
-            "@value": "isAfgeleidVan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/isToegekendDoor",
-        "label": [
-          {
-            "@value": "isToegekendDoor"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/isToegekendDoor",
-        "label": [
-          {
-            "@value": "isToegekendDoor"
+            "@language": "nl",
+            "@value": "toegeschreven aan"
           }
         ]
       }

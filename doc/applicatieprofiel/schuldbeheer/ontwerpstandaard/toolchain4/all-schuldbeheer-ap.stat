@@ -1,14 +1,14 @@
 {
   "title": "OSLO Schuldbeheer - Applicatieprofiel",
   "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/ontwerpstandaard/toolchain4",
-  "issued": "2024-09-05",
+  "issued": "2025-05-15",
   "navigation": {
     "prev": "/doc/applicatieprofiel/schuldbeheer/kandidaatstandaard/2024-09-05",
     "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/schuldbeheer/ontwerpstandaard/toolchain4"
   },
   "documenttype": "ap",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-  "statuslabel": "Kandidaat Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/persoon",
     "http://www.w3.org/ns/person",
@@ -21,7 +21,6 @@
     "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://purl.org/dc/terms",
-    "https://data.vlaanderen.be/ns/dossier/",
     "https://schema.org",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2001/XMLSchema"
@@ -30,11 +29,11 @@
   "editors": 11,
   "contributors": 18,
   "participants": 32,
-  "classes": 34,
-  "properties": 60,
-  "externalclasses": 25,
-  "externalproperties": 13,
-  "totalterms": 132,
+  "classes": 45,
+  "properties": 80,
+  "externalclasses": 23,
+  "externalproperties": 24,
+  "totalterms": 172,
   "totalorganisations": 15,
   "organisations": [
     {
@@ -384,6 +383,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoonsrelatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Aanmaning",
         "label": [
           {
@@ -664,11 +672,21 @@
             "@value": "Decimal"
           }
         ]
-      }
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
     ],
     "properties": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#startdatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Solvabiliteitsindicator.startdatum",
         "label": [
           {
             "@language": "nl",
@@ -677,7 +695,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#einddatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Solvabiliteitsindicator.einddatum",
         "label": [
           {
             "@language": "nl",
@@ -713,7 +731,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#wanbetaling",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Krediet.wanbetaling",
         "label": [
           {
             "@language": "nl",
@@ -722,20 +740,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#startdatum",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "einddatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#einddatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Solvabiliteitsindicatoprofiel.startdatum",
         "label": [
           {
             "@language": "nl",
             "@value": "startdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Solvabiliteitsprofiel.einddatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einddatum"
           }
         ]
       },
@@ -749,7 +767,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#wanbetaling",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Schuldvordering.wanbetaling",
         "label": [
           {
             "@language": "nl",
@@ -767,7 +785,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/dossier/#Activiteit.einddatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#Activiteit.einddatum",
         "label": [
           {
             "@language": "nl",
@@ -794,7 +812,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#uitersteBetaaldatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Schuldvordering.uitersteBetaaldatum",
         "label": [
           {
             "@language": "nl",
@@ -812,7 +830,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#uitersteBetaaldatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#Afbetalingsplanonderdeel.uitersteBetaaldatum",
         "label": [
           {
             "@language": "nl",
@@ -830,11 +848,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#type",
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#toegekendDoor",
         "label": [
           {
             "@language": "nl",
-            "@value": "type"
+            "@value": "toegekend door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#rechtsgrond",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtsgrond"
           }
         ]
       },
@@ -862,6 +889,15 @@
           {
             "@language": "nl",
             "@value": "oninbaar bedrag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#periodiciteitInkomst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periodiciteit inkomst"
           }
         ]
       },
@@ -911,11 +947,135 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#verminderingsbedrag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verminderingsbedrag"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#afTeBetalenBedrag",
         "label": [
           {
             "@language": "nl",
             "@value": "af te betalen bedrag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#hoofdsom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hoofdsom"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#identificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#kost",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kost"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#saldobedrag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "saldobedrag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#startBedrag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "startbedrag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft relatie met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
+        "label": [
+          {
+            "@value": "Persoon (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
+        "label": [
+          {
+            "@value": "Persoon (target)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinshoofd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gezinshoofd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isHoofdVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is hoofd van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinslid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gezinslid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isLidVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is lid van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#genereert",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "genereert"
           }
         ]
       },
@@ -1028,6 +1188,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#sociaalStatuut",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "sociaal statuut"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#genereertWanbetalingsvergoeding",
         "label": [
           {
@@ -1042,6 +1211,15 @@
           {
             "@language": "nl",
             "@value": "is gerelateerd met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#juridischStatuut",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "juridisch statuut"
           }
         ]
       },
@@ -1100,6 +1278,24 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#inkomst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inkomst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#krediet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "krediet"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#aanleiding",
         "label": [
           {
@@ -1123,6 +1319,24 @@
           {
             "@language": "nl",
             "@value": "vermindering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#isDeelVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#afbetalingsplanonderdeel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afbetalingsplanonderdeel"
           }
         ]
       },
@@ -1158,7 +1372,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "stelt voor"
+            "@value": "voorgesteld afbetalingsplan"
           }
         ]
       },
@@ -1185,25 +1399,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "gevolgd afbetalingsplan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#isDeelvan",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "is deel van"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/schuldbeheer#afbetalingsplanonderdeel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "afbetalingsplanonderdeel"
+            "@value": "gevolgd afbetalingsplanonderdeel"
           }
         ]
       }
@@ -1212,10 +1408,6 @@
       {
         "assignedURI": "http://www.w3.org/ns/person#Person",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoon"
-          },
           {
             "@language": "nl",
             "@value": "Persoon"
@@ -1228,20 +1420,12 @@
           {
             "@language": "nl",
             "@value": "Organisatie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
           }
         ]
       },
       {
         "assignedURI": "http://www.w3.org/ns/prov#Agent",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          },
           {
             "@language": "nl",
             "@value": "Agent"
@@ -1384,38 +1568,20 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/person#Person",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoon"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Organization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/prov#Activity",
         "label": [
           {
             "@language": "nl",
             "@value": "Activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#LegalResource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rechtsgrond"
           }
         ]
       },
@@ -1503,6 +1669,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
@@ -1539,6 +1723,33 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#registration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/prov#hadRole",
         "label": [
           {
@@ -1562,6 +1773,60 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is suborganisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is rolspecialisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#actedOnBehalfOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "handelt in opdracht van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft deelnemer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasStartedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "werd gestart door"
           }
         ]
       }

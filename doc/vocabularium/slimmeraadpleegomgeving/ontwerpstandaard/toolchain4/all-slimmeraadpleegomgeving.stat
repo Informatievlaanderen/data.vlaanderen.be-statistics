@@ -1,7 +1,7 @@
 {
   "title": "Vocabularium Slimme Raadpleegomgeving",
   "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/slimmeraadpleegomgeving/ontwerpstandaard/toolchain4",
-  "issued": "2024-09-09",
+  "issued": "2025-09-11",
   "navigation": {
     "prev": "/doc/vocabularium/slimmeraadpleegomgeving/erkendestandaard/2024-12-05",
     "self": "https://data.dev-vlaanderen.be/doc/vocabularium/slimmeraadpleegomgeving/ontwerpstandaard/toolchain4"
@@ -32,7 +32,6 @@
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://purl.org/dc/elements/1.1",
     "http://www.w3.org/ns/adms",
-    "http://todo.com",
     "http://www.w3.org/2001/XMLSchema",
     "http://purl.org/vocab/cpsv",
     "http://xmlns.com/foaf/0.1",
@@ -47,11 +46,11 @@
   "editors": 10,
   "contributors": 16,
   "participants": 28,
-  "classes": 37,
-  "properties": 16,
-  "externalclasses": 45,
-  "externalproperties": 60,
-  "totalterms": 158,
+  "classes": 40,
+  "properties": 27,
+  "externalclasses": 43,
+  "externalproperties": 89,
+  "totalterms": 199,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -360,10 +359,6 @@
           {
             "@language": "nl",
             "@value": "Stuk"
-          },
-          {
-            "@language": "nl",
-            "@value": "Stuk"
           }
         ]
       },
@@ -511,10 +506,6 @@
           {
             "@language": "nl",
             "@value": "Normatieve Bepaling"
-          },
-          {
-            "@language": "nl",
-            "@value": "Normatieve Bepaling"
           }
         ]
       },
@@ -523,7 +514,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Activiteit"
+            "@value": "Activiteit (Omgevingsvergunning)"
           }
         ]
       },
@@ -592,15 +583,8 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/dossier#Stuk",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Stuk"
-          }
-        ]
-      },
+      {},
+      {},
       {
         "assignedURI": "http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit",
         "label": [
@@ -614,6 +598,8 @@
           }
         ]
       },
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/wetgeving#UnieRGLV",
         "label": [
@@ -623,15 +609,7 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#NormatieveBepaling",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Normatieve Bepaling"
-          }
-        ]
-      },
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Inhoud",
         "label": [
@@ -814,6 +792,24 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#auteur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "auteur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#informatieclassificatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "informatieclassificatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#locatie",
         "label": [
           {
@@ -850,11 +846,92 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#rechtssubject",
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#verantwoordelijke",
         "label": [
           {
             "@language": "nl",
-            "@value": "rechtssubject"
+            "@value": "verantwoordelijke"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/slimmeraadpleegomgeving#begunstigde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begunstigde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/slimmeraadpleegomgeving#bekrachtigt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bekrachtigt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/slimmeraadpleegomgeving#onderwerp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/slimmeraadpleegomgeving#onderwerp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/slimmeraadpleegomgeving#heeftOntwerpbesluit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft ontwerpbesluit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/slimmeraadpleegomgeving#bestaatUit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestaat uit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/slimmeraadpleegomgeving#bestaatUit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestaat uit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/slimmeraadpleegomgeving#bestaatUit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestaat uit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/slimmeraadpleegomgeving#rechtsobject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtsobject"
           }
         ]
       }
@@ -890,10 +967,6 @@
       {
         "assignedURI": "https://data.europa.eu/eli/ontology#LegalExpression",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "LegaleVerschijningsvorm"
-          },
           {
             "@language": "nl",
             "@value": "LegaleVerschijningsvorm"
@@ -948,10 +1021,6 @@
       {
         "assignedURI": "http://data.europa.eu/eli/eli-draft-legislation-ontology#LegislativeActivity",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Legale activiteit"
-          },
           {
             "@language": "nl",
             "@value": "Legale activiteit"
@@ -1026,7 +1095,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Activiteit"
+            "@value": "Activiteit (Generiek)"
           }
         ]
       },
@@ -1112,29 +1181,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.europa.eu/eli/ontology#LegalExpression",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "LegaleVerschijningsvorm"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/vocab/cpsv#FormalFramework",
         "label": [
           {
             "@language": "nl",
             "@value": "Formeel Kader"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/eli/eli-draft-legislation-ontology#LegislativeActivity",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Legale activiteit"
           }
         ]
       },
@@ -1606,29 +1657,11 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/auteur",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "auteur"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/adms#identifier",
         "label": [
           {
             "@language": "nl",
             "@value": "identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/informatieclassificatie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "informatieclassificatie"
           }
         ]
       },
@@ -1732,11 +1765,38 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/prov#generates",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "genereert"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/oa#refinedBy",
         "label": [
           {
             "@language": "nl",
             "@value": "verfijnd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft meer info"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#generated",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geeft aanleiding tot"
           }
         ]
       },
@@ -1750,11 +1810,56 @@
         ]
       },
       {
+        "assignedURI": "http://data.europa.eu/eli/ontology#realizes",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "realiseert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#used",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikte"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/oa#hasSource",
         "label": [
           {
             "@language": "nl",
             "@value": "isOnderdeelVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#consolidated_by",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is geconsolideerd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#consolidates",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "consolideert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#generated",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geeft aanleiding tot"
           }
         ]
       },
@@ -1768,6 +1873,141 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/prov#wasAssociatedWith",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "was geassocieerd met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#realizes",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "realiseert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#jurisdiction",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "jurisdictie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/isPartOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gerelateerd aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft relatie tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/source",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft bron"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://ontology.tno.nl/normengineering/flint#hasPrecondition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft preconditie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://ontology.tno.nl/normengineering/flint#creates",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "creeert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://ontology.tno.nl/normengineering/flint#terminates",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beeindigt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://ontology.tno.nl/normengineering/flint#hasClaimant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eiser"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://ontology.tno.nl/normengineering/flint#hasHolder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechthebbende"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#generated",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "creeert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#invalidated",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beeindigt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasLegalResource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft legale rechtsgrond"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/eli/eli-draft-legislation-ontology#motivated",
         "label": [
           {
@@ -1786,11 +2026,56 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/heeftOntwerpbesluit",
+        "assignedURI": "http://www.w3.org/ns/prov#used",
         "label": [
           {
             "@language": "nl",
-            "@value": "heeft ontwerp besluit"
+            "@value": "gebruikte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/eli-draft-legislation-ontology#had_participation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft participatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#repeals",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vervangt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/subject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/subject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/eli-draft-legislation-ontology#consists_of",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestaat uit"
           }
         ]
       },
@@ -1809,6 +2094,33 @@
           {
             "@language": "nl",
             "@value": "was gemotiveerd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/eli-draft-legislation-ontology#motivated",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "motiveerde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/eli-draft-legislation-ontology#was_motivated_by",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "was gemotiveerd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/isPartOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
           }
         ]
       }

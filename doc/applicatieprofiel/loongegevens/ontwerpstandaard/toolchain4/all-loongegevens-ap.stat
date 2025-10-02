@@ -1,0 +1,1283 @@
+{
+  "title": "Loongegevens (Applicatieprofiel)",
+  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/loongegevens/ontwerpstandaard/toolchain4",
+  "issued": "2022-03-17",
+  "navigation": {
+    "prev": "/doc/applicatieprofiel/loongegevens/kandidaatstandaard/2022-03-17",
+    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/loongegevens/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "statuslabel": "Kandidaat Standaard",
+  "namespaces": [
+    "http://www.w3.org/ns/regorg",
+    "http://www.w3.org/ns/org",
+    "http://www.w3.org/ns/person",
+    "https://data.vlaanderen.be/ns/persoon",
+    "http://www.w3.org/2004/02/skos/core",
+    "https://data.vlaanderen.be/ns/loongegevens",
+    "http://data.europa.eu/m8g",
+    "https://data.vlaanderen.be/ns/adres",
+    "http://www.w3.org/ns/locn",
+    "https://data.vlaanderen.be/ns/organisatie",
+    "https://schema.org",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://purl.org/dc/terms",
+    "http://www.w3.org/ns/adms",
+    "https://w3.org/1999/02/22-rdf-syntax-ns"
+  ],
+  "authors": 5,
+  "editors": 3,
+  "contributors": 20,
+  "participants": 28,
+  "classes": 13,
+  "properties": 47,
+  "externalclasses": 18,
+  "externalproperties": 8,
+  "totalterms": 86,
+  "totalorganisations": 14,
+  "organisations": [
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 7
+    },
+    {
+      "affiliation": "kbc",
+      "participants": 6
+    },
+    {
+      "affiliation": "fodsocialezekerheid",
+      "participants": 1
+    },
+    {
+      "affiliation": "pwc",
+      "participants": 3
+    },
+    {
+      "affiliation": "belfius",
+      "participants": 1
+    },
+    {
+      "affiliation": "ing",
+      "participants": 2
+    },
+    {
+      "affiliation": "bnpparibasfortis",
+      "participants": 1
+    },
+    {
+      "affiliation": "rsz",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapuitbetalinggroeipakket",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapopgroeien",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapvoorhogeronderwijs",
+      "participants": 1
+    },
+    {
+      "affiliation": "ksz-bcss",
+      "participants": 1
+    },
+    {
+      "affiliation": "cipalschaubroeck",
+      "participants": 1
+    },
+    {
+      "affiliation": "verbondvanbelgischeondernemingen",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "dorienbauwens",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jorisgaens",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "tomhaegemans",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "emiliemaccarini",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "sarahsmits",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "editors": [
+      {
+        "name": "evaderore",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "yvesmeersmans",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "filipborloo",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "coraliecarreirafernandes",
+        "affiliation": "kbc"
+      },
+      {
+        "name": "arnecorselis",
+        "affiliation": "fodsocialezekerheid"
+      },
+      {
+        "name": "boudewijndael",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "frédéricfiglak",
+        "affiliation": "belfius"
+      },
+      {
+        "name": "elsgielen",
+        "affiliation": "kbc"
+      },
+      {
+        "name": "djoenigielis",
+        "affiliation": "ing"
+      },
+      {
+        "name": "joycekaes",
+        "affiliation": "bnpparibasfortis"
+      },
+      {
+        "name": "inekolb",
+        "affiliation": "rsz"
+      },
+      {
+        "name": "bartmaes",
+        "affiliation": "agentschapuitbetalinggroeipakket"
+      },
+      {
+        "name": "nickmatheus",
+        "affiliation": "agentschapopgroeien"
+      },
+      {
+        "name": "nilsmeulemans",
+        "affiliation": "kbc"
+      },
+      {
+        "name": "luknuyts",
+        "affiliation": "agentschapvoorhogeronderwijs"
+      },
+      {
+        "name": "evelienpaulussen",
+        "affiliation": "kbc"
+      },
+      {
+        "name": "pimpetereyns",
+        "affiliation": "ksz-bcss"
+      },
+      {
+        "name": "sarauytterhaegen",
+        "affiliation": "ing"
+      },
+      {
+        "name": "wimvanacker",
+        "affiliation": "cipalschaubroeck"
+      },
+      {
+        "name": "philipvancamp",
+        "affiliation": "kbc"
+      },
+      {
+        "name": "annickverweyen",
+        "affiliation": "kbc"
+      },
+      {
+        "name": "louiswarlop",
+        "affiliation": "verbondvanbelgischeondernemingen"
+      }
+    ],
+    "participants": [
+      {
+        "name": "filipborloo",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "coraliecarreirafernandes",
+        "affiliation": "kbc"
+      },
+      {
+        "name": "arnecorselis",
+        "affiliation": "fodsocialezekerheid"
+      },
+      {
+        "name": "boudewijndael",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "frédéricfiglak",
+        "affiliation": "belfius"
+      },
+      {
+        "name": "elsgielen",
+        "affiliation": "kbc"
+      },
+      {
+        "name": "djoenigielis",
+        "affiliation": "ing"
+      },
+      {
+        "name": "joycekaes",
+        "affiliation": "bnpparibasfortis"
+      },
+      {
+        "name": "inekolb",
+        "affiliation": "rsz"
+      },
+      {
+        "name": "bartmaes",
+        "affiliation": "agentschapuitbetalinggroeipakket"
+      },
+      {
+        "name": "nickmatheus",
+        "affiliation": "agentschapopgroeien"
+      },
+      {
+        "name": "nilsmeulemans",
+        "affiliation": "kbc"
+      },
+      {
+        "name": "luknuyts",
+        "affiliation": "agentschapvoorhogeronderwijs"
+      },
+      {
+        "name": "evelienpaulussen",
+        "affiliation": "kbc"
+      },
+      {
+        "name": "pimpetereyns",
+        "affiliation": "ksz-bcss"
+      },
+      {
+        "name": "sarauytterhaegen",
+        "affiliation": "ing"
+      },
+      {
+        "name": "wimvanacker",
+        "affiliation": "cipalschaubroeck"
+      },
+      {
+        "name": "philipvancamp",
+        "affiliation": "kbc"
+      },
+      {
+        "name": "annickverweyen",
+        "affiliation": "kbc"
+      },
+      {
+        "name": "louiswarlop",
+        "affiliation": "verbondvanbelgischeondernemingen"
+      },
+      {
+        "name": "evaderore",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "yvesmeersmans",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "dorienbauwens",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jorisgaens",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "tomhaegemans",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "emiliemaccarini",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "sarahsmits",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Verblijfplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verblijfplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geregistreerd Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#Arbeidsloon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Arbeidsloon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#Inkomst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inkomst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Gezin",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gezin"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#Arbeidsrelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Arbeidsrelatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#Tewerkstellingsbreuk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tewerkstellingsbreuk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+        "label": [
+          {
+            "@value": "Date"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "Boolean"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {}
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#volledigeNaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledigeNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#Persoon.geboortedatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geboortedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#bedrijfswagen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bedrijfswagen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#personenFiscaalTenLaste",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "personenFiscaalTenLaste"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#bankrekeningnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bankrekeningnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#maaltijdcheques",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "maaltijdcheques"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#verblijfsadres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verblijfsadres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#vakantiegeld",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vakantiegeld"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#registratie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#rechtsvorm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtsvorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#Persoon.verblijfplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verblijfplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#supplementaireBelastbareBedragen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "supplementaireBelastbareBedragen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#contractperiode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contractperiode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#verloningsperiode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verloningsperiode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#brutoloon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "brutoloon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#nettoloon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nettoloon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#inhoudingenVoorDeSocialeZekerheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inhoudingenVoorDeSocialeZekerheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#supplementaireNettoBedragen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "supplementaireNettoBedragen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#bedrijfsvoorheffing",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bedrijfsvoorheffing"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#afTeTrekkenNettoBedragen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afTeTrekkenNettoBedragen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#overeenkomst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "overeenkomst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#tewerkstellingsbreuk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tewerkstellingsbreuk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#statuut",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "statuut"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#periodiciteitVerloning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periodiciteitVerloning"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#collectieveSchuldenregeling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "collectieveSchuldenregeling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#nettoGestortLoon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nettoGestortLoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#eindejaarstoelage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eindejaarstoelage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#premie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "premie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#bankrekeningnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bankrekeningnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#belastbareMaaltijdcheques",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "belastbareMaaltijdcheques"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#cheques",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "cheques"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#werknemer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "werknemer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#arbeidsrelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "arbeidsrelatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#werkgever",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "werkgever"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#arbeidsrelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "arbeidsrelatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#arbeidsrelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "arbeidsrelatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#arbeidsloon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "arbeidsloon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#begunstigde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begunstigde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/loongegevens#inkomsten",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inkomsten"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isHoofdVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isHoofdVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isHoofdVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isHoofdVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isLidVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gezinslid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isLidVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gezinslid"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeregistreerdeOrganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rechtsvormtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Overeenkomsttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Statuuttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verloningstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Schuldbemiddelingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "NAL_currency"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/BankAccount",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bankrekening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/MonetaryAmount",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geldbedrag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "TaalString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Number",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getal"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://data.europa.eu/m8g/startTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begin"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#registration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/currency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "valuta"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "filipborloo",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "geertthijs",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "dorienbauwens",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "jorisgaens",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "tomhaegemans",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "emiliemaccarini",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "sarahsmits",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "kbc",
+        "names": [
+          {
+            "name": "coraliecarreirafernandes",
+            "affiliation": "kbc"
+          },
+          {
+            "name": "elsgielen",
+            "affiliation": "kbc"
+          },
+          {
+            "name": "nilsmeulemans",
+            "affiliation": "kbc"
+          },
+          {
+            "name": "evelienpaulussen",
+            "affiliation": "kbc"
+          },
+          {
+            "name": "philipvancamp",
+            "affiliation": "kbc"
+          },
+          {
+            "name": "annickverweyen",
+            "affiliation": "kbc"
+          }
+        ]
+      },
+      {
+        "affiliation": "fodsocialezekerheid",
+        "names": [
+          {
+            "name": "arnecorselis",
+            "affiliation": "fodsocialezekerheid"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwc",
+        "names": [
+          {
+            "name": "boudewijndael",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "evaderore",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "yvesmeersmans",
+            "affiliation": "pwc"
+          }
+        ]
+      },
+      {
+        "affiliation": "belfius",
+        "names": [
+          {
+            "name": "frédéricfiglak",
+            "affiliation": "belfius"
+          }
+        ]
+      },
+      {
+        "affiliation": "ing",
+        "names": [
+          {
+            "name": "djoenigielis",
+            "affiliation": "ing"
+          },
+          {
+            "name": "sarauytterhaegen",
+            "affiliation": "ing"
+          }
+        ]
+      },
+      {
+        "affiliation": "bnpparibasfortis",
+        "names": [
+          {
+            "name": "joycekaes",
+            "affiliation": "bnpparibasfortis"
+          }
+        ]
+      },
+      {
+        "affiliation": "rsz",
+        "names": [
+          {
+            "name": "inekolb",
+            "affiliation": "rsz"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapuitbetalinggroeipakket",
+        "names": [
+          {
+            "name": "bartmaes",
+            "affiliation": "agentschapuitbetalinggroeipakket"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapopgroeien",
+        "names": [
+          {
+            "name": "nickmatheus",
+            "affiliation": "agentschapopgroeien"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapvoorhogeronderwijs",
+        "names": [
+          {
+            "name": "luknuyts",
+            "affiliation": "agentschapvoorhogeronderwijs"
+          }
+        ]
+      },
+      {
+        "affiliation": "ksz-bcss",
+        "names": [
+          {
+            "name": "pimpetereyns",
+            "affiliation": "ksz-bcss"
+          }
+        ]
+      },
+      {
+        "affiliation": "cipalschaubroeck",
+        "names": [
+          {
+            "name": "wimvanacker",
+            "affiliation": "cipalschaubroeck"
+          }
+        ]
+      },
+      {
+        "affiliation": "verbondvanbelgischeondernemingen",
+        "names": [
+          {
+            "name": "louiswarlop",
+            "affiliation": "verbondvanbelgischeondernemingen"
+          }
+        ]
+      }
+    ]
+  }
+}

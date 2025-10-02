@@ -1,14 +1,14 @@
 {
   "title": "Persoon Basis",
   "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/persoon-basis/ontwerpstandaard/toolchain4",
-  "issued": "2023-06-01",
+  "issued": "2025-08-20",
   "navigation": {
     "prev": "/doc/applicatieprofiel/persoon-basis/kandidaatstandaard/niet-bepaald",
     "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/persoon-basis/ontwerpstandaard/toolchain4"
   },
   "documenttype": "ap",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
-  "statuslabel": "Ontwerpdocument",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
   "namespaces": [
     "http://purl.org/dc/terms",
     "http://www.w3.org/ns/org",
@@ -20,7 +20,6 @@
     "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/generiek",
     "http://schema.org",
-    "http://todo.com",
     "https://schema.org",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -30,11 +29,11 @@
   "editors": 2,
   "contributors": 4,
   "participants": 29,
-  "classes": 24,
-  "properties": 30,
-  "externalclasses": 18,
-  "externalproperties": 11,
-  "totalterms": 83,
+  "classes": 26,
+  "properties": 32,
+  "externalclasses": 17,
+  "externalproperties": 9,
+  "totalterms": 84,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -559,7 +558,9 @@
             "@value": "String"
           }
         ]
-      }
+      },
+      {},
+      {}
     ],
     "properties": [
       {
@@ -813,18 +814,38 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Staatsburgerschap.persoon",
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Staatsburgerschap.Persoon",
         "label": [
           {
-            "@value": "Staatsburgerschap.Persoon"
+            "@language": "nl",
+            "@value": "persoon"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap.persoon",
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Staatsburgerschap.binnenJurisdictie",
         "label": [
           {
-            "@value": "Inwonerschap.Persoon"
+            "@language": "nl",
+            "@value": "binnen jurisdictie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap.Persoon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap.Jurisdictie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "binnen jurisdictie"
           }
         ]
       }
@@ -842,10 +863,6 @@
       {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          },
           {
             "@language": "nl",
             "@value": "Agent"
@@ -934,15 +951,6 @@
           {
             "@language": "nl",
             "@value": "Contactinfo"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
@@ -1064,27 +1072,11 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Staatsburgerschap.jurisdictie",
-        "label": [
-          {
-            "@value": "Staatsburgerschap.Jurisdictie"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/person#residency",
         "label": [
           {
             "@language": "nl",
             "@value": "inwonerschap"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Inwonerschap.jurisdictie",
-        "label": [
-          {
-            "@value": "Inwonerschap.Jurisdictie"
           }
         ]
       }

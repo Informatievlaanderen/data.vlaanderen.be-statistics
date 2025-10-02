@@ -21,7 +21,7 @@
     "http://purl.org/vocab/cpsv",
     "http://www.w3.org/ns/prov",
     "https://data.vlaanderen.be/ns/wetgeving",
-    "https://data.vlaanderen.be/ns/statistiek",
+    "https://data.vlaanderen.be/ns/cultuurparticipatie",
     "https://data.vlaanderen.be/ns/gezondheidstoestand/",
     "https://data.vlaanderen.be/ns/gezondheidstoestand",
     "http://schema.org",
@@ -33,19 +33,21 @@
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "https://data.vlaanderen.be/ns/kindfiche",
+    "https://data.vlaanderen.be/ns/transactie",
     "http://hl7.org/fhir/StructureDefinition",
     "http://www.w3.org/2001/XMLSchema",
+    "https://data.vlaanderen.be/ns/statistiek",
     "http://www.w3.org/2000/01/rdf-schema"
   ],
   "authors": 3,
   "editors": 10,
   "contributors": 33,
   "participants": 46,
-  "classes": 20,
-  "properties": 38,
-  "externalclasses": 45,
-  "externalproperties": 62,
-  "totalterms": 165,
+  "classes": 21,
+  "properties": 39,
+  "externalclasses": 42,
+  "externalproperties": 73,
+  "totalterms": 175,
   "totalorganisations": 23,
   "organisations": [
     {
@@ -535,10 +537,6 @@
           {
             "@language": "nl",
             "@value": "Agentrelatie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Agentrelatie"
           }
         ]
       },
@@ -561,7 +559,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/statistiek#Statistiek",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#SociodemografischKenmerk",
         "label": [
           {
             "@language": "nl",
@@ -687,12 +685,13 @@
           }
         ]
       },
+      {},
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Agentrelatie",
+        "assignedURI": "https://data.vlaanderen.be/ns/statistiek#Statistiek",
         "label": [
           {
             "@language": "nl",
-            "@value": "Agentrelatie"
+            "@value": "Statistiek"
           }
         ]
       }
@@ -1039,16 +1038,21 @@
             "@value": "gebruikte medicatie"
           }
         ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transactie#isInstantieVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dienstaanbod"
+          }
+        ]
       }
     ],
     "externalclasses": [
       {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          },
           {
             "@language": "nl",
             "@value": "Agent"
@@ -1097,10 +1101,6 @@
           {
             "@language": "nl",
             "@value": "Organisatie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
           }
         ]
       },
@@ -1116,10 +1116,6 @@
       {
         "assignedURI": "http://www.w3.org/ns/person#Person",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoon"
-          },
           {
             "@language": "nl",
             "@value": "Persoon"
@@ -1149,7 +1145,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Dienstconsumptie"
+            "@value": "Publieke Dienstverlening (consumptie)"
           }
         ]
       },
@@ -1330,33 +1326,6 @@
           {
             "@language": "nl",
             "@value": "Allergie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Organization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/person#Person",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoon"
           }
         ]
       },
@@ -1997,11 +1966,110 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft relatie met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft relatie met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#atLocation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#siteOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "suborganisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "participatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasSupportingEvidence",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "juridisch werk"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
         "label": [
           {
             "@language": "nl",
             "@value": "persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "participatie"
           }
         ]
       },

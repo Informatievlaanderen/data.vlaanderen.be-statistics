@@ -29,6 +29,7 @@
     "https://data.vlaanderen.be/ns/organisatie",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/ns/prov",
+    "http://todo.com",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/ns/adms"
@@ -37,11 +38,11 @@
   "editors": 3,
   "contributors": 21,
   "participants": 25,
-  "classes": 19,
-  "properties": 21,
-  "externalclasses": 55,
-  "externalproperties": 62,
-  "totalterms": 157,
+  "classes": 20,
+  "properties": 23,
+  "externalclasses": 49,
+  "externalproperties": 69,
+  "totalterms": 161,
   "totalorganisations": 9,
   "organisations": [
     {
@@ -441,6 +442,7 @@
           }
         ]
       },
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/campagne/publicatie#ExpressieCreatie",
         "label": [
@@ -631,6 +633,24 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/campagne/publicatie#PublicatieExpressie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publicatieExpressie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/campagne/publicatie#publicatieEvent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publicatieEvent"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/campagne/publicatie#product",
         "label": [
           {
@@ -737,10 +757,6 @@
           {
             "@language": "nl",
             "@value": "Informatie Object"
-          },
-          {
-            "@language": "nl",
-            "@value": "Informatie Object"
           }
         ]
       },
@@ -768,10 +784,6 @@
           {
             "@language": "nl",
             "@value": "Zelfstandige Expressie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Zelfstandige Expressie"
           }
         ]
       },
@@ -790,10 +802,6 @@
           {
             "@language": "nl",
             "@value": "Organisatie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
           }
         ]
       },
@@ -803,20 +811,12 @@
           {
             "@language": "nl",
             "@value": "Agent"
-          },
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
       {
         "assignedURI": "http://www.w3.org/ns/org#FormalOrganization",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Formele Organisatie"
-          },
           {
             "@language": "nl",
             "@value": "Formele Organisatie"
@@ -943,10 +943,6 @@
       {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Materieel Ding"
-          },
           {
             "@language": "nl",
             "@value": "Materieel Ding"
@@ -1103,60 +1099,6 @@
           {
             "@language": "nl",
             "@value": "Standaard Eenheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Informatie Object"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://www.iflastandards.info/fr/frbr/frbroo#F22",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Zelfstandige Expressie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Organization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#FormalOrganization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Formele Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Materieel Ding"
           }
         ]
       },
@@ -1726,6 +1668,69 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P165_incorporates",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "omvat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P165_incorporates",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "omvat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasSubOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft Suborganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasSubOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft Suborganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is Suborganisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is Suborganisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/distributie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Distributie"
           }
         ]
       }

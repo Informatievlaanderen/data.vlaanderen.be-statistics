@@ -32,6 +32,7 @@
     "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/aim-object/",
     "https://data.vlaanderen.be/ns/generiek",
     "http://def.isotc211.org/iso19156/2011/Observation",
+    "http://def.isotc211.org/iso19156/2011/SamplingFeature",
     "http://def.isotc211.org/iso19108/2006/TemporalObjects",
     "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/ns/locn",
@@ -51,11 +52,11 @@
   "editors": 8,
   "contributors": 2,
   "participants": 14,
-  "classes": 32,
+  "classes": 36,
   "properties": 11,
-  "externalclasses": 55,
-  "externalproperties": 16,
-  "totalterms": 114,
+  "externalclasses": 47,
+  "externalproperties": 17,
+  "totalterms": 111,
   "totalorganisations": 3,
   "organisations": [
     {
@@ -227,20 +228,12 @@
           {
             "@language": "nl",
             "@value": "Fysiek object"
-          },
-          {
-            "@language": "nl",
-            "@value": "Fysiek object"
           }
         ]
       },
       {
         "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#OpenbaarDomeinObject",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "OpenbaarDomeinObject"
-          },
           {
             "@language": "nl",
             "@value": "OpenbaarDomeinObject"
@@ -259,10 +252,6 @@
       {
         "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#AIMObject",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "AIM object"
-          },
           {
             "@language": "nl",
             "@value": "AIM object"
@@ -443,33 +432,13 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekObject",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Fysiek object"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/kwaliteit-wegen-en-wegmarkeringen#OpenbaarDomeinObject",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OpenbaarDomeinObject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#AIMObject",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "AIM object"
-          }
-        ]
-      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
       {
         "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#Signalisatie",
         "label": [
@@ -606,20 +575,12 @@
           {
             "@language": "nl",
             "@value": "Object"
-          },
-          {
-            "@language": "nl",
-            "@value": "Object"
           }
         ]
       },
       {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "RuimtelijkBemonsteringsobject"
-          },
           {
             "@language": "nl",
             "@value": "RuimtelijkBemonsteringsobject"
@@ -638,10 +599,6 @@
       {
         "assignedURI": "http://www.w3.org/ns/prov#Entity",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Element"
-          },
           {
             "@language": "nl",
             "@value": "Element"
@@ -672,20 +629,12 @@
           {
             "@language": "nl",
             "@value": "Agent"
-          },
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
       {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Concept"
-          },
           {
             "@language": "nl",
             "@value": "Concept"
@@ -833,10 +782,6 @@
           {
             "@language": "nl",
             "@value": "Geometrie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
           }
         ]
       },
@@ -891,10 +836,6 @@
           {
             "@language": "nl",
             "@value": "GeneriekeNaam"
-          },
-          {
-            "@language": "nl",
-            "@value": "GeneriekeNaam"
           }
         ]
       },
@@ -937,10 +878,6 @@
       {
         "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "TemporeleEntiteit"
-          },
           {
             "@language": "nl",
             "@value": "TemporeleEntiteit"
@@ -1002,33 +939,6 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Object"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "RuimtelijkBemonsteringsobject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#Entity",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Element"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://def.isotc211.org/iso19156/2011GeneralFeatureInstance#GFI_DomainFeature",
         "label": [
           {
@@ -1052,51 +962,6 @@
           {
             "@language": "nl",
             "@value": "Observatieprocedure"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Concept"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19103/2005/Names#GenericName",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "GeneriekeNaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "TemporeleEntiteit"
           }
         ]
       },
@@ -1242,6 +1107,15 @@
           {
             "@language": "nl",
             "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.sampledFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "object"
           }
         ]
       },

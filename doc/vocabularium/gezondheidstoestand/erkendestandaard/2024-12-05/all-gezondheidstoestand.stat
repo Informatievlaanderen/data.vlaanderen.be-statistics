@@ -36,11 +36,11 @@
   "editors": 9,
   "contributors": 32,
   "participants": 43,
-  "classes": 21,
-  "properties": 53,
+  "classes": 25,
+  "properties": 58,
   "externalclasses": 32,
   "externalproperties": 25,
-  "totalterms": 131,
+  "totalterms": 140,
   "totalorganisations": 22,
   "organisations": [
     {
@@ -655,6 +655,10 @@
           }
         ]
       },
+      {},
+      {},
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsgebeurtenis",
         "label": [
@@ -1009,11 +1013,54 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isRelatieMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft relatie met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
+        "label": [
+          {
+            "@value": "Persoon (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
+        "label": [
+          {
+            "@value": "Persoon (target)"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#wordtGeobserveerdDoor",
         "label": [
           {
             "@language": "nl",
             "@value": "wordt geobserveerd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Persoon.heeftZwangerschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft zwangerschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevalling.heeftBevalling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft bevalling"
           }
         ]
       },
@@ -1027,7 +1074,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#heeftFoetus",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Zwangerschap.heeftFoetus",
         "label": [
           {
             "@language": "nl",
@@ -1045,7 +1092,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#wordtGevoedDoor",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#MedischeToestand.wordtGevoedDoor",
         "label": [
           {
             "@language": "nl",
@@ -1063,7 +1110,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#ontstaatDoor",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Conceptie.onststaatDoor",
         "label": [
           {
             "@language": "nl",
@@ -1081,7 +1128,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#opgesteldDoor",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#MedischVerslag.opgesteldDoor",
         "label": [
           {
             "@language": "nl",
@@ -1099,7 +1146,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#vastgesteldDoor",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#MedischeObservatie.vastgesteldDoor",
         "label": [
           {
             "@language": "nl",
@@ -1117,7 +1164,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#heeftAssistentie",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#AssistentieBevalling.heeftAssistentie",
         "label": [
           {
             "@language": "nl",
@@ -1126,7 +1173,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#gedocumenteerdDoor",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#MedischeObservatie.gedocumenteerdDoor",
         "label": [
           {
             "@language": "nl",
@@ -1144,7 +1191,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#volgtOp",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevalling.volgtOp",
         "label": [
           {
             "@language": "nl",
@@ -1640,7 +1687,7 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/komtVoortUit",
+        "assignedURI": "http://todo.com/Foetus.komtVoortUit",
         "label": [
           {
             "@language": "nl",

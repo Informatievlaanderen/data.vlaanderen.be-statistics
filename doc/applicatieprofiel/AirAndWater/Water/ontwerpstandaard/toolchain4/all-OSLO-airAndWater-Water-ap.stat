@@ -25,6 +25,8 @@
     "http://www.w3.org/ns/sosa",
     "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata",
     "https://schema.org",
+    "http://todo.com",
+    "http://todo",
     "http://def.isotc211.org/iso19103/2005/Names",
     "http://def.isotc211.org/iso19108/2006/TemporalObjects",
     "https://data.vlaanderen.be/ns/generiek",
@@ -35,11 +37,11 @@
   "editors": 3,
   "contributors": 32,
   "participants": 35,
-  "classes": 15,
-  "properties": 9,
-  "externalclasses": 29,
-  "externalproperties": 11,
-  "totalterms": 64,
+  "classes": 22,
+  "properties": 10,
+  "externalclasses": 28,
+  "externalproperties": 25,
+  "totalterms": 85,
   "totalorganisations": 20,
   "organisations": [
     {
@@ -544,7 +546,14 @@
             "@value": "String"
           }
         ]
-      }
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
     ],
     "properties": [
       {
@@ -557,6 +566,19 @@
           {
             "@language": "en",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/water#WaterQualityObservationCollection.refWeatherObserved",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "refWeatherObserved"
+          },
+          {
+            "@language": "en",
+            "@value": "refWeatherObserved"
           }
         ]
       },
@@ -696,10 +718,6 @@
       {
         "assignedURI": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
         "label": [
-          {
-            "@language": "en",
-            "@value": "Feature"
-          },
           {
             "@language": "en",
             "@value": "Feature"
@@ -881,15 +899,6 @@
         ]
       },
       {
-        "assignedURI": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "Feature"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
         "label": [
           {
@@ -987,6 +996,32 @@
         ]
       },
       {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultQuality"
+          },
+          {
+            "@language": "en",
+            "@value": "resultQuality"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          },
+          {
+            "@language": "en",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
         "label": [
           {
@@ -1052,6 +1087,19 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "value"
+          },
+          {
+            "@language": "en",
+            "@value": "value"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/unitCode",
         "label": [
           {
@@ -1065,6 +1113,87 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "usedProcedure"
+          },
+          {
+            "@language": "en",
+            "@value": "usedProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "madeObservation"
+          },
+          {
+            "@language": "en",
+            "@value": "madeObservation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "madeBySensor"
+          },
+          {
+            "@language": "en",
+            "@value": "madeBySensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatedObservation"
+          },
+          {
+            "@language": "en",
+            "@value": "relatedObservation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/ObservationContext.observation.source",
+        "label": [
+          {
+            "@value": "Observation (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/ObservationContext.observation.target",
+        "label": [
+          {
+            "@value": "Observation (target)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.metadata",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "metadata"
+          },
+          {
+            "@language": "en",
+            "@value": "metadata"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/sosa/hasMember",
         "label": [
           {
@@ -1074,6 +1203,50 @@
           {
             "@language": "en",
             "@value": "member"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "observedProperty"
+          },
+          {
+            "@language": "en",
+            "@value": "observedProperty"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.sampledFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "sampledFeature"
+          },
+          {
+            "@language": "en",
+            "@value": "sampledFeature"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "featureOfInterest"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo/",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "propertyValueProviider"
           }
         ]
       }

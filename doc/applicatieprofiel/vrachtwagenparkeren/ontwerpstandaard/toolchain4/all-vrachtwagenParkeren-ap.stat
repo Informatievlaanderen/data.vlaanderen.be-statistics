@@ -27,6 +27,7 @@
     "http://data.europa.eu/eli/ontology",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/ns/regorg",
+    "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten/",
     "https://data.vlaanderen.be/ns/generiek",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "https://data.vlaanderen.be/ns/verkeersmetingen",
@@ -36,11 +37,11 @@
   "editors": 7,
   "contributors": 12,
   "participants": 22,
-  "classes": 31,
-  "properties": 26,
+  "classes": 33,
+  "properties": 47,
   "externalclasses": 36,
-  "externalproperties": 49,
-  "totalterms": 142,
+  "externalproperties": 55,
+  "totalterms": 171,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -321,10 +322,6 @@
           {
             "@language": "nl",
             "@value": "Infrastructuurelement"
-          },
-          {
-            "@language": "nl",
-            "@value": "Infrastructuurelement"
           }
         ]
       },
@@ -334,20 +331,12 @@
           {
             "@language": "nl",
             "@value": "Resource"
-          },
-          {
-            "@language": "nl",
-            "@value": "Resource"
           }
         ]
       },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Route"
-          },
           {
             "@language": "nl",
             "@value": "Route"
@@ -502,6 +491,8 @@
           }
         ]
       },
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger",
         "label": [
@@ -520,15 +511,7 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur#Infrastructuurelement",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Infrastructuurelement"
-          }
-        ]
-      },
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Element",
         "label": [
@@ -538,24 +521,8 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Resource"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Route",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Route"
-          }
-        ]
-      },
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Dienstregeling",
         "label": [
@@ -789,6 +756,193 @@
           {
             "@language": "nl",
             "@value": "toegankelijkheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#aanbieder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanbieder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#omvat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "omvat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#aanbieder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanbieder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#reis",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reis.boeking",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "boeking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#bestaatUit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestaat uit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#berekendMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "berekend met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#mogelijkeRoute",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "mogelijke route"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#gekozenRoute",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gekozen route"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#uitgevoerdeRoute",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerde route"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Resource.dienst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dienst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resource"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.gerealiseerdMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gerealiseerd met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resource"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.Boeking",
+        "label": [
+          {
+            "@value": "Reservatie.Boeking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.Resource",
+        "label": [
+          {
+            "@value": "Reservatie.Resource"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#AanvullendeDienst.beschikbaarOpInfrastructuurelement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dienst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#AanvullendeDienst.beschikbaarOpInfrastructuurelement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaarOpInfrastructuurelement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten/#Mobiliteitsdienst.beschikbaarOpInfrastructuurelement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dienst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/vervoersknooppunten#Mobiliteitsdienst.beschikbaarOpInfrastructuurelement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaaropInfrastructuurelement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#onderneemt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "onderneemt"
           }
         ]
       },
@@ -1559,6 +1713,60 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.mobivoc.org/#parkingSpace",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parkeerplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#linkedTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is geassocieerd met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasSubOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft suborganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is suborganisatie van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/partOfTrip",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is deel van"
           }
         ]
       }

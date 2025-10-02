@@ -39,6 +39,8 @@
     "http://purl.org/dc/elements/1.1",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
     "https://data.vlaanderen.be/ns/observaties-en-metingen",
+    "http://def.isotc211.org/iso19150/-2/2012/base",
+    "http://todo",
     "http://def.isotc211.org/iso19108/2006/TemporalObjects",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/ns/locn",
@@ -52,11 +54,11 @@
   "editors": 10,
   "contributors": 72,
   "participants": 90,
-  "classes": 11,
-  "properties": 18,
-  "externalclasses": 108,
-  "externalproperties": 97,
-  "totalterms": 234,
+  "classes": 30,
+  "properties": 21,
+  "externalclasses": 100,
+  "externalproperties": 124,
+  "totalterms": 275,
   "totalorganisations": 46,
   "organisations": [
     {
@@ -1008,10 +1010,6 @@
           {
             "@language": "nl",
             "@value": "Formaat"
-          },
-          {
-            "@language": "nl",
-            "@value": "Formaat"
           }
         ]
       },
@@ -1064,15 +1062,26 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Formaat",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Formaat"
-          }
-        ]
-      }
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
     ],
     "properties": [
       {
@@ -1236,6 +1245,31 @@
             "@value": "doel"
           }
         ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.source",
+        "label": [
+          {
+            "@value": "Observatie (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.target",
+        "label": [
+          {
+            "@value": "Observatie (target)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Observatieverzameling.metadata",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "metadata"
+          }
+        ]
       }
     ],
     "externalclasses": [
@@ -1272,20 +1306,12 @@
           {
             "@language": "nl",
             "@value": "Bemonstering"
-          },
-          {
-            "@language": "nl",
-            "@value": "Bemonstering"
           }
         ]
       },
       {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Bemonsteringsobject"
-          },
           {
             "@language": "nl",
             "@value": "Bemonsteringsobject"
@@ -1298,20 +1324,12 @@
           {
             "@language": "nl",
             "@value": "Object"
-          },
-          {
-            "@language": "nl",
-            "@value": "Object"
           }
         ]
       },
       {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "RuimtelijkBemonsteringsobject"
-          },
           {
             "@language": "nl",
             "@value": "RuimtelijkBemonsteringsobject"
@@ -1729,10 +1747,6 @@
           {
             "@language": "nl",
             "@value": "Systeem"
-          },
-          {
-            "@language": "nl",
-            "@value": "Systeem"
           }
         ]
       },
@@ -1766,10 +1780,6 @@
       {
         "assignedURI": "https://www.w3.org/ns/sosa/Platform",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Platform"
-          },
           {
             "@language": "nl",
             "@value": "Platform"
@@ -1962,10 +1972,6 @@
           {
             "@language": "nl",
             "@value": "Dekking"
-          },
-          {
-            "@language": "nl",
-            "@value": "Dekking"
           }
         ]
       },
@@ -1990,10 +1996,6 @@
       {
         "assignedURI": "http://www.w3.org/ns/locn#Geometry",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
-          },
           {
             "@language": "nl",
             "@value": "Geometrie"
@@ -2109,60 +2111,6 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/elements/1.1/coverage",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Dekking"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/sosa/Sampling",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Bemonstering"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Bemonsteringsobject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Object"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "RuimtelijkBemonsteringsobject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingPoint#SF_SamplingPoint",
         "label": [
           {
@@ -2213,24 +2161,6 @@
           {
             "@language": "nl",
             "@value": "Bemonsterings3Dobject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/ssn/System",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Systeem"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://www.w3.org/ns/sosa/Platform",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Platform"
           }
         ]
       },
@@ -3115,6 +3045,249 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geassocieerdeObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Domain",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domein"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Domain",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domein"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Design",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.sampledFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bemonsterdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fenomeen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo/",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verzameling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/sosa/hosts",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hostVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/isHostedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gehostDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasMember",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftLid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikteProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeSampling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdeBemonstering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeBySampler",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/implementedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geïmplementeerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/implements",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "implementeert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/isResultOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isResultaatVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bemonsterdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/implementedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geïmplementeerdMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/implements",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "implementeert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdeObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdMetSensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/observes",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "observeert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/isObservedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isGeobserveerdMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikteProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.metadata",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "metadata"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Intention",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Intentie"
           }
         ]
       }

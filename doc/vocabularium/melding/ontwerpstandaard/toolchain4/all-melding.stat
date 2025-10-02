@@ -29,7 +29,6 @@
     "http://www.w3.org/ns/regorg",
     "http://schema.org",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/ns/prov",
     "https://www.w3.org/2009/08/skos-reference/skos.html",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/ns/adms"
@@ -38,11 +37,11 @@
   "editors": 2,
   "contributors": 9,
   "participants": 15,
-  "classes": 15,
+  "classes": 16,
   "properties": 28,
-  "externalclasses": 24,
-  "externalproperties": 38,
-  "totalterms": 105,
+  "externalclasses": 20,
+  "externalproperties": 40,
+  "totalterms": 104,
   "totalorganisations": 4,
   "organisations": [
     {
@@ -322,7 +321,8 @@
             "@value": "Boolean"
           }
         ]
-      }
+      },
+      {}
     ],
     "properties": [
       {
@@ -585,10 +585,6 @@
           {
             "@language": "nl",
             "@value": "Agent"
-          },
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
@@ -634,10 +630,6 @@
           {
             "@language": "nl",
             "@value": "Organisatie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
           }
         ]
       },
@@ -656,10 +648,6 @@
           {
             "@language": "nl",
             "@value": "Persoon"
-          },
-          {
-            "@language": "nl",
-            "@value": "Persoon"
           }
         ]
       },
@@ -673,47 +661,11 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Organization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/org#Post",
         "label": [
           {
             "@language": "nl",
             "@value": "Positie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#Entity",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Entiteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/person#Person",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoon"
           }
         ]
       },
@@ -1123,6 +1075,24 @@
           {
             "@language": "nl",
             "@value": "heeft doelwit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasUnit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasUnit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft eenheid"
           }
         ]
       },

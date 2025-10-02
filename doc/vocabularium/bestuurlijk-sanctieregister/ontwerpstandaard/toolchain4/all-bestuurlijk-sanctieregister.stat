@@ -44,11 +44,11 @@
   "editors": 5,
   "contributors": 13,
   "participants": 20,
-  "classes": 32,
-  "properties": 36,
-  "externalclasses": 40,
-  "externalproperties": 58,
-  "totalterms": 166,
+  "classes": 39,
+  "properties": 41,
+  "externalclasses": 37,
+  "externalproperties": 60,
+  "totalterms": 177,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -534,6 +534,8 @@
           }
         ]
       },
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsgebeurtenis",
         "label": [
@@ -543,6 +545,7 @@
           }
         ]
       },
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Verblijfplaats",
         "label": [
@@ -552,6 +555,8 @@
           }
         ]
       },
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid",
         "label": [
@@ -560,7 +565,9 @@
             "@value": "Ruimtelijke Eenheid"
           }
         ]
-      }
+      },
+      {},
+      {}
     ],
     "properties": [
       {
@@ -843,6 +850,48 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap.GeregistreerdPersoon",
+        "label": [
+          {
+            "@value": "Inwonerschap.GeregistreerdPersoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap.Jurisdictie",
+        "label": [
+          {
+            "@value": "Inwonerschap.Jurisdictie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftGeboorte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft geboorte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftVerblijfplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft verblijfplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#verwijstNaar",
+        "label": [
+          {
+            "@value": "verwijstNaar"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/bestuurlijk-sanctieregister#overtreedt",
         "label": [
           {
@@ -895,10 +944,6 @@
           {
             "@language": "nl",
             "@value": "Persoon"
-          },
-          {
-            "@language": "nl",
-            "@value": "Persoon"
           }
         ]
       },
@@ -908,20 +953,12 @@
           {
             "@language": "nl",
             "@value": "Agent"
-          },
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
       {
         "assignedURI": "http://www.w3.org/ns/org#Organization",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          },
           {
             "@language": "nl",
             "@value": "Organisatie"
@@ -1122,33 +1159,6 @@
         "label": [
           {
             "@value": "Activity"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/person#Person",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoon"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Organization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
           }
         ]
       },
@@ -1717,6 +1727,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/person#residency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inwonerschap"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://todo.com/genomenDoor",
         "label": [
           {
@@ -1731,6 +1750,15 @@
           {
             "@language": "nl",
             "@value": "leidt tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasRegisteredSite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft geregistreerde vestiging"
           }
         ]
       },

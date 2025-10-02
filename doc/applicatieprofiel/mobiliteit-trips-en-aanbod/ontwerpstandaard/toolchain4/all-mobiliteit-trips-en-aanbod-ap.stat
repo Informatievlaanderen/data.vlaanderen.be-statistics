@@ -1,7 +1,7 @@
 {
   "title": "Mobiliteit: Trips & Aanbod (Applicatieprofiel)",
   "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/toolchain4",
-  "issued": "2025-01-07",
+  "issued": "2025-08-21",
   "navigation": {
     "prev": "/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23",
     "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/ontwerpstandaard/toolchain4"
@@ -34,11 +34,11 @@
   "editors": 7,
   "contributors": 22,
   "participants": 33,
-  "classes": 41,
-  "properties": 93,
-  "externalclasses": 42,
-  "externalproperties": 53,
-  "totalterms": 229,
+  "classes": 50,
+  "properties": 94,
+  "externalclasses": 41,
+  "externalproperties": 54,
+  "totalterms": 239,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -495,10 +495,6 @@
           {
             "@language": "nl",
             "@value": "Transportobject"
-          },
-          {
-            "@language": "nl",
-            "@value": "Transportobject"
           }
         ]
       },
@@ -687,6 +683,10 @@
           }
         ]
       },
+      {},
+      {},
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
         "label": [
@@ -696,15 +696,7 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportobject",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Transportobject"
-          }
-        ]
-      },
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkelement",
         "label": [
@@ -714,6 +706,7 @@
           }
         ]
       },
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkgebied",
         "label": [
@@ -723,6 +716,7 @@
           }
         ]
       },
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Knoop",
         "label": [
@@ -732,6 +726,7 @@
           }
         ]
       },
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
         "label": [
@@ -741,6 +736,8 @@
           }
         ]
       },
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Connectie",
         "label": [
@@ -1212,7 +1209,16 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vervoersbewijs",
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#bestaatUit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestaat uit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.vervoersbewijs",
         "label": [
           {
             "@language": "nl",
@@ -1248,7 +1254,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#resource",
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.resource",
         "label": [
           {
             "@language": "nl",
@@ -1295,7 +1301,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Onderneemt"
+            "@value": "onderneemt"
           }
         ]
       },
@@ -1345,7 +1351,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#boeking",
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reis.boeking",
         "label": [
           {
             "@language": "nl",
@@ -1363,7 +1369,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#resource",
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.resource",
         "label": [
           {
             "@language": "nl",
@@ -1372,27 +1378,38 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.boeking",
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.Boeking",
         "label": [
           {
-            "@value": "Reservatie.Boeking"
+            "@language": "nl",
+            "@value": "boeking"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.resource",
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reservatie.Resource",
         "label": [
           {
-            "@value": "Reservatie.Resource"
+            "@language": "nl",
+            "@value": "resource"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vervoersbewijs",
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.vervoersbewijs",
         "label": [
           {
             "@language": "nl",
             "@value": "vervoersbewijs"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GerichteLink.link",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "link"
           }
         ]
       },
@@ -1433,7 +1450,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vervoersbewijs",
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reiziger.vervoersbewijs",
         "label": [
           {
             "@language": "nl",
@@ -1442,7 +1459,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#dienst",
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Vervoersbewijs.dienst",
         "label": [
           {
             "@language": "nl",
@@ -1487,7 +1504,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Transportobject.beschikbaarOp",
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#beschikbaarOp",
         "label": [
           {
             "@language": "nl",
@@ -1496,16 +1513,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Mobiliteitsdienst.beschikbaarOp",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschikbaar op"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vervoersbewijs",
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Reis.vervoersbewijs",
         "label": [
           {
             "@language": "nl",
@@ -1577,7 +1585,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#vervoersbewijs",
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routeknoop.vervoersbewijs",
         "label": [
           {
             "@language": "nl",
@@ -1814,10 +1822,6 @@
           {
             "@language": "nl",
             "@value": "Geometrie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
           }
         ]
       },
@@ -1953,15 +1957,6 @@
           {
             "@language": "nl",
             "@value": "Geregistreerde Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
           }
         ]
       }
@@ -2441,6 +2436,15 @@
           {
             "@language": "nl",
             "@value": "is deel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gerelateerd aan"
           }
         ]
       }

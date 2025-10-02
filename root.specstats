@@ -2,7 +2,7 @@
   {
     "title": "Bodem en Ondergrond (Applicatieprofiel)",
     "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01",
-    "issued": "2022-04-28",
+    "issued": "2024-10-01",
     "navigation": {
       "prev": "/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2022-04-28",
       "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
@@ -20,9 +20,7 @@
       "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata",
       "http://def.isotc211.org/iso19156/2011/Observation",
       "http://purl.org/dc/terms",
-      "http://def.isotc211.org/iso19156/2011/SamplingCurve",
       "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures",
-      "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
       "http://www.w3.org/2000/01/rdf-schema",
       "http://www.w3.org/ns/adms",
       "http://www.opengis.net/ont/geosparql",
@@ -36,18 +34,20 @@
       "http://www.w3.org/ns/prov",
       "http://www.opengis.net/ont/gml",
       "http://www.w3.org/2001/XMLSchema",
+      "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
       "http://purl.org/dc/elements/1.1",
-      "https://data.vlaanderen.be/ns/besluit"
+      "https://data.vlaanderen.be/ns/besluit",
+      "http://def.isotc211.org/iso19156/2011/SamplingCurve"
     ],
     "authors": 8,
     "editors": 10,
     "contributors": 72,
     "participants": 90,
-    "classes": 22,
+    "classes": 30,
     "properties": 20,
-    "externalclasses": 37,
+    "externalclasses": 31,
     "externalproperties": 28,
-    "totalterms": 107,
+    "totalterms": 109,
     "totalorganisations": 46,
     "organisations": [
       {
@@ -245,10 +245,10 @@
       "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/energiemanagementsysteem/ontwerpstandaard/2025-05-14"
     },
     "documenttype": "ap",
-    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-    "statuslabel": "Ontwerp Standaard",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "statuslabel": "Kandidaat Standaard",
     "namespaces": [
-      "https://qudt.org/schema/qudt",
+      "http://qudt.org/schema/qudt",
       "http://www.w3.org/2004/02/skos/core",
       "http://purl.org/dc/terms",
       "https://vocab.belgif.be/ns/utility-services",
@@ -256,13 +256,11 @@
       "http://data.europa.eu/it6",
       "http://www.w3.org/ns/ssn",
       "http://www.w3.org/ns/sosa/oms",
-      "https://www.w3.org/ns/sosa",
       "https://saref.etsi.org/core",
       "http://www.w3.org/ns/person",
       "http://www.w3.org/ns/org",
       "http://xmlns.com/foaf/0.1",
       "http://www.w3.org/2006/vcard/ns",
-      "http://schema.org",
       "https://schema.org",
       "http://www.opengis.net/ont/geosparql",
       "http://www.w3.org/2006/time",
@@ -270,7 +268,7 @@
       "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
       "http://www.w3.org/ns/locn",
       "https://data.vlaanderen.be/ns/adres",
-      "https://dbpedia.org/ontology",
+      "http://dbpedia.org/ontology",
       "https://vocab.belgif.be/ns/network",
       "http://purl.org/dc/elements/1.1",
       "https://data.vlaanderen.be/ns/nutsvoorzieningen/meters",
@@ -284,10 +282,10 @@
     "contributors": 12,
     "participants": 20,
     "classes": 12,
-    "properties": 11,
+    "properties": 10,
     "externalclasses": 56,
-    "externalproperties": 107,
-    "totalterms": 186,
+    "externalproperties": 109,
+    "totalterms": 187,
     "totalorganisations": 14,
     "organisations": [
       {
@@ -376,11 +374,11 @@
     "editors": 9,
     "contributors": 15,
     "participants": 28,
-    "classes": 12,
+    "classes": 15,
     "properties": 12,
     "externalclasses": 15,
     "externalproperties": 32,
-    "totalterms": 71,
+    "totalterms": 74,
     "totalorganisations": 13,
     "organisations": [
       {
@@ -441,13 +439,13 @@
   {
     "title": "Applicatieprofiel Overlijdensaangifte",
     "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/overlijdensaangifte/kandidaatstandaard/2024-10-23",
-    "issued": "2024-10-23",
+    "issued": "2024-12-05",
     "navigation": {
       "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/overlijdensaangifte/kandidaatstandaard/2024-10-23"
     },
     "documenttype": "ap",
-    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "statuslabel": "Kandidaat Standaard",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "statuslabel": "Erkende Standaard",
     "namespaces": [
       "https://data.vlaanderen.be/ns/persoon",
       "http://www.w3.org/ns/person",
@@ -474,6 +472,7 @@
       "http://schema.org",
       "https://hl7.org/fhir/diagnosticreport-definitions.html",
       "http://todo.com",
+      "https://data.vlaanderen.be/ns/transactie",
       "http://www.w3.org/ns/prov",
       "http://www.w3.org/ns/locn",
       "http://www.w3.org/2001/XMLSchema",
@@ -486,11 +485,11 @@
     "editors": 9,
     "contributors": 32,
     "participants": 43,
-    "classes": 51,
-    "properties": 91,
-    "externalclasses": 76,
-    "externalproperties": 73,
-    "totalterms": 291,
+    "classes": 53,
+    "properties": 118,
+    "externalclasses": 71,
+    "externalproperties": 95,
+    "totalterms": 337,
     "totalorganisations": 22,
     "organisations": [
       {
@@ -580,208 +579,6 @@
       {
         "affiliation": "digitaalvlaanderen",
         "participants": 9
-      }
-    ],
-    "specifications": []
-  },
-  {
-    "title": "OSLO Verkeersmetingen (applicatieprofiel)",
-    "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/verkeersmetingen/erkendestandaard/2024-04-17",
-    "issued": "2023-12-01",
-    "navigation": {
-      "prev": "/doc/applicatieprofiel/verkeersmetingen/kandidaatstandaard/2023-12-01",
-      "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/verkeersmetingen/erkendestandaard/2024-04-17"
-    },
-    "documenttype": "ap",
-    "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/ErkendeStandaard",
-    "statuslabel": "Onbekend",
-    "namespaces": [
-      "https://data.vlaanderen.be/ns/verkeersmetingen",
-      "https://data.vlaanderen.be/ns/weg",
-      "http://purl.org/dc/terms",
-      "http://www.w3.org/ns/ssn",
-      "http://www.w3.org/ns/sosa",
-      "https://saref.etsi.org/core",
-      "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation",
-      "https://data.vlaanderen.be/ns/netwerk",
-      "https://data.vlaanderen.be/ns/transportnetwerk",
-      "http://def.isotc211.org/iso19156/2011/Observation",
-      "http://www.w3.org/2004/02/skos/core",
-      "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata",
-      "https://www.w3.org/TR/vocab-ssn/",
-      "https://www.w3.org/ns/sosa",
-      "https://www.w3.org/TR/vocab-ssn-ext/",
-      "http://def.isotc211.org/iso19156/2011/SamplingCurve",
-      "http://def.isotc211.org/iso19156/2011/SamplingPoint",
-      "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
-      "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
-      "http://def.isotc211.org/iso19156/2011/SamplingFeature",
-      "http://www.opengis.net/ont/geosparql",
-      "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
-      "http://purl.org/dc/elements/1.1",
-      "http://www.w3.org/ns/adms",
-      "https://def.isotc211.org/iso19156/2011/Observation",
-      "https://data.vlaanderen.be/ns/observaties-en-metingen/",
-      "http://todo.com",
-      "http://www.w3.org/ns/prov",
-      "http://www.w3.org/ns/locn",
-      "http://www.opengis.net/ont/sf",
-      "http://schemas.opengis.net/sf/1.0/simple_features_geometries.rdf",
-      "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
-      "http://def.isotc211.org/iso19108/2006/TemporalObjects",
-      "http://def.isotc211.org/iso19103/2015/MeasureTypes",
-      "http://www.w3.org/2000/01/rdf-schema",
-      "http://www.w3.org/2001/XMLSchema",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-      "http://def.isotc211.org/iso19156/2011GeneralFeatureInstance",
-      "http://def.isotc211.org/iso19103/2005/Names"
-    ],
-    "authors": 2,
-    "editors": 9,
-    "contributors": 48,
-    "participants": 58,
-    "classes": 49,
-    "properties": 39,
-    "externalclasses": 56,
-    "externalproperties": 45,
-    "totalterms": 189,
-    "totalorganisations": 34,
-    "organisations": [
-      {
-        "affiliation": "swarcobelgium",
-        "participants": 1
-      },
-      {
-        "affiliation": "icomsdetections",
-        "participants": 1
-      },
-      {
-        "affiliation": "nationaalgeografischinstituut",
-        "participants": 1
-      },
-      {
-        "affiliation": "digitaalvlaanderen",
-        "participants": 16
-      },
-      {
-        "affiliation": "signco",
-        "participants": 3
-      },
-      {
-        "affiliation": "gewestelijkeoverheidsdienstbrussel",
-        "participants": 1
-      },
-      {
-        "affiliation": "krycerbvba",
-        "participants": 1
-      },
-      {
-        "affiliation": "cropland",
-        "participants": 1
-      },
-      {
-        "affiliation": "agentschapwegenenverkeer",
-        "participants": 4
-      },
-      {
-        "affiliation": "agentschapwegenenverkeer-afdelingelektromechanicaentelematica",
-        "participants": 1
-      },
-      {
-        "affiliation": "vlaamsemilieumaatschappij",
-        "participants": 1
-      },
-      {
-        "affiliation": "geosparc",
-        "participants": 1
-      },
-      {
-        "affiliation": "departementmobiliteitenopenbarewerken",
-        "participants": 1
-      },
-      {
-        "affiliation": "be-mobile",
-        "participants": 1
-      },
-      {
-        "affiliation": "cyclomediatechnologyb.v.",
-        "participants": 1
-      },
-      {
-        "affiliation": "agentschapbinnenlandsbestuur",
-        "participants": 2
-      },
-      {
-        "affiliation": "mycsn",
-        "participants": 1
-      },
-      {
-        "affiliation": "brandweerzoneantwerpen",
-        "participants": 2
-      },
-      {
-        "affiliation": "geomobility",
-        "participants": 1
-      },
-      {
-        "affiliation": "itsbelgium",
-        "participants": 1
-      },
-      {
-        "affiliation": "stadgent",
-        "participants": 1
-      },
-      {
-        "affiliation": "",
-        "participants": 1
-      },
-      {
-        "affiliation": "provincieantwerpen",
-        "participants": 3
-      },
-      {
-        "affiliation": "stadkortrijk",
-        "participants": 1
-      },
-      {
-        "affiliation": "s-lim",
-        "participants": 1
-      },
-      {
-        "affiliation": "lantis",
-        "participants": 1
-      },
-      {
-        "affiliation": "provincievlaams-brabant",
-        "participants": 1
-      },
-      {
-        "affiliation": "movias",
-        "participants": 1
-      },
-      {
-        "affiliation": "rearwindowbv",
-        "participants": 1
-      },
-      {
-        "affiliation": "stadantwerpen",
-        "participants": 1
-      },
-      {
-        "affiliation": "agentschapwegenenverkeer-afdelingplanningencoördinatie",
-        "participants": 1
-      },
-      {
-        "affiliation": "kenniscentrumvlaamsesteden",
-        "participants": 1
-      },
-      {
-        "affiliation": "provincielimburg",
-        "participants": 1
-      },
-      {
-        "affiliation": "imec",
-        "participants": 1
       }
     ],
     "specifications": []
@@ -911,6 +708,8 @@
       "http://purl.org/dc/elements/1.1",
       "https://periodo.github.io/edtf-ontology/edtfo.ttl",
       "https://data.vlaanderen.be/ns/persoon#",
+      "http://todo.com",
+      "https://linked.art/ns/terms",
       "http://www.w3.org/ns/prov",
       "http://www.w3.org/1999/02/22-rdf-syntax-ns",
       "http://id.loc.gov/datatypes/edtf",
@@ -923,11 +722,11 @@
     "editors": 3,
     "contributors": 20,
     "participants": 27,
-    "classes": 9,
-    "properties": 9,
-    "externalclasses": 82,
-    "externalproperties": 95,
-    "totalterms": 195,
+    "classes": 18,
+    "properties": 14,
+    "externalclasses": 69,
+    "externalproperties": 109,
+    "totalterms": 210,
     "totalorganisations": 19,
     "organisations": [
       {
@@ -1096,7 +895,7 @@
   {
     "title": "Bodem en Ondergrond (Vocabularium)",
     "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01",
-    "issued": "2022-04-28",
+    "issued": "2024-10-01",
     "navigation": {
       "prev": "/doc/vocabularium/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2022-04-28",
       "self": "https://data.dev-vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
@@ -1114,9 +913,7 @@
       "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata",
       "http://def.isotc211.org/iso19156/2011/Observation",
       "http://purl.org/dc/terms",
-      "http://def.isotc211.org/iso19156/2011/SamplingCurve",
       "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures",
-      "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
       "http://www.w3.org/2000/01/rdf-schema",
       "http://www.w3.org/ns/adms",
       "http://www.opengis.net/ont/geosparql",
@@ -1130,18 +927,20 @@
       "http://www.w3.org/ns/prov",
       "http://www.opengis.net/ont/gml",
       "http://www.w3.org/2001/XMLSchema",
+      "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
       "http://purl.org/dc/elements/1.1",
-      "https://data.vlaanderen.be/ns/besluit"
+      "https://data.vlaanderen.be/ns/besluit",
+      "http://def.isotc211.org/iso19156/2011/SamplingCurve"
     ],
     "authors": 8,
     "editors": 10,
     "contributors": 72,
     "participants": 90,
-    "classes": 22,
+    "classes": 30,
     "properties": 20,
-    "externalclasses": 37,
+    "externalclasses": 31,
     "externalproperties": 28,
-    "totalterms": 107,
+    "totalterms": 109,
     "totalorganisations": 46,
     "organisations": [
       {
@@ -1332,16 +1131,16 @@
     "specifications": []
   },
   {
-    "title": "OSLO Erosiepoel",
+    "title": "Vocabularium Erosiepoel",
     "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/erosiepoel/ontwerpstandaard/toolchain4",
-    "issued": "2024-10-02",
+    "issued": "2025-07-23",
     "navigation": {
       "prev": "/doc/vocabularium/erosiepoel/ontwerpstandaard/2024-10-07",
       "self": "https://data.dev-vlaanderen.be/doc/vocabularium/erosiepoel/ontwerpstandaard/toolchain4"
     },
     "documenttype": "voc",
-    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "statuslabel": "Kandidaat Standaard",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "statuslabel": "Erkende Standaard",
     "namespaces": [
       "http://purl.org/dc/terms",
       "http://www.w3.org/ns/sosa",
@@ -1357,9 +1156,9 @@
       "http://todo.com"
     ],
     "authors": 3,
-    "editors": 8,
+    "editors": 5,
     "contributors": 14,
-    "participants": 25,
+    "participants": 22,
     "classes": 13,
     "properties": 7,
     "externalclasses": 19,
@@ -1413,7 +1212,7 @@
       },
       {
         "affiliation": "digitaalvlaanderen",
-        "participants": 7
+        "participants": 4
       },
       {
         "affiliation": "vera",
@@ -1460,11 +1259,11 @@
     "editors": 9,
     "contributors": 32,
     "participants": 43,
-    "classes": 21,
-    "properties": 53,
+    "classes": 25,
+    "properties": 58,
     "externalclasses": 32,
     "externalproperties": 25,
-    "totalterms": 131,
+    "totalterms": 140,
     "totalorganisations": 22,
     "organisations": [
       {
@@ -1596,11 +1395,11 @@
     "editors": 9,
     "contributors": 32,
     "participants": 43,
-    "classes": 21,
-    "properties": 53,
+    "classes": 25,
+    "properties": 58,
     "externalclasses": 32,
     "externalproperties": 25,
-    "totalterms": 131,
+    "totalterms": 140,
     "totalorganisations": 22,
     "organisations": [
       {
@@ -1721,11 +1520,11 @@
     "editors": 9,
     "contributors": 15,
     "participants": 28,
-    "classes": 12,
+    "classes": 15,
     "properties": 12,
     "externalclasses": 15,
     "externalproperties": 32,
-    "totalterms": 71,
+    "totalterms": 74,
     "totalorganisations": 13,
     "organisations": [
       {
@@ -1994,6 +1793,7 @@
       "http://schema.org",
       "https://hl7.org/fhir/diagnosticreport-definitions.html",
       "http://todo.com",
+      "https://data.vlaanderen.be/ns/transactie",
       "http://www.w3.org/ns/prov",
       "http://www.w3.org/ns/locn",
       "http://www.w3.org/2001/XMLSchema",
@@ -2006,11 +1806,11 @@
     "editors": 9,
     "contributors": 32,
     "participants": 43,
-    "classes": 51,
-    "properties": 91,
-    "externalclasses": 76,
-    "externalproperties": 73,
-    "totalterms": 291,
+    "classes": 53,
+    "properties": 118,
+    "externalclasses": 71,
+    "externalproperties": 95,
+    "totalterms": 337,
     "totalorganisations": 22,
     "organisations": [
       {
@@ -2141,6 +1941,7 @@
       "http://schema.org",
       "https://hl7.org/fhir/diagnosticreport-definitions.html",
       "http://todo.com",
+      "https://data.vlaanderen.be/ns/transactie",
       "http://www.w3.org/ns/prov",
       "http://www.w3.org/ns/locn",
       "http://www.w3.org/2001/XMLSchema",
@@ -2153,11 +1954,11 @@
     "editors": 9,
     "contributors": 32,
     "participants": 43,
-    "classes": 51,
-    "properties": 91,
-    "externalclasses": 76,
-    "externalproperties": 73,
-    "totalterms": 291,
+    "classes": 53,
+    "properties": 118,
+    "externalclasses": 71,
+    "externalproperties": 95,
+    "totalterms": 337,
     "totalorganisations": 22,
     "organisations": [
       {
@@ -2286,6 +2087,9 @@
       "https://data.vlaanderen.be/ns/generiek",
       "http://www.w3.org/ns/adms",
       "https://data.vlaanderen.be/ns/observaties-en-metingen",
+      "http://todo.com",
+      "http://def.isotc211.org/iso19150/-2/2012/base",
+      "https://data.vlaanderen.be/ns/persoon",
       "http://def.isotc211.org/iso19108/2006/TemporalObjects",
       "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
       "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -2302,11 +2106,11 @@
     "editors": 3,
     "contributors": 43,
     "participants": 46,
-    "classes": 50,
-    "properties": 64,
-    "externalclasses": 54,
-    "externalproperties": 49,
-    "totalterms": 217,
+    "classes": 52,
+    "properties": 77,
+    "externalclasses": 50,
+    "externalproperties": 59,
+    "totalterms": 238,
     "totalorganisations": 35,
     "organisations": [
       {
@@ -2455,14 +2259,14 @@
   {
     "title": "OSLO Verkeersmetingen (vocabularium)",
     "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/verkeersmetingen/erkendestandaard/2024-04-17",
-    "issued": "2023-12-01",
+    "issued": "2024-04-17",
     "navigation": {
       "prev": "/doc/vocabularium/verkeersmetingen/kandidaatstandaard/2023-12-01",
       "self": "https://data.dev-vlaanderen.be/doc/vocabularium/verkeersmetingen/erkendestandaard/2024-04-17"
     },
     "documenttype": "voc",
-    "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/ErkendeStandaard",
-    "statuslabel": "Onbekend",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "statuslabel": "Erkende Standaard",
     "namespaces": [
       "https://data.vlaanderen.be/ns/verkeersmetingen",
       "https://data.vlaanderen.be/ns/weg",
@@ -2490,6 +2294,7 @@
       "http://www.w3.org/ns/adms",
       "https://def.isotc211.org/iso19156/2011/Observation",
       "https://data.vlaanderen.be/ns/observaties-en-metingen/",
+      "https://data.vlaanderen.be/ns/netwerk/",
       "http://todo.com",
       "http://www.w3.org/ns/prov",
       "http://www.w3.org/ns/locn",
@@ -2508,11 +2313,11 @@
     "editors": 9,
     "contributors": 48,
     "participants": 58,
-    "classes": 49,
-    "properties": 39,
-    "externalclasses": 56,
-    "externalproperties": 45,
-    "totalterms": 189,
+    "classes": 59,
+    "properties": 41,
+    "externalclasses": 55,
+    "externalproperties": 50,
+    "totalterms": 205,
     "totalorganisations": 34,
     "organisations": [
       {

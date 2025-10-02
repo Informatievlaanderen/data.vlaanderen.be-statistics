@@ -30,7 +30,6 @@
     "http://open.vocab.org/terms",
     "http://www.w3.org/ns/locn",
     "http://rs.tdwg.org/dwc/terms",
-    "http://todo.com",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/2000/01/rdf-schema",
     "https://data.vlaanderen.be/ns/generiek",
@@ -42,11 +41,11 @@
   "editors": 4,
   "contributors": 49,
   "participants": 54,
-  "classes": 23,
-  "properties": 21,
-  "externalclasses": 25,
-  "externalproperties": 31,
-  "totalterms": 100,
+  "classes": 21,
+  "properties": 27,
+  "externalclasses": 24,
+  "externalproperties": 27,
+  "totalterms": 99,
   "totalorganisations": 33,
   "organisations": [
     {
@@ -649,10 +648,6 @@
           {
             "@language": "nl",
             "@value": "Fysiek voorkomen"
-          },
-          {
-            "@language": "nl",
-            "@value": "Fysiek voorkomen"
           }
         ]
       },
@@ -671,10 +666,6 @@
           {
             "@language": "nl",
             "@value": "Deel"
-          },
-          {
-            "@language": "nl",
-            "@value": "Deel"
           }
         ]
       },
@@ -690,10 +681,6 @@
       {
         "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Element",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Element"
-          },
           {
             "@language": "nl",
             "@value": "Element"
@@ -730,10 +717,6 @@
       {
         "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Terrein voorkomen"
-          },
           {
             "@language": "nl",
             "@value": "Terrein voorkomen"
@@ -808,42 +791,8 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Fysiek voorkomen"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Deel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Deel"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Element",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Element"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Terrein voorkomen"
-          }
-        ]
-      }
+      {},
+      {}
     ],
     "properties": [
       {
@@ -1000,7 +949,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen.voorkomen",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#voorkomen",
         "label": [
           {
             "@language": "nl",
@@ -1009,7 +958,16 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Deel.voorkomen",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#beheerder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beheerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#voorkomen",
         "label": [
           {
             "@language": "nl",
@@ -1018,7 +976,52 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekObject.bevat",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#voorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#voorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#beheerder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beheerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#eigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eigenaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#eigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eigenaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#bevat",
         "label": [
           {
             "@language": "nl",
@@ -1027,11 +1030,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Collectie.bevat",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#heeftObstakel",
         "label": [
           {
             "@language": "nl",
-            "@value": "bevat"
+            "@value": "heeft obstakel"
           }
         ]
       }
@@ -1114,10 +1117,6 @@
           {
             "@language": "nl",
             "@value": "Geometrie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
           }
         ]
       },
@@ -1196,15 +1195,6 @@
         "label": [
           {
             "@value": "Taxon"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.opengis.net/ont/geosparql#Geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
           }
         ]
       },
@@ -1502,42 +1492,6 @@
           {
             "@language": "nl",
             "@value": "wetenschappelijke soortnaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Organisatie.beheerder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beheerder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/FysiekObject.beheerder",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beheerder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Organisatie.eigenaar",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eigenaar"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/FysiekObject.eigenaar",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "eigenaar"
           }
         ]
       }

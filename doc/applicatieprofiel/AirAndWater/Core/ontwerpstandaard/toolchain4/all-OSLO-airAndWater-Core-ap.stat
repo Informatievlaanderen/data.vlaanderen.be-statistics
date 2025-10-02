@@ -1,0 +1,2511 @@
+{
+  "title": "OSLO Air & Water - Core",
+  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/AirAndWater/Core/ontwerpstandaard/toolchain4",
+  "issued": "2021-10-01",
+  "navigation": {
+    "prev": "/doc/applicatieprofiel/AirAndWater/Core/ontwerpstandaard/2021-10-01",
+    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/AirAndWater/Core/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
+  "namespaces": [
+    "http://def.isotc211.org/iso19156/2011/Observation",
+    "http://www.w3.org/ns/sosa",
+    "https://www.w3.org/TR/vocab-ssn/",
+    "http://def.isotc211.org/iso19156/2011/Specimen",
+    "http://def.isotc211.org/iso19156/2011/SamplingFeature",
+    "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
+    "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation",
+    "http://www.w3.org/ns/sosa/om",
+    "http://www.w3.org/ns/ssn/systems",
+    "http://todo.com",
+    "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
+    "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
+    "https://def.isotc211.org/iso19156/2011/Observation",
+    "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature",
+    "http://purl.org/linked-data/cube",
+    "http://www.w3.org/2004/02/skos/core",
+    "https://saref.etsi.org/core",
+    "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata",
+    "http://purl.org/dc/terms",
+    "http://www.opengis.net/ont/geosparql",
+    "http://purl.org/dc/elements/1.1",
+    "https://purl.eu/ns/air-and-water/core",
+    "https://def.isotc211.org/iso19156/2011/SamplingFeature",
+    "http://www.w3.org/ns/prov",
+    "https://purl.eu/ns/observations",
+    "http://www.w3.org/ns/ssn",
+    "http://todo",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/ns/adms",
+    "http://def.isotc211.org/iso19103/2005/Names",
+    "http://def.isotc211.org/iso19108/2006/TemporalObjects",
+    "http://def.isotc211.org/iso19115/2006/CitationAndResponsiblePartyInformation",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.or/ns/sosa/om",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
+  ],
+  "authors": 0,
+  "editors": 3,
+  "contributors": 32,
+  "participants": 35,
+  "classes": 15,
+  "properties": 6,
+  "externalclasses": 75,
+  "externalproperties": 81,
+  "totalterms": 177,
+  "totalorganisations": 20,
+  "organisations": [
+    {
+      "affiliation": "altisswiss",
+      "participants": 3
+    },
+    {
+      "affiliation": "proximus",
+      "participants": 1
+    },
+    {
+      "affiliation": "pwcbelgium",
+      "participants": 3
+    },
+    {
+      "affiliation": "imecvzw",
+      "participants": 3
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 5
+    },
+    {
+      "affiliation": "sirusnv",
+      "participants": 1
+    },
+    {
+      "affiliation": "oasc",
+      "participants": 1
+    },
+    {
+      "affiliation": "vlaamsemilieumaatschappij",
+      "participants": 4
+    },
+    {
+      "affiliation": "vlaamsinstituutvoordezee",
+      "participants": 2
+    },
+    {
+      "affiliation": "bdobelgium",
+      "participants": 1
+    },
+    {
+      "affiliation": "heidelberg",
+      "participants": 1
+    },
+    {
+      "affiliation": "smartcitieslab",
+      "participants": 1
+    },
+    {
+      "affiliation": "fiware",
+      "participants": 1
+    },
+    {
+      "affiliation": "devlaamsewaterweg",
+      "participants": 1
+    },
+    {
+      "affiliation": "hostabee",
+      "participants": 1
+    },
+    {
+      "affiliation": "vitobelgium",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementomgeving",
+      "participants": 2
+    },
+    {
+      "affiliation": "fluves",
+      "participants": 1
+    },
+    {
+      "affiliation": "kieluniversity",
+      "participants": 1
+    },
+    {
+      "affiliation": "west-vlaamseintercommunales",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [],
+    "editors": [
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwcbelgium"
+      },
+      {
+        "name": "kevinhaleydt",
+        "affiliation": "pwcbelgium"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "olivierbernard",
+        "affiliation": "altisswiss"
+      },
+      {
+        "name": "peterbraem",
+        "affiliation": "proximus"
+      },
+      {
+        "name": "driescatteceur",
+        "affiliation": "pwcbelgium"
+      },
+      {
+        "name": "pietercolpaert",
+        "affiliation": "imecvzw"
+      },
+      {
+        "name": "anneliesdecraene",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "gertdetant",
+        "affiliation": "sirusnv"
+      },
+      {
+        "name": "harmdelva",
+        "affiliation": "imecvzw"
+      },
+      {
+        "name": "vincentdemortier",
+        "affiliation": "oasc"
+      },
+      {
+        "name": "geertdevriese",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "eliendewitte",
+        "affiliation": "vlaamsinstituutvoordezee"
+      },
+      {
+        "name": "ericduchesne",
+        "affiliation": "bdobelgium"
+      },
+      {
+        "name": "benjamingaertner",
+        "affiliation": "heidelberg"
+      },
+      {
+        "name": "olaf-gerdgemein",
+        "affiliation": "smartcitieslab"
+      },
+      {
+        "name": "laurenthorvath",
+        "affiliation": "altisswiss"
+      },
+      {
+        "name": "franklavens",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "fernandolopez",
+        "affiliation": "fiware"
+      },
+      {
+        "name": "jurgenmeirlaen",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "nielsmelotte",
+        "affiliation": "devlaamsewaterweg"
+      },
+      {
+        "name": "philippemichiels",
+        "affiliation": "imecvzw"
+      },
+      {
+        "name": "katleenmiserez",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "maximemularz",
+        "affiliation": "hostabee"
+      },
+      {
+        "name": "bernardolivier",
+        "affiliation": "altisswiss"
+      },
+      {
+        "name": "franksleeuwaert",
+        "affiliation": "vitobelgium"
+      },
+      {
+        "name": "marleenvandamme",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "geertvanhaute",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "stijnvanhoey",
+        "affiliation": "fluves"
+      },
+      {
+        "name": "dwightvanlancker",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "laurianvanmaldeghem",
+        "affiliation": "vlaamsinstituutvoordezee"
+      },
+      {
+        "name": "bertvannuffelen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jesperzedlitz",
+        "affiliation": "kieluniversity"
+      },
+      {
+        "name": "brechtzwaenepoel",
+        "affiliation": "west-vlaamseintercommunales"
+      }
+    ],
+    "participants": [
+      {
+        "name": "olivierbernard",
+        "affiliation": "altisswiss"
+      },
+      {
+        "name": "peterbraem",
+        "affiliation": "proximus"
+      },
+      {
+        "name": "driescatteceur",
+        "affiliation": "pwcbelgium"
+      },
+      {
+        "name": "pietercolpaert",
+        "affiliation": "imecvzw"
+      },
+      {
+        "name": "anneliesdecraene",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "gertdetant",
+        "affiliation": "sirusnv"
+      },
+      {
+        "name": "harmdelva",
+        "affiliation": "imecvzw"
+      },
+      {
+        "name": "vincentdemortier",
+        "affiliation": "oasc"
+      },
+      {
+        "name": "geertdevriese",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "eliendewitte",
+        "affiliation": "vlaamsinstituutvoordezee"
+      },
+      {
+        "name": "ericduchesne",
+        "affiliation": "bdobelgium"
+      },
+      {
+        "name": "benjamingaertner",
+        "affiliation": "heidelberg"
+      },
+      {
+        "name": "olaf-gerdgemein",
+        "affiliation": "smartcitieslab"
+      },
+      {
+        "name": "laurenthorvath",
+        "affiliation": "altisswiss"
+      },
+      {
+        "name": "franklavens",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "fernandolopez",
+        "affiliation": "fiware"
+      },
+      {
+        "name": "jurgenmeirlaen",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "nielsmelotte",
+        "affiliation": "devlaamsewaterweg"
+      },
+      {
+        "name": "philippemichiels",
+        "affiliation": "imecvzw"
+      },
+      {
+        "name": "katleenmiserez",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "maximemularz",
+        "affiliation": "hostabee"
+      },
+      {
+        "name": "bernardolivier",
+        "affiliation": "altisswiss"
+      },
+      {
+        "name": "franksleeuwaert",
+        "affiliation": "vitobelgium"
+      },
+      {
+        "name": "marleenvandamme",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "geertvanhaute",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "stijnvanhoey",
+        "affiliation": "fluves"
+      },
+      {
+        "name": "dwightvanlancker",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "laurianvanmaldeghem",
+        "affiliation": "vlaamsinstituutvoordezee"
+      },
+      {
+        "name": "bertvannuffelen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jesperzedlitz",
+        "affiliation": "kieluniversity"
+      },
+      {
+        "name": "brechtzwaenepoel",
+        "affiliation": "west-vlaamseintercommunales"
+      },
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwcbelgium"
+      },
+      {
+        "name": "kevinhaleydt",
+        "affiliation": "pwcbelgium"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/core#ObservationProcedure.specification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "specification"
+          },
+          {
+            "@language": "en",
+            "@value": "specification"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/core#SamplingProcedure.specification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "specification"
+          },
+          {
+            "@language": "en",
+            "@value": "specification"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/core#ObservationCollection.parameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          },
+          {
+            "@language": "en",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/core#ObservationProcedure.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          },
+          {
+            "@language": "en",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/core#SamplingProcedure.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          },
+          {
+            "@language": "en",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/air-and-water/core#ObservationCollection.metadata",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "metadata"
+          },
+          {
+            "@language": "en",
+            "@value": "metadata"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Observation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Sensor",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Sensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/TR/vocab-ssn/#ssn-system",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "System"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Platform",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Platform"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Sampling",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Sampling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Sampler",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Sampler"
+          },
+          {
+            "@language": "en",
+            "@value": "Sampler"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Process",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "SamplingProcess"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "SamplingFeature"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Feature"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/MetadataEntitySetInformation#MD_Metadata",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Metadata"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "ObservationContext"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/om#ObservationProcedure",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "ObservationProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/SystemCapability",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "SystemCapability"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/SurvivalRange",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "SurvivalRange"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/OperatingRange",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "OperatingRange"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/SystemProperty",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "SystemProperty"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/SurvivalProperty",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "SurvivalProperty"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/OperatingRange",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "OperatingProperty"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/Accuracy",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Accuracy"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/Resolution",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Resolution"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/Selectivity",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Selectivity"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/Frequency",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Frequency"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/Precision",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Precision"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/Latency",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Latency"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/DetectionLimit",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "DetectionLimit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/Drift",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Drift"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/ResponseTime",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "ResponseTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/Sensitivity",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Sensitivity"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/MeasurementRange",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "MeasurementRange"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Repeatablity",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Repeatability"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/MaintenanceSchedule",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "MaintenanceSchedule"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/OperatingPowerRange",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "OperatingPowerRange"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/SystemLifetime",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "SystemLifetime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/BatteryLifetime",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "BatteryLifetime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/Condition",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Condition"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "PropertyType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#LI_Lineage",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "LI_Lineage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://def.isotc211.org/iso19156/2011/Observation#CategoryObservation",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "CategoryObservation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://def.isotc211.org/iso19156/2011/Observation#ComplexObservation",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "ComplexObservation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://def.isotc211.org/iso19156/2011/Observation#CountObservation",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "CountObservation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://def.isotc211.org/iso19156/2011/Observation#GeometryObservation",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "GeometryObservation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://def.isotc211.org/iso19156/2011/Observation#Measurement",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Measurement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://def.isotc211.org/iso19156/2011/Observation#TemporalObservation",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "TemporalObservation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://def.isotc211.org/iso19156/2011/Observation#TimeseriesObservation",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "TimeSeriesObservation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://def.isotc211.org/iso19156/2011/Observation#TruthObservation",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "TruthObservation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://def.isotc211.org/iso19156/2011/Observation#PointCoverageObservation",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "PointCoverageObservation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "SpatialSamplingFeature"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/ObservationCollection",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "ObservationCollection"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Specimen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SamplingFeatureComplex",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "SamplingFeatureComplex"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/linked-data/cube#Slice",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Slice"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#PreparationStep",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "PreparationStep"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/om#SamplingProcedure",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "SamplingProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "DQ_Element"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "ObservationProcedureType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "SamplingProcedureType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "SamplingMethodType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Process",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Process"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Procedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/Device",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Device"
+          },
+          {
+            "@language": "en",
+            "@value": "Device"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/Task",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Task"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/Function",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Function"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Any",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Any"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          },
+          {
+            "@language": "en",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Geometry"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "NamedValue"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identifier"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/Names#GenericName",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "GenericName"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "TM_Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/CitationAndResponsiblePartyInformation#CI_ResponsibleParty",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "CI_ResponsibleParty"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Location"
+          },
+          {
+            "@language": "en",
+            "@value": "Location"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Process",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Process"
+          },
+          {
+            "@language": "en",
+            "@value": "Process"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.or/ns/sosa/om#SamplingProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Procedure"
+          },
+          {
+            "@language": "en",
+            "@value": "Procedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Observation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LangString"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasSimpleResult",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hasSimpleResult"
+          },
+          {
+            "@language": "en",
+            "@value": "hasSimpleResult"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/resultTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultTime"
+          },
+          {
+            "@language": "en",
+            "@value": "resultTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultTime"
+          },
+          {
+            "@language": "en",
+            "@value": "resultTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/resultTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultTime"
+          },
+          {
+            "@language": "en",
+            "@value": "resultTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "asWKT"
+          },
+          {
+            "@language": "en",
+            "@value": "asWKT"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "asGML"
+          },
+          {
+            "@language": "en",
+            "@value": "asGML"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/rights",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rights"
+          },
+          {
+            "@language": "en",
+            "@value": "rights"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/subject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "subject"
+          },
+          {
+            "@language": "en",
+            "@value": "subject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "title"
+          },
+          {
+            "@language": "en",
+            "@value": "title"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/hasManufacturer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "manufacturer"
+          },
+          {
+            "@language": "en",
+            "@value": "manufacturer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/hasModel",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "model"
+          },
+          {
+            "@language": "nl",
+            "@value": "model"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "description"
+          },
+          {
+            "@language": "en",
+            "@value": "description"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identifier"
+          },
+          {
+            "@language": "en",
+            "@value": "identifier"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "phenomenonTime"
+          },
+          {
+            "@language": "en",
+            "@value": "phenomenonTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SamplingFeatureComplex.role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "role"
+          },
+          {
+            "@language": "en",
+            "@value": "role"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.materialClass",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "materialClass"
+          },
+          {
+            "@language": "en",
+            "@value": "materialClass"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultQuality"
+          },
+          {
+            "@language": "en",
+            "@value": "resultQuality"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          },
+          {
+            "@language": "en",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "samplingTime"
+          },
+          {
+            "@language": "en",
+            "@value": "samplingTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingLocation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "samplingLocation"
+          },
+          {
+            "@language": "en",
+            "@value": "samplingLocation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.samplingMethod",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "samplingMethod"
+          },
+          {
+            "@language": "en",
+            "@value": "samplingMethod"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hasSystemCapability"
+          },
+          {
+            "@language": "en",
+            "@value": "hasSystemCapability"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/hasOperatingRange",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hasOperatingRange"
+          },
+          {
+            "@language": "en",
+            "@value": "hasOperatingRange"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSurvivalRange",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hasSurvivalRange"
+          },
+          {
+            "@language": "en",
+            "@value": "hasSurvivalRange"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSystemProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hasSystemProperty"
+          },
+          {
+            "@language": "en",
+            "@value": "hasSystemProperty"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/inCondition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inCondition"
+          },
+          {
+            "@language": "en",
+            "@value": "inCondition"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/inCondition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inCondition"
+          },
+          {
+            "@language": "en",
+            "@value": "inCondition"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/inCondition",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inCondition"
+          },
+          {
+            "@language": "en",
+            "@value": "inCondition"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/hasOperatingProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hasOperatingProperty"
+          },
+          {
+            "@language": "en",
+            "@value": "hasOperatingProperty"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSurvivalProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hasSurvivalProperty"
+          },
+          {
+            "@language": "en",
+            "@value": "hasSurvivalProperty"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.lineage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lineage"
+          },
+          {
+            "@language": "en",
+            "@value": "lineage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.parameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          },
+          {
+            "@language": "en",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SpatialSamplingFeature.shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "shape"
+          },
+          {
+            "@language": "en",
+            "@value": "shape"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hasFeatureOfInterest"
+          },
+          {
+            "@language": "en",
+            "@value": "hasFeatureOfInterest"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasUltimateFeatureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hasUltimateFeatureOfInterest"
+          },
+          {
+            "@language": "en",
+            "@value": "hasUltimateFeatureOfInterest"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "madeBySensor"
+          },
+          {
+            "@language": "en",
+            "@value": "madeBySensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "phenomenonTime"
+          },
+          {
+            "@language": "en",
+            "@value": "phenomenonTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "usedProcedure"
+          },
+          {
+            "@language": "en",
+            "@value": "usedProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasUltimateFeatureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hasUltimateFeatureOfInterest"
+          },
+          {
+            "@language": "en",
+            "@value": "hasUltimateFeatureOfInterest"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "observedProperty"
+          },
+          {
+            "@language": "en",
+            "@value": "observedProperty"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/contributor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contributor"
+          },
+          {
+            "@language": "en",
+            "@value": "contributor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "creator"
+          },
+          {
+            "@language": "en",
+            "@value": "creator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identifier"
+          },
+          {
+            "@language": "en",
+            "@value": "identifier"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/publisher",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publisher"
+          },
+          {
+            "@language": "en",
+            "@value": "publisher"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#PreparationStep.time",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "time"
+          },
+          {
+            "@language": "en",
+            "@value": "time"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#PreparationStep.processOperator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "processOperator"
+          },
+          {
+            "@language": "en",
+            "@value": "processOperator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "role"
+          },
+          {
+            "@language": "en",
+            "@value": "role"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/hasFunction",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "function"
+          },
+          {
+            "@language": "en",
+            "@value": "function"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://saref.etsi.org/core/accomplishes",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "task"
+          },
+          {
+            "@language": "en",
+            "@value": "task"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#atLocation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "location"
+          },
+          {
+            "@language": "en",
+            "@value": "location"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "usedProcedure"
+          },
+          {
+            "@language": "en",
+            "@value": "usedProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeSampling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "madeSampling"
+          },
+          {
+            "@language": "en",
+            "@value": "madeSampling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeBySampler",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "madeBySampler"
+          },
+          {
+            "@language": "en",
+            "@value": "madeBySampler"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/isResultOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isResultOf"
+          },
+          {
+            "@language": "en",
+            "@value": "isResultOf"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hasResult"
+          },
+          {
+            "@language": "en",
+            "@value": "hasResult"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "madeObservation"
+          },
+          {
+            "@language": "en",
+            "@value": "madeObservation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "madeBySensor"
+          },
+          {
+            "@language": "en",
+            "@value": "madeBySensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatedObservation"
+          },
+          {
+            "@language": "en",
+            "@value": "relatedObservation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/observations#ObservationContext.observation.source",
+        "label": [
+          {
+            "@value": "Observation (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/observations#ObservationContext.observation.target",
+        "label": [
+          {
+            "@value": "Observation (target)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.metadata",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "metadata"
+          },
+          {
+            "@language": "en",
+            "@value": "metadata"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/implementedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "implementedBy"
+          },
+          {
+            "@language": "en",
+            "@value": "implementedBy"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/implements",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "implements"
+          },
+          {
+            "@language": "en",
+            "@value": "implements"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hosts",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "hosts"
+          },
+          {
+            "@language": "nl",
+            "@value": "hosts"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/isHostedBy",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "isHostedBy"
+          },
+          {
+            "@language": "nl",
+            "@value": "isHostedBy"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.sampledFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "sampledFeature"
+          },
+          {
+            "@language": "en",
+            "@value": "sampledFeature"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "observedProperty"
+          },
+          {
+            "@language": "en",
+            "@value": "observedProperty"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/isObservedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isObservedBy"
+          },
+          {
+            "@language": "en",
+            "@value": "isObservedBy"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/observes",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "observes"
+          },
+          {
+            "@language": "en",
+            "@value": "observes"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "result"
+          },
+          {
+            "@language": "en",
+            "@value": "result"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasMember",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hasMember"
+          },
+          {
+            "@language": "en",
+            "@value": "hasMember"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SamplingFeatureComplex.relatedSamplingFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatedSamplingFeature"
+          },
+          {
+            "@language": "en",
+            "@value": "relatedSamplingFeature"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/observations#SamplingFeaturecomplex.samplingFeature.source",
+        "label": [
+          {
+            "@value": "SamplingFeature (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/observations#SamplingFeaturecomplex.samplingFeature.target",
+        "label": [
+          {
+            "@value": "SamplingFeature (target)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Specimen#SF_Specimen.processingDetails",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "processingDetails"
+          },
+          {
+            "@language": "en",
+            "@value": "processingDetails"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/observations#PreparationStep.Specimen",
+        "label": [
+          {
+            "@value": "PreparationStep.Specimen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/observations#PreparationStep.SamplingProces",
+        "label": [
+          {
+            "@value": "PreparationStep.SamplingProces"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "usedProcedure"
+          },
+          {
+            "@language": "en",
+            "@value": "usedProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hasFeatureOfInterest"
+          },
+          {
+            "@language": "en",
+            "@value": "hasFeatureOfInterest"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "featureOfInterest"
+          },
+          {
+            "@language": "en",
+            "@value": "featureOfInterest"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo/",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "propertyValueProviider"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "altisswiss",
+        "names": [
+          {
+            "name": "olivierbernard",
+            "affiliation": "altisswiss"
+          },
+          {
+            "name": "laurenthorvath",
+            "affiliation": "altisswiss"
+          },
+          {
+            "name": "bernardolivier",
+            "affiliation": "altisswiss"
+          }
+        ]
+      },
+      {
+        "affiliation": "proximus",
+        "names": [
+          {
+            "name": "peterbraem",
+            "affiliation": "proximus"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwcbelgium",
+        "names": [
+          {
+            "name": "driescatteceur",
+            "affiliation": "pwcbelgium"
+          },
+          {
+            "name": "michieldekeyzer",
+            "affiliation": "pwcbelgium"
+          },
+          {
+            "name": "kevinhaleydt",
+            "affiliation": "pwcbelgium"
+          }
+        ]
+      },
+      {
+        "affiliation": "imecvzw",
+        "names": [
+          {
+            "name": "pietercolpaert",
+            "affiliation": "imecvzw"
+          },
+          {
+            "name": "harmdelva",
+            "affiliation": "imecvzw"
+          },
+          {
+            "name": "philippemichiels",
+            "affiliation": "imecvzw"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "anneliesdecraene",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "dwightvanlancker",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "ziggyvanlishout",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "bertvannuffelen",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "geertthijs",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "sirusnv",
+        "names": [
+          {
+            "name": "gertdetant",
+            "affiliation": "sirusnv"
+          }
+        ]
+      },
+      {
+        "affiliation": "oasc",
+        "names": [
+          {
+            "name": "vincentdemortier",
+            "affiliation": "oasc"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamsemilieumaatschappij",
+        "names": [
+          {
+            "name": "geertdevriese",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "franklavens",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "jurgenmeirlaen",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "katleenmiserez",
+            "affiliation": "vlaamsemilieumaatschappij"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamsinstituutvoordezee",
+        "names": [
+          {
+            "name": "eliendewitte",
+            "affiliation": "vlaamsinstituutvoordezee"
+          },
+          {
+            "name": "laurianvanmaldeghem",
+            "affiliation": "vlaamsinstituutvoordezee"
+          }
+        ]
+      },
+      {
+        "affiliation": "bdobelgium",
+        "names": [
+          {
+            "name": "ericduchesne",
+            "affiliation": "bdobelgium"
+          }
+        ]
+      },
+      {
+        "affiliation": "heidelberg",
+        "names": [
+          {
+            "name": "benjamingaertner",
+            "affiliation": "heidelberg"
+          }
+        ]
+      },
+      {
+        "affiliation": "smartcitieslab",
+        "names": [
+          {
+            "name": "olaf-gerdgemein",
+            "affiliation": "smartcitieslab"
+          }
+        ]
+      },
+      {
+        "affiliation": "fiware",
+        "names": [
+          {
+            "name": "fernandolopez",
+            "affiliation": "fiware"
+          }
+        ]
+      },
+      {
+        "affiliation": "devlaamsewaterweg",
+        "names": [
+          {
+            "name": "nielsmelotte",
+            "affiliation": "devlaamsewaterweg"
+          }
+        ]
+      },
+      {
+        "affiliation": "hostabee",
+        "names": [
+          {
+            "name": "maximemularz",
+            "affiliation": "hostabee"
+          }
+        ]
+      },
+      {
+        "affiliation": "vitobelgium",
+        "names": [
+          {
+            "name": "franksleeuwaert",
+            "affiliation": "vitobelgium"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementomgeving",
+        "names": [
+          {
+            "name": "marleenvandamme",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "geertvanhaute",
+            "affiliation": "departementomgeving"
+          }
+        ]
+      },
+      {
+        "affiliation": "fluves",
+        "names": [
+          {
+            "name": "stijnvanhoey",
+            "affiliation": "fluves"
+          }
+        ]
+      },
+      {
+        "affiliation": "kieluniversity",
+        "names": [
+          {
+            "name": "jesperzedlitz",
+            "affiliation": "kieluniversity"
+          }
+        ]
+      },
+      {
+        "affiliation": "west-vlaamseintercommunales",
+        "names": [
+          {
+            "name": "brechtzwaenepoel",
+            "affiliation": "west-vlaamseintercommunales"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -25,7 +25,6 @@
     "http://data.europa.eu/eli/ontology",
     "http://www.w3.org/ns/regorg",
     "https://data.vlaanderen.be/ns/dienst",
-    "http://todo.com",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/2000/01/rdf-schema",
@@ -35,11 +34,11 @@
   "editors": 2,
   "contributors": 10,
   "participants": 27,
-  "classes": 6,
+  "classes": 8,
   "properties": 2,
-  "externalclasses": 45,
-  "externalproperties": 75,
-  "totalterms": 128,
+  "externalclasses": 43,
+  "externalproperties": 72,
+  "totalterms": 125,
   "totalorganisations": 10,
   "organisations": [
     {
@@ -357,7 +356,9 @@
             "@value": "String"
           }
         ]
-      }
+      },
+      {},
+      {}
     ],
     "properties": [
       {
@@ -370,10 +371,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/dienst#Participatie.publiekeDienstverlening",
+        "assignedURI": "https://data.vlaanderen.be/ns/dienst#isVerantwoordelijkVoor",
         "label": [
           {
-            "@value": "Participatie.PubliekeDienstverlening"
+            "@language": "nl",
+            "@value": "is verantwoordelijk voor"
           }
         ]
       }
@@ -555,10 +557,6 @@
           {
             "@language": "nl",
             "@value": "Agent"
-          },
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
@@ -591,10 +589,6 @@
       {
         "assignedURI": "http://www.w3.org/ns/org#Organization",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          },
           {
             "@language": "nl",
             "@value": "Organisatie"
@@ -634,24 +628,6 @@
           {
             "@language": "nl",
             "@value": "Entiteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Organization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
           }
         ]
       },
@@ -1399,32 +1375,6 @@
           {
             "@language": "nl",
             "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Participatie.agent",
-        "label": [
-          {
-            "@value": "Participatie.Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/requires",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vereist"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/relation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "relatie"
           }
         ]
       },

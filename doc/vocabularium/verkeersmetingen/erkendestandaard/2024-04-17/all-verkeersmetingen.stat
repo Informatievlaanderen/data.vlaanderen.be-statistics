@@ -1,14 +1,14 @@
 {
   "title": "OSLO Verkeersmetingen (vocabularium)",
   "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/verkeersmetingen/erkendestandaard/2024-04-17",
-  "issued": "2023-12-01",
+  "issued": "2024-04-17",
   "navigation": {
     "prev": "/doc/vocabularium/verkeersmetingen/kandidaatstandaard/2023-12-01",
     "self": "https://data.dev-vlaanderen.be/doc/vocabularium/verkeersmetingen/erkendestandaard/2024-04-17"
   },
   "documenttype": "voc",
-  "status": "https://data.vlaanderen.be/doc/concept/StandaardStatus/ErkendeStandaard",
-  "statuslabel": "Onbekend",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/verkeersmetingen",
     "https://data.vlaanderen.be/ns/weg",
@@ -36,6 +36,7 @@
     "http://www.w3.org/ns/adms",
     "https://def.isotc211.org/iso19156/2011/Observation",
     "https://data.vlaanderen.be/ns/observaties-en-metingen/",
+    "https://data.vlaanderen.be/ns/netwerk/",
     "http://todo.com",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/ns/locn",
@@ -54,11 +55,11 @@
   "editors": 9,
   "contributors": 48,
   "participants": 58,
-  "classes": 49,
-  "properties": 39,
-  "externalclasses": 56,
-  "externalproperties": 45,
-  "totalterms": 189,
+  "classes": 59,
+  "properties": 41,
+  "externalclasses": 55,
+  "externalproperties": 50,
+  "totalterms": 205,
   "totalorganisations": 34,
   "organisations": [
     {
@@ -765,14 +766,6 @@
           {
             "@language": "en",
             "@value": "TrafficDomainObject"
-          },
-          {
-            "@language": "nl",
-            "@value": "Verkeersdomeinobject"
-          },
-          {
-            "@language": "en",
-            "@value": "TrafficDomainObject"
           }
         ]
       },
@@ -844,14 +837,6 @@
       {
         "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegobject",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Wegobject"
-          },
-          {
-            "@language": "en",
-            "@value": "RoadObject"
-          },
           {
             "@language": "nl",
             "@value": "Wegobject"
@@ -1054,28 +1039,12 @@
           {
             "@language": "en",
             "@value": "fromPosition"
-          },
-          {
-            "@language": "nl",
-            "@value": "Linkreferentie"
-          },
-          {
-            "@language": "en",
-            "@value": "fromPosition"
           }
         ]
       },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkreferentie",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Netwerkreferentie"
-          },
-          {
-            "@language": "en",
-            "@value": "NetworkReference"
-          },
           {
             "@language": "nl",
             "@value": "Netwerkreferentie"
@@ -1115,14 +1084,6 @@
       {
         "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Formaat",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Formaat"
-          },
-          {
-            "@language": "en",
-            "@value": "Format"
-          },
           {
             "@language": "nl",
             "@value": "Formaat"
@@ -1186,19 +1147,15 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#Verkeersdomeinobject",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Verkeersdomeinobject"
-          },
-          {
-            "@language": "en",
-            "@value": "TrafficDomainObject"
-          }
-        ]
-      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap",
         "label": [
@@ -1208,32 +1165,8 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linkreferentie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Linkreferentie"
-          },
-          {
-            "@language": "en",
-            "@value": "fromPosition"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegobject",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Wegobject"
-          },
-          {
-            "@language": "en",
-            "@value": "RoadObject"
-          }
-        ]
-      },
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop",
         "label": [
@@ -1243,19 +1176,7 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkreferentie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Netwerkreferentie"
-          },
-          {
-            "@language": "en",
-            "@value": "NetworkReference"
-          }
-        ]
-      },
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlink",
         "label": [
@@ -1265,19 +1186,9 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Formaat",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Formaat"
-          },
-          {
-            "@language": "en",
-            "@value": "Format"
-          }
-        ]
-      },
+      {},
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie",
         "label": [
@@ -1732,6 +1643,32 @@
           {
             "@language": "en",
             "@value": "observedFeature"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#eindknoop",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eindknoop"
+          },
+          {
+            "@language": "en",
+            "@value": "endNode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk/#beginknoop",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beginknoop"
+          },
+          {
+            "@language": "en",
+            "@value": "startNode"
           }
         ]
       },
@@ -2202,14 +2139,6 @@
           {
             "@language": "en",
             "@value": "Geometry"
-          },
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
-          },
-          {
-            "@language": "en",
-            "@value": "Geometry"
           }
         ]
       },
@@ -2402,19 +2331,6 @@
           {
             "@language": "nl",
             "@value": "Bemonsteringscurve  (OSLO-ObservatiesEnMetingen)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
-          },
-          {
-            "@language": "en",
-            "@value": "Geometry"
           }
         ]
       },
@@ -3039,6 +2955,32 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/sosa/isHostedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gehostDoor"
+          },
+          {
+            "@language": "en",
+            "@value": "hostedBy"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/sosa/hosts",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "host van"
+          },
+          {
+            "@language": "en",
+            "@value": "hostOf"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.metadata",
         "label": [
           {
@@ -3048,6 +2990,45 @@
           {
             "@language": "en",
             "@value": "metadata"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikteProcedure"
+          },
+          {
+            "@language": "en",
+            "@value": "usedProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/implementedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geïmplementeerdMet"
+          },
+          {
+            "@language": "en",
+            "@value": "implementedWith"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/implements",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "implementeert"
+          },
+          {
+            "@language": "en",
+            "@value": "implements"
           }
         ]
       },

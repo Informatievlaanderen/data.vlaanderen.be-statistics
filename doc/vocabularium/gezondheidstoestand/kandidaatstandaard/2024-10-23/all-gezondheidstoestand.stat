@@ -1,14 +1,14 @@
 {
   "title": "Vocabularium Gezondheidstoestand Persoon",
   "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/gezondheidstoestand/kandidaatstandaard/2024-10-23",
-  "issued": "2024-10-23",
+  "issued": "2025-02-25",
   "navigation": {
     "next": "/doc/vocabularium/overlijdensaangifte/erkendestandaard/2024-12-05",
     "self": "https://data.dev-vlaanderen.be/doc/vocabularium/gezondheidstoestand/kandidaatstandaard/2024-10-23"
   },
   "documenttype": "voc",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-  "statuslabel": "Kandidaat Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
   "namespaces": [
     "http://www.w3.org/ns/person",
     "https://data.vlaanderen.be/ns/gezondheidstoestand",
@@ -16,15 +16,17 @@
     "https://hl7.org/fhir/medication-definitions.html",
     "https://www.hl7.org/fhir/nutritionintake-definitions.html",
     "https://www.hl7.org/fhir/diagnosticreport-definitions.html",
-    "https://build.fhir.org/observation-definitions.html",
     "http://www.w3.org/2004/02/skos/core",
+    "https://build.fhir.org/observation-definitions.html",
+    "http://purl.org/dc/terms",
     "http://xmlns.com/foaf/0.1",
     "https://data.vlaanderen.be/ns/persoon",
     "https://hl7.org/fhir/observation-definitions.html",
+    "http://purl.org/dc/elements/1.1",
     "http://schema.org",
-    "http://purl.org/dc/terms",
     "https://hl7.org/fhir/diagnosticreport-definitions.html",
     "http://todo.com",
+    "http://hl7.org/fhir/StructureDefinition",
     "http://www.w3.org/2001/XMLSchema",
     "http://data.europa.eu/m8g",
     "https://schema.org",
@@ -36,11 +38,11 @@
   "editors": 9,
   "contributors": 32,
   "participants": 43,
-  "classes": 21,
-  "properties": 53,
-  "externalclasses": 32,
-  "externalproperties": 25,
-  "totalterms": 131,
+  "classes": 32,
+  "properties": 89,
+  "externalclasses": 43,
+  "externalproperties": 35,
+  "totalterms": 199,
   "totalorganisations": 22,
   "organisations": [
     {
@@ -632,10 +634,47 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#SpecifiekeBehoefte",
         "label": [
           {
-            "@value": "String"
+            "@language": "nl",
+            "@value": "Specifieke Behoefte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Aandoening",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aandoening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Allergeen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Allergeen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Beperking",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beperking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Dieetvoorkeur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dieetvoorkeur"
           }
         ]
       },
@@ -648,6 +687,22 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#int",
         "label": [
           {
@@ -655,6 +710,18 @@
           }
         ]
       },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "Boolean"
+          }
+        ]
+      },
+      {},
+      {},
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsgebeurtenis",
         "label": [
@@ -675,6 +742,42 @@
       }
     ],
     "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#diagnosedatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "diagnosedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#dagelijkseRoutine",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dagelijkse routine"
+          }
+        ]
+      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#alternatieveNaam",
         "label": [
@@ -703,6 +806,150 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#omgaanMetBehoefte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "omgaan met behoefte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#zorgnood",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zorgnood"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#behandeling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "behandeling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#diagnosedatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "diagnosedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#naam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#oorzaak",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oorzaak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#behandeling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "behandeling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#diagnosedatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "diagnosedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#ernst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ernst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#oorzaak",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oorzaak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#bijwerking",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bijwerking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#dosering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dosering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#einddatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einddatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#frequentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "frequentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#reden",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reden"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#startdatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "startdatum"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Geboortetoestand.rang",
         "label": [
           {
@@ -712,11 +959,92 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#actief",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "actief"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#ernst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ernst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#reactie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reactie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#geslacht",
         "label": [
           {
             "@language": "nl",
             "@value": "geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#dieetvoorkeur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dieetvoorkeur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#beperking",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beperking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#reactie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reactie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#toediening",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toediening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#allergeen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "allergeen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#allergie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "allergie"
           }
         ]
       },
@@ -928,6 +1256,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevallingstoestand.liggingKindBevalling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ligging kind bevalling"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Gezondheidstoestand.zorg",
         "label": [
           {
@@ -973,15 +1310,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevallingstoestand.liggingKindBevalling",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ligging kind bevalling"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#statusZwangerschap",
         "label": [
           {
@@ -1009,11 +1337,27 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#wordtGeobserveerdDoor",
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isRelatieMet",
         "label": [
           {
             "@language": "nl",
-            "@value": "wordt geobserveerd door"
+            "@value": "heeft relatie met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
+        "label": [
+          {
+            "@value": "Persoon (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
+        "label": [
+          {
+            "@value": "Persoon (target)"
           }
         ]
       },
@@ -1027,7 +1371,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#heeftFoetus",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Zwangerschap.heeftFoetus",
         "label": [
           {
             "@language": "nl",
@@ -1045,7 +1389,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#wordtGevoedDoor",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#MedischeToestand.wordtGevoedDoor",
         "label": [
           {
             "@language": "nl",
@@ -1063,7 +1407,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#ontstaatDoor",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Conceptie.onststaatDoor",
         "label": [
           {
             "@language": "nl",
@@ -1081,7 +1425,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#opgesteldDoor",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#MedischVerslag.opgesteldDoor",
         "label": [
           {
             "@language": "nl",
@@ -1090,20 +1434,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#vastgesteld",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#toestandVan",
         "label": [
           {
             "@language": "nl",
-            "@value": "vastgesteld"
+            "@value": "toestand van"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#vastgesteldDoor",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Gezondheidstoestand.heeftMedischeToestand",
         "label": [
           {
             "@language": "nl",
-            "@value": "vastgesteld door"
+            "@value": "heeft gezondheidstoestand"
           }
         ]
       },
@@ -1117,7 +1461,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#heeftAssistentie",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#AssistentieBevalling.heeftAssistentie",
         "label": [
           {
             "@language": "nl",
@@ -1126,7 +1470,25 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#gedocumenteerdDoor",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#vastgesteld",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vastgesteld"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#MedischeObservatie.vastgesteldDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vastgesteld door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#MedischeObservatie.gedocumenteerdDoor",
         "label": [
           {
             "@language": "nl",
@@ -1144,11 +1506,38 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#volgtOp",
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevalling.volgtOp",
         "label": [
           {
             "@language": "nl",
             "@value": "volgt op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#wordtGeobserveerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wordt geobserveerd door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Persoon.heeftZwangerschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft zwangerschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#Bevalling.heeftBevalling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft bevalling"
           }
         ]
       }
@@ -1200,6 +1589,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DosisFormaat"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://build.fhir.org/observation-definitions.html#Observation",
         "label": [
           {
@@ -1209,11 +1607,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "assignedURI": "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance",
         "label": [
           {
             "@language": "nl",
-            "@value": "DosisFormaat"
+            "@value": "Allergie"
           }
         ]
       },
@@ -1243,6 +1641,51 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aandoeningtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ErnstType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Reactietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beperkingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dieetvoorkeurtype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://schema.org/ContactPoint",
         "label": [
           {
@@ -1256,6 +1699,51 @@
         "label": [
           {
             "@value": "Geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Allergeentype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Allergietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toedieningtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Medicatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Allergie"
           }
         ]
       },
@@ -1363,6 +1851,15 @@
         "label": [
           {
             "@language": "nl",
+            "@value": "Observatiestatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
             "@value": "FoetaleBewakingType"
           }
         ]
@@ -1417,15 +1914,6 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Observatiestatus"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
             "@value": "StatusZwangerschap"
           }
         ]
@@ -1441,6 +1929,24 @@
       }
     ],
     "externalproperties": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
       {
         "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
         "label": [
@@ -1469,6 +1975,24 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation.effective",
         "label": [
           {
@@ -1478,11 +2002,65 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://schema.org/contactPoint",
         "label": [
           {
             "@language": "nl",
             "@value": "contactpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
           }
         ]
       },
@@ -1559,33 +2137,6 @@
         ]
       },
       {
-        "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation.category",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "categorie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://hl7.org/fhir/medication-definitions.html#Medication.ingredient",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ingrediënt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation.status",
         "label": [
           {
@@ -1631,6 +2182,33 @@
         ]
       },
       {
+        "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation.category",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "categorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://hl7.org/fhir/medication-definitions.html#Medication.ingredient",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ingrediënt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://hl7.org/fhir/diagnosticreport-definitions.html#DiagnosticReport.status",
         "label": [
           {
@@ -1640,7 +2218,16 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/komtVoortUit",
+        "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation.issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "documenteert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Foetus.komtVoortUit",
         "label": [
           {
             "@language": "nl",
@@ -1654,15 +2241,6 @@
           {
             "@language": "nl",
             "@value": "uitvoerder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://hl7.org/fhir/observation-definitions.html#Observation.issued",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "documenteert"
           }
         ]
       }

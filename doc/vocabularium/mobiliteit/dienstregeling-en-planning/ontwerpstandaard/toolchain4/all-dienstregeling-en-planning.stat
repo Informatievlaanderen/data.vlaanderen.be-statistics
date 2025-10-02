@@ -1,7 +1,7 @@
 {
   "title": "OSLO Mobiliteit - Dienstregeling en Planning (Vocabularium)",
   "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/mobiliteit/dienstregeling-en-planning/ontwerpstandaard/toolchain4",
-  "issued": "2025-01-06",
+  "issued": "2025-08-22",
   "navigation": {
     "prev": "/doc/vocabularium/mobiliteit/dienstregeling-en-planning/erkendestandaard/2022-04-21",
     "self": "https://data.dev-vlaanderen.be/doc/vocabularium/mobiliteit/dienstregeling-en-planning/ontwerpstandaard/toolchain4"
@@ -15,15 +15,15 @@
     "http://www.w3.org/ns/regorg",
     "http://purl.org/dc/terms",
     "http://purl.org/dc/elements/1.1",
-    "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/2004/02/skos/core",
+    "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2006/vcard/ns",
     "http://xmlns.com/foaf/0.1",
     "http://schema.org",
     "https://schema.org",
-    "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/ns/locn",
+    "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.opengis.net/ont/sf",
@@ -35,11 +35,11 @@
   "editors": 5,
   "contributors": 12,
   "participants": 19,
-  "classes": 102,
-  "properties": 346,
+  "classes": 103,
+  "properties": 333,
   "externalclasses": 64,
-  "externalproperties": 56,
-  "totalterms": 568,
+  "externalproperties": 74,
+  "totalterms": 574,
   "totalorganisations": 9,
   "organisations": [
     {
@@ -1407,6 +1407,7 @@
           }
         ]
       },
+      {},
       {
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#AccessMode",
         "label": [
@@ -2150,6 +2151,19 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          },
+          {
+            "@language": "en",
+            "@value": "land"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#DayType.shortName",
         "label": [
           {
@@ -2675,6 +2689,15 @@
         ]
       },
       {
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#text",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "text"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#Notice.publicCode",
         "label": [
           {
@@ -2693,6 +2716,19 @@
           {
             "@language": "en",
             "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          },
+          {
+            "@language": "en",
+            "@value": "gemeentenaam"
           }
         ]
       },
@@ -4684,32 +4720,6 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#at",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "at"
-          },
-          {
-            "@language": "nl",
-            "@value": "bij"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#passedAt",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "passed at"
-          },
-          {
-            "@language": "nl",
-            "@value": "passeerde"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#madeUpOf",
         "label": [
           {
@@ -4736,7 +4746,7 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#madeUpOf",
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#Line.madeUpOf",
         "label": [
           {
             "@language": "en",
@@ -4809,19 +4819,6 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#madeUsing",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "made using"
-          },
-          {
-            "@language": "nl",
-            "@value": "gemaakt met"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#viewedAs",
         "label": [
           {
@@ -4848,27 +4845,6 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#through",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "through"
-          },
-          {
-            "@language": "nl",
-            "@value": "door"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#linkSequence",
-        "label": [
-          {
-            "@value": "^linkSequence"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#from",
         "label": [
           {
@@ -4882,7 +4858,7 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#startOf",
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#RoutePoint.startOf",
         "label": [
           {
             "@language": "en",
@@ -4908,59 +4884,7 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#endOf",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "end of"
-          },
-          {
-            "@language": "nl",
-            "@value": "einde van"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#from",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "from"
-          },
-          {
-            "@language": "nl",
-            "@value": "van"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#startOf",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "start of"
-          },
-          {
-            "@language": "nl",
-            "@value": "start van"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#to",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "to"
-          },
-          {
-            "@language": "nl",
-            "@value": "tot"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#endOf",
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#RoutePoint.endOf",
         "label": [
           {
             "@language": "en",
@@ -5008,7 +4932,7 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#scheduledStopPoint",
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.scheduledStopPoint",
         "label": [
           {
             "@language": "nl",
@@ -5021,7 +4945,7 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment.stopPlace",
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment.StopPlace",
         "label": [
           {
             "@value": "PassengerStopAssignment.StopPlace"
@@ -5029,7 +4953,7 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment.scheduledStopPoint",
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment.ScheduledStopPoint",
         "label": [
           {
             "@value": "PassengerStopAssignment.ScheduledStopPoint"
@@ -5089,7 +5013,7 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#in",
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#VehicleJourney.in",
         "label": [
           {
             "@language": "en",
@@ -5098,27 +5022,6 @@
           {
             "@language": "nl",
             "@value": "in"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#madeUpOf",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "made up of"
-          },
-          {
-            "@language": "nl",
-            "@value": "bestaande uit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#linkSequence",
-        "label": [
-          {
-            "@value": "^linkSequence"
           }
         ]
       },
@@ -5210,7 +5113,7 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#DayTypeAssignment.dayType",
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#DayTypeAssignment.DayType",
         "label": [
           {
             "@value": "DayTypeAssignment.DayType"
@@ -5218,7 +5121,7 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#DayTypeAssignment.serviceCalendar",
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#DayTypeAssignment.ServiceCalendar",
         "label": [
           {
             "@value": "DayTypeAssignment.ServiceCalendar"
@@ -5252,32 +5155,6 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#bltacServiceCalendar",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "bltac service calendar"
-          },
-          {
-            "@language": "nl",
-            "@value": "BLTAC dienstkalender"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#bltacServiceCalendar",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "bltac service calendar"
-          },
-          {
-            "@language": "nl",
-            "@value": "BLTAC dienstkalender"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#containedIn",
         "label": [
           {
@@ -5287,45 +5164,6 @@
           {
             "@language": "nl",
             "@value": "omvattend in"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#madeUpOf",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "made up of"
-          },
-          {
-            "@language": "nl",
-            "@value": "bestaande uit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#bltacVehicleJourney",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "bltac vehicle journey"
-          },
-          {
-            "@language": "nl",
-            "@value": "BLTAC rit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#bltacBlock",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "bltac block"
-          },
-          {
-            "@language": "nl",
-            "@value": "BLTAC-blok"
           }
         ]
       },
@@ -5365,7 +5203,7 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#member",
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#GroupOfStopPlaces.member",
         "label": [
           {
             "@language": "en",
@@ -5396,7 +5234,7 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#mainPart",
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#JourneyPart.mainPart",
         "label": [
           {
             "@language": "en",
@@ -5527,7 +5365,7 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#serves",
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#servesTopographicPlace",
         "label": [
           {
             "@language": "en",
@@ -5579,7 +5417,7 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#in",
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#StopPlace.in",
         "label": [
           {
             "@language": "en",
@@ -5605,7 +5443,7 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#serves",
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#servesPointOfInterest",
         "label": [
           {
             "@language": "en",
@@ -5681,14 +5519,6 @@
           {
             "@language": "en",
             "@value": "Organisatie"
-          },
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          },
-          {
-            "@language": "en",
-            "@value": "Organisatie"
           }
         ]
       },
@@ -5743,14 +5573,6 @@
       {
         "assignedURI": "http://www.w3.org/ns/locn#Geometry",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
-          },
-          {
-            "@language": "en",
-            "@value": "Geometry"
-          },
           {
             "@language": "nl",
             "@value": "Geometrie"
@@ -5862,32 +5684,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
-          },
-          {
-            "@language": "en",
-            "@value": "Geometry"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Organization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          },
-          {
-            "@language": "en",
-            "@value": "Organisatie"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/org#FormalOrganization",
         "label": [
           {
@@ -5941,6 +5737,19 @@
         "label": [
           {
             "@value": "OrganisatieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalstring"
+          },
+          {
+            "@language": "en",
+            "@value": "Language String"
           }
         ]
       },
@@ -6065,6 +5874,15 @@
           {
             "@language": "nl",
             "@value": "Geografische Naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/OpeningHoursSpecification",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Opening Hours Specification"
           }
         ]
       },
@@ -6360,15 +6178,11 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/elements/1.1/title",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "label": [
           {
-            "@language": "en",
-            "@value": "name"
-          },
-          {
             "@language": "nl",
-            "@value": "naam"
+            "@value": "voorkeursnaam"
           }
         ]
       },
@@ -6395,6 +6209,63 @@
           {
             "@language": "nl",
             "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#legalName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wettelijke naam"
+          },
+          {
+            "@language": "en",
+            "@value": "wettelijke naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/title",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "name"
+          },
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/title",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "name"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          },
+          {
+            "@language": "en",
+            "@value": "beschrijving"
           }
         ]
       },
@@ -6417,15 +6288,24 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "assignedURI": "http://purl.org/dc/terms/description",
         "label": [
           {
             "@language": "en",
-            "@value": "alternative name"
-          },
+            "@value": "description"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "label": [
           {
             "@language": "nl",
             "@value": "alternatieve naam"
+          },
+          {
+            "@language": "en",
+            "@value": "alternative name"
           }
         ]
       },
@@ -6637,11 +6517,59 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "description"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/elements/1.1/title",
         "label": [
           {
             "@language": "en",
             "@value": "name"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 1"
+          },
+          {
+            "@language": "en",
+            "@value": "administratieve eenheid niveau 1"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 2"
+          },
+          {
+            "@language": "en",
+            "@value": "administratieve eenheid niveau 2"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#addressArea",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adresgebied"
+          },
+          {
+            "@language": "en",
+            "@value": "adresgebied"
           }
         ]
       },
@@ -6655,6 +6583,19 @@
           {
             "@language": "en",
             "@value": "locatieaanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatienaam"
+          },
+          {
+            "@language": "en",
+            "@value": "locatienaam"
           }
         ]
       },
@@ -6681,6 +6622,45 @@
           {
             "@language": "en",
             "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postnaam"
+          },
+          {
+            "@language": "en",
+            "@value": "postnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          },
+          {
+            "@language": "en",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledig adres"
+          },
+          {
+            "@language": "en",
+            "@value": "volledig adres"
           }
         ]
       },
@@ -6853,12 +6833,12 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
         "label": [
           {
-            "@language": "en",
-            "@value": "alternative name"
-          },
-          {
             "@language": "nl",
             "@value": "alternatieve naam"
+          },
+          {
+            "@language": "en",
+            "@value": "alternative name"
           }
         ]
       },
@@ -6885,6 +6865,15 @@
           {
             "@language": "nl",
             "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
           }
         ]
       },
@@ -6924,6 +6913,19 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/regorg#registration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          },
+          {
+            "@language": "en",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/creator",
         "label": [
           {
@@ -6947,6 +6949,28 @@
           {
             "@language": "nl",
             "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          },
+          {
+            "@language": "en",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/hoursAvailable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaarheid"
           }
         ]
       },

@@ -1,7 +1,7 @@
 {
   "title": "Bodem en Ondergrond (Applicatieprofiel)",
   "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01",
-  "issued": "2022-04-28",
+  "issued": "2024-10-01",
   "navigation": {
     "prev": "/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2022-04-28",
     "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2024-10-01"
@@ -19,9 +19,7 @@
     "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata",
     "http://def.isotc211.org/iso19156/2011/Observation",
     "http://purl.org/dc/terms",
-    "http://def.isotc211.org/iso19156/2011/SamplingCurve",
     "http://def.isotc211.org/iso19156/2011/DomainSpecificSamplingFeatures",
-    "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/adms",
     "http://www.opengis.net/ont/geosparql",
@@ -35,18 +33,20 @@
     "http://www.w3.org/ns/prov",
     "http://www.opengis.net/ont/gml",
     "http://www.w3.org/2001/XMLSchema",
+    "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
     "http://purl.org/dc/elements/1.1",
-    "https://data.vlaanderen.be/ns/besluit"
+    "https://data.vlaanderen.be/ns/besluit",
+    "http://def.isotc211.org/iso19156/2011/SamplingCurve"
   ],
   "authors": 8,
   "editors": 10,
   "contributors": 72,
   "participants": 90,
-  "classes": 22,
+  "classes": 30,
   "properties": 20,
-  "externalclasses": 37,
+  "externalclasses": 31,
   "externalproperties": 28,
-  "totalterms": 107,
+  "totalterms": 109,
   "totalorganisations": 46,
   "organisations": [
     {
@@ -1052,10 +1052,6 @@
           {
             "@language": "nl",
             "@value": "Profielelement"
-          },
-          {
-            "@language": "nl",
-            "@value": "Profielelement"
           }
         ]
       },
@@ -1146,6 +1142,12 @@
           }
         ]
       },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/besluit#Besluit",
         "label": [
@@ -1155,15 +1157,9 @@
           }
         ]
       },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond#Profielelement",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Profielelement"
-          }
-        ]
-      }
+      {},
+      {},
+      {}
     ],
     "properties": [
       {
@@ -1381,20 +1377,12 @@
           {
             "@language": "nl",
             "@value": "Bemonsteringsobject"
-          },
-          {
-            "@language": "nl",
-            "@value": "Bemonsteringsobject"
           }
         ]
       },
       {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "RuimtelijkBemonsteringsobject"
-          },
           {
             "@language": "nl",
             "@value": "RuimtelijkBemonsteringsobject"
@@ -1438,24 +1426,6 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingCurve#SF_SamplingCurve",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Bemonsteringscurve"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
@@ -1492,15 +1462,6 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Object"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
         "label": [
           {
@@ -1530,10 +1491,6 @@
       {
         "assignedURI": "http://www.w3.org/ns/locn#Geometry",
         "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
-          },
           {
             "@language": "nl",
             "@value": "Geometrie"
@@ -1631,38 +1588,11 @@
         ]
       },
       {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Bemonsteringsobject"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
         "label": [
           {
             "@language": "nl",
             "@value": "Object"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://def.isotc211.org/iso19156/2011/SpatialSamplingFeature#SF_SpatialSamplingFeature",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "RuimtelijkBemonsteringsobject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
           }
         ]
       },
