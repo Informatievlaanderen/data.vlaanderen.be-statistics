@@ -25,6 +25,7 @@
     "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/2006/time",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema"
   ],
@@ -34,9 +35,9 @@
   "participants": 31,
   "classes": 22,
   "properties": 5,
-  "externalclasses": 36,
-  "externalproperties": 78,
-  "totalterms": 141,
+  "externalclasses": 40,
+  "externalproperties": 83,
+  "totalterms": 150,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -678,6 +679,33 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#Duration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdsduur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/adms#Identifier",
         "label": [
           {
@@ -754,6 +782,15 @@
           {
             "@language": "nl",
             "@value": "LocatiePeriodeOfJurisdictie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
           }
         ]
       },
@@ -1193,6 +1230,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "van"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/contactPoint",
         "label": [
           {
@@ -1360,6 +1415,32 @@
           {
             "@language": "nl",
             "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/author",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "auteur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/copyrightHolder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "auteursrechtHouder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/timeRequired",
+        "label": [
+          {
+            "@value": "vereisteTijd"
           }
         ]
       },
