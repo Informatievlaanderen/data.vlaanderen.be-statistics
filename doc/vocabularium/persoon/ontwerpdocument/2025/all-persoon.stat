@@ -26,7 +26,6 @@
     "http://www.w3.org/2004/02/skos/core",
     "http://todo.com",
     "http://www.w3.org/ns/adms",
-    "http://schema.org",
     "http://purl.org/dc/elements/1.1",
     "http://www.w3.org/ns/regorg",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -37,9 +36,9 @@
   "contributors": 4,
   "participants": 29,
   "classes": 36,
-  "properties": 15,
+  "properties": 17,
   "externalclasses": 31,
-  "externalproperties": 74,
+  "externalproperties": 72,
   "totalterms": 156,
   "totalorganisations": 16,
   "organisations": [
@@ -675,11 +674,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinshoofd",
         "label": [
           {
             "@language": "nl",
-            "@value": "heeftRelatieMet"
+            "@value": "gezinshoofd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isHoofdVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isHoofdVan"
           }
         ]
       },
@@ -716,6 +724,15 @@
           {
             "@language": "nl",
             "@value": "binnen jurisdictie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftNationaliteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftNationaliteit"
           }
         ]
       }
@@ -1389,7 +1406,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/contactPoint",
+        "assignedURI": "https://schema.org/contactPoint",
         "label": [
           {
             "@language": "nl",
@@ -1560,24 +1577,6 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/gezinshoofd",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gezinshoofd"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/isHoofdVan",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "isHoofdBan"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/org#hasMember",
         "label": [
           {
@@ -1592,6 +1591,15 @@
           {
             "@language": "nl",
             "@value": "isLidVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/heeftRelatieMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftRelatieMet"
           }
         ]
       },
@@ -1644,15 +1652,6 @@
           {
             "@language": "nl",
             "@value": "isSuborganisatieVan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/heeftNationaliteit",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftNationaliteit"
           }
         ]
       }
