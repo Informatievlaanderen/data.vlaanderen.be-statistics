@@ -10,22 +10,22 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
   "statuslabel": "Ontwerpdocument",
   "namespaces": [
-    "https://data.vlaanderen.be/ns/organisatie",
-    "http://www.w3.org/ns/org",
-    "http://data.europa.eu/m8g",
+    "http://purl.org/dc/terms",
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/ns/regorg",
-    "http://purl.org/dc/terms",
-    "https://schema.org",
+    "http://www.w3.org/ns/org",
+    "https://data.vlaanderen.be/ns/organisatie",
     "http://www.w3.org/ns/prov",
+    "http://data.europa.eu/m8g",
+    "https://schema.org",
     "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/adms",
-    "http://www.w3.org/2006/vcard/ns",
+    "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/adres",
-    "http://www.w3.org/2000/01/rdf-schema",
-    "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/2006/time",
+    "http://www.w3.org/2006/vcard/ns",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema"
   ],
@@ -36,8 +36,8 @@
   "classes": 22,
   "properties": 5,
   "externalclasses": 41,
-  "externalproperties": 85,
-  "totalterms": 153,
+  "externalproperties": 86,
+  "totalterms": 154,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -357,15 +357,6 @@
     ],
     "classes": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Splitsing",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Splitsing"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Vervanging",
         "label": [
           {
@@ -375,20 +366,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Hoedanigheid",
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Splitsing",
         "label": [
           {
             "@language": "nl",
-            "@value": "Hoedanigheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Stopzetting",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Stopzetting"
+            "@value": "Splitsing"
           }
         ]
       },
@@ -402,26 +384,28 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Stopzetting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Stopzetting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Hoedanigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Hoedanigheid"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
         "label": [
           {
             "@value": "LangString"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "label": [
-          {
-            "@value": "URI"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "label": [
-          {
-            "@value": "DateTime"
           }
         ]
       },
@@ -442,10 +426,18 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#time",
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
         "label": [
           {
-            "@value": "Time"
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
           }
         ]
       },
@@ -454,6 +446,14 @@
         "label": [
           {
             "@value": "Date"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#time",
+        "label": [
+          {
+            "@value": "Time"
           }
         ]
       },
@@ -517,11 +517,29 @@
     ],
     "externalclasses": [
       {
-        "assignedURI": "http://www.w3.org/ns/org#ChangeEvent",
+        "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
           {
             "@language": "nl",
-            "@value": "Veranderingsgebeurtenis"
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeregistreerdeOrganisatie"
           }
         ]
       },
@@ -544,11 +562,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/org#Site",
+        "assignedURI": "http://www.w3.org/ns/org#ChangeEvent",
         "label": [
           {
             "@language": "nl",
-            "@value": "Vestiging"
+            "@value": "Veranderingsgebeurtenis"
           }
         ]
       },
@@ -558,6 +576,24 @@
           {
             "@language": "nl",
             "@value": "Lidmaatschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Site",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#OrganizationalCollaboration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Samenwerkingsverband"
           }
         ]
       },
@@ -580,92 +616,11 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/m8g/FoundationEvent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Oprichting"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://xmlns.com/foaf/0.1/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/PublicOrganisation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "PubliekeOrganisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#OrganizationalCollaboration",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Samenwerkingsverband"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "GeregistreerdeOrganisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/MediaObject",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Mediaobject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/CreativeWork",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "CreatiefWerk"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/Location",
         "label": [
           {
             "@language": "nl",
             "@value": "Plaats"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
@@ -679,29 +634,56 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2006/time#Duration",
+        "assignedURI": "http://www.w3.org/ns/prov#Agent",
         "label": [
           {
             "@language": "nl",
-            "@value": "Tijdsduur"
+            "@value": "Agent"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "assignedURI": "http://data.europa.eu/m8g/FoundationEvent",
         "label": [
           {
             "@language": "nl",
-            "@value": "TemporeleEntiteit"
+            "@value": "Oprichting"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+        "assignedURI": "http://data.europa.eu/m8g/PublicOrganisation",
         "label": [
           {
             "@language": "nl",
-            "@value": "Periode"
+            "@value": "PubliekeOrganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/CreativeWork",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "CreatiefWerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/MediaObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Mediaobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeografischeNaam"
           }
         ]
       },
@@ -715,38 +697,11 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/ContactPoint",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Contactpunt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/OpeningHoursSpecification",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Openingsurenspecificatie"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/prov#Location",
         "label": [
           {
             "@language": "nl",
             "@value": "Locatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Address",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Adresvoorstelling"
           }
         ]
       },
@@ -760,11 +715,65 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
         "label": [
           {
             "@language": "nl",
-            "@value": "GeografischeNaam"
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#Duration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdsduur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/OpeningHoursSpecification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openingsurenspecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactpunt"
           }
         ]
       },
@@ -782,48 +791,6 @@
           {
             "@language": "nl",
             "@value": "LocatiePeriodeOfJurisdictie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2006/time#Instant",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Moment"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieStatus"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "StopzettingType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Role",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Rol"
           }
         ]
       },
@@ -871,6 +838,39 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
+            "@value": "OrganisatieStatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "StopzettingType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
             "@language": "nl",
             "@value": "Taal"
           }
@@ -879,38 +879,38 @@
     ],
     "externalproperties": [
       {
-        "assignedURI": "http://www.w3.org/ns/org#purpose",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "doel"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://xmlns.com/foaf/0.1/homepage",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "homepage"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "voorkeursnaam"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/regorg#legalName",
         "label": [
           {
             "@language": "nl",
             "@value": "wettelijke naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekendDoor(String)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekendOp"
           }
         ]
       },
@@ -942,83 +942,11 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/issued",
+        "assignedURI": "http://www.w3.org/ns/org#purpose",
         "label": [
           {
             "@language": "nl",
-            "@value": "toegekendOp"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toegekendDoor(String)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aanschrijfvorm"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://xmlns.com/foaf/0.1/name",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/email",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "email"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/faxNumber",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "faxnummer"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/openingHours",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "openingsuren"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/telephone",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "telefoon"
+            "@value": "doel"
           }
         ]
       },
@@ -1027,52 +955,16 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "website"
+            "@value": "homepage"
           }
         ]
       },
       {
-        "assignedURI": "https://schema.org/dayOfWeek",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "label": [
           {
             "@language": "nl",
-            "@value": "dagVanDeWeek"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/validThrough",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geldigTot"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/validFrom",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geldigVan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/closes",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gesloten"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/opens",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "open"
+            "@value": "voorkeursnaam"
           }
         ]
       },
@@ -1082,6 +974,33 @@
           {
             "@language": "nl",
             "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaatsnaam"
           }
         ]
       },
@@ -1185,29 +1104,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
         "label": [
           {
             "@language": "nl",
-            "@value": "plaatsnaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gml"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "wkt"
+            "@value": "inXSDdatumTijd"
           }
         ]
       },
@@ -1239,74 +1140,110 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "assignedURI": "https://schema.org/dayOfWeek",
         "label": [
           {
             "@language": "nl",
-            "@value": "tot"
+            "@value": "dagVanDeWeek"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "assignedURI": "https://schema.org/validThrough",
         "label": [
           {
             "@language": "nl",
-            "@value": "van"
+            "@value": "geldigTot"
           }
         ]
       },
       {
-        "assignedURI": "https://schema.org/contactPoint",
+        "assignedURI": "https://schema.org/validFrom",
         "label": [
           {
             "@language": "nl",
-            "@value": "contactinfo"
+            "@value": "geldigVan"
           }
         ]
       },
       {
-        "assignedURI": "https://schema.org/logo",
+        "assignedURI": "https://schema.org/closes",
         "label": [
           {
             "@language": "nl",
-            "@value": "logo"
+            "@value": "gesloten"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/regorg#orgStatus",
+        "assignedURI": "https://schema.org/opens",
         "label": [
           {
             "@language": "nl",
-            "@value": "status"
+            "@value": "open"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/regorg#orgType",
+        "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
         "label": [
           {
             "@language": "nl",
-            "@value": "type"
+            "@value": "aanschrijfvorm"
           }
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/spatial",
+        "assignedURI": "http://xmlns.com/foaf/0.1/name",
         "label": [
           {
             "@language": "nl",
-            "@value": "werkingsgebied"
+            "@value": "naam"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/org#role",
+        "assignedURI": "https://schema.org/email",
         "label": [
           {
             "@language": "nl",
-            "@value": "rol"
+            "@value": "email"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/faxNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "faxnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/openingHours",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "openingsuren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/telephone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telefoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/homepage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "website"
           }
         ]
       },
@@ -1347,29 +1284,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/org#siteAddress",
+        "assignedURI": "http://purl.org/dc/terms/creator",
         "label": [
           {
             "@language": "nl",
-            "@value": "vestigingsadres"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#memberDuring",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "lidVanTot"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#role",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "rol"
+            "@value": "toegekendDoor"
           }
         ]
       },
@@ -1392,29 +1311,74 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/creator",
+        "assignedURI": "https://schema.org/contactPoint",
         "label": [
           {
             "@language": "nl",
-            "@value": "toegekendDoor"
+            "@value": "contactinfo"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "assignedURI": "https://schema.org/logo",
         "label": [
           {
             "@language": "nl",
-            "@value": "adres"
+            "@value": "logo"
           }
         ]
       },
       {
-        "assignedURI": "https://schema.org/hoursAvailable",
+        "assignedURI": "http://www.w3.org/ns/regorg#orgStatus",
         "label": [
           {
             "@language": "nl",
-            "@value": "beschikbaarheid"
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#memberDuring",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lidVanTot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#siteAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vestigingsadres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rol"
           }
         ]
       },
@@ -1433,6 +1397,33 @@
           {
             "@language": "nl",
             "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/spatial",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "werkingsgebied"
           }
         ]
       },
@@ -1472,6 +1463,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/hoursAvailable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaarheid"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/org#reportsTo",
         "label": [
           {
@@ -1481,20 +1490,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/org#hasRegisteredSite",
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
         "label": [
           {
             "@language": "nl",
-            "@value": "heeftGeregistreerdeVestiging"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#hasPrimarySite",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftPrimaireVestiging"
+            "@value": "isSuborganisatieVan"
           }
         ]
       },
@@ -1526,69 +1526,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/org#linkedTo",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "isGeassocieerdMet"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#hasSite",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftVestiging"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "isSuborganisatieVan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#resultedFrom",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "isHetResultaatVan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#resultingOrganization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "resulterendeOrganisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#originalOrganization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "oorspronkelijkeOrganisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#changedBy",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "isVeranderdDoor"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/org#hasUnit",
         "label": [
           {
@@ -1603,6 +1540,33 @@
           {
             "@language": "nl",
             "@value": "isEenheidVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasSite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftVestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasRegisteredSite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftGeregistreerdeVestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasPrimarySite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftPrimaireVestiging"
           }
         ]
       },
@@ -1639,6 +1603,51 @@
           {
             "@language": "nl",
             "@value": "isLidBij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#linkedTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isGeassocieerdMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#changedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isVeranderdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#originalOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oorspronkelijkeOrganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#resultingOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resulterendeOrganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#resultedFrom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isHetResultaatVan"
           }
         ]
       }
