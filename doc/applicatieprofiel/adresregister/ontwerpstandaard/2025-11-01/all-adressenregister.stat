@@ -11,6 +11,7 @@
   "statuslabel": "Kandidaat Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/adres",
+    "https://data.vlaanderen.be/ns/gebouw",
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/generiek",
     "http://www.w3.org/ns/prov",
@@ -19,7 +20,6 @@
     "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/adms",
     "http://www.opengis.net/ont/geosparql",
-    "https://data.vlaanderen.be/ns/gebouw",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/2001/XMLSchema",
@@ -29,11 +29,11 @@
   "editors": 1,
   "contributors": 15,
   "participants": 21,
-  "classes": 26,
+  "classes": 27,
   "properties": 38,
-  "externalclasses": 16,
+  "externalclasses": 10,
   "externalproperties": 25,
-  "totalterms": 105,
+  "totalterms": 100,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -333,6 +333,14 @@
           {
             "@language": "nl",
             "@value": "Adresuitbreiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#GebouweenheidstatusWaarde",
+        "label": [
+          {
+            "@value": "GebouweenheidstatusWaarde"
           }
         ]
       },
@@ -858,63 +866,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Statuswaarde"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
         "label": [
           {
             "@language": "nl",
             "@value": "Getypeerde String"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Locatieaanduidingtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Locatorniveauwaarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Locatienaamtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "GeometrieMethodeWaarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "GeometrieSpecificatieWaarde"
           }
         ]
       }
