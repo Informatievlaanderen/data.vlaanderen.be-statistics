@@ -14,26 +14,23 @@
     "https://data.vlaanderen.be/ns/gebouw",
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/generiek",
-    "http://www.w3.org/ns/prov",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/locn",
-    "http://www.w3.org/2004/02/skos/core",
-    "http://www.w3.org/ns/adms",
-    "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "http://www.opengis.net/ont/sf",
     "http://www.w3.org/2001/XMLSchema",
-    "http://data.europa.eu/m8g"
+    "http://data.europa.eu/m8g",
+    "http://www.opengis.net/ont/sf"
   ],
   "authors": 5,
   "editors": 1,
   "contributors": 15,
   "participants": 21,
-  "classes": 27,
-  "properties": 38,
-  "externalclasses": 10,
-  "externalproperties": 25,
-  "totalterms": 100,
+  "classes": 24,
+  "properties": 32,
+  "externalclasses": 7,
+  "externalproperties": 18,
+  "totalterms": 81,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -381,15 +378,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gestructureerde Identificator"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/generiek#GeografischePositie",
         "label": [
           {
@@ -414,37 +402,21 @@
           }
         ]
       },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
       {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Geometrie",
         "label": [
           {
-            "@value": "LangString"
+            "@value": "Geometrie"
           }
         ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
-        "label": [
-          {
-            "@value": "Literal"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "label": [
-          {
-            "@value": "DateTime"
-          }
-        ]
-      },
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {}
+      }
     ],
     "properties": [
       {
@@ -520,65 +492,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gemeentenaam"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
         "label": [
           {
             "@language": "nl",
             "@value": "huisnummer"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "land"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#volledigAdres",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "volledig adres"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#lokaleIdentificator",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "lokale identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#naamruimte",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naamruimte"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#versieIdentificator",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "versie-identificator"
           }
         ]
       },
@@ -664,6 +582,24 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/adres#adreslocator",
         "label": [
           {
@@ -673,11 +609,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#gestructureerdeIdentificator",
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#volledigAdres",
         "label": [
           {
             "@language": "nl",
-            "@value": "gestructureerde identificator"
+            "@value": "volledig adres"
           }
         ]
       },
@@ -696,24 +632,6 @@
           {
             "@language": "nl",
             "@value": "specificatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#bestaatUit",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bestaat uit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#ligtOp",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ligt op"
           }
         ]
       },
@@ -786,29 +704,11 @@
     ],
     "externalclasses": [
       {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/Location",
         "label": [
           {
             "@language": "nl",
             "@value": "Plaats"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#Entity",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Object"
           }
         ]
       },
@@ -822,38 +722,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Identificator"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
         "label": [
           {
             "@language": "nl",
             "@value": "Geografische Naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.opengis.net/ont/sf#Point",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Punt"
           }
         ]
       },
@@ -871,6 +744,22 @@
           {
             "@language": "nl",
             "@value": "Getypeerde String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "Taalstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#Point",
+        "label": [
+          {
+            "@value": "Punt"
           }
         ]
       }
@@ -904,6 +793,42 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatieaanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#poBox",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postbus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaatsnaam"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
         "label": [
           {
@@ -931,38 +856,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "locatieaanduiding"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/locn#locatorName",
         "label": [
           {
             "@language": "nl",
             "@value": "locatienaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#poBox",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "postbus"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#postCode",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "postcode"
           }
         ]
       },
@@ -994,69 +892,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toegekend door (String)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/issued",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toegekend op"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "plaatsnaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gml"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "wkt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/creator",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toegekend door"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/locn#geometry",
         "label": [
           {
@@ -1071,15 +906,6 @@
           {
             "@language": "nl",
             "@value": "geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#identifier",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "identificator"
           }
         ]
       },
