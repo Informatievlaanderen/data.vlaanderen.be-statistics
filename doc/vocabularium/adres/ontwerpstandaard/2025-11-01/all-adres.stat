@@ -12,27 +12,29 @@
   "namespaces": [
     "https://data.vlaanderen.be/ns/adres",
     "https://data.vlaanderen.be/ns/gebouw",
-    "https://data.vlaanderen.be/ns/generiek",
     "http://purl.org/dc/terms",
+    "https://data.vlaanderen.be/ns/generiek",
     "https://data.vlaanderen.be/ns/perceel",
+    "http://www.w3.org/ns/prov",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/locn",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/ns/prov",
     "http://www.w3.org/2004/02/skos/core",
+    "http://www.w3.org/ns/adms",
+    "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.opengis.net/ont/sf",
+    "http://www.w3.org/2001/XMLSchema",
     "http://data.europa.eu/m8g"
   ],
   "authors": 5,
   "editors": 1,
   "contributors": 15,
   "participants": 21,
-  "classes": 30,
-  "properties": 40,
-  "externalclasses": 14,
-  "externalproperties": 16,
-  "totalterms": 100,
+  "classes": 32,
+  "properties": 38,
+  "externalclasses": 16,
+  "externalproperties": 25,
+  "totalterms": 111,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -264,33 +266,6 @@
     ],
     "classes": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#Straatnaam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Straatnaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#Postinfo",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Postinfo"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Belgisch Adres"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/adres#Ligplaats",
         "label": [
           {
@@ -309,11 +284,38 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresuitbreiding",
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Postinfo",
         "label": [
           {
             "@language": "nl",
-            "@value": "Adresuitbreiding"
+            "@value": "Postinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Straatnaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gemeentenaam"
           }
         ]
       },
@@ -327,11 +329,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#Gemeentenaam",
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresuitbreiding",
         "label": [
           {
             "@language": "nl",
-            "@value": "Gemeentenaam"
+            "@value": "Adresuitbreiding"
           }
         ]
       },
@@ -366,7 +368,6 @@
         "assignedURI": "https://data.vlaanderen.be/ns/perceel#Perceel",
         "label": [
           {
-            "@language": "nl",
             "@value": "Perceel"
           }
         ]
@@ -399,6 +400,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gestructureerde Identificator"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/generiek#GeografischePositie",
         "label": [
           {
@@ -416,14 +426,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
-        "label": [
-          {
-            "@value": "Integer"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
         "label": [
           {
@@ -431,134 +433,42 @@
           }
         ]
       },
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Gebeurtenisdatum",
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Gebeurtenisdatum"
+            "@value": "LangString"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#2DGebouwgeometrie",
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
         "label": [
           {
-            "@language": "nl",
-            "@value": "2D-Gebouwgeometrie"
+            "@value": "Literal"
           }
         ]
-      }
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
     ],
     "properties": [
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#volledigAdres",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "volledig adres"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "busnummer"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gemeentenaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "huisnummer"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "land"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding.aanduiding",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aanduiding"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#aantalBovengrondseVerdiepingen",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aantal bovengrondse verdiepingen"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#aantalOndergrondseVerdiepingen",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "aantal ondergrondse verdiepingen"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#gebouwnaam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gebouwnaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/generiek#default",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "default"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#homoniemToevoeging",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "homoniemtoevoeging"
-          }
-        ]
-      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/adres#postcode",
         "label": [
@@ -605,6 +515,114 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding.aanduiding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#homoniemToevoeging",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "homoniem toevoeging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#volledigAdres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledig adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#lokaleIdentificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lokale identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#naamruimte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naamruimte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#versieIdentificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "versie-identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#default",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "default"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#positie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "positie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres.status",
         "label": [
           {
@@ -614,11 +632,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#adreslocator",
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding.type",
         "label": [
           {
             "@language": "nl",
-            "@value": "adreslocator"
+            "@value": "type"
           }
         ]
       },
@@ -659,52 +677,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#Locatieaanduiding.type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouw.adres",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "adres"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#bouwjaar",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bouwjaar"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouw.geometrie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#laatsteRenovatie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "laatste renovatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouw.status",
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Straatnaam.status",
         "label": [
           {
             "@language": "nl",
@@ -713,47 +686,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouweenheid.adres",
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#adreslocator",
         "label": [
           {
             "@language": "nl",
-            "@value": "adres"
+            "@value": "adreslocator"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#functie",
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#gestructureerdeIdentificator",
         "label": [
           {
             "@language": "nl",
-            "@value": "functie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouweenheid.geometrie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#locatieAanduiding",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "locatieaanduiding"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouweenheid.status",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gebouweenheidstatus"
+            "@value": "gestructureerde identificator"
           }
         ]
       },
@@ -776,55 +722,120 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
-        "label": [
-          {
-            "@value": "geldigheidsperiode"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/perceel#adres",
-        "label": [
-          {
-            "@value": "adres"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/perceel#geometrie",
-        "label": [
-          {
-            "@value": "geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#Straatnaam.status",
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#bestaatUit",
         "label": [
           {
             "@language": "nl",
-            "@value": "status"
+            "@value": "bestaat uit"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#positie",
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#ligtOp",
         "label": [
           {
             "@language": "nl",
-            "@value": "positie"
+            "@value": "ligt op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#adresIsGelegenIn",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gelegen in"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#isAfgeleidVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is afgeleid van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#isVerrijktMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is verrijkt met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#heeftGemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#verwijstNaar",
+        "label": [
+          {
+            "@value": "verwijstNaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#heeftStraatnaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#heeftPostinfo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft postinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#isToegekendAan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is toegekend aan"
           }
         ]
       }
     ],
     "externalclasses": [
       {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/Location",
         "label": [
           {
             "@language": "nl",
             "@value": "Plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Entity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
           }
         ]
       },
@@ -838,19 +849,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-        "label": [
-          {
-            "@value": "GeografischeNaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#Entity",
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
         "label": [
           {
             "@language": "nl",
-            "@value": "Entiteit"
+            "@value": "Identificator"
           }
         ]
       },
@@ -858,31 +861,8 @@
         "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
         "label": [
           {
-            "@value": "TaalString"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
-        "label": [
-          {
-            "@value": "GetypeerdeString"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "GebouwstatusWaarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "FunctieWaarde"
+            "@language": "nl",
+            "@value": "Geografische Naam"
           }
         ]
       },
@@ -896,19 +876,64 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "GebouweenheidstatusWaarde"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.opengis.net/ont/sf#Point",
         "label": [
           {
             "@language": "nl",
             "@value": "Punt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/Output",
+        "label": [
+          {
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Statuswaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatieaanduidingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatorniveauwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatienaamtype"
           }
         ]
       },
@@ -927,14 +952,6 @@
             "@value": "GeometrieSpecificatieWaarde"
           }
         ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
-        "label": [
-          {
-            "@value": "Periode"
-          }
-        ]
       }
     ],
     "externalproperties": [
@@ -944,6 +961,24 @@
           {
             "@language": "nl",
             "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
           }
         ]
       },
@@ -1038,11 +1073,29 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
         "label": [
           {
             "@language": "nl",
-            "@value": "gemeentenaam"
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door (String)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend op"
           }
         ]
       },
@@ -1051,16 +1104,34 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "label"
+            "@value": "plaatsnaam"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
         "label": [
           {
             "@language": "nl",
-            "@value": "straatnaam"
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door"
           }
         ]
       },
@@ -1079,6 +1150,33 @@
           {
             "@language": "nl",
             "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasAttributedTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is toegekend door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasAttributedTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegeschreven aan"
           }
         ]
       }
