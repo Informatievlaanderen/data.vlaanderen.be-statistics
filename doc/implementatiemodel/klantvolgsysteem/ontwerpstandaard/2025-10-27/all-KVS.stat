@@ -8,16 +8,35 @@
   "documenttype": "ap",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "statuslabel": "Ontwerp Standaard",
-  "namespaces": [],
+  "namespaces": [
+    "https://data.vlaanderen.be/ns/persoon",
+    "http://www.w3.org/ns/org",
+    "http://www.w3.org/ns/person",
+    "http://xmlns.com/foaf/0.1",
+    "http://todo.com",
+    "https://data.vlaanderen.be/ns/dossier",
+    "http://purl.org/dc/terms",
+    "http://www.w3.org/2006/vcard/ns",
+    "https://schema.org",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://www.w3.org/ns/prov",
+    "http://data.europa.eu/m8g",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/ns/regorg",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/ns/adms"
+  ],
   "authors": 0,
   "editors": 2,
   "contributors": 0,
   "participants": 2,
-  "classes": 0,
-  "properties": 0,
-  "externalclasses": 0,
-  "externalproperties": 0,
-  "totalterms": 0,
+  "classes": 62,
+  "properties": 77,
+  "externalclasses": 21,
+  "externalproperties": 36,
+  "totalterms": 196,
   "totalorganisations": 1,
   "organisations": [
     {
@@ -49,10 +68,1619 @@
         "affiliation": "digitaalvlaanderen"
       }
     ],
-    "classes": [],
-    "properties": [],
-    "externalclasses": [],
-    "externalproperties": [],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Gezinsrelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gezinsrelatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Voogdij",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Voogdij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Verblijfplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verblijfplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Gezin",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gezin"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inwonerschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeregistreerdPersoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Domicilie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domicilie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Identificatortype",
+        "label": [
+          {
+            "@value": "Identificatortype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Werknemerprofiel",
+        "label": [
+          {
+            "@value": "Werknemerprofiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Input",
+        "label": [
+          {
+            "@value": "Input"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Beroeptype",
+        "label": [
+          {
+            "@value": "Beroeptype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Opleidingtype",
+        "label": [
+          {
+            "@value": "Opleidingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Kwalificatietype",
+        "label": [
+          {
+            "@value": "Kwalificatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Competentietype",
+        "label": [
+          {
+            "@value": "Competentietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Trajecttype",
+        "label": [
+          {
+            "@value": "Trajecttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Trajectstatustype",
+        "label": [
+          {
+            "@value": "Trajectstatustype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Adviestype",
+        "label": [
+          {
+            "@value": "Adviestype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Jobdoelwittype",
+        "label": [
+          {
+            "@value": "Jobdoelwittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/PubliekeDienstverlening",
+        "label": [
+          {
+            "@value": "PubliekeDienstverlening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Participatie",
+        "label": [
+          {
+            "@value": "Participatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Output",
+        "label": [
+          {
+            "@value": "Output"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/GeregistreerdeOrganisatie",
+        "label": [
+          {
+            "@value": "GeregistreerdeOrganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/PubliekeOrganisatie",
+        "label": [
+          {
+            "@value": "PubliekeOrganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Traject",
+        "label": [
+          {
+            "@value": "Traject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Deeltraject",
+        "label": [
+          {
+            "@value": "Deeltraject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Participatietype",
+        "label": [
+          {
+            "@value": "Participatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/PubliekeDienstverleningtype",
+        "label": [
+          {
+            "@value": "PubliekeDienstverleningtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Outputtype",
+        "label": [
+          {
+            "@value": "Outputtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Geboorte",
+        "label": [
+          {
+            "@value": "Geboorte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Inputtype",
+        "label": [
+          {
+            "@value": "Inputtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#Stuk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Stuk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Inburgeringstraject",
+        "label": [
+          {
+            "@value": "Inburgeringstraject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Activeringstraject",
+        "label": [
+          {
+            "@value": "Activeringstraject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Stuktype",
+        "label": [
+          {
+            "@value": "Stuktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Arbeidshandicaptype",
+        "label": [
+          {
+            "@value": "Arbeidshandicaptype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Diplomatype",
+        "label": [
+          {
+            "@value": "Diplomatype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Cursustype",
+        "label": [
+          {
+            "@value": "Cursustype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Functietype",
+        "label": [
+          {
+            "@value": "Functietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Sectortype",
+        "label": [
+          {
+            "@value": "Sectortype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Motivatietype",
+        "label": [
+          {
+            "@value": "Motivatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Werkstijltype",
+        "label": [
+          {
+            "@value": "Werkstijltype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Competentie",
+        "label": [
+          {
+            "@value": "Competentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Advies",
+        "label": [
+          {
+            "@value": "Advies"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Jobdoelwit",
+        "label": [
+          {
+            "@value": "Jobdoelwit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Kwalificatie",
+        "label": [
+          {
+            "@value": "Kwalificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Werkervaring",
+        "label": [
+          {
+            "@value": "Werkervaring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/PerssonlijkKenmerk",
+        "label": [
+          {
+            "@value": "PerssonlijkKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "LangString"
+          },
+          {
+            "@value": "Langstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+        "label": [
+          {
+            "@value": "Date"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoonsrelatie"
+          }
+        ]
+      },
+      {},
+      {},
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsgebeurtenis",
+        "label": [
+          {
+            "@value": "Persoonsgebeurtenis"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "http://todo.com/Arbeidshandicaptype",
+        "label": [
+          {
+            "@value": "Arbeidshandicaptype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Voorkeur",
+        "label": [
+          {
+            "@value": "Voorkeur"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#datum",
+        "label": [
+          {
+            "@value": "datum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/naam",
+        "label": [
+          {
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/gebruikteVoornaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikteVoornaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/volledigeNaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledigeNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/naam",
+        "label": [
+          {
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/naam",
+        "label": [
+          {
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/motivatie",
+        "label": [
+          {
+            "@value": "motivatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/projectbeschrijving",
+        "label": [
+          {
+            "@value": "projectbeschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/startdatum",
+        "label": [
+          {
+            "@value": "startdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/einddatum",
+        "label": [
+          {
+            "@value": "einddatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/startdatum",
+        "label": [
+          {
+            "@value": "startdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/einddatum",
+        "label": [
+          {
+            "@value": "einddatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinsrelatietype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gezinsrelatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#verblijfsadres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verblijfsadres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinsadres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gezinsadres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#registratie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/registratie",
+        "label": [
+          {
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/werkingsgebied",
+        "label": [
+          {
+            "@value": "werkingsgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/rol",
+        "label": [
+          {
+            "@value": "rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/type",
+        "label": [
+          {
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/heeftGeboorte",
+        "label": [
+          {
+            "@value": "heeftGeboorte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#land",
+        "label": [
+          {
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#plaats",
+        "label": [
+          {
+            "@value": "plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/inwonerschap",
+        "label": [
+          {
+            "@value": "inwonerschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#jurisdictie",
+        "label": [
+          {
+            "@value": "jurisdictie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/heeftVerantwoordelijke",
+        "label": [
+          {
+            "@value": "heeftVerantwoordelijke"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/type",
+        "label": [
+          {
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/heeftParticipant",
+        "label": [
+          {
+            "@value": "heeftParticipant"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/competentie",
+        "label": [
+          {
+            "@value": "competentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/trajecttype",
+        "label": [
+          {
+            "@value": "trajecttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/competentie",
+        "label": [
+          {
+            "@value": "competentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/ervaring",
+        "label": [
+          {
+            "@value": "ervaring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/isLidVan",
+        "label": [
+          {
+            "@value": "isLidVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/isHoofdVan",
+        "label": [
+          {
+            "@value": "isHoofdVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/heeftRelatieMet",
+        "label": [
+          {
+            "@value": "heeftRelatieMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/status",
+        "label": [
+          {
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#auteur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "auteur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#informatieclassificatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "informatieclassificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/functie",
+        "label": [
+          {
+            "@value": "functie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/opleiding",
+        "label": [
+          {
+            "@value": "opleiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/type",
+        "label": [
+          {
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/jobdoelwit",
+        "label": [
+          {
+            "@value": "jobdoelwit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/contract",
+        "label": [
+          {
+            "@value": "contract"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/attest",
+        "label": [
+          {
+            "@value": "attest"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#type",
+        "label": [
+          {
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/type",
+        "label": [
+          {
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/opleiding",
+        "label": [
+          {
+            "@value": "opleiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/diploma",
+        "label": [
+          {
+            "@value": "diploma"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/cursus",
+        "label": [
+          {
+            "@value": "cursus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/functie",
+        "label": [
+          {
+            "@value": "functie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/werkstijl",
+        "label": [
+          {
+            "@value": "werkstijl"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/motivatie",
+        "label": [
+          {
+            "@value": "motivatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/werkvoorkeur",
+        "label": [
+          {
+            "@value": "werkvoorkeur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/leervoorkeur",
+        "label": [
+          {
+            "@value": "leervoorkeur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/heeftrelatieMet",
+        "label": [
+          {
+            "@value": "heeftrelatieMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#persoon",
+        "label": [
+          {
+            "@value": "persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/arbeidshandicap",
+        "label": [
+          {
+            "@value": "arbeidshandicap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/kwalificatie",
+        "label": [
+          {
+            "@value": "kwalificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/persoonlijkKenmerk",
+        "label": [
+          {
+            "@value": "persoonlijkKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/sector",
+        "label": [
+          {
+            "@value": "sector"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/stuk",
+        "label": [
+          {
+            "@value": "stuk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/advies",
+        "label": [
+          {
+            "@value": "advies"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/adviestype",
+        "label": [
+          {
+            "@value": "adviestype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/trajecttype",
+        "label": [
+          {
+            "@value": "trajecttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/status",
+        "label": [
+          {
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/advies",
+        "label": [
+          {
+            "@value": "advies"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/agent",
+        "label": [
+          {
+            "@value": "agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/dienstverlening",
+        "label": [
+          {
+            "@value": "dienstverlening"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/heeftParticipant",
+        "label": [
+          {
+            "@value": "heeftParticipant"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/heeftParticipant",
+        "label": [
+          {
+            "@value": "heeftParticipant"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftVerblijfplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftVerblijfplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinshoofd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gezinshoofd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isHoofdVan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isHoofdVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/deel",
+        "label": [
+          {
+            "@value": "deel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/gebruikt",
+        "label": [
+          {
+            "@value": "gebruikt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/profiel",
+        "label": [
+          {
+            "@value": "profiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/produceert",
+        "label": [
+          {
+            "@value": "produceert"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#language",
+        "label": [
+          {
+            "@value": "Taalcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Entity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Entiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Jurisdiction",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Jurisdictie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/OpeningHoursSpecification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openingsurenspecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieActiviteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieClassificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/MediaObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Mediaobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieStatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Informatieclassificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/alternative",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieveNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "achternaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#birthName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geboortenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voornaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanschrijfvorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/email",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "email"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/faxNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "faxnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/openingHours",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "openingsuren"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/telephone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telefoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/homepage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "website"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieveNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#purpose",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "doel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/homepage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "homepage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/date",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inhoud"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/gender",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/hoursAvailable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschikbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgActivity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#classification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "classificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/logo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "logo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#orgType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/participeert",
+        "label": [
+          {
+            "@value": "participeert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/language",
+        "label": [
+          {
+            "@value": "taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasMember",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gezinslid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#memberOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isLidVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isSuborganisatieVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#linkedTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isGeassocieerdMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#subOrganizationOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftSuborganisatie"
+          }
+        ]
+      }
+    ],
     "organisations": [
       {
         "affiliation": "digitaalvlaanderen",
