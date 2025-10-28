@@ -14,19 +14,19 @@
     "http://xmlns.com/foaf/0.1",
     "https://data.vlaanderen.be/ns/klantvolgsysteem",
     "http://data.europa.eu/m8g",
-    "http://todo.com",
     "http://www.w3.org/ns/org",
     "https://data.vlaanderen.be/ns/dossier",
     "http://purl.org/vocab/cpsv",
     "http://purl.org/dc/terms",
+    "http://todo.com",
     "http://www.w3.org/2006/vcard/ns",
     "https://schema.org",
     "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/prov",
-    "https://data.vlaanderen.be/klantvolgsysteem",
+    "http://purl.org/vocab/bio/0.1",
     "http://www.w3.org/ns/locn",
-    "http://www.w3.org/ns/regorg",
     "http://www.w3.org/ns/adms",
+    "http://www.w3.org/ns/regorg",
     "https://ec.europa.eu/esco/lod/static/model.html",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -38,10 +38,10 @@
   "contributors": 0,
   "participants": 2,
   "classes": 53,
-  "properties": 47,
-  "externalclasses": 29,
-  "externalproperties": 62,
-  "totalterms": 191,
+  "properties": 48,
+  "externalclasses": 28,
+  "externalproperties": 60,
+  "totalterms": 189,
   "totalorganisations": 1,
   "organisations": [
     {
@@ -209,7 +209,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/klantvolgsysteem/Jobdoelwit",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Jobdoelwit",
         "label": [
           {
             "@language": "nl",
@@ -496,7 +496,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/klantvolgsysteem/motivatie",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/motivatie",
         "label": [
           {
             "@language": "nl",
@@ -628,11 +628,20 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/status",
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isHoofdVan",
         "label": [
           {
             "@language": "nl",
-            "@value": "status"
+            "@value": "isHoofdVan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftRelatieMet"
           }
         ]
       },
@@ -655,7 +664,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/klantvolgsysteem/functie",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/functie",
         "label": [
           {
             "@language": "nl",
@@ -664,7 +673,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/klantvolgsysteem/opleiding",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/opleiding",
         "label": [
           {
             "@language": "nl",
@@ -781,6 +790,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftRelatieMet"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#persoon",
         "label": [
           {
@@ -848,15 +866,6 @@
           {
             "@language": "nl",
             "@value": "trajecttype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/status",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "status"
           }
         ]
       },
@@ -948,14 +957,6 @@
           {
             "@language": "nl",
             "@value": "Output"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/GeregistreerdeOrganisatie",
-        "label": [
-          {
-            "@value": "GeregistreerdeOrganisatie"
           }
         ]
       },
@@ -1406,14 +1407,6 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/registratie",
-        "label": [
-          {
-            "@value": "registratie"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://data.europa.eu/m8g/role",
         "label": [
           {
@@ -1432,17 +1425,19 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/heeftGeboorte",
+        "assignedURI": "http://purl.org/vocab/bio/0.1/birth",
         "label": [
           {
+            "@language": "nl",
             "@value": "heeftGeboorte"
           }
         ]
       },
       {
-        "assignedURI": "http://todo.com/inwonerschap",
+        "assignedURI": "http://www.w3.org/ns/person#residency",
         "label": [
           {
+            "@language": "nl",
             "@value": "inwonerschap"
           }
         ]
@@ -1511,26 +1506,20 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/isLidVan",
+        "assignedURI": "http://www.w3.org/ns/org#memberOf",
         "label": [
           {
+            "@language": "nl",
             "@value": "isLidVan"
           }
         ]
       },
       {
-        "assignedURI": "http://todo.com/isHoofdVan",
+        "assignedURI": "http://www.w3.org/ns/adms#status",
         "label": [
           {
-            "@value": "isHoofdVan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/heeftRelatieMet",
-        "label": [
-          {
-            "@value": "heeftRelatieMet"
+            "@language": "nl",
+            "@value": "status"
           }
         ]
       },
@@ -1634,14 +1623,6 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/heeftRelatieMet",
-        "label": [
-          {
-            "@value": "heeftRelatieMet"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/language",
         "label": [
           {
@@ -1655,6 +1636,15 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
           }
         ]
       },
