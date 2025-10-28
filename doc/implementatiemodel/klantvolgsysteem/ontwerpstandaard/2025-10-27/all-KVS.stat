@@ -14,14 +14,16 @@
     "http://xmlns.com/foaf/0.1",
     "https://data.vlaanderen.be/ns/klantvolgsysteem",
     "http://data.europa.eu/m8g",
+    "http://purl.org/dc/terms",
     "http://www.w3.org/ns/org",
     "http://www.w3.org/ns/regorg",
     "https://data.vlaanderen.be/ns/dossier",
+    "https://publications.europa.eu/resource/authority",
     "http://purl.org/vocab/cpsv",
-    "http://purl.org/dc/terms",
     "http://todo.com",
     "http://www.w3.org/2006/vcard/ns",
     "https://schema.org",
+    "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/2000/01/rdf-schema",
@@ -31,18 +33,17 @@
     "http://purl.org/vocab/bio/0.1",
     "https://ec.europa.eu/esco/lod/static/model.html",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "https://publications.europa.eu/resource/authority"
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
   ],
   "authors": 0,
   "editors": 2,
   "contributors": 0,
   "participants": 2,
-  "classes": 52,
+  "classes": 56,
   "properties": 53,
-  "externalclasses": 33,
-  "externalproperties": 80,
-  "totalterms": 218,
+  "externalclasses": 34,
+  "externalproperties": 83,
+  "totalterms": 226,
   "totalorganisations": 1,
   "organisations": [
     {
@@ -112,6 +113,14 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Gezinsrelatietype",
+        "label": [
+          {
+            "@value": "Gezinsrelatietype"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap",
         "label": [
           {
@@ -139,11 +148,91 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Identificatortype",
+        "label": [
+          {
+            "@value": "Identificatortype"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Werkzoekendeprofiel",
         "label": [
           {
             "@language": "nl",
             "@value": "Werkzoekendeprofiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Beroeptype",
+        "label": [
+          {
+            "@value": "Beroeptype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Opleidingtype",
+        "label": [
+          {
+            "@value": "Opleidingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Kwalificatietype",
+        "label": [
+          {
+            "@value": "Kwalificatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Competentietype",
+        "label": [
+          {
+            "@value": "Competentietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/PersoonType",
+        "label": [
+          {
+            "@value": "PersoonType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Trajecttype",
+        "label": [
+          {
+            "@value": "Trajecttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Trajectstatustype",
+        "label": [
+          {
+            "@value": "Trajectstatustype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Adviestype",
+        "label": [
+          {
+            "@value": "Adviestype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Jobdoelwittype",
+        "label": [
+          {
+            "@value": "Jobdoelwittype"
           }
         ]
       },
@@ -166,10 +255,42 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Participatietype",
+        "label": [
+          {
+            "@value": "Participatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/PubliekeDienstverleningtype",
+        "label": [
+          {
+            "@value": "PubliekeDienstverleningtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Outputtype",
+        "label": [
+          {
+            "@value": "Outputtype"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Geboorte",
         "label": [
           {
             "@value": "Geboorte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Inputtype",
+        "label": [
+          {
+            "@value": "Inputtype"
           }
         ]
       },
@@ -197,6 +318,70 @@
           {
             "@language": "nl",
             "@value": "Activeringstraject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Stuktype",
+        "label": [
+          {
+            "@value": "Stuktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Arbeidshandicaptype",
+        "label": [
+          {
+            "@value": "Arbeidshandicaptype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Diplomatype",
+        "label": [
+          {
+            "@value": "Diplomatype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Cursustype",
+        "label": [
+          {
+            "@value": "Cursustype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Functietype",
+        "label": [
+          {
+            "@value": "Functietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Sectortype",
+        "label": [
+          {
+            "@value": "Sectortype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Motivatietype",
+        "label": [
+          {
+            "@value": "Motivatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Werkstijltype",
+        "label": [
+          {
+            "@value": "Werkstijltype"
           }
         ]
       },
@@ -281,18 +466,18 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
-        "label": [
-          {
-            "@value": "Date"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
         "label": [
           {
             "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+        "label": [
+          {
+            "@value": "Date"
           }
         ]
       },
@@ -319,162 +504,10 @@
       },
       {},
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Gezinsrelatietype",
-        "label": [
-          {
-            "@value": "Gezinsrelatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Participatietype",
-        "label": [
-          {
-            "@value": "Participatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Outputtype",
-        "label": [
-          {
-            "@value": "Outputtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Inputtype",
-        "label": [
-          {
-            "@value": "Inputtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/PersoonType",
-        "label": [
-          {
-            "@value": "PersoonType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Competentietype",
-        "label": [
-          {
-            "@value": "Competentietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Trajecttype",
-        "label": [
-          {
-            "@value": "Trajecttype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Trajectstatustype",
-        "label": [
-          {
-            "@value": "Trajectstatustype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Functietype",
-        "label": [
-          {
-            "@value": "Functietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Opleidingtype",
-        "label": [
-          {
-            "@value": "Opleidingtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Jobdoelwittype",
-        "label": [
-          {
-            "@value": "Jobdoelwittype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Stuktype",
-        "label": [
-          {
-            "@value": "Stuktype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/PubliekeDienstverleningtype",
-        "label": [
-          {
-            "@value": "PubliekeDienstverleningtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Diplomatype",
-        "label": [
-          {
-            "@value": "Diplomatype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Cursustype",
-        "label": [
-          {
-            "@value": "Cursustype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Werkstijltype",
-        "label": [
-          {
-            "@value": "Werkstijltype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Motivatietype",
-        "label": [
-          {
-            "@value": "Motivatietype"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Arbeidshandicaptype",
         "label": [
           {
             "@value": "Arbeidshandicaptype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Sectortype",
-        "label": [
-          {
-            "@value": "Sectortype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Adviestype",
-        "label": [
-          {
-            "@value": "Adviestype"
           }
         ]
       }
@@ -981,6 +1014,15 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plaats"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/org#FormalOrganization",
         "label": [
           {
@@ -1026,6 +1068,15 @@
         ]
       },
       {
+        "assignedURI": "https://publications.europa.eu/resource/authority/Taalcode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taal"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/m8g/PublicOrganisation",
         "label": [
           {
@@ -1049,6 +1100,15 @@
           {
             "@language": "nl",
             "@value": "Contactpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
           }
         ]
       },
@@ -1110,15 +1170,6 @@
         "label": [
           {
             "@value": "Rechtspersoonlijkheidtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Location",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Plaats"
           }
         ]
       },
@@ -1196,15 +1247,6 @@
           {
             "@language": "nl",
             "@value": "Informatieclassificatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://publications.europa.eu/resource/authority/Taalcode",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Taal"
           }
         ]
       },
@@ -1366,6 +1408,24 @@
           {
             "@language": "nl",
             "@value": "website"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
           }
         ]
       },
@@ -1717,6 +1777,15 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
           }
         ]
       },
