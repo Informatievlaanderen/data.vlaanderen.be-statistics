@@ -1,7 +1,7 @@
 {
-  "title": "Implementatiemodel Klant Volg Systeem",
+  "title": "Implementatiemodel Klant Volg Systeem MAGDA ⇄ MAGDA Online Release 1",
   "uri": "https://data.test-vlaanderen.be/doc/vocabularium/klantvolgsysteem-magda-magdaonline-r1/ontwerpstandaard/2025-10-30",
-  "issued": "2025-10-27",
+  "issued": "2025-10-30",
   "navigation": {
     "self": "https://data.test-vlaanderen.be/doc/vocabularium/klantvolgsysteem-magda-magdaonline-r1/ontwerpstandaard/2025-10-30"
   },
@@ -10,40 +10,35 @@
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/persoon",
-    "http://www.w3.org/ns/person",
     "http://xmlns.com/foaf/0.1",
     "https://data.vlaanderen.be/ns/klantvolgsysteem",
-    "http://data.europa.eu/m8g",
     "http://purl.org/dc/terms",
-    "http://www.w3.org/ns/org",
-    "http://www.w3.org/ns/regorg",
-    "https://data.vlaanderen.be/ns/dossier",
+    "https://publications.europa.eu/resource/authority",
+    "http://data.europa.eu/m8g",
     "http://purl.org/vocab/cpsv",
-    "http://todo.com",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://www.w3.org/ns/adms",
     "http://www.w3.org/2006/vcard/ns",
     "https://schema.org",
     "http://www.w3.org/2000/01/rdf-schema",
-    "http://www.opengis.net/ont/geosparql",
-    "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/adres",
-    "http://www.w3.org/2004/02/skos/core",
-    "http://www.w3.org/ns/prov",
-    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/ns/locn",
     "http://purl.org/vocab/bio/0.1",
-    "https://ec.europa.eu/esco/lod/static/model.html",
+    "http://www.w3.org/ns/person",
+    "http://www.w3.org/ns/regorg",
+    "http://todo.com",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "http://www.w3.org/2001/XMLSchema",
-    "https://publications.europa.eu/resource/authority"
+    "http://www.w3.org/2001/XMLSchema"
   ],
   "authors": 0,
   "editors": 2,
   "contributors": 0,
   "participants": 2,
-  "classes": 52,
-  "properties": 53,
-  "externalclasses": 35,
-  "externalproperties": 84,
-  "totalterms": 224,
+  "classes": 27,
+  "properties": 15,
+  "externalclasses": 15,
+  "externalproperties": 40,
+  "totalterms": 97,
   "totalorganisations": 1,
   "organisations": [
     {
@@ -77,38 +72,11 @@
     ],
     "classes": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Gezinsrelatie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gezinsrelatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Voogdij",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Voogdij"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Verblijfplaats",
         "label": [
           {
             "@language": "nl",
             "@value": "Verblijfplaats"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Gezin",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gezin"
           }
         ]
       },
@@ -149,11 +117,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Traject",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Activeringstraject",
         "label": [
           {
             "@language": "nl",
-            "@value": "Traject"
+            "@value": "Activeringstraject"
           }
         ]
       },
@@ -175,74 +143,19 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/dossier#Stuk",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Stuk"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Inburgeringstraject",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Inburgeringstraject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Activeringstraject",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Activeringstraject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Advies",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Advies"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Jobdoelwit",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Jobdoelwit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Kwalificatie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Kwalificatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Werkervaring",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Werkervaring"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/PersoonlijkKenmerk",
         "label": [
           {
             "@language": "nl",
             "@value": "PersoonlijkKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
           }
         ]
       },
@@ -267,9 +180,6 @@
         "label": [
           {
             "@value": "LangString"
-          },
-          {
-            "@value": "Langstring"
           }
         ]
       },
@@ -281,33 +191,18 @@
           }
         ]
       },
-      {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
-        "label": [
-          {
-            "@value": "Literal"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
-        "label": [
-          {
-            "@value": "Date"
-          }
-        ]
-      },
+      {},
+      {},
       {},
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Traject",
         "label": [
           {
             "@language": "nl",
-            "@value": "Persoonsrelatie"
+            "@value": "Traject"
           }
         ]
       },
-      {},
       {},
       {},
       {
@@ -315,15 +210,6 @@
         "label": [
           {
             "@value": "Persoonsgebeurtenis"
-          }
-        ]
-      },
-      {},
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Gezinsrelatietype",
-        "label": [
-          {
-            "@value": "Gezinsrelatietype"
           }
         ]
       },
@@ -336,82 +222,18 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Outputtype",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/FinaliteitType",
         "label": [
           {
-            "@value": "Outputtype"
+            "@value": "FinaliteitType"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Inputtype",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/OrganisatieType",
         "label": [
           {
-            "@value": "Inputtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/PersoonType",
-        "label": [
-          {
-            "@value": "PersoonType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Competentietype",
-        "label": [
-          {
-            "@value": "Competentietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Trajecttype",
-        "label": [
-          {
-            "@value": "Trajecttype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Trajectstatustype",
-        "label": [
-          {
-            "@value": "Trajectstatustype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Functietype",
-        "label": [
-          {
-            "@value": "Functietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Opleidingtype",
-        "label": [
-          {
-            "@value": "Opleidingtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Jobdoelwittype",
-        "label": [
-          {
-            "@value": "Jobdoelwittype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Stuktype",
-        "label": [
-          {
-            "@value": "Stuktype"
+            "@value": "OrganisatieType"
           }
         ]
       },
@@ -424,58 +246,18 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Diplomatype",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Deeltrajectype",
         "label": [
           {
-            "@value": "Diplomatype"
+            "@value": "Deeltrajectype"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Cursustype",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Voorkeurtype",
         "label": [
           {
-            "@value": "Cursustype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Werkstijltype",
-        "label": [
-          {
-            "@value": "Werkstijltype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Motivatietype",
-        "label": [
-          {
-            "@value": "Motivatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Arbeidshandicaptype",
-        "label": [
-          {
-            "@value": "Arbeidshandicaptype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Sectortype",
-        "label": [
-          {
-            "@value": "Sectortype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Adviestype",
-        "label": [
-          {
-            "@value": "Adviestype"
+            "@value": "Voorkeurtype"
           }
         ]
       }
@@ -508,6 +290,15 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#huisnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
         "label": [
           {
@@ -517,56 +308,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/motivatie",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/werkafkeur",
         "label": [
           {
             "@language": "nl",
-            "@value": "motivatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/startdatum",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "startdatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/einddatum",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "einddatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/startdatum",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "startdatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/einddatum",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "einddatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinsrelatietype",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gezinsrelatietype"
+            "@value": "werkafkeur"
           }
         ]
       },
@@ -576,15 +322,6 @@
           {
             "@language": "nl",
             "@value": "verblijfsadres"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinsadres",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gezinsadres"
           }
         ]
       },
@@ -614,238 +351,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#jurisdictie",
-        "label": [
-          {
-            "@value": "jurisdictie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/trajecttype",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "trajecttype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/competentie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "competentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/ervaring",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ervaring"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isHoofdVan",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "isHoofdVan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftRelatieMet"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/dossier#auteur",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "auteur"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/dossier#informatieclassificatie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "informatieclassificatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/functie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "functie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/opleiding",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "opleiding"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/jobdoelwit",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "jobdoelwit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/contract",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "contract"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/attest",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "attest"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/opleiding",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "opleiding"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/diploma",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "diploma"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/cursus",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "cursus"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/functie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "functie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/werkstijl",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "werkstijl"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/motivatie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "motivatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/werkvoorkeur",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "werkvoorkeur"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/leervoorkeur",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "leervoorkeur"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/participeert",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "participeert"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftRelatieMet"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#persoon",
-        "label": [
-          {
-            "@value": "persoon"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/arbeidshandicap",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "arbeidshandicap"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/werkzoekende",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "kwalificatie"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/persoonlijkKenmerk",
         "label": [
           {
@@ -855,83 +360,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/sector",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "sector"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/stuk",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "stuk"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/advies",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "advies"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/trajecttype",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "trajecttype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/advies",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "advies"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/dienstverlening",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "dienstverlening"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/werkafkeur",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "werkafkeur"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/leerafkeur",
         "label": [
           {
             "@language": "nl",
             "@value": "leerafkeur"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftVerblijfplaats",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftVerblijfplaats"
           }
         ]
       },
@@ -951,33 +384,24 @@
             "@value": "profiel"
           }
         ]
-      }
-    ],
-    "externalclasses": [
+      },
       {
-        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftVerblijfplaats",
         "label": [
           {
             "@language": "nl",
-            "@value": "Persoon"
+            "@value": "heeftVerblijfplaats"
           }
         ]
-      },
+      }
+    ],
+    "externalclasses": [
       {
         "assignedURI": "http://xmlns.com/foaf/0.1/Agent",
         "label": [
           {
             "@language": "nl",
             "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/Input",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Input"
           }
         ]
       },
@@ -991,47 +415,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/org#FormalOrganization",
+        "assignedURI": "https://publications.europa.eu/resource/authority/Taalcode",
         "label": [
           {
             "@language": "nl",
-            "@value": "FormeleOrganisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Organization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/Participation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Participatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/Input",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Output"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "GeregistreerdeOrganisatie"
+            "@value": "Taal"
           }
         ]
       },
@@ -1054,20 +442,11 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/ContactPoint",
+        "assignedURI": "http://data.europa.eu/m8g/Participation",
         "label": [
           {
             "@language": "nl",
-            "@value": "Contactpunt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geometrie"
+            "@value": "Participatie"
           }
         ]
       },
@@ -1081,20 +460,11 @@
         ]
       },
       {
-        "assignedURI": "https://ec.europa.eu/esco/lod/static/model.html#Skill",
+        "assignedURI": "https://schema.org/ContactPoint",
         "label": [
           {
             "@language": "nl",
-            "@value": "Competentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "GeografischeNaam"
+            "@value": "Contactpunt"
           }
         ]
       },
@@ -1108,7 +478,16 @@
         ]
       },
       {
-        "assignedURI": "http://xmlns.com/foaf/0.1/Person",
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeografischeNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
         "label": [
           {
             "@language": "nl",
@@ -1117,113 +496,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/prov#Entity",
+        "assignedURI": "http://data.europa.eu/m8g/Input",
         "label": [
           {
             "@language": "nl",
-            "@value": "Entiteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Geslacht"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Rechtspersoonlijkheidtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Jurisdiction",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Jurisdictie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/OpeningHoursSpecification",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Openingsurenspecificatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieActiviteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieClassificatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/MediaObject",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Mediaobject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieStatus"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Informatieclassificatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://publications.europa.eu/resource/authority/Taalcode",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Taal"
+            "@value": "Input"
           }
         ]
       },
@@ -1237,37 +514,48 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/OpeningHoursSpecification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openingsurenspecificatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#language",
         "label": [
           {
             "@value": "Taalcode"
           }
         ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Rechtstoestandtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Rechtsvormtype"
-          }
-        ]
       }
     ],
     "externalproperties": [
       {
-        "assignedURI": "http://purl.org/dc/terms/alternative",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
         "label": [
           {
             "@language": "nl",
-            "@value": "alternatieveNaam"
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekendDoor(String)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekendOp"
           }
         ]
       },
@@ -1286,33 +574,6 @@
           {
             "@language": "nl",
             "@value": "achternaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/person#birthName",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geboortenaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/gebruikteVoornaam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gebruikteVoornaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/volledigeNaam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "volledigeNaam"
           }
         ]
       },
@@ -1398,83 +659,18 @@
         ]
       },
       {
-        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "assignedURI": "http://www.w3.org/ns/locn#straatcode",
         "label": [
           {
-            "@language": "nl",
-            "@value": "gml"
+            "@value": "straatcode"
           }
         ]
       },
       {
-        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "assignedURI": "http://www.w3.org/ns/locn#gemeentecode",
         "label": [
           {
-            "@language": "nl",
-            "@value": "wkt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "administratieve eenheid niveau 1"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "administratieve eenheid niveau 2"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#addressArea",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "adresgebied"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "huisnummer"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "locatieaanduiding"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#locatorName",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "locatienaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#poBox",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "postbus"
+            "@value": "gemeentecode"
           }
         ]
       },
@@ -1506,51 +702,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "volledigAdres"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#altLabel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "alternatieveNaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/description",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschrijving"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#purpose",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "doel"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://xmlns.com/foaf/0.1/homepage",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "homepage"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "label": [
           {
@@ -1560,92 +711,11 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/date",
+        "assignedURI": "http://purl.org/dc/terms/creator",
         "label": [
           {
             "@language": "nl",
-            "@value": "datum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/title",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#value",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "inhoud"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toegekendDoor(String)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/issued",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toegekendOp"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/title",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/title",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/description",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "projectbeschrijving"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/regorg#legalName",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "wettelijke naam"
+            "@value": "toegekendDoor"
           }
         ]
       },
@@ -1659,38 +729,11 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/m8g/gender",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geslacht"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://data.europa.eu/m8g/role",
         "label": [
           {
             "@language": "nl",
             "@value": "rol"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/regorg#rechtspersoonlijkheid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "rechtspersoonlijkheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
           }
         ]
       },
@@ -1722,24 +765,6 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/hasParticipant",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftParticipant"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/locn#address",
         "label": [
           {
@@ -1758,65 +783,10 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/type",
+        "assignedURI": "http://purl.org/vocab/cpsv#finaliteit",
         "label": [
           {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#memberOf",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "isLidVan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#status",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "status"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/regorg#orgActivity",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "activiteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#classification",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "classificatie"
+            "@value": "finaliteit"
           }
         ]
       },
@@ -1830,74 +800,11 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/logo",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "logo"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/regorg#orgStatus",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "status"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/regorg#orgType",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#identifier",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/language",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "taal"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
             "@language": "nl",
             "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/creator",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toegekendDoor"
           }
         ]
       },
@@ -1924,69 +831,6 @@
           {
             "@language": "nl",
             "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#status",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "status"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/hasParticipant",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/hasParticipant",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftParticipant"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/hasParticipant",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftParticipant"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/spatial",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "werkingsgebied"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/regorg#rechtstoestand",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "rechtstoestand"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/regorg#rechtsvorm",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "rechtsvorm"
           }
         ]
       },
@@ -2014,6 +858,31 @@
           {
             "@language": "nl",
             "@value": "produceert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasParticipation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftParticipant"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Participatie.Agent",
+        "label": [
+          {
+            "@value": "Participatie.Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#Participatie.PubliekeDienstverlening",
+        "label": [
+          {
+            "@value": "Participatie.PubliekeDienstverlening"
           }
         ]
       }
