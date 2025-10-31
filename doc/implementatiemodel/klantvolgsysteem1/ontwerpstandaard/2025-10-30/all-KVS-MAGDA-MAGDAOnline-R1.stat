@@ -9,12 +9,12 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
+    "http://data.europa.eu/m8g",
     "https://data.vlaanderen.be/ns/klantvolgsysteem",
     "https://data.vlaanderen.be/ns/persoon",
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/ns/person",
     "http://purl.org/dc/terms",
-    "http://data.europa.eu/m8g",
     "http://purl.org/vocab/cpsv",
     "http://purl.org/vocab/bio/0.1",
     "http://www.w3.org/2004/02/skos/core",
@@ -31,11 +31,11 @@
   "editors": 2,
   "contributors": 0,
   "participants": 2,
-  "classes": 24,
+  "classes": 25,
   "properties": 14,
-  "externalclasses": 12,
-  "externalproperties": 42,
-  "totalterms": 92,
+  "externalclasses": 13,
+  "externalproperties": 47,
+  "totalterms": 99,
   "totalorganisations": 1,
   "organisations": [
     {
@@ -248,6 +248,14 @@
             "@value": "Inwonerschap"
           }
         ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Participatietype",
+        "label": [
+          {
+            "@value": "Participatietype"
+          }
+        ]
       }
     ],
     "properties": [
@@ -379,6 +387,15 @@
       }
     ],
     "externalclasses": [
+      {
+        "assignedURI": "http://data.europa.eu/m8g/Participation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Participatie"
+          }
+        ]
+      },
       {
         "assignedURI": "http://xmlns.com/foaf/0.1/Agent",
         "label": [
@@ -787,6 +804,15 @@
         ]
       },
       {
+        "assignedURI": "http://data.europa.eu/m8g/role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rol"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/person#residency",
         "label": [
           {
@@ -850,11 +876,47 @@
         ]
       },
       {
+        "assignedURI": "http://data.europa.eu/m8g/hasParticipant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftParticipant"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/vocab/cpsv#hasInput",
         "label": [
           {
             "@language": "nl",
             "@value": "gebruikt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasParticipation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftParticipatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasParticipation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftParticipatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasParticipation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftParticipatie"
           }
         ]
       },
