@@ -22,6 +22,8 @@
     "http://www.w3.org/2000/01/rdf-schema",
     "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/ns/locn",
+    "http://purl.org/vocab/bio/0.1",
+    "http://www.w3.org/ns/person",
     "http://www.w3.org/ns/regorg",
     "http://todo.com",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -31,11 +33,11 @@
   "editors": 2,
   "contributors": 0,
   "participants": 2,
-  "classes": 27,
+  "classes": 28,
   "properties": 16,
-  "externalclasses": 13,
-  "externalproperties": 35,
-  "totalterms": 91,
+  "externalclasses": 14,
+  "externalproperties": 39,
+  "totalterms": 97,
   "totalorganisations": 1,
   "organisations": [
     {
@@ -223,6 +225,15 @@
         "label": [
           {
             "@value": "FinaliteitType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inwonerschap"
           }
         ]
       },
@@ -524,6 +535,15 @@
             "@value": "Agent"
           }
         ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/bio/0.1/Birth",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geboorte"
+          }
+        ]
       }
     ],
     "externalproperties": [
@@ -569,6 +589,15 @@
           {
             "@language": "nl",
             "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "achternaam"
           }
         ]
       },
@@ -663,6 +692,15 @@
         ]
       },
       {
+        "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voornaam"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/startDate",
         "label": [
           {
@@ -731,6 +769,24 @@
           {
             "@language": "nl",
             "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/bio/0.1/birth",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftGeboorte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#residency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inwonerschap"
           }
         ]
       },
