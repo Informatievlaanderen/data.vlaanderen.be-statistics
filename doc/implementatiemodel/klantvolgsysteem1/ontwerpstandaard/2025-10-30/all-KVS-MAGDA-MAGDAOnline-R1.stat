@@ -15,6 +15,7 @@
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/ns/person",
     "http://purl.org/dc/terms",
+    "http://www.w3.org/ns/regorg",
     "http://purl.org/vocab/cpsv",
     "http://purl.org/vocab/bio/0.1",
     "http://www.w3.org/2004/02/skos/core",
@@ -23,7 +24,6 @@
     "http://www.w3.org/2000/01/rdf-schema",
     "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/ns/locn",
-    "http://www.w3.org/ns/regorg",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema"
   ],
@@ -33,9 +33,9 @@
   "participants": 2,
   "classes": 25,
   "properties": 14,
-  "externalclasses": 13,
-  "externalproperties": 47,
-  "totalterms": 99,
+  "externalclasses": 14,
+  "externalproperties": 51,
+  "totalterms": 104,
   "totalorganisations": 1,
   "organisations": [
     {
@@ -424,6 +424,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeregistreerdeOrganisatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/m8g/PublicOrganisation",
         "label": [
           {
@@ -633,6 +642,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
         "label": [
           {
@@ -732,6 +750,15 @@
         ]
       },
       {
+        "assignedURI": "https://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/m8g/hasCompetentAuthority",
         "label": [
           {
@@ -746,6 +773,15 @@
           {
             "@language": "nl",
             "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#registration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
           }
         ]
       },
@@ -809,6 +845,15 @@
           {
             "@language": "nl",
             "@value": "rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
           }
         ]
       },
