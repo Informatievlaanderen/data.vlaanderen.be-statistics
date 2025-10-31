@@ -13,16 +13,15 @@
     "http://xmlns.com/foaf/0.1",
     "https://data.vlaanderen.be/ns/klantvolgsysteem",
     "http://purl.org/dc/terms",
-    "https://publications.europa.eu/resource/authority",
     "http://data.europa.eu/m8g",
     "http://purl.org/vocab/cpsv",
+    "http://purl.org/vocab/bio/0.1",
     "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/adms",
     "https://schema.org",
     "http://www.w3.org/2000/01/rdf-schema",
     "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/ns/locn",
-    "http://purl.org/vocab/bio/0.1",
     "http://www.w3.org/ns/person",
     "http://www.w3.org/ns/regorg",
     "http://todo.com",
@@ -33,11 +32,11 @@
   "editors": 2,
   "contributors": 0,
   "participants": 2,
-  "classes": 28,
-  "properties": 16,
-  "externalclasses": 14,
-  "externalproperties": 39,
-  "totalterms": 97,
+  "classes": 25,
+  "properties": 14,
+  "externalclasses": 12,
+  "externalproperties": 47,
+  "totalterms": 98,
   "totalorganisations": 1,
   "organisations": [
     {
@@ -70,6 +69,31 @@
       }
     ],
     "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeregistreerdPersoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/OrganisatieType",
+        "label": [
+          {
+            "@value": "OrganisatieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Trajectstatustype",
+        "label": [
+          {
+            "@value": "Trajectstatustype"
+          }
+        ]
+      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Verblijfplaats",
         "label": [
@@ -116,11 +140,27 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Voorkeurtype",
+        "label": [
+          {
+            "@value": "Voorkeurtype"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Activeringstraject",
         "label": [
           {
             "@language": "nl",
             "@value": "Activeringstraject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/FinaliteitType",
+        "label": [
+          {
+            "@value": "FinaliteitType"
           }
         ]
       },
@@ -134,10 +174,26 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Geboorte",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Participatietype",
         "label": [
           {
-            "@value": "Geboorte"
+            "@value": "Participatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/PubliekeDienstverleningtype",
+        "label": [
+          {
+            "@value": "PubliekeDienstverleningtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Deeltrajectype",
+        "label": [
+          {
+            "@value": "Deeltrajectype"
           }
         ]
       },
@@ -184,7 +240,6 @@
       },
       {},
       {},
-      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Traject",
         "label": [
@@ -195,39 +250,6 @@
         ]
       },
       {},
-      {},
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsgebeurtenis",
-        "label": [
-          {
-            "@value": "Persoonsgebeurtenis"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Participatietype",
-        "label": [
-          {
-            "@value": "Participatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Trajectstatustype",
-        "label": [
-          {
-            "@value": "Trajectstatustype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/FinaliteitType",
-        "label": [
-          {
-            "@value": "FinaliteitType"
-          }
-        ]
-      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap",
         "label": [
@@ -236,49 +258,9 @@
             "@value": "Inwonerschap"
           }
         ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/OrganisatieType",
-        "label": [
-          {
-            "@value": "OrganisatieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/PubliekeDienstverleningtype",
-        "label": [
-          {
-            "@value": "PubliekeDienstverleningtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Deeltrajectype",
-        "label": [
-          {
-            "@value": "Deeltrajectype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Voorkeurtype",
-        "label": [
-          {
-            "@value": "Voorkeurtype"
-          }
-        ]
       }
     ],
     "properties": [
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#datum",
-        "label": [
-          {
-            "@value": "datum"
-          }
-        ]
-      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/adres#busnummer",
         "label": [
@@ -352,14 +334,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#plaats",
-        "label": [
-          {
-            "@value": "plaats"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/finaliteit",
         "label": [
           {
@@ -421,10 +395,6 @@
           {
             "@language": "nl",
             "@value": "Agent"
-          },
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
@@ -434,15 +404,6 @@
           {
             "@language": "nl",
             "@value": "Plaats"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://publications.europa.eu/resource/authority/Taalcode",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Taal"
           }
         ]
       },
@@ -470,6 +431,15 @@
           {
             "@language": "nl",
             "@value": "Participatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/bio/0.1/Birth",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geboorte"
           }
         ]
       },
@@ -510,15 +480,6 @@
         ]
       },
       {
-        "assignedURI": "http://xmlns.com/foaf/0.1/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://data.europa.eu/m8g/Input",
         "label": [
           {
@@ -533,15 +494,6 @@
           {
             "@language": "nl",
             "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/vocab/bio/0.1/Birth",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geboorte"
           }
         ]
       }
@@ -602,6 +554,15 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/vocab/bio/0.1/date",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/endDate",
         "label": [
           {
@@ -625,6 +586,24 @@
           {
             "@language": "nl",
             "@value": "startdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "achternaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voornaam"
           }
         ]
       },
@@ -746,6 +725,15 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/vocab/bio/0.1/place",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaats"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/m8g/hasCompetentAuthority",
         "label": [
           {
@@ -760,6 +748,24 @@
           {
             "@language": "nl",
             "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/bio/0.1/birth",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftGeboorte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#residency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inwonerschap"
           }
         ]
       },
@@ -841,6 +847,24 @@
           {
             "@language": "nl",
             "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasParticipation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftParticipant"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasParticipation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftParticipant"
           }
         ]
       },
