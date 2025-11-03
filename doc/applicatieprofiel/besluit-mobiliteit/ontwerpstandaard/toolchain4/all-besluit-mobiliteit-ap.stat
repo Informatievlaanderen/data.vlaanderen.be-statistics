@@ -11,19 +11,19 @@
   "statuslabel": "Kandidaat Standaard",
   "namespaces": [
     "http://data.vlaanderen.be/ns/besluit",
+    "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/mobiliteit",
     "http://data.europa.eu/eli/ontology",
     "http://lblod.data.gift/vocabularies/variables",
     "http://www.w3.org/2004/02/skos/core",
     "https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel",
     "https://w3id.org/tribont/core",
+    "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement",
     "http://lblod.data.gift/variables",
     "http://schema.org",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/adres",
-    "http://purl.org/dc/terms",
-    "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement",
     "http://www.w3.org/2024/02/skos/core",
     "http://qudt.org/schema/qudt",
     "http://www.w3.org/ns/adms",
@@ -42,11 +42,11 @@
   "editors": 2,
   "contributors": 55,
   "participants": 69,
-  "classes": 38,
-  "properties": 56,
+  "classes": 47,
+  "properties": 65,
   "externalclasses": 43,
-  "externalproperties": 65,
-  "totalterms": 202,
+  "externalproperties": 61,
+  "totalterms": 216,
   "totalorganisations": 34,
   "organisations": [
     {
@@ -951,11 +951,11 @@
         ]
       },
       {
-        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#BevatVerkeersteken",
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#HeeftOntwerp",
         "label": [
           {
             "@language": "nl",
-            "@value": "Bevat Verkeersteken"
+            "@value": "Heeft Ontwerp"
           }
         ]
       },
@@ -1013,6 +1013,42 @@
         ]
       },
       {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#HeeftBetrokkene",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Heeft Betrokkene"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#BevatVerkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bevat Verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#BevatMaatregelOntwerp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bevat Maatregel Ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Relatieobject"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Template",
         "label": [
           {
@@ -1065,6 +1101,14 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
         "label": [
           {
@@ -1072,11 +1116,15 @@
           }
         ]
       },
+      {},
+      {},
+      {},
+      {},
       {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject",
         "label": [
           {
-            "@value": "Integer"
+            "@value": "AWV-Implementatieelement:RelatieObject"
           }
         ]
       },
@@ -1171,20 +1219,20 @@
         ]
       },
       {
-        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#AIMDBStatus.isActief",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "is actief"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#variabeleSignalisatie",
         "label": [
           {
             "@language": "nl",
             "@value": "variabele signalisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#naam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
           }
         ]
       },
@@ -1203,6 +1251,15 @@
           {
             "@language": "nl",
             "@value": "AR-plichtig"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#AIMDBStatus.isActief",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is actief"
           }
         ]
       },
@@ -1239,6 +1296,15 @@
           {
             "@language": "nl",
             "@value": "regelgevend kader"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#VLAGAIMToestand.toestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
           }
         ]
       },
@@ -1449,6 +1515,24 @@
         ]
       },
       {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "signalisatieOntwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.doel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftVerkeersteken",
         "label": [
           {
@@ -1591,7 +1675,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "aanvullend reglement in ontwerp"
+            "@value": "ontwerpverkeersteken"
           }
         ]
       },
@@ -1600,12 +1684,66 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "ontwerp verkeersteken"
+            "@value": "aanvullend reglement in ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aanvullend Reglement Ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Mobiliteitsmaatregel Ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#bevatVerkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bevat verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "signalisatieOntwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.doel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ontwerpverkeersteken"
           }
         ]
       }
     ],
     "externalclasses": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
       {
         "assignedURI": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
         "label": [
@@ -1969,15 +2107,6 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
         "label": [
           {
@@ -2186,15 +2315,6 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/issued",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "uitgegeven op"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "label": [
           {
@@ -2258,15 +2378,6 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/title",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "naam"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/locn#geometry",
         "label": [
           {
@@ -2285,20 +2396,20 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgegeven op"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://qudt.org/schema/qudt/hasQuantityKind",
         "label": [
           {
             "@language": "nl",
             "@value": "type grootheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#status",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "status"
           }
         ]
       },
@@ -2465,15 +2576,6 @@
         ]
       },
       {
-        "assignedURI": "http://lblod.data.gift/vocabularies/variables/instanceOf",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft waarde voor"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/prov#wasDerivedFrom",
         "label": [
           {
@@ -2528,15 +2630,6 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/references",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bevat maatregel ontwerp"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#inScheme",
         "label": [
           {
@@ -2564,11 +2657,11 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/hasPart",
+        "assignedURI": "http://purl.org/dc/terms/references",
         "label": [
           {
             "@language": "nl",
-            "@value": "bevat verkeersteken"
+            "@value": "bevat maatregel ontwerp"
           }
         ]
       }
