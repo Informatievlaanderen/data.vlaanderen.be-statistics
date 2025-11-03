@@ -15,6 +15,7 @@
     "http://data.europa.eu/eli/ontology",
     "http://lblod.data.gift/vocabularies/variables",
     "http://www.w3.org/2004/02/skos/core",
+    "https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel",
     "https://w3id.org/tribont/core",
     "http://lblod.data.gift/variables",
     "http://schema.org",
@@ -22,7 +23,7 @@
     "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/adres",
     "http://purl.org/dc/terms",
-    "https://schema.org",
+    "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement",
     "http://www.w3.org/2024/02/skos/core",
     "http://qudt.org/schema/qudt",
     "http://www.w3.org/ns/adms",
@@ -34,17 +35,18 @@
     "http://purl.org/vocab/cpsv",
     "http://xmlns.com/foaf/0.1",
     "http://data.europa.eu/m8g",
+    "https://schema.org",
     "http://www.w3.org/ns/org"
   ],
   "authors": 12,
   "editors": 2,
   "contributors": 55,
   "participants": 69,
-  "classes": 37,
-  "properties": 53,
+  "classes": 38,
+  "properties": 58,
   "externalclasses": 43,
-  "externalproperties": 64,
-  "totalterms": 197,
+  "externalproperties": 65,
+  "totalterms": 204,
   "totalorganisations": 34,
   "organisations": [
     {
@@ -949,6 +951,15 @@
         ]
       },
       {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#BevatVerkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bevat Verkeersteken"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#WegmarkeringVerkeersteken",
         "label": [
           {
@@ -1054,18 +1065,18 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
-        "label": [
-          {
-            "@value": "Integer"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
         "label": [
           {
             "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
           }
         ]
       },
@@ -1156,6 +1167,15 @@
           {
             "@language": "nl",
             "@value": "plaatsbepaling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#AIMDBStatus.isActief",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is actief"
           }
         ]
       },
@@ -1563,6 +1583,40 @@
           {
             "@language": "nl",
             "@value": "bevat verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#bron",
+        "label": [
+          {
+            "@value": "bron"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#doel",
+        "label": [
+          {
+            "@value": "doel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanvullend reglement in ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.doel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ontwerp verkeersteken"
           }
         ]
       }
@@ -2130,7 +2184,7 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/position",
+        "assignedURI": "http://schema.org/position",
         "label": [
           {
             "@language": "nl",
@@ -2144,6 +2198,15 @@
           {
             "@language": "nl",
             "@value": "geldig vanaf"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgegeven op"
           }
         ]
       },
