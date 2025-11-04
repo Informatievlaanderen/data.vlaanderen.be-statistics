@@ -13,7 +13,7 @@
     "https://data.vlaanderen.be/ns/persoon",
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/ns/person",
-    "https://data.vlaanderen.be/ns/klantvolgsysteem",
+    "https://data.vlaanderen.be/ns/klantvolgsysteem1",
     "http://purl.org/dc/terms",
     "http://www.w3.org/ns/regorg",
     "http://purl.org/vocab/cpsv",
@@ -25,15 +25,16 @@
     "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "http://www.w3.org/2001/XMLSchema"
+    "http://www.w3.org/2001/XMLSchema",
+    "https://data.vlaanderen.be/ns/klantvolgsysteem"
   ],
   "authors": 0,
   "editors": 2,
   "contributors": 0,
   "participants": 2,
-  "classes": 24,
+  "classes": 18,
   "properties": 13,
-  "externalclasses": 14,
+  "externalclasses": 20,
   "externalproperties": 52,
   "totalterms": 103,
   "totalorganisations": 1,
@@ -105,7 +106,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Werkzoekendeprofiel",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem1/Werkvoorkeuren",
         "label": [
           {
             "@language": "nl",
@@ -114,7 +115,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Activeringstraject",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem1/Activeringstraject",
         "label": [
           {
             "@language": "nl",
@@ -123,7 +124,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Deeltraject",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem1/Deeltraject",
         "label": [
           {
             "@language": "nl",
@@ -132,7 +133,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Beroepstoestand",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem1/Beroepstoestand",
         "label": [
           {
             "@language": "nl",
@@ -175,7 +176,7 @@
       {},
       {},
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Traject",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem1/Traject",
         "label": [
           {
             "@language": "nl",
@@ -184,14 +185,6 @@
         ]
       },
       {},
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Trajectstatustype",
-        "label": [
-          {
-            "@value": "Trajectstatustype"
-          }
-        ]
-      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap",
         "label": [
@@ -206,46 +199,6 @@
         "label": [
           {
             "@value": "Participatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/OrganisatieType",
-        "label": [
-          {
-            "@value": "OrganisatieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/FinaliteitType",
-        "label": [
-          {
-            "@value": "FinaliteitType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/PubliekeDienstverleningtype",
-        "label": [
-          {
-            "@value": "PubliekeDienstverleningtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Deeltrajecttype",
-        "label": [
-          {
-            "@value": "Deeltrajecttype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/Voorkeurtype",
-        "label": [
-          {
-            "@value": "Voorkeurtype"
           }
         ]
       }
@@ -324,7 +277,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/finaliteit",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem1/finaliteit",
         "label": [
           {
             "@language": "nl",
@@ -333,7 +286,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/beroep",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem1/beroep",
         "label": [
           {
             "@language": "nl",
@@ -342,7 +295,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/voorkeur",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem1/voorkeur",
         "label": [
           {
             "@language": "nl",
@@ -351,7 +304,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem/werkvoorkeuren",
+        "assignedURI": "https://data.vlaanderen.be/ns/klantvolgsysteem1/werkvoorkeuren",
         "label": [
           {
             "@language": "nl",
@@ -493,6 +446,54 @@
           {
             "@language": "nl",
             "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Trajectstatustype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "FinaliteitType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "PubliekeDienstverleningtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Deeltrajecttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Voorkeurtype"
           }
         ]
       }
