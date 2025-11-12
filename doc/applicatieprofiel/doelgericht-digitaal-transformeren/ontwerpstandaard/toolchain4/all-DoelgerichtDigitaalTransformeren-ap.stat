@@ -12,7 +12,6 @@
   "namespaces": [
     "https://data.vlaanderen.be/ns/cultuurparticipatie",
     "http://www.cidoc-crm.org/cidoc-crm",
-    "http://www.w3.org/2004/02/skos/core",
     "http://purl.org/dc/terms",
     "https://schema.org",
     "http://purl.org/vocab/cpsv",
@@ -26,6 +25,7 @@
     "https://w3id.org/GConsent",
     "https://data.vlaanderen.be/ns/FeitelijkeVerenigingen",
     "https://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/2004/02/skos/core",
     "http://data.europa.eu/m8g",
     "https://www.w3.org/ns/prov",
     "http://cidoc-crm.org/cidoc-crm",
@@ -44,10 +44,10 @@
   "contributors": 42,
   "participants": 46,
   "classes": 36,
-  "properties": 109,
-  "externalclasses": 62,
-  "externalproperties": 69,
-  "totalterms": 276,
+  "properties": 112,
+  "externalclasses": 24,
+  "externalproperties": 68,
+  "totalterms": 240,
   "totalorganisations": 29,
   "organisations": [
     {
@@ -1457,6 +1457,22 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Participant.Deelname",
+        "label": [
+          {
+            "@value": "Participant.Deelname"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Participant.Deelname",
+        "label": [
+          {
+            "@value": "Participant.Deelname"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#profielVan",
         "label": [
           {
@@ -1506,14 +1522,6 @@
         "label": [
           {
             "@value": "Activiteit (source)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#ActiviteitVerhouding.activiteit.target",
-        "label": [
-          {
-            "@value": "Activiteit (target)"
           }
         ]
       },
@@ -1777,6 +1785,22 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisator.Realisatie",
+        "label": [
+          {
+            "@value": "Realisator.Realisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#Realisator.Realisatie",
+        "label": [
+          {
+            "@value": "Realisator.Realisatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/cultuurparticipatie#persoonlijkProfielVan",
         "label": [
           {
@@ -1842,42 +1866,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ThemaType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Onderwijsniveau"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Activiteittype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Triggertype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
           {
@@ -1896,110 +1884,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Mediumtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Promotietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Transactietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Tickettype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Feedbacktype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Documenttype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/vocab/cpsv#PublicService",
         "label": [
           {
             "@language": "nl",
             "@value": "Publieke Dienstverlening"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "RealisatorType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geslacht"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Type Techniek"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Participanttype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Objecttype"
           }
         ]
       },
@@ -2031,65 +1920,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Inkomensniveau"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Samenwerkingstype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E70_Thing",
         "label": [
           {
             "@language": "nl",
             "@value": "Ding"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "DisciplineType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "DeelnameType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "DoelgroepType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ActiviteitStatus"
           }
         ]
       },
@@ -2121,74 +1956,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "LabelType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "RolTypeOrganisator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "BetaaltermijnType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "LocatieType"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://xmlns.com/foaf/0.1/Document",
         "label": [
           {
             "@language": "nl",
             "@value": "Document"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "FeedbackBron"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "PrijsCategorieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OrganisatievormType"
           }
         ]
       },
@@ -2202,96 +1974,6 @@
           {
             "@language": "nl",
             "@value": "Consent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ActiviteitFunctietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Nationaliteitscode"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OrganisatieActiviteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OrganisatieClassificatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OrganisatieStatus"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OrganisatieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Rechtspersoonlijkheidstype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Rechtstoestandtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Rechtsvormtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ActiviteitVerhoudingType"
           }
         ]
       },
@@ -2986,14 +2668,6 @@
         "label": [
           {
             "@value": "Agent (source)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Samenwerking.agent.target",
-        "label": [
-          {
-            "@value": "Agent (target)"
           }
         ]
       },

@@ -9,10 +9,10 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.cidoc-crm.org/cidoc-crm",
     "http://purl.org/dc/terms",
     "https://qudt.org/schema/qudt",
+    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/adres",
     "https://data.vlaanderen.be/ns/generiek",
     "http://www.w3.org/ns/org",
@@ -27,10 +27,10 @@
     "http://www.w3.org/2006/time",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/locn",
+    "https://periodo.github.io/edtf-ontology/edtfo.ttl",
     "http://www.opengis.net/ont/geosparql",
     "https://data.vlaanderen.be/ns/persoon",
     "http://purl.org/dc/elements/1.1",
-    "https://periodo.github.io/edtf-ontology/edtfo.ttl",
     "https://data.vlaanderen.be/ns/persoon#",
     "http://todo.com",
     "https://linked.art/ns/terms",
@@ -38,18 +38,16 @@
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://id.loc.gov/datatypes/edtf",
     "http://www.w3.org/2001/XMLSchema",
-    "https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html",
-    "https://wherever",
-    "https://schema.org"
+    "https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html"
   ],
   "authors": 4,
   "editors": 3,
   "contributors": 20,
   "participants": 27,
-  "classes": 18,
-  "properties": 14,
-  "externalclasses": 69,
-  "externalproperties": 109,
+  "classes": 20,
+  "properties": 13,
+  "externalclasses": 66,
+  "externalproperties": 111,
   "totalterms": 210,
   "totalorganisations": 19,
   "organisations": [
@@ -441,6 +439,8 @@
       {},
       {},
       {},
+      {},
+      {},
       {}
     ],
     "properties": [
@@ -535,49 +535,33 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftRelatieMet",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.activiteit",
         "label": [
           {
             "@language": "nl",
-            "@value": "heeft relatie met"
+            "@value": "activiteit"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.agent",
         "label": [
           {
-            "@value": "Persoon (source)"
+            "@language": "nl",
+            "@value": "agent"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
+        "assignedURI": "https://data.vlaanderen.be/ns/cultureel-erfgoed#Activiteit.Rol",
         "label": [
           {
-            "@value": "Persoon (target)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol.Activiteit",
-        "label": [
-          {
-            "@value": "Rol.Activiteit"
+            "@value": "Activiteit.Rol"
           }
         ]
       }
     ],
     "externalclasses": [
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Type Techniek"
-          }
-        ]
-      },
       {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E71_Human-Made_Thing",
         "label": [
@@ -768,15 +752,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Type Rol"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing",
         "label": [
           {
@@ -813,42 +788,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Type Recht"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Type Conditie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Type Entiteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Type Materiaal"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E30_Right",
         "label": [
           {
@@ -858,20 +797,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object",
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object",
         "label": [
           {
             "@language": "nl",
             "@value": "Mensgemaakt Object"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Type Grootheid"
           }
         ]
       },
@@ -1047,6 +977,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Entiteit"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence",
         "label": [
           {
@@ -1124,11 +1063,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Entiteit"
+            "@value": "Type Techniek"
           }
         ]
       },
@@ -1142,29 +1081,47 @@
         ]
       },
       {
-        "assignedURI": "http://id.loc.gov/datatypes/edtf/EDTF",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Periode"
+            "@value": "Type Entiteit"
           }
         ]
       },
       {
-        "assignedURI": "https://wherever/TODO",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Locatie"
+            "@value": "Type Conditie"
           }
         ]
       },
       {
-        "assignedURI": "https://schema.org/Number",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Getal"
+            "@value": "Type Rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Type Materiaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Type Grootheid"
           }
         ]
       },
@@ -1183,6 +1140,15 @@
           {
             "@language": "nl",
             "@value": "Type Beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Type Recht"
           }
         ]
       }
@@ -1288,15 +1254,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "periode"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
         "label": [
           {
@@ -1396,11 +1353,38 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "taal"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "label": [
           {
             "@language": "nl",
             "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#hasEDTFDateTimeDescription",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "in EDTF"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#inEDTFDateTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "in EDTF"
           }
         ]
       },
@@ -1437,6 +1421,15 @@
           {
             "@language": "nl",
             "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
           }
         ]
       },
@@ -1612,6 +1605,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
         "label": [
           {
@@ -1738,24 +1740,6 @@
         ]
       },
       {
-        "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#hasEDTFDateTimeDescription",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "in EDTF"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://periodo.github.io/edtf-ontology/edtfo.ttl#inEDTFDateTime",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "in EDTF"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P179_had_sales_price",
         "label": [
           {
@@ -1860,15 +1844,6 @@
           {
             "@language": "nl",
             "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "waarde"
           }
         ]
       },
@@ -2053,6 +2028,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P165_incorporates",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bevat"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by",
         "label": [
           {
@@ -2125,10 +2109,10 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Rol.Agent",
+        "assignedURI": "http://todo.com/Activiteit.Rol",
         "label": [
           {
-            "@value": "Rol.Agent"
+            "@value": "Activiteit.Rol"
           }
         ]
       },

@@ -15,13 +15,13 @@
     "http://www.w3.org/ns/org",
     "http://purl.org/vocab/cpsv",
     "http://purl.org/dc/terms",
-    "http://www.w3.org/2004/02/skos/core",
     "http://data.europa.eu/m8g",
     "http://www.w3.org/ns/regorg",
     "http://www.w3.org/ns/person",
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://schema.org",
+    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/ns/prov",
@@ -34,10 +34,10 @@
   "contributors": 14,
   "participants": 31,
   "classes": 10,
-  "properties": 6,
-  "externalclasses": 34,
-  "externalproperties": 51,
-  "totalterms": 101,
+  "properties": 7,
+  "externalclasses": 25,
+  "externalproperties": 52,
+  "totalterms": 94,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -469,6 +469,14 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Agent.Lidmaatschap",
+        "label": [
+          {
+            "@value": "Agent.Lidmaatschap"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/organisatie#bestaatUit",
         "label": [
           {
@@ -552,30 +560,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Plaatscode"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Rechtspersoonlijkheidtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieStatus"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/org#OrganizationalUnit",
         "label": [
           {
@@ -603,14 +587,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "StopzettingType"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://data.europa.eu/m8g/PublicOrganisation",
         "label": [
           {
@@ -629,51 +605,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Rechtstoestandtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieClassificatie"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
         "label": [
           {
             "@language": "nl",
             "@value": "Geregistreerde Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Rechtsvormtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieActiviteit"
           }
         ]
       },
@@ -1186,6 +1122,15 @@
           {
             "@language": "nl",
             "@value": "is lidmaatschap bij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasMembership",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft lidmaatschap"
           }
         ]
       },

@@ -14,12 +14,12 @@
     "http://www.w3.org/ns/org",
     "https://data.vlaanderen.be/ns/persoon",
     "http://www.w3.org/ns/person",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/generiek",
     "http://schema.org",
+    "http://todo.com",
     "https://schema.org",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -30,10 +30,10 @@
   "contributors": 4,
   "participants": 29,
   "classes": 26,
-  "properties": 32,
-  "externalclasses": 17,
-  "externalproperties": 9,
-  "totalterms": 84,
+  "properties": 33,
+  "externalclasses": 12,
+  "externalproperties": 11,
+  "totalterms": 82,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -752,14 +752,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
-        "label": [
-          {
-            "@value": "Persoon (target)"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinslid",
         "label": [
           {
@@ -832,6 +824,14 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoon.Staatsburgerschap",
+        "label": [
+          {
+            "@value": "Persoon.Staatsburgerschap"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap.Persoon",
         "label": [
           {
@@ -846,6 +846,14 @@
           {
             "@language": "nl",
             "@value": "binnen jurisdictie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoon.Inwonerschap",
+        "label": [
+          {
+            "@value": "Persoon.Inwonerschap"
           }
         ]
       }
@@ -893,46 +901,6 @@
           {
             "@language": "nl",
             "@value": "Persoon"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Afstammingstype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Nationaliteitscode"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Geslacht"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "BurgerlijkeStaatType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Gezinsrelatietype"
           }
         ]
       },
@@ -1072,11 +1040,27 @@
         ]
       },
       {
+        "assignedURI": "http://todo.com/Persoon.Staatsburgerschap",
+        "label": [
+          {
+            "@value": "Persoon.Staatsburgerschap"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/person#residency",
         "label": [
           {
             "@language": "nl",
             "@value": "inwonerschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Persoon.Inwonerschap",
+        "label": [
+          {
+            "@value": "Persoon.Inwonerschap"
           }
         ]
       }

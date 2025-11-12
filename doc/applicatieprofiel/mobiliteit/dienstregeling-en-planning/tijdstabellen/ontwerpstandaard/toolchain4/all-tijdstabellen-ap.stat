@@ -1,23 +1,23 @@
 {
   "title": "OSLO Mobiliteit - Dienstregeling en Planning: Tijdstabellen (Applicatieprofiel)",
   "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/ontwerpstandaard/toolchain4",
-  "issued": "2022-04-21",
+  "issued": "2025-01-06",
   "navigation": {
     "prev": "/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/erkendestandaard/2022-04-21",
     "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/ontwerpstandaard/toolchain4"
   },
   "documenttype": "ap",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-  "statuslabel": "Erkende Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
   "namespaces": [
     "https://purl.eu/ns/mobility/timetables-and-planning",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/org",
     "http://www.w3.org/ns/regorg",
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/adres",
     "http://todo.com",
     "http://purl.org/dc/elements/1.1",
+    "http://www.w3.org/2004/02/skos/core",
     "http://www.opengis.net/ont/geosparql",
     "https://fixme.com",
     "http://schema.org",
@@ -30,6 +30,7 @@
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2000/01/rdf-schema",
+    "https://data.vlaanderen.be/ns/netwerk",
     "https://www.w3.org/2001/XMLSchema"
   ],
   "authors": 2,
@@ -37,10 +38,10 @@
   "contributors": 12,
   "participants": 19,
   "classes": 98,
-  "properties": 244,
-  "externalclasses": 50,
-  "externalproperties": 64,
-  "totalterms": 456,
+  "properties": 249,
+  "externalclasses": 22,
+  "externalproperties": 69,
+  "totalterms": 438,
   "totalorganisations": 9,
   "organisations": [
     {
@@ -1141,10 +1142,14 @@
       {},
       {},
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#Link",
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Link",
         "label": [
           {
             "@language": "en",
+            "@value": "Link"
+          },
+          {
+            "@language": "nl",
             "@value": "Link"
           }
         ]
@@ -2316,6 +2321,15 @@
         ]
       },
       {
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#text",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "text"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#Notice.publicCode",
         "label": [
           {
@@ -3324,6 +3338,10 @@
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#backgroundColor",
         "label": [
           {
+            "@language": "nl",
+            "@value": "TODO"
+          },
+          {
             "@language": "en",
             "@value": "backgroundColour"
           }
@@ -3884,7 +3902,12 @@
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment.ScheduledStopPoint",
         "label": [
           {
-            "@value": "PassengerStopAssignment.ScheduledStopPoint"
+            "@language": "nl",
+            "@value": "gepland Stoppunt"
+          },
+          {
+            "@language": "en",
+            "@value": "scheduled Stop Point"
           }
         ]
       },
@@ -3892,7 +3915,28 @@
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#PassengerStopAssignment.StopPlace",
         "label": [
           {
-            "@value": "PassengerStopAssignment.StopPlace"
+            "@language": "nl",
+            "@value": "stopplaats"
+          },
+          {
+            "@language": "en",
+            "@value": "stop place"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.PassengerStopAssignment",
+        "label": [
+          {
+            "@value": "ScheduledStopPoint.PassengerStopAssignment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.PassengerStopAssignment",
+        "label": [
+          {
+            "@value": "ScheduledStopPoint.PassengerStopAssignment"
           }
         ]
       },
@@ -3952,7 +3996,12 @@
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#DayTypeAssignment.DayType",
         "label": [
           {
-            "@value": "DayTypeAssignment.DayType"
+            "@language": "en",
+            "@value": "day type"
+          },
+          {
+            "@language": "nl",
+            "@value": "dagtype"
           }
         ]
       },
@@ -3960,7 +4009,28 @@
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#DayTypeAssignment.ServiceCalendar",
         "label": [
           {
-            "@value": "DayTypeAssignment.ServiceCalendar"
+            "@language": "en",
+            "@value": "service calender"
+          },
+          {
+            "@language": "nl",
+            "@value": "dienstkalender"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#DayType.DayTypeAssignment",
+        "label": [
+          {
+            "@value": "DayType.DayTypeAssignment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#DayType.DayTypeAssignment",
+        "label": [
+          {
+            "@value": "DayType.DayTypeAssignment"
           }
         ]
       },
@@ -4123,71 +4193,6 @@
     ],
     "externalclasses": [
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Transportmodus"
-          },
-          {
-            "@language": "en",
-            "@value": "Transportmode"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Stopplaatstype"
-          },
-          {
-            "@language": "en",
-            "@value": "Stop Place Type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Vakantietype"
-          },
-          {
-            "@language": "en",
-            "@value": "Holiday Type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Seizoen"
-          },
-          {
-            "@language": "en",
-            "@value": "Season"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "DagVanDeWeek"
-          },
-          {
-            "@language": "en",
-            "@value": "Day Of Week"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/org#FormalOrganization",
         "label": [
           {
@@ -4214,32 +4219,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Week Van De Maand"
-          },
-          {
-            "@language": "en",
-            "@value": "Week Of Month"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Drukte"
-          },
-          {
-            "@language": "en",
-            "@value": "Crowding"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
         "label": [
           {
@@ -4253,28 +4232,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "Organization Type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "BestemmingsdisplayvariantType"
-          },
-          {
-            "@language": "en",
-            "@value": "Destination Display Variant Type"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
           {
@@ -4284,200 +4241,6 @@
           {
             "@language": "en",
             "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Type Brandstof"
-          },
-          {
-            "@language": "en",
-            "@value": "Type Of Fuel"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Type Lijn"
-          },
-          {
-            "@language": "en",
-            "@value": "Type Of Line"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "RichtingType"
-          },
-          {
-            "@language": "en",
-            "@value": "Direction Type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Aanvraagmethode"
-          },
-          {
-            "@language": "en",
-            "@value": "Request Method Type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Stopgebruik"
-          },
-          {
-            "@language": "en",
-            "@value": "Stop Use"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Tijdspuntstatus"
-          },
-          {
-            "@language": "en",
-            "@value": "Timingpoint Status"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Treingrootte"
-          },
-          {
-            "@language": "en",
-            "@value": "Train Sizetype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Tariefklasse"
-          },
-          {
-            "@language": "en",
-            "@value": "Fare Class"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "LimitationStatus"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "LimitationType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "CommonFacilityType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "ServiceFacilityType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "AcommodationFacilityType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "NuisanceFacilityType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "PassengerCommsFacilityType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "ColourType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "TextFontType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "TrainElementtype"
           }
         ]
       },
@@ -4496,15 +4259,6 @@
           {
             "@language": "en",
             "@value": "Zone"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "NoticeType"
           }
         ]
       },
@@ -5326,6 +5080,51 @@
           {
             "@language": "en",
             "@value": "description"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "description"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "description"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "description"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/title",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "name"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
           }
         ]
       },

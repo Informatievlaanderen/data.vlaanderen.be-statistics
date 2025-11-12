@@ -1,14 +1,14 @@
 {
   "title": "Vocabularium Gezondheidstoestand Persoon",
   "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/gezondheidstoestand/erkendestandaard/2024-12-05",
-  "issued": "2024-10-23",
+  "issued": "2024-12-05",
   "navigation": {
     "prev": "/doc/vocabularium/gezondheidstoestand/kandidaatstandaard/2024-10-23",
     "self": "https://data.dev-vlaanderen.be/doc/vocabularium/gezondheidstoestand/erkendestandaard/2024-12-05"
   },
   "documenttype": "voc",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-  "statuslabel": "Kandidaat Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
   "namespaces": [
     "http://www.w3.org/ns/person",
     "https://data.vlaanderen.be/ns/gezondheidstoestand",
@@ -17,7 +17,6 @@
     "https://www.hl7.org/fhir/nutritionintake-definitions.html",
     "https://www.hl7.org/fhir/diagnosticreport-definitions.html",
     "https://build.fhir.org/observation-definitions.html",
-    "http://www.w3.org/2004/02/skos/core",
     "http://xmlns.com/foaf/0.1",
     "https://data.vlaanderen.be/ns/persoon",
     "https://hl7.org/fhir/observation-definitions.html",
@@ -27,6 +26,7 @@
     "http://todo.com",
     "http://www.w3.org/2001/XMLSchema",
     "http://data.europa.eu/m8g",
+    "http://www.w3.org/2004/02/skos/core",
     "https://schema.org",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/ns/prov",
@@ -37,10 +37,10 @@
   "contributors": 32,
   "participants": 43,
   "classes": 25,
-  "properties": 58,
-  "externalclasses": 32,
+  "properties": 57,
+  "externalclasses": 31,
   "externalproperties": 25,
-  "totalterms": 140,
+  "totalterms": 138,
   "totalorganisations": 22,
   "organisations": [
     {
@@ -1030,14 +1030,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
-        "label": [
-          {
-            "@value": "Persoon (target)"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/gezondheidstoestand#wordtGeobserveerdDoor",
         "label": [
           {
@@ -1252,15 +1244,6 @@
           {
             "@language": "nl",
             "@value": "Medische Observatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "DosisFormaat"
           }
         ]
       },

@@ -1,18 +1,17 @@
 {
   "title": "Applicatieprofiel Overlijdensaangifte",
   "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/overlijdensaangifte/erkendestandaard/2024-12-05",
-  "issued": "2024-10-23",
+  "issued": "2024-12-05",
   "navigation": {
     "prev": "/doc/applicatieprofiel/overlijdensaangifte/kandidaatstandaard/2024-10-23",
     "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/overlijdensaangifte/erkendestandaard/2024-12-05"
   },
   "documenttype": "ap",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-  "statuslabel": "Kandidaat Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/persoon",
     "http://www.w3.org/ns/person",
-    "http://www.w3.org/2004/02/skos/core",
     "http://purl.org/vocab/cpsv",
     "http://data.europa.eu/m8g",
     "https://data.vlaanderen.be/ns/overlijdensaangifte",
@@ -28,6 +27,7 @@
     "http://www.cidoc-crm.org/cidoc-crm",
     "https://hl7.org/fhir/procedure-definitions.html",
     "http://xmlns.com/foaf/0.1",
+    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/dcat",
     "https://hl7.org/fhir/observation-definitions.html",
     "http://purl.org/vocab/bio/0.1",
@@ -49,10 +49,10 @@
   "contributors": 32,
   "participants": 43,
   "classes": 53,
-  "properties": 118,
-  "externalclasses": 71,
+  "properties": 117,
+  "externalclasses": 41,
   "externalproperties": 95,
-  "totalterms": 337,
+  "totalterms": 306,
   "totalorganisations": 22,
   "organisations": [
     {
@@ -1694,14 +1694,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
-        "label": [
-          {
-            "@value": "Persoon (target)"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftVerblijfplaats",
         "label": [
           {
@@ -2019,15 +2011,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Nationaliteitscode"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/vocab/cpsv#PublicService",
         "label": [
           {
@@ -2051,15 +2034,6 @@
           {
             "@language": "nl",
             "@value": "Output"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "LocatieOverlijdenType"
           }
         ]
       },
@@ -2091,15 +2065,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Inkomensniveau"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
           {
@@ -2118,74 +2083,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "VoedingsinnameItem"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "RisicoType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "BezwaarType"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://build.fhir.org/observation-definitions.html#Observation",
         "label": [
           {
             "@language": "nl",
             "@value": "Medische Observatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatiestatus"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "AardOverlijden"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "LijkbezorgingType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "RitueelType"
           }
         ]
       },
@@ -2208,164 +2110,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "DosisFormaat"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Onderwijsniveau"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ProcedureZorgType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ArtsType"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://schema.org/Event",
         "label": [
           {
             "@language": "nl",
             "@value": "Gebeurtenis"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OverlijdenAfhandelingenOutput"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "AssistentieBevallingType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ICD"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "MedischVerslagOverlijdenType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Conceptietechniek"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "DoodgeboorteType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "LiggingKindType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Bevallingswijze"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OverlijdenAfhandelingDienst"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ObservatieCategorie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "StoffelijkeRestType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "FoetaleBewakingType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "IndicatieKeizersnedeType"
           }
         ]
       },
@@ -2388,38 +2137,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "StatusMedischVerslag"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "StatusZwangerschap"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://hl7.org/fhir/procedure-definitions.html#Procedure",
         "label": [
           {
             "@language": "nl",
             "@value": "Procedure"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "MaatregelMedischVerslag"
           }
         ]
       },

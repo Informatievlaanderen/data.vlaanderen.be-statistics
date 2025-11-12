@@ -11,7 +11,6 @@
   "namespaces": [
     "http://www.w3.org/ns/sosa",
     "http://www.w3.org/ns/sosa/oms",
-    "http://www.w3.org/2004/02/skos/core",
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/bodem-en-ondergrond",
     "http://www.w3.org/ns/ssn/systems",
@@ -22,6 +21,7 @@
     "http://www.w3.org/2000/01/rdf-schema",
     "https://saref.etsi.org/core",
     "http://qudt.org/2.1/schema/qudt",
+    "http://www.w3.org/2004/02/skos/core",
     "http://www.opengis.net/ont/geosparql",
     "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
     "https://qudt.org/schema/qudt",
@@ -42,9 +42,9 @@
   "participants": 3,
   "classes": 11,
   "properties": 15,
-  "externalclasses": 66,
+  "externalclasses": 49,
   "externalproperties": 143,
-  "totalterms": 235,
+  "totalterms": 218,
   "totalorganisations": 3,
   "organisations": [
     {
@@ -360,15 +360,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Materiaalklasse"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/SampleCollection",
         "label": [
           {
@@ -383,15 +374,6 @@
           {
             "@language": "nl",
             "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Platformtype"
           }
         ]
       },
@@ -414,24 +396,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatieproceduretype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Domeinobjecttype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/ssn/Input",
         "label": [
           {
@@ -450,42 +414,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "InputType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OutputType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Bemonsteraartype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/Sampling",
         "label": [
           {
@@ -500,24 +428,6 @@
           {
             "@language": "nl",
             "@value": "Bemonsteringsprocedure"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Bemonsteringsproceduretype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Systeemtype"
           }
         ]
       },
@@ -545,24 +455,6 @@
           {
             "@language": "nl",
             "@value": "Domeinobject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Bemonsteringstype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Bemonsteringsdoel"
           }
         ]
       },
@@ -693,27 +585,10 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Monstertype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/Deployment",
         "label": [
           {
             "@value": "Deployment"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "ObservatietypeVolgensResultaattype"
           }
         ]
       },
@@ -730,31 +605,6 @@
         "label": [
           {
             "@value": "StatistischMonster"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "StatistischeClassificatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "ObservatieCollectietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "MonstertypeVolgensGeometrieType"
           }
         ]
       },

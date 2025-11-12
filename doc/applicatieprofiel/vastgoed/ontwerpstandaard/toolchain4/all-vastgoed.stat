@@ -1,0 +1,3489 @@
+{
+  "title": "OSLO Vastgoed - Applicatieprofiel",
+  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/vastgoed/ontwerpstandaard/toolchain4",
+  "issued": "2021-06-30",
+  "navigation": {
+    "prev": "/doc/applicatieprofiel/vastgoed/ontwerpstandaard/2021-06-30",
+    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/vastgoed/ontwerpstandaard/toolchain4"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
+  "namespaces": [
+    "https://data.vlaanderen.be/ns/vastgoed",
+    "http://xmlns.com/foaf/0.1",
+    "https://data.vlaanderen.be/ns/gebouw",
+    "http://data.europa.eu/m8g",
+    "http://www.w3.org/ns/org",
+    "http://www.w3.org/ns/person",
+    "https://data.vlaanderen.be/ns/perceel",
+    "http://www.w3.org/ns/regorg",
+    "http://purl.org/dc/terms",
+    "https://data.vlaanderen.be/ns/melding",
+    "https://data.vlaanderen.be/ns/persoon",
+    "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/2004/02/skos/core",
+    "https://data.vlaanderen.be/ns/generiek",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/ns/adms",
+    "https://schema.org",
+    "http://schema.org",
+    "https://data.vlaanderen.be/ns/adres",
+    "http://www.w3.org/2006/vcard/ns",
+    "https://data.vlaanderen.be/ns/organisatie",
+    "http://todo.com",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/ns/prov",
+    "http://www.w3.org/2001/XMLSchema"
+  ],
+  "authors": 2,
+  "editors": 4,
+  "contributors": 42,
+  "participants": 48,
+  "classes": 94,
+  "properties": 150,
+  "externalclasses": 19,
+  "externalproperties": 31,
+  "totalterms": 294,
+  "totalorganisations": 26,
+  "organisations": [
+    {
+      "affiliation": "vlanot/fednot",
+      "participants": 6
+    },
+    {
+      "affiliation": "gemeentesint-katelijne-waver",
+      "participants": 1
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 7
+    },
+    {
+      "affiliation": "confederatievanimmobiliënberoepenvlaanderen",
+      "participants": 5
+    },
+    {
+      "affiliation": "groupb",
+      "participants": 1
+    },
+    {
+      "affiliation": "interleuven",
+      "participants": 1
+    },
+    {
+      "affiliation": "openbarevlaamseafvalstoffenmaatschappij",
+      "participants": 1
+    },
+    {
+      "affiliation": "teccon",
+      "participants": 2
+    },
+    {
+      "affiliation": "agentschapwonen-vlaanderen",
+      "participants": 2
+    },
+    {
+      "affiliation": "openrealestateinformationservices",
+      "participants": 1
+    },
+    {
+      "affiliation": "dewaelevastgoedgroep",
+      "participants": 1
+    },
+    {
+      "affiliation": "immohaven",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadgent",
+      "participants": 2
+    },
+    {
+      "affiliation": "nav-devlaamsearchitectenorganisatie",
+      "participants": 1
+    },
+    {
+      "affiliation": "vlaamsemilieumaatschappij",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadbrugge",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadmechelen",
+      "participants": 1
+    },
+    {
+      "affiliation": "hetfacilitairbedrijf",
+      "participants": 2
+    },
+    {
+      "affiliation": "stadantwerpen",
+      "participants": 2
+    },
+    {
+      "affiliation": "vintaaankoopbegeleiding",
+      "participants": 1
+    },
+    {
+      "affiliation": "verenigingvanvlaamsestedenengemeentenvzw",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapvoorinfrastructuurinhetonderwijs",
+      "participants": 1
+    },
+    {
+      "affiliation": "notarisbinnemansstein",
+      "participants": 1
+    },
+    {
+      "affiliation": "gemeentebalen",
+      "participants": 2
+    },
+    {
+      "affiliation": "west-vlaamseintercomunale",
+      "participants": 1
+    },
+    {
+      "affiliation": "pwc",
+      "participants": 2
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "sammyparmentier",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "vincentvanelsué",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "editors": [
+      {
+        "name": "matisseghesquiere",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "anthonyvanheymbeeck",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "pwc"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "matthiasboeraeve",
+        "affiliation": "vlanot/fednot"
+      },
+      {
+        "name": "joahnboogaerts",
+        "affiliation": "vlanot/fednot"
+      },
+      {
+        "name": "marilyncalewaert",
+        "affiliation": "gemeentesint-katelijne-waver"
+      },
+      {
+        "name": "pattycant",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "dirkcoelus",
+        "affiliation": "confederatievanimmobiliënberoepenvlaanderen"
+      },
+      {
+        "name": "aidancoppens",
+        "affiliation": "confederatievanimmobiliënberoepenvlaanderen"
+      },
+      {
+        "name": "soniadebacker",
+        "affiliation": "groupb"
+      },
+      {
+        "name": "martindebeco",
+        "affiliation": "vlanot/fednot"
+      },
+      {
+        "name": "elsdekeyser",
+        "affiliation": "vlanot/fednot"
+      },
+      {
+        "name": "emmadeproft",
+        "affiliation": "interleuven"
+      },
+      {
+        "name": "katleendeturck",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "stephandewitte",
+        "affiliation": "confederatievanimmobiliënberoepenvlaanderen"
+      },
+      {
+        "name": "hannesdebaveye",
+        "affiliation": "teccon"
+      },
+      {
+        "name": "ansdeblauwe",
+        "affiliation": "agentschapwonen-vlaanderen"
+      },
+      {
+        "name": "frankydeleu",
+        "affiliation": "openrealestateinformationservices"
+      },
+      {
+        "name": "sofiedemeulemeester",
+        "affiliation": "dewaelevastgoedgroep"
+      },
+      {
+        "name": "jürgendooms",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "louisgistelinck",
+        "affiliation": "agentschapwonen-vlaanderen"
+      },
+      {
+        "name": "stephaniehermans",
+        "affiliation": "immohaven"
+      },
+      {
+        "name": "nathalieleeuwerck",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "dirkmattheeuws",
+        "affiliation": "nav-devlaamsearchitectenorganisatie"
+      },
+      {
+        "name": "brunominnebo",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "katleenmiserez",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "mathieunollet",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "isabellepollé",
+        "affiliation": "vlanot/fednot"
+      },
+      {
+        "name": "pascalepriem",
+        "affiliation": "stadmechelen"
+      },
+      {
+        "name": "sabrinaprieus",
+        "affiliation": "hetfacilitairbedrijf"
+      },
+      {
+        "name": "annsmolders",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "hendriktanghe",
+        "affiliation": "vintaaankoopbegeleiding"
+      },
+      {
+        "name": "célinevandenberghe",
+        "affiliation": "confederatievanimmobiliënberoepenvlaanderen"
+      },
+      {
+        "name": "bartvanderschueren",
+        "affiliation": "confederatievanimmobiliënberoepenvlaanderen"
+      },
+      {
+        "name": "wardvanhal",
+        "affiliation": "verenigingvanvlaamsestedenengemeentenvzw"
+      },
+      {
+        "name": "christophevanloo",
+        "affiliation": "hetfacilitairbedrijf"
+      },
+      {
+        "name": "stijnvanmaelsaeke",
+        "affiliation": "teccon"
+      },
+      {
+        "name": "gertvanoost",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "stijnvantroys",
+        "affiliation": "agentschapvoorinfrastructuurinhetonderwijs"
+      },
+      {
+        "name": "carolevanheddeghem",
+        "affiliation": "notarisbinnemansstein"
+      },
+      {
+        "name": "mireillevansweevelt",
+        "affiliation": "gemeentebalen"
+      },
+      {
+        "name": "annverbeeck",
+        "affiliation": "gemeentebalen"
+      },
+      {
+        "name": "francisverhaeghe",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "wouterverhelst",
+        "affiliation": "west-vlaamseintercomunale"
+      },
+      {
+        "name": "jacobwarris",
+        "affiliation": "vlanot/fednot"
+      }
+    ],
+    "participants": [
+      {
+        "name": "matthiasboeraeve",
+        "affiliation": "vlanot/fednot"
+      },
+      {
+        "name": "joahnboogaerts",
+        "affiliation": "vlanot/fednot"
+      },
+      {
+        "name": "marilyncalewaert",
+        "affiliation": "gemeentesint-katelijne-waver"
+      },
+      {
+        "name": "pattycant",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "dirkcoelus",
+        "affiliation": "confederatievanimmobiliënberoepenvlaanderen"
+      },
+      {
+        "name": "aidancoppens",
+        "affiliation": "confederatievanimmobiliënberoepenvlaanderen"
+      },
+      {
+        "name": "soniadebacker",
+        "affiliation": "groupb"
+      },
+      {
+        "name": "martindebeco",
+        "affiliation": "vlanot/fednot"
+      },
+      {
+        "name": "elsdekeyser",
+        "affiliation": "vlanot/fednot"
+      },
+      {
+        "name": "emmadeproft",
+        "affiliation": "interleuven"
+      },
+      {
+        "name": "katleendeturck",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "stephandewitte",
+        "affiliation": "confederatievanimmobiliënberoepenvlaanderen"
+      },
+      {
+        "name": "hannesdebaveye",
+        "affiliation": "teccon"
+      },
+      {
+        "name": "ansdeblauwe",
+        "affiliation": "agentschapwonen-vlaanderen"
+      },
+      {
+        "name": "frankydeleu",
+        "affiliation": "openrealestateinformationservices"
+      },
+      {
+        "name": "sofiedemeulemeester",
+        "affiliation": "dewaelevastgoedgroep"
+      },
+      {
+        "name": "jürgendooms",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "louisgistelinck",
+        "affiliation": "agentschapwonen-vlaanderen"
+      },
+      {
+        "name": "stephaniehermans",
+        "affiliation": "immohaven"
+      },
+      {
+        "name": "nathalieleeuwerck",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "dirkmattheeuws",
+        "affiliation": "nav-devlaamsearchitectenorganisatie"
+      },
+      {
+        "name": "brunominnebo",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "katleenmiserez",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "mathieunollet",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "isabellepollé",
+        "affiliation": "vlanot/fednot"
+      },
+      {
+        "name": "pascalepriem",
+        "affiliation": "stadmechelen"
+      },
+      {
+        "name": "sabrinaprieus",
+        "affiliation": "hetfacilitairbedrijf"
+      },
+      {
+        "name": "annsmolders",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "hendriktanghe",
+        "affiliation": "vintaaankoopbegeleiding"
+      },
+      {
+        "name": "célinevandenberghe",
+        "affiliation": "confederatievanimmobiliënberoepenvlaanderen"
+      },
+      {
+        "name": "bartvanderschueren",
+        "affiliation": "confederatievanimmobiliënberoepenvlaanderen"
+      },
+      {
+        "name": "wardvanhal",
+        "affiliation": "verenigingvanvlaamsestedenengemeentenvzw"
+      },
+      {
+        "name": "christophevanloo",
+        "affiliation": "hetfacilitairbedrijf"
+      },
+      {
+        "name": "stijnvanmaelsaeke",
+        "affiliation": "teccon"
+      },
+      {
+        "name": "gertvanoost",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "stijnvantroys",
+        "affiliation": "agentschapvoorinfrastructuurinhetonderwijs"
+      },
+      {
+        "name": "carolevanheddeghem",
+        "affiliation": "notarisbinnemansstein"
+      },
+      {
+        "name": "mireillevansweevelt",
+        "affiliation": "gemeentebalen"
+      },
+      {
+        "name": "annverbeeck",
+        "affiliation": "gemeentebalen"
+      },
+      {
+        "name": "francisverhaeghe",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "wouterverhelst",
+        "affiliation": "west-vlaamseintercomunale"
+      },
+      {
+        "name": "jacobwarris",
+        "affiliation": "vlanot/fednot"
+      },
+      {
+        "name": "matisseghesquiere",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "anthonyvanheymbeeck",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "sammyparmentier",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "vincentvanelsué",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Vastgoed",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vastgoed"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Vastgoeddossier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vastgoeddossier"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Meldingtype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meldingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#TypeAanvrager",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Type Aanvrager"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouw",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebouw"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Motivatietype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Motivatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Aanvrager",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aanvrager"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#Zakelijkrechttype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zakelijkrechttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#TypeEigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Type Eigenaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#Gebouweenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebouweenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Rechtinlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rechtinlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Inlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Verstrekker",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verstrekker"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#TypeVerstrekker",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Type Verstrekker"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Inlichtingstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inlichtingstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Aanvraagstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aanvraagstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#TypeWettelijkKader",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Type Wettelijk Kader"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#TypeInlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Type Inlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#DoelAanvraag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Doel Aanvraag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Planstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Planstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#KadastraalPatrimoniumperceel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kadastraal Patrimoniumperceel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#ErfdienstbaarheidType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Erfdienstbaarheidtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#PlanInlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "PlanInlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#OvertredingInlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Overtredinginlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Vorderingtype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vorderingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#KadastraalPlanperceel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kadastraal Planperceel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#VergunningInlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vergunninginlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#AttestInlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Attest Inlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Aanvraag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aanvraag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#InventarisInlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inventaris Inlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#BelastingOfHeffingInlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Belasting Of Heffing Inlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#VerordeningInlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verordeninginlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Meldinginlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meldinginlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#TypeVastgoed",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TypeVastgoed"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#ZakelijkRecht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zakelijk Recht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Overtredingtype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Overtredingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Overtredingstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Overtredingstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#RisicoInlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Risico Inlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#ErfdienstbaarheidVanOpenbaarNut",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Erfdienstbaarheid Van Openbaar Nut"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#VastgoedDetail",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vastgoeddetail"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#AardPerceel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aard Perceel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#DossierStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dossierstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#RelatieType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Relatie Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Plantype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plantype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Verordeningtype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verordeningstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Vergunningtype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vergunningtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#InrichtingOfActiviteitType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inrichting Of Activiteit Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#InbreukOfMisdrijfType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inbreuk Of Misdrijf Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#RisicoType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Risico Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#RedenRisicoType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Reden Risico Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Inventaristype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inventaristype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#AttestType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "attesttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#BelastingType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Belastingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Vergunningstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vergunningstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Vorderinginlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vorderinginlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Vorderingstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vorderingstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Subsidieinlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Subsidieinlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Subsidietype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Subsidietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#GeassocieerdeInlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geassocieerde Inlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Beheerinlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beheerinlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Beheertype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beheertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Terugmelding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Terugmelding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Voorschriftinlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Voorschriftinlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Voorschrifttype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Voorschrifttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Besluitinlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Besluitinlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Besluittype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Besluittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Veroordelingtype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Veroordelingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Bescherminginlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bescherminginlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Beschermingtype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beschermingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geregistreerd Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ruimtelijke Eenheid Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ruimtelijke Eenheid Oppervlakte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Standaard Eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Bedrag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bedrag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#InrichtingOfActiviteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inrichting Of Activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#InbreukOfMisdrijf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inbreuk Of Misdrijf"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#BenoemdeWaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Benoemde Waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Waarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#LI_Citation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LI_ Citation"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#DQ-Dataquality",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DQ- Dataquality"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#Bestemming",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bestemming"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "Boolean"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+        "label": [
+          {
+            "@value": "Date"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#double",
+        "label": [
+          {
+            "@value": "Double"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ruimtelijke Eenheid"
+          }
+        ]
+      },
+      {},
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Domicilie",
+        "label": [
+          {
+            "@value": "Domicilie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Geboorte",
+        "label": [
+          {
+            "@value": "Geboorte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#BurgerlijkeStaat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Burgerlijke Staat"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#datum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#volledigeNaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledige naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#default",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "default"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#officieleOppervlakte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "officiële oppervlakte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#string",
+        "label": [
+          {
+            "@value": "string"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#beschermingsmaatregel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschermingsmaatregel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#naam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#goedgekeurd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "goedgekeurd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#gewijzigd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gewijzigd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#omschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "omschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#opmaakdatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opmaakdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#goedgekeurd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "goedgekeurd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#gewijzigd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gewijzigd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#tijdstip",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#omschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "omschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#voorschrift",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorschriften"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#opgenomenSinds",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opgenomen sinds"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#afgeleverd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afgeleverd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#geweigerd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geweigerd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#naam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#tijdstip",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#einddatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einddatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#vaststellingsdatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vaststellingsdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#dagvaarding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dagvaarding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#veroordeling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "veroordeling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#vorderingStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vordering status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#geschraptSinds",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geschrapt sinds"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#redenSchrapping",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reden schrapping"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#naam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#beschrijving",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#tijdstip",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdstip"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#voorwaarden",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorwaarden"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#voorwaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#aandeel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aandeel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#identificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#verblijfplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verblijfplaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftGeboorte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft geboorte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie.geometrie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte.oppervlakte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oppervlakte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#oppervlaktetype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#methode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "methode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#perceel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "perceel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#geldigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#houder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "houder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#functioneelEigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "functioneelEigenaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#document",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "document"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#identificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#typeInlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type inlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#typeInlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type inlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#doel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "doel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#prijs",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "prijs"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#ligging",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ligging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#belastingType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "belasting type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#jaarlijksbedrag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "jaarlijksbedrag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#geometrie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#gebouw",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebouw"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#gebouweenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebouweenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#attestType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "attest type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#overtredingType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "overtredingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#vergunningType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vergunningtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#inventarisType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inventaris type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#verordeningType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verordening type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bron"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#aardPerceel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aard perceel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#relatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#kwaliteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kwaliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#procesVerbaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "proces verbaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#vergunning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vergunning"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#overtreding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "overtreding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#meldingtype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "meldingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#melding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "melding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#risicoType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "risico type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#redenRisico",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "reden risico"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#erfdienstbaarheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "erfdienstbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#geldigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#datum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#beheerder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beheerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#aardVastgoed",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aard vastgoed"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#detail",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "detail"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#adres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#oppervlakte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oppervlakte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#bestemming",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestemming"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#planType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plantype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#ligging",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ligging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#referentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#waarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#behandelaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "behandelaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#geldigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#vergunningstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vergunningstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#bijlage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bijlage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#overtredingstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "overtredingstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#procesVerbaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "proces verbaal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#vorderingtype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vorderingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#veroordelingtype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "veroordelingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#geldigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#motivatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "motivatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#geometrie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#eigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eigenaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#toekomstigEigenaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toekomstig eigenaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#lotnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lotnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#code",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "code"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#planstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "planstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#rol",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#geldigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#beschermingtype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschermingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#geldigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheidsperiode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#beheertype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beheertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#subsidietype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "subsidietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#heeftBurgerlijkeStaat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft burgerlijke staat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#melding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "melding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#kadastraalInkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kadastraal inkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#voorschrifttype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorschrifttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#typeBesluit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type besluit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#geldigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#geldigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#registratie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#rechtstoestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rechtstoestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigheidsperiode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oppervlakte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#inlichtingenOver",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inlichtingen over"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#aanvrager",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanvrager"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#resultaat",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#detail",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "detail"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#inlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#over",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "over"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#verstrekker",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verstrekker"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#geassocieerdeInlichting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geassocieerde inlichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#GeassocieerdeInlichting.inlichting.source",
+        "label": [
+          {
+            "@value": "Inlichting (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#vordering",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vordering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#ZakelijkRecht.KadastraalPatrimoniumperceel",
+        "label": [
+          {
+            "@value": "ZakelijkRecht.KadastraalPatrimoniumperceel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#Agent.ZakelijkRecht",
+        "label": [
+          {
+            "@value": "Agent.ZakelijkRecht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#besluit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Besluitinlichting"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/Document",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Document"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PublicOrganisation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Publieke Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geregistreerde Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "Taalstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getypeerde String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Number",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwantitatieve Waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#Person",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rechtstoestandtype"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#poBox",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postbus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door (String)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/startTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "begin"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitText",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/endTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/email",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "email"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/telephone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "telefoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/faxNumber",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fax"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/page",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "website"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledig adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaard eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#registration",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/regorg#legalName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wettelijke naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/vcard/ns#honorific-prefix",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanschrijfvorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gerelateerd aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gerelateerd aan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/ZakelijkRecht.Agent",
+        "label": [
+          {
+            "@value": "ZakelijkRecht.Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Agent.ZakelijkRecht",
+        "label": [
+          {
+            "@value": "Agent.ZakelijkRecht"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "vlanot/fednot",
+        "names": [
+          {
+            "name": "matthiasboeraeve",
+            "affiliation": "vlanot/fednot"
+          },
+          {
+            "name": "joahnboogaerts",
+            "affiliation": "vlanot/fednot"
+          },
+          {
+            "name": "martindebeco",
+            "affiliation": "vlanot/fednot"
+          },
+          {
+            "name": "elsdekeyser",
+            "affiliation": "vlanot/fednot"
+          },
+          {
+            "name": "isabellepollé",
+            "affiliation": "vlanot/fednot"
+          },
+          {
+            "name": "jacobwarris",
+            "affiliation": "vlanot/fednot"
+          }
+        ]
+      },
+      {
+        "affiliation": "gemeentesint-katelijne-waver",
+        "names": [
+          {
+            "name": "marilyncalewaert",
+            "affiliation": "gemeentesint-katelijne-waver"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "pattycant",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "jürgendooms",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "francisverhaeghe",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "matisseghesquiere",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "geertthijs",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "sammyparmentier",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "vincentvanelsué",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "confederatievanimmobiliënberoepenvlaanderen",
+        "names": [
+          {
+            "name": "dirkcoelus",
+            "affiliation": "confederatievanimmobiliënberoepenvlaanderen"
+          },
+          {
+            "name": "aidancoppens",
+            "affiliation": "confederatievanimmobiliënberoepenvlaanderen"
+          },
+          {
+            "name": "stephandewitte",
+            "affiliation": "confederatievanimmobiliënberoepenvlaanderen"
+          },
+          {
+            "name": "célinevandenberghe",
+            "affiliation": "confederatievanimmobiliënberoepenvlaanderen"
+          },
+          {
+            "name": "bartvanderschueren",
+            "affiliation": "confederatievanimmobiliënberoepenvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "groupb",
+        "names": [
+          {
+            "name": "soniadebacker",
+            "affiliation": "groupb"
+          }
+        ]
+      },
+      {
+        "affiliation": "interleuven",
+        "names": [
+          {
+            "name": "emmadeproft",
+            "affiliation": "interleuven"
+          }
+        ]
+      },
+      {
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij",
+        "names": [
+          {
+            "name": "katleendeturck",
+            "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+          }
+        ]
+      },
+      {
+        "affiliation": "teccon",
+        "names": [
+          {
+            "name": "hannesdebaveye",
+            "affiliation": "teccon"
+          },
+          {
+            "name": "stijnvanmaelsaeke",
+            "affiliation": "teccon"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapwonen-vlaanderen",
+        "names": [
+          {
+            "name": "ansdeblauwe",
+            "affiliation": "agentschapwonen-vlaanderen"
+          },
+          {
+            "name": "louisgistelinck",
+            "affiliation": "agentschapwonen-vlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "openrealestateinformationservices",
+        "names": [
+          {
+            "name": "frankydeleu",
+            "affiliation": "openrealestateinformationservices"
+          }
+        ]
+      },
+      {
+        "affiliation": "dewaelevastgoedgroep",
+        "names": [
+          {
+            "name": "sofiedemeulemeester",
+            "affiliation": "dewaelevastgoedgroep"
+          }
+        ]
+      },
+      {
+        "affiliation": "immohaven",
+        "names": [
+          {
+            "name": "stephaniehermans",
+            "affiliation": "immohaven"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgent",
+        "names": [
+          {
+            "name": "nathalieleeuwerck",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "brunominnebo",
+            "affiliation": "stadgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "nav-devlaamsearchitectenorganisatie",
+        "names": [
+          {
+            "name": "dirkmattheeuws",
+            "affiliation": "nav-devlaamsearchitectenorganisatie"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamsemilieumaatschappij",
+        "names": [
+          {
+            "name": "katleenmiserez",
+            "affiliation": "vlaamsemilieumaatschappij"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadbrugge",
+        "names": [
+          {
+            "name": "mathieunollet",
+            "affiliation": "stadbrugge"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadmechelen",
+        "names": [
+          {
+            "name": "pascalepriem",
+            "affiliation": "stadmechelen"
+          }
+        ]
+      },
+      {
+        "affiliation": "hetfacilitairbedrijf",
+        "names": [
+          {
+            "name": "sabrinaprieus",
+            "affiliation": "hetfacilitairbedrijf"
+          },
+          {
+            "name": "christophevanloo",
+            "affiliation": "hetfacilitairbedrijf"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadantwerpen",
+        "names": [
+          {
+            "name": "annsmolders",
+            "affiliation": "stadantwerpen"
+          },
+          {
+            "name": "gertvanoost",
+            "affiliation": "stadantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "vintaaankoopbegeleiding",
+        "names": [
+          {
+            "name": "hendriktanghe",
+            "affiliation": "vintaaankoopbegeleiding"
+          }
+        ]
+      },
+      {
+        "affiliation": "verenigingvanvlaamsestedenengemeentenvzw",
+        "names": [
+          {
+            "name": "wardvanhal",
+            "affiliation": "verenigingvanvlaamsestedenengemeentenvzw"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapvoorinfrastructuurinhetonderwijs",
+        "names": [
+          {
+            "name": "stijnvantroys",
+            "affiliation": "agentschapvoorinfrastructuurinhetonderwijs"
+          }
+        ]
+      },
+      {
+        "affiliation": "notarisbinnemansstein",
+        "names": [
+          {
+            "name": "carolevanheddeghem",
+            "affiliation": "notarisbinnemansstein"
+          }
+        ]
+      },
+      {
+        "affiliation": "gemeentebalen",
+        "names": [
+          {
+            "name": "mireillevansweevelt",
+            "affiliation": "gemeentebalen"
+          },
+          {
+            "name": "annverbeeck",
+            "affiliation": "gemeentebalen"
+          }
+        ]
+      },
+      {
+        "affiliation": "west-vlaamseintercomunale",
+        "names": [
+          {
+            "name": "wouterverhelst",
+            "affiliation": "west-vlaamseintercomunale"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwc",
+        "names": [
+          {
+            "name": "anthonyvanheymbeeck",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "laurensvercauteren",
+            "affiliation": "pwc"
+          }
+        ]
+      }
+    ]
+  }
+}
