@@ -1,7 +1,7 @@
 {
   "title": "Besluit Mobiliteit - Applicatieprofiel",
   "uri": "https://data.test-vlaanderen.be/doc/applicatieprofiel/besluit-mobiliteit/ontwerpstandaard/toolchain4",
-  "issued": "2025-11-13",
+  "issued": "13-11-2025",
   "navigation": {
     "prev": "/doc/applicatieprofiel/besluit-mobiliteit/kandidaat-standaard/2025-02-04",
     "self": "https://data.test-vlaanderen.be/doc/applicatieprofiel/besluit-mobiliteit/ontwerpstandaard/toolchain4"
@@ -17,8 +17,8 @@
     "http://lblod.data.gift/vocabularies/variables",
     "http://www.w3.org/2004/02/skos/core",
     "https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel",
-    "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement",
     "https://w3id.org/tribont/core",
+    "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement",
     "http://lblod.data.gift/variables",
     "http://schema.org",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -29,6 +29,7 @@
     "http://www.w3.org/ns/adms",
     "http://www.cidoc-crm.org/cidoc-crm",
     "https://w3id.org/isCharacterisedBy",
+    "http://todo.com",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2001/XMLSchema",
@@ -43,10 +44,10 @@
   "contributors": 55,
   "participants": 69,
   "classes": 47,
-  "properties": 65,
+  "properties": 72,
   "externalclasses": 48,
-  "externalproperties": 62,
-  "totalterms": 222,
+  "externalproperties": 63,
+  "totalterms": 230,
   "totalorganisations": 34,
   "organisations": [
     {
@@ -944,15 +945,6 @@
         ]
       },
       {
-        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Relatieobject"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Template",
         "label": [
           {
@@ -1030,6 +1022,15 @@
           {
             "@language": "nl",
             "@value": "Bevat Maatregel Ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Relatieobject"
           }
         ]
       },
@@ -1512,6 +1513,14 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#SignalisatieOntwerp.HeeftBetrokkene",
+        "label": [
+          {
+            "@value": "SignalisatieOntwerp.HeeftBetrokkene"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftVerkeersteken",
         "label": [
           {
@@ -1669,6 +1678,22 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#OntwerpVerkeersteken.HeeftOntwerp",
+        "label": [
+          {
+            "@value": "OntwerpVerkeersteken.HeeftOntwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#OntwerpVerkeersteken.HeeftOntwerp",
+        "label": [
+          {
+            "@value": "OntwerpVerkeersteken.HeeftOntwerp"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.bron",
         "label": [
           {
@@ -1683,6 +1708,22 @@
           {
             "@language": "nl",
             "@value": "Mobiliteitsmaatregel Ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#AanvullendReglementOntwerp.BevatMaatregelOntwerp",
+        "label": [
+          {
+            "@value": "AanvullendReglementOntwerp.BevatMaatregelOntwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#AanvullendReglementOntwerp.BevatMaatregelOntwerp",
+        "label": [
+          {
+            "@value": "AanvullendReglementOntwerp.BevatMaatregelOntwerp"
           }
         ]
       },
@@ -1710,6 +1751,22 @@
           {
             "@language": "nl",
             "@value": "ontwerpverkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#SignalisatieOntwerp.BevatVerkeersteken",
+        "label": [
+          {
+            "@value": "SignalisatieOntwerp.BevatVerkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#SignalisatieOntwerp.BevatVerkeersteken",
+        "label": [
+          {
+            "@value": "SignalisatieOntwerp.BevatVerkeersteken"
           }
         ]
       }
@@ -2605,6 +2662,14 @@
           {
             "@language": "nl",
             "@value": "heeft waarde voor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/SignalisatieOntwerp.HeeftBetrokkene",
+        "label": [
+          {
+            "@value": "SignalisatieOntwerp.HeeftBetrokkene"
           }
         ]
       },
