@@ -23,7 +23,7 @@
     "http://www.w3.org/2006/vcard/ns",
     "http://www.w3.org/ns/adms",
     "http://xmlns.com/foaf/0.1",
-    "http://schema.org",
+    "https://schema.org",
     "http://www.w3.org/2006/time",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/locn",
@@ -31,6 +31,7 @@
     "http://www.opengis.net/ont/geosparql",
     "https://data.vlaanderen.be/ns/persoon",
     "http://purl.org/dc/elements/1.1",
+    "http://schema.org",
     "https://data.vlaanderen.be/ns/persoon#",
     "http://todo.com",
     "https://linked.art/ns/terms",
@@ -44,11 +45,11 @@
   "editors": 3,
   "contributors": 20,
   "participants": 27,
-  "classes": 20,
+  "classes": 22,
   "properties": 13,
-  "externalclasses": 66,
-  "externalproperties": 113,
-  "totalterms": 212,
+  "externalclasses": 67,
+  "externalproperties": 111,
+  "totalterms": 213,
   "totalorganisations": 19,
   "organisations": [
     {
@@ -441,6 +442,8 @@
       {},
       {},
       {},
+      {},
+      {},
       {}
     ],
     "properties": [
@@ -574,6 +577,10 @@
       {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E70_Thing",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "Ding"
+          },
           {
             "@language": "nl",
             "@value": "Ding"
@@ -860,7 +867,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/ContactPoint",
+        "assignedURI": "https://schema.org/ContactPoint",
         "label": [
           {
             "@language": "nl",
@@ -973,6 +980,15 @@
           {
             "@language": "nl",
             "@value": "EDTF"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E70_Thing",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ding"
           }
         ]
       },
@@ -1200,7 +1216,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/email",
+        "assignedURI": "https://schema.org/email",
         "label": [
           {
             "@language": "nl",
@@ -1209,7 +1225,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/faxNumber",
+        "assignedURI": "https://schema.org/faxNumber",
         "label": [
           {
             "@language": "nl",
@@ -1218,7 +1234,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/telephone",
+        "assignedURI": "https://schema.org/telephone",
         "label": [
           {
             "@language": "nl",
@@ -2033,24 +2049,6 @@
           {
             "@language": "nl",
             "@value": "bevat"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P9_consists_of",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bestaat uit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P9_consists_of",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "test"
           }
         ]
       },
