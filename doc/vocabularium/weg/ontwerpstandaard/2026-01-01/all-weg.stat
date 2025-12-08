@@ -9,26 +9,25 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
   "statuslabel": "Standaard",
   "namespaces": [
-    "https://data.vlaanderen.be/ns/netwerk",
-    "ttp://www.w3.org/ns/adms",
-    "http://www.w3.org/ns/locn",
+    "https://data.vlaanderen.be/ns/transportnetwerk",
+    "http://todo.com",
+    "http://purl.org/dc/terms",
     "http://purl.org/dc/elements/1.1",
-    "http://www.w3.org/ns/adms",
-    "http://www.opengis.net/ont/sf",
+    "http://www.w3.org/2001/XMLSchema",
+    "https://data.vlaanderen.be/ns/netwerk",
     "http://www.w3.org/2004/02/skos/core",
-    "http://www.opengis.net/ont/geosparql",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "https://schema.org"
+    "https://schema.org",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
   ],
   "authors": 21,
   "editors": 3,
   "contributors": 0,
   "participants": 24,
-  "classes": 18,
-  "properties": 18,
+  "classes": 49,
+  "properties": 21,
   "externalclasses": 7,
   "externalproperties": 5,
-  "totalterms": 48,
+  "totalterms": 82,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -283,50 +282,220 @@
     ],
     "classes": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportgebied",
         "label": [
           {
             "@language": "nl",
-            "@value": "Netwerk"
+            "@value": "Transportgebied"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkelement",
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportknoop",
         "label": [
           {
             "@language": "nl",
-            "@value": "Netwerkelement"
+            "@value": "Transportknoop"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linkset",
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlink",
         "label": [
           {
             "@language": "nl",
-            "@value": "Linkset"
+            "@value": "Transportlink"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinksequentie",
         "label": [
           {
             "@language": "nl",
-            "@value": "GeneriekeLink"
+            "@value": "Transportlinksequentie"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Knoop",
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transportlinkset",
         "label": [
           {
             "@language": "nl",
-            "@value": "Knoop"
+            "@value": "Transportllinkset"
           }
         ]
       },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Transporteigenschap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transporteigenschap"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Weg",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Weg"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/EuropeseWeg",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "EuropeseWeg"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Weglinksequentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Weglinksequentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Wegsegment",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegsegment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Wegknoop",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegknoop"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Weggebied",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Weggebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Verkeerszone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeerszone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Servicezone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Servicezone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Wegcategorie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegcategorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/MorfologischeWegklasse",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "MorfologischeWegklasse"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Wegbreedte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegbreedte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Snelheidsbeperking",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Snelheidsbeperking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/AantalRijstroken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AantalRijstroken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Service",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Service"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Wegnaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Wegverharding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegverharding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkgebied",
         "label": [
@@ -337,23 +506,25 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Connectie",
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#TransportObject",
         "label": [
           {
             "@language": "nl",
-            "@value": "Connectie"
+            "@value": "TransportObject"
           }
         ]
       },
+      {},
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linksequentie",
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Knoop",
         "label": [
           {
             "@language": "nl",
-            "@value": "Linksequentie"
+            "@value": "Knoop"
           }
         ]
       },
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Link",
         "label": [
@@ -363,6 +534,27 @@
           }
         ]
       },
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linksequentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Linksequentie"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linkset",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Linkset"
+          }
+        ]
+      },
+      {},
       {
         "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkeigenschap",
         "label": [
@@ -373,115 +565,169 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#OngelijkgrondseKruising",
+        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linkrichtingtype",
+        "label": [
+          {
+            "@value": "Linkrichtingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/MinMaxaantaltype",
+        "label": [
+          {
+            "@value": "MinMaxaantaltype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Snelheidslimiettype",
+        "label": [
+          {
+            "@value": "Snelheidslimiettype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Snelheidslimietbrontype",
+        "label": [
+          {
+            "@value": "Snelheidslimietbrontype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Weersomstandigheidstype",
+        "label": [
+          {
+            "@value": "Weersomstandigheidstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Omgevingstype",
+        "label": [
+          {
+            "@value": "Omgevingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Wegknooptype",
+        "label": [
+          {
+            "@value": "Wegknooptype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/OpgemetenDeelType",
+        "label": [
+          {
+            "@value": "OpgemetenDeelType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/transportnetwerk#Linkrichtingtype",
         "label": [
           {
             "@language": "nl",
-            "@value": "OngelijkgrondseKruising"
+            "@value": "Linkrichtingtype"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GerichteLink",
+        "assignedURI": "http://todo.com/MorfologischeWegklassetype",
         "label": [
           {
-            "@language": "nl",
-            "@value": "GerichteLink"
+            "@value": "MorfologischeWegklassetype"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerkreferentie",
+        "assignedURI": "http://todo.com/ServiceType",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Netwerkreferentie"
+            "@value": "ServiceType"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linkreferentie",
+        "assignedURI": "http://todo.com/Faciliteittype",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Linkreferentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Puntreferentie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Puntreferentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#LineaireReferentie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "LineaireReferentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linkrichtingwaarde",
-        "label": [
-          {
-            "@value": "Linkrichtingwaarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Connectietype",
-        "label": [
-          {
-            "@value": "Connectietype"
+            "@value": "Faciliteittype"
           }
         ]
       }
     ],
     "properties": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Netwerk.geografischeNaam",
+        "assignedURI": "http://todo.com/lokaleCode",
         "label": [
           {
             "@language": "nl",
-            "@value": "geografischeNaam"
+            "@value": "lokaleCode"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#Linksequentie.link",
+        "assignedURI": "http://todo.com/nationaleCode",
         "label": [
           {
             "@language": "nl",
-            "@value": "link"
+            "@value": "nationaleCode"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#netwerkreferentie",
+        "assignedURI": "http://todo.com/aantalRijstroken",
         "label": [
           {
             "@language": "nl",
-            "@value": "netwerkreferentie"
+            "@value": "aantalRijstroken"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#geometriemiddenlijn",
+        "assignedURI": "http://todo.com/beginrijstrook",
         "label": [
           {
             "@language": "nl",
-            "@value": "geometriemiddenlijn"
+            "@value": "beginrijstrook"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#richting",
+        "assignedURI": "http://todo.com/europeesWegnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "europeesWegnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/aantal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aantal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/naam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/richting",
         "label": [
           {
             "@language": "nl",
@@ -490,139 +736,130 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#toepassingsRichting",
+        "assignedURI": "http://todo.com/type",
         "label": [
           {
             "@language": "nl",
-            "@value": "toepassingsrichting"
+            "@value": "aantalRijstrokentype"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#opPositie",
+        "assignedURI": "http://todo.com/brontype",
         "label": [
           {
             "@language": "nl",
-            "@value": "opPositie"
+            "@value": "brontype"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#vanPositie",
+        "assignedURI": "http://todo.com/weersomstandigheid",
         "label": [
           {
             "@language": "nl",
-            "@value": "vanPositie"
+            "@value": "weersomstandigheid"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#totPositie",
+        "assignedURI": "http://todo.com/omgeving",
         "label": [
           {
             "@language": "nl",
-            "@value": "totPositie"
+            "@value": "omgeving"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#beginknoop",
+        "assignedURI": "http://todo.com/breedte",
         "label": [
           {
             "@language": "nl",
-            "@value": "beginknoop"
+            "@value": "breedte"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#eindknoop",
+        "assignedURI": "http://todo.com/opgemetendeel",
         "label": [
           {
             "@language": "nl",
-            "@value": "eindknoop"
+            "@value": "opgemetendeel"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#link",
+        "assignedURI": "http://todo.com/snelheidslimiet",
         "label": [
           {
             "@language": "nl",
-            "@value": "link"
+            "@value": "snelheidslimiet"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#verbindt",
+        "assignedURI": "http://todo.com/richting",
         "label": [
           {
             "@language": "nl",
-            "@value": "verbindt"
+            "@value": "richting"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#element",
+        "assignedURI": "http://todo.com/voertuigtype",
         "label": [
           {
             "@language": "nl",
-            "@value": "element"
+            "@value": "voertuigtype"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#GerichteLink.link",
+        "assignedURI": "http://todo.com/categorie",
         "label": [
           {
             "@language": "nl",
-            "@value": "link"
+            "@value": "categorie"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#kruisingVan",
+        "assignedURI": "http://todo.com/klasse",
         "label": [
           {
             "@language": "nl",
-            "@value": "kruisingVan"
+            "@value": "klasse"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#netwerkelement.BestaatUit",
+        "assignedURI": "http://todo.com/type",
         "label": [
           {
             "@language": "nl",
-            "@value": "inNetwerk"
+            "@value": "type"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/netwerk#bestaatUit",
+        "assignedURI": "http://todo.com/faciliteit",
         "label": [
           {
             "@language": "nl",
-            "@value": "bestaatUit"
+            "@value": "faciliteit"
           }
         ]
       }
     ],
     "externalclasses": [
       {
-        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.opengis.net/ont/sf#Curve",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Curve"
+            "@value": "Transportgebiedtype"
           }
         ]
       },
@@ -631,29 +868,50 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Sign"
+            "@value": "TransportNodeType"
           },
           {
             "@language": "en",
-            "@value": "Sign"
+            "@value": "TransportNodeType"
           }
         ]
       },
       {
-        "assignedURI": "http://www.opengis.net/ont/sf#Point",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Punt"
+            "@value": "WegverhardingType"
           }
         ]
       },
       {
-        "assignedURI": "http://www.opengis.net/ont/geosparql#Surface",
+        "assignedURI": "https://schema.org/QuantitativeValue",
         "label": [
           {
             "@language": "nl",
-            "@value": "Vlak"
+            "@value": "KwantitatieveWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwantitatieveWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "VehicleType"
+          },
+          {
+            "@language": "en",
+            "@value": "VehicleType"
           }
         ]
       },
@@ -669,51 +927,24 @@
             "@value": "GeographicalName"
           }
         ]
-      },
-      {
-        "assignedURI": "https://schema.org/QuantitativeValue",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "KwantitatieveWaarde"
-          }
-        ]
       }
     ],
     "externalproperties": [
       {
-        "assignedURI": "ttp://www.w3.org/ns/adms#Identifier",
+        "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
             "@language": "nl",
-            "@value": "identificator"
+            "@value": "type"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
             "@language": "nl",
-            "@value": "geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#geometry",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "ttp://www.w3.org/ns/adms#Identifier",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "identificator"
+            "@value": "type"
           }
         ]
       },
@@ -723,6 +954,24 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wegverharding"
           }
         ]
       }
