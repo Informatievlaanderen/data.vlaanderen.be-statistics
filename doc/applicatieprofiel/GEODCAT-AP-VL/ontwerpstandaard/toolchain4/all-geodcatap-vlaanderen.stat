@@ -1,14 +1,14 @@
 {
   "title": "GEODCAT-AP Vlaanderen",
   "uri": "https://data.test-vlaanderen.be/doc/applicatieprofiel/GEODCAT-AP-VL/ontwerpstandaard/toolchain4",
-  "issued": "2022-04-21",
+  "issued": "2025-11-30",
   "navigation": {
     "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21",
     "self": "https://data.test-vlaanderen.be/doc/applicatieprofiel/GEODCAT-AP-VL/ontwerpstandaard/toolchain4"
   },
   "documenttype": "ap",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-  "statuslabel": "Erkende Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
   "namespaces": [
     "http://www.w3.org/ns/dcat",
     "http://purl.org/dc/terms",
@@ -34,9 +34,9 @@
   "participants": 36,
   "classes": 4,
   "properties": 16,
-  "externalclasses": 23,
-  "externalproperties": 97,
-  "totalterms": 140,
+  "externalclasses": 26,
+  "externalproperties": 103,
+  "totalterms": 149,
   "totalorganisations": 21,
   "organisations": [
     {
@@ -698,6 +698,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/dcat#DatasetSeries",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dataset Serie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/Standard",
         "label": [
           {
@@ -730,6 +739,28 @@
           {
             "@language": "nl",
             "@value": "Relatie Qualificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/PeriodOfTime",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Period of Time"
+          },
+          {
+            "@language": "nl",
+            "@value": "Tijdsperiode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Literal voor Tijdsinformatie"
           }
         ]
       },
@@ -867,6 +898,19 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          },
+          {
+            "@language": "en",
+            "@value": "description"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
         "label": [
           {
@@ -989,6 +1033,28 @@
           {
             "@language": "nl",
             "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "titel"
+          },
+          {
+            "@language": "en",
+            "@value": "title"
           }
         ]
       },
@@ -1182,6 +1248,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve identificator"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/dcat#contactPoint",
         "label": [
           {
@@ -1353,6 +1428,19 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/dcat#contactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactinformatie"
+          },
+          {
+            "@language": "en",
+            "@value": "contact point"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/adms#representionTechnique",
         "label": [
           {
@@ -1466,6 +1554,19 @@
           {
             "@language": "nl",
             "@value": "contactpagina"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/spatial",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geografische dekking"
+          },
+          {
+            "@language": "en",
+            "@value": "geographical coverage"
           }
         ]
       },
