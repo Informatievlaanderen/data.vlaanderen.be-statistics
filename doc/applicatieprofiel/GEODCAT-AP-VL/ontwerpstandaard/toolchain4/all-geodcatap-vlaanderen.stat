@@ -12,6 +12,7 @@
   "namespaces": [
     "http://www.w3.org/ns/dcat",
     "http://purl.org/dc/terms",
+    "http://data.europa.eu/eli/ontology",
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/2002/07/owl",
     "http://www.w3.org/2004/02/skos/core",
@@ -20,8 +21,10 @@
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/dqv",
     "http://data.vlaanderen.be/ns/metadata-dcat",
+    "http://data.europa.eu/r5r",
     "http://data.vlaanderen.be/ns/generiek",
     "http://www.w3.org/2006/vcard/ns",
+    "http://www.w3.org/2006/time",
     "https://data.vlaanderen.be/ns/metadata-dcat",
     "http://data.europa.eu/930",
     "http://schema.org",
@@ -34,9 +37,9 @@
   "participants": 36,
   "classes": 4,
   "properties": 16,
-  "externalclasses": 26,
-  "externalproperties": 103,
-  "totalterms": 149,
+  "externalclasses": 28,
+  "externalproperties": 108,
+  "totalterms": 156,
   "totalorganisations": 21,
   "organisations": [
     {
@@ -756,11 +759,33 @@
         ]
       },
       {
+        "assignedURI": "http://data.europa.eu/eli/ontology#LegalResource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rechtsgrond"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
         "label": [
           {
             "@language": "nl",
             "@value": "Literal voor Tijdsinformatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Time instant"
+          },
+          {
+            "@language": "nl",
+            "@value": "Tijdsmoment"
           }
         ]
       },
@@ -1338,6 +1363,19 @@
         ]
       },
       {
+        "assignedURI": "http://data.europa.eu/r5r/applicableLegislation",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "applicable legislation"
+          },
+          {
+            "@language": "nl",
+            "@value": "belanghebbende wetgeving"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/adms#identifier",
         "label": [
           {
@@ -1491,6 +1529,58 @@
           {
             "@language": "nl",
             "@value": "rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/temporal",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "temporal coverage"
+          },
+          {
+            "@language": "nl",
+            "@value": "temporele dekking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dcat#endDate",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "end date"
+          },
+          {
+            "@language": "nl",
+            "@value": "eind datum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft start"
+          },
+          {
+            "@language": "en",
+            "@value": "beginning"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft einde"
+          },
+          {
+            "@language": "en",
+            "@value": "end"
           }
         ]
       },
