@@ -9,30 +9,32 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Kandidaat-standaard",
   "statuslabel": "Kandidaat-standaard",
   "namespaces": [
+    "https://qudt.org/schema/qudt",
     "https://data.vlaanderen.be/ns/transportnetwerk",
     "https://data.vlaanderen.be/ns/netwerk",
     "https://data.vlaanderen.be/ns/weg",
+    "http://www.opengis.net/ont/geosparql",
+    "https://schema.org",
+    "http://purl.org/dc/terms",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://www.w3.org/ns/adms",
     "http://www.w3.org/ns/locn",
     "ttp://www.w3.org/ns/adms",
-    "http://purl.org/dc/terms",
-    "https://schema.org",
     "http://purl.org/dc/elements/1.1",
-    "http://www.w3.org/2001/XMLSchema",
-    "http://www.opengis.net/ont/geosparql",
-    "http://www.w3.org/ns/adms",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.opengis.net/ont/sf",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns"
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/2001/XMLSchema"
   ],
   "authors": 21,
   "editors": 3,
   "contributors": 0,
   "participants": 24,
-  "classes": 61,
+  "classes": 63,
   "properties": 63,
-  "externalclasses": 29,
-  "externalproperties": 19,
-  "totalterms": 172,
+  "externalclasses": 31,
+  "externalproperties": 26,
+  "totalterms": 183,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -638,6 +640,14 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
         "label": [
           {
@@ -650,6 +660,14 @@
         "label": [
           {
             "@value": "Integer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
           }
         ]
       },
@@ -1325,33 +1343,47 @@
     ],
     "externalclasses": [
       {
+        "assignedURI": "https://qudt.org/schema/qudt/Unit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwantitatieveWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#Curve",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Curve"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.opengis.net/ont/geosparql#Surface",
         "label": [
           {
             "@language": "nl",
             "@value": "Vlak"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Sign"
-          },
-          {
-            "@language": "en",
-            "@value": "Sign"
           }
         ]
       },
@@ -1365,11 +1397,37 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/QuantitativeValue",
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
         "label": [
           {
             "@language": "nl",
-            "@value": "KwantitatieveWaarde"
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "GeographicalName"
+          },
+          {
+            "@language": "nl",
+            "@value": "GeographicalName"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Sign"
+          },
+          {
+            "@language": "en",
+            "@value": "Sign"
           }
         ]
       },
@@ -1427,19 +1485,6 @@
           {
             "@language": "nl",
             "@value": "Restrictietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "GeographicalName"
-          },
-          {
-            "@language": "nl",
-            "@value": "GeographicalName"
           }
         ]
       },
@@ -1577,18 +1622,63 @@
             "@value": "Faciliteittype"
           }
         ]
-      },
-      {
-        "assignedURI": "http://www.opengis.net/ont/sf#Curve",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Curve"
-          }
-        ]
       }
     ],
     "externalproperties": [
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door (String)"
+          }
+        ]
+      },
       {
         "assignedURI": "http://www.w3.org/ns/locn#geometry",
         "label": [
@@ -1604,6 +1694,15 @@
           {
             "@language": "nl",
             "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
           }
         ]
       },
