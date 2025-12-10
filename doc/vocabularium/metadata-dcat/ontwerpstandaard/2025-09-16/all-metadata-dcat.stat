@@ -1,14 +1,14 @@
 {
   "title": "Metadata DCAT",
   "uri": "https://data.vlaanderen.be/doc/vocabularium/metadata-dcat/ontwerpstandaard/2025-09-16",
-  "issued": "2025-11-13",
+  "issued": "2025-12-09",
   "navigation": {
     "prev": "/doc/vocabularium/metadata-dcat/erkendestandaard/2022-04-21",
     "self": "https://data.vlaanderen.be/doc/vocabularium/metadata-dcat/ontwerpstandaard/2025-09-16"
   },
   "documenttype": "voc",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "statuslabel": "Ontwerp Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "statuslabel": "Kandidaat Standaard",
   "namespaces": [
     "http://www.w3.org/ns/dcat",
     "http://purl.org/dc/terms",
@@ -429,6 +429,9 @@
         "label": [
           {
             "@value": "DateTime"
+          },
+          {
+            "@value": "dateTime"
           }
         ]
       },
@@ -753,6 +756,7 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
+            "@language": "nl",
             "@value": "Code"
           }
         ]
@@ -776,6 +780,10 @@
       {
         "assignedURI": "http://www.w3.org/2006/time#Instant",
         "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdsmoment"
+          },
           {
             "@language": "en",
             "@value": "Time instant"
@@ -1010,15 +1018,6 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/issued",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "publicatiedatum"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/description",
         "label": [
           {
@@ -1095,46 +1094,11 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/issued",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "publicatiedatum"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "label": [
           {
             "@language": "nl",
             "@value": "voorkeurslabel"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/issued",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "release date"
-          },
-          {
-            "@language": "nl",
-            "@value": "publicatie datum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/modified",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "wijzigingsdatum"
-          },
-          {
-            "@language": "en",
-            "@value": "modification date"
           }
         ]
       },
@@ -1152,82 +1116,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/dcat#endDate",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "end date"
-          },
-          {
-            "@language": "nl",
-            "@value": "eind datum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/dcat#startDate",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "start datum"
-          },
-          {
-            "@language": "en",
-            "@value": "start date"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/identifier",
         "label": [
           {
             "@language": "nl",
             "@value": "identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/modified",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "wijzigingsdatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/created",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "creatiedatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/created",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "creatiedatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/issued",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "publicatiedatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/modified",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "wijzigingsdatum"
           }
         ]
       },
@@ -1550,6 +1443,15 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publicatiedatum"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/conformsTo",
         "label": [
           {
@@ -1577,6 +1479,15 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publicatiedatum"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/source",
         "label": [
           {
@@ -1591,6 +1502,32 @@
           {
             "@language": "nl",
             "@value": "herkomst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "release date"
+          },
+          {
+            "@language": "nl",
+            "@value": "publicatie datum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/modified",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wijzigingsdatum"
+          },
+          {
+            "@language": "en",
+            "@value": "modification date"
           }
         ]
       },
@@ -1617,6 +1554,32 @@
           {
             "@language": "nl",
             "@value": "temporele dekking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dcat#endDate",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "end date"
+          },
+          {
+            "@language": "nl",
+            "@value": "eind datum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dcat#startDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "start datum"
+          },
+          {
+            "@language": "en",
+            "@value": "start date"
           }
         ]
       },
@@ -1674,6 +1637,42 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/modified",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wijzigingsdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/created",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "creatiedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/created",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "creatiedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/modified",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wijzigingsdatum"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/spatial",
         "label": [
           {
@@ -1688,6 +1687,15 @@
           {
             "@language": "nl",
             "@value": "alternatieve identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publicatiedatum"
           }
         ]
       },
