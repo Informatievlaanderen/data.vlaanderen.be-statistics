@@ -10,10 +10,11 @@
   "statuslabel": "Kandidaat Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/rooilijn",
-    "http://www.w3.org/2004/02/skos/core",
+    "https://data.vlaanderen.be/ns/rooilijnplannen",
     "https://data.vlaanderen.be/ns/perceel",
     "http://xmlns.com/foaf/0.1",
     "http://purl.org/dc/terms",
+    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/openbaardomein/terreindeel",
     "https://data.vlaanderen.be/ns/weg",
     "https://qudt.org/schema/qudt",
@@ -42,9 +43,9 @@
   "editors": 7,
   "contributors": 44,
   "participants": 61,
-  "classes": 45,
+  "classes": 44,
   "properties": 47,
-  "externalclasses": 33,
+  "externalclasses": 34,
   "externalproperties": 47,
   "totalterms": 172,
   "totalorganisations": 30,
@@ -697,7 +698,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#Grens",
+        "assignedURI": "https://data.vlaanderen.be/ns/rooilijnplannen#Grens",
         "label": [
           {
             "@language": "nl",
@@ -873,14 +874,6 @@
           {
             "@language": "nl",
             "@value": "GetroffenOppervlak"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/rooilijn#Statustype",
-        "label": [
-          {
-            "@value": "Statustype"
           }
         ]
       },
@@ -1456,15 +1449,6 @@
     ],
     "externalclasses": [
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Lijnkenmerktype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://xmlns.com/foaf/0.1/Document",
         "label": [
           {
@@ -1515,33 +1499,6 @@
           {
             "@language": "nl",
             "@value": "Legale Verschijningsvorm"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Toepassingsrichting"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Plantype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Rooilijntype"
           }
         ]
       },
@@ -1746,7 +1703,52 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
+            "@language": "nl",
+            "@value": "Lijnkenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
             "@value": "ZakelijkRechttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toepassingsrichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rooilijntype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Statustype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plantype"
           }
         ]
       }
