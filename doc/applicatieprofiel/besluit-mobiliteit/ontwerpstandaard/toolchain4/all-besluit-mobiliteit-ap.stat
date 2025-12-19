@@ -1,14 +1,14 @@
 {
   "title": "Besluit Mobiliteit - Applicatieprofiel",
   "uri": "https://data.test-vlaanderen.be/doc/applicatieprofiel/besluit-mobiliteit/ontwerpstandaard/toolchain4",
-  "issued": "13-11-2025",
+  "issued": "11-12-2025",
   "navigation": {
     "prev": "/doc/applicatieprofiel/besluit-mobiliteit/kandidaat-standaard/2025-02-04",
     "self": "https://data.test-vlaanderen.be/doc/applicatieprofiel/besluit-mobiliteit/ontwerpstandaard/toolchain4"
   },
   "documenttype": "ap",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-  "statuslabel": "Kandidaat Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
   "namespaces": [
     "http://data.vlaanderen.be/ns/besluit",
     "http://purl.org/dc/terms",
@@ -30,6 +30,7 @@
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.cidoc-crm.org/cidoc-crm",
     "https://w3id.org/isCharacterisedBy",
+    "http://todo.com",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/2001/XMLSchema",
     "http://purl.org/vocab/cpsv",
@@ -43,10 +44,10 @@
   "contributors": 55,
   "participants": 69,
   "classes": 47,
-  "properties": 66,
+  "properties": 69,
   "externalclasses": 48,
-  "externalproperties": 63,
-  "totalterms": 224,
+  "externalproperties": 64,
+  "totalterms": 228,
   "totalorganisations": 34,
   "organisations": [
     {
@@ -1485,6 +1486,32 @@
         ]
       },
       {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "signalisatieOntwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.doel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#SignalisatieOntwerp.HeeftBetrokkene",
+        "label": [
+          {
+            "@value": "SignalisatieOntwerp.HeeftBetrokkene"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftVerkeersteken",
         "label": [
           {
@@ -2619,6 +2646,14 @@
           {
             "@language": "nl",
             "@value": "heeft waarde voor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/SignalisatieOntwerp.HeeftBetrokkene",
+        "label": [
+          {
+            "@value": "SignalisatieOntwerp.HeeftBetrokkene"
           }
         ]
       },
