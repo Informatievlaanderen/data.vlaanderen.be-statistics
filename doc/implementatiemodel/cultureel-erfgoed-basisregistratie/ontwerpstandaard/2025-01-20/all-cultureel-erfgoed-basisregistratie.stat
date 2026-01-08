@@ -23,7 +23,7 @@
     "http://www.w3.org/2006/vcard/ns",
     "http://www.w3.org/ns/adms",
     "http://xmlns.com/foaf/0.1",
-    "http://schema.org",
+    "https://schema.org",
     "http://www.w3.org/2006/time",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/locn",
@@ -31,8 +31,8 @@
     "http://www.opengis.net/ont/geosparql",
     "https://data.vlaanderen.be/ns/persoon",
     "http://purl.org/dc/elements/1.1",
+    "http://schema.org",
     "https://data.vlaanderen.be/ns/persoon#",
-    "http://todo.com",
     "https://linked.art/ns/terms",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -44,11 +44,11 @@
   "editors": 3,
   "contributors": 20,
   "participants": 27,
-  "classes": 20,
-  "properties": 13,
-  "externalclasses": 66,
-  "externalproperties": 111,
-  "totalterms": 210,
+  "classes": 21,
+  "properties": 12,
+  "externalclasses": 67,
+  "externalproperties": 113,
+  "totalterms": 213,
   "totalorganisations": 19,
   "organisations": [
     {
@@ -441,6 +441,7 @@
       {},
       {},
       {},
+      {},
       {}
     ],
     "properties": [
@@ -551,14 +552,6 @@
             "@value": "agent"
           }
         ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/cultureel-erfgoed#Activiteit.Rol",
-        "label": [
-          {
-            "@value": "Activiteit.Rol"
-          }
-        ]
       }
     ],
     "externalclasses": [
@@ -568,6 +561,15 @@
           {
             "@language": "nl",
             "@value": "Mensgemaakt Ding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E70_Thing",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ding"
           }
         ]
       },
@@ -743,15 +745,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E70_Thing",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Ding"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing",
         "label": [
           {
@@ -860,7 +853,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/ContactPoint",
+        "assignedURI": "https://schema.org/ContactPoint",
         "label": [
           {
             "@language": "nl",
@@ -973,6 +966,15 @@
           {
             "@language": "nl",
             "@value": "EDTF"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wettelijk Object"
           }
         ]
       },
@@ -1200,7 +1202,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/email",
+        "assignedURI": "https://schema.org/email",
         "label": [
           {
             "@language": "nl",
@@ -1209,7 +1211,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/faxNumber",
+        "assignedURI": "https://schema.org/faxNumber",
         "label": [
           {
             "@language": "nl",
@@ -1218,7 +1220,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/telephone",
+        "assignedURI": "https://schema.org/telephone",
         "label": [
           {
             "@language": "nl",
@@ -1740,6 +1742,69 @@
         ]
       },
       {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestaat uit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P165_incorporates",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bevat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft component"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P9_consists_of",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bestaat uit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beinvloed of afgeleid Ding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft component"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beinvloed of afgeleid ding"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P179_had_sales_price",
         "label": [
           {
@@ -2019,24 +2084,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft component"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P165_incorporates",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bevat"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by",
         "label": [
           {
@@ -2109,14 +2156,6 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Activiteit.Rol",
-        "label": [
-          {
-            "@value": "Activiteit.Rol"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://linked.art/ns/terms/member_of",
         "label": [
           {
@@ -2131,24 +2170,6 @@
           {
             "@language": "nl",
             "@value": "heeft lid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft component"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "bestaat uit"
           }
         ]
       }

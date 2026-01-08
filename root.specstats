@@ -809,7 +809,7 @@
     "specifications": []
   },
   {
-    "title": "Applicatieprofiel Leermiddelen",
+    "title": "Applicatieprofiel Leermiddelen en Doelen",
     "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/leermiddelen/kandidaatstandaard/2025-08-01",
     "issued": "2025-08-01",
     "navigation": {
@@ -847,9 +847,9 @@
     "participants": 56,
     "classes": 11,
     "properties": 0,
-    "externalclasses": 30,
-    "externalproperties": 97,
-    "totalterms": 138,
+    "externalclasses": 46,
+    "externalproperties": 104,
+    "totalterms": 161,
     "totalorganisations": 32,
     "organisations": [
       {
@@ -985,20 +985,21 @@
   },
   {
     "title": "Applicatieprofiel Mobiliteit: Intelligente Toegang",
-    "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-19",
-    "issued": "2024-09-24",
+    "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/mobiliteit-intelligente-toegang/erkendestandaard/2025-12-11",
+    "issued": "2025-12-11",
     "navigation": {
-      "prev": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-10",
-      "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-19"
+      "prev": "/doc/applicatieprofiel/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-19",
+      "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/mobiliteit-intelligente-toegang/erkendestandaard/2025-12-11"
     },
     "documenttype": "ap",
-    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "statuslabel": "Kandidaat Standaard",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "statuslabel": "Erkende Standaard",
     "namespaces": [
       "http://data.vlaanderen.be/ns/besluit",
       "https://data.vlaanderen.be/ns/omgevingsvergunning",
       "https://data.vlaanderen.be/ns/mobiliteit-intelligente-toegang",
       "https://schema.org",
+      "http://www.w3.org/2004/02/skos/core",
       "https://data.vlaanderen.be/ns/mobiliteit",
       "http://data.europa.eu/m8g",
       "https://data.vlaanderen.be/ns/dossier",
@@ -1007,7 +1008,6 @@
       "https://www.w3.org/2004/02/skos/core",
       "http://purl.org/dc/terms",
       "http://www.w3.org/2000/01/rdf-schema",
-      "http://www.w3.org/2004/02/skos/core",
       "http://www.w3.org/ns/adms",
       "http://www.w3.org/2006/time",
       "http://www.w3.org/ns/locn",
@@ -1025,9 +1025,9 @@
     "participants": 28,
     "classes": 25,
     "properties": 25,
-    "externalclasses": 27,
+    "externalclasses": 33,
     "externalproperties": 44,
-    "totalterms": 121,
+    "totalterms": 127,
     "totalorganisations": 16,
     "organisations": [
       {
@@ -1099,14 +1099,14 @@
   },
   {
     "title": "Applicatieprofiel Openbare Nutsvoorzieningkasten",
-    "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03",
-    "issued": "2025-07-28",
+    "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/erkendestandaard/2026-01-03",
+    "issued": "2025-12-11",
     "navigation": {
-      "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/ontwerpstandaard/2025-06-03"
+      "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/openbare-nutsvoorzieningkasten/erkendestandaard/2026-01-03"
     },
     "documenttype": "ap",
-    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "statuslabel": "Kandidaat Standaard",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "statuslabel": "Erkende Standaard",
     "namespaces": [
       "http://www.w3.org/ns/ssn/systems",
       "https://vocab.belgif.be/ns/network",
@@ -1316,6 +1316,180 @@
       {
         "affiliation": "digitaalvlaanderen",
         "participants": 9
+      }
+    ],
+    "specifications": []
+  },
+  {
+    "title": "Applicatieprofiel Rooilijnplannen",
+    "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01",
+    "issued": "2025-07-01",
+    "navigation": {
+      "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/ontwerpstandaard/2025-06-01"
+    },
+    "documenttype": "ap",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "statuslabel": "Kandidaat Standaard",
+    "namespaces": [
+      "https://data.vlaanderen.be/ns/rooilijn",
+      "https://data.vlaanderen.be/ns/perceel",
+      "http://xmlns.com/foaf/0.1",
+      "http://purl.org/dc/terms",
+      "http://www.w3.org/2004/02/skos/core",
+      "https://data.vlaanderen.be/ns/openbaardomein/terreindeel",
+      "https://data.vlaanderen.be/ns/weg",
+      "https://qudt.org/schema/qudt",
+      "http://qudt.org/schema/qudt",
+      "http://data.vlaanderen.be/ns/besluit",
+      "http://data.europa.eu/eli/ontology",
+      "https://vocab.belgif.be/ns/utility-services",
+      "http://www.opengis.net/ont/sf",
+      "https://data.vlaanderen.be/ns/omgevingsvergunning",
+      "http://www.opengis.net/ont/geosparql",
+      "https://schema.org",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2006/time",
+      "https://periodo.github.io/edtf-ontology/edtfo.ttl",
+      "http://www.w3.org/ns/locn",
+      "http://www.w3.org/ns/adms",
+      "https://data.vlaanderen.be/ns/netwerk",
+      "http://purl.org/vocab/lifecycle/schema",
+      "http://www.cidoc-crm.org/cidoc-crm",
+      "http://www.opengis.net/ont/gml",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+      "http://purl.org/vocab/cpsv"
+    ],
+    "authors": 10,
+    "editors": 7,
+    "contributors": 44,
+    "participants": 61,
+    "classes": 44,
+    "properties": 47,
+    "externalclasses": 34,
+    "externalproperties": 42,
+    "totalterms": 167,
+    "totalorganisations": 30,
+    "organisations": [
+      {
+        "affiliation": "agentschapwegenenverkeer",
+        "participants": 9
+      },
+      {
+        "affiliation": "stadhalle",
+        "participants": 1
+      },
+      {
+        "affiliation": "swecobelgium",
+        "participants": 2
+      },
+      {
+        "affiliation": "stadgent",
+        "participants": 2
+      },
+      {
+        "affiliation": "gemeentepeer",
+        "participants": 1
+      },
+      {
+        "affiliation": "fluvius",
+        "participants": 2
+      },
+      {
+        "affiliation": "gemeenteheusden-zolder",
+        "participants": 1
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "participants": 14
+      },
+      {
+        "affiliation": "aquafin",
+        "participants": 2
+      },
+      {
+        "affiliation": "stadmechelen",
+        "participants": 2
+      },
+      {
+        "affiliation": "landmeetkantoordewaele",
+        "participants": 1
+      },
+      {
+        "affiliation": "stadgeel",
+        "participants": 1
+      },
+      {
+        "affiliation": "landmeet-enexpertisebureaupauwelemmerechts",
+        "participants": 1
+      },
+      {
+        "affiliation": "gemeentesint-katelijne-waver",
+        "participants": 1
+      },
+      {
+        "affiliation": "departementmobiliteitenopenbarewerken",
+        "participants": 2
+      },
+      {
+        "affiliation": "stadturnhout",
+        "participants": 1
+      },
+      {
+        "affiliation": "gemeentediepenbeek",
+        "participants": 1
+      },
+      {
+        "affiliation": "ddsstreekregisseurs",
+        "participants": 1
+      },
+      {
+        "affiliation": "vlaamsdatanutsbedrijf(athumi)",
+        "participants": 4
+      },
+      {
+        "affiliation": "stadroeselare",
+        "participants": 2
+      },
+      {
+        "affiliation": "intercommunaleleiedal",
+        "participants": 1
+      },
+      {
+        "affiliation": "stadantwerpen",
+        "participants": 1
+      },
+      {
+        "affiliation": "studiebureauvanopstal",
+        "participants": 1
+      },
+      {
+        "affiliation": "gemeentezulte",
+        "participants": 1
+      },
+      {
+        "affiliation": "provincievlaams-brabant",
+        "participants": 1
+      },
+      {
+        "affiliation": "geomex",
+        "participants": 1
+      },
+      {
+        "affiliation": "stadaalst",
+        "participants": 1
+      },
+      {
+        "affiliation": "stadwaregem",
+        "participants": 1
+      },
+      {
+        "affiliation": "iokdienstverlening",
+        "participants": 1
+      },
+      {
+        "affiliation": "vvsg",
+        "participants": 1
       }
     ],
     "specifications": []
@@ -2099,8 +2273,8 @@
       "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/zaalreservatie/ontwerpstandaard/2025-04-18"
     },
     "documenttype": "ap",
-    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "statuslabel": "Kandidaat Standaard",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "statuslabel": "Erkende Standaard",
     "namespaces": [
       "http://purl.org/dc/terms",
       "http://data.europa.eu/m8g",
@@ -2209,7 +2383,7 @@
       "http://www.w3.org/2006/vcard/ns",
       "http://www.w3.org/ns/adms",
       "http://xmlns.com/foaf/0.1",
-      "http://schema.org",
+      "https://schema.org",
       "http://www.w3.org/2006/time",
       "http://www.w3.org/2000/01/rdf-schema",
       "http://www.w3.org/ns/locn",
@@ -2217,8 +2391,8 @@
       "http://www.opengis.net/ont/geosparql",
       "https://data.vlaanderen.be/ns/persoon",
       "http://purl.org/dc/elements/1.1",
+      "http://schema.org",
       "https://data.vlaanderen.be/ns/persoon#",
-      "http://todo.com",
       "https://linked.art/ns/terms",
       "http://www.w3.org/ns/prov",
       "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -2230,11 +2404,11 @@
     "editors": 3,
     "contributors": 20,
     "participants": 27,
-    "classes": 20,
-    "properties": 13,
-    "externalclasses": 66,
-    "externalproperties": 111,
-    "totalterms": 210,
+    "classes": 21,
+    "properties": 12,
+    "externalclasses": 67,
+    "externalproperties": 113,
+    "totalterms": 213,
     "totalorganisations": 19,
     "organisations": [
       {
@@ -2350,10 +2524,10 @@
     "contributors": 0,
     "participants": 2,
     "classes": 17,
-    "properties": 13,
+    "properties": 11,
     "externalclasses": 21,
     "externalproperties": 52,
-    "totalterms": 103,
+    "totalterms": 101,
     "totalorganisations": 1,
     "organisations": [
       {
@@ -2395,8 +2569,8 @@
       "http://www.w3.org/ns/adms",
       "https://data.vlaanderen.be/ns/dossier",
       "https://dbpedia.org/ontology",
+      "http://www.w3.org/ns/sosa/oms",
       "http://www.w3.org/ns/oa",
-      "http://todo.com",
       "http://www.w3.org/ns/dqv",
       "http://www.w3.org/2001/XMLSchema",
       "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -2407,10 +2581,10 @@
     "contributors": 5,
     "participants": 20,
     "classes": 13,
-    "properties": 17,
+    "properties": 15,
     "externalclasses": 36,
-    "externalproperties": 75,
-    "totalterms": 141,
+    "externalproperties": 78,
+    "totalterms": 142,
     "totalorganisations": 8,
     "organisations": [
       {
@@ -3358,10 +3532,10 @@
     "contributors": 0,
     "participants": 2,
     "classes": 17,
-    "properties": 13,
+    "properties": 11,
     "externalclasses": 21,
     "externalproperties": 52,
-    "totalterms": 103,
+    "totalterms": 101,
     "totalorganisations": 1,
     "organisations": [
       {
@@ -3372,371 +3546,22 @@
     "specifications": []
   },
   {
-    "title": "Vocabularium Leermiddelen",
-    "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
-    "issued": "2025-08-01",
-    "navigation": {
-      "prev": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
-      "self": "https://data.dev-vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
-    },
-    "documenttype": "voc",
-    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "statuslabel": "Kandidaat Standaard",
-    "namespaces": [
-      "http://purl.org/dc/terms",
-      "http://data.europa.eu/snb/model/elm",
-      "https://schema.org",
-      "http://purl.org/dc/dcmitype",
-      "https://qudt.org/schema/qudt",
-      "http://qudt.org/schema/qudt",
-      "http://purl.org/dc/elements/1.1",
-      "http://schema.org",
-      "https://vocab.belgif.be/ns/address",
-      "http://www.w3.org/ns/locn",
-      "http://www.w3.org/ns/adms",
-      "http://www.w3.org/2006/time",
-      "http://www.cidoc-crm.org/cidoc-crm",
-      "http://www.w3.org/2004/02/skos/core",
-      "https://ec.europa.eu/esco/lod/static/model.html",
-      "http://www.w3.org/ns/prov",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-      "http://www.w3.org/2001/XMLSchema",
-      "http://www.w3.org/2000/01/rdf-schema",
-      "http://data.europa.eu/m8g"
-    ],
-    "authors": 8,
-    "editors": 5,
-    "contributors": 43,
-    "participants": 56,
-    "classes": 11,
-    "properties": 0,
-    "externalclasses": 30,
-    "externalproperties": 97,
-    "totalterms": 138,
-    "totalorganisations": 32,
-    "organisations": [
-      {
-        "affiliation": "departementonderwijsenvorming",
-        "participants": 5
-      },
-      {
-        "affiliation": "vlaamsedienstvoorarbeidsbemiddelingenberoepsopleiding",
-        "participants": 2
-      },
-      {
-        "affiliation": "overlegkleineonderwijsverstrekkers(oko)",
-        "participants": 1
-      },
-      {
-        "affiliation": "microsoft",
-        "participants": 1
-      },
-      {
-        "affiliation": "meemoo,vlaamsinstituutvoorhetarchief",
-        "participants": 2
-      },
-      {
-        "affiliation": "go!atheneumgeraardsbergen",
-        "participants": 1
-      },
-      {
-        "affiliation": "imec",
-        "participants": 3
-      },
-      {
-        "affiliation": "supportsquarenv",
-        "participants": 1
-      },
-      {
-        "affiliation": "go!onderwijsvandevlaamsegemeenschap",
-        "participants": 3
-      },
-      {
-        "affiliation": "xerteproject",
-        "participants": 2
-      },
-      {
-        "affiliation": "uitgeverijlernova",
-        "participants": 1
-      },
-      {
-        "affiliation": "jef",
-        "participants": 1
-      },
-      {
-        "affiliation": "questi",
-        "participants": 2
-      },
-      {
-        "affiliation": "becentral/mediawijs",
-        "participants": 1
-      },
-      {
-        "affiliation": "uitgeverijvaninnv",
-        "participants": 2
-      },
-      {
-        "affiliation": "universiteitgent",
-        "participants": 1
-      },
-      {
-        "affiliation": "smartbit",
-        "participants": 2
-      },
-      {
-        "affiliation": "dwengovzw",
-        "participants": 1
-      },
-      {
-        "affiliation": "regionaaltechnologischcentrumantwerpen",
-        "participants": 1
-      },
-      {
-        "affiliation": "plantyn",
-        "participants": 2
-      },
-      {
-        "affiliation": "gitooverijse",
-        "participants": 2
-      },
-      {
-        "affiliation": "katholiekonderwijsvlaanderen",
-        "participants": 2
-      },
-      {
-        "affiliation": "vrijdenkendeonafhankelijkeonderwijspartners",
-        "participants": 1
-      },
-      {
-        "affiliation": "digitaalvlaanderen",
-        "participants": 5
-      },
-      {
-        "affiliation": "studioglobo",
-        "participants": 1
-      },
-      {
-        "affiliation": "onderwijskoepelvanstedenengemeenten(ovsg)",
-        "participants": 2
-      },
-      {
-        "affiliation": "groepeducatieveenwetenschappelijkeuitgevers(gewu)",
-        "participants": 1
-      },
-      {
-        "affiliation": "kuleuven",
-        "participants": 1
-      },
-      {
-        "affiliation": "ligo,centrumvoorbasiseducatiebrugge-oostende-westhoek",
-        "participants": 1
-      },
-      {
-        "affiliation": "edtech/station",
-        "participants": 1
-      },
-      {
-        "affiliation": "agentschapvoorhogeronderwijs,volwassenenonderwijs,kwalificatiesenstudietoelagen",
-        "participants": 3
-      },
-      {
-        "affiliation": "klascement",
-        "participants": 1
-      }
-    ],
-    "specifications": []
-  },
-  {
-    "title": "Vocabularium Leermiddelen",
-    "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01",
-    "issued": "2025-08-01",
-    "navigation": {
-      "prev": "/doc/vocabularium/leermiddelen/ontwerpstandaard/2025-03-21",
-      "self": "https://data.dev-vlaanderen.be/doc/vocabularium/leermiddelen/kandidaatstandaard/2025-08-01"
-    },
-    "documenttype": "voc",
-    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "statuslabel": "Kandidaat Standaard",
-    "namespaces": [
-      "http://purl.org/dc/terms",
-      "http://data.europa.eu/snb/model/elm",
-      "https://schema.org",
-      "http://purl.org/dc/dcmitype",
-      "https://qudt.org/schema/qudt",
-      "http://qudt.org/schema/qudt",
-      "http://purl.org/dc/elements/1.1",
-      "http://schema.org",
-      "https://vocab.belgif.be/ns/address",
-      "http://www.w3.org/ns/locn",
-      "http://www.w3.org/ns/adms",
-      "http://www.w3.org/2006/time",
-      "http://www.cidoc-crm.org/cidoc-crm",
-      "http://www.w3.org/2004/02/skos/core",
-      "https://ec.europa.eu/esco/lod/static/model.html",
-      "http://www.w3.org/ns/prov",
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-      "http://www.w3.org/2001/XMLSchema",
-      "http://www.w3.org/2000/01/rdf-schema",
-      "http://data.europa.eu/m8g"
-    ],
-    "authors": 8,
-    "editors": 5,
-    "contributors": 43,
-    "participants": 56,
-    "classes": 11,
-    "properties": 0,
-    "externalclasses": 30,
-    "externalproperties": 97,
-    "totalterms": 138,
-    "totalorganisations": 32,
-    "organisations": [
-      {
-        "affiliation": "departementonderwijsenvorming",
-        "participants": 5
-      },
-      {
-        "affiliation": "vlaamsedienstvoorarbeidsbemiddelingenberoepsopleiding",
-        "participants": 2
-      },
-      {
-        "affiliation": "overlegkleineonderwijsverstrekkers(oko)",
-        "participants": 1
-      },
-      {
-        "affiliation": "microsoft",
-        "participants": 1
-      },
-      {
-        "affiliation": "meemoo,vlaamsinstituutvoorhetarchief",
-        "participants": 2
-      },
-      {
-        "affiliation": "go!atheneumgeraardsbergen",
-        "participants": 1
-      },
-      {
-        "affiliation": "imec",
-        "participants": 3
-      },
-      {
-        "affiliation": "supportsquarenv",
-        "participants": 1
-      },
-      {
-        "affiliation": "go!onderwijsvandevlaamsegemeenschap",
-        "participants": 3
-      },
-      {
-        "affiliation": "xerteproject",
-        "participants": 2
-      },
-      {
-        "affiliation": "uitgeverijlernova",
-        "participants": 1
-      },
-      {
-        "affiliation": "jef",
-        "participants": 1
-      },
-      {
-        "affiliation": "questi",
-        "participants": 2
-      },
-      {
-        "affiliation": "becentral/mediawijs",
-        "participants": 1
-      },
-      {
-        "affiliation": "uitgeverijvaninnv",
-        "participants": 2
-      },
-      {
-        "affiliation": "universiteitgent",
-        "participants": 1
-      },
-      {
-        "affiliation": "smartbit",
-        "participants": 2
-      },
-      {
-        "affiliation": "dwengovzw",
-        "participants": 1
-      },
-      {
-        "affiliation": "regionaaltechnologischcentrumantwerpen",
-        "participants": 1
-      },
-      {
-        "affiliation": "plantyn",
-        "participants": 2
-      },
-      {
-        "affiliation": "gitooverijse",
-        "participants": 2
-      },
-      {
-        "affiliation": "katholiekonderwijsvlaanderen",
-        "participants": 2
-      },
-      {
-        "affiliation": "vrijdenkendeonafhankelijkeonderwijspartners",
-        "participants": 1
-      },
-      {
-        "affiliation": "digitaalvlaanderen",
-        "participants": 5
-      },
-      {
-        "affiliation": "studioglobo",
-        "participants": 1
-      },
-      {
-        "affiliation": "onderwijskoepelvanstedenengemeenten(ovsg)",
-        "participants": 2
-      },
-      {
-        "affiliation": "groepeducatieveenwetenschappelijkeuitgevers(gewu)",
-        "participants": 1
-      },
-      {
-        "affiliation": "kuleuven",
-        "participants": 1
-      },
-      {
-        "affiliation": "ligo,centrumvoorbasiseducatiebrugge-oostende-westhoek",
-        "participants": 1
-      },
-      {
-        "affiliation": "edtech/station",
-        "participants": 1
-      },
-      {
-        "affiliation": "agentschapvoorhogeronderwijs,volwassenenonderwijs,kwalificatiesenstudietoelagen",
-        "participants": 3
-      },
-      {
-        "affiliation": "klascement",
-        "participants": 1
-      }
-    ],
-    "specifications": []
-  },
-  {
     "title": "Vocabularium Mobiliteit: Intelligente Toegang",
-    "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-19",
-    "issued": "2024-11-07",
+    "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/mobiliteit-intelligente-toegang/erkendestandaard/2025-12-11",
+    "issued": "2025-12-11",
     "navigation": {
-      "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-10",
-      "self": "https://data.dev-vlaanderen.be/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-19"
+      "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-19",
+      "self": "https://data.dev-vlaanderen.be/doc/vocabularium/mobiliteit-intelligente-toegang/erkendestandaard/2025-12-11"
     },
     "documenttype": "voc",
-    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "statuslabel": "Kandidaat Standaard",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "statuslabel": "Erkende Standaard",
     "namespaces": [
       "http://data.vlaanderen.be/ns/besluit",
       "https://data.vlaanderen.be/ns/omgevingsvergunning",
       "https://data.vlaanderen.be/ns/mobiliteit-intelligente-toegang",
       "https://schema.org",
+      "http://www.w3.org/2004/02/skos/core",
       "https://data.vlaanderen.be/ns/mobiliteit",
       "http://data.europa.eu/m8g",
       "https://data.vlaanderen.be/ns/dossier",
@@ -3745,7 +3570,6 @@
       "https://www.w3.org/2004/02/skos/core",
       "http://purl.org/dc/terms",
       "http://www.w3.org/2000/01/rdf-schema",
-      "http://www.w3.org/2004/02/skos/core",
       "http://www.w3.org/ns/adms",
       "http://www.w3.org/2006/time",
       "http://www.w3.org/ns/locn",
@@ -3763,9 +3587,9 @@
     "participants": 28,
     "classes": 25,
     "properties": 25,
-    "externalclasses": 27,
+    "externalclasses": 33,
     "externalproperties": 44,
-    "totalterms": 121,
+    "totalterms": 127,
     "totalorganisations": 16,
     "organisations": [
       {
@@ -3837,20 +3661,21 @@
   },
   {
     "title": "Vocabularium Mobiliteit: Intelligente Toegang",
-    "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-19",
-    "issued": "2024-11-07",
+    "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/mobiliteit-intelligente-toegang/erkendestandaard/2025-12-11",
+    "issued": "2025-12-11",
     "navigation": {
-      "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-10",
-      "self": "https://data.dev-vlaanderen.be/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-19"
+      "prev": "/doc/vocabularium/mobiliteit-intelligente-toegang/kandidaatstandaard/2025-09-19",
+      "self": "https://data.dev-vlaanderen.be/doc/vocabularium/mobiliteit-intelligente-toegang/erkendestandaard/2025-12-11"
     },
     "documenttype": "voc",
-    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "statuslabel": "Kandidaat Standaard",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "statuslabel": "Erkende Standaard",
     "namespaces": [
       "http://data.vlaanderen.be/ns/besluit",
       "https://data.vlaanderen.be/ns/omgevingsvergunning",
       "https://data.vlaanderen.be/ns/mobiliteit-intelligente-toegang",
       "https://schema.org",
+      "http://www.w3.org/2004/02/skos/core",
       "https://data.vlaanderen.be/ns/mobiliteit",
       "http://data.europa.eu/m8g",
       "https://data.vlaanderen.be/ns/dossier",
@@ -3859,7 +3684,6 @@
       "https://www.w3.org/2004/02/skos/core",
       "http://purl.org/dc/terms",
       "http://www.w3.org/2000/01/rdf-schema",
-      "http://www.w3.org/2004/02/skos/core",
       "http://www.w3.org/ns/adms",
       "http://www.w3.org/2006/time",
       "http://www.w3.org/ns/locn",
@@ -3877,9 +3701,9 @@
     "participants": 28,
     "classes": 25,
     "properties": 25,
-    "externalclasses": 27,
+    "externalclasses": 33,
     "externalproperties": 44,
-    "totalterms": 121,
+    "totalterms": 127,
     "totalorganisations": 16,
     "organisations": [
       {
@@ -4241,6 +4065,180 @@
       {
         "affiliation": "digitaalvlaanderen",
         "participants": 9
+      }
+    ],
+    "specifications": []
+  },
+  {
+    "title": "Vocabularium Rooilijnplannen",
+    "uri": "https://data.dev-vlaanderen.be/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-06-01",
+    "issued": "2025-07-01",
+    "navigation": {
+      "self": "https://data.dev-vlaanderen.be/doc/vocabularium/rooilijnplannen/ontwerpstandaard/2025-06-01"
+    },
+    "documenttype": "voc",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "statuslabel": "Kandidaat Standaard",
+    "namespaces": [
+      "https://data.vlaanderen.be/ns/rooilijn",
+      "https://data.vlaanderen.be/ns/perceel",
+      "http://xmlns.com/foaf/0.1",
+      "http://purl.org/dc/terms",
+      "http://www.w3.org/2004/02/skos/core",
+      "https://data.vlaanderen.be/ns/openbaardomein/terreindeel",
+      "https://data.vlaanderen.be/ns/weg",
+      "https://qudt.org/schema/qudt",
+      "http://qudt.org/schema/qudt",
+      "http://data.vlaanderen.be/ns/besluit",
+      "http://data.europa.eu/eli/ontology",
+      "https://vocab.belgif.be/ns/utility-services",
+      "http://www.opengis.net/ont/sf",
+      "https://data.vlaanderen.be/ns/omgevingsvergunning",
+      "http://www.opengis.net/ont/geosparql",
+      "https://schema.org",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2006/time",
+      "https://periodo.github.io/edtf-ontology/edtfo.ttl",
+      "http://www.w3.org/ns/locn",
+      "http://www.w3.org/ns/adms",
+      "https://data.vlaanderen.be/ns/netwerk",
+      "http://purl.org/vocab/lifecycle/schema",
+      "http://www.cidoc-crm.org/cidoc-crm",
+      "http://www.opengis.net/ont/gml",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+      "http://purl.org/vocab/cpsv"
+    ],
+    "authors": 10,
+    "editors": 7,
+    "contributors": 44,
+    "participants": 61,
+    "classes": 43,
+    "properties": 45,
+    "externalclasses": 34,
+    "externalproperties": 43,
+    "totalterms": 165,
+    "totalorganisations": 30,
+    "organisations": [
+      {
+        "affiliation": "agentschapwegenenverkeer",
+        "participants": 9
+      },
+      {
+        "affiliation": "stadhalle",
+        "participants": 1
+      },
+      {
+        "affiliation": "swecobelgium",
+        "participants": 2
+      },
+      {
+        "affiliation": "stadgent",
+        "participants": 2
+      },
+      {
+        "affiliation": "gemeentepeer",
+        "participants": 1
+      },
+      {
+        "affiliation": "fluvius",
+        "participants": 2
+      },
+      {
+        "affiliation": "gemeenteheusden-zolder",
+        "participants": 1
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "participants": 14
+      },
+      {
+        "affiliation": "aquafin",
+        "participants": 2
+      },
+      {
+        "affiliation": "stadmechelen",
+        "participants": 2
+      },
+      {
+        "affiliation": "landmeetkantoordewaele",
+        "participants": 1
+      },
+      {
+        "affiliation": "stadgeel",
+        "participants": 1
+      },
+      {
+        "affiliation": "landmeet-enexpertisebureaupauwelemmerechts",
+        "participants": 1
+      },
+      {
+        "affiliation": "gemeentesint-katelijne-waver",
+        "participants": 1
+      },
+      {
+        "affiliation": "departementmobiliteitenopenbarewerken",
+        "participants": 2
+      },
+      {
+        "affiliation": "stadturnhout",
+        "participants": 1
+      },
+      {
+        "affiliation": "gemeentediepenbeek",
+        "participants": 1
+      },
+      {
+        "affiliation": "ddsstreekregisseurs",
+        "participants": 1
+      },
+      {
+        "affiliation": "vlaamsdatanutsbedrijf(athumi)",
+        "participants": 4
+      },
+      {
+        "affiliation": "stadroeselare",
+        "participants": 2
+      },
+      {
+        "affiliation": "intercommunaleleiedal",
+        "participants": 1
+      },
+      {
+        "affiliation": "stadantwerpen",
+        "participants": 1
+      },
+      {
+        "affiliation": "studiebureauvanopstal",
+        "participants": 1
+      },
+      {
+        "affiliation": "gemeentezulte",
+        "participants": 1
+      },
+      {
+        "affiliation": "provincievlaams-brabant",
+        "participants": 1
+      },
+      {
+        "affiliation": "geomex",
+        "participants": 1
+      },
+      {
+        "affiliation": "stadaalst",
+        "participants": 1
+      },
+      {
+        "affiliation": "stadwaregem",
+        "participants": 1
+      },
+      {
+        "affiliation": "iokdienstverlening",
+        "participants": 1
+      },
+      {
+        "affiliation": "vvsg",
+        "participants": 1
       }
     ],
     "specifications": []
@@ -5277,8 +5275,8 @@
       "self": "https://data.dev-vlaanderen.be/doc/vocabularium/zaalreservatie/ontwerpstandaard/2025-04-18"
     },
     "documenttype": "voc",
-    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "statuslabel": "Kandidaat Standaard",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "statuslabel": "Erkende Standaard",
     "namespaces": [
       "http://purl.org/dc/terms",
       "http://data.europa.eu/m8g",

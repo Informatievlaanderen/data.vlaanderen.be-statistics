@@ -1,11 +1,10 @@
 {
-  "title": "DCAT-AP Vlaanderen ",
-  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/metadata-dcat/ontwerpstandaard/2025-09-16",
-  "issued": "2025-12-09",
+  "title": "GEODCAT-AP Vlaanderen",
+  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09",
+  "issued": "2025-11-30",
   "navigation": {
-    "next": "/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2025-12-09",
-    "prev": "/doc/applicatieprofiel/metadata-dcat/erkendestandaard/2022-04-21",
-    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/metadata-dcat/ontwerpstandaard/2025-09-16"
+    "prev": "/doc/applicatieprofiel/GEODCAT-AP-VL/erkendestandaard/2022-04-21",
+    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2025-12-09"
   },
   "documenttype": "ap",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
@@ -17,397 +16,39 @@
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/adms",
+    "http://www.w3.org/2002/07/owl",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/2000/01/rdf-schema",
-    "http://www.w3.org/2002/07/owl",
-    "https://data.vlaanderen.be/ns/metadata-dcat",
+    "http://www.w3.org/ns/dqv",
+    "http://data.vlaanderen.be/ns/metadata-dcat",
     "http://data.europa.eu/r5r",
     "http://data.vlaanderen.be/ns/generiek",
     "http://www.w3.org/2006/vcard/ns",
     "http://www.w3.org/2006/time",
+    "https://data.vlaanderen.be/ns/metadata-dcat",
     "http://data.europa.eu/930",
+    "http://todo.com",
     "http://schema.org",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns"
   ],
-  "authors": 3,
-  "editors": 5,
-  "contributors": 30,
-  "participants": 38,
+  "authors": 0,
+  "editors": 0,
+  "contributors": 0,
+  "participants": 0,
   "classes": 4,
-  "properties": 10,
-  "externalclasses": 27,
-  "externalproperties": 109,
-  "totalterms": 150,
-  "totalorganisations": 13,
-  "organisations": [
-    {
-      "affiliation": "digitaalvlaanderen",
-      "participants": 17
-    },
-    {
-      "affiliation": "departementomgeving",
-      "participants": 2
-    },
-    {
-      "affiliation": "stadantwerpen",
-      "participants": 2
-    },
-    {
-      "affiliation": "district09",
-      "participants": 2
-    },
-    {
-      "affiliation": "g.i.m.",
-      "participants": 2
-    },
-    {
-      "affiliation": "ministerievandeduitstaligegemeenschap",
-      "participants": 1
-    },
-    {
-      "affiliation": "stadleuven",
-      "participants": 2
-    },
-    {
-      "affiliation": "nationaalgeografischinstituut",
-      "participants": 2
-    },
-    {
-      "affiliation": "departementfinanciënenbegroting",
-      "participants": 1
-    },
-    {
-      "affiliation": "provincies.incijfers.be",
-      "participants": 1
-    },
-    {
-      "affiliation": "vlaamsemilieumaatschappij",
-      "participants": 3
-    },
-    {
-      "affiliation": "stadkortrijk",
-      "participants": 1
-    },
-    {
-      "affiliation": "departementwerk,economie,wetenschap,innovatieensocialeeconomie",
-      "participants": 2
-    }
-  ],
+  "properties": 17,
+  "externalclasses": 29,
+  "externalproperties": 113,
+  "totalterms": 163,
+  "totalorganisations": 0,
+  "organisations": [],
   "specifications": [],
   "values": {
-    "authors": [
-      {
-        "name": "gerdacobbaert",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "jitsedecock",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "alexanderpotloot",
-        "affiliation": "digitaalvlaanderen"
-      }
-    ],
-    "editors": [
-      {
-        "name": "gertderouck",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "biancadrepper",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "joachimnielandt",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "stijntallir",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "bertvannuffelen",
-        "affiliation": "digitaalvlaanderen"
-      }
-    ],
-    "contributors": [
-      {
-        "name": "christopherbhe",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "stefanochirivi",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "jeroenclaessen",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "laurad'heer",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "jefdepooter",
-        "affiliation": "departementomgeving"
-      },
-      {
-        "name": "gayoderoovere",
-        "affiliation": "stadantwerpen"
-      },
-      {
-        "name": "brunodevrieze",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "jensdeprez",
-        "affiliation": "district09"
-      },
-      {
-        "name": "loesdeventer",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "wouterdusar",
-        "affiliation": "g.i.m."
-      },
-      {
-        "name": "françoisefagneul",
-        "affiliation": "ministerievandeduitstaligegemeenschap"
-      },
-      {
-        "name": "astridforceville",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "nielsgabriels",
-        "affiliation": "g.i.m."
-      },
-      {
-        "name": "jorisgodderie",
-        "affiliation": "stadleuven"
-      },
-      {
-        "name": "elisabethhermanto",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "kimhoang",
-        "affiliation": "nationaalgeografischinstituut"
-      },
-      {
-        "name": "ilsekenis",
-        "affiliation": "stadleuven"
-      },
-      {
-        "name": "jankino",
-        "affiliation": "departementfinanciënenbegroting"
-      },
-      {
-        "name": "laurakupers",
-        "affiliation": "nationaalgeografischinstituut"
-      },
-      {
-        "name": "geertlimpens",
-        "affiliation": "district09"
-      },
-      {
-        "name": "hendrikmeersman",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "sarahmeire",
-        "affiliation": "provincies.incijfers.be"
-      },
-      {
-        "name": "elienosselaer",
-        "affiliation": "vlaamsemilieumaatschappij"
-      },
-      {
-        "name": "milanpeelman",
-        "affiliation": "vlaamsemilieumaatschappij"
-      },
-      {
-        "name": "miekeryckoort",
-        "affiliation": "stadkortrijk"
-      },
-      {
-        "name": "mariostevens",
-        "affiliation": "departementwerk,economie,wetenschap,innovatieensocialeeconomie"
-      },
-      {
-        "name": "joricktriempont",
-        "affiliation": "departementwerk,economie,wetenschap,innovatieensocialeeconomie"
-      },
-      {
-        "name": "geertvanhaute",
-        "affiliation": "departementomgeving"
-      },
-      {
-        "name": "michielvansteenkiste",
-        "affiliation": "vlaamsemilieumaatschappij"
-      },
-      {
-        "name": "kaywarrie",
-        "affiliation": "stadantwerpen"
-      }
-    ],
-    "participants": [
-      {
-        "name": "christopherbhe",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "stefanochirivi",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "jeroenclaessen",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "laurad'heer",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "jefdepooter",
-        "affiliation": "departementomgeving"
-      },
-      {
-        "name": "gayoderoovere",
-        "affiliation": "stadantwerpen"
-      },
-      {
-        "name": "brunodevrieze",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "jensdeprez",
-        "affiliation": "district09"
-      },
-      {
-        "name": "loesdeventer",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "wouterdusar",
-        "affiliation": "g.i.m."
-      },
-      {
-        "name": "françoisefagneul",
-        "affiliation": "ministerievandeduitstaligegemeenschap"
-      },
-      {
-        "name": "astridforceville",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "nielsgabriels",
-        "affiliation": "g.i.m."
-      },
-      {
-        "name": "jorisgodderie",
-        "affiliation": "stadleuven"
-      },
-      {
-        "name": "elisabethhermanto",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "kimhoang",
-        "affiliation": "nationaalgeografischinstituut"
-      },
-      {
-        "name": "ilsekenis",
-        "affiliation": "stadleuven"
-      },
-      {
-        "name": "jankino",
-        "affiliation": "departementfinanciënenbegroting"
-      },
-      {
-        "name": "laurakupers",
-        "affiliation": "nationaalgeografischinstituut"
-      },
-      {
-        "name": "geertlimpens",
-        "affiliation": "district09"
-      },
-      {
-        "name": "hendrikmeersman",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "sarahmeire",
-        "affiliation": "provincies.incijfers.be"
-      },
-      {
-        "name": "elienosselaer",
-        "affiliation": "vlaamsemilieumaatschappij"
-      },
-      {
-        "name": "milanpeelman",
-        "affiliation": "vlaamsemilieumaatschappij"
-      },
-      {
-        "name": "miekeryckoort",
-        "affiliation": "stadkortrijk"
-      },
-      {
-        "name": "mariostevens",
-        "affiliation": "departementwerk,economie,wetenschap,innovatieensocialeeconomie"
-      },
-      {
-        "name": "joricktriempont",
-        "affiliation": "departementwerk,economie,wetenschap,innovatieensocialeeconomie"
-      },
-      {
-        "name": "geertvanhaute",
-        "affiliation": "departementomgeving"
-      },
-      {
-        "name": "michielvansteenkiste",
-        "affiliation": "vlaamsemilieumaatschappij"
-      },
-      {
-        "name": "kaywarrie",
-        "affiliation": "stadantwerpen"
-      },
-      {
-        "name": "gertderouck",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "biancadrepper",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "joachimnielandt",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "stijntallir",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "bertvannuffelen",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "gerdacobbaert",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "jitsedecock",
-        "affiliation": "digitaalvlaanderen"
-      },
-      {
-        "name": "alexanderpotloot",
-        "affiliation": "digitaalvlaanderen"
-      }
-    ],
+    "authors": [],
+    "editors": [],
+    "contributors": [],
+    "participants": [],
     "classes": [
       {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -430,9 +71,6 @@
         "label": [
           {
             "@value": "DateTime"
-          },
-          {
-            "@value": "dateTime"
           }
         ]
       },
@@ -448,7 +86,7 @@
     ],
     "properties": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/metadata-dcat#ontwikkelingstoestand",
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#ontwikkelingstoestand",
         "label": [
           {
             "@language": "nl",
@@ -457,7 +95,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorAuthenticatie",
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorAuthenticatie",
         "label": [
           {
             "@language": "nl",
@@ -466,7 +104,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/metadata-dcat#levensfase",
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#levensfase",
         "label": [
           {
             "@language": "nl",
@@ -475,7 +113,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorStatusinformatie",
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorStatusinformatie",
         "label": [
           {
             "@language": "nl",
@@ -484,7 +122,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/metadata-dcat#bronMetadataRecordLandingspagina",
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#bronMetadataRecordLandingspagina",
         "label": [
           {
             "@language": "nl",
@@ -502,7 +140,16 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/metadata-dcat#statuut",
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#statuut",
         "label": [
           {
             "@language": "nl",
@@ -511,7 +158,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/metadata-dcat#statuut",
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#statuut",
         "label": [
           {
             "@language": "nl",
@@ -520,7 +167,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorGebruiksinformatie",
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorGebruiksinformatie",
         "label": [
           {
             "@language": "nl",
@@ -529,11 +176,63 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/metadata-dcat#RelatieQualificatie.catalogusResource.source",
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#iSOcategorie",
         "label": [
           {
             "@language": "nl",
-            "@value": "bronresource"
+            "@value": "ISO categorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#iNSPIREthema",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "INSPIRE thema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#gEMETconcept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GEMET concept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/metadata-dcat#servicetype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "service type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/metadata-dcat#servicecategorie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "service categorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#inserie",
+        "label": [
+          {
+            "@value": "inserie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#RelatieQualificatie.catalogusResource.source",
+        "label": [
+          {
+            "@value": "CatalogusResource (source)"
           }
         ]
       }
@@ -639,15 +338,6 @@
         ]
       },
       {
-        "assignedURI": "http://data.europa.eu/eli/ontology#LegalResource",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Rechtsgrond"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/Standard",
         "label": [
           {
@@ -697,15 +387,11 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/Frequency",
+        "assignedURI": "http://data.europa.eu/eli/ontology#LegalResource",
         "label": [
           {
-            "@language": "en",
-            "@value": "Frequency"
-          },
-          {
             "@language": "nl",
-            "@value": "Frequentie"
+            "@value": "Rechtsgrond"
           }
         ]
       },
@@ -715,6 +401,19 @@
           {
             "@language": "nl",
             "@value": "Literal voor Tijdsinformatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Time instant"
+          },
+          {
+            "@language": "nl",
+            "@value": "Tijdsmoment"
           }
         ]
       },
@@ -746,6 +445,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/dqv#QualityMeasurement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Resolutie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
         "label": [
           {
@@ -758,7 +466,6 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
-            "@language": "nl",
             "@value": "Code"
           }
         ]
@@ -780,15 +487,23 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "assignedURI": "http://purl.org/dc/terms/Frequency",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Tijdsmoment"
+            "@language": "en",
+            "@value": "Frequency"
           },
           {
-            "@language": "en",
-            "@value": "Time instant"
+            "@language": "nl",
+            "@value": "Frequentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#Decimal",
+        "label": [
+          {
+            "@value": "Decimal"
           }
         ]
       }
@@ -845,6 +560,19 @@
           {
             "@language": "nl",
             "@value": "versie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          },
+          {
+            "@language": "en",
+            "@value": "description"
           }
         ]
       },
@@ -921,7 +649,7 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/dcat#version",
+        "assignedURI": "http://www.w3.org/2002/07/owl#versionInfo",
         "label": [
           {
             "@language": "nl",
@@ -975,6 +703,28 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "titel"
+          },
+          {
+            "@language": "en",
+            "@value": "title"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/dcat#keyword",
         "label": [
           {
@@ -1020,15 +770,11 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/description",
+        "assignedURI": "http://purl.org/dc/terms/issued",
         "label": [
           {
             "@language": "nl",
-            "@value": "beschrijving"
-          },
-          {
-            "@language": "en",
-            "@value": "description"
+            "@value": "publicatiedatum"
           }
         ]
       },
@@ -1069,6 +815,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/dqv#value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/title",
         "label": [
           {
@@ -1096,6 +851,15 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publicatiedatum"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "label": [
           {
@@ -1105,24 +869,56 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/title",
+        "assignedURI": "http://purl.org/dc/terms/modified",
         "label": [
           {
             "@language": "nl",
-            "@value": "titel"
-          },
-          {
-            "@language": "en",
-            "@value": "title"
+            "@value": "wijzigingsdatum"
           }
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/identifier",
+        "assignedURI": "http://purl.org/dc/terms/created",
         "label": [
           {
             "@language": "nl",
-            "@value": "identificator"
+            "@value": "creatiedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/created",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "creatiedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publicatiedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/modified",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wijzigingsdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve identificator"
           }
         ]
       },
@@ -1204,19 +1000,6 @@
           {
             "@language": "nl",
             "@value": "rechten"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/dcat#contactPoint",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "contactinformatie"
-          },
-          {
-            "@language": "en",
-            "@value": "contact point"
           }
         ]
       },
@@ -1324,15 +1107,24 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/accrualPeriodicity",
+        "assignedURI": "http://www.w3.org/ns/dcat#contactPoint",
         "label": [
           {
-            "@language": "en",
-            "@value": "frequency"
+            "@language": "nl",
+            "@value": "contactinformatie"
           },
           {
+            "@language": "en",
+            "@value": "contact point"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#representionTechnique",
+        "label": [
+          {
             "@language": "nl",
-            "@value": "periodiciteit"
+            "@value": "ruimtelijk voorstellingstype"
           }
         ]
       },
@@ -1378,6 +1170,110 @@
           {
             "@language": "nl",
             "@value": "rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/accrualPeriodicity",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "frequency"
+          },
+          {
+            "@language": "nl",
+            "@value": "periodiciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "release date"
+          },
+          {
+            "@language": "nl",
+            "@value": "publicatie datum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/temporal",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "temporal coverage"
+          },
+          {
+            "@language": "nl",
+            "@value": "temporele dekking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/modified",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wijzigingsdatum"
+          },
+          {
+            "@language": "en",
+            "@value": "modification date"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dcat#endDate",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "end date"
+          },
+          {
+            "@language": "nl",
+            "@value": "eind datum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dcat#startDate",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "start datum"
+          },
+          {
+            "@language": "en",
+            "@value": "start date"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft start"
+          },
+          {
+            "@language": "en",
+            "@value": "beginning"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft einde"
+          },
+          {
+            "@language": "en",
+            "@value": "end"
           }
         ]
       },
@@ -1445,11 +1341,33 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/issued",
+        "assignedURI": "http://purl.org/dc/terms/spatial",
         "label": [
           {
             "@language": "nl",
-            "@value": "publicatiedatum"
+            "@value": "geografische dekking"
+          },
+          {
+            "@language": "en",
+            "@value": "geographical coverage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dqv#hasQualityMeasurement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ruimtelijke resolutie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dqv#isMeasurementOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resolutie methode"
           }
         ]
       },
@@ -1481,15 +1399,6 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/issued",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "publicatiedatum"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/source",
         "label": [
           {
@@ -1504,110 +1413,6 @@
           {
             "@language": "nl",
             "@value": "herkomst"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/issued",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "release date"
-          },
-          {
-            "@language": "nl",
-            "@value": "publicatie datum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/modified",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "wijzigingsdatum"
-          },
-          {
-            "@language": "en",
-            "@value": "modification date"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/spatial",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "geographical coverage"
-          },
-          {
-            "@language": "nl",
-            "@value": "geografische dekking"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/temporal",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "temporal coverage"
-          },
-          {
-            "@language": "nl",
-            "@value": "temporele dekking"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/dcat#endDate",
-        "label": [
-          {
-            "@language": "en",
-            "@value": "end date"
-          },
-          {
-            "@language": "nl",
-            "@value": "eind datum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/dcat#startDate",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "start datum"
-          },
-          {
-            "@language": "en",
-            "@value": "start date"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft start"
-          },
-          {
-            "@language": "en",
-            "@value": "beginning"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeft einde"
-          },
-          {
-            "@language": "en",
-            "@value": "end"
           }
         ]
       },
@@ -1639,42 +1444,6 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/modified",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "wijzigingsdatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/created",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "creatiedatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/created",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "creatiedatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/modified",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "wijzigingsdatum"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/spatial",
         "label": [
           {
@@ -1684,20 +1453,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "assignedURI": "http://purl.org/dc/terms/spatial",
         "label": [
           {
             "@language": "nl",
-            "@value": "alternatieve identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/issued",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "publicatiedatum"
+            "@value": "geografische dekking"
           }
         ]
       },
@@ -1801,15 +1561,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/dcat#inSeries",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "in serie"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/relation",
         "label": [
           {
@@ -1819,233 +1570,14 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/publisher",
+        "assignedURI": "http://todo.com/uitgever",
         "label": [
           {
-            "@language": "nl",
             "@value": "uitgever"
           }
         ]
       }
     ],
-    "organisations": [
-      {
-        "affiliation": "digitaalvlaanderen",
-        "names": [
-          {
-            "name": "christopherbhe",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "stefanochirivi",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "jeroenclaessen",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "laurad'heer",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "brunodevrieze",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "loesdeventer",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "astridforceville",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "elisabethhermanto",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "hendrikmeersman",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "gertderouck",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "biancadrepper",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "joachimnielandt",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "stijntallir",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "bertvannuffelen",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "gerdacobbaert",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "jitsedecock",
-            "affiliation": "digitaalvlaanderen"
-          },
-          {
-            "name": "alexanderpotloot",
-            "affiliation": "digitaalvlaanderen"
-          }
-        ]
-      },
-      {
-        "affiliation": "departementomgeving",
-        "names": [
-          {
-            "name": "jefdepooter",
-            "affiliation": "departementomgeving"
-          },
-          {
-            "name": "geertvanhaute",
-            "affiliation": "departementomgeving"
-          }
-        ]
-      },
-      {
-        "affiliation": "stadantwerpen",
-        "names": [
-          {
-            "name": "gayoderoovere",
-            "affiliation": "stadantwerpen"
-          },
-          {
-            "name": "kaywarrie",
-            "affiliation": "stadantwerpen"
-          }
-        ]
-      },
-      {
-        "affiliation": "district09",
-        "names": [
-          {
-            "name": "jensdeprez",
-            "affiliation": "district09"
-          },
-          {
-            "name": "geertlimpens",
-            "affiliation": "district09"
-          }
-        ]
-      },
-      {
-        "affiliation": "g.i.m.",
-        "names": [
-          {
-            "name": "wouterdusar",
-            "affiliation": "g.i.m."
-          },
-          {
-            "name": "nielsgabriels",
-            "affiliation": "g.i.m."
-          }
-        ]
-      },
-      {
-        "affiliation": "ministerievandeduitstaligegemeenschap",
-        "names": [
-          {
-            "name": "françoisefagneul",
-            "affiliation": "ministerievandeduitstaligegemeenschap"
-          }
-        ]
-      },
-      {
-        "affiliation": "stadleuven",
-        "names": [
-          {
-            "name": "jorisgodderie",
-            "affiliation": "stadleuven"
-          },
-          {
-            "name": "ilsekenis",
-            "affiliation": "stadleuven"
-          }
-        ]
-      },
-      {
-        "affiliation": "nationaalgeografischinstituut",
-        "names": [
-          {
-            "name": "kimhoang",
-            "affiliation": "nationaalgeografischinstituut"
-          },
-          {
-            "name": "laurakupers",
-            "affiliation": "nationaalgeografischinstituut"
-          }
-        ]
-      },
-      {
-        "affiliation": "departementfinanciënenbegroting",
-        "names": [
-          {
-            "name": "jankino",
-            "affiliation": "departementfinanciënenbegroting"
-          }
-        ]
-      },
-      {
-        "affiliation": "provincies.incijfers.be",
-        "names": [
-          {
-            "name": "sarahmeire",
-            "affiliation": "provincies.incijfers.be"
-          }
-        ]
-      },
-      {
-        "affiliation": "vlaamsemilieumaatschappij",
-        "names": [
-          {
-            "name": "elienosselaer",
-            "affiliation": "vlaamsemilieumaatschappij"
-          },
-          {
-            "name": "milanpeelman",
-            "affiliation": "vlaamsemilieumaatschappij"
-          },
-          {
-            "name": "michielvansteenkiste",
-            "affiliation": "vlaamsemilieumaatschappij"
-          }
-        ]
-      },
-      {
-        "affiliation": "stadkortrijk",
-        "names": [
-          {
-            "name": "miekeryckoort",
-            "affiliation": "stadkortrijk"
-          }
-        ]
-      },
-      {
-        "affiliation": "departementwerk,economie,wetenschap,innovatieensocialeeconomie",
-        "names": [
-          {
-            "name": "mariostevens",
-            "affiliation": "departementwerk,economie,wetenschap,innovatieensocialeeconomie"
-          },
-          {
-            "name": "joricktriempont",
-            "affiliation": "departementwerk,economie,wetenschap,innovatieensocialeeconomie"
-          }
-        ]
-      }
-    ]
+    "organisations": []
   }
 }
