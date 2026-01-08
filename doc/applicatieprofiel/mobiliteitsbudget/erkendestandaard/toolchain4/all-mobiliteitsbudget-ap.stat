@@ -11,6 +11,7 @@
   "statuslabel": "Erkende Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/mobiliteitsbudget",
+    "http://www.w3.org/2004/02/skos/core",
     "http://purl.org/dc/terms",
     "https://schema.org",
     "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod",
@@ -19,7 +20,6 @@
     "http://www.w3.org/ns/person",
     "https://data.vlaanderen.be/ns/incentiveringsplatform",
     "http://www.w3.org/2000/01/rdf-schema",
-    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/loongegevens",
     "http://xmlns.com/foaf/0.1",
     "https://data.vlaanderen.be/ns/persoon",
@@ -36,9 +36,9 @@
   "participants": 17,
   "classes": 24,
   "properties": 53,
-  "externalclasses": 23,
+  "externalclasses": 30,
   "externalproperties": 31,
-  "totalterms": 131,
+  "totalterms": 138,
   "totalorganisations": 7,
   "organisations": [
     {
@@ -899,6 +899,24 @@
     ],
     "externalclasses": [
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OrganisatieStatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Boekingstatus"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
@@ -926,11 +944,29 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vervoermiddel"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/Ticket",
         "label": [
           {
             "@language": "nl",
             "@value": "Vervoersbewijs"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dienstverleningtype"
           }
         ]
       },
@@ -967,6 +1003,33 @@
           {
             "@language": "nl",
             "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OrganisatieClassificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OrganisatieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OrganisatieActiviteit"
           }
         ]
       },

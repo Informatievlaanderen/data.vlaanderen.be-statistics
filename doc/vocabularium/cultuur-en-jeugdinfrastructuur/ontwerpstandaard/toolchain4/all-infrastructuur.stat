@@ -11,6 +11,7 @@
   "statuslabel": "Kandidaat Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/FeitelijkeVerenigingen",
+    "http://www.w3.org/2004/02/skos/core",
     "https://schema.org",
     "https://data.vlaanderen.be/ns/gebouw",
     "https://data.vlaanderen.be/ns/cultuur-en-jeugd/infrastructuur",
@@ -28,7 +29,6 @@
     "https://data.vlaanderen.be/ns/doelgericht-digitaal-transformeren",
     "http://www.opengis.net/ont/geosparql",
     "http://todo.com",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -42,9 +42,9 @@
   "participants": 34,
   "classes": 46,
   "properties": 92,
-  "externalclasses": 30,
+  "externalclasses": 54,
   "externalproperties": 47,
-  "totalterms": 215,
+  "totalterms": 239,
   "totalorganisations": 23,
   "organisations": [
     {
@@ -1615,6 +1615,15 @@
     ],
     "externalclasses": [
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "PermanentieType"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/PriceSpecification",
         "label": [
           {
@@ -1624,11 +1633,137 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Binnenruimtetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Buitenruimtetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nationaliteitscode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Infrastructuurtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openstellingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Exclusiviteitstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Exploitatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kosttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inkomsttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Activiteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Eigenaarschapstype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
           {
             "@language": "nl",
             "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Faciliteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Capaciteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Type Grootheid"
           }
         ]
       },
@@ -1651,11 +1786,38 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Statusgebouwwaarde"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/FinancialProduct",
         "label": [
           {
             "@language": "nl",
             "@value": "Verzekering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verzekeringtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Energiebrontype"
           }
         ]
       },
@@ -1669,6 +1831,15 @@
           {
             "@language": "nl",
             "@value": "Criterium"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebruiktype"
           }
         ]
       },
@@ -1691,11 +1862,38 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beheertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegankelijkheidsonderdeel"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E70_Thing",
         "label": [
           {
             "@language": "nl",
             "@value": "Ding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Overeenkomsttype"
           }
         ]
       },
@@ -1723,6 +1921,24 @@
           {
             "@language": "nl",
             "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verbruiktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Licentietype"
           }
         ]
       },

@@ -10,11 +10,11 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
   "statuslabel": "Standaard",
   "namespaces": [
+    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/weg",
     "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/ns/org",
     "https://data.vlaanderen.be/ns/generiek",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/adms",
     "http://purl.org/dc/terms",
     "http://www.opengis.net/ont/geosparql",
@@ -28,10 +28,10 @@
   "contributors": 0,
   "participants": 24,
   "classes": 37,
-  "properties": 86,
-  "externalclasses": 9,
+  "properties": 82,
+  "externalclasses": 25,
   "externalproperties": 8,
-  "totalterms": 140,
+  "totalterms": 152,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -1140,22 +1140,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegsegment.PositieInSequentie",
-        "label": [
-          {
-            "@value": "Wegsegment.PositieInSequentie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegsegment.PositieInSequentie",
-        "label": [
-          {
-            "@value": "Wegsegment.PositieInSequentie"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/weg#Rijrichting.heeftRijrichting",
         "label": [
           {
@@ -1280,22 +1264,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegsegment.Positie",
-        "label": [
-          {
-            "@value": "Wegsegment.Positie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/weg#Wegsegment.Positie",
-        "label": [
-          {
-            "@value": "Wegsegment.Positie"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/weg#Snelheidsbeperking.heeftSnelheidsbeperking",
         "label": [
           {
@@ -1352,11 +1320,139 @@
     ],
     "externalclasses": [
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "WegknoopTypeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OngelijkgrondseKruisingTypeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "ReferentiepuntTypeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "MorfologieTypeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "WegcategorieTypeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "RichtingWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OmgevingsWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "GenummerdeWegRichtingWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "WegsegmentStatusWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "GeometrieMethodeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "WegverhardingTypeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "VoertuigTypeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "ToegangsbeperkingTypeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "SnelheidslimietBronWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "BeperkingsTypeWaarde"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/org#Organization",
         "label": [
           {
             "@language": "nl",
             "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "MeeteenheidWaarde"
           }
         ]
       },

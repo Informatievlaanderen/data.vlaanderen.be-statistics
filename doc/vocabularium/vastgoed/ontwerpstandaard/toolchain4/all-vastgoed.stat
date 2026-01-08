@@ -11,6 +11,7 @@
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/vastgoed",
+    "http://www.w3.org/2004/02/skos/core",
     "http://xmlns.com/foaf/0.1",
     "https://data.vlaanderen.be/ns/gebouw",
     "http://data.europa.eu/m8g",
@@ -22,7 +23,6 @@
     "https://data.vlaanderen.be/ns/melding",
     "https://data.vlaanderen.be/ns/persoon",
     "http://www.opengis.net/ont/geosparql",
-    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/generiek",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/ns/adms",
@@ -42,10 +42,10 @@
   "contributors": 42,
   "participants": 48,
   "classes": 94,
-  "properties": 150,
-  "externalclasses": 19,
-  "externalproperties": 31,
-  "totalterms": 294,
+  "properties": 149,
+  "externalclasses": 22,
+  "externalproperties": 30,
+  "totalterms": 295,
   "totalorganisations": 26,
   "organisations": [
     {
@@ -2694,14 +2694,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/perceel#Agent.ZakelijkRecht",
-        "label": [
-          {
-            "@value": "Agent.ZakelijkRecht"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/vastgoed#besluit",
         "label": [
           {
@@ -2712,6 +2704,22 @@
       }
     ],
     "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Oppervlaktetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "GeometrieMethodeWaarde"
+          }
+        ]
+      },
       {
         "assignedURI": "http://xmlns.com/foaf/0.1/Document",
         "label": [
@@ -2727,6 +2735,14 @@
           {
             "@language": "nl",
             "@value": "Publieke Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Code"
           }
         ]
       },
@@ -3149,14 +3165,6 @@
         "label": [
           {
             "@value": "ZakelijkRecht.Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Agent.ZakelijkRecht",
-        "label": [
-          {
-            "@value": "Agent.ZakelijkRecht"
           }
         ]
       }

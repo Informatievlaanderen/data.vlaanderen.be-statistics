@@ -11,6 +11,7 @@
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
     "https://purl.eu/ns/mobility/timetables-and-planning",
+    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/org",
     "http://www.w3.org/ns/regorg",
     "https://data.vlaanderen.be/ns/adres",
@@ -24,7 +25,6 @@
     "http://xmlns.com/foaf/0.1",
     "http://schema.org",
     "https://schema.org",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/adms",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/2001/XMLSchema",
@@ -37,10 +37,10 @@
   "contributors": 12,
   "participants": 19,
   "classes": 85,
-  "properties": 195,
-  "externalclasses": 23,
+  "properties": 193,
+  "externalclasses": 44,
   "externalproperties": 63,
-  "totalterms": 366,
+  "totalterms": 385,
   "totalorganisations": 9,
   "organisations": [
     {
@@ -3321,22 +3321,6 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#DayType.DayTypeAssignment",
-        "label": [
-          {
-            "@value": "DayType.DayTypeAssignment"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#DayType.DayTypeAssignment",
-        "label": [
-          {
-            "@value": "DayType.DayTypeAssignment"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#usedToDescribe",
         "label": [
           {
@@ -3500,6 +3484,110 @@
     ],
     "externalclasses": [
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Transportmode"
+          },
+          {
+            "@language": "nl",
+            "@value": "Transportmodus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Place Type"
+          },
+          {
+            "@language": "nl",
+            "@value": "Plaatstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Holiday Type"
+          },
+          {
+            "@language": "nl",
+            "@value": "Vakantietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Season"
+          },
+          {
+            "@language": "nl",
+            "@value": "Seizoen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Day of Week"
+          },
+          {
+            "@language": "nl",
+            "@value": "Dag Van De Week"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Week of Month"
+          },
+          {
+            "@language": "nl",
+            "@value": "Week Van De Maand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Crowding"
+          },
+          {
+            "@language": "nl",
+            "@value": "Drukte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Dead Run Type"
+          },
+          {
+            "@language": "nl",
+            "@value": "Onbeladen Rittype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/org#Organization",
         "label": [
           {
@@ -3509,6 +3597,84 @@
           {
             "@language": "en",
             "@value": "Organization"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Type Brandstof"
+          },
+          {
+            "@language": "en",
+            "@value": "Type Of Fuel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Code"
+          },
+          {
+            "@language": "en",
+            "@value": "Code"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Type of Line"
+          },
+          {
+            "@language": "nl",
+            "@value": "Type Lijn"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Direction Type"
+          },
+          {
+            "@language": "nl",
+            "@value": "Richting Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Train Sizetype"
+          },
+          {
+            "@language": "nl",
+            "@value": "Treingrootte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tariefklasse"
+          },
+          {
+            "@language": "en",
+            "@value": "Fare Class"
           }
         ]
       },
@@ -3539,11 +3705,74 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "AcommodationFacilityType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "CommonFacilityType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "NuisanceFacilityType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "PassengerCommsFacilityType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "ServiceFacilityType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "TrainElementtype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://todo.com/FacilitySet",
         "label": [
           {
             "@language": "en",
             "@value": "FacilitySet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "NoticeType"
           }
         ]
       },

@@ -11,6 +11,7 @@
   "statuslabel": "Erkende Standaard",
   "namespaces": [
     "https://vocab.belgif.be/ns/utility-services",
+    "http://www.w3.org/2004/02/skos/core",
     "http://def.isotc211.org/iso19157/2013/DataQuality_2",
     "http://xmlns.com/foaf/0.1",
     "https://vocab.belgif.be/ns/network",
@@ -21,7 +22,6 @@
     "http://def.isotc211.org/iso19103/2015/MeasureTypes",
     "http://purl.org/dc/elements/1.1",
     "http://www.opengis.net/ont/geosparql",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/ns/dcat",
@@ -39,9 +39,9 @@
   "participants": 40,
   "classes": 53,
   "properties": 81,
-  "externalclasses": 29,
+  "externalclasses": 56,
   "externalproperties": 72,
-  "totalterms": 235,
+  "totalterms": 262,
   "totalorganisations": 26,
   "organisations": [
     {
@@ -1642,6 +1642,42 @@
     ],
     "externalclasses": [
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Containertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zichtbaarheidstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RisicoType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kleur"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy",
         "label": [
           {
@@ -1651,11 +1687,47 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "MateriaalType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Subthema"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://xmlns.com/foaf/0.1/Document",
         "label": [
           {
             "@language": "nl",
             "@value": "Document"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verticale Positietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieningnetwerktype"
           }
         ]
       },
@@ -1686,6 +1758,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Faciliteitstatus"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://vocab.belgif.be/ns/generic#ActivityComplex",
         "label": [
           {
@@ -1704,11 +1785,128 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "EconomischeActiviteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Nutsvoorzieningleveringstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Telecommunicatiekabelmateriaaltype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OlieGasChemicalientype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rioolwatertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Watertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Thermisch Producttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Teken"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/prov#Entity",
         "label": [
           {
             "@language": "nl",
             "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Annotatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toebehorentype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TopografischElementtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Documentmediumtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inputoutputtype"
           }
         ]
       },
@@ -1722,6 +1920,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Referentieoppervlaktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Opmetingsmethode"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
         "label": [
           {
@@ -1731,11 +1947,42 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Waarschuwingstype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength",
         "label": [
           {
             "@language": "nl",
             "@value": "Lengteëenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Documenttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beschermd Gebiedtype"
+          },
+          {
+            "@language": "en",
+            "@value": "Protected Area Value"
           }
         ]
       },

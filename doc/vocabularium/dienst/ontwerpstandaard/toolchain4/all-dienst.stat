@@ -10,6 +10,7 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
   "statuslabel": "Standaard",
   "namespaces": [
+    "http://www.w3.org/2004/02/skos/core",
     "http://data.europa.eu/m8g",
     "http://purl.org/vocab/cpsv",
     "http://purl.org/dc/terms",
@@ -17,7 +18,6 @@
     "http://schema.org",
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/2006/vcard/ns",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/dcat",
     "https://data.vlaanderen.be/ns/transactie",
     "http://www.w3.org/ns/adms",
@@ -36,9 +36,9 @@
   "participants": 27,
   "classes": 8,
   "properties": 2,
-  "externalclasses": 32,
+  "externalclasses": 43,
   "externalproperties": 72,
-  "totalterms": 114,
+  "totalterms": 125,
   "totalorganisations": 10,
   "organisations": [
     {
@@ -382,6 +382,22 @@
     ],
     "externalclasses": [
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "COFOG"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "NACE"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/m8g/Channel",
         "label": [
           {
@@ -391,11 +407,27 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "ADMSStatusVocabularium"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/m8g/CriterionRequirement",
         "label": [
           {
             "@language": "nl",
             "@value": "Criteriumvereiste"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "BewijsType"
           }
         ]
       },
@@ -418,11 +450,35 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OutputType"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/m8g/Output",
         "label": [
           {
             "@language": "nl",
             "@value": "Output"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "CriteriumVereisteType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Taalcode"
           }
         ]
       },
@@ -445,11 +501,35 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "ParticipatieRol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "GebeurtenisType"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/m8g/Participation",
         "label": [
           {
             "@language": "nl",
             "@value": "Participatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "KanaalType"
           }
         ]
       },
@@ -486,6 +566,14 @@
           {
             "@language": "nl",
             "@value": "Formeel Kader"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "NAL_currency"
           }
         ]
       },

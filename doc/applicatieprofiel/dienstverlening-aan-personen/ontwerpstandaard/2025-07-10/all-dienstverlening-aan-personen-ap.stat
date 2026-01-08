@@ -1,18 +1,19 @@
 {
   "title": "Applicatieprofiel Dienstverlening aan Personen",
   "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/2025-07-10",
-  "issued": "2024-06-03",
+  "issued": "2025-12-11",
   "navigation": {
     "prev": "/doc/applicatieprofiel/kindfiche/ontwerpstandaard/2024-06-03",
     "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/dienstverlening-aan-personen/ontwerpstandaard/2025-07-10"
   },
   "documenttype": "ap",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-  "statuslabel": "Kandidaat Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
   "namespaces": [
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/persoon",
     "https://data.vlaanderen.be/ns/generiek",
+    "http://www.w3.org/2004/02/skos/core",
     "http://data.europa.eu/m8g",
     "http://www.w3.org/ns/regorg",
     "http://www.w3.org/ns/org",
@@ -26,7 +27,6 @@
     "http://schema.org",
     "http://xmlns.com/foaf/0.1",
     "https://schema.org",
-    "http://www.w3.org/2004/02/skos/core",
     "http://purl.org/dc/elements/1.1",
     "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/dienst",
@@ -45,9 +45,9 @@
   "participants": 46,
   "classes": 21,
   "properties": 39,
-  "externalclasses": 27,
+  "externalclasses": 42,
   "externalproperties": 73,
-  "totalterms": 160,
+  "totalterms": 175,
   "totalorganisations": 23,
   "organisations": [
     {
@@ -1060,11 +1060,29 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taal Code"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/m8g/Participation",
         "label": [
           {
             "@language": "nl",
             "@value": "Participatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Participatierol"
           }
         ]
       },
@@ -1105,6 +1123,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geslacht"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/vocab/cpsv#PublicService",
         "label": [
           {
@@ -1141,11 +1168,119 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Reactietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aandoeningtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Persoonsrelatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Relatietype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/prov#Association",
         "label": [
           {
             "@language": "nl",
             "@value": "Uitgangregeling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ErnstType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Allergeentype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dieetvoorkeurtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Beperkingtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Medicatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toedieningtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Allergietype"
           }
         ]
       },

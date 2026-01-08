@@ -12,6 +12,7 @@
   "namespaces": [
     "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod",
     "https://schema.org",
+    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/netwerk",
     "https://data.vlaanderen.be/ns/transportnetwerk",
     "http://purl.org/dc/terms",
@@ -20,7 +21,6 @@
     "http://schema.org",
     "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/2000/01/rdf-schema",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/ns/regorg",
     "http://www.w3.org/ns/adms",
@@ -35,10 +35,10 @@
   "contributors": 22,
   "participants": 33,
   "classes": 50,
-  "properties": 95,
-  "externalclasses": 22,
+  "properties": 93,
+  "externalclasses": 41,
   "externalproperties": 54,
-  "totalterms": 221,
+  "totalterms": 238,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -1388,22 +1388,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.Reservatie",
-        "label": [
-          {
-            "@value": "Boeking.Reservatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Boeking.Reservatie",
-        "label": [
-          {
-            "@value": "Boeking.Reservatie"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod#Routesegment.vervoersbewijs",
         "label": [
           {
@@ -1613,11 +1597,83 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Resourcetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Routetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vervoermiddel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Teken"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/PriceSpecification",
         "label": [
           {
             "@language": "nl",
             "@value": "Prijsplan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dienstverleningtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebruikerstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Connectietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transporttype"
           }
         ]
       },
@@ -1631,6 +1687,33 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Resourcestatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Reizigerskenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Reizigersvoorkeur"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/vocab/cpsv#FormalFramework",
         "label": [
           {
@@ -1640,11 +1723,79 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transportgebiedtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transportknooptype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vervoerbewijstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegankelijkheidsniveau"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Toegankelijkheidstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Aandrijftype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/m8g/PublicOrganisation",
         "label": [
           {
             "@language": "nl",
             "@value": "Publieke Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Boekingstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Toegankelijkheidsonderdeel"
           }
         ]
       },

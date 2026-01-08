@@ -12,6 +12,7 @@
   "namespaces": [
     "https://data.vlaanderen.be/ns/financiele-rapportering",
     "http://purl.org/vocab/cpsv",
+    "http://www.w3.org/2004/02/skos/core",
     "http://purl.org/dc/terms",
     "http://data.europa.eu/m8g",
     "http://www.w3.org/ns/org",
@@ -25,7 +26,6 @@
     "https://data.vlaanderen.be/ns/financiele-data",
     "http://purl.org/dc/elements/1.1",
     "http://www.w3.org/2000/01/rdf-schema",
-    "http://www.w3.org/2004/02/skos/core",
     "http://xmlns.com/foaf/0.1",
     "http://ww.w3.org/2006/vcard/ns",
     "http://schema.org",
@@ -46,9 +46,9 @@
   "participants": 41,
   "classes": 32,
   "properties": 60,
-  "externalclasses": 25,
+  "externalclasses": 37,
   "externalproperties": 72,
-  "totalterms": 189,
+  "totalterms": 201,
   "totalorganisations": 28,
   "organisations": [
     {
@@ -1337,6 +1337,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RapportType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "PeriodeType"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
           {
@@ -1360,6 +1378,33 @@
           {
             "@language": "nl",
             "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BalansType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "SchemaType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Validatiestatus"
           }
         ]
       },
@@ -1409,6 +1454,33 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Itemtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rapportrelatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Conceptrelatietype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/person#Person",
         "label": [
           {
@@ -1427,6 +1499,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Informatieclassificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rechtsvormtype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/m8g/FoundationEvent",
         "label": [
           {
@@ -1441,6 +1531,22 @@
           {
             "@language": "nl",
             "@value": "Vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "DimensieConceptrelatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "DimensieItemtype"
           }
         ]
       },

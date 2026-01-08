@@ -10,6 +10,7 @@
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
     "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod",
+    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/regorg",
     "https://schema.org",
     "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
@@ -23,7 +24,6 @@
     "https://www.w3.org/ns/sosa",
     "https://datexbrowserv34.tamtamresearch.com/#/class/ns/TrafficRegulation/pkg/Classes.TrafficRegulation/cls",
     "http://def.isotc211.org/iso19156/2011/Observation",
-    "http://www.w3.org/2004/02/skos/core",
     "http://schema.org",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2006/vcard/ns",
@@ -54,9 +54,9 @@
   "participants": 46,
   "classes": 52,
   "properties": 76,
-  "externalclasses": 39,
-  "externalproperties": 61,
-  "totalterms": 228,
+  "externalclasses": 50,
+  "externalproperties": 59,
+  "totalterms": 237,
   "totalorganisations": 35,
   "organisations": [
     {
@@ -1697,6 +1697,15 @@
     ],
     "externalclasses": [
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Resourcetype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
         "label": [
           {
@@ -1706,11 +1715,83 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aandrijftype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegankelijkheidsniveau"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://schema.org/Trip",
         "label": [
           {
             "@language": "nl",
             "@value": "Reis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vervoermiddel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegankelijkheidstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegankelijkheidsonderdeel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Resourcestatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dienstverleningtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatietype"
           }
         ]
       },
@@ -1765,6 +1846,23 @@
           {
             "@language": "nl",
             "@value": "Persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Teken"
           }
         ]
       },
@@ -2503,22 +2601,6 @@
         "label": [
           {
             "@value": "Belading.Routesegment"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Resource.Belading",
-        "label": [
-          {
-            "@value": "Resource.Belading"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Resource.Belading",
-        "label": [
-          {
-            "@value": "Resource.Belading"
           }
         ]
       },

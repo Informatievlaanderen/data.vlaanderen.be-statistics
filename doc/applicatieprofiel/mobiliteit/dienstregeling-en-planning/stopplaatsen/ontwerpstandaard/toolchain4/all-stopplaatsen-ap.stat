@@ -11,6 +11,7 @@
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
     "https://purl.eu/ns/mobility/timetables-and-planning",
+    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/org",
     "http://www.w3.org/ns/regorg",
     "https://data.vlaanderen.be/ns/adres",
@@ -18,7 +19,6 @@
     "http://schema.org",
     "http://www.w3.org/2006/vcard/ns",
     "http://xmlns.com/foaf/0.1",
-    "http://www.w3.org/2004/02/skos/core",
     "http://purl.org/dc/elements/1.1",
     "http://purl.org/dc/terms",
     "http://www.opengis.net/ont/geosparql",
@@ -36,10 +36,10 @@
   "contributors": 12,
   "participants": 19,
   "classes": 48,
-  "properties": 134,
-  "externalclasses": 20,
+  "properties": 132,
+  "externalclasses": 38,
   "externalproperties": 51,
-  "totalterms": 253,
+  "totalterms": 269,
   "totalorganisations": 9,
   "organisations": [
     {
@@ -2176,22 +2176,6 @@
         ]
       },
       {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.PassengerStopAssignment",
-        "label": [
-          {
-            "@value": "ScheduledStopPoint.PassengerStopAssignment"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#ScheduledStopPoint.PassengerStopAssignment",
-        "label": [
-          {
-            "@value": "ScheduledStopPoint.PassengerStopAssignment"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://purl.eu/ns/mobility/timetables-and-planning#containing",
         "label": [
           {
@@ -2376,6 +2360,58 @@
     ],
     "externalclasses": [
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Stop Place Type"
+          },
+          {
+            "@language": "nl",
+            "@value": "Stopplaatstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegangstype"
+          },
+          {
+            "@language": "en",
+            "@value": "Entrance Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Place Type"
+          },
+          {
+            "@language": "nl",
+            "@value": "Plaatstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Toegangsmodus"
+          },
+          {
+            "@language": "en",
+            "@value": "Access Mode"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/org#Organization",
         "label": [
           {
@@ -2385,6 +2421,114 @@
           {
             "@language": "nl",
             "@value": "Organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Code"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Interchange Use Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Stop Place Weight Type"
+          },
+          {
+            "@language": "nl",
+            "@value": "Stopplaatsgewicht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Quay Type"
+          },
+          {
+            "@language": "nl",
+            "@value": "Perrontype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Overdekkingstype"
+          },
+          {
+            "@language": "en",
+            "@value": "Covered Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Gated Type"
+          },
+          {
+            "@language": "nl",
+            "@value": "Omheiningstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Lighting Type"
+          },
+          {
+            "@language": "nl",
+            "@value": "Verlichtingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Topographic Place Type"
+          },
+          {
+            "@language": "nl",
+            "@value": "Topografische Plaats Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Transportmode"
+          },
+          {
+            "@language": "nl",
+            "@value": "Transportmodus"
           }
         ]
       },
@@ -2402,6 +2546,14 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganizationType"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
         "label": [
           {
@@ -2411,6 +2563,42 @@
           {
             "@language": "en",
             "@value": "Registered Organization"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "LimitationStatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "LimitationType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "ColourType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "TextFontType"
           }
         ]
       },
