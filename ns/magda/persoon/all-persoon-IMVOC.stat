@@ -34,11 +34,11 @@
   "editors": 2,
   "contributors": 4,
   "participants": 29,
-  "classes": 33,
-  "properties": 23,
-  "externalclasses": 27,
-  "externalproperties": 46,
-  "totalterms": 129,
+  "classes": 34,
+  "properties": 27,
+  "externalclasses": 28,
+  "externalproperties": 50,
+  "totalterms": 139,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -539,10 +539,27 @@
         ]
       },
       {
+        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#Dossierstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dossierstatus"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
         "label": [
           {
             "@value": "LangString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
           }
         ]
       },
@@ -559,14 +576,6 @@
         "label": [
           {
             "@value": "String"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "label": [
-          {
-            "@value": "DateTime"
           }
         ]
       },
@@ -642,11 +651,29 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bron"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#afstammingsType",
         "label": [
           {
             "@language": "nl",
             "@value": "afstammingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#vernieuwdeRegistratie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vernieuwdeRegistratie"
           }
         ]
       },
@@ -773,6 +800,24 @@
           {
             "@language": "nl",
             "@value": "vanPersoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#isRelatieMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "metPersoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#Persoon.Persoonsrelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "persoonsrelatieDetail"
           }
         ]
       },
@@ -962,8 +1007,25 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
+            "@value": "Brontype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
             "@language": "nl",
             "@value": "Afstammingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dossierstatustype"
           }
         ]
       },
@@ -1028,15 +1090,6 @@
             "@value": "AdministratiefBeheerdertype"
           }
         ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Statustype"
-          }
-        ]
       }
     ],
     "externalproperties": [
@@ -1055,6 +1108,15 @@
           {
             "@language": "nl",
             "@value": "administratieve eenheid niveau 2"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/date",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdstipCreatie"
           }
         ]
       },
@@ -1149,11 +1211,28 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/date",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdstipModificatie"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "label": [
           {
             "@language": "nl",
             "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/date",
+        "label": [
+          {
+            "@value": "tijdstip"
           }
         ]
       },
@@ -1302,6 +1381,15 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/vocab/bio/0.1/place",
         "label": [
           {
@@ -1396,7 +1484,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "status"
+            "@value": "dossierstatus"
           }
         ]
       },
