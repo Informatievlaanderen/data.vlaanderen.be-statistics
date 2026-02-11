@@ -13,12 +13,12 @@
     "http://purl.org/dc/terms",
     "https://data.vlaanderen.be/ns/persoon",
     "http://purl.org/vocab/bio/0.1",
+    "http://www.w3.org/2004/02/skos/core",
+    "https://test.data.vlaanderen.be/ns/magda/persoon",
     "http://www.w3.org/ns/regorg",
     "http://www.w3.org/ns/org",
-    "https://test.data.vlaanderen.be/ns/magda/persoon",
     "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/ns/locn",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://xmlns.com/foaf/0.1",
@@ -34,11 +34,11 @@
   "editors": 2,
   "contributors": 4,
   "participants": 29,
-  "classes": 34,
-  "properties": 27,
-  "externalclasses": 28,
+  "classes": 35,
+  "properties": 29,
+  "externalclasses": 29,
   "externalproperties": 50,
-  "totalterms": 139,
+  "totalterms": 143,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -377,6 +377,15 @@
         ]
       },
       {
+        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#Registratie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Registratie"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#Inwonerschap",
         "label": [
           {
@@ -503,7 +512,7 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#VerblifplaatsBuitenlandDomicilie",
+        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#VerblijfplaatsBuitenlandDomicilie",
         "label": [
           {
             "@language": "nl",
@@ -669,15 +678,6 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#vernieuwdeRegistratie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "vernieuwdeRegistratie"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#verblijfsadres",
         "label": [
           {
@@ -714,20 +714,29 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#heeftHuidigBeheerder",
+        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#beheerder",
         "label": [
           {
             "@language": "nl",
-            "@value": "heeftHuidigBeheerder"
+            "@value": "beheerder"
           }
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#heeftToekomstigBeheerder",
+        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#persoon",
         "label": [
           {
             "@language": "nl",
-            "@value": "heeftToekomstigBeheerder"
+            "@value": "persoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#registratiedetail",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratiedetail"
           }
         ]
       },
@@ -755,6 +764,24 @@
           {
             "@language": "nl",
             "@value": "heeftBurgerlijkeStaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#vorige",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vorige"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#volgende",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volgende"
           }
         ]
       },
@@ -887,6 +914,23 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Brontype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geslacht"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
         "label": [
           {
@@ -905,11 +949,64 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "BurgerlijkeStaatType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AdministratiefBeheerdertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dossierstatustype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/Jurisdiction",
         "label": [
           {
             "@language": "nl",
             "@value": "Jurisdictie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Afstammingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gezinsrelatietype"
           }
         ]
       },
@@ -1004,41 +1101,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Brontype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Afstammingstype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Dossierstatustype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geslacht"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://schema.org/OpeningHoursSpecification",
         "label": [
           {
@@ -1062,32 +1124,6 @@
           {
             "@language": "nl",
             "@value": "GeografischeNaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gezinsrelatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "BurgerlijkeStaatType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "AdministratiefBeheerdertype"
           }
         ]
       }
