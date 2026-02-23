@@ -16,10 +16,10 @@
     "https://test.data.vlaanderen.be/ns/magda/persoon",
     "https://data.vlaanderen.be/ns/generiek",
     "http://www.w3.org/ns/org",
+    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/regorg",
     "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/ns/locn",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://xmlns.com/foaf/0.1",
@@ -37,9 +37,9 @@
   "participants": 29,
   "classes": 35,
   "properties": 28,
-  "externalclasses": 25,
+  "externalclasses": 26,
   "externalproperties": 47,
-  "totalterms": 135,
+  "totalterms": 136,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -915,6 +915,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geslacht"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
         "label": [
           {
@@ -933,11 +942,38 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BurgerlijkeStaatType"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/Jurisdiction",
         "label": [
           {
             "@language": "nl",
             "@value": "LocatiePeriodeOfJurisdictie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AdministratiefBeheerdertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dossierstatustype"
           }
         ]
       },
@@ -956,6 +992,33 @@
           {
             "@language": "nl",
             "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Afstammingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gezinsrelatietype"
           }
         ]
       },
@@ -1028,60 +1091,6 @@
           {
             "@language": "nl",
             "@value": "Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Afstammingstype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geslacht"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gezinsrelatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "BurgerlijkeStaatType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "AdministratiefBeheerdertype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Dossierstatustype"
           }
         ]
       }
