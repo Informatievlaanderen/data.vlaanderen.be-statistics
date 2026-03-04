@@ -20,11 +20,11 @@
     "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/2004/02/skos/core",
-    "http://www.w3.org/ns/adms",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/2006/vcard/ns",
     "https://schema.org",
+    "http://www.w3.org/ns/adms",
     "http://data.europa.eu/m8g",
     "http://purl.org/dc/elements/1.1",
     "http://www.w3.org/ns/prov",
@@ -35,11 +35,11 @@
   "editors": 2,
   "contributors": 4,
   "participants": 29,
-  "classes": 37,
-  "properties": 28,
+  "classes": 38,
+  "properties": 29,
   "externalclasses": 25,
-  "externalproperties": 52,
-  "totalterms": 142,
+  "externalproperties": 49,
+  "totalterms": 141,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -623,7 +623,15 @@
       {},
       {},
       {},
-      {}
+      {},
+      {
+        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#Woonvormtype",
+        "label": [
+          {
+            "@value": "Woonvormtype"
+          }
+        ]
+      }
     ],
     "properties": [
       {
@@ -726,6 +734,14 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#woonvorm",
+        "label": [
+          {
+            "@value": "woonvorm"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#beheerder",
         "label": [
           {
@@ -816,11 +832,11 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#inwonerschapdetail",
+        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#heeftInwonerschap",
         "label": [
           {
             "@language": "nl",
-            "@value": "inwonerschapdetail"
+            "@value": "heeftInwonerschap"
           }
         ]
       },
@@ -852,11 +868,11 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#persoonsrelatiedetail",
+        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#heeftPersoonsrelatie",
         "label": [
           {
             "@language": "nl",
-            "@value": "persoonsrelatiedetail"
+            "@value": "heeftPersoonsrelatie"
           }
         ]
       },
@@ -1144,24 +1160,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toegekendDoor(String)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/issued",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toegekendOp"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
         "label": [
           {
@@ -1410,15 +1408,6 @@
           {
             "@language": "nl",
             "@value": "plaats"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/creator",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "toegekendDoor"
           }
         ]
       },
