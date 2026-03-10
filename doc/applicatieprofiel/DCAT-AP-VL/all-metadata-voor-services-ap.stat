@@ -7,8 +7,8 @@
     "self": "https://data.vlaanderen.be/doc/applicatieprofiel/DCAT-AP-VL/"
   },
   "documenttype": "ap",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-  "statuslabel": "Kandidaat Standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
   "namespaces": [
     "http://www.w3.org/ns/dcat",
     "http://purl.org/dc/terms",
@@ -34,10 +34,10 @@
   "contributors": 30,
   "participants": 38,
   "classes": 4,
-  "properties": 10,
+  "properties": 11,
   "externalclasses": 27,
   "externalproperties": 109,
-  "totalterms": 150,
+  "totalterms": 151,
   "totalorganisations": 13,
   "organisations": [
     {
@@ -533,6 +533,15 @@
           {
             "@language": "nl",
             "@value": "bronresource"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/metadata-dcat#RelatieQualificatie.catalogusResource.target",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "doelresource"
           }
         ]
       }
