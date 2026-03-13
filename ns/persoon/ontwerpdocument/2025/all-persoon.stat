@@ -12,6 +12,7 @@
   "namespaces": [
     "http://www.w3.org/ns/person",
     "http://xmlns.com/foaf/0.1",
+    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/persoon",
     "http://purl.org/dc/terms",
     "http://www.w3.org/ns/org",
@@ -20,7 +21,6 @@
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2006/time",
     "http://www.w3.org/ns/locn",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/adms",
     "https://data.vlaanderen.be/ns/adres",
     "http://data.europa.eu/m8g",
@@ -37,10 +37,10 @@
   "contributors": 4,
   "participants": 29,
   "classes": 37,
-  "properties": 20,
-  "externalclasses": 31,
-  "externalproperties": 74,
-  "totalterms": 162,
+  "properties": 22,
+  "externalclasses": 37,
+  "externalproperties": 73,
+  "totalterms": 169,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -730,6 +730,24 @@
         ]
       },
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.source",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vanPersoon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/persoon#Persoonsrelatie.persoon.target",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "metPersoon"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#gezinshoofd",
         "label": [
           {
@@ -786,6 +804,14 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Nationaliteitscode"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/Jurisdiction",
         "label": [
           {
@@ -818,6 +844,15 @@
           {
             "@language": "nl",
             "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taal"
           }
         ]
       },
@@ -899,6 +934,38 @@
           {
             "@language": "nl",
             "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Afstammingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Gezinsrelatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Geslacht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "BurgerlijkeStaatType"
           }
         ]
       },
@@ -1593,22 +1660,6 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Persoonsrelatie.persoon.source",
-        "label": [
-          {
-            "@value": "Persoon (source)"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/Persoonsrelatie.persoon.target",
-        "label": [
-          {
-            "@value": "Persoon (target)"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/org#hasMember",
         "label": [
           {
@@ -1695,6 +1746,15 @@
           {
             "@language": "nl",
             "@value": "isLidBij"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasMembership",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftLid"
           }
         ]
       },
