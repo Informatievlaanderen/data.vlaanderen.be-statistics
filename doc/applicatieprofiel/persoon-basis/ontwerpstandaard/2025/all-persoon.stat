@@ -17,7 +17,6 @@
     "http://purl.org/dc/terms",
     "http://www.w3.org/ns/org",
     "http://purl.org/vocab/bio/0.1",
-    "http://www.w3.org/ns/prov",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2006/time",
     "http://www.w3.org/ns/locn",
@@ -29,6 +28,7 @@
     "http://todo.com",
     "http://www.w3.org/ns/regorg",
     "http://purl.org/dc/elements/1.1",
+    "http://www.w3.org/ns/prov",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns"
   ],
@@ -36,11 +36,11 @@
   "editors": 2,
   "contributors": 4,
   "participants": 29,
-  "classes": 37,
+  "classes": 26,
   "properties": 22,
-  "externalclasses": 37,
-  "externalproperties": 73,
-  "totalterms": 169,
+  "externalclasses": 34,
+  "externalproperties": 72,
+  "totalterms": 154,
   "totalorganisations": 16,
   "organisations": [
     {
@@ -571,17 +571,6 @@
           }
         ]
       },
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
       {}
     ],
     "properties": [
@@ -795,11 +784,11 @@
         ]
       },
       {
-        "assignedURI": "http://xmlns.com/foaf/0.1/Person",
+        "assignedURI": "http://xmlns.com/foaf/0.1/Agent",
         "label": [
           {
             "@language": "nl",
-            "@value": "Persoon"
+            "@value": "Agent"
           }
         ]
       },
@@ -839,11 +828,10 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Agent"
+            "@value": "OrganisatieActiviteit"
           }
         ]
       },
@@ -866,11 +854,10 @@
         ]
       },
       {
-        "assignedURI": "http://xmlns.com/foaf/0.1/Agent",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Agent"
+            "@value": "OrganisatieClassificatie"
           }
         ]
       },
@@ -889,6 +876,22 @@
           {
             "@language": "nl",
             "@value": "Persoonsgebeurtenis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieStatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieType"
           }
         ]
       },
@@ -916,24 +919,6 @@
           {
             "@language": "nl",
             "@value": "Lidmaatschap"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#Person",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoon"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
           }
         ]
       },
@@ -1033,10 +1018,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "assignedURI": "http://xmlns.com/foaf/0.1/Person",
         "label": [
           {
-            "@value": "Resource"
+            "@language": "nl",
+            "@value": "Persoon"
           }
         ]
       },
@@ -1059,18 +1045,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
           {
-            "@value": "OrganisatieActiviteit"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieClassificatie"
+            "@language": "nl",
+            "@value": "Agent"
           }
         ]
       },
@@ -1080,22 +1059,6 @@
           {
             "@language": "nl",
             "@value": "Mediaobject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieStatus"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieType"
           }
         ]
       },
@@ -1129,15 +1092,6 @@
         ]
       },
       {
-        "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "achternaam"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/vocab/bio/0.1/date",
         "label": [
           {
@@ -1152,24 +1106,6 @@
           {
             "@language": "nl",
             "@value": "beschrijving"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/person#birthName",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geboortenaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://xmlns.com/foaf/0.1/gebruikteVoornaam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gebruikteVoornaam"
           }
         ]
       },
@@ -1327,15 +1263,6 @@
         ]
       },
       {
-        "assignedURI": "http://xmlns.com/foaf/0.1/volledigeNaam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "volledigeNaam"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
         "label": [
           {
@@ -1359,15 +1286,6 @@
           {
             "@language": "nl",
             "@value": "matrioniem"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "voornaam"
           }
         ]
       },
@@ -1426,15 +1344,6 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/titel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "titel"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://schema.org/openingHours",
         "label": [
           {
@@ -1458,6 +1367,51 @@
           {
             "@language": "nl",
             "@value": "website"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "achternaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/person#birthName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geboortenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/gebruikteVoornaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikteVoornaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/volledigeNaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledigeNaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voornaam"
           }
         ]
       },
