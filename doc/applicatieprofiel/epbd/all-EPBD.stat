@@ -25,9 +25,7 @@
     "https://vocab.belgif.be/ns/utility-services",
     "http://data.europa.eu/eli/ontology",
     "https://data.vlaanderen.be/ns/omgevingsvergunning",
-    "https://data.vlaanderen.be/ns/organisatie",
     "http://todo.com/",
-    "https://data.vlaanderen.be/ns/dienst",
     "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/wetgeving"
   ],
@@ -36,9 +34,9 @@
   "contributors": 1,
   "participants": 3,
   "classes": 31,
-  "properties": 23,
+  "properties": 18,
   "externalclasses": 22,
-  "externalproperties": 5,
+  "externalproperties": 10,
   "totalterms": 81,
   "totalorganisations": 3,
   "organisations": [
@@ -281,6 +279,7 @@
         "assignedURI": "https://data.vlaanderen.be/ns/gebouw#bestaatUit",
         "label": [
           {
+            "@language": "nl",
             "@value": "bestaatUit"
           }
         ]
@@ -295,14 +294,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#heeftVestiging",
-        "label": [
-          {
-            "@value": "heeftVestiging"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/perceel#isGerelateerdAan",
         "label": [
           {
@@ -311,9 +302,10 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/ligtOp",
+        "assignedURI": "https://data.vlaanderen.be/ns/gebouw#ligtOp",
         "label": [
           {
+            "@language": "nl",
             "@value": "ligtOp"
           }
         ]
@@ -346,18 +338,20 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/beschrijft",
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#beschrijft",
         "label": [
           {
-            "@value": "^beschrijft"
+            "@language": "nl",
+            "@value": "beschrijft"
           }
         ]
       },
       {
-        "assignedURI": "http://todo.com/behandelt",
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#behandelt",
         "label": [
           {
-            "@value": "^behandelt"
+            "@language": "nl",
+            "@value": "behandelt"
           }
         ]
       },
@@ -365,14 +359,16 @@
         "assignedURI": "https://data.vlaanderen.be/ns/dossier#vindtPlaatsTijdens",
         "label": [
           {
-            "@value": "^vindtPlaatsTijdens"
+            "@language": "nl",
+            "@value": "vindPlaatsTijdens"
           }
         ]
       },
       {
-        "assignedURI": "http://todo.com/agentMetZakelijkRecht",
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#agentMetZakelijkRecht",
         "label": [
           {
+            "@language": "nl",
             "@value": "agentMetZakelijkRecht"
           }
         ]
@@ -410,42 +406,10 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/heeftVerantwoordelijke",
-        "label": [
-          {
-            "@value": "heeftVerantwoordelijke"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://todo.com//Leveringsadres",
         "label": [
           {
             "@value": "/leveringsadres"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/dienst#produceert",
-        "label": [
-          {
-            "@value": "produceert"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/heeftRechtsgrond",
-        "label": [
-          {
-            "@value": "heeftRechtsgrond"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/heeftInput",
-        "label": [
-          {
-            "@value": "heeftInput"
           }
         ]
       },
@@ -670,6 +634,15 @@
     ],
     "externalproperties": [
       {
+        "assignedURI": "http://www.w3.org/ns/org#hasSite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftVestiging"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/isPartOf",
         "label": [
           {
@@ -711,6 +684,42 @@
           {
             "@language": "nl",
             "@value": "heeftLid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasCompetentAuthority",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftverantwoordelijke"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#produces",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "produceert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/hasLegalResource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftRechtsgrond"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#hasInput",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftInput"
           }
         ]
       }
