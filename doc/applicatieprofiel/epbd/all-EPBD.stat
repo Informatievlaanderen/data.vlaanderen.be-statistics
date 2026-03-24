@@ -27,17 +27,21 @@
     "https://data.vlaanderen.be/ns/wetgeving",
     "http://www.w3.org/2006/time",
     "http://www.w3.org/ns/locn",
-    "https://data.vlaanderen.be/ns/organisatie"
+    "https://data.vlaanderen.be/ns/organisatie",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/2004/02/skos/core"
   ],
   "authors": 1,
   "editors": 1,
   "contributors": 1,
   "participants": 3,
-  "classes": 30,
+  "classes": 34,
   "properties": 15,
-  "externalclasses": 31,
-  "externalproperties": 15,
-  "totalterms": 91,
+  "externalclasses": 37,
+  "externalproperties": 24,
+  "totalterms": 110,
   "totalorganisations": 3,
   "organisations": [
     {
@@ -214,6 +218,30 @@
           }
         ]
       },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "LangString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
       {},
       {},
       {},
@@ -261,6 +289,7 @@
           }
         ]
       },
+      {},
       {}
     ],
     "properties": [
@@ -609,6 +638,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
         "label": [
           {
@@ -672,16 +710,132 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OutputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Moment"
+            "@value": "Stuktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Projecttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Activiteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "PubliekeDienstverleningType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Elementttype"
           }
         ]
       }
     ],
     "externalproperties": [
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inhoud"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "in XSD datumTijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
       {
         "assignedURI": "http://www.w3.org/2006/time#hasEnd",
         "label": [
@@ -697,6 +851,15 @@
           {
             "@language": "nl",
             "@value": "van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
           }
         ]
       },
