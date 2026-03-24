@@ -26,6 +26,7 @@
     "http://data.europa.eu/eli/ontology",
     "https://data.vlaanderen.be/ns/omgevingsvergunning",
     "http://www.w3.org/ns/locn",
+    "https://data.vlaanderen.be/ns/organisatie",
     "https://data.vlaanderen.be/ns/wetgeving"
   ],
   "authors": 1,
@@ -33,9 +34,9 @@
   "contributors": 1,
   "participants": 3,
   "classes": 31,
-  "properties": 16,
+  "properties": 15,
   "externalclasses": 22,
-  "externalproperties": 12,
+  "externalproperties": 13,
   "totalterms": 81,
   "totalorganisations": 3,
   "organisations": [
@@ -293,14 +294,6 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/perceel#isGerelateerdAan",
-        "label": [
-          {
-            "@value": "isGerelateerdAan"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/gebouw#ligtOp",
         "label": [
           {
@@ -389,9 +382,10 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/bestaatUit",
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#bestaatUit",
         "label": [
           {
+            "@language": "nl",
             "@value": "bestaatUit"
           }
         ]
@@ -622,6 +616,15 @@
           {
             "@language": "nl",
             "@value": "heeftVestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isGerelateerdAan"
           }
         ]
       },
