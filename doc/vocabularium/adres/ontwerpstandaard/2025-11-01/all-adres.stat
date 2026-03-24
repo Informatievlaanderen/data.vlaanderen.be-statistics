@@ -16,11 +16,11 @@
     "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/generiek",
     "https://data.vlaanderen.be/ns/perceel",
-    "http://www.w3.org/ns/prov",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/ns/adms",
     "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/2001/XMLSchema"
@@ -31,9 +31,9 @@
   "participants": 21,
   "classes": 32,
   "properties": 38,
-  "externalclasses": 16,
-  "externalproperties": 25,
-  "totalterms": 111,
+  "externalclasses": 15,
+  "externalproperties": 24,
+  "totalterms": 109,
   "totalorganisations": 12,
   "organisations": [
     {
@@ -364,10 +364,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/perceel#Perceel",
+        "assignedURI": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid",
         "label": [
           {
-            "@value": "Perceel"
+            "@language": "nl",
+            "@value": "RuimtelijkeEenheid"
           }
         ]
       },
@@ -825,6 +826,7 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
+            "@language": "nl",
             "@value": "GeometrieMethodeWaarde"
           }
         ]
@@ -842,16 +844,8 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
-            "@value": "GeometrieSpecificatieWaarde"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#Entity",
-        "label": [
-          {
             "@language": "nl",
-            "@value": "Object"
+            "@value": "GeometriSpecificatieWaarde"
           }
         ]
       },
@@ -904,6 +898,7 @@
         "assignedURI": "http://www.w3.org/ns/prov#Entity",
         "label": [
           {
+            "@language": "nl",
             "@value": "Object"
           }
         ]
@@ -1150,15 +1145,6 @@
           {
             "@language": "nl",
             "@value": "geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#identifier",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "identificator"
           }
         ]
       },
