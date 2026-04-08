@@ -1,0 +1,1912 @@
+{
+  "title": "Applicatieprofiel Belgian Streets and Addresses",
+  "uri": "https://data.test-vlaanderen.be/doc/applicatieprofiel/bestadd/ontwerpstandaard/2023-04-03",
+  "issued": "2026-04-03",
+  "navigation": {
+    "next": "/",
+    "self": "https://data.test-vlaanderen.be/doc/applicatieprofiel/bestadd/ontwerpstandaard/2023-04-03"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
+  "namespaces": [
+    "http://inspire.ec.europa.eu/ont/ad",
+    "http://vocab.belgif.be/ns/location",
+    "http://todo.com",
+    "http://www.w3.org/ns/locn",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/ns/prov",
+    "http://www.w3.org/2001/XMLSchema"
+  ],
+  "authors": 1,
+  "editors": 1,
+  "contributors": 1,
+  "participants": 3,
+  "classes": 20,
+  "properties": 62,
+  "externalclasses": 8,
+  "externalproperties": 32,
+  "totalterms": 122,
+  "totalorganisations": 3,
+  "organisations": [
+    {
+      "affiliation": "medewerkeraffiliatie",
+      "participants": 1
+    },
+    {
+      "affiliation": "editoraffiliatie",
+      "participants": 1
+    },
+    {
+      "affiliation": "auteuraffiliatie",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "auteurvoornaamauteurnaam",
+        "affiliation": "auteuraffiliatie"
+      }
+    ],
+    "editors": [
+      {
+        "name": "editorvoornaameditornaam",
+        "affiliation": "editoraffiliatie"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "medewerkervoornaammedewerkernaam",
+        "affiliation": "medewerkeraffiliatie"
+      }
+    ],
+    "participants": [
+      {
+        "name": "medewerkervoornaammedewerkernaam",
+        "affiliation": "medewerkeraffiliatie"
+      },
+      {
+        "name": "editorvoornaameditornaam",
+        "affiliation": "editoraffiliatie"
+      },
+      {
+        "name": "auteurvoornaamauteurnaam",
+        "affiliation": "auteuraffiliatie"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "http://todo.com/AddressHistory",
+        "label": [
+          {
+            "@value": "AddressHistory"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Status",
+        "label": [
+          {
+            "@value": "Status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/StreetNameHistory",
+        "label": [
+          {
+            "@value": "StreetNameHistory"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/PostalInfoHistory",
+        "label": [
+          {
+            "@value": "PostalInfoHistory"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/PartOfMunicipalityHistory",
+        "label": [
+          {
+            "@value": "PartOfMunicipalityHistory"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/MunicipalityHistory",
+        "label": [
+          {
+            "@value": "MunicipalityHistory"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Pos",
+        "label": [
+          {
+            "@value": "pos"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/PositionSpecificationValue",
+        "label": [
+          {
+            "@value": "PositionSpecificationValue"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/PositionGeometryMethodValue",
+        "label": [
+          {
+            "@value": "PositionGeometryMethodValue"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/StatusValue",
+        "label": [
+          {
+            "@value": "StatusValue"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/LanguageCodeValue",
+        "label": [
+          {
+            "@value": "LanguageCodeValue"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/StreetNameTypeValue",
+        "label": [
+          {
+            "@value": "StreetNameTypeValue"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/GeographicalName",
+        "label": [
+          {
+            "@value": "GeographicalName"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Point",
+        "label": [
+          {
+            "@value": "Point"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Coordinates",
+        "label": [
+          {
+            "@value": "Coordinates"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "string"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "dateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "boolean"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+        "label": [
+          {
+            "@value": "date"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#double",
+        "label": [
+          {
+            "@value": "double"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "http://todo.com/endLifespanVersion",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Lebenszyklusende dieser version"
+          },
+          {
+            "@language": "en",
+            "@value": "end of the lifespan of this version"
+          },
+          {
+            "@language": "fr",
+            "@value": "fin du cycle de vie de cette version"
+          },
+          {
+            "@language": "nl",
+            "@value": "einde van de levenscyclus van deze versie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/beginLifespanVersion",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Lebenszyklusanfang dieser version"
+          },
+          {
+            "@language": "en",
+            "@value": "beginning of the lifespan of this version"
+          },
+          {
+            "@language": "fr",
+            "@value": "début du cycle de vie de cette version"
+          },
+          {
+            "@language": "nl",
+            "@value": "begin van de levenscyclus van deze versie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/endLifespanVersion",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Lebenszyklusende dieser version"
+          },
+          {
+            "@language": "en",
+            "@value": "end of the lifespan of this version"
+          },
+          {
+            "@language": "fr",
+            "@value": "fin du cycle de vie de cette version"
+          },
+          {
+            "@language": "nl",
+            "@value": "einde van de levenscyclus van deze versie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/officiallyAssigned",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Officially assigned"
+          },
+          {
+            "@language": "fr",
+            "@value": "Attribué officiellement"
+          },
+          {
+            "@language": "nl",
+            "@value": "Officieel toegekend"
+          },
+          {
+            "@language": "de",
+            "@value": "offiziel erteilt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/beginLifespanVersion",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Lebenszyklusanfang dieser version"
+          },
+          {
+            "@language": "en",
+            "@value": "beginning of the lifespan of this version"
+          },
+          {
+            "@language": "fr",
+            "@value": "début du cycle de vie de cette version"
+          },
+          {
+            "@language": "nl",
+            "@value": "begin van de levenscyclus van deze versie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/spelling",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "geographische Name"
+          },
+          {
+            "@language": "en",
+            "@value": "geographical name"
+          },
+          {
+            "@language": "fr",
+            "@value": "nom géographique"
+          },
+          {
+            "@language": "nl",
+            "@value": "geografische naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/eventDate",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Ereignis Datum"
+          },
+          {
+            "@language": "en",
+            "@value": "event date"
+          },
+          {
+            "@language": "fr",
+            "@value": "date évènement"
+          },
+          {
+            "@language": "nl",
+            "@value": "datum gebeurtenis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/validTo",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "gültig bis"
+          },
+          {
+            "@language": "en",
+            "@value": "valid to"
+          },
+          {
+            "@language": "fr",
+            "@value": "valable jusq'au"
+          },
+          {
+            "@language": "nl",
+            "@value": "geldig tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/validFrom",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "gültig ab"
+          },
+          {
+            "@language": "en",
+            "@value": "valid from"
+          },
+          {
+            "@language": "fr",
+            "@value": "valable à partir du"
+          },
+          {
+            "@language": "nl",
+            "@value": "geldig vanaf"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/eventDate",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Ereignis Datum"
+          },
+          {
+            "@language": "en",
+            "@value": "event date"
+          },
+          {
+            "@language": "fr",
+            "@value": "date évènement"
+          },
+          {
+            "@language": "nl",
+            "@value": "datum gebeurtenis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/versionIdentifier",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Version identifier"
+          },
+          {
+            "@language": "fr",
+            "@value": "Identificateur de la version"
+          },
+          {
+            "@language": "nl",
+            "@value": "Identificator van een versie"
+          },
+          {
+            "@language": "de",
+            "@value": "Versionskennung"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/objectIdentifier",
+        "label": [
+          {
+            "@language": "fr",
+            "@value": "Identificateur de l'objet"
+          },
+          {
+            "@language": "nl",
+            "@value": "Identificator van een object"
+          },
+          {
+            "@language": "en",
+            "@value": "ObjectId"
+          },
+          {
+            "@language": "de",
+            "@value": "Objekt-ID"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/eventDate",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Ereignis Datum"
+          },
+          {
+            "@language": "en",
+            "@value": "event date"
+          },
+          {
+            "@language": "fr",
+            "@value": "date évènement"
+          },
+          {
+            "@language": "nl",
+            "@value": "datum gebeurtenis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/eventDate",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Ereignis Datum"
+          },
+          {
+            "@language": "en",
+            "@value": "event date"
+          },
+          {
+            "@language": "fr",
+            "@value": "date évènement"
+          },
+          {
+            "@language": "nl",
+            "@value": "datum gebeurtenis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/long",
+        "label": [
+          {
+            "@value": "long"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/lat",
+        "label": [
+          {
+            "@value": "lat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/eventDate",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Ereignis Datum"
+          },
+          {
+            "@language": "en",
+            "@value": "event date"
+          },
+          {
+            "@language": "fr",
+            "@value": "date évènement"
+          },
+          {
+            "@language": "nl",
+            "@value": "datum gebeurtenis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/x",
+        "label": [
+          {
+            "@value": "X"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/y",
+        "label": [
+          {
+            "@value": "Y"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/status",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Status"
+          },
+          {
+            "@language": "en",
+            "@value": "status"
+          },
+          {
+            "@language": "fr",
+            "@value": "statut"
+          },
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/status",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Status"
+          },
+          {
+            "@language": "en",
+            "@value": "status"
+          },
+          {
+            "@language": "fr",
+            "@value": "statut"
+          },
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/name",
+        "label": [
+          {
+            "@value": "name"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/type",
+        "label": [
+          {
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/name",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Name"
+          },
+          {
+            "@language": "en",
+            "@value": "name"
+          },
+          {
+            "@language": "fr",
+            "@value": "nom"
+          },
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/status",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Status"
+          },
+          {
+            "@language": "en",
+            "@value": "status"
+          },
+          {
+            "@language": "fr",
+            "@value": "statut"
+          },
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/language",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          },
+          {
+            "@language": "de",
+            "@value": "Sprache"
+          },
+          {
+            "@language": "en",
+            "@value": "language"
+          },
+          {
+            "@language": "fr",
+            "@value": "language"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/status",
+        "label": [
+          {
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/pointGeometry",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Point geometry"
+          },
+          {
+            "@language": "fr",
+            "@value": "Point géométrique"
+          },
+          {
+            "@language": "nl",
+            "@value": "Geometrisch punt"
+          },
+          {
+            "@language": "de",
+            "@value": "Punktgeometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/name",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Name"
+          },
+          {
+            "@language": "en",
+            "@value": "name"
+          },
+          {
+            "@language": "fr",
+            "@value": "nom"
+          },
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/status",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Status"
+          },
+          {
+            "@language": "en",
+            "@value": "status"
+          },
+          {
+            "@language": "fr",
+            "@value": "statut"
+          },
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/pos(Lam72-Lam08)",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "geographische Position (Lam72 - Lam08)"
+          },
+          {
+            "@language": "en",
+            "@value": "geographical position (Lam72 - Lam08)"
+          },
+          {
+            "@language": "fr",
+            "@value": "position géographique (Lam72 - Lam08)"
+          },
+          {
+            "@language": "nl",
+            "@value": "geografische positie (Lam72 - Lam08)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/coordinates(WGS84)",
+        "label": [
+          {
+            "@value": "coordinates (WGS84)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/name",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Name"
+          },
+          {
+            "@language": "en",
+            "@value": "name"
+          },
+          {
+            "@language": "fr",
+            "@value": "nom"
+          },
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/status",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Status"
+          },
+          {
+            "@language": "en",
+            "@value": "status"
+          },
+          {
+            "@language": "fr",
+            "@value": "statut"
+          },
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "hasStreetName"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "hasStreetName"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "hasMunicipality"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "hasMunicipality"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "hasPartOfMunicipality"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "hasPartOfMunicipality"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "successor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "successor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "predecessor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "predecessor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "successor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "successor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "predecessor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "predecessor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "successor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "successor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "predecessor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "predecessor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "successor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "successor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "predecessor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "predecessor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "hasPostalInfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "hasPostalInfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "successor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "successor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "predecessor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/",
+        "label": [
+          {
+            "@value": "predecessor"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://inspire.ec.europa.eu/ont/ad#ThoroughfareName",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "StreetName"
+          },
+          {
+            "@language": "fr",
+            "@value": "Nom de la rue"
+          },
+          {
+            "@language": "nl",
+            "@value": "Straatnaam"
+          },
+          {
+            "@language": "de",
+            "@value": "Straßenname"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://vocab.belgif.be/ns/location#Municipality",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Municipality"
+          },
+          {
+            "@language": "nl",
+            "@value": "Gemeente"
+          },
+          {
+            "@language": "fr",
+            "@value": "Commune"
+          },
+          {
+            "@language": "de",
+            "@value": "Gemeinde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://inspire.ec.europa.eu/ont/ad#Address",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Address"
+          },
+          {
+            "@language": "nl",
+            "@value": "Adres"
+          },
+          {
+            "@language": "fr",
+            "@value": "Adresse"
+          },
+          {
+            "@language": "de",
+            "@value": "Adresse"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://vocab.belgif.be/ns/location#AddressableObject",
+        "label": [
+          {
+            "@language": "fr",
+            "@value": "Objet addressable"
+          },
+          {
+            "@language": "nl",
+            "@value": "Adresseerbaar object"
+          },
+          {
+            "@language": "en",
+            "@value": "AddressableObject"
+          },
+          {
+            "@language": "de",
+            "@value": "AdressierbaresObjekt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://inspire.ec.europa.eu/ont/ad#GeographicPosition",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Geographical position"
+          },
+          {
+            "@language": "fr",
+            "@value": "Position géographique"
+          },
+          {
+            "@language": "nl",
+            "@value": "Geografische positie"
+          },
+          {
+            "@language": "de",
+            "@value": "Geografische Lage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://vocab.belgif.be/ns/location#PartOfMunicipality",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "PartOfMunicipality"
+          },
+          {
+            "@language": "nl",
+            "@value": "Deelgemeente"
+          },
+          {
+            "@language": "fr",
+            "@value": "Sous-commune"
+          },
+          {
+            "@language": "de",
+            "@value": "Untergemeinde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://inspire.ec.europa.eu/ont/ad#PostalDescriptor",
+        "label": [
+          {
+            "@language": "fr",
+            "@value": "Infos de la poste"
+          },
+          {
+            "@language": "nl",
+            "@value": "Post informatie"
+          },
+          {
+            "@language": "de",
+            "@value": "Informationen zur Post"
+          },
+          {
+            "@language": "en",
+            "@value": "Post office information"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "fr",
+            "@value": "Identifiant"
+          },
+          {
+            "@language": "nl",
+            "@value": "Identifier"
+          },
+          {
+            "@language": "en",
+            "@value": "Identifier"
+          },
+          {
+            "@language": "de",
+            "@value": "Identificator"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+        "label": [
+          {
+            "@language": "fr",
+            "@value": "Numéro de la maison"
+          },
+          {
+            "@language": "nl",
+            "@value": "Huisnummer"
+          },
+          {
+            "@language": "en",
+            "@value": "House number"
+          },
+          {
+            "@language": "de",
+            "@value": "Hausnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+        "label": [
+          {
+            "@language": "fr",
+            "@value": "Numéro de boite"
+          },
+          {
+            "@language": "nl",
+            "@value": "Busnummer"
+          },
+          {
+            "@language": "en",
+            "@value": "Box number"
+          },
+          {
+            "@language": "de",
+            "@value": "Briefkasten Nummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://vocab.belgif.be/ns/location#addressSortField",
+        "label": [
+          {
+            "@language": "fr",
+            "@value": "Adresse champs de triage"
+          },
+          {
+            "@language": "nl",
+            "@value": "Adres sorteerveld"
+          },
+          {
+            "@language": "de",
+            "@value": "Adresssortierfeld"
+          },
+          {
+            "@language": "en",
+            "@value": "Address sortfield"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://vocab.belgif.be/ns/location#homonymAddition",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "homonymAddition"
+          },
+          {
+            "@language": "nl",
+            "@value": "Homoniemtoevoeging"
+          },
+          {
+            "@language": "fr",
+            "@value": "Addition homonyme"
+          },
+          {
+            "@language": "de",
+            "@value": "HomonymAddition"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://vocab.belgif.be/ns/location#nameSpace",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Namespace"
+          },
+          {
+            "@language": "en",
+            "@value": "NameSpace"
+          },
+          {
+            "@language": "fr",
+            "@value": "Namespace"
+          },
+          {
+            "@language": "de",
+            "@value": "Namespace"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "AssignedTo"
+          },
+          {
+            "@language": "nl",
+            "@value": "Is gehecht aan"
+          },
+          {
+            "@language": "fr",
+            "@value": "Est assigné à"
+          },
+          {
+            "@language": "de",
+            "@value": "Zugewiesen an"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "hat als post info"
+          },
+          {
+            "@language": "en",
+            "@value": "has as postal info"
+          },
+          {
+            "@language": "fr",
+            "@value": "a comme information postale"
+          },
+          {
+            "@language": "nl",
+            "@value": "heeft als post informatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "hat als Untergemeinde"
+          },
+          {
+            "@language": "en",
+            "@value": "has as part of municipality"
+          },
+          {
+            "@language": "fr",
+            "@value": "a comme sous-commune"
+          },
+          {
+            "@language": "nl",
+            "@value": "heeft als deelgemeente"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "hat als Strassenname"
+          },
+          {
+            "@language": "en",
+            "@value": "has as streetname"
+          },
+          {
+            "@language": "fr",
+            "@value": "a comme nom de rue"
+          },
+          {
+            "@language": "nl",
+            "@value": "heeft als straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "zugewiesen von dieser Gemeinde"
+          },
+          {
+            "@language": "en",
+            "@value": "is assigned by this municipality"
+          },
+          {
+            "@language": "fr",
+            "@value": "a été décerné par cette commune"
+          },
+          {
+            "@language": "nl",
+            "@value": "werd toegekend door deze gemeente"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Kode"
+          },
+          {
+            "@language": "en",
+            "@value": "code"
+          },
+          {
+            "@language": "fr",
+            "@value": "code"
+          },
+          {
+            "@language": "nl",
+            "@value": "code"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "code"
+          },
+          {
+            "@language": "fr",
+            "@value": "code"
+          },
+          {
+            "@language": "nl",
+            "@value": "code"
+          },
+          {
+            "@language": "de",
+            "@value": "code"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "hat als Gemeinde"
+          },
+          {
+            "@language": "en",
+            "@value": "has as municipality"
+          },
+          {
+            "@language": "fr",
+            "@value": "a comme commune"
+          },
+          {
+            "@language": "nl",
+            "@value": "heeft als gemeente"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "code"
+          },
+          {
+            "@language": "fr",
+            "@value": "code"
+          },
+          {
+            "@language": "nl",
+            "@value": "code"
+          },
+          {
+            "@language": "de",
+            "@value": "code"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://inspire.ec.europa.eu/ont/ad#Address.position",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Positie"
+          },
+          {
+            "@language": "fr",
+            "@value": "Position"
+          },
+          {
+            "@language": "de",
+            "@value": "Position"
+          },
+          {
+            "@language": "en",
+            "@value": "Position"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Vorgänger"
+          },
+          {
+            "@language": "en",
+            "@value": "predecessor"
+          },
+          {
+            "@language": "fr",
+            "@value": "prédécesseur"
+          },
+          {
+            "@language": "nl",
+            "@value": "voorganger"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Nachfolger"
+          },
+          {
+            "@language": "en",
+            "@value": "successor"
+          },
+          {
+            "@language": "fr",
+            "@value": "successeur"
+          },
+          {
+            "@language": "nl",
+            "@value": "opvolger"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Vorgänger"
+          },
+          {
+            "@language": "en",
+            "@value": "predecessor"
+          },
+          {
+            "@language": "fr",
+            "@value": "prédécesseur"
+          },
+          {
+            "@language": "nl",
+            "@value": "voorganger"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Nachfolger"
+          },
+          {
+            "@language": "en",
+            "@value": "successor"
+          },
+          {
+            "@language": "fr",
+            "@value": "successeur"
+          },
+          {
+            "@language": "nl",
+            "@value": "opvolger"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Nachfolger"
+          },
+          {
+            "@language": "en",
+            "@value": "successor"
+          },
+          {
+            "@language": "fr",
+            "@value": "successeur"
+          },
+          {
+            "@language": "nl",
+            "@value": "opvolger"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Vorgänger"
+          },
+          {
+            "@language": "en",
+            "@value": "predecessor"
+          },
+          {
+            "@language": "fr",
+            "@value": "prédécesseur"
+          },
+          {
+            "@language": "nl",
+            "@value": "voorganger"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@value": "code"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://inspire.ec.europa.eu/ont/ad#GeographicPosition.specification",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Position specification"
+          },
+          {
+            "@language": "nl",
+            "@value": "Positiespecificatie"
+          },
+          {
+            "@language": "fr",
+            "@value": "Spécification de position"
+          },
+          {
+            "@language": "de",
+            "@value": "Positionsangabe"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://inspire.ec.europa.eu/ont/ad#GeographicPosition.method",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Position geometry method"
+          },
+          {
+            "@language": "nl",
+            "@value": "Positiegeometriemethode"
+          },
+          {
+            "@language": "fr",
+            "@value": "Méthode position géométrique"
+          },
+          {
+            "@language": "de",
+            "@value": "Positionsgeometriemethode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "code"
+          },
+          {
+            "@language": "fr",
+            "@value": "code"
+          },
+          {
+            "@language": "nl",
+            "@value": "code"
+          },
+          {
+            "@language": "de",
+            "@value": "code"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Nachfolger"
+          },
+          {
+            "@language": "en",
+            "@value": "successor"
+          },
+          {
+            "@language": "fr",
+            "@value": "successeur"
+          },
+          {
+            "@language": "nl",
+            "@value": "opvolger"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Vorgänger"
+          },
+          {
+            "@language": "en",
+            "@value": "predecessor"
+          },
+          {
+            "@language": "fr",
+            "@value": "prédécesseur"
+          },
+          {
+            "@language": "nl",
+            "@value": "voorganger"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Kode"
+          },
+          {
+            "@language": "en",
+            "@value": "code"
+          },
+          {
+            "@language": "fr",
+            "@value": "code"
+          },
+          {
+            "@language": "nl",
+            "@value": "code"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Vorgänger"
+          },
+          {
+            "@language": "en",
+            "@value": "predecessor"
+          },
+          {
+            "@language": "fr",
+            "@value": "prédécesseur"
+          },
+          {
+            "@language": "nl",
+            "@value": "voorganger"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Nachfolger"
+          },
+          {
+            "@language": "en",
+            "@value": "successor"
+          },
+          {
+            "@language": "fr",
+            "@value": "successeur"
+          },
+          {
+            "@language": "nl",
+            "@value": "opvolger"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasAttributedTo",
+        "label": [
+          {
+            "@value": "isAssignedByMunicipality"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasAttributedTo",
+        "label": [
+          {
+            "@value": "isAssignedByMunicipality"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "medewerkeraffiliatie",
+        "names": [
+          {
+            "name": "medewerkervoornaammedewerkernaam",
+            "affiliation": "medewerkeraffiliatie"
+          }
+        ]
+      },
+      {
+        "affiliation": "editoraffiliatie",
+        "names": [
+          {
+            "name": "editorvoornaameditornaam",
+            "affiliation": "editoraffiliatie"
+          }
+        ]
+      },
+      {
+        "affiliation": "auteuraffiliatie",
+        "names": [
+          {
+            "name": "auteurvoornaamauteurnaam",
+            "affiliation": "auteuraffiliatie"
+          }
+        ]
+      }
+    ]
+  }
+}
