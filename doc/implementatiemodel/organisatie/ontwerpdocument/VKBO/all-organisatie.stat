@@ -10,31 +10,35 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
   "statuslabel": "Ontwerpdocument",
   "namespaces": [
-    "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/ns/regorg",
     "http://www.w3.org/ns/org",
+    "https://data.vlaanderen.be/ns/organisatie",
     "http://purl.org/dc/terms",
+    "http://data.europa.eu/m8g",
+    "https://implementatie.data.vlaanderen.be/ns/organisatie",
     "http://www.w3.org/2004/02/skos/core",
     "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/adres",
+    "http://www.w3.org/2006/time",
     "https://schema.org",
+    "https://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/2006/time"
+    "http://xmlns.com/foaf/0.1"
   ],
   "authors": 15,
   "editors": 2,
   "contributors": 14,
   "participants": 31,
-  "classes": 9,
-  "properties": 3,
-  "externalclasses": 24,
-  "externalproperties": 46,
-  "totalterms": 82,
+  "classes": 10,
+  "properties": 5,
+  "externalclasses": 28,
+  "externalproperties": 41,
+  "totalterms": 84,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -354,6 +358,33 @@
     ],
     "classes": [
       {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#Stopzetting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Stopzetting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/organisatie#Doorhaling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Afsluiting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/organisatie#Doorhaling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Doorhaling"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
         "label": [
           {
@@ -382,22 +413,6 @@
         "label": [
           {
             "@value": "String"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "label": [
-          {
-            "@value": "URI"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#time",
-        "label": [
-          {
-            "@value": "Time"
           }
         ]
       },
@@ -432,18 +447,26 @@
             "@value": "land"
           }
         ]
-      }
-    ],
-    "externalclasses": [
+      },
       {
-        "assignedURI": "http://xmlns.com/foaf/0.1/Agent",
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#redenDoorhaling",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Agent"
+            "@value": "redenDoorhaling"
           }
         ]
       },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#redenStopzetting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "redenStopzetting"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
       {
         "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
         "label": [
@@ -472,11 +495,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/org#Membership",
+        "assignedURI": "http://www.w3.org/ns/org#ChangeEvent",
         "label": [
           {
             "@language": "nl",
-            "@value": "Lidmaatschap"
+            "@value": "Veranderingsgebeurtenis"
           }
         ]
       },
@@ -486,6 +509,15 @@
           {
             "@language": "nl",
             "@value": "Plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/FoundationEvent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Oprichting"
           }
         ]
       },
@@ -535,11 +567,29 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/OpeningHoursSpecification",
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
         "label": [
           {
             "@language": "nl",
-            "@value": "Openingsurenspecificatie"
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
           }
         ]
       },
@@ -557,6 +607,15 @@
         "label": [
           {
             "@value": "Resource"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
           }
         ]
       },
@@ -627,20 +686,26 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Periode"
+            "@value": "Doorhalingstype"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/org#Role",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
-            "@language": "nl",
-            "@value": "Rol"
+            "@value": "RedenDoorhaling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "StopzettingType"
           }
         ]
       }
@@ -670,6 +735,15 @@
           {
             "@language": "nl",
             "@value": "toegekendOp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/date",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum"
           }
         ]
       },
@@ -827,47 +901,11 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/dayOfWeek",
+        "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
         "label": [
           {
             "@language": "nl",
-            "@value": "dagVanDeWeek"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/validThrough",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geldigTot"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/validFrom",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geldigVan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/closes",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gesloten"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/opens",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "open"
+            "@value": "inXSDdatumTijd"
           }
         ]
       },
@@ -980,20 +1018,20 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/org#memberDuring",
+        "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
             "@language": "nl",
-            "@value": "lidVanTot"
+            "@value": "doorhalingstype"
           }
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/org#role",
+        "assignedURI": "https://www.w3.org/ns/prov#time",
         "label": [
           {
             "@language": "nl",
-            "@value": "rol"
+            "@value": "Refereert naar de periode van tijd waarin de Doorhaling van kracht is."
           }
         ]
       },
@@ -1007,6 +1045,24 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "van"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/locn#address",
         "label": [
           {
@@ -1016,47 +1072,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/org#memberOf",
+        "assignedURI": "http://www.w3.org/ns/org#changedBy",
         "label": [
           {
             "@language": "nl",
-            "@value": "isLidVan"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#hasMember",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "lid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#member",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "lid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#organization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "isLidBij"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#hasMembership",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "heeftLid"
+            "@value": "isVeranderdDoor"
           }
         ]
       }
