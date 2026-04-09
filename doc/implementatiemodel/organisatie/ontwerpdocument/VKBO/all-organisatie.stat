@@ -18,9 +18,9 @@
     "https://implementatie.data.vlaanderen.be/ns/organisatie",
     "http://www.w3.org/2004/02/skos/core",
     "http://www.opengis.net/ont/geosparql",
-    "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/adres",
+    "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2006/time",
     "https://schema.org",
     "https://www.w3.org/ns/prov",
@@ -34,11 +34,11 @@
   "editors": 2,
   "contributors": 14,
   "participants": 31,
-  "classes": 10,
+  "classes": 11,
   "properties": 5,
   "externalclasses": 28,
-  "externalproperties": 41,
-  "totalterms": 84,
+  "externalproperties": 39,
+  "totalterms": 83,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -401,10 +401,10 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
         "label": [
           {
-            "@value": "DateTime"
+            "@value": "Date"
           }
         ]
       },
@@ -413,6 +413,14 @@
         "label": [
           {
             "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
           }
         ]
       },
@@ -766,15 +774,6 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/description",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "beschrijving"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
         "label": [
           {
@@ -789,15 +788,6 @@
           {
             "@language": "nl",
             "@value": "wkt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "plaatsnaam"
           }
         ]
       },
@@ -1031,7 +1021,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Refereert naar de periode van tijd waarin de Doorhaling van kracht is."
+            "@value": "tijd"
           }
         ]
       },
