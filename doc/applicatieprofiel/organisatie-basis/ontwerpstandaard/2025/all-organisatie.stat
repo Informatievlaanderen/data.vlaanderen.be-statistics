@@ -10,13 +10,12 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
   "statuslabel": "Ontwerpdocument",
   "namespaces": [
-    "http://purl.org/dc/terms",
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/ns/regorg",
     "http://www.w3.org/ns/org",
     "https://data.vlaanderen.be/ns/organisatie",
     "http://www.w3.org/2004/02/skos/core",
-    "http://www.w3.org/ns/prov",
+    "http://purl.org/dc/terms",
     "http://data.europa.eu/m8g",
     "https://schema.org",
     "http://www.w3.org/ns/adms",
@@ -27,17 +26,18 @@
     "http://www.w3.org/2006/time",
     "http://www.w3.org/2006/vcard/ns",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/ns/prov",
     "http://www.w3.org/2001/XMLSchema"
   ],
   "authors": 15,
   "editors": 2,
   "contributors": 14,
   "participants": 31,
-  "classes": 22,
+  "classes": 20,
   "properties": 9,
-  "externalclasses": 41,
+  "externalclasses": 39,
   "externalproperties": 83,
-  "totalterms": 155,
+  "totalterms": 151,
   "totalorganisations": 14,
   "organisations": [
     {
@@ -464,8 +464,6 @@
       {},
       {},
       {},
-      {},
-      {},
       {}
     ],
     "properties": [
@@ -552,15 +550,6 @@
       }
     ],
     "externalclasses": [
-      {
-        "assignedURI": "http://purl.org/dc/terms/Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
       {
         "assignedURI": "http://xmlns.com/foaf/0.1/Agent",
         "label": [
@@ -733,24 +722,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/prov#Organization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/prov#Agent",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Agent"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://data.europa.eu/m8g/FoundationEvent",
         "label": [
           {
@@ -900,6 +871,15 @@
           {
             "@language": "nl",
             "@value": "LocatiePeriodeOfJurisdictie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
           }
         ]
       },
