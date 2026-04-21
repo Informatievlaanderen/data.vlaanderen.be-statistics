@@ -1,11 +1,11 @@
 {
   "title": "VKBO-Onderneming Implementatiemodel",
-  "uri": "https://data.test-vlaanderen.be/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO/v0.0.3",
-  "issued": "2026-04-20",
+  "uri": "https://data.test-vlaanderen.be/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO/v0.0.4",
+  "issued": "2026-04-21",
   "navigation": {
-    "next": "/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO/v0.0.4",
-    "prev": "/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO/v0.0.2",
-    "self": "https://data.test-vlaanderen.be/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO/v0.0.3"
+    "next": "/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO",
+    "prev": "/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO/v0.0.3",
+    "self": "https://data.test-vlaanderen.be/doc/implementatiemodel/organisatie/ontwerpdocument/VKBO/v0.0.4"
   },
   "documenttype": "impl",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
@@ -13,21 +13,20 @@
   "namespaces": [
     "http://www.w3.org/ns/regorg",
     "http://www.w3.org/ns/org",
+    "http://www.w3.org/2004/02/skos/core",
     "https://data.vlaanderen.be/ns/organisatie",
     "http://purl.org/dc/terms",
     "http://data.europa.eu/m8g",
     "https://implementatie.data.vlaanderen.be/ns/organisatie",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/ns/locn",
     "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/2006/time",
     "https://schema.org",
-    "https://www.w3.org/ns/prov",
+    "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/ns/adms",
-    "http://www.w3.org/ns/prov",
     "http://www.w3.org/2001/XMLSchema",
     "http://xmlns.com/foaf/0.1"
   ],
@@ -35,11 +34,11 @@
   "editors": 3,
   "contributors": 0,
   "participants": 6,
-  "classes": 11,
+  "classes": 12,
   "properties": 5,
-  "externalclasses": 28,
-  "externalproperties": 39,
-  "totalterms": 83,
+  "externalclasses": 30,
+  "externalproperties": 43,
+  "totalterms": 90,
   "totalorganisations": 1,
   "organisations": [
     {
@@ -174,6 +173,7 @@
       },
       {},
       {},
+      {},
       {}
     ],
     "properties": [
@@ -260,6 +260,63 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/org#Site",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "NACEBEL2025"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rechtsvormtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rechtstoestandtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieStatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "OrganisatieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rechtspersoonlijkheidtype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/Location",
         "label": [
           {
@@ -274,6 +331,31 @@
           {
             "@language": "nl",
             "@value": "Oprichting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Doorhalingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "RedenDoorhaling"
           }
         ]
       },
@@ -385,75 +467,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Rechtspersoonlijkheidtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Rechtstoestandtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Rechtsvormtype"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
           {
             "@language": "nl",
             "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "NACEBEL2025"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieStatus"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "OrganisatieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Doorhalingstype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "RedenDoorhaling"
           }
         ]
       },
@@ -765,11 +783,20 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/ns/prov#time",
+        "assignedURI": "http://www.w3.org/ns/prov#time",
         "label": [
           {
             "@language": "nl",
             "@value": "tijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#siteAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vestigingsadres"
           }
         ]
       },
@@ -806,6 +833,33 @@
           {
             "@language": "nl",
             "@value": "adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasSite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftVestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasRegisteredSite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftGeregistreerdeVestiging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#hasPrimarySite",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeftPrimaireVestiging"
           }
         ]
       },
