@@ -1,11 +1,11 @@
 {
-  "title": "Magda-Persoon Implementatiemodel",
-  "uri": "https://data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.2",
-  "issued": "2026-02-01",
+  "title": "Implementatiemodel MAGDA-Persoon",
+  "uri": "https://data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.3",
+  "issued": "2026-04-22",
   "navigation": {
-    "next": "/doc/implementatiemodel/magda/persoon/v0.0.3",
-    "prev": "/doc/implementatiemodel/magda/persoon/v0.0.1",
-    "self": "https://data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.2"
+    "next": "/doc/implementatiemodel/magda/persoon",
+    "prev": "/doc/implementatiemodel/magda/persoon/v0.0.2",
+    "self": "https://data.test-vlaanderen.be/doc/implementatiemodel/magda/persoon/v0.0.3"
   },
   "documenttype": "impl",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
@@ -17,7 +17,7 @@
     "http://purl.org/vocab/bio/0.1",
     "https://data.vlaanderen.be/ns/generiek",
     "http://www.w3.org/ns/org",
-    "https://test.data.vlaanderen.be/ns/magda/persoon",
+    "https://implementatie.data.vlaanderen.be/ns/magda/persoon",
     "http://data.europa.eu/m8g",
     "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/ns/locn",
@@ -33,322 +33,61 @@
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema"
   ],
-  "authors": 23,
+  "authors": 2,
   "editors": 2,
-  "contributors": 4,
-  "participants": 29,
+  "contributors": 0,
+  "participants": 4,
   "classes": 34,
   "properties": 26,
   "externalclasses": 27,
   "externalproperties": 51,
   "totalterms": 138,
-  "totalorganisations": 16,
+  "totalorganisations": 1,
   "organisations": [
     {
-      "affiliation": "abb",
-      "participants": 2
-    },
-    {
-      "affiliation": "digipolisantwerpen",
-      "participants": 1
-    },
-    {
-      "affiliation": "lne",
-      "participants": 1
-    },
-    {
-      "affiliation": "vlm",
-      "participants": 1
-    },
-    {
-      "affiliation": "imec-ugent",
-      "participants": 3
-    },
-    {
-      "affiliation": "informatievlaanderen",
-      "participants": 8
-    },
-    {
-      "affiliation": "cipalschaubroeck",
-      "participants": 3
-    },
-    {
-      "affiliation": "soprasteria/iv",
-      "participants": 1
-    },
-    {
-      "affiliation": "geosolutions",
-      "participants": 1
-    },
-    {
-      "affiliation": "dgdigitaletransformatie",
-      "participants": 1
-    },
-    {
-      "affiliation": "kruispuntbanksocialezekerheid",
-      "participants": 1
-    },
-    {
-      "affiliation": "digipolisgent",
-      "participants": 1
-    },
-    {
-      "affiliation": "hpe",
-      "participants": 2
-    },
-    {
-      "affiliation": "ago",
-      "participants": 1
-    },
-    {
-      "affiliation": "fodbinnenlandsezaken-rijksregister",
-      "participants": 1
-    },
-    {
-      "affiliation": "departementomgeving",
-      "participants": 1
+      "affiliation": "digitaalvlaanderen",
+      "participants": 4
     }
   ],
   "specifications": [],
   "values": {
     "authors": [
       {
-        "name": "driesbeheydt",
-        "affiliation": "informatievlaanderen"
-      },
-      {
-        "name": "wardbeynaerts",
-        "affiliation": "cipalschaubroeck"
-      },
-      {
-        "name": "anboes",
-        "affiliation": "soprasteria/iv"
-      },
-      {
-        "name": "valerebouserie",
-        "affiliation": "informatievlaanderen"
-      },
-      {
-        "name": "rafbuyle",
-        "affiliation": "informatievlaanderen"
-      },
-      {
-        "name": "tinnecahy",
-        "affiliation": "geosolutions"
-      },
-      {
-        "name": "liesbetd'hondt",
-        "affiliation": "dgdigitaletransformatie"
-      },
-      {
-        "name": "dieterdepaepe",
-        "affiliation": "imec-ugent"
-      },
-      {
-        "name": "björndevidts",
-        "affiliation": "informatievlaanderen"
-      },
-      {
-        "name": "jelledevreese",
-        "affiliation": "cipalschaubroeck"
-      },
-      {
-        "name": "brunodevrieze",
-        "affiliation": "informatievlaanderen"
-      },
-      {
-        "name": "markdemol",
-        "affiliation": "kruispuntbanksocialezekerheid"
-      },
-      {
-        "name": "heidigodderis",
-        "affiliation": "abb"
-      },
-      {
-        "name": "katrienleire",
-        "affiliation": "digipolisgent"
-      },
-      {
-        "name": "michaelloedts",
-        "affiliation": "hpe"
-      },
-      {
-        "name": "gijsmartens",
-        "affiliation": "ago"
-      },
-      {
-        "name": "marcruymen",
-        "affiliation": "fodbinnenlandsezaken-rijksregister"
-      },
-      {
-        "name": "geertthijs",
-        "affiliation": "informatievlaanderen"
-      },
-      {
-        "name": "geertvanhaute",
-        "affiliation": "departementomgeving"
-      },
-      {
-        "name": "willemvanhoecke",
-        "affiliation": "cipalschaubroeck"
-      },
-      {
-        "name": "henkvanderstraeten",
-        "affiliation": "informatievlaanderen"
-      },
-      {
-        "name": "ziggyvanlishout",
-        "affiliation": "informatievlaanderen"
+        "name": "nathalietang",
+        "affiliation": "digitaalvlaanderen"
       },
       {
         "name": "lievenverreycken",
-        "affiliation": "hpe"
+        "affiliation": "digitaalvlaanderen"
       }
     ],
     "editors": [
       {
-        "name": "laurensdevocht",
-        "affiliation": "imec-ugent"
+        "name": "geertthijs",
+        "affiliation": "digitaalvlaanderen"
       },
       {
-        "name": "erikmannens",
-        "affiliation": "imec-ugent"
+        "name": "dylanvanassche",
+        "affiliation": "digitaalvlaanderen"
       }
     ],
-    "contributors": [
-      {
-        "name": "wimdevroey",
-        "affiliation": "abb"
-      },
-      {
-        "name": "josmostmans",
-        "affiliation": "digipolisantwerpen"
-      },
-      {
-        "name": "krispeirelinck",
-        "affiliation": "lne"
-      },
-      {
-        "name": "annitastevens",
-        "affiliation": "vlm"
-      }
-    ],
+    "contributors": [],
     "participants": [
       {
-        "name": "wimdevroey",
-        "affiliation": "abb"
-      },
-      {
-        "name": "josmostmans",
-        "affiliation": "digipolisantwerpen"
-      },
-      {
-        "name": "krispeirelinck",
-        "affiliation": "lne"
-      },
-      {
-        "name": "annitastevens",
-        "affiliation": "vlm"
-      },
-      {
-        "name": "laurensdevocht",
-        "affiliation": "imec-ugent"
-      },
-      {
-        "name": "erikmannens",
-        "affiliation": "imec-ugent"
-      },
-      {
-        "name": "driesbeheydt",
-        "affiliation": "informatievlaanderen"
-      },
-      {
-        "name": "wardbeynaerts",
-        "affiliation": "cipalschaubroeck"
-      },
-      {
-        "name": "anboes",
-        "affiliation": "soprasteria/iv"
-      },
-      {
-        "name": "valerebouserie",
-        "affiliation": "informatievlaanderen"
-      },
-      {
-        "name": "rafbuyle",
-        "affiliation": "informatievlaanderen"
-      },
-      {
-        "name": "tinnecahy",
-        "affiliation": "geosolutions"
-      },
-      {
-        "name": "liesbetd'hondt",
-        "affiliation": "dgdigitaletransformatie"
-      },
-      {
-        "name": "dieterdepaepe",
-        "affiliation": "imec-ugent"
-      },
-      {
-        "name": "björndevidts",
-        "affiliation": "informatievlaanderen"
-      },
-      {
-        "name": "jelledevreese",
-        "affiliation": "cipalschaubroeck"
-      },
-      {
-        "name": "brunodevrieze",
-        "affiliation": "informatievlaanderen"
-      },
-      {
-        "name": "markdemol",
-        "affiliation": "kruispuntbanksocialezekerheid"
-      },
-      {
-        "name": "heidigodderis",
-        "affiliation": "abb"
-      },
-      {
-        "name": "katrienleire",
-        "affiliation": "digipolisgent"
-      },
-      {
-        "name": "michaelloedts",
-        "affiliation": "hpe"
-      },
-      {
-        "name": "gijsmartens",
-        "affiliation": "ago"
-      },
-      {
-        "name": "marcruymen",
-        "affiliation": "fodbinnenlandsezaken-rijksregister"
-      },
-      {
         "name": "geertthijs",
-        "affiliation": "informatievlaanderen"
+        "affiliation": "digitaalvlaanderen"
       },
       {
-        "name": "geertvanhaute",
-        "affiliation": "departementomgeving"
+        "name": "dylanvanassche",
+        "affiliation": "digitaalvlaanderen"
       },
       {
-        "name": "willemvanhoecke",
-        "affiliation": "cipalschaubroeck"
-      },
-      {
-        "name": "henkvanderstraeten",
-        "affiliation": "informatievlaanderen"
-      },
-      {
-        "name": "ziggyvanlishout",
-        "affiliation": "informatievlaanderen"
+        "name": "nathalietang",
+        "affiliation": "digitaalvlaanderen"
       },
       {
         "name": "lievenverreycken",
-        "affiliation": "hpe"
+        "affiliation": "digitaalvlaanderen"
       }
     ],
     "classes": [
@@ -389,7 +128,7 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#Probleemdetail",
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/magda/persoon#Probleemdetail",
         "label": [
           {
             "@language": "nl",
@@ -398,7 +137,7 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#VdipEnvelope",
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/magda/persoon#VdipEnvelope",
         "label": [
           {
             "@language": "nl",
@@ -461,7 +200,7 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#AangegevenAdres",
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/magda/persoon#AangegevenAdres",
         "label": [
           {
             "@language": "nl",
@@ -497,7 +236,7 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#Postadres",
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/magda/persoon#Postadres",
         "label": [
           {
             "@language": "nl",
@@ -506,7 +245,7 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#Referentieadres",
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/magda/persoon#Referentieadres",
         "label": [
           {
             "@language": "nl",
@@ -515,7 +254,7 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#VerblijfplaatsBuitenlandDomicilie",
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/magda/persoon#VerblijfplaatsBuitenlandDomicilie",
         "label": [
           {
             "@language": "nl",
@@ -524,7 +263,7 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#VerblijfplaatsBuitenland",
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/magda/persoon#VerblijfplaatsBuitenland",
         "label": [
           {
             "@language": "nl",
@@ -533,7 +272,7 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#WettelijkVerblijf",
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/magda/persoon#WettelijkVerblijf",
         "label": [
           {
             "@language": "nl",
@@ -542,7 +281,7 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#AdministratiefBeheerder",
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/magda/persoon#AdministratiefBeheerder",
         "label": [
           {
             "@language": "nl",
@@ -720,6 +459,7 @@
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#woonvorm",
         "label": [
           {
+            "@language": "nl",
             "@value": "woonvorm"
           }
         ]
@@ -728,6 +468,7 @@
         "assignedURI": "https://data.vlaanderen.be/ns/persoon#vorigeRegistratie",
         "label": [
           {
+            "@language": "nl",
             "@value": "vorigeRegistratie"
           }
         ]
@@ -742,7 +483,7 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#beheerder",
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/magda/persoon#beheerder",
         "label": [
           {
             "@language": "nl",
@@ -796,7 +537,7 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#heeftInwonerschap",
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/magda/persoon#heeftInwonerschap",
         "label": [
           {
             "@language": "nl",
@@ -823,7 +564,7 @@
         ]
       },
       {
-        "assignedURI": "https://test.data.vlaanderen.be/ns/magda/persoon#heeftPersoonsrelatie",
+        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/magda/persoon#heeftPersoonsrelatie",
         "label": [
           {
             "@language": "nl",
@@ -1558,198 +1299,23 @@
     ],
     "organisations": [
       {
-        "affiliation": "abb",
+        "affiliation": "digitaalvlaanderen",
         "names": [
-          {
-            "name": "wimdevroey",
-            "affiliation": "abb"
-          },
-          {
-            "name": "heidigodderis",
-            "affiliation": "abb"
-          }
-        ]
-      },
-      {
-        "affiliation": "digipolisantwerpen",
-        "names": [
-          {
-            "name": "josmostmans",
-            "affiliation": "digipolisantwerpen"
-          }
-        ]
-      },
-      {
-        "affiliation": "lne",
-        "names": [
-          {
-            "name": "krispeirelinck",
-            "affiliation": "lne"
-          }
-        ]
-      },
-      {
-        "affiliation": "vlm",
-        "names": [
-          {
-            "name": "annitastevens",
-            "affiliation": "vlm"
-          }
-        ]
-      },
-      {
-        "affiliation": "imec-ugent",
-        "names": [
-          {
-            "name": "laurensdevocht",
-            "affiliation": "imec-ugent"
-          },
-          {
-            "name": "erikmannens",
-            "affiliation": "imec-ugent"
-          },
-          {
-            "name": "dieterdepaepe",
-            "affiliation": "imec-ugent"
-          }
-        ]
-      },
-      {
-        "affiliation": "informatievlaanderen",
-        "names": [
-          {
-            "name": "driesbeheydt",
-            "affiliation": "informatievlaanderen"
-          },
-          {
-            "name": "valerebouserie",
-            "affiliation": "informatievlaanderen"
-          },
-          {
-            "name": "rafbuyle",
-            "affiliation": "informatievlaanderen"
-          },
-          {
-            "name": "björndevidts",
-            "affiliation": "informatievlaanderen"
-          },
-          {
-            "name": "brunodevrieze",
-            "affiliation": "informatievlaanderen"
-          },
           {
             "name": "geertthijs",
-            "affiliation": "informatievlaanderen"
+            "affiliation": "digitaalvlaanderen"
           },
           {
-            "name": "henkvanderstraeten",
-            "affiliation": "informatievlaanderen"
+            "name": "dylanvanassche",
+            "affiliation": "digitaalvlaanderen"
           },
           {
-            "name": "ziggyvanlishout",
-            "affiliation": "informatievlaanderen"
-          }
-        ]
-      },
-      {
-        "affiliation": "cipalschaubroeck",
-        "names": [
-          {
-            "name": "wardbeynaerts",
-            "affiliation": "cipalschaubroeck"
-          },
-          {
-            "name": "jelledevreese",
-            "affiliation": "cipalschaubroeck"
-          },
-          {
-            "name": "willemvanhoecke",
-            "affiliation": "cipalschaubroeck"
-          }
-        ]
-      },
-      {
-        "affiliation": "soprasteria/iv",
-        "names": [
-          {
-            "name": "anboes",
-            "affiliation": "soprasteria/iv"
-          }
-        ]
-      },
-      {
-        "affiliation": "geosolutions",
-        "names": [
-          {
-            "name": "tinnecahy",
-            "affiliation": "geosolutions"
-          }
-        ]
-      },
-      {
-        "affiliation": "dgdigitaletransformatie",
-        "names": [
-          {
-            "name": "liesbetd'hondt",
-            "affiliation": "dgdigitaletransformatie"
-          }
-        ]
-      },
-      {
-        "affiliation": "kruispuntbanksocialezekerheid",
-        "names": [
-          {
-            "name": "markdemol",
-            "affiliation": "kruispuntbanksocialezekerheid"
-          }
-        ]
-      },
-      {
-        "affiliation": "digipolisgent",
-        "names": [
-          {
-            "name": "katrienleire",
-            "affiliation": "digipolisgent"
-          }
-        ]
-      },
-      {
-        "affiliation": "hpe",
-        "names": [
-          {
-            "name": "michaelloedts",
-            "affiliation": "hpe"
+            "name": "nathalietang",
+            "affiliation": "digitaalvlaanderen"
           },
           {
             "name": "lievenverreycken",
-            "affiliation": "hpe"
-          }
-        ]
-      },
-      {
-        "affiliation": "ago",
-        "names": [
-          {
-            "name": "gijsmartens",
-            "affiliation": "ago"
-          }
-        ]
-      },
-      {
-        "affiliation": "fodbinnenlandsezaken-rijksregister",
-        "names": [
-          {
-            "name": "marcruymen",
-            "affiliation": "fodbinnenlandsezaken-rijksregister"
-          }
-        ]
-      },
-      {
-        "affiliation": "departementomgeving",
-        "names": [
-          {
-            "name": "geertvanhaute",
-            "affiliation": "departementomgeving"
+            "affiliation": "digitaalvlaanderen"
           }
         ]
       }
