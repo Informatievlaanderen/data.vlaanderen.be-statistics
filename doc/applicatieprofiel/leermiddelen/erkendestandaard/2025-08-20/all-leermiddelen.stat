@@ -13,17 +13,15 @@
     "http://data.europa.eu/snb/model/elm",
     "https://schema.org",
     "http://purl.org/dc/dcmitype",
-    "https://qudt.org/schema/qudt",
     "http://qudt.org/schema/qudt",
     "http://purl.org/dc/elements/1.1",
-    "http://schema.org",
-    "https://vocab.belgif.be/ns/address",
+    "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/ns/locn",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2006/time",
     "http://www.cidoc-crm.org/cidoc-crm",
     "http://www.w3.org/2004/02/skos/core",
-    "https://ec.europa.eu/esco/lod/static/model.html",
+    "http://data.europa.eu/esco/model",
     "http://www.w3.org/ns/prov",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
@@ -35,9 +33,9 @@
   "contributors": 43,
   "participants": 56,
   "classes": 11,
-  "properties": 0,
+  "properties": 4,
   "externalclasses": 46,
-  "externalproperties": 104,
+  "externalproperties": 100,
   "totalterms": 161,
   "totalorganisations": 32,
   "organisations": [
@@ -690,7 +688,44 @@
       {},
       {}
     ],
-    "properties": [],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      }
+    ],
     "externalclasses": [
       {
         "assignedURI": "http://purl.org/dc/terms/Agent",
@@ -774,7 +809,7 @@
         ]
       },
       {
-        "assignedURI": "https://qudt.org/schema/qudt/Unit",
+        "assignedURI": "http://qudt.org/schema/qudt/Unit",
         "label": [
           {
             "@language": "nl",
@@ -828,7 +863,7 @@
         ]
       },
       {
-        "assignedURI": "https://ec.europa.eu/esco/lod/static/model.html#Skill",
+        "assignedURI": "http://data.europa.eu/esco/model#Skill",
         "label": [
           {
             "@language": "nl",
@@ -891,7 +926,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/OpeningHoursSpecification",
+        "assignedURI": "https://schema.org/OpeningHoursSpecification",
         "label": [
           {
             "@language": "nl",
@@ -1182,7 +1217,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/opens",
+        "assignedURI": "https://schema.org/opens",
         "label": [
           {
             "@language": "nl",
@@ -1191,7 +1226,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/closes",
+        "assignedURI": "https://schema.org/closes",
         "label": [
           {
             "@language": "nl",
@@ -1200,7 +1235,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/dayOfWeek",
+        "assignedURI": "https://schema.org/dayOfWeek",
         "label": [
           {
             "@language": "nl",
@@ -1209,7 +1244,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/validFrom",
+        "assignedURI": "https://schema.org/validFrom",
         "label": [
           {
             "@language": "nl",
@@ -1218,7 +1253,7 @@
         ]
       },
       {
-        "assignedURI": "http://schema.org/validThrough",
+        "assignedURI": "https://schema.org/validThrough",
         "label": [
           {
             "@language": "nl",
@@ -1232,15 +1267,6 @@
           {
             "@language": "nl",
             "@value": "vereiste"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://vocab.belgif.be/ns/address#AddressRepresentation.boxNumber",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "busnummer"
           }
         ]
       },
@@ -1272,15 +1298,6 @@
         ]
       },
       {
-        "assignedURI": "https://vocab.belgif.be/ns/address#municipalityName",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gemeentenaam"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
         "label": [
           {
@@ -1295,15 +1312,6 @@
           {
             "@language": "nl",
             "@value": "administratieve eenheid niveau 1"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://vocab.belgif.be/ns/address#country",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "land"
           }
         ]
       },
@@ -1358,15 +1366,6 @@
           {
             "@language": "nl",
             "@value": "locatieaanduiding"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://vocab.belgif.be/ns/address#AddressRepresentation.houseNumber",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "huisnummer"
           }
         ]
       },
