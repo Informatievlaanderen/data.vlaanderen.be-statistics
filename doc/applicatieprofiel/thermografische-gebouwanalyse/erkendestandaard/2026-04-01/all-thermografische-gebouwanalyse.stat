@@ -10,10 +10,9 @@
   "statuslabel": "Erkende Standaard",
   "namespaces": [
     "https://www.fair-gnss.oma.be/gnss-dcat-ap/vocabulary/geo",
-    "https://www.w3.org/ns/sosa",
+    "http://www.w3.org/ns/sosa",
     "http://dbpedia.org/ontology",
     "https://w3id.org/okn/o/sd",
-    "http://www.w3.org/ns/sosa",
     "https://saref.etsi.org/core",
     "http://www.w3.org/ns/ssn",
     "https://data.vlaanderen.be/ns/energiehuis",
@@ -25,14 +24,13 @@
     "http://data.europa.eu/it6",
     "http://www.w3.org/ns/dcat",
     "http://www.w3.org/2000/01/rdf-schema",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/ssn/systems",
-    "https://qudt.org/schema/qudt",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://qudt.org/schema/qudt",
     "http://www.cidoc-crm.org/cidoc-crm",
     "http://www.w3.org/2006/time",
     "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/ns/locn",
-    "https://dbpedia.org/ontology",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns"
@@ -41,11 +39,11 @@
   "editors": 5,
   "contributors": 4,
   "participants": 11,
-  "classes": 18,
+  "classes": 19,
   "properties": 15,
-  "externalclasses": 67,
+  "externalclasses": 68,
   "externalproperties": 92,
-  "totalterms": 192,
+  "totalterms": 194,
   "totalorganisations": 5,
   "organisations": [
     {
@@ -259,6 +257,7 @@
       {},
       {},
       {},
+      {},
       {}
     ],
     "properties": [
@@ -409,7 +408,7 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/ns/sosa/Sensor",
+        "assignedURI": "http://www.w3.org/ns/sosa/Sensor",
         "label": [
           {
             "@language": "nl",
@@ -508,7 +507,7 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/ns/sosa/Platform",
+        "assignedURI": "http://www.w3.org/ns/sosa/Platform",
         "label": [
           {
             "@language": "nl",
@@ -557,7 +556,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "BIM_Gebouw"
+            "@value": "BIMGebouw"
           }
         ]
       },
@@ -566,7 +565,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "BIM_Element"
+            "@value": "BIMElement"
           }
         ]
       },
@@ -629,15 +628,6 @@
           {
             "@language": "nl",
             "@value": "Output"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Systeemtype"
           }
         ]
       },
@@ -709,7 +699,7 @@
         ]
       },
       {
-        "assignedURI": "https://qudt.org/schema/qudt/Unit",
+        "assignedURI": "http://qudt.org/schema/qudt/Unit",
         "label": [
           {
             "@language": "nl",
@@ -799,7 +789,7 @@
         ]
       },
       {
-        "assignedURI": "https://qudt.org/schema/qudt/QuantityValue",
+        "assignedURI": "http://qudt.org/schema/qudt/QuantityValue",
         "label": [
           {
             "@language": "nl",
@@ -813,6 +803,15 @@
           {
             "@language": "nl",
             "@value": "Toestel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Platform",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Platform"
           }
         ]
       },
@@ -835,7 +834,7 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/ns/sosa/Platform",
+        "assignedURI": "http://www.w3.org/ns/sosa/Platform",
         "label": [
           {
             "@language": "nl",
@@ -847,6 +846,7 @@
         "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
         "label": [
           {
+            "@language": "nl",
             "@value": "Informatieobject"
           }
         ]
@@ -883,25 +883,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "MachineLearningModeltype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Videotype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Elementtype"
+            "@value": "Systeemtype"
           }
         ]
       },
@@ -920,6 +902,15 @@
           {
             "@language": "nl",
             "@value": "TypeKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "MachineLearningModeltype"
           }
         ]
       },
@@ -964,6 +955,15 @@
         "label": [
           {
             "@language": "nl",
+            "@value": "Videotype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
             "@value": "InputType"
           }
         ]
@@ -983,6 +983,15 @@
           {
             "@language": "nl",
             "@value": "Fototype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Elementtype"
           }
         ]
       },
@@ -1240,7 +1249,7 @@
         ]
       },
       {
-        "assignedURI": "https://qudt.org/schema/qudt/value",
+        "assignedURI": "http://qudt.org/schema/qudt/value",
         "label": [
           {
             "@language": "nl",
@@ -1339,7 +1348,7 @@
         ]
       },
       {
-        "assignedURI": "https://dbpedia.org/ontology/influencedBy",
+        "assignedURI": "http://dbpedia.org/ontology/influencedBy",
         "label": [
           {
             "@language": "nl",
@@ -1429,33 +1438,6 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/ssn/systems/hasSurvivalRange",
         "label": [
           {
@@ -1506,6 +1488,15 @@
           {
             "@language": "nl",
             "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
           }
         ]
       },
@@ -1627,6 +1618,24 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://data.europa.eu/it6/trainedOn",
         "label": [
           {
@@ -1645,7 +1654,7 @@
         ]
       },
       {
-        "assignedURI": "https://qudt.org/schema/qudt/hasUnit",
+        "assignedURI": "http://qudt.org/schema/qudt/hasUnit",
         "label": [
           {
             "@language": "nl",
@@ -1771,7 +1780,7 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/ns/sosa/hosts",
+        "assignedURI": "http://www.w3.org/ns/sosa/hosts",
         "label": [
           {
             "@language": "nl",
