@@ -1,0 +1,2034 @@
+{
+  "title": "Implementatiemodel Geluidsmeldingen en -metingen",
+  "uri": "https://data.test-vlaanderen.be/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20",
+  "issued": "2026-05-20",
+  "navigation": {
+    "self": "https://data.test-vlaanderen.be/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20"
+  },
+  "documenttype": "impl",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
+  "namespaces": [
+    "http://purl.org/dc/terms",
+    "http://purl.org/dc/dcmitype",
+    "http://www.w3.org/ns/sosa",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://www.w3.org/ns/ssn",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://dbpedia.org/ontology",
+    "http://www.w3.org/ns/prov",
+    "https://data.vlaanderen.be/ns/melding",
+    "https://data.vlaanderen.be/ns/omgevingsvergunning",
+    "https://schema.org",
+    "http://todo.com",
+    "https://data.vlaanderen.be/ns/waterkwaliteit",
+    "https://data.vlaanderen.be/ns/adres",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/2006/time",
+    "https://data.vlaanderen.be/ns/dossier",
+    "https://dbpedia.org/ontology",
+    "https://www.w3.org/ns/activitystreams",
+    "http://www.w3.org/ns/locn",
+    "http://www.opengis.net/ont/geosparql",
+    "https://data.vlaanderen.be/ns/verkeersmetingen",
+    "http://www.w3.org/ns/sosa/oms",
+    "http://www.w3.org/ns/oa",
+    "http://def.isotc211.org/iso19156/2011/SamplingFeature",
+    "http://www.opengis.net/ont/sf",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/ns/dqv",
+    "http://www.w3.org/ns/org"
+  ],
+  "authors": 4,
+  "editors": 3,
+  "contributors": 18,
+  "participants": 25,
+  "classes": 19,
+  "properties": 24,
+  "externalclasses": 43,
+  "externalproperties": 79,
+  "totalterms": 165,
+  "totalorganisations": 15,
+  "organisations": [
+    {
+      "affiliation": "munisense",
+      "participants": 1
+    },
+    {
+      "affiliation": "universiteitgent",
+      "participants": 3
+    },
+    {
+      "affiliation": "stadgent",
+      "participants": 4
+    },
+    {
+      "affiliation": "akron",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadleuven",
+      "participants": 3
+    },
+    {
+      "affiliation": "stadhasselt",
+      "participants": 2
+    },
+    {
+      "affiliation": "kuleuven",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadgenk",
+      "participants": 1
+    },
+    {
+      "affiliation": "sorama",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadantwerpen",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadbrugge",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementomgeving",
+      "participants": 1
+    },
+    {
+      "affiliation": "universiteitantwerpen",
+      "participants": 1
+    },
+    {
+      "affiliation": "asasense",
+      "participants": 1
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 3
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "jangodderis",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "timguily",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "bopeeters",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "carlvandebotermet",
+        "affiliation": "stadgent"
+      }
+    ],
+    "editors": [
+      {
+        "name": "michaelbezoen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jitsedecock",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "alexanderpotloot",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "georgeboersma",
+        "affiliation": "munisense"
+      },
+      {
+        "name": "dickbotteldooren",
+        "affiliation": "universiteitgent"
+      },
+      {
+        "name": "driesbruyneel",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "lucdekoninck",
+        "affiliation": "universiteitgent"
+      },
+      {
+        "name": "geertdierckx",
+        "affiliation": "akron"
+      },
+      {
+        "name": "sameeckhout",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "daniquegudders",
+        "affiliation": "stadhasselt"
+      },
+      {
+        "name": "peterkarsmakers",
+        "affiliation": "kuleuven"
+      },
+      {
+        "name": "krislemkens",
+        "affiliation": "stadgenk"
+      },
+      {
+        "name": "michelemartens",
+        "affiliation": "stadhasselt"
+      },
+      {
+        "name": "heijkerombaut",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "markvandenberk",
+        "affiliation": "sorama"
+      },
+      {
+        "name": "elsvanduyse",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "timothyvanrenterghem",
+        "affiliation": "universiteitgent"
+      },
+      {
+        "name": "idevandenbroucke",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "philippevanhaver",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "cedricvuye",
+        "affiliation": "universiteitantwerpen"
+      },
+      {
+        "name": "thomasweyn",
+        "affiliation": "asasense"
+      }
+    ],
+    "participants": [
+      {
+        "name": "georgeboersma",
+        "affiliation": "munisense"
+      },
+      {
+        "name": "dickbotteldooren",
+        "affiliation": "universiteitgent"
+      },
+      {
+        "name": "driesbruyneel",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "lucdekoninck",
+        "affiliation": "universiteitgent"
+      },
+      {
+        "name": "geertdierckx",
+        "affiliation": "akron"
+      },
+      {
+        "name": "sameeckhout",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "daniquegudders",
+        "affiliation": "stadhasselt"
+      },
+      {
+        "name": "peterkarsmakers",
+        "affiliation": "kuleuven"
+      },
+      {
+        "name": "krislemkens",
+        "affiliation": "stadgenk"
+      },
+      {
+        "name": "michelemartens",
+        "affiliation": "stadhasselt"
+      },
+      {
+        "name": "heijkerombaut",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "markvandenberk",
+        "affiliation": "sorama"
+      },
+      {
+        "name": "elsvanduyse",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "timothyvanrenterghem",
+        "affiliation": "universiteitgent"
+      },
+      {
+        "name": "idevandenbroucke",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "philippevanhaver",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "cedricvuye",
+        "affiliation": "universiteitantwerpen"
+      },
+      {
+        "name": "thomasweyn",
+        "affiliation": "asasense"
+      },
+      {
+        "name": "michaelbezoen",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jitsedecock",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "alexanderpotloot",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "jangodderis",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "timguily",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "bopeeters",
+        "affiliation": "stadleuven"
+      },
+      {
+        "name": "carlvandebotermet",
+        "affiliation": "stadgent"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Melding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Melding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Vergunning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vergunning"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/Activiteittype",
+        "label": [
+          {
+            "@value": "Activiteittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/waterkwaliteit#Meetpunt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meetpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adres",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Belgisch Adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#Meldingstatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Meldingstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#MeldingBody",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "MeldingBody"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "LangString"
+          },
+          {
+            "@value": "Langstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+        "label": [
+          {
+            "@value": "Date"
+          }
+        ]
+      },
+      {},
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Zaakhandeling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zaakhandeling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#BestuurlijkeRechtshandeling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bestuurlijke Rechtshandeling"
+          }
+        ]
+      },
+      {},
+      {}
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#openingsdatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "openingsdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#sluitingsdatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "sluitingsdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#Activiteit.einddatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "einddatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#Activiteit.startdatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "startdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#statusdatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "statusdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#webpagina",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "webpagina"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#ligging",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ligging"
+          },
+          {
+            "@language": "en",
+            "@value": "location"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#statuswaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#statuswijzigingDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "statuswijziging door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#heeftStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/uitvoerder",
+        "label": [
+          {
+            "@value": "uitvoerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/tijd",
+        "label": [
+          {
+            "@value": "tijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#type",
+        "label": [
+          {
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/plaats",
+        "label": [
+          {
+            "@value": "plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/melding#indiener",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "indiener"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#vindtPlaatsTijdens",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vindt plaats tijdens"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#behandelt",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "behandelt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/wasGeassocieerdMet",
+        "label": [
+          {
+            "@value": "wasGeassocieerdMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/dossier#AgentInRol.Activiteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zaak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#verwijstNaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwijstNaar"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/dcmitype/Collection",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verzameling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/FeatureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Sensor",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Sensor"
+          },
+          {
+            "@language": "nl",
+            "@value": "Sensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "ObservationProcedure"
+          },
+          {
+            "@language": "nl",
+            "@value": "Observatieprocedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/ObservationCollection",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatieverzameling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobjecttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/Input",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Input"
+          },
+          {
+            "@language": "nl",
+            "@value": "Input"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Observationproceduretype"
+          },
+          {
+            "@language": "nl",
+            "@value": "Observatieproceduretype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeemtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Any"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Property",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://dbpedia.org/ontology/Case",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zaak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Association",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent (in rol)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Activity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Resource"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Meldingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Activity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Event",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebeurtenis"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Plaats"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geografische Naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringsobjecttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/StructuredValue",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "NamedValue"
+          },
+          {
+            "@language": "nl",
+            "@value": "BenoemdeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Identifier"
+          },
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#TemporalEntity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#ProperInterval",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#Point",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Punt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/System",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/SpatialSample",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkMonster"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dqv#QualityMeasurement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwaliteitselement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Role",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Concept"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "https://schema.org/name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          },
+          {
+            "@language": "en",
+            "@value": "Name"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/references",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "specificatie"
+          },
+          {
+            "@language": "en",
+            "@value": "specification"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/resultTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaattijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/references",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentie"
+          },
+          {
+            "@language": "en",
+            "@value": "reference"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          },
+          {
+            "@language": "en",
+            "@value": "identifier"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door (String)"
+          },
+          {
+            "@language": "en",
+            "@value": "assignedByString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend op"
+          },
+          {
+            "@language": "en",
+            "@value": "assignedOn"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#inXSDDateTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "in XSD datumTijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://dbpedia.org/ontology/procedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "procedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/activitystreams#summary",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "samenvatting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "titel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/activitystreams#attachment",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bijlage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaatsnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledig adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#poBox",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postbus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatieaanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatienaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#addressArea",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adresgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 2"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 1"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          },
+          {
+            "@language": "en",
+            "@value": "Value"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/hasInput",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "input"
+          },
+          {
+            "@language": "en",
+            "@value": "input"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/hasOutput",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "output"
+          },
+          {
+            "@language": "en",
+            "@value": "ouptut"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://dbpedia.org/ontology/influencedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          },
+          {
+            "@language": "en",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fenomeentijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikteProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdMetsensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/phenomenonTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fenomeentijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/oms/validTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigeTijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://dbpedia.org/ontology/influencedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasResult",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/resultQuality",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaatkwaliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/resultTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaattijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/contributor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          },
+          {
+            "@language": "en",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekend door"
+          },
+          {
+            "@language": "en",
+            "@value": "assignedBy"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasEnd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2006/time#hasBeginning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#hadRole",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/oa#hasBody",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft body"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "meldingstype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#hasGeometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "behandelaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerd kenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasMember",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft lid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikteProcedure"
+          },
+          {
+            "@language": "en",
+            "@value": "usedProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/oa#hasTarget",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft doelwit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerd object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/isFeatureOfInterestOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waardeverschaffer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerde observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerd met"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/hasPart",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft lid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingFeature#SF_SamplingFeature.sampledFeature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bemonsterd object"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "munisense",
+        "names": [
+          {
+            "name": "georgeboersma",
+            "affiliation": "munisense"
+          }
+        ]
+      },
+      {
+        "affiliation": "universiteitgent",
+        "names": [
+          {
+            "name": "dickbotteldooren",
+            "affiliation": "universiteitgent"
+          },
+          {
+            "name": "lucdekoninck",
+            "affiliation": "universiteitgent"
+          },
+          {
+            "name": "timothyvanrenterghem",
+            "affiliation": "universiteitgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgent",
+        "names": [
+          {
+            "name": "driesbruyneel",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "heijkerombaut",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "jangodderis",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "carlvandebotermet",
+            "affiliation": "stadgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "akron",
+        "names": [
+          {
+            "name": "geertdierckx",
+            "affiliation": "akron"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadleuven",
+        "names": [
+          {
+            "name": "sameeckhout",
+            "affiliation": "stadleuven"
+          },
+          {
+            "name": "timguily",
+            "affiliation": "stadleuven"
+          },
+          {
+            "name": "bopeeters",
+            "affiliation": "stadleuven"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadhasselt",
+        "names": [
+          {
+            "name": "daniquegudders",
+            "affiliation": "stadhasselt"
+          },
+          {
+            "name": "michelemartens",
+            "affiliation": "stadhasselt"
+          }
+        ]
+      },
+      {
+        "affiliation": "kuleuven",
+        "names": [
+          {
+            "name": "peterkarsmakers",
+            "affiliation": "kuleuven"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgenk",
+        "names": [
+          {
+            "name": "krislemkens",
+            "affiliation": "stadgenk"
+          }
+        ]
+      },
+      {
+        "affiliation": "sorama",
+        "names": [
+          {
+            "name": "markvandenberk",
+            "affiliation": "sorama"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadantwerpen",
+        "names": [
+          {
+            "name": "elsvanduyse",
+            "affiliation": "stadantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadbrugge",
+        "names": [
+          {
+            "name": "idevandenbroucke",
+            "affiliation": "stadbrugge"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementomgeving",
+        "names": [
+          {
+            "name": "philippevanhaver",
+            "affiliation": "departementomgeving"
+          }
+        ]
+      },
+      {
+        "affiliation": "universiteitantwerpen",
+        "names": [
+          {
+            "name": "cedricvuye",
+            "affiliation": "universiteitantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "asasense",
+        "names": [
+          {
+            "name": "thomasweyn",
+            "affiliation": "asasense"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "michaelbezoen",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "jitsedecock",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "alexanderpotloot",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      }
+    ]
+  }
+}
