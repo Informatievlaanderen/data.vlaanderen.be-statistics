@@ -1,0 +1,4243 @@
+{
+  "title": "Mobiliteit",
+  "uri": "https://data.vlaanderen.be/doc/vocabularium/mobiliteit/erkendestandaard/2025-12-11",
+  "issued": "2025-12-11",
+  "navigation": {
+    "prev": "/doc/vocabularium/mobiliteit/kandidaatstandaard/2018-09-30",
+    "self": "https://data.vlaanderen.be/doc/vocabularium/mobiliteit/erkendestandaard/2025-12-11"
+  },
+  "documenttype": "voc",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
+  "namespaces": [
+    "http://data.vlaanderen.be/ns/besluit",
+    "http://purl.org/dc/terms",
+    "http://data.europa.eu/eli/ontology",
+    "http://www.w3.org/2004/02/skos/core",
+    "https://data.vlaanderen.be/ns/weg",
+    "https://data.vlaanderen.be/ns/mobiliteit",
+    "https://schema.org",
+    "http://vocab.gtfs.org/terms",
+    "http://lblod.data.gift/vocabularies/variables",
+    "https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel",
+    "https://w3id.org/tribont/core",
+    "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/ns/locn",
+    "https://data.vlaanderen.be/ns/adres",
+    "http://lblod.data.gift/variables",
+    "http://schema.org",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://purl.org/dc/elements/1.1",
+    "http://www.w3.org/2024/02/skos/core",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/ns/org",
+    "http://qudt.org/schema/qudt",
+    "http://www.cidoc-crm.org/cidoc-crm",
+    "https://w3id.org/isCharacterisedBy",
+    "http://www.w3.org/ns/prov",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://purl.org/vocab/cpsv",
+    "http://xmlns.com/foaf/0.1",
+    "https://data.vlaanderen.be/ns/generiek",
+    "http://xmlns.com/foaf/spec/",
+    "http://data.europa.eu/m8g"
+  ],
+  "authors": 12,
+  "editors": 2,
+  "contributors": 55,
+  "participants": 69,
+  "classes": 75,
+  "properties": 106,
+  "externalclasses": 64,
+  "externalproperties": 89,
+  "totalterms": 334,
+  "totalorganisations": 34,
+  "organisations": [
+    {
+      "affiliation": "stadgent",
+      "participants": 5
+    },
+    {
+      "affiliation": "nazareth",
+      "participants": 3
+    },
+    {
+      "affiliation": "sint-pieters-leeuw",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadantwerpen",
+      "participants": 6
+    },
+    {
+      "affiliation": "nevele",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapwegenenverkeer",
+      "participants": 2
+    },
+    {
+      "affiliation": "informatievlaanderen",
+      "participants": 8
+    },
+    {
+      "affiliation": "merkator",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadlier",
+      "participants": 2
+    },
+    {
+      "affiliation": "departementmow",
+      "participants": 2
+    },
+    {
+      "affiliation": "tenforce",
+      "participants": 1
+    },
+    {
+      "affiliation": "vvsg",
+      "participants": 2
+    },
+    {
+      "affiliation": "departementcjm",
+      "participants": 1
+    },
+    {
+      "affiliation": "bredene",
+      "participants": 4
+    },
+    {
+      "affiliation": "stadaalter",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadoostende",
+      "participants": 2
+    },
+    {
+      "affiliation": "stad",
+      "participants": 1
+    },
+    {
+      "affiliation": "vilvoorde",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadeeklo",
+      "participants": 1
+    },
+    {
+      "affiliation": "sint-gillis-waas",
+      "participants": 1
+    },
+    {
+      "affiliation": "boechout",
+      "participants": 1
+    },
+    {
+      "affiliation": "turnhout",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadaalst",
+      "participants": 3
+    },
+    {
+      "affiliation": "provincievlaamsbrabant",
+      "participants": 1
+    },
+    {
+      "affiliation": "londerzeel",
+      "participants": 2
+    },
+    {
+      "affiliation": "balen",
+      "participants": 2
+    },
+    {
+      "affiliation": "",
+      "participants": 2
+    },
+    {
+      "affiliation": "imec-mict-ugent",
+      "participants": 1
+    },
+    {
+      "affiliation": "imec-ugent",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapbinnenlandsbestuur",
+      "participants": 3
+    },
+    {
+      "affiliation": "redpencil.io",
+      "participants": 1
+    },
+    {
+      "affiliation": "pwc",
+      "participants": 3
+    },
+    {
+      "affiliation": "skryv",
+      "participants": 1
+    },
+    {
+      "affiliation": "imec–ugent",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "elsbossier",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "katriendesmet",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "domiendecloedt",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "johandelaure",
+        "affiliation": "redpencil.io"
+      },
+      {
+        "name": "jurgendooms",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "naomioste",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "christopheparrein",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "toontimbermont",
+        "affiliation": "skryv"
+      },
+      {
+        "name": "frederikvaneeghem",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "imec–ugent"
+      },
+      {
+        "name": "veroniquevolders",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "brechtwyns",
+        "affiliation": "pwc"
+      }
+    ],
+    "editors": [
+      {
+        "name": "mathiasvancompernolle",
+        "affiliation": "imec-mict-ugent"
+      },
+      {
+        "name": "brechtvandevyvere",
+        "affiliation": "imec-ugent"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "lienallaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "sharonaudoor",
+        "affiliation": "nazareth"
+      },
+      {
+        "name": "annelienbaes",
+        "affiliation": "sint-pieters-leeuw"
+      },
+      {
+        "name": "lienbakelants",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "samblok",
+        "affiliation": "nevele"
+      },
+      {
+        "name": "peterbogaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "christiaanbossier",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "bertboterbergh",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "gertbrams",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "jefdaems",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "lucdeheyn",
+        "affiliation": "merkator"
+      },
+      {
+        "name": "liesdemeulenaer",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "stevendepreter",
+        "affiliation": "stadlier"
+      },
+      {
+        "name": "elsdereyt",
+        "affiliation": "departementmow"
+      },
+      {
+        "name": "wouterderyck",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "bastiaandeblieck",
+        "affiliation": "tenforce"
+      },
+      {
+        "name": "erwindebruyne",
+        "affiliation": "vvsg"
+      },
+      {
+        "name": "roeldevriendt",
+        "affiliation": "departementcjm"
+      },
+      {
+        "name": "stijndobbelaere",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "sandra-liendubuy",
+        "affiliation": "bredene"
+      },
+      {
+        "name": "anne-liesgoossens",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "lucjanssens",
+        "affiliation": "stadlier"
+      },
+      {
+        "name": "sarajoly",
+        "affiliation": "stadaalter"
+      },
+      {
+        "name": "verhaeghejonas",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "didierjonckheere",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "petermoreels",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "gerdmorren",
+        "affiliation": "stad"
+      },
+      {
+        "name": "bertmuyldermans",
+        "affiliation": "vilvoorde"
+      },
+      {
+        "name": "verbruggennicole",
+        "affiliation": "stadeeklo"
+      },
+      {
+        "name": "ludwignoppe",
+        "affiliation": "nazareth"
+      },
+      {
+        "name": "hubertschmitt",
+        "affiliation": "bredene"
+      },
+      {
+        "name": "philippesmeets",
+        "affiliation": "sint-gillis-waas"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "sofiethoné",
+        "affiliation": "boechout"
+      },
+      {
+        "name": "verbeketom",
+        "affiliation": "bredene"
+      },
+      {
+        "name": "stephentuerlinckx",
+        "affiliation": "departementmow"
+      },
+      {
+        "name": "katrienvandaele",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "bartvandevoorde",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "karolienvandenbroeck",
+        "affiliation": "turnhout"
+      },
+      {
+        "name": "geertvangaever",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "wardvanhal",
+        "affiliation": "vvsg"
+      },
+      {
+        "name": "jokevanhoeymissen",
+        "affiliation": "nazareth"
+      },
+      {
+        "name": "ingevanmechelen",
+        "affiliation": "bredene"
+      },
+      {
+        "name": "tomvanneyghem",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "tessavanreyn",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "patrickvandijck",
+        "affiliation": "provincievlaamsbrabant"
+      },
+      {
+        "name": "ilsevanhofe",
+        "affiliation": "londerzeel"
+      },
+      {
+        "name": "anneverbeeck",
+        "affiliation": "balen"
+      },
+      {
+        "name": "jorisverbeken",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "beritverhelst",
+        "affiliation": ""
+      },
+      {
+        "name": "wouterverhelst",
+        "affiliation": ""
+      },
+      {
+        "name": "gertvermeiren",
+        "affiliation": "londerzeel"
+      },
+      {
+        "name": "lievevijverman",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "grietwielockx",
+        "affiliation": "balen"
+      }
+    ],
+    "participants": [
+      {
+        "name": "lienallaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "sharonaudoor",
+        "affiliation": "nazareth"
+      },
+      {
+        "name": "annelienbaes",
+        "affiliation": "sint-pieters-leeuw"
+      },
+      {
+        "name": "lienbakelants",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "samblok",
+        "affiliation": "nevele"
+      },
+      {
+        "name": "peterbogaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "christiaanbossier",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "bertboterbergh",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "gertbrams",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "jefdaems",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "lucdeheyn",
+        "affiliation": "merkator"
+      },
+      {
+        "name": "liesdemeulenaer",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "stevendepreter",
+        "affiliation": "stadlier"
+      },
+      {
+        "name": "elsdereyt",
+        "affiliation": "departementmow"
+      },
+      {
+        "name": "wouterderyck",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "bastiaandeblieck",
+        "affiliation": "tenforce"
+      },
+      {
+        "name": "erwindebruyne",
+        "affiliation": "vvsg"
+      },
+      {
+        "name": "roeldevriendt",
+        "affiliation": "departementcjm"
+      },
+      {
+        "name": "stijndobbelaere",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "sandra-liendubuy",
+        "affiliation": "bredene"
+      },
+      {
+        "name": "anne-liesgoossens",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "lucjanssens",
+        "affiliation": "stadlier"
+      },
+      {
+        "name": "sarajoly",
+        "affiliation": "stadaalter"
+      },
+      {
+        "name": "verhaeghejonas",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "didierjonckheere",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "petermoreels",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "gerdmorren",
+        "affiliation": "stad"
+      },
+      {
+        "name": "bertmuyldermans",
+        "affiliation": "vilvoorde"
+      },
+      {
+        "name": "verbruggennicole",
+        "affiliation": "stadeeklo"
+      },
+      {
+        "name": "ludwignoppe",
+        "affiliation": "nazareth"
+      },
+      {
+        "name": "hubertschmitt",
+        "affiliation": "bredene"
+      },
+      {
+        "name": "philippesmeets",
+        "affiliation": "sint-gillis-waas"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "sofiethoné",
+        "affiliation": "boechout"
+      },
+      {
+        "name": "verbeketom",
+        "affiliation": "bredene"
+      },
+      {
+        "name": "stephentuerlinckx",
+        "affiliation": "departementmow"
+      },
+      {
+        "name": "katrienvandaele",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "bartvandevoorde",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "karolienvandenbroeck",
+        "affiliation": "turnhout"
+      },
+      {
+        "name": "geertvangaever",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "wardvanhal",
+        "affiliation": "vvsg"
+      },
+      {
+        "name": "jokevanhoeymissen",
+        "affiliation": "nazareth"
+      },
+      {
+        "name": "ingevanmechelen",
+        "affiliation": "bredene"
+      },
+      {
+        "name": "tomvanneyghem",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "tessavanreyn",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "patrickvandijck",
+        "affiliation": "provincievlaamsbrabant"
+      },
+      {
+        "name": "ilsevanhofe",
+        "affiliation": "londerzeel"
+      },
+      {
+        "name": "anneverbeeck",
+        "affiliation": "balen"
+      },
+      {
+        "name": "jorisverbeken",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "beritverhelst",
+        "affiliation": ""
+      },
+      {
+        "name": "wouterverhelst",
+        "affiliation": ""
+      },
+      {
+        "name": "gertvermeiren",
+        "affiliation": "londerzeel"
+      },
+      {
+        "name": "lievevijverman",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "grietwielockx",
+        "affiliation": "balen"
+      },
+      {
+        "name": "mathiasvancompernolle",
+        "affiliation": "imec-mict-ugent"
+      },
+      {
+        "name": "brechtvandevyvere",
+        "affiliation": "imec-ugent"
+      },
+      {
+        "name": "elsbossier",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "katriendesmet",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "domiendecloedt",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "johandelaure",
+        "affiliation": "redpencil.io"
+      },
+      {
+        "name": "jurgendooms",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "naomioste",
+        "affiliation": "informatievlaanderen"
+      },
+      {
+        "name": "christopheparrein",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "toontimbermont",
+        "affiliation": "skryv"
+      },
+      {
+        "name": "frederikvaneeghem",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "imec–ugent"
+      },
+      {
+        "name": "veroniquevolders",
+        "affiliation": "agentschapbinnenlandsbestuur"
+      },
+      {
+        "name": "brechtwyns",
+        "affiliation": "pwc"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/besluit#TijdelijkReglement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdelijk Reglement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/besluit#AanvullendReglement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aanvullend Reglement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/besluit#Signalisatievergunning",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Signalisatievergunning"
+          },
+          {
+            "@language": "en",
+            "@value": "Signaling permit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/besluit#Artikel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Artikel"
+          },
+          {
+            "@language": "en",
+            "@value": "Article"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/besluit#Besluit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Besluit"
+          },
+          {
+            "@language": "en",
+            "@value": "Resolution"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/weg#TransportLinkSet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Transport Link Set"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#VerkeersbordVerkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersbord-verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersteken"
+          },
+          {
+            "@language": "en",
+            "@value": "Traffic sign"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitshindergevolg",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Mobiliteitshindergevolg"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Inname",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Inname"
+          },
+          {
+            "@language": "en",
+            "@value": "Intake"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitsmaatregel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Mobiliteitsmaatregel"
+          },
+          {
+            "@language": "en",
+            "@value": "Mobility Measure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Synergieaanvraag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Synergieaanvraag"
+          },
+          {
+            "@language": "en",
+            "@value": "Synergy application"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Samenwerkingsaanvraag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Samenwerkingsaanvraag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#RuimtelijkConflict",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ruimtelijk Conflict"
+          },
+          {
+            "@language": "en",
+            "@value": "Spatial Conflict"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerstekenconcept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeerstekenconcept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Innamezone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Innamezone"
+          },
+          {
+            "@language": "en",
+            "@value": "Zone of intake"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Synergie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Synergie"
+          },
+          {
+            "@language": "en",
+            "@value": "Synergy"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Project",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Project"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Zone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Signalisatieplan",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Signalisatieplan"
+          },
+          {
+            "@language": "en",
+            "@value": "signaling plan"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Advies",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Advies"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Innameverbod",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Innameverbod"
+          },
+          {
+            "@language": "en",
+            "@value": "Intake prohibition"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Omleiding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Omleiding"
+          },
+          {
+            "@language": "en",
+            "@value": "Detour"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersmaatregel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersmaatregel"
+          },
+          {
+            "@language": "en",
+            "@value": "Traffic Measure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Samenwerkingsantwoord",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Cooperation response"
+          },
+          {
+            "@language": "nl",
+            "@value": "Samenwerkingsantwoord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Werken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Werken"
+          },
+          {
+            "@language": "en",
+            "@value": "Work"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitshinder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Mobiliteitshinder"
+          },
+          {
+            "@language": "en",
+            "@value": "Mobility Hindrance"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#MobiliteitsmaatregelOntwerp",
+        "label": [
+          {
+            "@value": "MobiliteitsmaatregelOntwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#AanvullendReglementOntwerp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aanvullend reglement ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#OntwerpVerkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ontwerp voor verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersbordconcept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Wegmarkeringconcept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegmarkeringsconcept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerslichtconcept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeerslichtconcept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitsmaatregelconcept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Mobiliteitsmaatregelconcept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#HeeftOntwerp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Heeft Ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Template",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Template"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#WegmarkeringVerkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegmarkering verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#VerkeerslichtVerkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeerslicht verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Pictogram",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Pictogram"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#SignalisatieOntwerp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Signalisatie ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#MaatregelVerkeerstekenLijstItem",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Maatregel Verkeersteken Lijst item"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#HeeftBetrokkene",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Heeft Betrokkene"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#BevatVerkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bevat Verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#BevatMaatregelOntwerp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bevat Maatregel Ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Relatieobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#ContactinfoVolgensRol",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ContactinfoVolgensRol"
+          },
+          {
+            "@language": "en",
+            "@value": "ContactpointByRole"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#date",
+        "label": [
+          {
+            "@value": "Date"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#int",
+        "label": [
+          {
+            "@value": "int"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "boolean"
+          },
+          {
+            "@value": "Boolean"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Conflict",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Conflict"
+          },
+          {
+            "@language": "en",
+            "@value": "Conflict"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Samenwerkingsaanvraag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Samenwerkingsaanvraag"
+          },
+          {
+            "@language": "en",
+            "@value": "Cooperation request"
+          }
+        ]
+      },
+      {},
+      {},
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Advies",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Advies"
+          },
+          {
+            "@language": "en",
+            "@value": "Advice"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Samenwerkingsantwoord",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "Cooperation response"
+          },
+          {
+            "@language": "nl",
+            "@value": "Samenwerkingsantwoord"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject",
+        "label": [
+          {
+            "@value": "AWV-Implementatieelement:RelatieObject"
+          }
+        ]
+      },
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "huisnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.busnummer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "busnummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gemeentenaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/besluit#motivering",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "motivation"
+          },
+          {
+            "@language": "nl",
+            "@value": "motivering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "land"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#GIPODContactInfo.rol",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "role"
+          },
+          {
+            "@language": "nl",
+            "@value": "rol"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#GIPODContactInfo.isPubliek",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "is public"
+          },
+          {
+            "@language": "nl",
+            "@value": "is publiek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#isBeginZone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is begin zone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#isEindeZone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is einde zone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#openbaarDomein",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "public domain"
+          },
+          {
+            "@language": "nl",
+            "@value": "openbaar domein"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Samenwerkingsaanvraag.lanceringsdatum",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "launch date"
+          },
+          {
+            "@language": "nl",
+            "@value": "lanceringsdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#coordinatieVergaderingsdatum",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "coordination meeting date"
+          },
+          {
+            "@language": "nl",
+            "@value": "coÃ¶rdinatievergaderingsdatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#registratieDatum",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "registration date"
+          },
+          {
+            "@language": "nl",
+            "@value": "registratiedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Samenwerkingsantwoord.antwoordDatum",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "response date"
+          },
+          {
+            "@language": "nl",
+            "@value": "antwoorddatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Samenwerkingsantwoord.gaatAkkoord",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "agrees"
+          },
+          {
+            "@language": "nl",
+            "@value": "gaat akkoord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Werken.tijdsduur",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "time length"
+          },
+          {
+            "@language": "nl",
+            "@value": "tijdsduur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Werken.verplaatsingswerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verplaatsingswerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Werken.voorlopigeOplevering",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "tentative delivery"
+          },
+          {
+            "@language": "nl",
+            "@value": "voorlopige oplevering"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#variabeleSignalisatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "variabele signalisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#naam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#datum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "datum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeerstekenconcept.ARplichtig",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AR-plichtig"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#AIMDBStatus.isActief",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is actief"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#geschatteDuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geschatte duur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#plaatsbepaling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaatsbepaling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#periode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdsinterval"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/besluit#Signalisatievergunning.verguntType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vergunt type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#periode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdsinterval"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#regelgevendKader",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "regelgevend kader"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#VLAGAIMToestand.toestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#gevolg",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gevolg"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Inname.status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitsmaatregel.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Synergieaanvraag.volgensAfspraken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volgens afspraken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#RuimtelijkConflict.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          },
+          {
+            "@language": "en",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#aanvraagStatus",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "request status"
+          },
+          {
+            "@language": "nl",
+            "@value": "aanvraagstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#bijlage",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "attachment"
+          },
+          {
+            "@language": "nl",
+            "@value": "bijlage"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Samenwerkingsaanvraag.uitersteAntwoorddatum",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uiterste antwoorddatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#synergieStatus",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "synergy status"
+          },
+          {
+            "@language": "nl",
+            "@value": "synergiestatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Synergie.volgensAfspraken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volgens afspraken"
+          },
+          {
+            "@language": "en",
+            "@value": "according to agreements"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Zone.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersteken.wettelijkeStatus",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wettelijke status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#buitenwerkingtreding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "buitenwerkingtreding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#inwerkingstijd",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "inwerkingtreding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Project.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Innameverbod.categorie",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "category"
+          },
+          {
+            "@language": "nl",
+            "@value": "categorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftRoute",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft route"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#betrokkenOrganisatie",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "involved organization"
+          },
+          {
+            "@language": "nl",
+            "@value": "betrokken organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Werken.categorie",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "category"
+          },
+          {
+            "@language": "nl",
+            "@value": "categorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Inname.periodeGepland",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "planned period"
+          },
+          {
+            "@language": "nl",
+            "@value": "geplande periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Inname.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          },
+          {
+            "@language": "en",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftBetrekkingOpInnamezone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft betrekking op innamezone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitshinder.type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          },
+          {
+            "@language": "en",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#verhindert",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "obstructs"
+          },
+          {
+            "@language": "nl",
+            "@value": "verhindert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#zonaliteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zonaliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#variabele",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "variabele"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#codelijst",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "codelijst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftInstructie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "instructie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#geplandePeriode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geplande periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftBetrekkingTot",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft betrekking tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#periode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#zone",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#wordtAangeduidDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wordt aangeduid door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#template",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "template"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#bevatVerkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bevat verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#contactOrganisatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "contactorganisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#beheerder",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beheerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#grafischeWeergave",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "grafische weergave"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#conformStandaard",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "conform standaard"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#adviseert",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adviseert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#doelgroep",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "doelgroep"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#verkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftStandaardVorm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft standaard vorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftVerkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "signalisatieOntwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.doel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#magVerkeerstekenconceptBevatten",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "mag verkeerstekenconcept bevatten"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftOorzaakWerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft oorzaak werk"
+          },
+          {
+            "@language": "en",
+            "@value": "caused by work"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitshinder.heeftGevolg",
+        "label": [
+          {
+            "@value": "heeftGevolg"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitsmaatregel.heeftGevolg",
+        "label": [
+          {
+            "@value": "heeftGevolg"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Verkeersmaatregel.verwijstNaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verwijst naar"
+          },
+          {
+            "@language": "en",
+            "@value": "refers to"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#wordtAangeduidDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wordt aangeduid door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#vereist",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vereist"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitsmaatregel.vereist",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vereist"
+          },
+          {
+            "@language": "en",
+            "@value": "requires"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Inname.vereist",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vereist"
+          },
+          {
+            "@language": "en",
+            "@value": "requires"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitshinder.heeftGevolg",
+        "label": [
+          {
+            "@value": "heeftGevolg"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#Inname.heeftGevolg",
+        "label": [
+          {
+            "@value": "heeftGevolg"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftGevolg",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft gevolg"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftOnderbord",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft onderbord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftTransportLinkSet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft transportlinkset"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#isOntwerpVoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is ontwerp voor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#bevatVerkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bevat verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftMogelijkOnderbord",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft mogelijk onderbord"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftMaatregelconcept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft maatregelconcept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#variabele",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "definieert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#isGebaseerdOpMaatregelOntwerp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gebaseerd op maatregel ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#ontwerpVanMaatregel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ontwerp van maatregel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#wordtAangeduidDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wordt aangeduid door"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#heeftOntwerp",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ontwerpverkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.doel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aanvullend reglement in ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Aanvullend Reglement Ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.doel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Mobiliteitsmaatregel Ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/mobiliteit#bevatVerkeersteken",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bevat verkeersteken"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.bron",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "signalisatieOntwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#RelatieObject.doel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ontwerpverkeersteken"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rechtsgrondonderdeel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Synergiestatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersbordcategorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Verbodscategorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Zonetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/OpeningHoursSpecification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Openingsurenspecificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Projectstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://vocab.gtfs.org/terms#Stop",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Halte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Aanvraagstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Conflict-ernst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://vocab.gtfs.org/terms#Route",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Route"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Conflicttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Afsprakenlijst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Projecttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://lblod.data.gift/vocabularies/variables/VariableWithResourceValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Variabele met verwijzing"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://lblod.data.gift/vocabularies/variables/Variable",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Variabele"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://lblod.data.gift/vocabularies/variables/VariableWithLiteralValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Variabele met waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://lblod.data.gift/vocabularies/variables/VariableInstanceWithLiteralValue",
+        "label": [
+          {
+            "@value": "VariabeleInstantieMetWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://lblod.data.gift/vocabularies/variables/VariableInstance",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Variabele instantie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://lblod.data.gift/vocabularies/variables/VariableInstanceWithResourceValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Variabele instantie met verwijzing"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://lblod.data.gift/vocabularies/variables/VariableWithLocationValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Variabele met locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Maatregelontwerpstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "SignalisatieOntwerpStatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeerstekenontwerpstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Besluittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Variabele Type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeerstekenconcept Status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zonaliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeersbordcategorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Type grootheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Codelijst type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://w3id.org/tribont/core#Shape",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Codelijst"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Standaardeenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vorm type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Concept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Verkeerstekenstatus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://lblod.data.gift/vocabularies/variables/VariableInstanceWithLocationValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Variabele instantie met locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Resource"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dimensie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/vocab/cpsv#FormalFramework",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Formeel Kader"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#LegalExpression",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Legale Verschijningsvorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/0.1/Document",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Document"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#LegalResource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rechtsgrond"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ContactPoint",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Contactpunt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Activity",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Activiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Concept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://xmlns.com/foaf/spec/#term_Project",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Project"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/ListItem",
+        "label": [
+          {
+            "@value": "LijstItem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@value": "TaalString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TijdsInterval"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Signalisatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Besluittype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Code"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Schedule",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tijdschema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "GetypeerdeString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@value": "Resource"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/m8g/PeriodOfTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#Organization",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Organisatie"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "volledig adres"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#poBox",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postbus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "straatnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatieaanduiding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#locatorName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatienaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#addressArea",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adresgebied"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL2",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 2"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#adminUnitL1",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "administratieve eenheid niveau 1"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#postCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "postcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#number",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nummer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#title_short",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "citeeropschrift"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.europa.eu/eli/ontology#date_publication",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "publicatiedatum"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://lblod.data.gift/variables/defaultValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaard waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/position",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "positie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/validUntil",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldig tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkeursnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/position",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "positie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/validFrom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldig vanaf"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Label"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "label"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "label"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2024/02/skos/core#prefLabel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "label"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "locatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://lblod.data.gift/vocabularies/variables/required",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vereist"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgegeven op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/contributor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bijdrager"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/eventSchedule",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdschema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#classification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "classificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/contributor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bijdrager"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@value": "adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/contactPoint",
+        "label": [
+          {
+            "@value": "contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zone"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#address",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "adresvoorstelling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/eventSchedule",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdschema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/eventSchedule",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tijdschema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://lblod.data.gift/variables/defaultValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaard waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://qudt.org/schema/qudt/hasUnit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaard eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://qudt.org/schema/qudt/hasQuantityKind",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type grootheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "classificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "zonaliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vorm type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "dimensie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/publisher",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "verantwoordelijke organisatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefSymbol",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afbeelding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/isPartOf",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is onderdeel van"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://w3id.org/isCharacterisedBy#isCharacterisedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft mogelijke vorm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebaseerd op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/org#classification",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "classificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/item",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft verkeersteken lijstitem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://schema.org/item",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "heeft verkeersteken lijstitem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebaseerd op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebaseerd op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#inScheme",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "behoort tot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/hasPart",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bevat ontwerp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "is gebaseerd op"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/references",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bevat maatregel ontwerp"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "stadgent",
+        "names": [
+          {
+            "name": "lienallaert",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "peterbogaert",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "stijndobbelaere",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "anne-liesgoossens",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "verhaeghejonas",
+            "affiliation": "stadgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "nazareth",
+        "names": [
+          {
+            "name": "sharonaudoor",
+            "affiliation": "nazareth"
+          },
+          {
+            "name": "ludwignoppe",
+            "affiliation": "nazareth"
+          },
+          {
+            "name": "jokevanhoeymissen",
+            "affiliation": "nazareth"
+          }
+        ]
+      },
+      {
+        "affiliation": "sint-pieters-leeuw",
+        "names": [
+          {
+            "name": "annelienbaes",
+            "affiliation": "sint-pieters-leeuw"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadantwerpen",
+        "names": [
+          {
+            "name": "lienbakelants",
+            "affiliation": "stadantwerpen"
+          },
+          {
+            "name": "christiaanbossier",
+            "affiliation": "stadantwerpen"
+          },
+          {
+            "name": "gertbrams",
+            "affiliation": "stadantwerpen"
+          },
+          {
+            "name": "petermoreels",
+            "affiliation": "stadantwerpen"
+          },
+          {
+            "name": "bartvandevoorde",
+            "affiliation": "stadantwerpen"
+          },
+          {
+            "name": "tessavanreyn",
+            "affiliation": "stadantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "nevele",
+        "names": [
+          {
+            "name": "samblok",
+            "affiliation": "nevele"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapwegenenverkeer",
+        "names": [
+          {
+            "name": "bertboterbergh",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "geertvangaever",
+            "affiliation": "agentschapwegenenverkeer"
+          }
+        ]
+      },
+      {
+        "affiliation": "informatievlaanderen",
+        "names": [
+          {
+            "name": "rafbuyle",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "jefdaems",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "liesdemeulenaer",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "wouterderyck",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "geertthijs",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "elsbossier",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "jurgendooms",
+            "affiliation": "informatievlaanderen"
+          },
+          {
+            "name": "naomioste",
+            "affiliation": "informatievlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "merkator",
+        "names": [
+          {
+            "name": "lucdeheyn",
+            "affiliation": "merkator"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadlier",
+        "names": [
+          {
+            "name": "stevendepreter",
+            "affiliation": "stadlier"
+          },
+          {
+            "name": "lucjanssens",
+            "affiliation": "stadlier"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementmow",
+        "names": [
+          {
+            "name": "elsdereyt",
+            "affiliation": "departementmow"
+          },
+          {
+            "name": "stephentuerlinckx",
+            "affiliation": "departementmow"
+          }
+        ]
+      },
+      {
+        "affiliation": "tenforce",
+        "names": [
+          {
+            "name": "bastiaandeblieck",
+            "affiliation": "tenforce"
+          }
+        ]
+      },
+      {
+        "affiliation": "vvsg",
+        "names": [
+          {
+            "name": "erwindebruyne",
+            "affiliation": "vvsg"
+          },
+          {
+            "name": "wardvanhal",
+            "affiliation": "vvsg"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementcjm",
+        "names": [
+          {
+            "name": "roeldevriendt",
+            "affiliation": "departementcjm"
+          }
+        ]
+      },
+      {
+        "affiliation": "bredene",
+        "names": [
+          {
+            "name": "sandra-liendubuy",
+            "affiliation": "bredene"
+          },
+          {
+            "name": "hubertschmitt",
+            "affiliation": "bredene"
+          },
+          {
+            "name": "verbeketom",
+            "affiliation": "bredene"
+          },
+          {
+            "name": "ingevanmechelen",
+            "affiliation": "bredene"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadaalter",
+        "names": [
+          {
+            "name": "sarajoly",
+            "affiliation": "stadaalter"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadoostende",
+        "names": [
+          {
+            "name": "didierjonckheere",
+            "affiliation": "stadoostende"
+          },
+          {
+            "name": "katrienvandaele",
+            "affiliation": "stadoostende"
+          }
+        ]
+      },
+      {
+        "affiliation": "stad",
+        "names": [
+          {
+            "name": "gerdmorren",
+            "affiliation": "stad"
+          }
+        ]
+      },
+      {
+        "affiliation": "vilvoorde",
+        "names": [
+          {
+            "name": "bertmuyldermans",
+            "affiliation": "vilvoorde"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadeeklo",
+        "names": [
+          {
+            "name": "verbruggennicole",
+            "affiliation": "stadeeklo"
+          }
+        ]
+      },
+      {
+        "affiliation": "sint-gillis-waas",
+        "names": [
+          {
+            "name": "philippesmeets",
+            "affiliation": "sint-gillis-waas"
+          }
+        ]
+      },
+      {
+        "affiliation": "boechout",
+        "names": [
+          {
+            "name": "sofiethoné",
+            "affiliation": "boechout"
+          }
+        ]
+      },
+      {
+        "affiliation": "turnhout",
+        "names": [
+          {
+            "name": "karolienvandenbroeck",
+            "affiliation": "turnhout"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadaalst",
+        "names": [
+          {
+            "name": "tomvanneyghem",
+            "affiliation": "stadaalst"
+          },
+          {
+            "name": "jorisverbeken",
+            "affiliation": "stadaalst"
+          },
+          {
+            "name": "lievevijverman",
+            "affiliation": "stadaalst"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincievlaamsbrabant",
+        "names": [
+          {
+            "name": "patrickvandijck",
+            "affiliation": "provincievlaamsbrabant"
+          }
+        ]
+      },
+      {
+        "affiliation": "londerzeel",
+        "names": [
+          {
+            "name": "ilsevanhofe",
+            "affiliation": "londerzeel"
+          },
+          {
+            "name": "gertvermeiren",
+            "affiliation": "londerzeel"
+          }
+        ]
+      },
+      {
+        "affiliation": "balen",
+        "names": [
+          {
+            "name": "anneverbeeck",
+            "affiliation": "balen"
+          },
+          {
+            "name": "grietwielockx",
+            "affiliation": "balen"
+          }
+        ]
+      },
+      {
+        "affiliation": "",
+        "names": [
+          {
+            "name": "beritverhelst",
+            "affiliation": ""
+          },
+          {
+            "name": "wouterverhelst",
+            "affiliation": ""
+          }
+        ]
+      },
+      {
+        "affiliation": "imec-mict-ugent",
+        "names": [
+          {
+            "name": "mathiasvancompernolle",
+            "affiliation": "imec-mict-ugent"
+          }
+        ]
+      },
+      {
+        "affiliation": "imec-ugent",
+        "names": [
+          {
+            "name": "brechtvandevyvere",
+            "affiliation": "imec-ugent"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapbinnenlandsbestuur",
+        "names": [
+          {
+            "name": "katriendesmet",
+            "affiliation": "agentschapbinnenlandsbestuur"
+          },
+          {
+            "name": "domiendecloedt",
+            "affiliation": "agentschapbinnenlandsbestuur"
+          },
+          {
+            "name": "veroniquevolders",
+            "affiliation": "agentschapbinnenlandsbestuur"
+          }
+        ]
+      },
+      {
+        "affiliation": "redpencil.io",
+        "names": [
+          {
+            "name": "johandelaure",
+            "affiliation": "redpencil.io"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwc",
+        "names": [
+          {
+            "name": "christopheparrein",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "frederikvaneeghem",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "brechtwyns",
+            "affiliation": "pwc"
+          }
+        ]
+      },
+      {
+        "affiliation": "skryv",
+        "names": [
+          {
+            "name": "toontimbermont",
+            "affiliation": "skryv"
+          }
+        ]
+      },
+      {
+        "affiliation": "imec–ugent",
+        "names": [
+          {
+            "name": "evelinevlassenroot",
+            "affiliation": "imec–ugent"
+          }
+        ]
+      }
+    ]
+  }
+}
