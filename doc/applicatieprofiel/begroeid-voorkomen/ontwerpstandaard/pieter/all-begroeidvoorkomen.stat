@@ -1,0 +1,1647 @@
+{
+  "title": "Begroeid Voorkomen (Applicatieprofiel)",
+  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/begroeid-voorkomen/ontwerpstandaard/pieter",
+  "issued": "2021-09-30",
+  "navigation": {
+    "prev": "/doc/applicatieprofiel/begroeid-voorkomen/erkendestandaard/2021-09-30",
+    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/begroeid-voorkomen/ontwerpstandaard/pieter"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "statuslabel": "Erkende Standaard",
+  "namespaces": [
+    "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen",
+    "https://data.vlaanderen.be/ns/openbaardomein/terreindeel",
+    "https://data.vlaanderen.be/ns/openbaardomein",
+    "http://www.w3.org/2004/02/skos/core",
+    "https://schema.org",
+    "http://open.vocab.org/terms",
+    "http://rs.tdwg.org/dwc/terms",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://www.w3.org/2001/XMLSchema",
+    "https://data.vlaanderen.be/ns/generiek"
+  ],
+  "authors": 1,
+  "editors": 4,
+  "contributors": 49,
+  "participants": 54,
+  "classes": 48,
+  "properties": 8,
+  "externalclasses": 9,
+  "externalproperties": 7,
+  "totalterms": 72,
+  "totalorganisations": 33,
+  "organisations": [
+    {
+      "affiliation": "provincieantwerpen",
+      "participants": 1
+    },
+    {
+      "affiliation": "verenigingvooropenbaargroen",
+      "participants": 1
+    },
+    {
+      "affiliation": "staddeinze",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapwegenenverkeer",
+      "participants": 6
+    },
+    {
+      "affiliation": "stadgent",
+      "participants": 2
+    },
+    {
+      "affiliation": "federaleoverheidsdienstbeleidenondersteuning",
+      "participants": 2
+    },
+    {
+      "affiliation": "tmvw",
+      "participants": 1
+    },
+    {
+      "affiliation": "geosparc",
+      "participants": 2
+    },
+    {
+      "affiliation": "hogeschoolgent",
+      "participants": 3
+    },
+    {
+      "affiliation": "stadantwerpen",
+      "participants": 3
+    },
+    {
+      "affiliation": "provincieoost-vlaanderen",
+      "participants": 3
+    },
+    {
+      "affiliation": "stadaalst",
+      "participants": 3
+    },
+    {
+      "affiliation": "stadoostende",
+      "participants": 1
+    },
+    {
+      "affiliation": "elia",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadsint-niklaas",
+      "participants": 2
+    },
+    {
+      "affiliation": "g.i.m.-geographicinformationmanagement",
+      "participants": 1
+    },
+    {
+      "affiliation": "eurosense",
+      "participants": 1
+    },
+    {
+      "affiliation": "gemeenteputte",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadlier",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapvoornatuurenbos",
+      "participants": 1
+    },
+    {
+      "affiliation": "geo-it",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementomgeving",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadbrugge",
+      "participants": 1
+    },
+    {
+      "affiliation": "devlaamsewaterwegnv",
+      "participants": 1
+    },
+    {
+      "affiliation": "vlaamsemilieumaatschappij",
+      "participants": 2
+    },
+    {
+      "affiliation": "hogeschoolpxl",
+      "participants": 1
+    },
+    {
+      "affiliation": "gemeenteevergem",
+      "participants": 1
+    },
+    {
+      "affiliation": "provincievlaams-brabant",
+      "participants": 1
+    },
+    {
+      "affiliation": "digitaalvlaanderen",
+      "participants": 2
+    },
+    {
+      "affiliation": "west-vlaamseintercommunale",
+      "participants": 1
+    },
+    {
+      "affiliation": "cevi",
+      "participants": 1
+    },
+    {
+      "affiliation": "ugent",
+      "participants": 1
+    },
+    {
+      "affiliation": "pwc",
+      "participants": 3
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "liesbetdewolf",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "editors": [
+      {
+        "name": "timbaert",
+        "affiliation": "ugent"
+      },
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "jensscheerlinck",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "dimitrischepers",
+        "affiliation": "pwc"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "isoldeaelvoet",
+        "affiliation": "provincieantwerpen"
+      },
+      {
+        "name": "emmanuelampe",
+        "affiliation": "verenigingvooropenbaargroen"
+      },
+      {
+        "name": "samblok",
+        "affiliation": "staddeinze"
+      },
+      {
+        "name": "natashablommaert",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "peterbogaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "marcbruyland",
+        "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+      },
+      {
+        "name": "nicolasdeblieck",
+        "affiliation": "tmvw"
+      },
+      {
+        "name": "berdienderoo",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "kristienderouck",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "driesdesmedt",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "stevendevriendt",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "jandewael",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "ellendebever",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "rubendeblauwe",
+        "affiliation": "elia"
+      },
+      {
+        "name": "pieterdeckers",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "dennisdevriendt",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "liesbetdhondt",
+        "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+      },
+      {
+        "name": "mariodumon",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "diedrikgaus",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "bartgoossens",
+        "affiliation": "stadsint-niklaas"
+      },
+      {
+        "name": "anheirman",
+        "affiliation": "g.i.m.-geographicinformationmanagement"
+      },
+      {
+        "name": "victoriajadot",
+        "affiliation": "eurosense"
+      },
+      {
+        "name": "johanjanssens",
+        "affiliation": "gemeenteputte"
+      },
+      {
+        "name": "lucjanssens",
+        "affiliation": "stadlier"
+      },
+      {
+        "name": "jolaps",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "pieterlauwereys",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "filipmahieu",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "olivermay",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "janmenschaert",
+        "affiliation": "agentschapvoornatuurenbos"
+      },
+      {
+        "name": "marleenmoelants",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "bartmouton",
+        "affiliation": "geo-it"
+      },
+      {
+        "name": "lukmutsaerts",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "elspodevyn",
+        "affiliation": "stadsint-niklaas"
+      },
+      {
+        "name": "jamieproost",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "reinhildeschepens",
+        "affiliation": "devlaamsewaterwegnv"
+      },
+      {
+        "name": "cornelisstal",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "barbaratack",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "philipthomas",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "beatoppet",
+        "affiliation": "hogeschoolpxl"
+      },
+      {
+        "name": "jokevandemaele",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "petervandeveire",
+        "affiliation": "gemeenteevergem"
+      },
+      {
+        "name": "florisvandenbroeck",
+        "affiliation": "provincievlaams-brabant"
+      },
+      {
+        "name": "koenvandriessen",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "tomvanherck",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "gerbenvanneyghem",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "rafvanlathem",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "jorisverbeken",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "wouterverhelst",
+        "affiliation": "west-vlaamseintercommunale"
+      },
+      {
+        "name": "annvermaelen",
+        "affiliation": "cevi"
+      }
+    ],
+    "participants": [
+      {
+        "name": "isoldeaelvoet",
+        "affiliation": "provincieantwerpen"
+      },
+      {
+        "name": "emmanuelampe",
+        "affiliation": "verenigingvooropenbaargroen"
+      },
+      {
+        "name": "samblok",
+        "affiliation": "staddeinze"
+      },
+      {
+        "name": "natashablommaert",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "peterbogaert",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "marcbruyland",
+        "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+      },
+      {
+        "name": "nicolasdeblieck",
+        "affiliation": "tmvw"
+      },
+      {
+        "name": "berdienderoo",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "kristienderouck",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "driesdesmedt",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "stevendevriendt",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "jandewael",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "ellendebever",
+        "affiliation": "stadoostende"
+      },
+      {
+        "name": "rubendeblauwe",
+        "affiliation": "elia"
+      },
+      {
+        "name": "pieterdeckers",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "dennisdevriendt",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "liesbetdhondt",
+        "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+      },
+      {
+        "name": "mariodumon",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "diedrikgaus",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "bartgoossens",
+        "affiliation": "stadsint-niklaas"
+      },
+      {
+        "name": "anheirman",
+        "affiliation": "g.i.m.-geographicinformationmanagement"
+      },
+      {
+        "name": "victoriajadot",
+        "affiliation": "eurosense"
+      },
+      {
+        "name": "johanjanssens",
+        "affiliation": "gemeenteputte"
+      },
+      {
+        "name": "lucjanssens",
+        "affiliation": "stadlier"
+      },
+      {
+        "name": "jolaps",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "pieterlauwereys",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "filipmahieu",
+        "affiliation": "provincieoost-vlaanderen"
+      },
+      {
+        "name": "olivermay",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "janmenschaert",
+        "affiliation": "agentschapvoornatuurenbos"
+      },
+      {
+        "name": "marleenmoelants",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "bartmouton",
+        "affiliation": "geo-it"
+      },
+      {
+        "name": "lukmutsaerts",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "elspodevyn",
+        "affiliation": "stadsint-niklaas"
+      },
+      {
+        "name": "jamieproost",
+        "affiliation": "stadbrugge"
+      },
+      {
+        "name": "reinhildeschepens",
+        "affiliation": "devlaamsewaterwegnv"
+      },
+      {
+        "name": "cornelisstal",
+        "affiliation": "hogeschoolgent"
+      },
+      {
+        "name": "barbaratack",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "philipthomas",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "beatoppet",
+        "affiliation": "hogeschoolpxl"
+      },
+      {
+        "name": "jokevandemaele",
+        "affiliation": "stadantwerpen"
+      },
+      {
+        "name": "petervandeveire",
+        "affiliation": "gemeenteevergem"
+      },
+      {
+        "name": "florisvandenbroeck",
+        "affiliation": "provincievlaams-brabant"
+      },
+      {
+        "name": "koenvandriessen",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "tomvanherck",
+        "affiliation": "digitaalvlaanderen"
+      },
+      {
+        "name": "gerbenvanneyghem",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "rafvanlathem",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "jorisverbeken",
+        "affiliation": "stadaalst"
+      },
+      {
+        "name": "wouterverhelst",
+        "affiliation": "west-vlaamseintercommunale"
+      },
+      {
+        "name": "annvermaelen",
+        "affiliation": "cevi"
+      },
+      {
+        "name": "timbaert",
+        "affiliation": "ugent"
+      },
+      {
+        "name": "michieldekeyzer",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "jensscheerlinck",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "dimitrischepers",
+        "affiliation": "pwc"
+      },
+      {
+        "name": "liesbetdewolf",
+        "affiliation": "digitaalvlaanderen"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtachtigen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Houtachtigen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sierbeplanting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Sierbeplanting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BegroeidVoorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BegroeidVoorkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Siergrassen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Siergrassen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GrazigeVegetatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GrazigeVegetatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TerreinVoorkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BolEnKnolgewassen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BolEnKnolgewassen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "FysiekVoorkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#RuwGras",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuwGrasDeprecated"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasachtigen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GrasachtigenDeprecated"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasland",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Grasland"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Watervegetatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Watervegetatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Ruigte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ruigte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#DrogeRuigte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DrogeRuigte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Oevervegetatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Oevervegetatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bollengrasland",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bollengrasland"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtkant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Houtkant"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Houtwal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Houtwal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grasdals",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Grasdal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Grindgazon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Grindgazon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Gazon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gazon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Sportgazon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Sportgazon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heestermassief",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Heestermassief"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heester",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Heester"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Haag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Haag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bodembedekkers",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bodembedekkers"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Hooiland",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Hooiland"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Weiland",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Weiland"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bloemenweide",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bloemenweide"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Bloemenakker",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bloemenakker"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Speelgazon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Speelgazon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Siergazon",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Siergazon"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#VastePlanten",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "VastePlanten"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Wisselperk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wisselperk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Braakland",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Braakland"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#NietBegroeid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "NietBegroeid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#NatteRuigte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "NatteRuigte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Rozen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Rozen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kleinfruit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kleinfruit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#BodembedekkendeHeesters",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BodembedekkendeHeesters"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#GeschorenHaag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeschorenHaag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Heg",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Heg"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Struweel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Struweel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#Kruidachtigen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KruidachtigenDeprecated"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "Boolean"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "StandaardEenheid"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortnaamNederlands",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "soortnaamNederlands"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#vrijUitgroeiend",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "vrijUitgroeiend"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#knipoppervlak",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "knipoppervlak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#soortcode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "soortcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#drassigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "drassigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "obstakels"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "talud"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen#materiaal",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "materiaal"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DrassigheidWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/QuantitativeValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KwantitatieveWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Taalstring"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GBIFcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Number",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AantalObstakels"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TaludWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Code"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Materialen"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "https://schema.org/unitText",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/width",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "breedte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/height",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hoogte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaardEenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://open.vocab.org/terms/length",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lengte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://rs.tdwg.org/dwc/terms/scientificName",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wetenschappelijkeSoortnaam"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "provincieantwerpen",
+        "names": [
+          {
+            "name": "isoldeaelvoet",
+            "affiliation": "provincieantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "verenigingvooropenbaargroen",
+        "names": [
+          {
+            "name": "emmanuelampe",
+            "affiliation": "verenigingvooropenbaargroen"
+          }
+        ]
+      },
+      {
+        "affiliation": "staddeinze",
+        "names": [
+          {
+            "name": "samblok",
+            "affiliation": "staddeinze"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapwegenenverkeer",
+        "names": [
+          {
+            "name": "natashablommaert",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "mariodumon",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "jolaps",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "marleenmoelants",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "gerbenvanneyghem",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "rafvanlathem",
+            "affiliation": "agentschapwegenenverkeer"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgent",
+        "names": [
+          {
+            "name": "peterbogaert",
+            "affiliation": "stadgent"
+          },
+          {
+            "name": "diedrikgaus",
+            "affiliation": "stadgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "federaleoverheidsdienstbeleidenondersteuning",
+        "names": [
+          {
+            "name": "marcbruyland",
+            "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+          },
+          {
+            "name": "liesbetdhondt",
+            "affiliation": "federaleoverheidsdienstbeleidenondersteuning"
+          }
+        ]
+      },
+      {
+        "affiliation": "tmvw",
+        "names": [
+          {
+            "name": "nicolasdeblieck",
+            "affiliation": "tmvw"
+          }
+        ]
+      },
+      {
+        "affiliation": "geosparc",
+        "names": [
+          {
+            "name": "berdienderoo",
+            "affiliation": "geosparc"
+          },
+          {
+            "name": "olivermay",
+            "affiliation": "geosparc"
+          }
+        ]
+      },
+      {
+        "affiliation": "hogeschoolgent",
+        "names": [
+          {
+            "name": "kristienderouck",
+            "affiliation": "hogeschoolgent"
+          },
+          {
+            "name": "dennisdevriendt",
+            "affiliation": "hogeschoolgent"
+          },
+          {
+            "name": "cornelisstal",
+            "affiliation": "hogeschoolgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadantwerpen",
+        "names": [
+          {
+            "name": "driesdesmedt",
+            "affiliation": "stadantwerpen"
+          },
+          {
+            "name": "barbaratack",
+            "affiliation": "stadantwerpen"
+          },
+          {
+            "name": "jokevandemaele",
+            "affiliation": "stadantwerpen"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincieoost-vlaanderen",
+        "names": [
+          {
+            "name": "stevendevriendt",
+            "affiliation": "provincieoost-vlaanderen"
+          },
+          {
+            "name": "pieterdeckers",
+            "affiliation": "provincieoost-vlaanderen"
+          },
+          {
+            "name": "filipmahieu",
+            "affiliation": "provincieoost-vlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadaalst",
+        "names": [
+          {
+            "name": "jandewael",
+            "affiliation": "stadaalst"
+          },
+          {
+            "name": "pieterlauwereys",
+            "affiliation": "stadaalst"
+          },
+          {
+            "name": "jorisverbeken",
+            "affiliation": "stadaalst"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadoostende",
+        "names": [
+          {
+            "name": "ellendebever",
+            "affiliation": "stadoostende"
+          }
+        ]
+      },
+      {
+        "affiliation": "elia",
+        "names": [
+          {
+            "name": "rubendeblauwe",
+            "affiliation": "elia"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadsint-niklaas",
+        "names": [
+          {
+            "name": "bartgoossens",
+            "affiliation": "stadsint-niklaas"
+          },
+          {
+            "name": "elspodevyn",
+            "affiliation": "stadsint-niklaas"
+          }
+        ]
+      },
+      {
+        "affiliation": "g.i.m.-geographicinformationmanagement",
+        "names": [
+          {
+            "name": "anheirman",
+            "affiliation": "g.i.m.-geographicinformationmanagement"
+          }
+        ]
+      },
+      {
+        "affiliation": "eurosense",
+        "names": [
+          {
+            "name": "victoriajadot",
+            "affiliation": "eurosense"
+          }
+        ]
+      },
+      {
+        "affiliation": "gemeenteputte",
+        "names": [
+          {
+            "name": "johanjanssens",
+            "affiliation": "gemeenteputte"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadlier",
+        "names": [
+          {
+            "name": "lucjanssens",
+            "affiliation": "stadlier"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapvoornatuurenbos",
+        "names": [
+          {
+            "name": "janmenschaert",
+            "affiliation": "agentschapvoornatuurenbos"
+          }
+        ]
+      },
+      {
+        "affiliation": "geo-it",
+        "names": [
+          {
+            "name": "bartmouton",
+            "affiliation": "geo-it"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementomgeving",
+        "names": [
+          {
+            "name": "lukmutsaerts",
+            "affiliation": "departementomgeving"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadbrugge",
+        "names": [
+          {
+            "name": "jamieproost",
+            "affiliation": "stadbrugge"
+          }
+        ]
+      },
+      {
+        "affiliation": "devlaamsewaterwegnv",
+        "names": [
+          {
+            "name": "reinhildeschepens",
+            "affiliation": "devlaamsewaterwegnv"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamsemilieumaatschappij",
+        "names": [
+          {
+            "name": "philipthomas",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "koenvandriessen",
+            "affiliation": "vlaamsemilieumaatschappij"
+          }
+        ]
+      },
+      {
+        "affiliation": "hogeschoolpxl",
+        "names": [
+          {
+            "name": "beatoppet",
+            "affiliation": "hogeschoolpxl"
+          }
+        ]
+      },
+      {
+        "affiliation": "gemeenteevergem",
+        "names": [
+          {
+            "name": "petervandeveire",
+            "affiliation": "gemeenteevergem"
+          }
+        ]
+      },
+      {
+        "affiliation": "provincievlaams-brabant",
+        "names": [
+          {
+            "name": "florisvandenbroeck",
+            "affiliation": "provincievlaams-brabant"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvlaanderen",
+        "names": [
+          {
+            "name": "tomvanherck",
+            "affiliation": "digitaalvlaanderen"
+          },
+          {
+            "name": "liesbetdewolf",
+            "affiliation": "digitaalvlaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "west-vlaamseintercommunale",
+        "names": [
+          {
+            "name": "wouterverhelst",
+            "affiliation": "west-vlaamseintercommunale"
+          }
+        ]
+      },
+      {
+        "affiliation": "cevi",
+        "names": [
+          {
+            "name": "annvermaelen",
+            "affiliation": "cevi"
+          }
+        ]
+      },
+      {
+        "affiliation": "ugent",
+        "names": [
+          {
+            "name": "timbaert",
+            "affiliation": "ugent"
+          }
+        ]
+      },
+      {
+        "affiliation": "pwc",
+        "names": [
+          {
+            "name": "michieldekeyzer",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "jensscheerlinck",
+            "affiliation": "pwc"
+          },
+          {
+            "name": "dimitrischepers",
+            "affiliation": "pwc"
+          }
+        ]
+      }
+    ]
+  }
+}
