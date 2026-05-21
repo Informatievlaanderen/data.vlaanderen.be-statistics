@@ -1,31 +1,37 @@
 {
-  "title": "Gebieden (Applicatieprofiel)",
-  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/gebieden/ontwerpstandaard/pieter",
+  "title": "Terreindelen (Applicatieprofiel)",
+  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/terreindelen/ontwerpstandaard/pieter",
   "issued": "2021-09-30",
   "navigation": {
-    "prev": "/doc/applicatieprofiel/gebieden/standaard/2018-11-27",
-    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/gebieden/ontwerpstandaard/pieter"
+    "prev": "/doc/applicatieprofiel/terreindelen/erkendestandaard/2021-09-30",
+    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/terreindelen/ontwerpstandaard/pieter"
   },
   "documenttype": "ap",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "statuslabel": "Erkende Standaard",
   "namespaces": [
-    "https://data.vlaanderen.be/ns/openbaardomein/gebied",
-    "http://purl.org/dc/terms",
+    "https://data.vlaanderen.be/ns/openbaardomein",
+    "https://data.vlaanderen.be/ns/openbaardomein/terreindeel",
+    "https://schema.org",
+    "http://open.vocab.org/terms",
     "http://www.w3.org/ns/locn",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "http://purl.org/dc/terms",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.opengis.net/ont/sf"
+    "http://www.w3.org/ns/prov",
+    "https://data.vlaanderen.be/ns/generiek",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/2000/01/rdf-schema"
   ],
   "authors": 1,
   "editors": 4,
   "contributors": 49,
   "participants": 54,
-  "classes": 17,
-  "properties": 4,
-  "externalclasses": 2,
-  "externalproperties": 2,
-  "totalterms": 25,
+  "classes": 50,
+  "properties": 12,
+  "externalclasses": 9,
+  "externalproperties": 7,
+  "totalterms": 78,
   "totalorganisations": 33,
   "organisations": [
     {
@@ -605,137 +611,380 @@
     ],
     "classes": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekObject",
         "label": [
           {
             "@language": "nl",
-            "@value": "Gebied"
+            "@value": "FysiekObject"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Terreindeel",
         "label": [
           {
             "@language": "nl",
-            "@value": "Begraafplaats"
+            "@value": "Terreindeel"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Natuur",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Deel",
         "label": [
           {
             "@language": "nl",
-            "@value": "Natuur"
+            "@value": "Deel"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Bufferzone",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TerreinVoorkomen",
         "label": [
           {
             "@language": "nl",
-            "@value": "Bufferzone"
+            "@value": "TerreinVoorkomen"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Groenzone",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Speelruimte",
         "label": [
           {
             "@language": "nl",
-            "@value": "Groenzone"
+            "@value": "Speelruimte"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Parking",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#RecreatieveRuimte",
         "label": [
           {
             "@language": "nl",
-            "@value": "Parking"
+            "@value": "RecreatieveRuimte"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Park",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegbaan",
         "label": [
           {
             "@language": "nl",
-            "@value": "Park"
+            "@value": "Wegbaan"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Plein",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Rijbaan",
         "label": [
           {
             "@language": "nl",
-            "@value": "Plein"
+            "@value": "Rijbaan"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Recreatiegebied",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Kantsteen",
         "label": [
           {
             "@language": "nl",
-            "@value": "Recreatiegebied"
+            "@value": "Kantsteen"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Recyclagepark",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Oprit",
         "label": [
           {
             "@language": "nl",
-            "@value": "Recyclagepark"
+            "@value": "Oprit"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Spoorweg",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Spoorwegberm",
         "label": [
           {
             "@language": "nl",
-            "@value": "Spoorweg"
+            "@value": "Spoorwegberm"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Wegzone",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Voetweg",
         "label": [
           {
             "@language": "nl",
-            "@value": "Wegzone"
+            "@value": "Voetweg"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Tuinzone",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Hondentoilet",
         "label": [
           {
             "@language": "nl",
-            "@value": "Tuinzone"
+            "@value": "Hondentoilet"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Volkstuin",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Hondenuitlaatplaats",
         "label": [
           {
             "@language": "nl",
-            "@value": "Volkstuin"
+            "@value": "Hondenuitlaatplaats"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Waterverkeerzone",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Straatgoot",
         "label": [
           {
             "@language": "nl",
-            "@value": "Waterverkeerzone"
+            "@value": "Straatgoot"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Boordsteen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Boordsteen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Ligweide",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ligweide"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Groenvlak",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Groenvlak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Moestuin",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moestuin"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Hoogstamboomgaard",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Hoogstamboomgaard"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Horecaterrein",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Horecaterrein"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Wegberm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Wegberm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#EigenBedding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "EigenBedding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Trottoir",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Trottoir"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Fietspad",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fietspad"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Bushaltehaven",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bushaltehaven"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Parkeervlak",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Parkeervlak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Zijberm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Zijberm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Tussenberm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tussenberm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Middenberm",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Middenberm"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Laagstamboomgaard",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Laagstamboomgaard"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Speelterrein",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Speelterrein"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Sportterrein",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Sportterrein"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Dierenloopweide",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dierenloopweide"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Groendak",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Groendak"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Akker",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Akker"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#TijdelijkGroen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TijdelijkGroen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Tuinbouwgrond",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tuinbouwgrond"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Oever",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Oever"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#BijzondereOverrijdbareBedding",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BijzondereOverrijdbareBedding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Trap",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TrapTussen2Straatniveaus"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#Boomplantplaats",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Boomplantplaats"
           }
         ]
       },
@@ -748,17 +997,53 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
+        "label": [
+          {
+            "@value": "Integer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
         "label": [
           {
-            "@value": "boolean"
+            "@value": "Boolean"
+          }
+        ]
+      },
+      {},
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "FysiekVoorkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "StandaardEenheid"
           }
         ]
       }
     ],
     "properties": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#begindatum",
         "label": [
           {
             "@language": "nl",
@@ -767,7 +1052,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#einddatum",
         "label": [
           {
             "@language": "nl",
@@ -776,51 +1061,220 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#actieveLijkbezorging",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#niveau",
         "label": [
           {
             "@language": "nl",
-            "@value": "actieveLijkbezorging"
+            "@value": "niveau"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#vrijliggend",
         "label": [
           {
             "@language": "nl",
-            "@value": "lichteRecreatie"
+            "@value": "vrijliggend"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#autodelen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "autodelen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#capaciteit",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "capaciteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#oppervlakte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "oppervlakte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nauwkeurigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#obstakels",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "obstakels"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#talud",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "talud"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#doorwortelbaarVolume",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "doorwortelbaarVolume"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel#voorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkomen"
           }
         ]
       }
     ],
     "externalclasses": [
       {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "assignedURI": "https://schema.org/QuantitativeValue",
         "label": [
           {
             "@language": "nl",
-            "@value": "GeografischeNaam"
+            "@value": "KwantitatieveWaarde"
           }
         ]
       },
       {
-        "assignedURI": "http://www.opengis.net/ont/sf#Polygon",
+        "assignedURI": "https://schema.org/Thing",
+        "label": [
+          {
+            "@value": "Ding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Entity",
+        "label": [
+          {
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Polygoon"
+            "@value": "Nauwkeurigheidsklassen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Number",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AantalObstakels"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RelatieObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TaludWaarde"
           }
         ]
       }
     ],
     "externalproperties": [
       {
-        "assignedURI": "http://purl.org/dc/terms/title",
+        "assignedURI": "https://schema.org/unitText",
         "label": [
           {
             "@language": "nl",
-            "@value": "naam"
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/width",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "breedte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://open.vocab.org/terms/length",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lengte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaardEenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
           }
         ]
       },
@@ -830,6 +1284,15 @@
           {
             "@language": "nl",
             "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatie"
           }
         ]
       }

@@ -1,31 +1,38 @@
 {
-  "title": "Gebieden (Applicatieprofiel)",
-  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/gebieden/ontwerpstandaard/pieter",
+  "title": "Waterdelen (Applicatieprofiel)",
+  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/waterdelen/ontwerpstandaard/pieter",
   "issued": "2021-09-30",
   "navigation": {
-    "prev": "/doc/applicatieprofiel/gebieden/standaard/2018-11-27",
-    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/gebieden/ontwerpstandaard/pieter"
+    "prev": "/doc/applicatieprofiel/waterdelen/erkendestandaard/2021-09-30",
+    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/waterdelen/ontwerpstandaard/pieter"
   },
   "documenttype": "ap",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "statuslabel": "Erkende Standaard",
   "namespaces": [
-    "https://data.vlaanderen.be/ns/openbaardomein/gebied",
+    "https://data.vlaanderen.be/ns/openbaardomein",
+    "https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen",
+    "https://data.vlaanderen.be/ns/openbaardomein/waterdeel",
     "http://purl.org/dc/terms",
+    "https://schema.org",
+    "http://open.vocab.org/terms",
     "http://www.w3.org/ns/locn",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.opengis.net/ont/sf"
+    "http://www.w3.org/ns/prov",
+    "https://data.vlaanderen.be/ns/generiek",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://www.opengis.net/ont/geosparql",
+    "http://www.w3.org/2000/01/rdf-schema"
   ],
   "authors": 1,
   "editors": 4,
   "contributors": 49,
   "participants": 54,
-  "classes": 17,
-  "properties": 4,
-  "externalclasses": 2,
-  "externalproperties": 2,
-  "totalterms": 25,
+  "classes": 27,
+  "properties": 7,
+  "externalclasses": 7,
+  "externalproperties": 9,
+  "totalterms": 50,
   "totalorganisations": 33,
   "organisations": [
     {
@@ -605,137 +612,182 @@
     ],
     "classes": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Gebied",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekObject",
         "label": [
           {
             "@language": "nl",
-            "@value": "Gebied"
+            "@value": "FysiekObject"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Begraafplaats",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen#WaterVoorkomen",
         "label": [
           {
             "@language": "nl",
-            "@value": "Begraafplaats"
+            "@value": "WaterVoorkomen"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Natuur",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Watervlak",
         "label": [
           {
             "@language": "nl",
-            "@value": "Natuur"
+            "@value": "Watervlak"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Bufferzone",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterdeel",
         "label": [
           {
             "@language": "nl",
-            "@value": "Bufferzone"
+            "@value": "Waterdeel"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Groenzone",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#Deel",
         "label": [
           {
             "@language": "nl",
-            "@value": "Groenzone"
+            "@value": "Deel"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Parking",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Waterloop",
         "label": [
           {
             "@language": "nl",
-            "@value": "Parking"
+            "@value": "Waterloop"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Park",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Sloot",
         "label": [
           {
             "@language": "nl",
-            "@value": "Park"
+            "@value": "SlootDeprecated"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Plein",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Gracht",
         "label": [
           {
             "@language": "nl",
-            "@value": "Plein"
+            "@value": "Gracht"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Recreatiegebied",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Rivier",
         "label": [
           {
             "@language": "nl",
-            "@value": "Recreatiegebied"
+            "@value": "Rivier"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Recyclagepark",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#NatuurlijkeWaterloop",
         "label": [
           {
             "@language": "nl",
-            "@value": "Recyclagepark"
+            "@value": "NatuurlijkeWaterloop"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Spoorweg",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Kanaal",
         "label": [
           {
             "@language": "nl",
-            "@value": "Spoorweg"
+            "@value": "Kanaal"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Wegzone",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#KunstmatigeWaterloop",
         "label": [
           {
             "@language": "nl",
-            "@value": "Wegzone"
+            "@value": "KunstmatigeWaterloop"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Tuinzone",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Beek",
         "label": [
           {
             "@language": "nl",
-            "@value": "Tuinzone"
+            "@value": "Beek"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Volkstuin",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Vijver",
         "label": [
           {
             "@language": "nl",
-            "@value": "Volkstuin"
+            "@value": "Vijver"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#Waterverkeerzone",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Meer",
         "label": [
           {
             "@language": "nl",
-            "@value": "Waterverkeerzone"
+            "@value": "Meer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Poel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Poel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Slotgracht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Slotgracht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#Ven",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ven"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#NatuurlijkeGracht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "NatuurlijkeGracht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#KunstmatigeGracht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "KunstmatigeGracht"
           }
         ]
       },
@@ -748,17 +800,45 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
         "label": [
           {
-            "@value": "boolean"
+            "@value": "Integer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {},
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#FysiekVoorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "FysiekVoorkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "StandaardEenheid"
           }
         ]
       }
     ],
     "properties": [
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#begindatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#begindatum",
         "label": [
           {
             "@language": "nl",
@@ -767,7 +847,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#einddatum",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#einddatum",
         "label": [
           {
             "@language": "nl",
@@ -776,40 +856,110 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#actieveLijkbezorging",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#niveau",
         "label": [
           {
             "@language": "nl",
-            "@value": "actieveLijkbezorging"
+            "@value": "niveau"
           }
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/gebied#lichteRecreatie",
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#oppervlakte",
         "label": [
           {
             "@language": "nl",
-            "@value": "lichteRecreatie"
+            "@value": "oppervlakte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein#nauwkeurigheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "nauwkeurigheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#voorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkomen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel#voorkomen",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "voorkomen"
           }
         ]
       }
     ],
     "externalclasses": [
       {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "assignedURI": "https://schema.org/QuantitativeValue",
         "label": [
           {
             "@language": "nl",
-            "@value": "GeografischeNaam"
+            "@value": "KwantitatieveWaarde"
           }
         ]
       },
       {
-        "assignedURI": "http://www.opengis.net/ont/sf#Polygon",
+        "assignedURI": "https://schema.org/Thing",
+        "label": [
+          {
+            "@value": "Ding"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Entity",
+        "label": [
+          {
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Polygoon"
+            "@value": "Nauwkeurigheidsklassen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/Number",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Getal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RelatieObject"
           }
         ]
       }
@@ -825,11 +975,74 @@
         ]
       },
       {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitText",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "eenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/width",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "breedte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://open.vocab.org/terms/length",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lengte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/unitCode",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "standaardEenheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/locn#geometry",
         "label": [
           {
             "@language": "nl",
             "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "relatie"
           }
         ]
       }
