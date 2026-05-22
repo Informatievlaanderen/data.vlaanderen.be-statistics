@@ -15,10 +15,10 @@
     "https://saref.etsi.org/saref4watr",
     "http://www.w3.org/ns/org",
     "http://data.europa.eu/m8g",
+    "http://www.w3.org/ns/adms",
+    "http://purl.org/dc/terms",
     "http://vocab.belgif.be/ns/building",
     "https://qudt.org/schema/qudt",
-    "http://purl.org/dc/terms",
-    "http://www.w3.org/ns/adms",
     "http://www.w3.org/ns/locn",
     "https://www.w3.org/ns/locn",
     "http://w3.org/ns/locn",
@@ -32,10 +32,10 @@
   "contributors": 1,
   "participants": 3,
   "classes": 8,
-  "properties": 26,
+  "properties": 27,
   "externalclasses": 25,
-  "externalproperties": 43,
-  "totalterms": 102,
+  "externalproperties": 46,
+  "totalterms": 106,
   "totalorganisations": 3,
   "organisations": [
     {
@@ -251,6 +251,15 @@
           {
             "@language": "en",
             "@value": "flow pressure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://vocab.belgif.be/ns/hydrant#FireHydrant.type",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "type"
           }
         ]
       },
@@ -619,6 +628,24 @@
     ],
     "externalproperties": [
       {
+        "assignedURI": "http://www.w3.org/ns/adms#schemeAgency",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "issuingAuthorityName"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/conformsTo",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "schemeName"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://vocab.belgif.be/ns/building#sourceOfName",
         "label": [
           {
@@ -741,6 +768,15 @@
           {
             "@language": "en",
             "@value": "identifier"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#status",
+        "label": [
+          {
+            "@language": "en",
+            "@value": "status"
           }
         ]
       },
