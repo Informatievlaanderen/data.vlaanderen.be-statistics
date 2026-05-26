@@ -10,10 +10,10 @@
   "statuslabel": "Erkende Standaard",
   "namespaces": [
     "https://www.fair-gnss.oma.be/gnss-dcat-ap/vocabulary/geo",
-    "https://www.w3.org/ns/sosa",
+    "http://www.w3.org/ns/sosa",
     "http://dbpedia.org/ontology",
     "https://w3id.org/okn/o/sd",
-    "http://www.w3.org/ns/sosa",
+    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/ssn",
     "https://saref.etsi.org/core",
     "https://data.vlaanderen.be/ns/energiehuis",
@@ -21,19 +21,19 @@
     "https://data.vlaanderen.be/ns/gebouw",
     "https://data.vlaanderen.be/ns/adres",
     "https://schema.org",
+    "http://www.cidoc-crm.org/cidoc-crm",
     "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL",
     "http://data.europa.eu/it6",
     "http://www.w3.org/ns/dcat",
     "http://www.w3.org/2000/01/rdf-schema",
-    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/ssn/systems",
-    "https://qudt.org/schema/qudt",
-    "http://www.cidoc-crm.org/cidoc-crm",
+    "http://qudt.org/schema/qudt",
     "http://www.w3.org/2006/time",
     "http://www.opengis.net/ont/geosparql",
     "http://www.w3.org/ns/locn",
     "https://dbpedia.org/ontology",
     "http://www.w3.org/ns/adms",
+    "https://www.w3.org/ns/sosa",
     "http://www.w3.org/2001/XMLSchema",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns"
   ],
@@ -41,11 +41,11 @@
   "editors": 5,
   "contributors": 4,
   "participants": 11,
-  "classes": 17,
+  "classes": 15,
   "properties": 15,
-  "externalclasses": 66,
+  "externalclasses": 65,
   "externalproperties": 92,
-  "totalterms": 190,
+  "totalterms": 187,
   "totalorganisations": 5,
   "organisations": [
     {
@@ -256,8 +256,6 @@
       {},
       {},
       {},
-      {},
-      {},
       {}
     ],
     "properties": [
@@ -408,7 +406,7 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/ns/sosa/Sensor",
+        "assignedURI": "http://www.w3.org/ns/sosa/Sensor",
         "label": [
           {
             "@language": "nl",
@@ -449,6 +447,24 @@
           {
             "@language": "nl",
             "@value": "Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatieproceduretype"
           }
         ]
       },
@@ -507,7 +523,7 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/ns/sosa/Platform",
+        "assignedURI": "http://www.w3.org/ns/sosa/Platform",
         "label": [
           {
             "@language": "nl",
@@ -552,6 +568,23 @@
         ]
       },
       {
+        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+        "label": [
+          {
+            "@value": "Informatieobject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Elementtype"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBuilding",
         "label": [
           {
@@ -575,6 +608,42 @@
           {
             "@language": "nl",
             "@value": "Video"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Videotype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fototype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebouwtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gebouweenheidtype"
           }
         ]
       },
@@ -614,6 +683,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "MachineLearningModeltype"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/ssn/Input",
         "label": [
           {
@@ -628,6 +706,24 @@
           {
             "@language": "nl",
             "@value": "Output"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ObservatieCollectieType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Domeinobjecttype"
           }
         ]
       },
@@ -699,6 +795,15 @@
         "label": [
           {
             "@language": "nl",
+            "@value": "Platformtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
             "@value": "Concept"
           },
           {
@@ -708,7 +813,7 @@
         ]
       },
       {
-        "assignedURI": "https://qudt.org/schema/qudt/Unit",
+        "assignedURI": "http://qudt.org/schema/qudt/Unit",
         "label": [
           {
             "@language": "nl",
@@ -717,11 +822,20 @@
         ]
       },
       {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Informatieobject"
+            "@value": "InputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OutputType"
           }
         ]
       },
@@ -798,7 +912,7 @@
         ]
       },
       {
-        "assignedURI": "https://qudt.org/schema/qudt/QuantityValue",
+        "assignedURI": "http://qudt.org/schema/qudt/QuantityValue",
         "label": [
           {
             "@language": "nl",
@@ -825,82 +939,11 @@
         ]
       },
       {
-        "assignedURI": "https://www.w3.org/ns/sosa/Platform",
+        "assignedURI": "http://www.w3.org/ns/sosa/Platform",
         "label": [
           {
             "@language": "nl",
             "@value": "Platform"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
-        "label": [
-          {
-            "@value": "Informatieobject"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Domeinobjecttype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatietype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Observatieproceduretype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "MachineLearningModeltype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Videotype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Elementtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Platformtype"
           }
         ]
       },
@@ -937,60 +980,6 @@
           {
             "@language": "nl",
             "@value": "TypeGebouweenheidstatus"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ObservatieCollectieType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "InputType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "OutputType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Fototype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gebouwtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Gebouweenheidtype"
           }
         ]
       },
@@ -1230,7 +1219,7 @@
         ]
       },
       {
-        "assignedURI": "https://qudt.org/schema/qudt/value",
+        "assignedURI": "http://qudt.org/schema/qudt/value",
         "label": [
           {
             "@language": "nl",
@@ -1635,7 +1624,7 @@
         ]
       },
       {
-        "assignedURI": "https://qudt.org/schema/qudt/hasUnit",
+        "assignedURI": "http://qudt.org/schema/qudt/hasUnit",
         "label": [
           {
             "@language": "nl",
