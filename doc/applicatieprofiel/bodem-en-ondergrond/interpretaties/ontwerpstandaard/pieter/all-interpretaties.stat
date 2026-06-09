@@ -1,0 +1,3882 @@
+{
+  "title": "Bodem en Ondergrond Interpretaties (Applicatieprofiel)",
+  "uri": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/ontwerpstandaard/pieter",
+  "issued": "2024-09-05",
+  "navigation": {
+    "self": "https://data.dev-vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/interpretaties/ontwerpstandaard/pieter"
+  },
+  "documenttype": "ap",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "statuslabel": "Ontwerp Standaard",
+  "namespaces": [
+    "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties",
+    "http://def.isotc211.org/iso19156/2011/Observation",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://def.isotc211.org/iso19103/2005/UnitsOfMeasure",
+    "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel",
+    "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance",
+    "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata",
+    "http://purl.org/dc/terms",
+    "https://data.vlaanderen.be/ns/bodem-en-ondergrond",
+    "http://def.isotc211.org/iso19156/2011/CoverageObservation",
+    "http://def.isotc211.org/iso19123/2005/DiscreteCoverages",
+    "http://def.isotc211.org/iso19156/2011/SamplingCurve",
+    "http://www.w3.org/ns/sosa",
+    "http://www.w3.org/ns/ssn",
+    "http://www.w3.org/ns/sosa/om",
+    "https://www.w3.org/ns/sosa",
+    "https://www.w3.org/TR/vocab-ssn/",
+    "http://www.w3.org/2000/01/rdf-schema",
+    "http://www.w3.org/ns/adms",
+    "http://www.opengis.net/ont/geosparql",
+    "http://purl.org/dc/elements/1.1",
+    "https://data.vlaanderen.be/ns/sensoren-en-bemonstering",
+    "https://data.vlaanderen.be/ns/observaties-en-metingen",
+    "http://def.isotc211.org/iso19123/2005/CoverageCore",
+    "https://data.vlaanderen.be/ns/generiek",
+    "http://def.isotc211.org/iso19150/-2/2012/base",
+    "http://def.isotc211.org/iso19108/2006/TemporalObjects",
+    "http://www.opengis.net/ont/sf",
+    "http://www.w3.org/ns/locn",
+    "http://def.isotc211.org/iso19115/2006/DataQualityInformation",
+    "http://www.w3.org/2001/XMLSchema"
+  ],
+  "authors": 8,
+  "editors": 10,
+  "contributors": 72,
+  "participants": 90,
+  "classes": 81,
+  "properties": 48,
+  "externalclasses": 63,
+  "externalproperties": 86,
+  "totalterms": 278,
+  "totalorganisations": 46,
+  "organisations": [
+    {
+      "affiliation": "departementmobiliteitenopenbarewerken",
+      "participants": 5
+    },
+    {
+      "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin",
+      "participants": 2
+    },
+    {
+      "affiliation": "canalcnv",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschapwegenenverkeer",
+      "participants": 5
+    },
+    {
+      "affiliation": "grondbanktracimat",
+      "participants": 1
+    },
+    {
+      "affiliation": "fodfinanciën",
+      "participants": 1
+    },
+    {
+      "affiliation": "instituutvoornatuur-enbosonderzoek",
+      "participants": 2
+    },
+    {
+      "affiliation": "inagrvzw",
+      "participants": 1
+    },
+    {
+      "affiliation": "asepticexcellencepartner",
+      "participants": 1
+    },
+    {
+      "affiliation": "andere",
+      "participants": 4
+    },
+    {
+      "affiliation": "vlaamsemilieumaatschappij",
+      "participants": 4
+    },
+    {
+      "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)",
+      "participants": 3
+    },
+    {
+      "affiliation": "openbarevlaamseafvalstoffenmaatschappij",
+      "participants": 4
+    },
+    {
+      "affiliation": "geosparc",
+      "participants": 1
+    },
+    {
+      "affiliation": "vrouwenvanhetalgemeenboerensyndicaat",
+      "participants": 1
+    },
+    {
+      "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen",
+      "participants": 2
+    },
+    {
+      "affiliation": "grondwijzervzw",
+      "participants": 2
+    },
+    {
+      "affiliation": "citizens",
+      "participants": 3
+    },
+    {
+      "affiliation": "votquennefoundations&revyson",
+      "participants": 1
+    },
+    {
+      "affiliation": "vrijeuniversiteitbrussel",
+      "participants": 1
+    },
+    {
+      "affiliation": "dewatergroep",
+      "participants": 1
+    },
+    {
+      "affiliation": "studiebureauvoorbouwkundeenexpertise(sbe)nv",
+      "participants": 1
+    },
+    {
+      "affiliation": "stadgent",
+      "participants": 1
+    },
+    {
+      "affiliation": "gebo",
+      "participants": 1
+    },
+    {
+      "affiliation": "gesolutions",
+      "participants": 1
+    },
+    {
+      "affiliation": "putboringenvandeynsenv",
+      "participants": 1
+    },
+    {
+      "affiliation": "agentschaponroerenderfgoed",
+      "participants": 1
+    },
+    {
+      "affiliation": "bodemkundigedienstvanbelgië",
+      "participants": 1
+    },
+    {
+      "affiliation": "bodemkundigedienstvanbelgiëvzw",
+      "participants": 1
+    },
+    {
+      "affiliation": "digitaalvaanderen",
+      "participants": 11
+    },
+    {
+      "affiliation": "vlaamselandmaatschappij",
+      "participants": 1
+    },
+    {
+      "affiliation": "instituutvoorlandbouw-visserij-envoedingsonderzoek",
+      "participants": 1
+    },
+    {
+      "affiliation": "colasnoordnv",
+      "participants": 1
+    },
+    {
+      "affiliation": "tractebel–internationalmarineanddredgingconsultants",
+      "participants": 1
+    },
+    {
+      "affiliation": "universiteitgent",
+      "participants": 1
+    },
+    {
+      "affiliation": "acpartners",
+      "participants": 1
+    },
+    {
+      "affiliation": "fluves–pydov",
+      "participants": 1
+    },
+    {
+      "affiliation": "boerenbond",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementomgeving",
+      "participants": 10
+    },
+    {
+      "affiliation": "vanheckenv",
+      "participants": 1
+    },
+    {
+      "affiliation": "smetgwteurope",
+      "participants": 1
+    },
+    {
+      "affiliation": "vzwgrondbank",
+      "participants": 1
+    },
+    {
+      "affiliation": "departementmobiliteitenopenbarewerken(geotechniek)",
+      "participants": 1
+    },
+    {
+      "affiliation": "instituurvoornatuur-enbosonderzoek",
+      "participants": 1
+    },
+    {
+      "affiliation": "koninklijkbelgischinstituurvoornatuurwetenschappen–belgischegeologischedienst",
+      "participants": 1
+    },
+    {
+      "affiliation": "algemeenboerensyndicaat",
+      "participants": 1
+    }
+  ],
+  "specifications": [],
+  "values": {
+    "authors": [
+      {
+        "name": "sabinebuyle",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "katriendenil",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "petradeproost",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "katrienoorts",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "friekesegers",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "marleenvandamme",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "veerlevanwesenbeeck",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "jasperverhaegen",
+        "affiliation": "departementomgeving"
+      }
+    ],
+    "editors": [
+      {
+        "name": "veerlebeyaert",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "dimitrischepers",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "anthonyvanheymbeeck",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "dwightvanlancker",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "martinvanbrabant",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvaanderen"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "chandraalgoe",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "camilleallonsius",
+        "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin"
+      },
+      {
+        "name": "ilsebaeck",
+        "affiliation": "canalcnv"
+      },
+      {
+        "name": "simonbaert",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "christineberchmans",
+        "affiliation": "grondbanktracimat"
+      },
+      {
+        "name": "reinhildeblondeel",
+        "affiliation": "fodfinanciën"
+      },
+      {
+        "name": "sophiebordere",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "maximbroos",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "nathaliecools",
+        "affiliation": "instituutvoornatuur-enbosonderzoek"
+      },
+      {
+        "name": "frankycoopman",
+        "affiliation": "inagrvzw"
+      },
+      {
+        "name": "marnixcoulier",
+        "affiliation": "asepticexcellencepartner"
+      },
+      {
+        "name": "patrickdebaets",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "flordecock",
+        "affiliation": "andere"
+      },
+      {
+        "name": "ywandejonghe",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "roeldekoninck",
+        "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+      },
+      {
+        "name": "sandradeloore",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "berdiendero",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "tinnekederouck",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "lievendestoppeleire",
+        "affiliation": "vrouwenvanhetalgemeenboerensyndicaat"
+      },
+      {
+        "name": "aaikedewever",
+        "affiliation": "instituutvoornatuur-enbosonderzoek"
+      },
+      {
+        "name": "filipdehaese",
+        "affiliation": "andere"
+      },
+      {
+        "name": "geertdevriese",
+        "affiliation": "andere"
+      },
+      {
+        "name": "katrijndirix",
+        "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+      },
+      {
+        "name": "stijngoolaerts",
+        "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen"
+      },
+      {
+        "name": "jentehanssens",
+        "affiliation": "grondwijzervzw"
+      },
+      {
+        "name": "stijnhuyghe",
+        "affiliation": "citizens"
+      },
+      {
+        "name": "ludovichuysentruyt",
+        "affiliation": "votquennefoundations&revyson"
+      },
+      {
+        "name": "marijkehuysmans",
+        "affiliation": "vrijeuniversiteitbrussel"
+      },
+      {
+        "name": "pieterjanhaest",
+        "affiliation": "dewatergroep"
+      },
+      {
+        "name": "tomjottier",
+        "affiliation": "studiebureauvoorbouwkundeenexpertise(sbe)nv"
+      },
+      {
+        "name": "franklavens",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "janmaertens",
+        "affiliation": "citizens"
+      },
+      {
+        "name": "willemmaetens",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "pieternieuwlaet",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "jeroennyckees",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "geertnys",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "olivierolyslaegers",
+        "affiliation": "gebo"
+      },
+      {
+        "name": "killianpaenen",
+        "affiliation": "gesolutions"
+      },
+      {
+        "name": "nadiaparidaen",
+        "affiliation": "putboringenvandeynsenv"
+      },
+      {
+        "name": "krispiessens",
+        "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen"
+      },
+      {
+        "name": "marnixpieters",
+        "affiliation": "agentschaponroerenderfgoed"
+      },
+      {
+        "name": "michaëlrens",
+        "affiliation": "bodemkundigedienstvanbelgië"
+      },
+      {
+        "name": "sofiereynaert",
+        "affiliation": "bodemkundigedienstvanbelgiëvzw"
+      },
+      {
+        "name": "liesbethrombouts",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "elisabethrutten",
+        "affiliation": "vlaamselandmaatschappij"
+      },
+      {
+        "name": "greetruysschaert",
+        "affiliation": "instituutvoorlandbouw-visserij-envoedingsonderzoek"
+      },
+      {
+        "name": "stijnscheepers",
+        "affiliation": "colasnoordnv"
+      },
+      {
+        "name": "pietseuntjens",
+        "affiliation": "citizens"
+      },
+      {
+        "name": "erwinsevens",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "franksleeuwaert",
+        "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+      },
+      {
+        "name": "koensmeets",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "rafsomers",
+        "affiliation": "tractebel–internationalmarineanddredgingconsultants"
+      },
+      {
+        "name": "brunostuyts",
+        "affiliation": "universiteitgent"
+      },
+      {
+        "name": "jorissynaeve",
+        "affiliation": "acpartners"
+      },
+      {
+        "name": "geertstimothy",
+        "affiliation": "grondwijzervzw"
+      },
+      {
+        "name": "stijnvandevondel",
+        "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin"
+      },
+      {
+        "name": "johanvandewauw",
+        "affiliation": "fluves–pydov"
+      },
+      {
+        "name": "carolinevanderheyden",
+        "affiliation": "boerenbond"
+      },
+      {
+        "name": "tomvangulck",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "geertvanhaute",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "natenvanhemelrijck",
+        "affiliation": "vanheckenv"
+      },
+      {
+        "name": "janvangestel",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "davyvanhoudt",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "jorisvermeer",
+        "affiliation": "smetgwteurope"
+      },
+      {
+        "name": "gertvermeersch",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "elisavermeulen",
+        "affiliation": "vzwgrondbank"
+      },
+      {
+        "name": "peterverspecht",
+        "affiliation": "andere"
+      },
+      {
+        "name": "woutervervaele",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "leenvincke",
+        "affiliation": "departementmobiliteitenopenbarewerken(geotechniek)"
+      },
+      {
+        "name": "mathiaswackenier",
+        "affiliation": "instituurvoornatuur-enbosonderzoek"
+      },
+      {
+        "name": "janwalstra",
+        "affiliation": "koninklijkbelgischinstituurvoornatuurwetenschappen–belgischegeologischedienst"
+      },
+      {
+        "name": "markwulfrancke",
+        "affiliation": "algemeenboerensyndicaat"
+      }
+    ],
+    "participants": [
+      {
+        "name": "chandraalgoe",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "camilleallonsius",
+        "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin"
+      },
+      {
+        "name": "ilsebaeck",
+        "affiliation": "canalcnv"
+      },
+      {
+        "name": "simonbaert",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "christineberchmans",
+        "affiliation": "grondbanktracimat"
+      },
+      {
+        "name": "reinhildeblondeel",
+        "affiliation": "fodfinanciën"
+      },
+      {
+        "name": "sophiebordere",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "maximbroos",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "nathaliecools",
+        "affiliation": "instituutvoornatuur-enbosonderzoek"
+      },
+      {
+        "name": "frankycoopman",
+        "affiliation": "inagrvzw"
+      },
+      {
+        "name": "marnixcoulier",
+        "affiliation": "asepticexcellencepartner"
+      },
+      {
+        "name": "patrickdebaets",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "flordecock",
+        "affiliation": "andere"
+      },
+      {
+        "name": "ywandejonghe",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "roeldekoninck",
+        "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+      },
+      {
+        "name": "sandradeloore",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "berdiendero",
+        "affiliation": "geosparc"
+      },
+      {
+        "name": "tinnekederouck",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "lievendestoppeleire",
+        "affiliation": "vrouwenvanhetalgemeenboerensyndicaat"
+      },
+      {
+        "name": "aaikedewever",
+        "affiliation": "instituutvoornatuur-enbosonderzoek"
+      },
+      {
+        "name": "filipdehaese",
+        "affiliation": "andere"
+      },
+      {
+        "name": "geertdevriese",
+        "affiliation": "andere"
+      },
+      {
+        "name": "katrijndirix",
+        "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+      },
+      {
+        "name": "stijngoolaerts",
+        "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen"
+      },
+      {
+        "name": "jentehanssens",
+        "affiliation": "grondwijzervzw"
+      },
+      {
+        "name": "stijnhuyghe",
+        "affiliation": "citizens"
+      },
+      {
+        "name": "ludovichuysentruyt",
+        "affiliation": "votquennefoundations&revyson"
+      },
+      {
+        "name": "marijkehuysmans",
+        "affiliation": "vrijeuniversiteitbrussel"
+      },
+      {
+        "name": "pieterjanhaest",
+        "affiliation": "dewatergroep"
+      },
+      {
+        "name": "tomjottier",
+        "affiliation": "studiebureauvoorbouwkundeenexpertise(sbe)nv"
+      },
+      {
+        "name": "franklavens",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "janmaertens",
+        "affiliation": "citizens"
+      },
+      {
+        "name": "willemmaetens",
+        "affiliation": "vlaamsemilieumaatschappij"
+      },
+      {
+        "name": "pieternieuwlaet",
+        "affiliation": "stadgent"
+      },
+      {
+        "name": "jeroennyckees",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "geertnys",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "olivierolyslaegers",
+        "affiliation": "gebo"
+      },
+      {
+        "name": "killianpaenen",
+        "affiliation": "gesolutions"
+      },
+      {
+        "name": "nadiaparidaen",
+        "affiliation": "putboringenvandeynsenv"
+      },
+      {
+        "name": "krispiessens",
+        "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen"
+      },
+      {
+        "name": "marnixpieters",
+        "affiliation": "agentschaponroerenderfgoed"
+      },
+      {
+        "name": "michaëlrens",
+        "affiliation": "bodemkundigedienstvanbelgië"
+      },
+      {
+        "name": "sofiereynaert",
+        "affiliation": "bodemkundigedienstvanbelgiëvzw"
+      },
+      {
+        "name": "liesbethrombouts",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "elisabethrutten",
+        "affiliation": "vlaamselandmaatschappij"
+      },
+      {
+        "name": "greetruysschaert",
+        "affiliation": "instituutvoorlandbouw-visserij-envoedingsonderzoek"
+      },
+      {
+        "name": "stijnscheepers",
+        "affiliation": "colasnoordnv"
+      },
+      {
+        "name": "pietseuntjens",
+        "affiliation": "citizens"
+      },
+      {
+        "name": "erwinsevens",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "franksleeuwaert",
+        "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+      },
+      {
+        "name": "koensmeets",
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+      },
+      {
+        "name": "rafsomers",
+        "affiliation": "tractebel–internationalmarineanddredgingconsultants"
+      },
+      {
+        "name": "brunostuyts",
+        "affiliation": "universiteitgent"
+      },
+      {
+        "name": "jorissynaeve",
+        "affiliation": "acpartners"
+      },
+      {
+        "name": "geertstimothy",
+        "affiliation": "grondwijzervzw"
+      },
+      {
+        "name": "stijnvandevondel",
+        "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin"
+      },
+      {
+        "name": "johanvandewauw",
+        "affiliation": "fluves–pydov"
+      },
+      {
+        "name": "carolinevanderheyden",
+        "affiliation": "boerenbond"
+      },
+      {
+        "name": "tomvangulck",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "geertvanhaute",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "natenvanhemelrijck",
+        "affiliation": "vanheckenv"
+      },
+      {
+        "name": "janvangestel",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "davyvanhoudt",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "jorisvermeer",
+        "affiliation": "smetgwteurope"
+      },
+      {
+        "name": "gertvermeersch",
+        "affiliation": "agentschapwegenenverkeer"
+      },
+      {
+        "name": "elisavermeulen",
+        "affiliation": "vzwgrondbank"
+      },
+      {
+        "name": "peterverspecht",
+        "affiliation": "andere"
+      },
+      {
+        "name": "woutervervaele",
+        "affiliation": "departementmobiliteitenopenbarewerken"
+      },
+      {
+        "name": "leenvincke",
+        "affiliation": "departementmobiliteitenopenbarewerken(geotechniek)"
+      },
+      {
+        "name": "mathiaswackenier",
+        "affiliation": "instituurvoornatuur-enbosonderzoek"
+      },
+      {
+        "name": "janwalstra",
+        "affiliation": "koninklijkbelgischinstituurvoornatuurwetenschappen–belgischegeologischedienst"
+      },
+      {
+        "name": "markwulfrancke",
+        "affiliation": "algemeenboerensyndicaat"
+      },
+      {
+        "name": "veerlebeyaert",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "rafbuyle",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "dimitrischepers",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "geertthijs",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "anthonyvanheymbeeck",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "dwightvanlancker",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "martinvanbrabant",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "ziggyvanlishout",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "laurensvercauteren",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "evelinevlassenroot",
+        "affiliation": "digitaalvaanderen"
+      },
+      {
+        "name": "sabinebuyle",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "katriendenil",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "petradeproost",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "katrienoorts",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "friekesegers",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "marleenvandamme",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "veerlevanwesenbeeck",
+        "affiliation": "departementomgeving"
+      },
+      {
+        "name": "jasperverhaegen",
+        "affiliation": "departementomgeving"
+      }
+    ],
+    "classes": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#FormeleStratigrafieBereikInterpretatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "FormeleStratigrafieBereikInterpretatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GecodeerdeLithologieBereikInterpretatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GecodeerdeLithologieBereikInterpretatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#HydrostratigrafieBereikInterpretatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "HydrostratigrafieBereikInterpretatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#FormeleStratigrafieBereik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "FormeleStratigrafieBereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#InformeleStratigrafieBereik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InformeleStratigrafieBereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GeotechnischeCoderingBereikInterpretatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeotechnischeCoderingBereikInterpretatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#AntropogeneKenmerkenBereikInterpretatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AntropogeneKenmerkenBereikInterpretatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#HydrostratigrafieBereik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "HydrostratigrafieBereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GeotechnischeCoderingBereik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeotechnischeCoderingBereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#AntropogeneKenmerkenBereik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AntropogeneKenmerkenBereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#LithologischeBeschrijvingBereik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LithologischeBeschrijvingBereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GecodeerdeLithologieBereik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GecodeerdeLithologieBereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond#Opdracht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Opdracht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond#Interpretatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Interpretatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#InformeleStratigrafieBereikInterpretatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InformeleStratigrafieBereikInterpretatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#LithologischeBeschrijvingBereikInterpretatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LithologischeBeschrijvingBereikInterpretatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#InformeleHydrostratigrafieBereikInterpretatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InformeleHydrostratigrafieBereikInterpretatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#InformeleHydrostratigrafieBereik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InformeleHydrostratigrafieBereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#LithologischeBeschrijvingWaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LithologischeBeschrijvingwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#FormeleStratigrafieWaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "FormeleStratigrafiewaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#InformeleStratigrafieWaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InformeleStratigrafiewaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GecodeerdeLithologieWaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GecodeerdeLithologiewaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#HydrostratigrafieWaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Hydrostratigrafiewaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#InformeleHydrostratigrafieWaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InformeleHydrostratigrafiewaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GeotechnischeCoderingWaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeotechnischeCoderingwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#AntropogeneKenmerkenWaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AntropogeneKenmerkenwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond#Profielelement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Profielelement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#QuartairStratigrafieWaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "QuartairStratigrafiewaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#QuartairStratigrafieBereik",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "QuartairStratigrafieBereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#QuartairStratigrafieBereikInterpretatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "QuartairStratigrafieBereikInterpretatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#InformeleStratigrafielaag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InformeleStratigrafielaag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond#BO_CurveWaardepaar",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BoCurveWaardepaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GecodeerdeLithologielaag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GecodeerdeLithologielaag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#LithologischeBeschrijvinglaag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LithologischeBeschrijvinglaag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DirectePositie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#FormeleStratigrafielaag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "FormeleStratigrafielaag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#SedimentaireStructuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "SedimentaireStructuur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#Tektoniek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tektoniek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#Ader",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Ader"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#SecundairKenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "SecundairKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#Fossiel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fossiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GecodeerdeHoofdnaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GecodeerdeHoofdnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GecodeerdeBijnaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GecodeerdeBijnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#Hydrostratigrafielaag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Hydrostratigrafielaag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#InformeleHydrostratigrafielaag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InformeleHydrostratigrafielaag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GeotechnischeCoderinglaag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeotechnischeCoderinglaag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GeotechnischeCoderingHoofdnaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeotechnischeCoderingHoofdnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GeotechnischeCoderingBijnaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeotechnischeCoderingBijnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#AntropogeneKenmerkenlaag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AntropogeneKenmerkenlaag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#QuartairStratigrafielaag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "QuartairStratigrafielaag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
+        "label": [
+          {
+            "@value": "Literal"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "label": [
+          {
+            "@value": "DateTime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#boolean",
+        "label": [
+          {
+            "@value": "Boolean"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
+        "label": [
+          {
+            "@value": "URI"
+          }
+        ]
+      },
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond#Interpretatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Interpretatie"
+          }
+        ]
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Opmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond#Profielelement",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Profielelement"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#kleurMunsell",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kleurMunsell"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GecodeerdeBijnaam.plaatselijk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaatselijk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GeotechnischeCoderingBijnaam.plaatselijk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "plaatselijk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Input.referentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Output.referentie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "referentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Observatieprocedure.specificatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "specificatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#FormeleStratigrafieWaarde.pakketrelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "pakketrelatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#FormeleStratigrafieWaarde.betrouwbaarheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "betrouwbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#QuartairStratigrafieWaarde.pakket",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "pakket"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#sedimentaireStructuur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "sedimentaireStructuur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#tektoniek",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "tektoniek"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#ader",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ader"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#secundairKenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "secundairKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#fossiel",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fossiel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#kleur",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kleur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GecodeerdeLithologiewaarde.hoofdnaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hoofdnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GecodeerdeLithologiewaarde.bijmenging",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bijmenging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#SedimentaireStructuur.kenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#Tektoniek.kenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#afstand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "afstand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#helling",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "helling"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#Ader.kenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#SecundairKenmerk.kenmerk",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "kenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#aard",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aard"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#diepte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "diepte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GecodeerdeHoofdnaam.grondsoort",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "grondsoort"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GecodeerdeBijnaam.hoeveelheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hoeveelheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GecodeerdeBijnaam.grondsoort",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "grondsoort"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#aquifer",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "aquifer"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#regime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "regime"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GeotechnischeCoderingWaarde.hoofdnaam",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hoofdnaam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GeotechnischeCoderingWaarde.bijmenging",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "bijmenging"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GeotechnischeCoderingBijnaam.hoeveelheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "hoeveelheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GeotechnischeCoderingBijnaam.grondsoort",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "grondsoort"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#GeotechnischeCoderingHoofdnaam.grondsoort",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "grondsoort"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.opdracht",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opdracht"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatie.uitgevoerdDoor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/sensoren-en-bemonstering#Observatieprocedure.parameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#Geometrie.opmeting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/generiek#DirectePositie.opmeting",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "opmeting"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond#BO_Curvewaardepaar.laag",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "laag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#QuartairStratigrafieWaarde.betrouwbaarheid",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "betrouwbaarheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#FormeleStratigrafieWaarde.pakket",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "pakket"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#QuartairStratigrafieWaarde.pakketrelatie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "pakketrelatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#antropogeenkenmerktype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "antropogeenkenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/bodem-en-ondergrond/interpretaties#antropogeenkenmerkwaarde",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "antropogeenkenmerkwaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.source",
+        "label": [
+          {
+            "@value": "Observatie (source)"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/observaties-en-metingen#Observatiecontext.observatie.target",
+        "label": [
+          {
+            "@value": "Observatie (target)"
+          }
+        ]
+      }
+    ],
+    "externalclasses": [
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RelatieLedenType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/UnitsOfMeasure#Measure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Maat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19109/2005/GeneralFeatureModel#GF_PropertyType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/GeneralFeatureInstance#GFI_Feature",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Object"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19103/2005/RecordsAndClassMetadata#Record",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Record"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BetrouwbaarheidType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/Agent",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Agent"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "FormeleStratigrafieLid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Adertype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fossielaard"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Fossieltype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GecodeerdeBijmenginghoeveelheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GecodeerdeHoofdnaamcode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GecodeerdeKleur"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "SecundairKenmerkType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "SedimentaireStructuurType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Tektoniektype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/CoverageObservation#OM_DiscreteCoverageObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DiscreetBereikObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCurveCoverage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DiscreetCurvebereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingCurve#SF_SamplingCurve",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringscurve"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "AquiferType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RegimeType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeotechnischeCoderingBijmengingHoeveelheidType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GeotechnischeCoderingHoofdnaamCodeType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geursterktetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Olietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "PidType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Vochtgehaltetype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geursoorttype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Procedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Process",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Proces"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatieproceduretype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/Input",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Input"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/Output",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Output"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "InputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "OutputType"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatietype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/om#ObservationProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatieprocedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/sosa/Sensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Sensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/TR/vocab-ssn/#ssn-system",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Any"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "QuartairStratigrafieLid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "LithostratigrafischeEenheidtype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Antropogeenkenmerktype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Period",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Periode"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Instant",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Moment"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/sf#Curve",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Curve"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19108/2006/TemporalObjects#TM_Object",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "TemporeleEntiteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "BenoemdeWaarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19115/2006/DataQualityInformation#DQ_Element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Kwaliteitselement"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_CurveValuePair",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "CurveWaardepaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/CoverageObservation#OM_DiscreteCoverageObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DiscreetBereikObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCurveCoverage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "DiscreetCurvebereik"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/coverage",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Dekking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Observatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_CurveValuePair",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "CurveWaardepaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Process",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Proces"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/Procedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Procedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/System",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Systeem"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/SamplingCurve#SF_SamplingCurve",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Bemonsteringscurve"
+          }
+        ]
+      }
+    ],
+    "externalproperties": [
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#schemaAgency",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekendDoorString"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/issued",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekendOp"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.name",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/elements/1.1/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naam"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asWKT",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "wkt"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.opengis.net/ont/geosparql#asGML",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gml"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.parameter",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "parameter"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.phenomenonTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fenomeentijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaattijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.validTime",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geldigeTijd"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.resultQuality",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaatkwaliteit"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCurveCoverage.element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "laag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/creator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegekendDoor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#NamedValue.value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCurveCoverage.element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "laag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCurveCoverage.element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "laag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCurveCoverage.element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "laag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCurveCoverage.element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "laag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCurveCoverage.element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "laag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCurveCoverage.element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "laag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCurveCoverage.element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "laag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/hasInput",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "input"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/hasOutput",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "output"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_CurveValuePair.geometry",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/CoverageCore#CV_GeometryValuePair.value",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "waarde"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19123/2005/DiscreteCoverages#CV_DiscreteCurveCoverage.element",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "laag"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdKenmerk"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.featureOfInterest",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geobserveerdObject"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#ObservationContext.relatedObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geassocieerdeObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Domain",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "domein"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19150/-2/2012/base#Domain",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "domein"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.observedProperty",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "fenomeen"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/implementedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "geïmplementeerdMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/ssn/implements",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "implementeert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeObservation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdeObservatie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/madeBySensor",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "uitgevoerdMetSensor"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/observes",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "observeert"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/isObservedBy",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "isGeobserveerdMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/sosa/usedProcedure",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gebruikteProcedure"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://def.isotc211.org/iso19156/2011/Observation#OM_Observation.result",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "resultaat"
+          }
+        ]
+      }
+    ],
+    "organisations": [
+      {
+        "affiliation": "departementmobiliteitenopenbarewerken",
+        "names": [
+          {
+            "name": "chandraalgoe",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          },
+          {
+            "name": "sophiebordere",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          },
+          {
+            "name": "patrickdebaets",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          },
+          {
+            "name": "jeroennyckees",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          },
+          {
+            "name": "woutervervaele",
+            "affiliation": "departementmobiliteitenopenbarewerken"
+          }
+        ]
+      },
+      {
+        "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin",
+        "names": [
+          {
+            "name": "camilleallonsius",
+            "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin"
+          },
+          {
+            "name": "stijnvandevondel",
+            "affiliation": "universiteitantwerpen–curieuzeneuzenindetuin"
+          }
+        ]
+      },
+      {
+        "affiliation": "canalcnv",
+        "names": [
+          {
+            "name": "ilsebaeck",
+            "affiliation": "canalcnv"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschapwegenenverkeer",
+        "names": [
+          {
+            "name": "simonbaert",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "maximbroos",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "janvangestel",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "davyvanhoudt",
+            "affiliation": "agentschapwegenenverkeer"
+          },
+          {
+            "name": "gertvermeersch",
+            "affiliation": "agentschapwegenenverkeer"
+          }
+        ]
+      },
+      {
+        "affiliation": "grondbanktracimat",
+        "names": [
+          {
+            "name": "christineberchmans",
+            "affiliation": "grondbanktracimat"
+          }
+        ]
+      },
+      {
+        "affiliation": "fodfinanciën",
+        "names": [
+          {
+            "name": "reinhildeblondeel",
+            "affiliation": "fodfinanciën"
+          }
+        ]
+      },
+      {
+        "affiliation": "instituutvoornatuur-enbosonderzoek",
+        "names": [
+          {
+            "name": "nathaliecools",
+            "affiliation": "instituutvoornatuur-enbosonderzoek"
+          },
+          {
+            "name": "aaikedewever",
+            "affiliation": "instituutvoornatuur-enbosonderzoek"
+          }
+        ]
+      },
+      {
+        "affiliation": "inagrvzw",
+        "names": [
+          {
+            "name": "frankycoopman",
+            "affiliation": "inagrvzw"
+          }
+        ]
+      },
+      {
+        "affiliation": "asepticexcellencepartner",
+        "names": [
+          {
+            "name": "marnixcoulier",
+            "affiliation": "asepticexcellencepartner"
+          }
+        ]
+      },
+      {
+        "affiliation": "andere",
+        "names": [
+          {
+            "name": "flordecock",
+            "affiliation": "andere"
+          },
+          {
+            "name": "filipdehaese",
+            "affiliation": "andere"
+          },
+          {
+            "name": "geertdevriese",
+            "affiliation": "andere"
+          },
+          {
+            "name": "peterverspecht",
+            "affiliation": "andere"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamsemilieumaatschappij",
+        "names": [
+          {
+            "name": "ywandejonghe",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "tinnekederouck",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "franklavens",
+            "affiliation": "vlaamsemilieumaatschappij"
+          },
+          {
+            "name": "willemmaetens",
+            "affiliation": "vlaamsemilieumaatschappij"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)",
+        "names": [
+          {
+            "name": "roeldekoninck",
+            "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+          },
+          {
+            "name": "katrijndirix",
+            "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+          },
+          {
+            "name": "franksleeuwaert",
+            "affiliation": "vlaamsteinstellingvoortechnologischonderzoek(vito)"
+          }
+        ]
+      },
+      {
+        "affiliation": "openbarevlaamseafvalstoffenmaatschappij",
+        "names": [
+          {
+            "name": "sandradeloore",
+            "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+          },
+          {
+            "name": "geertnys",
+            "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+          },
+          {
+            "name": "erwinsevens",
+            "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+          },
+          {
+            "name": "koensmeets",
+            "affiliation": "openbarevlaamseafvalstoffenmaatschappij"
+          }
+        ]
+      },
+      {
+        "affiliation": "geosparc",
+        "names": [
+          {
+            "name": "berdiendero",
+            "affiliation": "geosparc"
+          }
+        ]
+      },
+      {
+        "affiliation": "vrouwenvanhetalgemeenboerensyndicaat",
+        "names": [
+          {
+            "name": "lievendestoppeleire",
+            "affiliation": "vrouwenvanhetalgemeenboerensyndicaat"
+          }
+        ]
+      },
+      {
+        "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen",
+        "names": [
+          {
+            "name": "stijngoolaerts",
+            "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen"
+          },
+          {
+            "name": "krispiessens",
+            "affiliation": "koninklijkbelgischinstituutvoornatuurwetenschappen"
+          }
+        ]
+      },
+      {
+        "affiliation": "grondwijzervzw",
+        "names": [
+          {
+            "name": "jentehanssens",
+            "affiliation": "grondwijzervzw"
+          },
+          {
+            "name": "geertstimothy",
+            "affiliation": "grondwijzervzw"
+          }
+        ]
+      },
+      {
+        "affiliation": "citizens",
+        "names": [
+          {
+            "name": "stijnhuyghe",
+            "affiliation": "citizens"
+          },
+          {
+            "name": "janmaertens",
+            "affiliation": "citizens"
+          },
+          {
+            "name": "pietseuntjens",
+            "affiliation": "citizens"
+          }
+        ]
+      },
+      {
+        "affiliation": "votquennefoundations&revyson",
+        "names": [
+          {
+            "name": "ludovichuysentruyt",
+            "affiliation": "votquennefoundations&revyson"
+          }
+        ]
+      },
+      {
+        "affiliation": "vrijeuniversiteitbrussel",
+        "names": [
+          {
+            "name": "marijkehuysmans",
+            "affiliation": "vrijeuniversiteitbrussel"
+          }
+        ]
+      },
+      {
+        "affiliation": "dewatergroep",
+        "names": [
+          {
+            "name": "pieterjanhaest",
+            "affiliation": "dewatergroep"
+          }
+        ]
+      },
+      {
+        "affiliation": "studiebureauvoorbouwkundeenexpertise(sbe)nv",
+        "names": [
+          {
+            "name": "tomjottier",
+            "affiliation": "studiebureauvoorbouwkundeenexpertise(sbe)nv"
+          }
+        ]
+      },
+      {
+        "affiliation": "stadgent",
+        "names": [
+          {
+            "name": "pieternieuwlaet",
+            "affiliation": "stadgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "gebo",
+        "names": [
+          {
+            "name": "olivierolyslaegers",
+            "affiliation": "gebo"
+          }
+        ]
+      },
+      {
+        "affiliation": "gesolutions",
+        "names": [
+          {
+            "name": "killianpaenen",
+            "affiliation": "gesolutions"
+          }
+        ]
+      },
+      {
+        "affiliation": "putboringenvandeynsenv",
+        "names": [
+          {
+            "name": "nadiaparidaen",
+            "affiliation": "putboringenvandeynsenv"
+          }
+        ]
+      },
+      {
+        "affiliation": "agentschaponroerenderfgoed",
+        "names": [
+          {
+            "name": "marnixpieters",
+            "affiliation": "agentschaponroerenderfgoed"
+          }
+        ]
+      },
+      {
+        "affiliation": "bodemkundigedienstvanbelgië",
+        "names": [
+          {
+            "name": "michaëlrens",
+            "affiliation": "bodemkundigedienstvanbelgië"
+          }
+        ]
+      },
+      {
+        "affiliation": "bodemkundigedienstvanbelgiëvzw",
+        "names": [
+          {
+            "name": "sofiereynaert",
+            "affiliation": "bodemkundigedienstvanbelgiëvzw"
+          }
+        ]
+      },
+      {
+        "affiliation": "digitaalvaanderen",
+        "names": [
+          {
+            "name": "liesbethrombouts",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "veerlebeyaert",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "rafbuyle",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "dimitrischepers",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "geertthijs",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "anthonyvanheymbeeck",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "dwightvanlancker",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "martinvanbrabant",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "ziggyvanlishout",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "laurensvercauteren",
+            "affiliation": "digitaalvaanderen"
+          },
+          {
+            "name": "evelinevlassenroot",
+            "affiliation": "digitaalvaanderen"
+          }
+        ]
+      },
+      {
+        "affiliation": "vlaamselandmaatschappij",
+        "names": [
+          {
+            "name": "elisabethrutten",
+            "affiliation": "vlaamselandmaatschappij"
+          }
+        ]
+      },
+      {
+        "affiliation": "instituutvoorlandbouw-visserij-envoedingsonderzoek",
+        "names": [
+          {
+            "name": "greetruysschaert",
+            "affiliation": "instituutvoorlandbouw-visserij-envoedingsonderzoek"
+          }
+        ]
+      },
+      {
+        "affiliation": "colasnoordnv",
+        "names": [
+          {
+            "name": "stijnscheepers",
+            "affiliation": "colasnoordnv"
+          }
+        ]
+      },
+      {
+        "affiliation": "tractebel–internationalmarineanddredgingconsultants",
+        "names": [
+          {
+            "name": "rafsomers",
+            "affiliation": "tractebel–internationalmarineanddredgingconsultants"
+          }
+        ]
+      },
+      {
+        "affiliation": "universiteitgent",
+        "names": [
+          {
+            "name": "brunostuyts",
+            "affiliation": "universiteitgent"
+          }
+        ]
+      },
+      {
+        "affiliation": "acpartners",
+        "names": [
+          {
+            "name": "jorissynaeve",
+            "affiliation": "acpartners"
+          }
+        ]
+      },
+      {
+        "affiliation": "fluves–pydov",
+        "names": [
+          {
+            "name": "johanvandewauw",
+            "affiliation": "fluves–pydov"
+          }
+        ]
+      },
+      {
+        "affiliation": "boerenbond",
+        "names": [
+          {
+            "name": "carolinevanderheyden",
+            "affiliation": "boerenbond"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementomgeving",
+        "names": [
+          {
+            "name": "tomvangulck",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "geertvanhaute",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "sabinebuyle",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "katriendenil",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "petradeproost",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "katrienoorts",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "friekesegers",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "marleenvandamme",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "veerlevanwesenbeeck",
+            "affiliation": "departementomgeving"
+          },
+          {
+            "name": "jasperverhaegen",
+            "affiliation": "departementomgeving"
+          }
+        ]
+      },
+      {
+        "affiliation": "vanheckenv",
+        "names": [
+          {
+            "name": "natenvanhemelrijck",
+            "affiliation": "vanheckenv"
+          }
+        ]
+      },
+      {
+        "affiliation": "smetgwteurope",
+        "names": [
+          {
+            "name": "jorisvermeer",
+            "affiliation": "smetgwteurope"
+          }
+        ]
+      },
+      {
+        "affiliation": "vzwgrondbank",
+        "names": [
+          {
+            "name": "elisavermeulen",
+            "affiliation": "vzwgrondbank"
+          }
+        ]
+      },
+      {
+        "affiliation": "departementmobiliteitenopenbarewerken(geotechniek)",
+        "names": [
+          {
+            "name": "leenvincke",
+            "affiliation": "departementmobiliteitenopenbarewerken(geotechniek)"
+          }
+        ]
+      },
+      {
+        "affiliation": "instituurvoornatuur-enbosonderzoek",
+        "names": [
+          {
+            "name": "mathiaswackenier",
+            "affiliation": "instituurvoornatuur-enbosonderzoek"
+          }
+        ]
+      },
+      {
+        "affiliation": "koninklijkbelgischinstituurvoornatuurwetenschappen–belgischegeologischedienst",
+        "names": [
+          {
+            "name": "janwalstra",
+            "affiliation": "koninklijkbelgischinstituurvoornatuurwetenschappen–belgischegeologischedienst"
+          }
+        ]
+      },
+      {
+        "affiliation": "algemeenboerensyndicaat",
+        "names": [
+          {
+            "name": "markwulfrancke",
+            "affiliation": "algemeenboerensyndicaat"
+          }
+        ]
+      }
+    ]
+  }
+}
