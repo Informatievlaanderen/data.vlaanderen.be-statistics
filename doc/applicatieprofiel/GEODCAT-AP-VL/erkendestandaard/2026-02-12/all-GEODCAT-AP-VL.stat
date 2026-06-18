@@ -12,9 +12,9 @@
   "namespaces": [
     "http://www.w3.org/ns/dcat",
     "http://purl.org/dc/terms",
-    "http://www.w3.org/2004/02/skos/core",
     "http://data.europa.eu/eli/ontology",
     "http://xmlns.com/foaf/0.1",
+    "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/adms",
     "http://www.w3.org/2002/07/owl",
     "http://www.w3.org/ns/locn",
@@ -584,7 +584,8 @@
         "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#RelatieQualificatie.catalogusResource.source",
         "label": [
           {
-            "@value": "CatalogusResource (source)"
+            "@language": "nl",
+            "@value": "catalogusRecordBron"
           }
         ]
       },
@@ -592,7 +593,8 @@
         "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#RelatieQualificatie.catalogusResource.target",
         "label": [
           {
-            "@value": "CatalogusResource (target)"
+            "@language": "nl",
+            "@value": "catalogusRecordBereik"
           }
         ]
       }
@@ -698,14 +700,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@value": "Code"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://purl.org/dc/terms/Standard",
         "label": [
           {
@@ -800,6 +794,15 @@
           {
             "@language": "nl",
             "@value": "Contactinfo"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Code"
           }
         ]
       },
