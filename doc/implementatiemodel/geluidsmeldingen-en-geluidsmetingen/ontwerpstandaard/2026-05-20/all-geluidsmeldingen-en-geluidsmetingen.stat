@@ -10,16 +10,16 @@
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
     "http://todo.com",
+    "http://www.w3.org/ns/sosa",
     "http://purl.org/dc/terms",
     "http://purl.org/dc/dcmitype",
-    "http://www.w3.org/ns/sosa",
     "http://www.w3.org/2004/02/skos/core",
     "http://www.w3.org/ns/ssn",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://dbpedia.org/ontology",
     "http://www.w3.org/ns/prov",
     "https://data.vlaanderen.be/ns/melding",
-    "https://data.vlaanderen.be/ns/omgevingsvergunning",
+    "https://data.vlaanderen.be/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20",
     "https://schema.org",
     "https://data.vlaanderen.be/ns/waterkwaliteit",
     "https://data.vlaanderen.be/ns/adres",
@@ -47,9 +47,9 @@
   "participants": 25,
   "classes": 20,
   "properties": 21,
-  "externalclasses": 43,
+  "externalclasses": 44,
   "externalproperties": 83,
-  "totalterms": 167,
+  "totalterms": 168,
   "totalorganisations": 15,
   "organisations": [
     {
@@ -343,7 +343,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Vergunning",
+        "assignedURI": "https://data.vlaanderen.be/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20/Vergunning",
         "label": [
           {
             "@language": "nl",
@@ -355,6 +355,7 @@
         "assignedURI": "http://todo.com/Activiteittype",
         "label": [
           {
+            "@language": "nl",
             "@value": "Activiteittype"
           }
         ]
@@ -449,7 +450,7 @@
       {},
       {},
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#Zaakhandeling",
+        "assignedURI": "https://data.vlaanderen.be/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20/Zaakhandeling",
         "label": [
           {
             "@language": "nl",
@@ -458,7 +459,7 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/omgevingsvergunning#BestuurlijkeRechtshandeling",
+        "assignedURI": "https://data.vlaanderen.be/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20/BestuurlijkeRechtshandeling",
         "label": [
           {
             "@language": "nl",
@@ -665,6 +666,15 @@
     ],
     "externalclasses": [
       {
+        "assignedURI": "http://www.w3.org/ns/sosa/SpatialSample",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "RuimtelijkMonster"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/Agent",
         "label": [
           {
@@ -855,6 +865,7 @@
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
+            "@language": "nl",
             "@value": "Meldingstype"
           }
         ]
