@@ -9,6 +9,7 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
+    "http://todo.com",
     "http://purl.org/dc/terms",
     "http://purl.org/dc/dcmitype",
     "http://www.w3.org/ns/sosa",
@@ -20,7 +21,6 @@
     "https://data.vlaanderen.be/ns/melding",
     "https://data.vlaanderen.be/ns/omgevingsvergunning",
     "https://schema.org",
-    "http://todo.com",
     "https://data.vlaanderen.be/ns/waterkwaliteit",
     "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -34,6 +34,7 @@
     "https://data.vlaanderen.be/ns/verkeersmetingen",
     "http://www.w3.org/ns/sosa/oms",
     "http://www.w3.org/ns/oa",
+    "https://www.w3.org/ns/prov",
     "http://def.isotc211.org/iso19156/2011/SamplingFeature",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/2001/XMLSchema",
@@ -44,11 +45,11 @@
   "editors": 3,
   "contributors": 18,
   "participants": 25,
-  "classes": 19,
-  "properties": 24,
+  "classes": 20,
+  "properties": 21,
   "externalclasses": 43,
-  "externalproperties": 79,
-  "totalterms": 165,
+  "externalproperties": 83,
+  "totalterms": 167,
   "totalorganisations": 15,
   "organisations": [
     {
@@ -324,6 +325,15 @@
     ],
     "classes": [
       {
+        "assignedURI": "http://todo.com/GebeurtenisType",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GebeurtenisType"
+          }
+        ]
+      },
+      {
         "assignedURI": "https://data.vlaanderen.be/ns/melding#Melding",
         "label": [
           {
@@ -591,34 +601,10 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/uitvoerder",
-        "label": [
-          {
-            "@value": "uitvoerder"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/tijd",
-        "label": [
-          {
-            "@value": "tijd"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/dossier#type",
         "label": [
           {
             "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/plaats",
-        "label": [
-          {
-            "@value": "plaats"
           }
         ]
       },
@@ -653,7 +639,8 @@
         "assignedURI": "http://todo.com/wasGeassocieerdMet",
         "label": [
           {
-            "@value": "wasGeassocieerdMet"
+            "@language": "nl",
+            "@value": "Een activiteitassociatie is het toekennen van verantwoordelijkheid aan een agent voor een activiteit, waarbij wordt aangegeven dat de agent een rol had in die activiteit. Het maakt het bovendien mogelijk een plan te specificeren, namelijk het plan dat doo"
           }
         ]
       },
@@ -1007,15 +994,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/prov#Location",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Locatie"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/ssn/System",
         "label": [
           {
@@ -1048,6 +1026,15 @@
           {
             "@language": "nl",
             "@value": "RuimtelijkMonster"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/prov#Location",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Locatie"
           }
         ]
       },
@@ -1705,11 +1692,35 @@
         ]
       },
       {
+        "assignedURI": "https://www.w3.org/ns/prov#uitvoerder",
+        "label": [
+          {
+            "@value": "uitvoerder"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/tijd",
+        "label": [
+          {
+            "@value": "tijd"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/locn#geometry",
         "label": [
           {
             "@language": "nl",
             "@value": "geometrie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/plaats",
+        "label": [
+          {
+            "@value": "plaats"
           }
         ]
       },
@@ -1746,6 +1757,14 @@
           {
             "@language": "nl",
             "@value": "behandelaar"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://schema.org/gebeurtenistype",
+        "label": [
+          {
+            "@value": "Gebeurtenistype"
           }
         ]
       },
