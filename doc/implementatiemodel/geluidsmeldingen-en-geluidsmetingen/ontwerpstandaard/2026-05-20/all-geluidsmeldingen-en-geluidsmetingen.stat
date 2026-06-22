@@ -9,7 +9,7 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "statuslabel": "Ontwerp Standaard",
   "namespaces": [
-    "http://todo.com",
+    "https://data.vlaanderen.be/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20",
     "http://www.w3.org/ns/sosa",
     "http://purl.org/dc/terms",
     "http://purl.org/dc/dcmitype",
@@ -19,7 +19,6 @@
     "http://dbpedia.org/ontology",
     "http://www.w3.org/ns/prov",
     "https://data.vlaanderen.be/ns/melding",
-    "https://data.vlaanderen.be/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20",
     "https://schema.org",
     "https://data.vlaanderen.be/ns/waterkwaliteit",
     "https://data.vlaanderen.be/ns/adres",
@@ -35,6 +34,7 @@
     "http://www.w3.org/ns/sosa/oms",
     "http://www.w3.org/ns/oa",
     "https://www.w3.org/ns/prov",
+    "http://todo.com",
     "http://def.isotc211.org/iso19156/2011/SamplingFeature",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/2001/XMLSchema",
@@ -46,9 +46,9 @@
   "contributors": 18,
   "participants": 25,
   "classes": 20,
-  "properties": 21,
+  "properties": 20,
   "externalclasses": 44,
-  "externalproperties": 83,
+  "externalproperties": 84,
   "totalterms": 168,
   "totalorganisations": 15,
   "organisations": [
@@ -325,7 +325,7 @@
     ],
     "classes": [
       {
-        "assignedURI": "http://todo.com/GebeurtenisType",
+        "assignedURI": "https://data.vlaanderen.be/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20/GebeurtenisType",
         "label": [
           {
             "@language": "nl",
@@ -352,7 +352,7 @@
         ]
       },
       {
-        "assignedURI": "http://todo.com/Activiteittype",
+        "assignedURI": "https://data.vlaanderen.be/doc/implementatiemodel/geluidsmeldingen-en-geluidsmetingen/ontwerpstandaard/2026-05-20/Activiteittype",
         "label": [
           {
             "@language": "nl",
@@ -633,15 +633,6 @@
           {
             "@language": "nl",
             "@value": "behandelt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://todo.com/wasGeassocieerdMet",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Een activiteitassociatie is het toekennen van verantwoordelijkheid aan een agent voor een activiteit, waarbij wordt aangegeven dat de agent een rol had in die activiteit. Het maakt het bovendien mogelijk een plan te specificeren, namelijk het plan dat doo"
           }
         ]
       },
@@ -1861,6 +1852,15 @@
           {
             "@language": "nl",
             "@value": "heeft lid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/wasGeassocieerdMet",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Een activiteitassociatie is het toekennen van verantwoordelijkheid aan een agent voor een activiteit, waarbij wordt aangegeven dat de agent een rol had in die activiteit. Het maakt het bovendien mogelijk een plan te specificeren, namelijk het plan dat doo"
           }
         ]
       },
