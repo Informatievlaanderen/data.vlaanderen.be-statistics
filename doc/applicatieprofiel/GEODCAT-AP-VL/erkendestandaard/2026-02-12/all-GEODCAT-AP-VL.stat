@@ -13,6 +13,7 @@
     "http://www.w3.org/ns/dcat",
     "http://purl.org/dc/terms",
     "http://data.europa.eu/eli/ontology",
+    "http://data.vlaanderen.be/ns/generiek",
     "http://data.vlaanderen.be/ns/metadata-dcat",
     "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/ns/adms",
@@ -34,11 +35,11 @@
   "editors": 5,
   "contributors": 30,
   "participants": 38,
-  "classes": 5,
-  "properties": 16,
+  "classes": 6,
+  "properties": 20,
   "externalclasses": 26,
-  "externalproperties": 108,
-  "totalterms": 155,
+  "externalproperties": 112,
+  "totalterms": 164,
   "totalorganisations": 13,
   "organisations": [
     {
@@ -410,6 +411,23 @@
     ],
     "classes": [
       {
+        "assignedURI": "http://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "Gestructureerde Identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
         "label": [
           {
@@ -422,14 +440,6 @@
         "label": [
           {
             "@value": "Literal"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
-        "label": [
-          {
-            "@value": "String"
           }
         ]
       },
@@ -451,6 +461,33 @@
       }
     ],
     "properties": [
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/generiek#lokaleIdentificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "lokale identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/generiek#naamruimte",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "naamruimte"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/generiek#versieIdentificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "versie-identificator"
+          }
+        ]
+      },
       {
         "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#landingspaginaVoorAuthenticatie",
         "label": [
@@ -502,6 +539,15 @@
           {
             "@language": "nl",
             "@value": "levensfase"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/generiek#gestructureerdeIdentificator",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "gestructureerde identificator"
           }
         ]
       },
@@ -1034,6 +1080,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/dcat#keyword",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "trefwoord"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/title",
         "label": [
           {
@@ -1048,6 +1103,15 @@
           {
             "@language": "nl",
             "@value": "downloadURL"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
           }
         ]
       },
@@ -1088,6 +1152,15 @@
           {
             "@language": "nl",
             "@value": "landingspagina"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/title",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "titel"
           }
         ]
       },
@@ -1187,6 +1260,15 @@
           {
             "@language": "nl",
             "@value": "titel"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/description",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "beschrijving"
           }
         ]
       },
