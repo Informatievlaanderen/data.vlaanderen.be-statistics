@@ -23,6 +23,7 @@
     "http://www.w3.org/2006/vcard/ns",
     "http://www.w3.org/2000/01/rdf-schema",
     "http://www.w3.org/ns/locn",
+    "https://data.vlaanderen.be/ns/metadata-dcat",
     "http://data.europa.eu/r5r",
     "http://www.w3.org/2006/time",
     "http://schema.org",
@@ -34,10 +35,10 @@
   "contributors": 30,
   "participants": 38,
   "classes": 6,
-  "properties": 10,
+  "properties": 20,
   "externalclasses": 27,
-  "externalproperties": 92,
-  "totalterms": 135,
+  "externalproperties": 106,
+  "totalterms": 159,
   "totalorganisations": 13,
   "organisations": [
     {
@@ -528,6 +529,96 @@
           {
             "@language": "nl",
             "@value": "gestructureerde identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#levensfase",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "levensfase"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#ontwikkelingstoestand",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ontwikkelingstoestand"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/metadata-dcat#servicecategorie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "service categorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/metadata-dcat#servicetype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "service type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#statuut",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "statuut"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#gEMETconcept",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "GEMET concept"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#iNSPIREthema",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "INSPIRE thema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#iSOcategorie",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ISO categorie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#status",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "status"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://data.vlaanderen.be/ns/metadata-dcat#statuut",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "statuut"
           }
         ]
       },
@@ -1306,6 +1397,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve identificator"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://purl.org/dc/terms/conformsTo",
         "label": [
           {
@@ -1347,6 +1447,33 @@
           {
             "@language": "nl",
             "@value": "rechten"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dcat#theme",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "thema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/accessRights",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegankelijkheid"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve identificator"
           }
         ]
       },
@@ -1442,11 +1569,11 @@
         ]
       },
       {
-        "assignedURI": "http://purl.org/dc/terms/conformsTo",
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
         "label": [
           {
             "@language": "nl",
-            "@value": "conform"
+            "@value": "alternatieve identificator"
           }
         ]
       },
@@ -1456,6 +1583,33 @@
           {
             "@language": "nl",
             "@value": "conform"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve identificator"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/conformsTo",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "conform"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/format",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "formaat"
           }
         ]
       },
@@ -1478,6 +1632,15 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve identificator"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/dcat#contactPoint",
         "label": [
           {
@@ -1492,6 +1655,15 @@
           {
             "@language": "nl",
             "@value": "licentie"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/adms#identifier",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "alternatieve identificator"
           }
         ]
       },
@@ -1519,6 +1691,15 @@
           {
             "@language": "nl",
             "@value": "geografische dekking"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/type",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "type"
           }
         ]
       },
@@ -1602,11 +1783,47 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/ns/dcat#theme",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "thema"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/accessRights",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "toegankelijkheid"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/adms#sample",
         "label": [
           {
             "@language": "nl",
             "@value": "voorbeeldweergave"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dcat#mediatype",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "mediatype"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://www.w3.org/ns/dcat#hadRole",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "rol"
           }
         ]
       },
