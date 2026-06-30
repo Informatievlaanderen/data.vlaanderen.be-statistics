@@ -11566,23 +11566,23 @@
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+    "assignedURI": "http://vocab.belgif.be/ns/location#eventDate",
     "label": [
       {
-        "@language": "fr",
-        "@value": "Numéro de la maison"
-      },
-      {
-        "@language": "nl",
-        "@value": "Huisnummer"
-      },
-      {
         "@language": "en",
-        "@value": "House number"
+        "@value": "eventDate"
+      },
+      {
+        "@language": "fr",
+        "@value": "DateEvènement"
       },
       {
         "@language": "de",
-        "@value": "Hausnummer"
+        "@value": "EreignisDatum"
+      },
+      {
+        "@language": "nl",
+        "@value": "GebeurtenisDatum"
       }
     ]
   },
@@ -11590,20 +11590,62 @@
     "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
     "label": [
       {
-        "@language": "fr",
-        "@value": "Numéro de boite"
-      },
-      {
-        "@language": "nl",
-        "@value": "Busnummer"
+        "@language": "de",
+        "@value": "Briefkasten Nummer"
       },
       {
         "@language": "en",
         "@value": "Box number"
       },
       {
+        "@language": "nl",
+        "@value": "Busnummer"
+      },
+      {
+        "@language": "fr",
+        "@value": "Numéro de boite"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
+    "label": [
+      {
         "@language": "de",
-        "@value": "Briefkasten Nummer"
+        "@value": "Hausnummer"
+      },
+      {
+        "@language": "en",
+        "@value": "House number"
+      },
+      {
+        "@language": "nl",
+        "@value": "Huisnummer"
+      },
+      {
+        "@language": "fr",
+        "@value": "Numéro de la maison"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#officiallyAssigned",
+    "label": [
+      {
+        "@language": "de",
+        "@value": "offiziel erteilt"
+      },
+      {
+        "@language": "nl",
+        "@value": "Officieel toegekend"
+      },
+      {
+        "@language": "fr",
+        "@value": "Attribué officiellement"
+      },
+      {
+        "@language": "en",
+        "@value": "Officially assigned"
       }
     ]
   },
@@ -11611,41 +11653,104 @@
     "assignedURI": "http://vocab.belgif.be/ns/location#addressSortField",
     "label": [
       {
-        "@language": "fr",
-        "@value": "Adresse champs de triage"
-      },
-      {
-        "@language": "nl",
-        "@value": "Adres sorteerveld"
+        "@language": "en",
+        "@value": "Address sortfield"
       },
       {
         "@language": "de",
         "@value": "Adresssortierfeld"
       },
       {
-        "@language": "en",
-        "@value": "Address sortfield"
+        "@language": "nl",
+        "@value": "Adres sorteerveld"
+      },
+      {
+        "@language": "fr",
+        "@value": "Adresse champs de triage"
       }
     ]
   },
   {
-    "assignedURI": "http://vocab.belgif.be/ns/location#homonymAddition",
+    "assignedURI": "http://vocab.belgif.be/ns/location#beginLifespanVersion",
     "label": [
       {
-        "@language": "en",
-        "@value": "homonymAddition"
-      },
-      {
         "@language": "nl",
-        "@value": "Homoniemtoevoeging"
+        "@value": "begin van de levenscyclus van deze versie"
       },
       {
         "@language": "fr",
-        "@value": "Addition homonyme"
+        "@value": "début du cycle de vie de cette version"
+      },
+      {
+        "@language": "en",
+        "@value": "beginning of the lifespan of this version"
       },
       {
         "@language": "de",
-        "@value": "HomonymAddition"
+        "@value": "Lebenszyklusanfang dieser version"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#endLifespanVersion",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "einde van de levenscyclus van deze versie"
+      },
+      {
+        "@language": "fr",
+        "@value": "fin du cycle de vie de cette version"
+      },
+      {
+        "@language": "en",
+        "@value": "end of the lifespan of this version"
+      },
+      {
+        "@language": "de",
+        "@value": "Lebenszyklusende dieser version"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#validFrom",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geldig vanaf"
+      },
+      {
+        "@language": "fr",
+        "@value": "valable à partir du"
+      },
+      {
+        "@language": "en",
+        "@value": "valid from"
+      },
+      {
+        "@language": "de",
+        "@value": "gültig ab"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#validTo",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geldig tot"
+      },
+      {
+        "@language": "fr",
+        "@value": "valable jusq'au"
+      },
+      {
+        "@language": "en",
+        "@value": "valid to"
+      },
+      {
+        "@language": "de",
+        "@value": "gültig bis"
       }
     ]
   },
@@ -11653,7 +11758,7 @@
     "assignedURI": "http://vocab.belgif.be/ns/location#nameSpace",
     "label": [
       {
-        "@language": "nl",
+        "@language": "fr",
         "@value": "Namespace"
       },
       {
@@ -11661,12 +11766,191 @@
         "@value": "NameSpace"
       },
       {
-        "@language": "fr",
+        "@language": "nl",
         "@value": "Namespace"
       },
       {
         "@language": "de",
         "@value": "Namespace"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#objectIdentifier",
+    "label": [
+      {
+        "@language": "de",
+        "@value": "Objekt-ID"
+      },
+      {
+        "@language": "en",
+        "@value": "ObjectId"
+      },
+      {
+        "@language": "nl",
+        "@value": "Identificator van een object"
+      },
+      {
+        "@language": "fr",
+        "@value": "Identificateur de l'objet"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#versionIdentifier",
+    "label": [
+      {
+        "@language": "de",
+        "@value": "Versionskennung"
+      },
+      {
+        "@language": "nl",
+        "@value": "Identificator van een versie"
+      },
+      {
+        "@language": "fr",
+        "@value": "Identificateur de la version"
+      },
+      {
+        "@language": "en",
+        "@value": "Version identifier"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#homonymAddition",
+    "label": [
+      {
+        "@language": "de",
+        "@value": "HomonymAddition"
+      },
+      {
+        "@language": "fr",
+        "@value": "Addition homonyme"
+      },
+      {
+        "@language": "nl",
+        "@value": "Homoniemtoevoeging"
+      },
+      {
+        "@language": "en",
+        "@value": "homonymAddition"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#latitude",
+    "label": [
+      {
+        "@value": "lat"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#longitude",
+    "label": [
+      {
+        "@value": "long"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#x",
+    "label": [
+      {
+        "@value": "X"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#y",
+    "label": [
+      {
+        "@value": "Y"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "code"
+      },
+      {
+        "@language": "fr",
+        "@value": "code"
+      },
+      {
+        "@language": "en",
+        "@value": "code"
+      },
+      {
+        "@language": "de",
+        "@value": "code"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#name",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "naam"
+      },
+      {
+        "@language": "fr",
+        "@value": "nom"
+      },
+      {
+        "@language": "en",
+        "@value": "name"
+      },
+      {
+        "@language": "de",
+        "@value": "Name"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#status",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      },
+      {
+        "@language": "fr",
+        "@value": "statut"
+      },
+      {
+        "@language": "en",
+        "@value": "status"
+      },
+      {
+        "@language": "de",
+        "@value": "Status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "code"
+      },
+      {
+        "@language": "fr",
+        "@value": "code"
+      },
+      {
+        "@language": "en",
+        "@value": "code"
+      },
+      {
+        "@language": "de",
+        "@value": "code"
       }
     ]
   },
@@ -11674,11 +11958,7 @@
     "assignedURI": "http://inspire.ec.europa.eu/ont/ad#Address.position",
     "label": [
       {
-        "@language": "nl",
-        "@value": "Positie"
-      },
-      {
-        "@language": "fr",
+        "@language": "en",
         "@value": "Position"
       },
       {
@@ -11686,66 +11966,275 @@
         "@value": "Position"
       },
       {
-        "@language": "en",
+        "@language": "fr",
         "@value": "Position"
-      }
-    ]
-  },
-  {
-    "assignedURI": "http://inspire.ec.europa.eu/ont/ad#GeographicPosition.specification",
-    "label": [
-      {
-        "@language": "en",
-        "@value": "Position specification"
       },
       {
         "@language": "nl",
-        "@value": "Positiespecificatie"
-      },
-      {
-        "@language": "fr",
-        "@value": "Spécification de position"
-      },
-      {
-        "@language": "de",
-        "@value": "Positionsangabe"
+        "@value": "Positie"
       }
     ]
   },
   {
-    "assignedURI": "http://inspire.ec.europa.eu/ont/ad#GeographicPosition.method",
+    "assignedURI": "http://vocab.belgif.be/ns/location#status",
     "label": [
       {
+        "@language": "nl",
+        "@value": "status"
+      },
+      {
+        "@language": "fr",
+        "@value": "statut"
+      },
+      {
         "@language": "en",
-        "@value": "Position geometry method"
+        "@value": "status"
+      },
+      {
+        "@language": "de",
+        "@value": "Status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#language",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "naam"
+      },
+      {
+        "@language": "fr",
+        "@value": "language"
+      },
+      {
+        "@language": "en",
+        "@value": "language"
+      },
+      {
+        "@language": "de",
+        "@value": "Sprache"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#spelling",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "geografische naam"
+      },
+      {
+        "@language": "fr",
+        "@value": "nom géographique"
+      },
+      {
+        "@language": "en",
+        "@value": "geographical name"
+      },
+      {
+        "@language": "de",
+        "@value": "geographische Name"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#status",
+    "label": [
+      {
+        "@value": "status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@value": "code"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#pointGeometry",
+    "label": [
+      {
+        "@language": "de",
+        "@value": "Punktgeometrie"
       },
       {
         "@language": "nl",
-        "@value": "Positiegeometriemethode"
+        "@value": "Geometrisch punt"
       },
       {
         "@language": "fr",
-        "@value": "Méthode position géométrique"
+        "@value": "Point géométrique"
+      },
+      {
+        "@language": "en",
+        "@value": "Point geometry"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "code"
+      },
+      {
+        "@language": "fr",
+        "@value": "code"
+      },
+      {
+        "@language": "en",
+        "@value": "code"
       },
       {
         "@language": "de",
-        "@value": "Positionsgeometriemethode"
+        "@value": "code"
       }
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/ns/prov#wasAttributedTo",
+    "assignedURI": "http://vocab.belgif.be/ns/location#name",
     "label": [
       {
-        "@value": "isAssignedByMunicipality"
+        "@language": "nl",
+        "@value": "naam"
+      },
+      {
+        "@language": "fr",
+        "@value": "nom"
+      },
+      {
+        "@language": "en",
+        "@value": "name"
+      },
+      {
+        "@language": "de",
+        "@value": "Name"
       }
     ]
   },
   {
-    "assignedURI": "http://www.w3.org/ns/prov#wasAttributedTo",
+    "assignedURI": "http://vocab.belgif.be/ns/location#status",
     "label": [
       {
-        "@value": "isAssignedByMunicipality"
+        "@language": "nl",
+        "@value": "status"
+      },
+      {
+        "@language": "fr",
+        "@value": "statut"
+      },
+      {
+        "@language": "en",
+        "@value": "status"
+      },
+      {
+        "@language": "de",
+        "@value": "Status"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "code"
+      },
+      {
+        "@language": "fr",
+        "@value": "code"
+      },
+      {
+        "@language": "en",
+        "@value": "code"
+      },
+      {
+        "@language": "de",
+        "@value": "Kode"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#name",
+    "label": [
+      {
+        "@value": "name"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#streetNameType",
+    "label": [
+      {
+        "@value": "type"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://www.w3.org/ns/adms#Identifier",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "code"
+      },
+      {
+        "@language": "fr",
+        "@value": "code"
+      },
+      {
+        "@language": "en",
+        "@value": "code"
+      },
+      {
+        "@language": "de",
+        "@value": "Kode"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#name",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "naam"
+      },
+      {
+        "@language": "fr",
+        "@value": "nom"
+      },
+      {
+        "@language": "en",
+        "@value": "name"
+      },
+      {
+        "@language": "de",
+        "@value": "Name"
+      }
+    ]
+  },
+  {
+    "assignedURI": "http://vocab.belgif.be/ns/location#status",
+    "label": [
+      {
+        "@language": "nl",
+        "@value": "status"
+      },
+      {
+        "@language": "fr",
+        "@value": "statut"
+      },
+      {
+        "@language": "en",
+        "@value": "status"
+      },
+      {
+        "@language": "de",
+        "@value": "Status"
       }
     ]
   },
