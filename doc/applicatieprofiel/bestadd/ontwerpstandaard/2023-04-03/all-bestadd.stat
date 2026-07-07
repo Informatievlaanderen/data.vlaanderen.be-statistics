@@ -22,9 +22,9 @@
   "contributors": 1,
   "participants": 3,
   "classes": 7,
-  "properties": 11,
+  "properties": 13,
   "externalclasses": 17,
-  "externalproperties": 43,
+  "externalproperties": 41,
   "totalterms": 78,
   "totalorganisations": 3,
   "organisations": [
@@ -149,6 +149,35 @@
     ],
     "properties": [
       {
+        "assignedURI": "http://todo.com/houseNumber",
+        "label": [
+          {
+            "@language": "de",
+            "@value": "Hausnummer"
+          },
+          {
+            "@language": "en",
+            "@value": "House number"
+          },
+          {
+            "@language": "nl",
+            "@value": "Huisnummer"
+          },
+          {
+            "@language": "fr",
+            "@value": "Numéro de la maison"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://todo.com/type",
+        "label": [
+          {
+            "@value": "type"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://todo.com/status",
         "label": [
           {
@@ -194,7 +223,8 @@
         "assignedURI": "http://todo.com/coordinates(WGS84)",
         "label": [
           {
-            "@value": "coordinates (WGS84)"
+            "@language": "en",
+            "@value": "Coordinates"
           }
         ]
       },
@@ -202,7 +232,8 @@
         "assignedURI": "http://todo.com/hasPartOfMunicipality",
         "label": [
           {
-            "@value": "hasPartOfMunicipality"
+            "@language": "en",
+            "@value": "has part of municipality"
           }
         ]
       },
@@ -234,7 +265,8 @@
         "assignedURI": "http://todo.com/isAssignedByMunicipality",
         "label": [
           {
-            "@value": "isAssignedByMunicipality"
+            "@language": "en",
+            "@value": "is assigned by municipality"
           }
         ]
       },
@@ -242,7 +274,8 @@
         "assignedURI": "http://todo.com/hasPostalInfo",
         "label": [
           {
-            "@value": "hasPostalInfo"
+            "@language": "en",
+            "@value": "has postal info"
           }
         ]
       },
@@ -250,7 +283,8 @@
         "assignedURI": "http://todo.com/isAssignedToAddressableObject",
         "label": [
           {
-            "@value": "isAssignedToAddressableObject"
+            "@language": "en",
+            "@value": "is assigned to addressable object"
           }
         ]
       },
@@ -258,7 +292,8 @@
         "assignedURI": "http://todo.com/hasStreetName",
         "label": [
           {
-            "@value": "hasStreetName"
+            "@language": "en",
+            "@value": "has street name"
           }
         ]
       }
@@ -589,37 +624,12 @@
             "@value": "Briefkasten Nummer"
           },
           {
-            "@language": "en",
-            "@value": "Box number"
-          },
-          {
             "@language": "nl",
             "@value": "Busnummer"
           },
           {
             "@language": "fr",
             "@value": "Numéro de boite"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#locatorDesignator",
-        "label": [
-          {
-            "@language": "de",
-            "@value": "Hausnummer"
-          },
-          {
-            "@language": "en",
-            "@value": "House number"
-          },
-          {
-            "@language": "nl",
-            "@value": "Huisnummer"
-          },
-          {
-            "@language": "fr",
-            "@value": "Numéro de la maison"
           }
         ]
       },
@@ -1287,14 +1297,6 @@
         "label": [
           {
             "@value": "name"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://vocab.belgif.be/ns/location#streetNameType",
-        "label": [
-          {
-            "@value": "type"
           }
         ]
       },
