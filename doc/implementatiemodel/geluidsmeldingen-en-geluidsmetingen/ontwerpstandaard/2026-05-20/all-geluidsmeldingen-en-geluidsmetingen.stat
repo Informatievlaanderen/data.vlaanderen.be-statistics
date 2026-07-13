@@ -29,23 +29,22 @@
     "https://www.w3.org/ns/activitystreams",
     "http://www.w3.org/ns/locn",
     "http://www.opengis.net/ont/geosparql",
-    "https://data.vlaanderen.be/ns/verkeersmetingen",
+    "https://www.w3.org/ns/ssn",
     "http://www.w3.org/ns/sosa/oms",
     "http://www.w3.org/ns/oa",
     "http://www.opengis.net/ont/sf",
     "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/ns/dqv",
-    "http://www.w3.org/ns/org"
+    "http://www.w3.org/ns/dqv"
   ],
   "authors": 4,
   "editors": 3,
   "contributors": 18,
   "participants": 25,
-  "classes": 18,
-  "properties": 20,
-  "externalclasses": 45,
-  "externalproperties": 84,
-  "totalterms": 167,
+  "classes": 17,
+  "properties": 19,
+  "externalclasses": 43,
+  "externalproperties": 85,
+  "totalterms": 164,
   "totalorganisations": 15,
   "organisations": [
     {
@@ -445,7 +444,6 @@
           }
         ]
       },
-      {},
       {}
     ],
     "properties": [
@@ -536,19 +534,6 @@
           {
             "@language": "nl",
             "@value": "land"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/verkeersmetingen#ligging",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "ligging"
-          },
-          {
-            "@language": "en",
-            "@value": "location"
           }
         ]
       },
@@ -850,6 +835,14 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "label": [
+          {
+            "@value": "Rol"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/ns/prov#Activity",
         "label": [
           {
@@ -960,7 +953,12 @@
         "assignedURI": "http://www.w3.org/ns/prov#Locatie",
         "label": [
           {
+            "@language": "nl",
             "@value": "Locatie"
+          },
+          {
+            "@language": "en",
+            "@value": "Location"
           }
         ]
       },
@@ -1001,22 +999,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/locn#Geometry",
-        "label": [
-          {
-            "@value": "Geometrie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Geometrie",
-        "label": [
-          {
-            "@value": "Geometrie"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/sosa/SpatialSample",
         "label": [
           {
@@ -1040,15 +1022,6 @@
           {
             "@language": "nl",
             "@value": "Agent"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Role",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Rol"
           }
         ]
       },
@@ -1385,6 +1358,19 @@
           {
             "@language": "nl",
             "@value": "type"
+          }
+        ]
+      },
+      {
+        "assignedURI": "https://www.w3.org/ns/ssn#ligging",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "ligging"
+          },
+          {
+            "@language": "en",
+            "@value": "location"
           }
         ]
       },
