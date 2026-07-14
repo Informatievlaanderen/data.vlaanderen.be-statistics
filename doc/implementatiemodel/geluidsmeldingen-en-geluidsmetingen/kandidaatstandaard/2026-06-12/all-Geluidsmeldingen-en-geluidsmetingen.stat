@@ -20,6 +20,7 @@
     "http://www.w3.org/ns/prov",
     "https://data.vlaanderen.be/ns/melding",
     "https://data.vlaanderen.be/ns/omgevingsvergunning",
+    "http://todo.com",
     "https://data.vlaanderen.be/ns/waterkwaliteit",
     "https://data.vlaanderen.be/ns/adres",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns",
@@ -40,9 +41,9 @@
   "contributors": 18,
   "participants": 25,
   "classes": 17,
-  "properties": 19,
+  "properties": 18,
   "externalclasses": 43,
-  "externalproperties": 85,
+  "externalproperties": 86,
   "totalterms": 164,
   "totalorganisations": 15,
   "organisations": [
@@ -568,7 +569,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "dossierType"
+            "@value": "Type"
           }
         ]
       },
@@ -596,15 +597,6 @@
           {
             "@language": "nl",
             "@value": "behandelt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/dossier#AgentInRol.Activiteit",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "zaak"
           }
         ]
       },
@@ -731,7 +723,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "InputType"
+            "@value": "inputType"
           }
         ]
       },
@@ -780,7 +772,7 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/sosa/Property",
+        "assignedURI": "http://www.w3.org/ns/ssn/Property",
         "label": [
           {
             "@language": "nl",
@@ -870,7 +862,7 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Activiteittype",
+        "assignedURI": "http://todo.com/Activiteittype",
         "label": [
           {
             "@language": "nl",
@@ -1561,12 +1553,12 @@
         "assignedURI": "http://purl.org/dc/terms/type",
         "label": [
           {
-            "@language": "nl",
-            "@value": "InputType"
-          },
-          {
             "@language": "en",
             "@value": "type"
+          },
+          {
+            "@language": "nl",
+            "@value": "InputType"
           }
         ]
       },
@@ -1696,7 +1688,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "Plaats"
+            "@value": "plaats"
           }
         ]
       },
@@ -1741,7 +1733,7 @@
         "label": [
           {
             "@language": "nl",
-            "@value": "GebeurtenisType"
+            "@value": "gebeurtenisType"
           }
         ]
       },
@@ -1836,6 +1828,15 @@
           {
             "@language": "nl",
             "@value": "wasGeassocieerdMet"
+          }
+        ]
+      },
+      {
+        "assignedURI": "http://purl.org/dc/terms/relation",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "activiteit"
           }
         ]
       },
