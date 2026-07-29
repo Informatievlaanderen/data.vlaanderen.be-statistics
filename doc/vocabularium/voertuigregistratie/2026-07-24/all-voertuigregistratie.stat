@@ -10,36 +10,24 @@
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
   "statuslabel": "Onbekend",
   "namespaces": [
-    "http://www.w3.org/2004/02/skos/core",
-    "https://implementatie.data.vlaanderen.be/ns/generiek",
-    "https://implementatie.data.vlaanderen.be/ns/magda/voertuigregistratie",
     "https://data.vlaanderen.be/ns/voertuigregistratie",
-    "http://www.w3.org/ns/regorg",
-    "http://xmlns.com/foaf/0.1",
     "https://schema.org",
-    "http://purl.org/dc/terms",
-    "https://data.vlaanderen.be/ns/persoon",
-    "http://www.w3.org/ns/adms",
-    "http://www.w3.org/2000/01/rdf-schema",
+    "http://xmlns.com/foaf/0.1",
     "http://www.w3.org/ns/prov",
-    "https://data.vlaanderen.be/ns/adres",
-    "http://www.w3.org/ns/locn",
-    "https://data.vlaanderen.be/ns/organisatie",
-    "http://data.europa.eu/m8g",
-    "http://www.w3.org/2001/XMLSchema",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-    "http://www.w3.org/ns/org",
-    "http://www.w3.org/ns/person"
+    "http://purl.org/dc/terms",
+    "http://www.w3.org/ns/adms",
+    "http://www.w3.org/2004/02/skos/core",
+    "http://www.w3.org/2001/XMLSchema"
   ],
   "authors": 2,
   "editors": 2,
   "contributors": 0,
   "participants": 4,
-  "classes": 17,
-  "properties": 10,
-  "externalclasses": 14,
-  "externalproperties": 33,
-  "totalterms": 74,
+  "classes": 6,
+  "properties": 4,
+  "externalclasses": 4,
+  "externalproperties": 9,
+  "totalterms": 23,
   "totalorganisations": 1,
   "organisations": [
     {
@@ -90,24 +78,6 @@
     ],
     "classes": [
       {
-        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/generiek#Problemdetail",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Problemdetail"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/magda/voertuigregistratie#VoertuigregistratieEnvelop",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "VoertuigeregistratieEnvelop"
-          }
-        ]
-      },
-      {
         "assignedURI": "https://data.vlaanderen.be/ns/voertuigregistratie#Registratie",
         "label": [
           {
@@ -126,51 +96,11 @@
         ]
       },
       {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#GeregistreerdPersoon",
+        "assignedURI": "https://data.vlaanderen.be/ns/voertuigregistratie#Registratiebewijs",
         "label": [
           {
             "@language": "nl",
-            "@value": "GeregistreerdPersoon"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#language",
-        "label": [
-          {
-            "@value": "Language"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
-        "label": [
-          {
-            "@value": "String"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#anyURI",
-        "label": [
-          {
-            "@value": "Uri"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2001/XMLSchema#integer",
-        "label": [
-          {
-            "@value": "Integer"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-        "label": [
-          {
-            "@value": "LangString"
+            "@value": "Registratiebewijs"
           }
         ]
       },
@@ -183,102 +113,23 @@
         ]
       },
       {
+        "assignedURI": "http://www.w3.org/2001/XMLSchema#string",
+        "label": [
+          {
+            "@value": "String"
+          }
+        ]
+      },
+      {
         "assignedURI": "http://www.w3.org/2001/XMLSchema#dateTime",
         "label": [
           {
             "@value": "DateTime"
           }
         ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#Literal",
-        "label": [
-          {
-            "@value": "Literal"
-          }
-        ]
-      },
-      {},
-      {
-        "assignedURI": "https://implementatie.data.vlaanderen.be/ns/generiek#Envelope",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Envelop"
-          },
-          {
-            "@language": "en",
-            "@value": "Envelope"
-          }
-        ]
-      },
-      {},
-      {}
+      }
     ],
     "properties": [
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#volledigeNaam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "volledigeNaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#busnummer",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "busnummer"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#Gemeentenaam",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "gemeentenaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/adres#land",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "land"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#rechtsvorm",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/organisatie#rechtspersoonlijkheid",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "rechtspersoonlijkheid"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://data.vlaanderen.be/ns/persoon#registratie",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "registratie"
-          }
-        ]
-      },
       {
         "assignedURI": "https://data.vlaanderen.be/ns/voertuigregistratie#nummerplaat",
         "label": [
@@ -305,33 +156,24 @@
             "@value": "voertuig"
           }
         ]
+      },
+      {
+        "assignedURI": "https://data.vlaanderen.be/ns/voertuigregistratie#registratiebewijs",
+        "label": [
+          {
+            "@language": "nl",
+            "@value": "registratiebewijs"
+          }
+        ]
       }
     ],
     "externalclasses": [
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
+        "assignedURI": "https://schema.org/Vehicle",
         "label": [
           {
             "@language": "nl",
-            "@value": "VoertuigType"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Rechtspersoonlijkheidtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/regorg#RegisteredOrganization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "GeregistreerdeOrganisatie"
+            "@value": "Voertuig"
           }
         ]
       },
@@ -345,42 +187,6 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Rechtsvormtype"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/Vehicle",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Voertuig"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/Location",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Plaats"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Geslacht"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/adms#Identifier",
         "label": [
           {
@@ -390,220 +196,22 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/ContactPoint",
+        "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
-            "@value": "Contactpunt"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#Address",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Adresvoorstelling"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#FormalOrganization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "FormeleOrganisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/org#Organization",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Organisatie"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/person#Person",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "Persoon"
+            "@value": "VoertuigType"
           }
         ]
       }
     ],
     "externalproperties": [
       {
-        "assignedURI": "http://purl.org/dc/terms/language",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "language"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/description",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "detail"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/references",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "instance"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/adms#status",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "status"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/title",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "title"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/type",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "plaatsnaam"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/prov#time",
         "label": [
           {
             "@language": "nl",
             "@value": "registratiedatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/issued",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "referentiedatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/issued",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "referentiedatum"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#notation",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "identificator"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2004/02/skos/core#prefLabel",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "voorkeursnaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/2000/01/rdf-schema#label",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "huisnummer"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#postCode",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "postcode"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#thoroughfare",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "straatnaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/locn#fullAddress",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "volledigAdres"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://xmlns.com/foaf/0.1/familyName",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "achternaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://purl.org/dc/terms/alternative",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "alternatieveNaam"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://xmlns.com/foaf/0.1/givenName",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "voornaam"
           }
         ]
       },
@@ -644,24 +252,6 @@
         ]
       },
       {
-        "assignedURI": "https://schema.org/data",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "data"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/error",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "warning"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/ns/adms#identifier",
         "label": [
           {
@@ -671,47 +261,11 @@
         ]
       },
       {
-        "assignedURI": "http://www.w3.org/ns/locn#address",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "adres"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://www.w3.org/ns/regorg#registration",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "registratie"
-          }
-        ]
-      },
-      {
         "assignedURI": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": [
           {
             "@language": "nl",
             "@value": "type"
-          }
-        ]
-      },
-      {
-        "assignedURI": "http://data.europa.eu/m8g/gender",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "geslacht"
-          }
-        ]
-      },
-      {
-        "assignedURI": "https://schema.org/contactPoint",
-        "label": [
-          {
-            "@language": "nl",
-            "@value": "contactinfo"
           }
         ]
       },
